@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<workitems-table-settings>
+    <columns>
+        <column id="id" width="139"/>
+        <column id="type" width="158"/>
+        <column id="title" width="298"/>
+        <column id="status" width="45"/>
+        <column id="trainingCategory" width="90"/>
+        <column id="exercises" width="90"/>
+        <column id="hyperlinks" width="166"/>
+        <column id="speakersNotes" width="149"/>
+        <column id="subtitle" width="197"/>
+        <column id="hint" width="90"/>
+        <column id="linkedWorkItems" width="90"/>
+        <column id="solutions" width="90"/>
+    </columns>
+    <sort-by>
+        <column descending="true" id="speakersNotes"/>
+        <column descending="true" id="id"/>
+    </sort-by>
+</workitems-table-settings>

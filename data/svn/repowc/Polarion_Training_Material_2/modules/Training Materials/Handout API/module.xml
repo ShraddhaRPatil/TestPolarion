@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<module>
+    <field id="author">daniel.morris</field>
+    <field id="created">2016-06-07 15:39:01.760 -0400</field>
+    <field id="headingSidebarFields">severity,status</field>
+    <field id="homePageContent" text-type="text/html"><![CDATA[<h1 id="polarion_wiki macro name=module-workitem;params=id=MP-5765"></h1><h2 id="polarion_wiki macro name=module-workitem;params=id=MP-5763"></h2><div id="polarion_wiki macro name=toc"></div><p id="polarion_1"></p><p id="polarion_2"></p><h2 id="polarion_wiki macro name=module-workitem;params=id=MP-5764"></h2><p id="polarion_3"></p><p id="polarion_template_0">
+  <br/>
+  <img src="attachment:diagram_20160607-1427.02508.mxg.png"/>
+</p><h2 id="polarion_wiki macro name=module-workitem;params=id=MP-5766"></h2><p id="polarion_4">
+  <img src="attachment:diagram_20160607-1427.02508_2.mxg.png" style="width: 754px;height: 392px;"/>
+</p><p id="polarion_5"></p>]]></field>
+    <field id="renderingLayouts">
+        <list>
+            <struct>
+                <item id="label">Task</item>
+                <item id="layouter">paragraph</item>
+                <item id="properties">
+                    <list>
+                        <struct>
+                            <item id="key">fieldsAtStart</item>
+                            <item id="value">id</item>
+                        </struct>
+                        <struct>
+                            <item id="key">fieldsAtEnd</item>
+                            <item id="value">status</item>
+                        </struct>
+                        <struct>
+                            <item id="key">fieldsAtEndAsTable</item>
+                        </struct>
+                        <struct>
+                            <item id="key">hidden</item>
+                        </struct>
+                        <struct>
+                            <item id="key">sidebarWorkItemFields</item>
+                            <item id="value">severity,status</item>
+                        </struct>
+                    </list>
+                </item>
+                <item id="type">task</item>
+            </struct>
+        </list>
+    </field>
+    <field id="status">open</field>
+    <field id="structureLinkRole">parent</field>
+    <field id="title">Handout API</field>
+    <field id="usesOutlineNumbering">true</field>
+</module>

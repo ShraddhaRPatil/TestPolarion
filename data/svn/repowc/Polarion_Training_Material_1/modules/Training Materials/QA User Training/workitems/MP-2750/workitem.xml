@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">hartliebc</field>
+    <field id="created">2012-05-07 13:30:37.879 +0200</field>
+    <field id="description" text-type="text/html">&lt;ul&gt;&lt;li&gt;Add following three new test cases and save the document&lt;/li&gt;&lt;li style="list-style: none"&gt;&lt;ul style="font-style: italic;"&gt;&lt;li&gt;Is user able to search for books&lt;/li&gt;&lt;li&gt;Is user able to lend books&lt;/li&gt;&lt;li&gt;Is user able to manage a book favorites list&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;Create following two sub test cases below the test case &lt;span style="font-style: italic;"&gt;"Is user able to search for books&lt;/span&gt;" (TAB button)&lt;br/&gt;&lt;/li&gt;&lt;li style="list-style: none"&gt;&lt;ul&gt;&lt;li&gt;&lt;span style="font-style: italic;"&gt;Are wildcards supported in search&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style="font-style: italic;"&gt;Is it possible to search in all book fields&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;Fill table for test steps of sub test case "&lt;span style="font-style: italic;"&gt;Is it possible to search in all book fields"&lt;/span&gt; with following steps&lt;span style="font-style: italic;"&gt;&lt;br/&gt;&lt;/span&gt;&lt;/li&gt;&lt;li style="list-style: none"&gt;&lt;ul&gt;&lt;li&gt;&lt;span style="font-style: italic;"&gt;Open Search perspective&lt;br/&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style="font-style: italic;"&gt;Search for author&lt;br/&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style="font-style: italic;"&gt;Search for ISBN number&lt;br/&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style="font-style: italic;"&gt;Search for price&lt;br/&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;Now Move your existing test case to specification&lt;br/&gt;&lt;ul&gt;&lt;li&gt;Search for test case "&lt;span style="font-style: italic;"&gt;Is login case sensitive&lt;/span&gt;"&lt;/li&gt;&lt;li&gt;Select work item action menu and move work item to your user specification "&lt;span style="font-style: italic;"&gt;QA_Elibrary Test Specification&lt;/span&gt;"&lt;br/&gt; &lt;img src="attachment:screenshot-7.jpg"/&gt;&lt;br/&gt;&lt;/li&gt;&lt;/ul&gt;At the end Change severity of all Test Cases to &lt;span style="font-style: italic;"&gt;Basic&lt;/span&gt;&lt;br/&gt;&lt;ul&gt;&lt;li&gt;use bulk edit in tracker view to change severity of all test cases inside of the specification to "&lt;span style="font-style: italic;"&gt;Basic&lt;/span&gt;"&lt;img src="attachment:screenshot-8.jpg"/&gt;                      &lt;img src="attachment:screenshot-9.jpg"/&gt;&lt;/li&gt;&lt;/ul&gt;</field>
+    <field id="linkedWorkItems">
+        <list>
+            <struct>
+                <item id="revision">42615</item>
+                <item id="role">branched_from</item>
+                <item id="workItem">MP-2649</item>
+            </struct>
+        </list>
+    </field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Add test cases to specification</field>
+    <field id="type">exercise</field>
+</work-item>

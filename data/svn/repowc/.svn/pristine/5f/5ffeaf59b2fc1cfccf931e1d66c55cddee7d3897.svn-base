@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">daniel.morris</field>
+    <field id="created">2014-08-07 07:37:31.974 -0400</field>
+    <field id="description" text-type="text/html"><![CDATA[If you want to add some meta data to your specifications you can add custom fields for specifications. In our case we want to know who is responsible for a document send to a consultant and we want to know to which consultant it has beens send.<br/>
+<ul>
+  <li>Open Administration &gt; Documents &amp; Wiki &gt; Document Custom Fields</li>
+  <li>Add two custom fields for a document owner which should be an enumeration of type user and a string field to specify the name of the consultant. (see screenshot)<br/>
+    <br/>
+    <img src="attachment:71-screenshot-20141030-062133.png"/></li>
+</ul>
+<table id="polarion_wiki macro name=table" class="polarion-Document-table" style="width: 80%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;">
+  <tbody>
+    <tr>
+      <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Hint: Document custom fields are not type specific like in work items. Document custom fields will be available in all specification types.</th>
+    </tr>
+  </tbody>
+</table>]]></field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Create a  custom field for documents</field>
+    <field id="type">exercise</field>
+</work-item>

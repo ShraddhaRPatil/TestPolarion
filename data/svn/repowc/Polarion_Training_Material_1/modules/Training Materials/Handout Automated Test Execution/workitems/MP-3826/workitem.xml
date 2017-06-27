@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="hyperlinks">
+        <list>
+            <struct>
+                <item id="role">ref_int</item>
+                <item id="uri">https://pso.polarion.com/repo/_wiki/attachments/trunk.zip</item>
+            </struct>
+        </list>
+    </field>
+    <field id="author">schucks</field>
+    <field id="title">Repository Files</field>
+    <field id="created">2012-10-16 14:32:45.320 +0200</field>
+    <field id="priority">25.0</field>
+    <field id="description" text-type="text/html">Please extract the attached zip file to the repository location of the project, where test execution shall be implemented.&lt;br/&gt;&lt;br/&gt; </field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+    <field id="trainingCategory" multi="true" type="enum:trainingCategory"/>
+</work-item>

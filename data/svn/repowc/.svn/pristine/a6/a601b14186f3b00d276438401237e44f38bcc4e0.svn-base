@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">stroebelet</field>
+    <field id="created">2011-07-29 10:04:39.355 -0400</field>
+    <field id="description" text-type="text/html"><![CDATA[We have already setup a layout for our questions while working in Polarion. If we get an email we want to have a similar layout.<br/>
+ 
+<ul>
+  <li>Open <span style="font-style: italic;">Administration&gt;Notifications&gt;Layouts</span></li>
+  <li>Create 2 new question layouts with name <span style="font-style: italic;">assigned </span>and <span style="font-style: italic;">commented</span></li>
+  <li>copy/paste <span style="font-style: italic;">question form layout of exercise <span id="polarion_wiki macro name=workitem;params=MyPolarion/MP-901|display=long"></span> </span> into <span style="font-style: italic;">assigned </span>and <span style="font-style: italic;">commented</span></li>
+  <li><span style="font-style: italic;">Open Administration&gt;Notifications&gt;Events and Targets</span> and show <span style="font-style: italic;">advanced settings</span></li>
+  <li>Add your new layouts to <span style="font-style: italic;">workitem-commented and workitem-assigned<br/>
+      e.g. question-commented.xml</span><br/>
+    <span style="font-style: italic;"><br/>
+      </span></li>
+</ul>]]></field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Define Custom Email Layout For Question Notifications</field>
+    <field id="type">exercise</field>
+</work-item>

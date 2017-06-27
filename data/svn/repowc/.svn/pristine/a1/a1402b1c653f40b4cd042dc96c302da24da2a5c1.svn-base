@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="approvals">
+        <list>
+            <struct>
+                <item id="status">approved</item>
+                <item id="user">rProject</item>
+            </struct>
+        </list>
+    </field>
+    <field id="author">admin</field>
+    <field id="categories">
+        <list>
+            <item>Board</item>
+        </list>
+    </field>
+    <field id="created">2013-01-21 22:58:04.761 +0100</field>
+    <field id="description" text-type="text/html">DrivePilot command controller is an ARM and Motorolla-processor based controlling computer with central interfaces to all DrivePilot capability.</field>
+    <field id="previousStatus">inReview</field>
+    <field id="priority">50.0</field>
+    <field id="severity">should_have</field>
+    <field id="status">approved</field>
+    <field id="targetVersion" multi="true" type="enum:@plan[template.id:release]">
+        <list>
+            <item>Version_1_0</item>
+        </list>
+    </field>
+    <field id="type">electricalRequirement</field>
+</work-item>

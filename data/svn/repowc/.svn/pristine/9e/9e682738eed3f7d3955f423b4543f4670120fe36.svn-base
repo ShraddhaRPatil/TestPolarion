@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">daniel.morris</field>
+    <field id="created">2014-08-07 07:37:30.880 -0400</field>
+    <field id="description" text-type="text/html">Usually it makes sense to setup tasks for test planning and execution but lets assume we want to see test cases in our Plans.&lt;br/&gt;&lt;ul&gt;&lt;li&gt;Go into Administartion &amp;gt; Plans &amp;gt; Plan Templates&lt;/li&gt;&lt;li&gt;Create a new template based on "Iteration" called "Test"&lt;/li&gt;&lt;li style="list-style: none"&gt;&lt;ul&gt;&lt;li&gt;Open Plan properties&lt;/li&gt;&lt;li&gt;Remove requirement and add test cases as allowed types&lt;/li&gt;&lt;li&gt;Change color of test plan to "yellow"&lt;br/&gt; &lt;img src="workitemimg:1-screenshot-20140801-132526.png" style="width:402px;height:290px"/&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Create Test Plan Template</field>
+    <field id="type">exercise</field>
+</work-item>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<enumeration>
+    <option id="high" name="High" sortOrder="1"/>
+    <option id="medium" name="Medium" sortOrder="2"/>
+    <option id="low" name="Low" sortOrder="3"/>
+</enumeration>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">hartliebc</field>
+    <field id="created">2012-04-24 05:56:52.866 -0400</field>
+    <field id="description" text-type="text/html"><![CDATA[The Set as Default button applies the changes and makes them the default for the Document. Other users will see the selected fields in the Work Item Properties sidebar. The Set as Personal button applies the changes and makes them the default for the current users. Other users see the Document default fields in the sidebar.<br/>
+ 
+<ul>
+  <li>We want to setup some default fields for all users</li>
+  <li>Status, Severity, Assignee and Requirement Type should be shown in Sidebar<br/>
+    <br/>
+    <img src="attachment:120-screenshot-20151230-075452.png" style="width: 316px;height: 250px;"/><img src="attachment:documentPropertiesPane.jpg" style="width: 387px;height: 200px;"/><br/>
+    </li>
+</ul>]]></field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Configure your Work Item Properties Pane</field>
+    <field id="type">exercise</field>
+    <field id="upgradedescription" type="boolean">true</field>
+</work-item>

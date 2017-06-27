@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="approvals">
+        <list>
+            <struct>
+                <item id="status">approved</item>
+                <item id="user">rProject</item>
+            </struct>
+        </list>
+    </field>
+    <field id="assignee">pGUI</field>
+    <field id="author">admin</field>
+    <field id="created">2010-12-03 13:40:40.747 +0100</field>
+    <field id="description" text-type="text/html">There are two user roles: basic user and administrator. Basic user has no access to administration portal.</field>
+    <field id="previousStatus">implemented</field>
+    <field id="priority">70.0</field>
+    <field id="resolution">done</field>
+    <field id="resolvedOn">2010-12-03 13:41:21.656 +0100</field>
+    <field id="severity">should_have</field>
+    <field id="status">verified</field>
+    <field id="storyPoints" type="integer">8</field>
+    <field id="title">There are two user roles: basic user and administrator.</field>
+    <field id="type">userstory</field>
+</work-item>

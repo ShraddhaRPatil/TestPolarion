@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<module>
+    <field id="usesOutlineNumbering">true</field>
+    <field id="homePageContent" text-type="text/html"><![CDATA[<h1 id="polarion_wiki macro name=module-workitem;params=id=MP-2280"></h1>
+<p id="polarion_template_0"><br/>This document contains common components which area used throughout the training materials. E.g. a cover page which is used in every handout.</p>
+<h2 id="polarion_wiki macro name=module-workitem;params=id=MP-2282"></h2>
+<div id="polarion_wiki macro name=module-workitem;params=id=MP-2281"></div>
+<p id="polarion_new_3"><br/></p>
+<h2 id="polarion_wiki macro name=module-workitem;params=id=MP-2283"></h2>
+<DIV id="polarion_wiki macro name=module-workitem;params=id=MP-2285" $H="1299"></DIV>
+<p id="polarion_cleaned_0"></p>
+<div id="polarion_wiki macro name=module-workitem;params=id=MP-2366">MP-2366</div>
+]]></field>
+    <field id="structureLinkRole">parent</field>
+    <field id="outlineNumbering">
+        <struct>
+            <item id="prefix"/>
+        </struct>
+    </field>
+    <field id="author">stroebelet</field>
+    <field id="created">2012-04-05 19:02:03.178 +0200</field>
+    <field id="renderingLayouts">
+        <list>
+            <struct>
+                <item id="layouter">paragraph</item>
+                <item id="label">Text</item>
+                <item id="properties">
+                    <list>
+                        <struct>
+                            <item id="value"/>
+                            <item id="key">fieldsAtStart</item>
+                        </struct>
+                        <struct>
+                            <item id="value"/>
+                            <item id="key">fieldsAtEnd</item>
+                        </struct>
+                        <struct>
+                            <item id="value"/>
+                            <item id="key">fieldsAtEndAsTable</item>
+                        </struct>
+                        <struct>
+                            <item id="value"/>
+                            <item id="key">hidden</item>
+                        </struct>
+                    </list>
+                </item>
+                <item id="type">text</item>
+            </struct>
+        </list>
+    </field>
+</module>

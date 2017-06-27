@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">stroebelet</field>
+    <field id="created">2012-05-30 06:13:33.156 -0400</field>
+    <field id="description" text-type="text/html"><![CDATA[<ul>
+  <li>Find all requirements which need your approval inside functional requirements specification <span style="font-style: italic;">Portal Specification .</span> Use table view with appropriate query or using query builder.<br/>
+    Open Polarion´s Approval Center<br/>
+    <img src="attachment:110-screenshot-20141031-084211.png"/><br/>
+    and approve all but one. Add a Work Item comment to the one you don&#39;t approve which describes why you don&#39;t approve the requirement<br/>
+    <br/>
+    <img src="attachment:approvalCenter.jpg" style="width: 724px;height: 330px;"/><br/>
+    <br/>
+    <br/>
+    
+    <table id="polarion_wiki macro name=table;params=width=600px" class="polarion-Document-table" style="width: 600px;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;">
+      <tbody>
+        <tr>
+          <th style="font-weight: bold;font-size: 9pt;background-color: #F0F0F0;line-height: 1.5;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Hint: You can use the Approval Center in Tracker- and Documents view.<br/>
+            Polarion has a workflow function that adds a default list of approving users (“Approvers”) to Work Items.  The specific users are selected according to a configurable user role project_approver.<br/>
+            <br/>
+            There’s also a new workflow condition that checks the approval state and makes workflow transition possible only if the approval state is “approved”.</th>
+        </tr>
+      </tbody>
+    </table>
+    </li>
+</ul>
+ 
+<ul>
+  <li>Find all requirements with status <span style="font-style: italic;">inReview </span>and all approvals already done inside functional requirements specification <span style="font-style: italic;">Portal Specification .</span> Use table view with appropriate query like <span style="font-style: italic;">approvalState:approved AND status:inReview</span>.<span style="font-style: italic;"><br/>
+      </span></li>
+  <li><span style="font-style: italic;">Perform workflow action Approve</span> for all requirements by changing their status<br/>
+    <br/>
+    <img src="attachment:approve-2.jpg" style="width: 724px;height: 376px;"/><br/>
+    <br/>
+    
+    <table id="polarion_wiki macro name=table;params=width=600px" class="polarion-Document-table" style="width: 600px;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;">
+      <tbody>
+        <tr>
+          <th style="font-weight: bold;font-size: 9pt;background-color: #F0F0F0;line-height: 1.5;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Hint: You can add approvals as required field for action <span style="font-style: italic;">Perform action Approve</span> inside your requirement workflow definition </th>
+        </tr>
+      </tbody>
+    </table>
+    <br/>
+    </li>
+</ul>]]></field>
+    <field id="linkedWorkItems">
+        <list>
+            <struct>
+                <item id="revision">41916</item>
+                <item id="role">branched_from</item>
+                <item id="workItem">MP-791</item>
+            </struct>
+        </list>
+    </field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Approving requirements</field>
+    <field id="type">exercise</field>
+</work-item>

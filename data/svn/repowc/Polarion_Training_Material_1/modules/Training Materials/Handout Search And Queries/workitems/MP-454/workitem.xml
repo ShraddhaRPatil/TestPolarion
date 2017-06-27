@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="hyperlinks">
+        <list>
+            <struct>
+                <item id="role">renderSlide</item>
+                <item id="uri">/polarion/wiki/bin/view/project/MyPolarion/page/macros/RenderSlides?item=MP-454</item>
+            </struct>
+        </list>
+    </field>
+    <field id="author">admin</field>
+    <field id="title">Available Shortcuts</field>
+    <field id="created">2011-03-30 10:39:23.453 +0200</field>
+    <field id="priority">25.0</field>
+    <field id="description" text-type="text/html">&lt;table style="width: 100%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;" id="polarion_wiki macro name=table;params=width=100%"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;border: 1px solid #CCCCCC;padding: 5px;"&gt; Shortcut&lt;/th&gt;&lt;th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;border: 1px solid #CCCCCC;padding: 5px;"&gt; Description&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="line-height: 18px;text-align: left;vertical-align: top;border: 1px solid #CCCCCC;padding: 5px;"&gt;Create Work Item&lt;/td&gt;&lt;td style="line-height: 18px;text-align: left;vertical-align: top;border: 1px solid #CCCCCC;padding: 5px;"&gt; Creates a  new work item using a wizard&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="line-height: 18px;text-align: left;vertical-align: top;border: 1px solid #CCCCCC;padding: 5px;"&gt; My Suspect Work Items&lt;/td&gt;&lt;td style="line-height: 18px;text-align: left;vertical-align: top;border: 1px solid #CCCCCC;padding: 5px;"&gt; Which Work Items are marked as suspect and assigned to me&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</field>
+    <field id="status">accepted</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+    <field id="subtitle" type="string">Typical search terms are available as shortcuts or queries.</field>
+    <field id="hint" type="string">You can add own custom shortcuts according to your process</field>
+</work-item>

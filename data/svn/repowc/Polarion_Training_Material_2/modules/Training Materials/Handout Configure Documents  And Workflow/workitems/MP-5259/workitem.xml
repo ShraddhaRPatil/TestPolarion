@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">sergeD</field>
+    <field id="created">2014-08-29 16:26:00.610 +0200</field>
+    <field id="description" text-type="text/html">&lt;br/&gt;To use Document types , you need to first set up the feature in Administration.&lt;br/&gt;&lt;ol&gt;&lt;li&gt;Open the scope in which you want to enable the features (Global or some project) and enter Administration.&lt;/li&gt;&lt;li&gt;In Navigation, expand &lt;span style="font-weight: bold;"&gt;Documents &amp; Wiki&lt;/span&gt; and select D&lt;span style="font-weight: bold;"&gt;ocument Types&lt;/span&gt;.&lt;/li&gt;&lt;/ol&gt;&lt;img src="workitemimg:1-screenshot-20140829-162600.png"/&gt;&lt;br/&gt;&lt;br/&gt;&lt;ul&gt;&lt;li&gt;&lt;span style="font-weight: bold;"&gt;Default&lt;/span&gt;: what is the default document  type to create ?&lt;/li&gt;&lt;li&gt;&lt;span style="font-weight: bold;"&gt;Color&lt;/span&gt;: not used ?&lt;/li&gt;&lt;li&gt;&lt;span style="font-weight: bold;"&gt;Description&lt;/span&gt;: &lt;/li&gt;&lt;/ul&gt;</field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Document Types Definition</field>
+    <field id="type">slide</field>
+</work-item>

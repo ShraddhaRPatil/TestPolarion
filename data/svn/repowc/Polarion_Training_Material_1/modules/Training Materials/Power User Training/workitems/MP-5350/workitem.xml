@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">daniel.morris</field>
+    <field id="created">2014-10-31 05:54:17.989 -0400</field>
+    <field id="description" text-type="text/html"><![CDATA[When you export a document via Word-Round trip you might want to have a separate title page without any header or footer.<br/>
+ 
+<ul>
+  <li>Open your modified Round-trip Template again</li>
+  <li>Double click to modify document header</li>
+  <li>Select different first page in Design Tab<br/>
+    <img src="attachment:76-screenshot-20141103-110107.png" style="width: 721px;height: 103px;"/><br/>
+    </li>
+</ul>
+ 
+<ul>
+  <li>Modify your first page header e.g. add a different logo (you can also leave it empty. In this case your first page won´t have any header or footer)</li>
+  <li>Save file and reupload</li>
+  <li>Verify your first page is using a different header and footer.</li>
+</ul>
+ <br/>]]></field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Adjust Round-Trip template title page</field>
+    <field id="type">exercise</field>
+</work-item>

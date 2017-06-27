@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<specificationConfiguration>
+    <forImport>false</forImport>
+    <forRIF>false</forRIF>
+    <mappingConfiguration>
+        <mappingGroups direction="IMPORT" polarionType="slide" reqIfType="e9eb5b62-76db-4e2e-8fe8-7b4ad0d2f467">
+            <fieldMappings reqIfAttribute="relations"/>
+            <fieldMappings polarionField="title" reqIfAttribute="polarion_prostep_ReqIF.ChapterName"/>
+            <fieldMappings reqIfAttribute="polarion_prostep_ReqIF.ForeignCreatedBy"/>
+            <fieldMappings reqIfAttribute="polarion_prostep_ReqIF.ForeignCreatedOn"/>
+            <fieldMappings reqIfAttribute="polarion_prostep_ReqIF.ForeignID"/>
+            <fieldMappings polarionField="description" reqIfAttribute="polarion_prostep_ReqIF.Text"/>
+            <fieldMappings reqIfAttribute="type"/>
+        </mappingGroups>
+    </mappingConfiguration>
+    <exportNew>false</exportNew>
+    <polarionConfiguration document="Handout Easy Planning" space="Training Materials" useCurrentUser="true" useTitleAsRoot="true">
+        <ignoreStructureLinks>true</ignoreStructureLinks>
+    </polarionConfiguration>
+    <reqIfConfiguration documentName="handoutsPlanning.reqif" doorsCompatibilityMode="false" fileName="handoutsPlanning.reqifz" rif="false"/>
+    <updateMetadata>false</updateMetadata>
+</specificationConfiguration>

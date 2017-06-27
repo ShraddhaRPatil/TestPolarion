@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<module>
+    <field id="author">admin</field>
+    <field id="created">2013-01-15 13:11:49.294 +0100</field>
+    <field id="headingSidebarFields">severity,status</field>
+    <field id="homePageContent" text-type="text/html"><![CDATA[<h1 id="polarion_wiki macro name=module-workitem;params=id=DP-260"></h1><div id="polarion_wiki macro name=toc"></div><h2 id="polarion_wiki macro name=module-workitem;params=id=DP-261"></h2><h3 id="polarion_wiki macro name=module-workitem;params=id=DP-262"></h3><p id="polarion_new_26">
+  The Electro-Mechanical Verification Plan document outlines the planned tasks and expectations for verification of Electrical and Mechanical Requirements.<br/>
+</p><ul id="polarion_merged_0">
+  <li>WHO will be responsible for completion, review, and approval of these tasks.</li>
+  <li>HOW the verification will be performed including failure resolution.<br/>
+    </li>
+  <li>WHAT documentation/deliverables will be generated.</li>
+</ul><h3 id="polarion_wiki macro name=module-workitem;params=id=DP-264"></h3><ul id="polarion_2">
+  <li><span class="polarion-rte-link" data-type="document" id="fake" data-item-name="Project Scope" data-space-name="Concept" data-option-id="default"></span></li>
+  <li><span class="polarion-rte-link" data-type="document" id="fake" data-item-name="System Validation and Verification Plan" data-space-name="Requirements" data-option-id="default"></span></li>
+</ul><h2 id="polarion_wiki macro name=module-workitem;params=id=DP-265"></h2><p id="polarion_new_21">All the Electrical and Mechanical requirements need to be verified:</p><ul id="polarion_merged_5">
+  <li><span class="polarion-rte-link" data-type="document" id="fake" data-item-name="Electro-Mechanical Design Specification" data-space-name="Design" data-option-id="default"></span></li>
+</ul><h2 id="polarion_wiki macro name=module-workitem;params=id=DP-266"></h2><p id="polarion_new_27">Every milestone &quot;Electro-Mechanical Design Verification Test&quot; needs to be performed and pass. See:</p><ul id="polarion_1">
+  <li><span class="polarion-rte-link" data-type="testRun" id="fake" data-item-id="Electro-Mechanical Design Verification Test" data-option-id="long"></span></li>
+</ul><h3 id="polarion_wiki macro name=module-workitem;params=id=DP-267"></h3><p id="polarion_new_28">At the end of a milestone the &quot;Electro-Mechanical Design Verification Test&quot; must pass, and the Test Run needs to be marked as &quot;Passed&quot;.</p><p id="polarion_merged_4">If the test is failing, the QA manager is responsible to decide if the test cases will be deactivated and moved to next milestone(s).</p><h3 id="polarion_wiki macro name=module-workitem;params=id=DP-268"></h3><p id="polarion_new_29">
+  <span style="font-style: italic;">TO DO: Specify the criteria used to suspend all or a portion of the testing activity on the test items associated with this plan. Specify the testing activities that must be repeated, when testing is resumed.</span>
+</p><h2 id="polarion_wiki macro name=module-workitem;params=id=DP-269"></h2><p id="polarion_new_30">
+  The DrivePilot Electro-Mechanical Test must be performed on all the supported platforms.<span style="font-style: italic;"> </span>
+</p><h2 id="polarion_wiki macro name=module-workitem;params=id=DP-270"></h2><p id="polarion_new_31">The following sections contain Task items that define what is necessary to prepare for and perform testing.</p><h3 id="polarion_wiki macro name=module-workitem;params=id=DP-271"></h3><div id="polarion_wiki macro name=module-workitem;params=id=DP-272"></div><div id="polarion_wiki macro name=module-workitem;params=id=DP-273"></div><h3 id="polarion_wiki macro name=module-workitem;params=id=DP-274"></h3><div id="polarion_wiki macro name=module-workitem;params=id=DP-275"></div><h2 id="polarion_wiki macro name=module-workitem;params=id=DP-276"></h2><p id="polarion_new_32">
+  <span style="font-style: italic;">INFO: Section should cover responsibilities, staffing and training needs, risks and contingencies, and the testing schedule.</span>
+</p>]]></field>
+    <field id="renderingLayouts">
+        <list>
+            <struct>
+                <item id="label">Task</item>
+                <item id="layouter">section</item>
+                <item id="properties">
+                    <list>
+                        <struct>
+                            <item id="key">fieldsAtStart</item>
+                            <item id="value">id</item>
+                        </struct>
+                        <struct>
+                            <item id="key">fieldsAtEnd</item>
+                            <item id="value">status,assignee</item>
+                        </struct>
+                        <struct>
+                            <item id="key">fieldsAtEndAsTable</item>
+                        </struct>
+                        <struct>
+                            <item id="key">hidden</item>
+                        </struct>
+                        <struct>
+                            <item id="key">sidebarWorkItemFields</item>
+                            <item id="value">severity,status</item>
+                        </struct>
+                    </list>
+                </item>
+                <item id="type">task</item>
+            </struct>
+        </list>
+    </field>
+    <field id="status">published</field>
+    <field id="structureLinkRole">parent</field>
+    <field id="type">generic</field>
+    <field id="usesOutlineNumbering">true</field>
+</module>

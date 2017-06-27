@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="approvals">
+        <list>
+            <struct>
+                <item id="status">approved</item>
+                <item id="user">rProject</item>
+            </struct>
+        </list>
+    </field>
+    <field id="author">admin</field>
+    <field id="created">2010-11-20 13:14:25.867 +0100</field>
+    <field id="description" text-type="text/html">When reading information about a book, user wants to also get information about the author or authors. The details should provide:&lt;br/&gt;&lt;ul&gt;&lt;li&gt;full name&lt;/li&gt;&lt;li&gt;date of birth&lt;/li&gt;&lt;li&gt;date of death&lt;/li&gt;&lt;li&gt;List of books written (if more than 5, the 6th entry  can be a link to a complete bibliography page)&lt;br/&gt;&lt;/li&gt;&lt;/ul&gt;</field>
+    <field id="previousStatus">closed</field>
+    <field id="priority">86.0</field>
+    <field id="resolution">done</field>
+    <field id="resolvedOn">2010-11-25 16:34:20.978 +0100</field>
+    <field id="severity">must_have</field>
+    <field id="status">verified</field>
+    <field id="storyPoints" type="integer">8</field>
+    <field id="title">Basic Author Details</field>
+    <field id="type">userstory</field>
+</work-item>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">schucks</field>
+    <field id="created">2013-11-14 05:14:52.317 -0500</field>
+    <field id="description" text-type="text/html">&lt;span style="font-weight: bold;"&gt;Historical Trend Charts with SQL&lt;/span&gt;&lt;br/&gt;&lt;br/&gt;Have a look at the Drive Pilot Demo project which has been created automatically at the installation of Polarion. Using the search in the navigation bar you will find a wiki page called "Fix Time". Have a look at this wiki page and copy it's content to a new page.&lt;br/&gt;Have a look at the code and find the #chartStart macro. Remove everything else from the code you do not need! &lt;br/&gt;Now you can start to implement the following logic:&lt;br/&gt;&lt;ol&gt;&lt;li&gt;We will create historical trend chart&lt;/li&gt;&lt;li&gt;Insert a parameter area on top of the page to define the number of weeks to be displayed in the trend chart&lt;/li&gt;&lt;li&gt;Create a query which gives you the amount items in Polarion.&lt;/li&gt;&lt;li&gt;Find out how to get the revision of a specified date.&lt;/li&gt;&lt;li&gt;Use IDataService.sqlSearchInBaseline(String Query, String Revision) to query for items at a specified date.&lt;/li&gt;&lt;li style="list-style: none"&gt;&lt;ol&gt;&lt;li&gt;&lt;span style="font-style: italic;"&gt;Hint: count is not supported in the query, so use the size() method to count the result.&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/li&gt;&lt;li&gt;Finish the wiki page.&lt;/li&gt;&lt;/ol&gt;</field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="type">exercise</field>
+</work-item>

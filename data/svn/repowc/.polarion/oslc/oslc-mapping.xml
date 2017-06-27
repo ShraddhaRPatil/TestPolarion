@@ -1,0 +1,23 @@
+<oslc-mappings>
+  <type-mappings>
+    <type-mapping polarionType="defect" oslcType="cm:ChangeRequest" oslcUsage="oslc:default"/>
+	<type-mapping polarionType="issue" oslcType="cm:ChangeRequest" oslcUsage="oslc:default"/>
+    <type-mapping polarionType="changerequest" oslcType="cm:ChangeRequest" oslcUsage="cm:requirementsChangeRequest"/>
+    <type-mapping polarionType="userstory" oslcType="cm:ChangeRequest" oslcUsage="cm:planItem"/>
+	<type-mapping polarionType="workPackage" oslcType="cm:ChangeRequest" oslcUsage="cm:planItem"/>
+    <type-mapping polarionType="task" oslcType="cm:ChangeRequest" oslcUsage="cm:task"/>
+    <type-mapping polarionType="requirement" oslcType="rm:Requirement" oslcUsage="oslc:default"/>
+	<type-mapping polarionType="systemRequirement" oslcType="rm:Requirement" oslcUsage="oslc:default"/>
+	<type-mapping polarionType="softwareRequirement" oslcType="rm:Requirement"/>
+	<type-mapping polarionType="mechanicalRequirement" oslcType="rm:Requirement"/>
+	<type-mapping polarionType="electricalRequirement" oslcType="rm:Requirement"/>
+  </type-mappings>
+  <link-role-mappings>
+    <link-role-mapping linkRole="relates_to" oslcLinkProperty="cm:relatedChangeRequest"/>
+    <link-role-mapping linkRole="relates_to" oslcLinkProperty="cm:affectsRequirement"/>
+    <link-role-mapping linkRole="relates_to" oslcLinkProperty="dcterms:relation"/>
+    <link-role-mapping linkRole="implements" oslcLinkProperty="cm:implementsRequirement"/>
+    <!--  Teamcenter  -->
+    <link-role-mapping linkRole="relates_to" oslcLinkProperty="ldf:IMAN_reference"/>
+  </link-role-mappings>
+</oslc-mappings>

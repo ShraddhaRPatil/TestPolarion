@@ -1,0 +1,20 @@
+2017-06-23 11:42:02,768 [main | u:p] INFO  com.polarion.platform.jobs.internal.service.scheduler.JobSchedulerService  - Updating local scheduler state: start
+2017-06-23 11:42:02,798 [main | u:p | u:p] INFO  com.polarion.platform.jobs.internal.service.scheduler.JobSchedulerService  - 16 scheduled job(s) configured
+2017-06-23 11:42:37,925 [Thread-31] INFO  com.polarion.platform.jobs.info  - Job "Attachment Indexer" has id d394b790-927abeae-7430ed93-0190b4dd
+2017-06-23 11:42:37,929 [Thread-31] INFO  com.polarion.platform.jobs.info  - State of job "Attachment Indexer" changed to UNSCHEDULED
+2017-06-23 11:42:37,936 [Thread-31] INFO  com.polarion.platform.jobs.info  - Working directory of root job "Attachment Indexer" is C:\Polarion\data\workspace\polarion-data\jobs\20170623-1142
+2017-06-23 11:42:37,940 [Thread-31] INFO  com.polarion.platform.jobs.info  - Job "Attachment Indexer" runs as user "polarion"
+2017-06-23 11:42:37,944 [Thread-31 | u:p] INFO  com.polarion.platform.jobs.info  - State of job "Attachment Indexer" changed to ACTIVATING
+2017-06-23 11:42:37,949 [Thread-31 | u:p] INFO  com.polarion.platform.jobs.info  - State of job "Attachment Indexer" changed to WAITING
+2017-06-23 11:42:37,961 [Worker-0 | u:p] INFO  com.polarion.platform.jobs.info  - State of job "Attachment Indexer" changed to RUNNING
+2017-06-23 11:42:37,962 [Thread-31] INFO  com.polarion.platform.jobs.info  - Job "DB History Creator" has id d394b7c3-927abeae-7430ed93-3584fb86
+2017-06-23 11:42:37,966 [Thread-31] INFO  com.polarion.platform.jobs.info  - State of job "DB History Creator" changed to UNSCHEDULED
+2017-06-23 11:42:37,971 [Thread-31] INFO  com.polarion.platform.jobs.info  - Working directory of root job "DB History Creator" is C:\Polarion\data\workspace\polarion-data\jobs\20170623-1142_0
+2017-06-23 11:42:37,975 [Thread-31] INFO  com.polarion.platform.jobs.info  - Job "DB History Creator" runs as user "polarion"
+2017-06-23 11:42:37,980 [Thread-31 | u:p] INFO  com.polarion.platform.jobs.info  - State of job "DB History Creator" changed to ACTIVATING
+2017-06-23 11:42:37,986 [Thread-31 | u:p] INFO  com.polarion.platform.jobs.info  - State of job "DB History Creator" changed to WAITING
+2017-06-23 11:42:37,996 [Worker-1 | u:p] INFO  com.polarion.platform.jobs.info  - State of job "DB History Creator" changed to RUNNING
+2017-06-23 11:42:38,123 [Worker-0 | u:p] INFO  com.polarion.platform.jobs.info  - State of job "Attachment Indexer" changed to FINISHED
+2017-06-23 11:42:38,126 [Worker-0 | u:p] INFO  com.polarion.platform.jobs.info  - Status of job "Attachment Indexer" is OK
+2017-06-23 11:42:39,643 [Worker-1 | u:p] INFO  com.polarion.platform.jobs.info  - State of job "DB History Creator" changed to FINISHED
+2017-06-23 11:42:39,646 [Worker-1 | u:p] INFO  com.polarion.platform.jobs.info  - Status of job "DB History Creator" is OK

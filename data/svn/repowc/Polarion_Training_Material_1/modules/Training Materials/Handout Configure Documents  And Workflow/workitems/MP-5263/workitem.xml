@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">sergeD</field>
+    <field id="created">2014-08-29 17:46:42.518 +0200</field>
+    <field id="description" text-type="text/html">&lt;br/&gt;You can create custom fields for Documents. &lt;br/&gt;Document Custom Fields are a property of each Document.&lt;br/&gt;&lt;br/&gt;To access Document custom fields configuration:&lt;br/&gt;&lt;br/&gt;&lt;ul&gt;&lt;li&gt;Open the project you wish to configure, or the repository to configure the Global scope. &lt;/li&gt;&lt;li&gt;Open Administration, expand Documents &amp; Wiki, and select Document Custom Fields.&lt;/li&gt;&lt;/ul&gt;&lt;img src="workitemimg:1-screenshot-20140829-174642.png"/&gt;&lt;br/&gt;</field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Document Custom Fields</field>
+    <field id="type">slide</field>
+</work-item>

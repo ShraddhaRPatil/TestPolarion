@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">exercise</field>
+    <field id="author">daniel.morris</field>
+    <field id="title">Create an overall test plan</field>
+    <field id="created">2012-05-08 14:59:33.972 +0200</field>
+    <field id="priority">25.0</field>
+    <field id="description" text-type="text/html">We have already created a test plan by reusing a document out of our document eilbrary. Now we want to assign our two test runs to our testing teams. &lt;ul&gt;&lt;li&gt;Goto Documents &amp; Wiki | Testing | Test Plan&lt;/li&gt;&lt;li&gt;In chapter 5.2 you will find a task "Execute test A"&lt;/li&gt;&lt;li style="list-style: none"&gt;&lt;ul&gt;&lt;li&gt;Change task name to "Exceute test run i1_Team A", copy link of test run "i1_Team A" and paste it into task description and assign task to yourself&lt;br/&gt;&lt;/li&gt;&lt;li&gt;Add a second task below and repeat the steps only for test run "i1_Team B" and assign it aswell to yourself.&lt;br/&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;Verify if tasks are assigned to you in your "My Polarion" dashboard&lt;br/&gt;&lt;/li&gt;&lt;/ul&gt;</field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+</work-item>

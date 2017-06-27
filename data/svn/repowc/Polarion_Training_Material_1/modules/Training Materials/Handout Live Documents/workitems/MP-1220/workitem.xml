@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="author">stroebelet</field>
+    <field id="title">Document Reuse - Simple Copy</field>
+    <field id="created">2011-09-13 22:30:23.821 +0200</field>
+    <field id="description" text-type="text/html">&lt;img src="workitemimg:1-screenshot.jpg"/&gt;</field>
+    <field id="priority">25.0</field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="subtitle" type="string"> </field>
+    <field id="trainingCategory" multi="true" type="enum:trainingCategory"/>
+    <field id="printNotes" text-type="text/html" type="text/html">&lt;div&gt;&lt;ul&gt;&lt;li&gt;Use it when you want to create documents based on templates&lt;/li&gt;&lt;li&gt;No links are created&lt;/li&gt;&lt;li&gt;No Traceability&lt;/li&gt;&lt;li&gt;Behaves like standard copies&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</field>
+    <field id="speakersNotes" text-type="text/plain" type="text/html"/>
+</work-item>

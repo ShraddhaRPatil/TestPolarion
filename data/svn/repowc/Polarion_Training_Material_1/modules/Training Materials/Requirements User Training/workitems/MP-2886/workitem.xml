@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">exercise</field>
+    <field id="author">hartliebc</field>
+    <field id="title">Optimize your first import configuration (optional)</field>
+    <field id="created">2012-05-18 10:58:50.812 +0200</field>
+    <field id="priority">25.0</field>
+    <field id="description" text-type="text/html">&lt;ul&gt;&lt;li&gt;Define an advanced rule which automatically sets a requirement to &lt;span style="font-style: italic;"&gt;must_have&lt;/span&gt; when the keyword &lt;span style="font-style: italic;"&gt;must&lt;/span&gt; is found&lt;/li&gt;&lt;li&gt;Define an advanced rule which automatically sets the requirement type to &lt;span style="font-style: italic;"&gt;user requirement&lt;/span&gt;&lt;/li&gt;&lt;li&gt;Try your configuration using &lt;span style="font-weight: bold;font-style: italic;"&gt;Preview&lt;/span&gt; button&lt;span style="font-style: italic;"&gt;&lt;br/&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;Save your configuration&lt;/li&gt;&lt;/ul&gt;</field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+    <field id="upgradedescription" type="boolean">true</field>
+</work-item>

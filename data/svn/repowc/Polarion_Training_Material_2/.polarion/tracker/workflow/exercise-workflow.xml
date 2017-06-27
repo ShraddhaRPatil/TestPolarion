@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<workflow initial-action="init" initial-status="open">
+    <transitions>
+        <transition action="finished" from="open" to="finished"/>
+        <transition action="reopen" from="finished" to="open"/>
+    </transitions>
+    <actions>
+        <action id="init" name="Initialization">
+            <cleared>
+                <field name="resolution"/>
+                <field name="resolvedOn"/>
+            </cleared>
+            <functions>
+                <function name="LinkedWorkItemsStatusChange">
+                    <param name="back.link.roles" value="depends_on"/>
+                    <param name="link.roles" value="parent"/>
+                    <param name="valid.states" value="open,inprogress,reopened"/>
+                    <param name="target.state" value="reopened"/>
+                    <param name="clear.attribs" value="resolution,resolvedOn"/>
+                </function>
+            </functions>
+        </action>
+        <action id="finished" name="Finished">
+            <required>
+                <field name="resolution"/>
+            </required>
+            <conditions>
+                <condition name="LinkedWorkItemsStatus">
+                    <param name="back.link.roles" value="parent"/>
+                    <param name="link.roles" value="depends_on"/>
+                    <param name="valid.states" value="closed"/>
+                </condition>
+            </conditions>
+        </action>
+        <action id="reopen" name="Reopen">
+            <cleared>
+                <field name="resolution"/>
+                <field name="resolvedOn"/>
+            </cleared>
+            <functions>
+                <function name="LinkedWorkItemsStatusChange">
+                    <param name="back.link.roles" value="depends_on"/>
+                    <param name="link.roles" value="parent"/>
+                    <param name="valid.states" value="open,inprogress,reopened"/>
+                    <param name="target.state" value="reopened"/>
+                    <param name="clear.attribs" value="resolution,resolvedOn"/>
+                </function>
+            </functions>
+        </action>
+    </actions>
+</workflow>

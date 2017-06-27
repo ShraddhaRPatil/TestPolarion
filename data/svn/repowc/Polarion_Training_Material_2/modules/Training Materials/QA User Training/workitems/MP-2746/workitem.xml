@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">daniel.morris</field>
+    <field id="created">2012-05-07 05:25:26.055 -0400</field>
+    <field id="description" text-type="text/html"><![CDATA[Polarion comes with pre configured templates that define work items by individual fields arranged in various containers, such as the core information, Description, Comments, etc.  Each of the containers can contain as many fields as are necessary to define the work item as your business rules dictate.  In addition to the fields that are already available, custom fields can be created to appear in any container available in the work item.  Additional containers can be created as are needed.<br/>
+ Create your first test case using work item type &quot;Test Case&quot; 
+<ul>
+  <li>Title: Login should be case sensitive</li>
+  <li>Severity: Smoke<br/>
+  </li>
+  <li>Add following content as description:</li>
+  <ul>
+    <li>We need to verify our login is case sensitive for username and password<br/>
+      Precondition: Supported browsers installed (Firefox, Internet Explorer, Chrome), login credentials available<br/>
+      Postcondition: n/a<br/>
+      Mockup:<br/>
+      <img src="attachment:77-screenshot-20151231-071250.png" style="width: 431px;height: 400px;"/><br/>
+      <table id="polarion_wiki macro name=table" class="polarion-Document-table" style="width: 80%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;">
+        <tbody>
+          <tr>
+            <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Hint: You can insert images by using CTRL+V if you have copied an image into your clipboard. You can also manually upload images by using upload button in your description<br/>
+              <img src="attachment:83-screenshot-20160104-071942.png" style="width: 162px;height: 50px;"/></th>
+          </tr>
+        </tbody>
+      </table>
+    </li>
+  </ul>
+  <li>Test Steps:<br/>
+    
+    <table id="polarion_wiki macro name=table" class="polarion-Document-table" style="width: 80%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;">
+      <tbody>
+        <tr>
+          <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Step<br/>
+          </th>
+          <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Step Description</th>
+          <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Expected Result</th>
+        </tr>
+        <tr>
+          <td style="text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Login screen</td>
+          <td style="text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Open login screen via browser</td>
+          <td style="text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Website should appear to enter user credentials (see mockup)</td>
+        </tr>
+        <tr>
+          <td style="text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Login name</td>
+          <td style="text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Use login name &quot;Admin&quot;</td>
+          <td style="text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Username should be visible as <span style="font-weight: normal;color: #222222;">cleartext</span></td>
+        </tr>
+        <tr>
+          <td style="text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Login password</td>
+          <td style="text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Use password &quot;admin&quot;</td>
+          <td style="text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Password should not be visible as cleartext</td>
+        </tr>
+        <tr>
+          <td style="text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Login</td>
+          <td style="text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Click login button</td>
+          <td style="text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Login should not work</td>
+        </tr>
+      </tbody>
+    </table>
+    <br/>
+    
+    <table id="polarion_wiki macro name=table;params=uid=client1" class="polarion-Document-table" style="width: 80%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;">
+      <tbody>
+        <tr>
+          <th style="background-color: #F0F0F0;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Hint:<br/>
+            - You can use your TAB / Shift+TAB key to navigate through your tables. <br/>
+            - To indent data you press Shift-Alt-Left/Right Arrow <br/>
+            - You can also copy and paste data using Alt+C / Alt<br/>
+          </th>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+  <li>Assign test case to current user</li>
+  <li>Write comment:<br/>
+    <span style="font-style: italic;">&quot;Writing a test case like this is not very efficient because I need to test several brwosers, usernames and passwords. So I need to work with lots of copies.</span>&quot;</li>
+  <li>Save test case</li>
+</ul>]]></field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Track test cases as work items</field>
+    <field id="type">exercise</field>
+</work-item>

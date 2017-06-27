@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>   
+	
+<!-- 
+  This is a configuration file for the "My Hats" feature. It defines how files 
+  on the Work Item form are filtered for a "Hat" configuration. Any Hat can 
+  have filtering of the Work Item form configured for it. Filtering hides some 
+  fields, or sets some fields to read-only for different workflow actions and 
+  states. Filtering is engaged when a user invokes "Show Minimal Fields" on the 
+  Work Item form toolbar. It is not a mechanism for restricting access to 
+  fields. It merely puts less frequently needed fields and editing capability 
+  out of the user's way. Visibility and editing can be restored by the user any 
+  time.
+							
+   The <formFilter> element specifies the visual and model filter to be used during processing of a work flow state or action to    
+   hide unwanted fields and show important ones, and set read-only restrictions on fields to prevent accidental user modification.   
+   Filtering can be disabled by users so that they can see (and edit) all fields, if they need this.   
+    
+   For specifing fields you can use special commands such as    
+      @all - all fields of the current work item can be edited in the form                    
+      @required - all required fields are marked in edited work item form with asterix.   
+
+   For read only attribute you cannot use @required, only @all is applicable.       
+
+   If you want to remove some field use the symbol: '-'.   
+   If you want add some field use the symbol '+' or simply ommit the plus sign 
+   and specify field directly.   
+       
+   There is no hierachical selecting of filters, simply what is inside of action 
+   or state element, it used or no filter is applicable.    
+       
+   Work Item type-specific configuration can be enabled in the file: 
+   [workItemType]-form-filter.xml
+
+   For more information about user-specific configuration see comments in the 
+   form-layout.xml file in this folder.   
+-->   
+<formFilter xmlns="http://polarion.com/schema/WorkItems/FormFilter" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://polarion.com/schema/WorkItems/FormFilter">
+    <workflow>   
+        <actions>   
+            <!--  The _create action is applicable during creation of a new Work Item   -->   
+            <action refId="_create" fieldNames="@required,description,provider,requirementcategory,timePoint,status,linkedWorkItems,assignee" />   
+   
+            <!--  The _default action is applied by default; there is no specific filter for the specified action  -->   
+            <action refId="_default" fieldNames="@required,status,timePoint,requirementcategory,description,comments,linkedWorkItems" />   
+        </actions>   
+        <states>   
+            <!--  The  _default state is applied by default; there is no specific filter for that state  -->   
+            <state refId="_default" fieldNames="@required,provider,status,requirementcategory,timePoint,description,comments,linkedWorkItems,assignee" />   
+            <state refId="accepted" readOnly="@all" />   
+        </states>   
+    </workflow>   
+</formFilter>   

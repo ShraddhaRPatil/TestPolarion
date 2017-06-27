@@ -1,0 +1,42 @@
+.polarion-plan-row > gantt_cell:first-child {
+    font-weight: bold;
+}
+.controls_bar {
+    border: 1px solid #bababa;
+    clear: both;
+    height: 28px;
+    background: #f1f1f1;
+    color: #494949;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    padding-left: 10px;
+    line-height: 25px
+}
+.gantt_task_line {
+    background: #A1A1A1;
+    border-color: #A1A1A1;
+    background-image: none color: black;
+}
+.gantt_task_progress {
+    background: #AED77E;
+    box-shadow: none;
+    border: none;
+    background-image: none;
+    color: black;
+}
+.gantt_container{
+    border:0px solid white;
+}
+.gantt_side_content {
+    bottom: 0px;
+}
+.gantt_tree_icon.gantt_close {
+    background-image: url('/polarion/ria/images/tree/T-.gif');
+}
+.gantt_tree_icon.gantt_open {
+    background-image: url('/polarion/ria/images/tree/T+.gif');
+}
+/*.weekend {
+    background-color: #FAFAFA;
+}
+*/

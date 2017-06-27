@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="hyperlinks">
+        <list>
+            <struct>
+                <item id="role">renderSlide</item>
+                <item id="uri">/polarion/wiki/bin/view/project/MyPolarion/page/macros/RenderSlides?item=MP-479</item>
+            </struct>
+        </list>
+    </field>
+    <field id="author">stroebelet</field>
+    <field id="title">Traceability And Consistency</field>
+    <field id="created">2011-04-05 21:10:12.425 +0200</field>
+    <field id="description" text-type="text/html">Inconsistent documents impact your project in many ways&lt;br/&gt;&lt;br/&gt;&lt;ul&gt;&lt;li&gt;Building the wrong product based on outdated requirements&lt;br/&gt;&lt;/li&gt;&lt;li&gt;Hidden risks due to missing our outdated information&lt;br/&gt;&lt;/li&gt;&lt;li&gt;Wrong estimates based on outdated requirements&lt;br/&gt;&lt;/li&gt;&lt;li&gt;Hidden requirements were not tested and have defects&lt;br/&gt;&lt;/li&gt;&lt;li&gt;Difficulty to make proper estimates on change requests&lt;br/&gt;&lt;/li&gt;&lt;/ul&gt;</field>
+    <field id="priority">25.0</field>
+    <field id="status">accepted</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+    <field id="subtitle" type="string">Traceability is the key to consistency</field>
+    <field id="trainingCategory" multi="true" type="enum:trainingCategory">
+        <list>
+            <item>user</item>
+        </list>
+    </field>
+</work-item>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">stroebelet</field>
+    <field id="created">2012-05-30 10:07:16.481 -0400</field>
+    <field id="description" text-type="text/html"><![CDATA[Baselines capture and preserve the state of your project at some point in time. Baselines are typically created for major development milestones and for releases. The Baseline Time Machine feature enables users to browse any baseline just as if it were the current project state. All artifacts appear in the state they were when the baseline was created, and queries and reports retrieve only information from the baseline.<br/>
+<ul>
+  <li>Create a Baseline with name &quot;<span style="font-style: italic;">Specification for Version 1</span>&quot;<br/>
+    <br/>
+    <img src="attachment:createbaseline.jpg" style="width: 724px;height: 307px;"/><br/>
+    <br/>
+  </li>
+  <li>Make some changes in <span style="font-style: italic;">E-Library_2011 specification</span> document.<br/>
+    Correct this content is locked because the specification is approved. But it is still allowed to change the severity this field is not set to read only. (this is also configurable)</li>
+  <li>Display <span style="font-style: italic;">E-Library_2011</span> document as it was in baseline &quot;<span style="font-style: italic;">Specification for Version 1</span>&quot;<br/>
+    <br/>
+    <img src="attachment:showrevision.jpg" style="width: 724px;height: 220px;"/><br/>
+  </li>
+</ul>]]></field>
+    <field id="linkedWorkItems">
+        <list>
+            <struct>
+                <item id="revision">41916</item>
+                <item id="role">branched_from</item>
+                <item id="workItem">MP-793</item>
+            </struct>
+        </list>
+    </field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Create Baseline</field>
+    <field id="type">exercise</field>
+</work-item>

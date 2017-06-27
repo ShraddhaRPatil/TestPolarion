@@ -1,0 +1,66 @@
+########### PREPARE PARAMETERS ###########
+#set($items = $parameters.workItems.getFor().revision($null).items())
+#set($showLinkingItems = $parameters.showLinkingItems.value)
+#set($linkRoles = $parameters.linkRole.values)
+#set($linkedItemTypes = $parameters.linkedItemType.values)
+
+##set($columnNames = "Project,Item Type,Status,Link Role,Suspect,Assignee")
+#set($columnNames = "Link Role,Status,Suspect")
+#set($columns = $columnNames.split(","))
+
+########### MACROS  ###########
+#macro(getLinkedItemsDirection $item)
+ #if($showLinkingItems)
+    #set($linkedWorkItems = $item.fields.linkedWorkItems.direct)
+ #else
+    #set($linkedWorkItems = $item.fields.linkedWorkItems.back)
+ #end
+ #foreach($link in $linkedWorkItems)
+   #set($linkedItem =  false)
+   #set($linkedItem =  $link.fields.workItem.get)
+   #set($show=false)
+   #if($linkRoles.isEmpty() || $linkRoles.contains($link.fields.role.get))
+      #if($linkedItemTypes.isEmpty()  || $linkedItemTypes.contains($linkedItem.fields.type.get))
+        #set($show="true")
+      #end
+   #end
+   #if($show)
+    <tr class="polarion-rpw-table-content-row">  
+      <td style="padding-left:40px">
+           $linkedItem.render.withTitle.withLinks  
+      </td>
+      #foreach($c in $columns)
+      <td>
+           #if($c.equals("Project"))  $linkedItem.fields.project.render #end
+           #if($c.equals("Item Type"))  $linkedItem.fields.type.render #end 
+           #if($c.equals("Status"))  $linkedItem.fields.status.render #end 
+           #if($c.equals("Link Role")) #if($direction.isBacklinked()) $link.fields.role.name  #else  $link.fields.role.get.oppositeLabel #end #end
+           #if($c.equals("Suspect")) #if($link.suspect.get == true) <img src="/polarion/icons/default/suspect.gif"></img> #end #end
+           #if($c.equals("Assignee"))  $linkedItem.fields.assignee.render #end
+      </td>
+      #end
+   </tr>
+   #end
+ #end
+#end
+
+########### RENDER  ###########
+
+#set($colspan = 1) 
+<table class="polarion-rpw-table-content">
+<tr class="polarion-rpw-table-header-row">
+  <th>ID-Title</th>
+  #foreach($c in $columns)
+     #set($colspan = $colspan+1) 
+    <th>$c</th>
+  #end
+</tr>
+#foreach($item in $items)
+   <tr class="polarion-rpw-table-content-row">
+        <td colspan="$colspan">
+                <b>$item.render.withTitle.withLinks</b>
+        </td>
+    </tr>
+   #getLinkedItemsDirection($item) 
+#end
+</table>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">hartliebc</field>
+    <field id="created">2012-04-24 05:44:49.338 -0400</field>
+    <field id="description" text-type="text/html"><![CDATA[The Bulk Edit feature enables you to select multiple Work Items and edit, move, or delete them as a unit. When you save editing changes, values of modified fields are applied to all selected Work Items.<br/>
+ The set of Work Items available for editing varies according to the current Search query. You can use Shortcuts or saved or custom Search queries to isolate or narrow the subset of Work Items you want to edit all at once.<br/>
+ 
+<ul>
+  <li> Use bulk edit to change the category for all requirements inside specification to Functional Requirement<br/>
+    <img src="attachment:124-screenshot-20151230-083703.png" style="width: 381px;height: 600px;"/> </li>
+</ul>]]></field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Work Item bulk changes</field>
+    <field id="type">exercise</field>
+    <field id="upgradedescription" type="boolean">true</field>
+</work-item>

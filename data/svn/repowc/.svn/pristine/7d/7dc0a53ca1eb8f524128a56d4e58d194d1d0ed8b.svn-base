@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="author">stroebelet</field>
+    <field id="title">Propagating A Suspect</field>
+    <field id="created">2011-04-11 15:41:16.908 +0200</field>
+    <field id="priority">25.0</field>
+    <field id="description" text-type="text/html">Whenever you change the content of a Work Item or a Document, make following thinking process part of your daily work:&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;1) Ask yourself: Was my change a cosmetic change or did I change the content of the Work Item / Document ?&lt;br/&gt;&lt;br/&gt;2) When my change &lt;span style="text-decoration: underline;color: #3333FF;"&gt;is not cosmetic then use manual suspect save or auto suspect to&lt;/span&gt; mark impacted items for consistency review.&lt;br/&gt;&lt;img src="attachment:saveandSuspect.jpg"/&gt;&lt;br/&gt;&lt;br/&gt;&lt;img style="width: 497px;height: 450px;" src="workitemimg:4-screenshot-3.jpg"/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;Cosmetic changes: typo, formatting, change of an attribute&lt;br/&gt;Content changes: meaning, logic, added some additional reference documents&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;</field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="subtitle" type="string"> </field>
+</work-item>

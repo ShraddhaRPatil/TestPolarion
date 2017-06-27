@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">stroebelet</field>
+    <field id="created">2011-04-26 08:05:54.124 -0400</field>
+    <field id="description" text-type="text/html">Have a look at following wiki page containing examples you can use as a starting point&lt;br/&gt;&lt;ul&gt;&lt;li&gt;&lt;a target="_blank" href="/polarion/#/project/MyPolarion/wiki/Examples/Home"&gt;/polarion/#/project/MyPolarion/wiki/Examples/Home&lt;/a&gt;&lt;br/&gt;&lt;/li&gt;&lt;/ul&gt;&lt;br/&gt;</field>
+    <field id="hyperlinks">
+        <list>
+            <struct>
+                <item id="role">renderSlide</item>
+                <item id="uri">/polarion/wiki/bin/view/project/MyPolarion/page/macros/RenderSlides?item=MP-528</item>
+            </struct>
+            <struct>
+                <item id="role">example</item>
+                <item id="uri">/polarion/#/project/MyPolarion/wiki/Examples/Home</item>
+            </struct>
+        </list>
+    </field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">accepted</field>
+    <field id="subtitle" type="string">Examples and wiki snippets</field>
+    <field id="title">Chart And Trend Examples</field>
+    <field id="type">slide</field>
+</work-item>

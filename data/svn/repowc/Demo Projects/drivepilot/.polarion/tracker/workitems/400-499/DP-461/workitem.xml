@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="assignee">pGUI</field>
+    <field id="author">admin</field>
+    <field id="created">2013-02-04 17:54:45.408 +0100</field>
+    <field id="initialEstimate">7d</field>
+    <field id="linkedWorkItems">
+        <list>
+            <struct>
+                <item id="role">implements</item>
+                <item id="suspect">false</item>
+                <item id="workItem">DP-332</item>
+            </struct>
+        </list>
+    </field>
+    <field id="previousStatus">open</field>
+    <field id="priority">60.0</field>
+    <field id="resolution">done</field>
+    <field id="resolvedOn">2013-02-04 18:06:14.942 +0100</field>
+    <field id="severity">should_have</field>
+    <field id="status">verified-done</field>
+    <field id="timeSpent">8d</field>
+    <field id="title">DrivePilot checks "auto parking" capability</field>
+    <field id="type">workPackage</field>
+</work-item>

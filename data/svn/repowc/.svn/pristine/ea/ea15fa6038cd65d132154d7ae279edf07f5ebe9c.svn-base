@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">stroebelet</field>
+    <field id="created">2012-11-23 06:18:00.298 -0500</field>
+    <field id="description" text-type="text/html"><![CDATA[You will use your playground project for all exercises throughout this training<br/>
+<ul>
+  <li>Select &quot;<span style="font-style: italic;">Create New Project</span>&quot;<br/>
+    <img src="attachment:new-project.jpg"/><br/>
+  </li>
+  <li>click <span style="font-style: italic;">next</span> and add following project data</li>
+  <ul>
+    <li>Name = [Your Project Name]</li>
+    <li>TrackerPrefix = FUN</li>
+  </ul>
+  <li>Create a new project in <span style="font-weight: bold;">Sandbox/[Your Project Name]</span> using following template<img src="attachment:template.jpg"/></li>
+  <li>Open Project Home Page<br/>
+    <img src="attachment:home.jpg"/></li>
+</ul>]]></field>
+    <field id="hyperlinks">
+        <list>
+            <struct>
+                <item id="role">linkedExercise</item>
+                <item id="uri">/polarion/#/project/MyPolarion/wiki/Exercises/Create%20New%20Project</item>
+            </struct>
+        </list>
+    </field>
+    <field id="linkedWorkItems">
+        <list>
+            <struct>
+                <item id="revision">2736</item>
+                <item id="role">branched_from</item>
+                <item id="workItem">MP-773</item>
+            </struct>
+        </list>
+    </field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Create Your Own Playground Project</field>
+    <field id="type">exercise</field>
+</work-item>

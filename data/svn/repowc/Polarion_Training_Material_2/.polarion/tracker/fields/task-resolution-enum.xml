@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<enumeration>
+    <option color="#00FF00" default="true" iconURL="images/polarion/enums/testcase_passed.gif" id="finished" name="finished" sortOrder="1"/>
+    <option color="#FF0000" iconURL="images/polarion/enums/testcase_failed.gif" id="stopped" name="stopped" sortOrder="2"/>
+    <option color="#0000FF" iconURL="images/polarion/enums/testcase_blocked.gif" id="other" name="other" sortOrder="3"/>
+    <option iconURL="/polarion/icons/project/MyPolarion/16px-Stop_hand_nuvola_alternate_text.svg.gif" id="notPossible" name="not possible" sortOrder="4"/>
+    <option iconURL="/polarion/icons/default/enums/req_status_changes_needed.gif" id="notNeeded" name="not needed" sortOrder="5"/>
+</enumeration>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="author">CarolaH</field>
+    <field id="title">Links to Keep Traceability And Consistency</field>
+    <field id="created">2012-12-14 11:46:07.837 +0100</field>
+    <field id="description" text-type="text/html">&lt;img src="attachment:links.jpg"/&gt; </field>
+    <field id="priority">25.0</field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+    <field id="subtitle" type="string">You must be able to trace each statements within and across the different documents</field>
+    <field id="trainingCategory" multi="true" type="enum:trainingCategory"/>
+</work-item>

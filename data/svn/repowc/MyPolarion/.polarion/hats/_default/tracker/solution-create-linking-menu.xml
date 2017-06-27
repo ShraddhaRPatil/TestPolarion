@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<menu>
+  <item childInModule="true"/>
+  <item label="Refining Solution" role="refines" type="solution" copyFields="categories, timePoint"/>
+  <item label="Verifying Test Case" role="tests" type="testcase" titlePrefix="Test: " copyFields="categories"/>
+  <item label="Implementing Task" role="implements" type="task" titlePrefix="Implement: " copyFields="categories, timePoint"/>
+  
+  <separator/> 
+  
+  <item label="duplicate for change" role="replaces" type="solution" copyFields="categories,title,description,severity,priority,attachments,hyperlinks"/>
+</menu>

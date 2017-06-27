@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">admin</field>
+    <field id="created">2013-11-07 17:33:01.827 +0100</field>
+    <field id="description" text-type="text/html">Take one of your queried requirements and add yourself as approver via API function.&lt;br/&gt;&lt;span style="font-weight: bold;"&gt;Example Image:&lt;br/&gt; &lt;img src="attachment:changeWI.jpg"/&gt;&lt;br/&gt; &lt;img src="attachment:changeWI2.jpg"/&gt;&lt;br/&gt;&lt;/span&gt;</field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="type">exercise</field>
+</work-item>

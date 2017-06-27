@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">requirement</field>
+    <field id="author">admin</field>
+    <field id="title">Operating Environment</field>
+    <field id="created">2008-10-02 21:30:54.598 +0200</field>
+    <field id="priority">25.0</field>
+    <field id="description" text-type="text/html">&lt;em&gt;Describe the environment in which the system will be used and define the major availability, reliability, performance, and integrity requirements. This information will significantly influence the definition of the system’s architecture. Consider questions such as:&lt;br/&gt;&lt;/em&gt; &lt;ul&gt;&lt;li&gt;&lt;em&gt;Are the users widely distributed geographically or located close to each other? How many time zones are they in?&lt;/em&gt;&lt;/li&gt;&lt;li&gt;&lt;em&gt;When do the users in various locations need to access the system?&lt;/em&gt;&lt;/li&gt;&lt;li&gt;&lt;em&gt;Where is the data generated and used? How far apart are these locations? Does the data from multiple locations need to be combined?&lt;/em&gt;&lt;/li&gt;&lt;li&gt;&lt;em&gt;Are specific maximum response times known for accessing data that might be stored remotely?&lt;/em&gt;&lt;/li&gt;&lt;li&gt;&lt;em&gt;Can the users tolerate service interruptions or is continuous access to the system critical for the operation of their business?&lt;/em&gt;&lt;/li&gt;&lt;li&gt;&lt;em&gt;What access security controls and data protection requirements are needed?&lt;/em&gt;&lt;/li&gt;&lt;/ul&gt;</field>
+    <field id="status">draft</field>
+    <field id="severity">should_have</field>
+    <field id="previousStatus">open</field>
+</work-item>

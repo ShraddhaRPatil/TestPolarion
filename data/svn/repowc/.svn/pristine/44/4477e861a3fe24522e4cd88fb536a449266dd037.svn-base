@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">admin</field>
+    <field id="created">2013-11-06 17:25:29.541 +0100</field>
+    <field id="description" text-type="text/html">If we want to reuse the previous exercise so other members of our team can use them aswell we should create a macro with imput parameter.&lt;br/&gt;&lt;ul&gt;&lt;li&gt; Create a macro familylist and add parameter $familymember&lt;/li&gt;&lt;li style="list-style: none"&gt;&lt;ul&gt;&lt;li&gt;Insert previous exercise into your macro&lt;/li&gt;&lt;li&gt;Replace your list of family names and set $family=$familymember&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;Call macro familylist 2 times with different family members&lt;/li&gt;&lt;/ul&gt;&lt;span style="font-weight: bold;"&gt;Example Image:&lt;br/&gt; &lt;img src="attachment:macros.jpg"/&gt;&lt;/span&gt;&lt;br/&gt;</field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="type">exercise</field>
+</work-item>

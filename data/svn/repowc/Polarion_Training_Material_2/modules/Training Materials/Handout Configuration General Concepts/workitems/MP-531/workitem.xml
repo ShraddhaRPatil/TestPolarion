@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="hyperlinks">
+        <list>
+            <struct>
+                <item id="role">renderSlide</item>
+                <item id="uri">/polarion/wiki/bin/view/project/MyPolarion/page/macros/RenderSlides?item=MP-531</item>
+            </struct>
+        </list>
+    </field>
+    <field id="author">stroebelet</field>
+    <field id="title">Configuration Levels</field>
+    <field id="created">2011-04-27 11:18:38.584 +0200</field>
+    <field id="description" text-type="text/html">Depending on what you have selected, project, project-group or repository you have different configuration options&lt;br&gt;&lt;br&gt;&lt;div style="text-align: center;"&gt;&lt;img style="width: 439px; height: 163px;" src="workitemimg:5-globalVersusProject.png"&gt;&lt;br&gt;&lt;/div&gt;&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;&lt;table style="margin: auto; empty-cells: show; font-size: 100%; border-collapse: collapse; width: 100%; border: 1px solid rgb(204, 204, 204);" id="polarion_wiki macro name=table;params=width=100%"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th style="height: 12px; text-align: left; vertical-align: top; font-weight: bold; background-color: rgb(240, 240, 240); border: 1px solid rgb(204, 204, 204); padding: 5px;"&gt;&amp;nbsp;&lt;img src="workitemimg:2-repo.jpg"&gt;&lt;/th&gt;&lt;th style="height: 12px; text-align: left; vertical-align: top; font-weight: bold; background-color: rgb(240, 240, 240); border: 1px solid rgb(204, 204, 204); padding: 5px;"&gt;&amp;nbsp;&lt;img src="workitemimg:4-proj.jpg"&gt;&lt;/th&gt;&lt;th style="height: 12px; text-align: left; vertical-align: top; font-weight: bold; background-color: rgb(240, 240, 240); border: 1px solid rgb(204, 204, 204); padding: 5px;"&gt;&amp;nbsp;&lt;img src="workitemimg:3-project.jpg"&gt;&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="height: 12px; text-align: left; vertical-align: top; line-height: 18px; border: 1px solid rgb(204, 204, 204); padding: 5px;"&gt;&amp;nbsp;Global configuration&lt;/td&gt;&lt;td style="height: 12px; text-align: left; vertical-align: top; line-height: 18px; border: 1px solid rgb(204, 204, 204); padding: 5px;"&gt;&amp;nbsp;Project specific configuration (overwrites global configuration)&lt;/td&gt;&lt;td style="height: 12px; text-align: left; vertical-align: top; line-height: 18px; border: 1px solid rgb(204, 204, 204); padding: 5px;"&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="height: 12px; text-align: left; vertical-align: top; line-height: 18px; border: 1px solid rgb(204, 204, 204); padding: 5px;"&gt;&amp;nbsp;Global user and permission management&lt;/td&gt;&lt;td style="height: 12px; text-align: left; vertical-align: top; line-height: 18px; border: 1px solid rgb(204, 204, 204); padding: 5px;"&gt;&amp;nbsp;&lt;/td&gt;&lt;td style="height: 12px; text-align: left; vertical-align: top; line-height: 18px; border: 1px solid rgb(204, 204, 204); padding: 5px;"&gt;Time Point Configuration&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="height: 12px; text-align: left; vertical-align: top; line-height: 18px; border: 1px solid rgb(204, 204, 204); padding: 5px;"&gt;&amp;nbsp;Global job scheduler&lt;/td&gt;&lt;td style="height: 12px; text-align: left; vertical-align: top; line-height: 18px; border: 1px solid rgb(204, 204, 204); padding: 5px;"&gt;&amp;nbsp;&lt;/td&gt;&lt;td style="height: 12px; text-align: left; vertical-align: top; line-height: 18px; border: 1px solid rgb(204, 204, 204); padding: 5px;"&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="height: 12px; text-align: left; vertical-align: top; line-height: 18px; border: 1px solid rgb(204, 204, 204); padding: 5px;"&gt;&amp;nbsp;Project templates&lt;/td&gt;&lt;td style="height: 12px; text-align: left; vertical-align: top; line-height: 18px; border: 1px solid rgb(204, 204, 204); padding: 5px;"&gt;&amp;nbsp;&lt;/td&gt;&lt;td style="height: 12px; text-align: left; vertical-align: top; line-height: 18px; border: 1px solid rgb(204, 204, 204); padding: 5px;"&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;br&gt;&lt;br&gt;</field>
+    <field id="priority">25.0</field>
+    <field id="status">accepted</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+    <field id="subtitle" type="string">Polarion provides global and project configurations</field>
+    <field id="hint" type="string">Avoid mixes between global and project configurations.</field>
+</work-item>

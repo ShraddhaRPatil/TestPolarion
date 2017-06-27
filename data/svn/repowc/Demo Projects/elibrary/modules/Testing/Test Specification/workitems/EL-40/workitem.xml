@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="initialEstimate">1/6h</field>
+    <field id="linkedWorkItems">
+        <list>
+            <struct>
+                <item id="workItem">EL-116</item>
+                <item id="suspect">false</item>
+                <item id="role">verifies</item>
+            </struct>
+            <struct>
+                <item id="workItem">EL-118</item>
+                <item id="suspect">false</item>
+                <item id="role">verifies</item>
+            </struct>
+        </list>
+    </field>
+    <field id="type">testcase</field>
+    <field id="author">admin</field>
+    <field id="title">Open Book Properties</field>
+    <field id="created">2011-01-24 10:51:45.451 +0100</field>
+    <field id="priority">50.0</field>
+    <field id="remainingEstimate">1/6h</field>
+    <field id="status">active</field>
+    <field id="severity">smoke</field>
+    <field id="previousStatus">draft</field>
+    <field id="testType" type="enum:testtype">user</field>
+    <field id="testSteps" type="struct:TestSteps">
+        <struct>
+            <item id="keys">
+                <list>
+                    <item>step</item>
+                    <item>description</item>
+                    <item>expectedResult</item>
+                </list>
+            </item>
+            <item id="steps">
+                <list>
+                    <struct>
+                        <item id="values">
+                            <list>
+                                <item text-type="text/html">Search for some book</item>
+                                <item text-type="text/html">E.g. using keywords</item>
+                                <item text-type="text/html">Results page is shown.</item>
+                            </list>
+                        </item>
+                    </struct>
+                    <struct>
+                        <item id="values">
+                            <list>
+                                <item text-type="text/html">Double click on book</item>
+                                <item text-type="text/html"> </item>
+                                <item text-type="text/html">Book properties dialog is shown</item>
+                            </list>
+                        </item>
+                    </struct>
+                    <struct>
+                        <item id="values">
+                            <list>
+                                <item text-type="text/html">Hit Enter key</item>
+                                <item text-type="text/html"> </item>
+                                <item text-type="text/html">Results are shown, keyword is highlighted. Dialog renders nicely: name, ISBN, author, data, ..</item>
+                            </list>
+                        </item>
+                    </struct>
+                </list>
+            </item>
+        </struct>
+    </field>
+</work-item>

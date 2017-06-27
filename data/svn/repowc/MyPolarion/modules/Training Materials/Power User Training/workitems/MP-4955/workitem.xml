@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">schucks</field>
+    <field id="created">2013-07-31 09:16:04.063 -0400</field>
+    <field id="description" text-type="text/html">By default our project_user has more or less read only rights. We want to allow him to create and modify work items and also documents.&lt;br/&gt; &lt;ul&gt;&lt;li&gt;Go to User Management &amp;gt; Permissions Management&lt;/li&gt;&lt;li&gt;Select tab "By Role"&lt;/li&gt;&lt;li&gt;Enable Permissions&lt;/li&gt;&lt;li style="list-style: none"&gt;&lt;ul&gt;&lt;li&gt;Work Items:&lt;/li&gt;&lt;li style="list-style: none"&gt;&lt;ul&gt;&lt;li&gt;Read, Create New, Modify, Comment, Vote, Watch&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;Documents:&lt;/li&gt;&lt;li style="list-style: none"&gt;&lt;ul&gt;&lt;li&gt;Read, Create New, Modify fields, Modify Content, Manage&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;img style="width: 379px;height: 600px;" src="attachment:72-screenshot-20141030-080043.png"/&gt;&lt;br/&gt; &lt;ul&gt;&lt;li&gt;Verify your newly created user can create, modify work items/documents but can´t delete these or create wiki pages.&lt;/li&gt;&lt;/ul&gt;</field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Change Permissions  in your Project</field>
+    <field id="type">exercise</field>
+</work-item>

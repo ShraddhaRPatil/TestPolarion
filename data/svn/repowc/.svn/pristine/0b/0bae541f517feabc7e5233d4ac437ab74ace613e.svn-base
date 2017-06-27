@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="hyperlinks">
+        <list>
+            <struct>
+                <item id="role">renderSlide</item>
+                <item id="uri">/polarion/wiki/bin/view/project/MyPolarion/page/macros/RenderSlides?item=MP-462</item>
+            </struct>
+        </list>
+    </field>
+    <field id="author">admin</field>
+    <field id="title">What Is A Polarion Document ?</field>
+    <field id="created">2011-03-31 21:48:35.488 +0200</field>
+    <field id="description" text-type="text/html">&lt;img src="workitemimg:2-screenshot-1.jpg" style="width: 750px; height: 471px;"/&gt;</field>
+    <field id="priority">25.0</field>
+    <field id="status">accepted</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+    <field id="subtitle" type="string">Polarion Livedocs combine work items, headings and plain text within one document</field>
+    <field id="trainingCategory" multi="true" type="enum:trainingCategory">
+        <list>
+            <item>user</item>
+        </list>
+    </field>
+    <field id="printNotes" text-type="text/html" type="text/html">&lt;div&gt;&lt;ul&gt;&lt;li&gt;Polarion documents combine static description with dynamic content&lt;/li&gt;&lt;li&gt;Polarion documents are container for work items&lt;/li&gt;&lt;li&gt;Headings are represented as work items as well -&amp;gt; possibility to have work flow actions on top of headings&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</field>
+    <field id="speakersNotes" text-type="text/plain" type="text/html"/>
+</work-item>

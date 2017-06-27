@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="hyperlinks">
+        <list>
+            <struct>
+                <item id="role">download</item>
+                <item id="uri">http://extensions.polarion.com/polarion/extensions/extension.jsp?extension=PE-297</item>
+            </struct>
+            <struct>
+                <item id="role">download</item>
+                <item id="uri">http://extensions.polarion.com/polarion/extensions/extension.jsp?extension=PE-43</item>
+            </struct>
+        </list>
+    </field>
+    <field id="author">stroebelet</field>
+    <field id="title">Integration With Eclipse / Visual Studio</field>
+    <field id="created">2011-05-17 20:55:53.404 +0200</field>
+    <field id="priority">25.0</field>
+    <field id="description" text-type="text/html">Integrations in Eclipse and Visual Studio can be downloaded from the "Polarion POP Extensions" portal.&lt;span style="font-weight: bold;text-decoration: underline;"&gt;&lt;br/&gt;&lt;br/&gt; &lt;img src="workitemimg:1-Eclipse.jpg"/&gt;&lt;br/&gt;&lt;br/&gt; &lt;img src="workitemimg:2-visualStudio.jpg"/&gt;&lt;br/&gt;&lt;/span&gt;</field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="subtitle" type="string"> </field>
+</work-item>

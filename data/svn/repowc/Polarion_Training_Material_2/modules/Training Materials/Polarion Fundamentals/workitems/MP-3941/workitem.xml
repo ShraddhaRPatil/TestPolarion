@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">CarolaH</field>
+    <field id="created">2012-12-13 07:31:55.045 -0500</field>
+    <field id="description" text-type="text/html"><![CDATA[You will use your training project for all exercises throughout this training. <br/>
+Familiarize yourself with your Polarion Portal e.g.:<br/>
+<ul>
+  <li>Open your training project if not already opened</li>
+  <li>Open your personal home page</li>
+  <li>Open your project home page</li>
+  <ul>
+    <li>Navigate through your project using your project home page as start point</li>
+  </ul>
+  <li>Open your <span style="font-style: italic;">Work Items</span></li>
+  <ul>
+    <li>Explore the different <span style="font-style: italic;">Work Items</span> Views</li>
+    <li>Use different layouts for your panes</li>
+    <li>Activate and deactivate <span style="font-style: italic;">Lite Form</span></li>
+  </ul>
+  <li>Open <span style="font-style: italic;">Documents &amp; Wiki</span></li>
+  <li>Expand your <span style="font-style: italic;">Navigation Bar</span></li>
+  <ul>
+    <li>Use <span style="font-style: normal;">&quot;Save as Shortcut&quot;</span> - What happens ?<br/>
+    </li>
+  </ul>
+</ul>]]></field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Get familiar with the Polarion Portal</field>
+    <field id="type">exercise</field>
+</work-item>

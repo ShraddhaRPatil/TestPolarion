@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="author">stroebelet</field>
+    <field id="title">Custom Fields And Values</field>
+    <field id="created">2011-04-27 17:16:15.942 +0200</field>
+    <field id="priority">25.0</field>
+    <field id="description" text-type="text/html">&lt;img src="workitemimg:2-screenshot-2.jpg" style="height: 450px; width: 570px;"/&gt;&lt;br/&gt;&lt;ul&gt;&lt;li&gt;&lt;span style="font-weight: bold;"&gt;Multi&lt;/span&gt;: User can select multiple values&lt;/li&gt;&lt;li&gt;&lt;span style="font-weight: bold;"&gt;Required&lt;/span&gt;: Field is required (deprecated). Use workflow configuration instead&lt;/li&gt;&lt;/ul&gt;</field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="subtitle" type="string"> </field>
+</work-item>

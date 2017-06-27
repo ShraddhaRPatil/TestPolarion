@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">daniel.morris</field>
+    <field id="created">2015-12-31 07:27:23.227 -0500</field>
+    <field id="description" text-type="text/html"><![CDATA[<span style="font-size: 10pt;font-family: Verdana, Geneva, sans-serif;line-height: 1.5;">In manual testing, it is common for the testing steps of a test case to be executed multiple times with variations in the test procedure. For example, the same set of steps might be run on desktop and mobile operating systems, and/or with different browsers on the different operating platforms, or an electromechanical component might be tested with different input voltages. Polarion’s Test Parameters (or “Parameterized Testing”) feature can help make the test specification process efficient and flexible.<br/>
+  One way to test our previously created test case in several browsers or username/password combinations would be to create duplicates of this test case but as already said this is not really efficient.<br/>
+  </span> 
+<ul>
+  <li><span style="font-size: 10pt;font-family: Verdana, Geneva, sans-serif;line-height: 1.5;">Open test case <span style="font-style: italic;">Login should be case sensitive</span></span></li>
+  <li><span style="font-style: normal;font-size: 10pt;font-family: Verdana, Geneva, sans-serif;line-height: 1.5;">Replace following test step content with parmaters (parameter id in brackets) <span style="font-style: italic;">browser(browser), &quot;Admin&quot;(username), &quot;admin&quot;(password)</span></span><span style="font-style: italic;font-size: 10pt;font-family: Verdana, Geneva, sans-serif;line-height: 1.5;"><br/>
+      <img src="attachment:78-screenshot-20160104-051634.png" style="width: 568px;height: 300px;"/></span></li>
+  <ul>
+    <li><span style="font-style: normal;font-size: 10pt;font-family: Verdana, Geneva, sans-serif;line-height: 1.5;">Add parmaters to library so we can use them later during test planning.<br/>
+        <img src="attachment:79-screenshot-20160104-051634.png" style="width: 248px;height: 200px;"/></span></li>
+  </ul>
+  <li><span style="font-style: normal;font-size: 10pt;font-family: Verdana, Geneva, sans-serif;line-height: 1.5;">Resolve previously created comment</span></li>
+  <li><span style="font-style: normal;font-size: 10pt;font-family: Verdana, Geneva, sans-serif;line-height: 1.5;">Change status to <span style="font-style: italic;">Active</span></span></li>
+  <li><span style="font-style: normal;font-size: 10pt;font-family: Verdana, Geneva, sans-serif;line-height: 1.5;">Save changes</span></li>
+</ul>]]></field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Adding Test parameters to previous test case</field>
+    <field id="type">exercise</field>
+</work-item>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project>
+    <field id="active">true</field>
+    <field id="lead">admin</field>
+    <field id="name">MyPolarion</field>
+    <field id="start">2017-06-21</field>
+    <field id="trackerPrefix">MP</field>
+</project>

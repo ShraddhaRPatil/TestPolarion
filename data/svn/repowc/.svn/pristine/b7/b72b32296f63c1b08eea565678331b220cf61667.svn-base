@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">stroebelet</field>
+    <field id="created">2012-04-24 11:06:05.529 +0200</field>
+    <field id="description" text-type="text/html">In your personal homepage you can find your basic todo list containing all activities and work items which have been assigned to you. Open a work item to comment on it or use the activity stream to comment on latest by your team members &lt;ul&gt;&lt;li&gt;Open your personal homepage "&lt;span style="font-style: italic;"&gt;My Polarion&lt;/span&gt;"&lt;br/&gt; &lt;img src="attachment:personalHomepage.jpg"/&gt;&lt;/li&gt;&lt;li&gt;Click on the task "gather requirements for our project" to open the work item&lt;br/&gt;&lt;/li&gt;&lt;li&gt;Add following comment "&lt;span style="font-style: italic;"&gt;what template shall I use to gather the requirements ?"&lt;br/&gt; &lt;img style="width: 724px;height: 208px;" src="attachment:addAComment.jpg"/&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;Save the work item&lt;/li&gt;&lt;/ul&gt;</field>
+    <field id="initialEstimate">1/12h</field>
+    <field id="linkedWorkItems">
+        <list>
+            <struct>
+                <item id="revision">41995</item>
+                <item id="role">branched_from</item>
+                <item id="workItem">MP-2078</item>
+            </struct>
+        </list>
+    </field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="remainingEstimate">1/12h</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Find your activities and comment on them</field>
+    <field id="type">exercise</field>
+</work-item>

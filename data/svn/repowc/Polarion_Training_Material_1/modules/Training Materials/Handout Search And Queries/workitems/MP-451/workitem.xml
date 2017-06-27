@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="hyperlinks">
+        <list>
+            <struct>
+                <item id="role">renderSlide</item>
+                <item id="uri">/polarion/wiki/bin/view/project/MyPolarion/page/macros/RenderSlides?item=MP-451</item>
+            </struct>
+        </list>
+    </field>
+    <field id="author">admin</field>
+    <field id="title">Search Options</field>
+    <field id="created">2011-03-30 09:31:05.098 +0200</field>
+    <field id="priority">25.0</field>
+    <field id="description" text-type="text/html">The following options are available to find information easily in Polarion:&lt;br/&gt;&lt;ul&gt;&lt;li&gt;&lt;span style="font-weight: bold;"&gt;Quick search&lt;/span&gt; (e.g. quickly find a document titles )&lt;br/&gt; &lt;img style="width: 178px;height: 250px;" src="attachment:quicksearch.jpg"/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;/li&gt;&lt;li&gt;&lt;span style="font-weight: bold;"&gt;Shortcuts&lt;/span&gt; (e.g. find all items assigned to me)&lt;br/&gt; &lt;img style="width: 171px;height: 250px;" src="attachment:searchsuspects.jpg"/&gt;&lt;br/&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;Use ENTER to search in whole project.&lt;/li&gt;&lt;/ul&gt;</field>
+    <field id="status">accepted</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+    <field id="subtitle" type="string"> </field>
+    <field id="hint" type="string">The deep search list search results by relevance</field>
+    <field id="trainingCategory" multi="true" type="enum:trainingCategory">
+        <list>
+            <item>user</item>
+        </list>
+    </field>
+</work-item>

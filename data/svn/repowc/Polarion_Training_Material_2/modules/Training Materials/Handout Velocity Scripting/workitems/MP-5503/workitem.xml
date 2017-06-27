@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">schucks</field>
+    <field id="created">2014-12-01 09:14:00.569 -0500</field>
+    <field id="description" text-type="text/html">&lt;br/&gt; &lt;ul&gt;&lt;li&gt;Existing components&lt;/li&gt;&lt;li&gt;Execution Environment&lt;/li&gt;&lt;li&gt;Execution order&lt;/li&gt;&lt;/ul&gt;&lt;img src="attachment:diagram_20141201-1517.35761.mxg.png"/&gt;</field>
+    <field id="linkedWorkItems">
+        <list>
+            <struct>
+                <item id="revision">39748</item>
+                <item id="role">parent</item>
+                <item id="workItem">MP-5488</item>
+            </struct>
+            <struct>
+                <item id="revision">39760</item>
+                <item id="role">branched_from</item>
+                <item id="workItem">MP-5498</item>
+            </struct>
+        </list>
+    </field>
+    <field id="previousStatus">open</field>
+    <field id="printNotes" text-type="text/html" type="text/html">Thes Notes will be printed as part of the training materials</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Content of a Wiki Page</field>
+    <field id="type">slide</field>
+</work-item>

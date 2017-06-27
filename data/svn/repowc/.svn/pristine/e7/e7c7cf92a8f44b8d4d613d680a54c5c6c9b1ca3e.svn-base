@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="initialEstimate">1/12h</field>
+    <field id="linkedWorkItems">
+        <list>
+            <struct>
+                <item id="workItem">EL-146</item>
+                <item id="suspect">false</item>
+                <item id="role">verifies</item>
+            </struct>
+        </list>
+    </field>
+    <field id="type">testcase</field>
+    <field id="author">admin</field>
+    <field id="title">Test: user name may not contain space</field>
+    <field id="created">2012-02-01 18:19:48.376 +0100</field>
+    <field id="priority">50.0</field>
+    <field id="remainingEstimate">1/12h</field>
+    <field id="status">active</field>
+    <field id="severity">basic</field>
+    <field id="previousStatus">draft</field>
+    <field id="testType" type="enum:testtype">manual</field>
+    <field id="testSteps" type="struct:TestSteps">
+        <struct>
+            <item id="keys">
+                <list>
+                    <item>step</item>
+                    <item>description</item>
+                    <item>expectedResult</item>
+                </list>
+            </item>
+            <item id="steps">
+                <list>
+                    <struct>
+                        <item id="values">
+                            <list>
+                                <item text-type="text/html">Open User Account page</item>
+                                <item text-type="text/html">Login to E-Library Portal, and click user account in top left corner</item>
+                                <item text-type="text/html">User Account page is displayed</item>
+                            </list>
+                        </item>
+                    </struct>
+                    <struct>
+                        <item id="values">
+                            <list>
+                                <item text-type="text/html">Create new user</item>
+                                <item text-type="text/html">Click on "Create new user" link</item>
+                                <item text-type="text/html">New user account dialog is opened</item>
+                            </list>
+                        </item>
+                    </struct>
+                    <struct>
+                        <item id="values">
+                            <list>
+                                <item text-type="text/html">Save without password</item>
+                                <item text-type="text/html">Type user name:"foo bar" and hit save</item>
+                                <item text-type="text/html">System reports that the password should not contain space char</item>
+                            </list>
+                        </item>
+                    </struct>
+                </list>
+            </item>
+        </struct>
+    </field>
+</work-item>

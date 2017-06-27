@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">stroebelet</field>
+    <field id="created">2012-05-30 06:13:33.156 -0400</field>
+    <field id="description" text-type="text/html"><![CDATA[Polarion supports a formal approval process for any type of Work Item through the Approval Center feature. Approvals can be integrated into the workflow of Work Items, integrating approvals into the workflow ensures that steps and people are not skipped or bypassed in the approval process. In the template we´ve chosen this workflow integration is not configured. The lead for approving data is your document workflow and it´s signatures. Dependant on your process you might want to consider to use this Work Item integration instead or combine both ways of working. Even if this workflow intergration isn´t configured you can use this formal approval to verify each item has been read and approved.<br/>
+ 
+<ul>
+  <li>Open Polarion´s Approval Center (still in Elibrary spec)<br/>
+    <img src="attachment:110-screenshot-20141031-084211.png"/><br/>
+    and approve all but one. Add a Work Item comment to the one you don&#39;t approve which describes why you don&#39;t approve the requirement<br/>
+    <br/>
+    <img src="attachment:approvalCenter.jpg" style="width: 724px;height: 330px;"/><br/>
+    
+    <table id="polarion_wiki macro name=table;params=width=600px" class="polarion-Document-table" style="width: 600px;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;">
+      <tbody>
+        <tr>
+          <th style="font-weight: bold;font-size: 9pt;background-color: #F0F0F0;line-height: 1.5;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Hint: You can use the Approval Center in Tracker- and Documents view.<br/>
+            Polarion has a workflow function that adds a default list of approving users (“Approvers”) to Work Items.  The specific users are selected (if workflow rule is set) according to a configurable user role e.g. project_approver.<br/>
+            <br/>
+            There’s also a new workflow condition that checks the approval state and makes workflow transition possible only if the approval state is “approved”.</th>
+        </tr>
+      </tbody>
+    </table>
+    </li>
+</ul>
+ 
+<ul>
+  <li>This was easy because we were already working in this specification but what about your project lead who wants to know the status of your project.<br/>
+    Goto Work Items tracker view<br/>
+    <img src="attachment:125-screenshot-20151230-103625.png" style="width: 331px;height: 200px;"/></li>
+  <li>Find all requirements with status <span style="font-style: italic;">In Review </span>and all approvals already done<span style="font-style: italic;">.</span> Use table view with appropriate query like <span style="font-style: italic;">approvalState:approved AND status:reviewed</span>.<br/>
+    
+    <table id="polarion_wiki macro name=table;params=width=600px" class="polarion-Document-table" style="width: 600px;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;">
+      <tbody>
+        <tr>
+          <th style="font-weight: bold;font-size: 9pt;background-color: #F0F0F0;line-height: 1.5;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Hint: You can add rules for approvals as required field for action <span style="font-style: italic;">Perform action Mark approved</span> inside your requirement workflow definition to follow a strict process. But this isn´t defined in this template. In this template the LiveDoc workflow is the leading workflow.</th>
+        </tr>
+      </tbody>
+    </table>
+    </li>
+  <li>Go back to E-Library_2011 spec</li>
+  <li>Sign document and approve specification</li>
+  <li>Review content of this specification. All Work Items are approved and you also have some sort of document baseline stored as hyperlink in your wiki content.</li>
+</ul>]]></field>
+    <field id="linkedWorkItems">
+        <list>
+            <struct>
+                <item id="revision">41916</item>
+                <item id="role">branched_from</item>
+                <item id="workItem">MP-791</item>
+            </struct>
+        </list>
+    </field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Approving Work Items</field>
+    <field id="type">exercise</field>
+</work-item>

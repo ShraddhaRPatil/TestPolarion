@@ -1,0 +1,30 @@
+polarion.info.tx.summary (Summary of time spent logged to tx log) = null
+
+system.info.disk.data.free (Free data disk 'C:\Polarion\polarion\..\data' space) = Disk Space 
+847.38 GB
+ [Tue Jun 27 14:19:56 IST 2017]
+
+system.info.garbageCollector.full.cycles (Full Garbage Collector cycles) = Full Garbage Collector cycles 
+Full GC cycles: 9; Time: 1995
+ [Tue Jun 27 14:19:56 IST 2017]
+
+system.info.garbageCollector.normal.cycles (Normal Garbage Collector cycles) = Normal Garbage Collector cycles 
+Normal GC cycles: 237; Time: 1859
+ [Tue Jun 27 14:19:56 IST 2017]
+
+system.info.jvm.version (JVM Version) = JVM Version 
+Oracle Corporation Java HotSpot(TM) 64-Bit Server VM 25.111-b14
+ [Tue Jun 27 11:09:18 IST 2017]
+
+system.info.memory.nonheap.free (Free non-heap memory) = Java Metaspace Memory 
+Unlimited
+ [Tue Jun 27 14:19:56 IST 2017]
+
+system.info.memory.oldGen.free (Free Old Gen memory after GC) = Java Heap Memory 
+Old Gen pool has  48.59% memory free after GC.
+ [Tue Jun 27 14:19:56 IST 2017]
+
+system.info.os.version (OS Version) = OS Version 
+Windows 10 10.0 amd64
+ [Tue Jun 27 11:09:18 IST 2017]
+

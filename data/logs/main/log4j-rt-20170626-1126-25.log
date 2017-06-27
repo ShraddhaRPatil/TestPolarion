@@ -1,0 +1,12 @@
+2017-06-26 11:26:49,759 [localhost-startStop-1] INFO  com.siemens.polarion.rt.config.RtAppConfig  - RT server config is created
+2017-06-26 11:26:50,868 [localhost-startStop-1] INFO  com.siemens.polarion.rt.parsers.RtParserProviderImpl  - Initialization of RT parsers...
+2017-06-26 11:26:50,871 [localhost-startStop-1] INFO  com.siemens.polarion.rt.parsers.RtParserProviderImpl  - Found parser com.siemens.polarion.rt.parsers.c (contributed by 'com.siemens.polarion.rt.parsers.c')
+2017-06-26 11:26:50,873 [localhost-startStop-1] INFO  com.siemens.polarion.rt.parsers.RtParserProviderImpl  - Found parser com.siemens.polarion.rt.parsers.java (contributed by 'com.siemens.polarion.rt')
+2017-06-26 11:26:50,874 [localhost-startStop-1] INFO  com.siemens.polarion.rt.parsers.RtParserProviderImpl  - Found parser com.siemens.polarion.rt.parsers.xml (contributed by 'com.siemens.polarion.rt')
+2017-06-26 11:26:51,136 [localhost-startStop-1] INFO  com.siemens.polarion.rt.collectors.RtCollectorProviderImpl  - Initialization of RT collectors...
+2017-06-26 11:26:51,137 [localhost-startStop-1] INFO  com.siemens.polarion.rt.collectors.RtCollectorProviderImpl  - Found collector for git (contributed by 'com.siemens.polarion.rt.collectors.git')
+2017-06-26 11:26:51,138 [localhost-startStop-1] INFO  com.siemens.polarion.rt.collectors.RtCollectorProviderImpl  - Found collector for subversion (contributed by 'com.siemens.polarion.rt')
+2017-06-26 11:27:03,378 [main | u:p] INFO  com.siemens.polarion.rt.communication.connection.RtNotifier  - RT server was successfully notified of configuration change.
+2017-06-26 11:27:03,378 [main | u:p] INFO  com.siemens.polarion.rt.communication.connection.RtNotificationStartup  - Rt notification service is started
+2017-06-26 11:41:08,040 [ajp-nio-8889-exec-4 | u:admin] INFO  com.siemens.polarion.rt.communication.connection.RtNotifier  - RT server was successfully notified of configuration change.
+2017-06-26 13:33:49,110 [localhost-startStop-2] INFO  com.siemens.polarion.rt.config.RtClosingApplicationListener  - Rt closing event received

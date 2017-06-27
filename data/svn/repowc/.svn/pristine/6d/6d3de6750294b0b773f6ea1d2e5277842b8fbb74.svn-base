@@ -1,0 +1,3 @@
+build-config-shared.local.repository=true
+maven.compiler.failOnError=false
+polarion.build.maven.extra.jvm.options=-Xmx640m

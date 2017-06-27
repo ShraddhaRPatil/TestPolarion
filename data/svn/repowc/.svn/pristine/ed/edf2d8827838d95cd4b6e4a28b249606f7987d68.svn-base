@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">daniel.morris</field>
+    <field id="created">2014-08-07 07:37:32.319 -0400</field>
+    <field id="description" text-type="text/html">By default you track your process via Work Items but sometimes you also want to track your process by defining a workflow for your document. To select a document workflow during document creation or import we need to define a document type and its corresponding workflow.&lt;br/&gt; &lt;ul&gt;&lt;li&gt;Open Administration &amp;gt; Documents &amp; Wiki &amp;gt; Document Types&lt;/li&gt;&lt;li&gt;Add a configuration for specifications which will be send to your consultant called &amp;quot;Question Specification&amp;quot;&lt;br/&gt; &lt;img src="attachment:70-screenshot-20141030-060353.png"/&gt;&lt;/li&gt;&lt;/ul&gt;&lt;br/&gt; &lt;br/&gt;</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Create document type question specification</field>
+    <field id="type">exercise</field>
+</work-item>

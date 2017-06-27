@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<enumeration>
+    <option default="true" iconURL="/polarion/icons/default/enums/type_requirement.gif" id="requirement" name="Requirement" sortOrder="1"/>
+    <option description="A task that needs to be done." iconURL="/polarion/icons/default/enums/type_task.gif" id="task" name="Task" sortOrder="2"/>
+    <option id="testcase" name="Test Case" description="A test case." iconURL="/polarion/icons/default/enums/type_test.gif" sortOrder="3"/>
+</enumeration>

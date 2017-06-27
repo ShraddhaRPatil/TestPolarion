@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<module>
+    <field id="author">daniel.morris</field>
+    <field id="branchedFrom">Training Materials#QA User Training</field>
+    <field id="created">2012-07-16 06:50:25.796 -0400</field>
+    <field id="homePageContent" text-type="text/html"><![CDATA[<div id="polarion_editor_html_block_merged_0" class="polarion-dle-wiki-block">
+  <div id="polarion_editor_html_block_content" contentEditable="false"></div><pre id="polarion_editor_html_block_source" class="polarion-dle-wiki-block-source" contentEditable="false">#includeMacros(&quot;macros.macros&quot;)</pre>
+</div><h1 id="polarion_wiki macro name=module-workitem;params=id=MP-3259"></h1><p id="polarion_new_18">
+  <br/>
+</p><div id="polarion_wiki macro name=module-workitem;params=id=MP-2281|layout=2|external=true"></div><h2 id="polarion_wiki macro name=module-workitem;params=id=MP-3260"></h2><p id="polarion_new_17"> </p><div id="polarion_wiki macro name=module-workitem;params=id=MP-2285|layout=2|external=true"></div><p id="polarion_new_16">
+  <br/>
+</p><div id="polarion_wiki macro name=page_break" contentEditable="false"></div><h2 id="polarion_wiki macro name=module-workitem;params=id=MP-3261"></h2><div id="polarion_wiki macro name=toc"></div><div id="polarion_wiki macro name=page_break;params=uid=0" contentEditable="false"></div><h2 id="polarion_wiki macro name=module-workitem;params=id=MP-3275"></h2><h3 id="polarion_wiki macro name=module-workitem;params=id=MP-5551"></h3><h4 id="polarion_wiki macro name=module-workitem;params=id=MP-5552"></h4><div id="polarion_wiki macro name=module-workitem;params=id=MP-2746|layout=1|external=true"></div><div id="polarion_wiki macro name=module-workitem;params=id=MP-5546|layout=1|external=true"></div><div id="polarion_wiki macro name=module-workitem;params=id=MP-5547|layout=1|external=true"></div><p id="polarion_1"></p><div id="polarion_wiki macro name=module-workitem;params=id=MP-5548|layout=1|external=true"></div><p id="polarion_2"></p><div id="polarion_wiki macro name=module-workitem;params=id=MP-2750|layout=1|external=true"></div><h4 id="polarion_wiki macro name=module-workitem;params=id=MP-5553"></h4><div id="polarion_editor_html_block3" class="polarion-dle-wiki-block">
+  <div id="polarion_editor_html_block_content" contentEditable="false"></div><pre id="polarion_editor_html_block_source" class="polarion-dle-wiki-block-source" contentEditable="false">#slide(&quot;MP-2791&quot;)
+#video(&quot;http://www.polarion.com/video/tutorials/excel-import/&quot;)
+#helpLink(&quot;/polarion/help/topic/com.polarion.xray.doc.user/ugchWorkitemsImporting.html&quot; &quot;Excel Import&quot;)</pre>
+</div><p id="polarion_4"></p><h4 id="polarion_wiki macro name=module-workitem;params=id=MP-5554"></h4><div id="polarion_wiki macro name=module-workitem;params=id=MP-4848|layout=1|external=true"></div><div id="polarion_wiki macro name=module-workitem;params=id=MP-3003|layout=1|external=true"></div><p id="polarion_new_13"></p>]]></field>
+    <field id="renderingLayouts">
+        <list>
+            <struct>
+                <item id="label">Task</item>
+                <item id="layouter">section</item>
+                <item id="properties">
+                    <list>
+                        <struct>
+                            <item id="key">fieldsAtStart</item>
+                        </struct>
+                        <struct>
+                            <item id="key">fieldsAtEnd</item>
+                            <item id="value">status,Resolution</item>
+                        </struct>
+                        <struct>
+                            <item id="key">fieldsAtEndAsTable</item>
+                        </struct>
+                        <struct>
+                            <item id="key">hidden</item>
+                        </struct>
+                    </list>
+                </item>
+                <item id="type">task</item>
+            </struct>
+            <struct>
+                <item id="label">Exercise</item>
+                <item id="layouter">section</item>
+                <item id="properties">
+                    <list>
+                        <struct>
+                            <item id="key">fieldsAtStart</item>
+                            <item id="value">id</item>
+                        </struct>
+                        <struct>
+                            <item id="key">fieldsAtEnd</item>
+                        </struct>
+                        <struct>
+                            <item id="key">fieldsAtEndAsTable</item>
+                            <item id="value">true</item>
+                        </struct>
+                        <struct>
+                            <item id="key">hidden</item>
+                        </struct>
+                    </list>
+                </item>
+                <item id="type">exercise</item>
+            </struct>
+            <struct>
+                <item id="label">Text</item>
+                <item id="layouter">paragraph</item>
+                <item id="properties">
+                    <list>
+                        <struct>
+                            <item id="key">fieldsAtStart</item>
+                        </struct>
+                        <struct>
+                            <item id="key">fieldsAtEnd</item>
+                        </struct>
+                        <struct>
+                            <item id="key">fieldsAtEndAsTable</item>
+                        </struct>
+                        <struct>
+                            <item id="key">hidden</item>
+                        </struct>
+                    </list>
+                </item>
+                <item id="type">text</item>
+            </struct>
+        </list>
+    </field>
+    <field id="structureLinkRole">parent</field>
+    <field id="usesOutlineNumbering">true</field>
+</module>

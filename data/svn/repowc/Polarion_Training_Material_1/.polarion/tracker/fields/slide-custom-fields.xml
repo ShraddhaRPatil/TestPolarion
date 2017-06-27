@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<fields>
+    <field description="Subtitle" id="subtitle" name="subtitle" type="string"/>
+    <field description="what should be explained in the slide" id="speakersNotes" name="Speakers Notes" type="text/html"/>
+    <field description="Questions for the Students" id="questions" name="Questions" type="string"/>
+    <field description="Hint or Tips" id="hint" name="Hint" type="string"/>
+    <field description="Training Category" id="trainingCategory" multi="true" name="Training Category" type="enum:trainingCategory"/>
+    <field default="Thes Notes will be printed as part of the training materials" id="printNotes" name="Print Notes" type="text/html"/>
+</fields>

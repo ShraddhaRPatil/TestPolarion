@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">stroebelet</field>
+    <field id="created">2012-04-24 05:44:49.054 -0400</field>
+    <field id="description" text-type="text/html"><![CDATA[Create a new document and add two new requirements 
+<ul>
+  <li>Go to Documents &amp; Pages | Specification | Index and create a new LiveDoc document<br/>
+    <img src="attachment:114-screenshot-20151229-052248.png" style="width: 721px;height: 96px;"/></li>
+  <li>Document name: <span style="font-style: italic;">CRS_E-Library.</span> The document should contain Re<span style="font-style: italic;">quirement</span> work items and the prefix should be <span style="font-style: italic;">CRS</span>.<br/>
+    <img src="attachment:115-screenshot-20151229-052249.png" style="width: 518px;height: 600px;"/><br/>
+    </li>
+</ul>]]></field>
+    <field id="linkedWorkItems">
+        <list>
+            <struct>
+                <item id="revision">41890</item>
+                <item id="role">branched_from</item>
+                <item id="workItem">MP-954</item>
+            </struct>
+        </list>
+    </field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Create a new user requirements specification</field>
+    <field id="type">exercise</field>
+</work-item>

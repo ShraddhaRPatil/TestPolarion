@@ -1,0 +1,1 @@
+2017-06-22 10:34:56,378 [main] ERROR org.apache.hivemind.impl.RegistryBuilder  - Error: Module com.polarion.example.workflow is duplicated!  Definition in bundleresource://121/META-INF/hivemodule.xml has been ignored in favor of existing definition from bundleresource://121:1/META-INF/hivemodule.xml.

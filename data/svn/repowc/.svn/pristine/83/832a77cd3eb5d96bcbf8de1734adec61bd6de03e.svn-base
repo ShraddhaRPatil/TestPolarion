@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="initialEstimate">1/12h</field>
+    <field id="linkedWorkItems">
+        <list>
+            <struct>
+                <item id="workItem">EL-107</item>
+                <item id="suspect">false</item>
+                <item id="role">verifies</item>
+            </struct>
+        </list>
+    </field>
+    <field id="type">testcase</field>
+    <field id="author">admin</field>
+    <field id="title">Open E-Library portal</field>
+    <field id="created">2010-12-06 14:46:33.347 +0100</field>
+    <field id="priority">50.0</field>
+    <field id="remainingEstimate">1/12h</field>
+    <field id="status">active</field>
+    <field id="severity">smoke</field>
+    <field id="testType" type="enum:testtype">user</field>
+    <field id="testSteps" type="struct:TestSteps">
+        <struct>
+            <item id="keys">
+                <list>
+                    <item>step</item>
+                    <item>description</item>
+                    <item>expectedResult</item>
+                </list>
+            </item>
+            <item id="steps">
+                <list>
+                    <struct>
+                        <item id="values">
+                            <list>
+                                <item text-type="text/html">Login to the E-Library portal</item>
+                                <item text-type="text/html"> </item>
+                                <item text-type="text/html">On login the E-library portal is opened</item>
+                            </list>
+                        </item>
+                    </struct>
+                    <struct>
+                        <item id="values">
+                            <list>
+                                <item text-type="text/html">Scroll the home page</item>
+                                <item text-type="text/html"> </item>
+                                <item text-type="text/html">Search, add and administration portlets are rendered well</item>
+                            </list>
+                        </item>
+                    </struct>
+                </list>
+            </item>
+        </struct>
+    </field>
+</work-item>

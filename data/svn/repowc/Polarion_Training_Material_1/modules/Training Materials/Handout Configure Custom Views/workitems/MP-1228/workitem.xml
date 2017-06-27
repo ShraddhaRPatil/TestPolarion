@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="hyperlinks">
+        <list>
+            <struct>
+                <item id="role">renderSlide</item>
+                <item id="uri">/polarion/wiki/bin/view/project/MyPolarion/page/macros/RenderSlides?item=MP-1228</item>
+            </struct>
+        </list>
+    </field>
+    <field id="author">stroebelet</field>
+    <field id="title">Custom Layout And Filters</field>
+    <field id="created">2011-09-16 23:16:02.580 +0200</field>
+    <field id="description" text-type="text/html">&lt;img src="workitemimg:1-screenshot.jpg" style="width: 755px; height: 362px;"/&gt;&lt;br/&gt;Work Items | Form Configuration:&lt;ul&gt;&lt;li&gt;Layout: Available fields and their position&lt;/li&gt;&lt;li&gt;Filter: Hide fields based on status and transition&lt;br/&gt;&lt;/li&gt;&lt;/ul&gt;&lt;br/&gt;</field>
+    <field id="priority">25.0</field>
+    <field id="status">accepted</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+    <field id="subtitle" type="string">Filters are applied on top of layouts</field>
+    <field id="trainingCategory" multi="true" type="enum:trainingCategory"/>
+</work-item>

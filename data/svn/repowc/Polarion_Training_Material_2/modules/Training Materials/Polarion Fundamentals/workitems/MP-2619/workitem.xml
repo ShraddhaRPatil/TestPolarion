@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">stroebelet</field>
+    <field id="created">2012-04-24 05:07:30.328 -0400</field>
+    <field id="description" text-type="text/html"><![CDATA[Polarion&#39;s search and query feature will help you to find information easily. It will allow you to concentrate on the relevant data needed for the next process step by filtering out all unnecessary information. Typical examples are:<br/>
+<ul>
+  <li>Show all requirements which are ready for review</li>
+  <li>Find all defects assigned to me</li>
+  <li>Show all requirements in a specification document which are still in draft</li>
+</ul>]]></field>
+    <field id="linkedWorkItems">
+        <list>
+            <struct>
+                <item id="revision">41894</item>
+                <item id="role">branched_from</item>
+                <item id="workItem">MP-2284</item>
+            </struct>
+        </list>
+    </field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="type">text</field>
+</work-item>

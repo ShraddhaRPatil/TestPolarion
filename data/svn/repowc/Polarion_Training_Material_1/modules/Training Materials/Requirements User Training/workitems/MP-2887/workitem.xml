@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">hartliebc</field>
+    <field id="created">2012-05-18 04:58:50.886 -0400</field>
+    <field id="description" text-type="text/html"><![CDATA[<ul>
+  <li>Import the document into Polarion with following name: <span style="font-style: italic;">ElibrarySpecification</span> using <span style="font-weight: bold;font-style: italic;">IMPORT</span> button.<br/>
+    <br/>
+    <img src="attachment:107-screenshot-20141031-084210.png"/><br/>
+  </li>
+</ul>]]></field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Import your first document</field>
+    <field id="type">exercise</field>
+    <field id="upgradedescription" type="boolean">true</field>
+</work-item>

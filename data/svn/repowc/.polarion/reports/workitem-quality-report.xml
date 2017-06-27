@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workitem-quality-report>    
+    <section id="Metrics">        
+           <group name="Planning">
+            <item
+                label="Estimated vs. Not Estimated Work Items"                
+                key="PLANNING-COVERAGE">
+                <description>
+                    Rate of Work Items having filled initial estimate and at least one of time spent
+                    and remaining estimate vs. the total number of Work Items.
+                </description>
+            </item>
+            <item
+                label="In Time vs. Underestimated Work Items"
+                key="WORKITEMS-PLANNING-ACCURACY">
+                <description>
+                    Rate of in time vs. underestimated Work Items
+                    (by in time it is meant that initial estimate &gt;= time spent + remaining estimate);
+                    only Work Items having filled initial estimate and at least one of time spent
+                    and remaining estimate are taken into account			
+                </description>
+            </item>
+            <item
+                label="Project Plan Accuracy"
+                key="PROJECT-PLAN-ACCURACY">
+                <description>
+                    Overall accuracy of project Work Items estimates calculated as
+                    (spent + remaining) / initial, if (initial &gt;= spent + remaining),
+                    or initial / (spent + remaining), if (initial &lt; spent + remaining),
+                    where initial, spent and remaining are sums of all initial estimates,
+                    spent times and remaining estimates (respectively) of all Work Items
+                    in the project that have the initial estimate and at least one of remaining
+                    estimate or time spent set.
+                </description>
+            </item>
+            <item
+                label="Estimate Accuracy"
+                key="ESTIMATE-ACCURACY">
+                <description>
+                    Accuracy of Work Item estimates with emphasis
+                    on individual estimates rather than overall resulting plan. Calculated as sum of all initial estimates
+                    divided by sum of abs(remaining estimate + time spent - initial estimate) for all Work Items
+                    in the project that have the initial estimate and at least one of remaining estimate or time spent set.
+                </description>
+            </item>
+        </group>
+        <group name="Quality Audit">
+            <item label="Unresolved by Severity"  key="OPEN-BY-SEVERITY"/>
+            <item label="Resolved by Severity"  key="RESOLVED-BY-SEVERITY"/>
+            <item label="Resolved vs. Unresolved"  key="RESOLVED-RATIO">
+                <description>
+                    Rate of Work Items that have resolution set.
+                </description>
+            </item>
+            <item label="Assigned vs. Unassigned"  key="ASSIGNMENT-RATIO">
+                <description>
+                    Rate of Work Items that have assignee set.
+                </description>
+            </item>
+            <item label="Traceability Commits to Work Items"  key="TRACEABILITY-COMMITS-REQUIREMENTS">
+                <description>
+                    Rate of commits that are linked to Work Items.
+                </description>
+            </item>
+            <item label="Traceability Work Items to Commits"  key="TRACEABILITY-REQUIREMENTS-COMMITS">
+                <description>
+                    Rate of Work Items that are linked to commits.
+                </description>
+            </item>
+            <item label="Scheduled vs. Unscheduled"  key="PLANNING-RATIO">
+                <description>
+                    Rate of unresolved Work Items that have time point set.
+                </description>
+            </item>
+            <item label="Not Suspect vs. Suspect Work Items"  key="SUSPECT-RATIO">
+            <description>
+                Rate of unresolved Work Items that have suspected link to other Work Item.
+            </description>
+        </item>
+        </group>
+    </section>
+
+    <section id="Statistics">        
+        <group name="Statistics">
+            <!--
+            <item
+            label="Planning Accuracy"
+            
+            key="PLANNING-ACCURACY"/>
+            -->
+            <item label="Unresolved by Priority"  key="OPEN-BY-PRIORITY"/>
+            <item label="Most Work Items Entered by an Individual"  key="MEI"/>
+            <item label="Most Work Items Solved by an Individual"  key="MSI"/>
+            <item label="Most Work Items Assigned to an Individual"  key="MAI"/>
+        </group>
+        <group name="Totals" collapsed="true">
+            <group name="All">
+                <item multi="true"  key="ITEMS-BY-TYPE"/>
+            </group>
+            <group name="Unresolved">
+                <item multi="true"  key="ITEMS-UNRESOLVED-BY-TYPE"/>
+            </group>
+            <group name="Assigned (Unresolved)">
+                <item multi="true"  key="ITEMS-UNRESOLVED-ASSIGNED-BY-TYPE"/>
+            </group>
+            <group name="Scheduled (Unresolved)">
+                <item multi="true"  key="ITEMS-UNRESOLVED-SCHEDULED-BY-TYPE"/>
+            </group>
+        </group>
+        <group name="Unresolved by Category" collapsed="true">
+            <item multi="true"  key="UNRESOLVED-BY-CATEGORY"/>
+        </group>
+        <group name="Unresolved by Assignee" collapsed="true">
+            <item multi="true"  key="UNRESOLVED-BY-ASSIGNEE"/>
+        </group>
+        <group name="Unresolved by Time Point" collapsed="true">
+            <item multi="true"  key="UNRESOLVED-BY-TIMEPOINT"/>
+        </group>
+    </section>
+
+
+</workitem-quality-report>

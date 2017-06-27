@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="linkedWorkItems">
+        <list>
+            <struct>
+                <item id="revision">42473</item>
+                <item id="workItem">MP-2652</item>
+                <item id="role">branched_from</item>
+                <item id="suspect">false</item>
+            </struct>
+        </list>
+    </field>
+    <field id="type">exercise</field>
+    <field id="author">hartliebc</field>
+    <field id="title">Change severity</field>
+    <field id="created">2012-05-07 13:30:59.003 +0200</field>
+    <field id="priority">25.0</field>
+    <field id="description" text-type="text/html">&lt;ul&gt;&lt;li&gt; use bulk edit to change severity of all test cases inside specification to "&lt;span style="font-style: italic;"&gt;Basic&lt;/span&gt;"&lt;br/&gt;&lt;/li&gt;&lt;/ul&gt;</field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+</work-item>

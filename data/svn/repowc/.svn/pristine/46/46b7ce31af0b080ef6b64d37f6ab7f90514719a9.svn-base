@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">stroebelet</field>
+    <field id="created">2012-04-24 03:39:55.549 -0400</field>
+    <field id="description" text-type="text/html">&lt;ul&gt;&lt;li&gt;Open &lt;span style="font-style: italic;"&gt;User Training Meeting Notes&lt;/span&gt; and place your cursor at the location where you want to see the open tasks of last meetings&lt;/li&gt;&lt;li&gt;&lt;span style="font-style: italic;"&gt;Insert Wiki Content&lt;/span&gt;&lt;br/&gt; &lt;img src="workitemimg:1-screenshot-20141017-082745.png"/&gt;&lt;br/&gt; and add &lt;span style="font-style: italic;"&gt;{document-workitems:name=$page.space.name/$page.name|query=type:task AND status:open|display=table}&lt;/span&gt;&lt;br/&gt; macro which displays all open tasks in this document&lt;br/&gt;&lt;/li&gt;&lt;li&gt;Try following macro as alternative&lt;br/&gt; &lt;span style="font-style: italic;"&gt;{workitems:query=document.id:$page.space.name/$page.name AND type:task}&lt;/span&gt;&lt;/li&gt;&lt;li&gt;add macro to your document template also&lt;br/&gt;&lt;/li&gt;&lt;/ul&gt;</field>
+    <field id="linkedWorkItems">
+        <list>
+            <struct>
+                <item id="revision">36904</item>
+                <item id="role">branched_from</item>
+                <item id="workItem">MP-800</item>
+            </struct>
+        </list>
+    </field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Show open tasks on top of your meeting document</field>
+    <field id="type">exercise</field>
+</work-item>

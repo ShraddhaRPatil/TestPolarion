@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">hartliebc</field>
+    <field id="created">2012-06-19 06:29:12.651 -0400</field>
+    <field id="description" text-type="text/html"><![CDATA[<table id="polarion_wiki macro name=table" style="margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;">
+  <tbody>
+    <tr>
+      <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"> Link Type</th>
+      <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"> Direction</th>
+      <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"> When to Use It</th>
+    </tr>
+    <tr>
+      <td style="text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-weight: bold;">parent</span></td>
+      <td style="text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">child requirement -&gt; parent requirement</td>
+      <td style="text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">
+        <ul>
+          <li>Represents a hierarchical relationship</li>
+          <li>Default link in Polarion LiveDoc Documents for Work Items and sub items (pressing &quot;<span style="font-weight: bold;font-style: italic;">TAB</span>&quot; to indent a work item)<br/>
+          </li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-weight: bold;">duplicates</span></td>
+      <td style="text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">requirement -&gt; same requirement</td>
+      <td style="text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"> If Work Items have same content and one can be closed as duplicate</td>
+    </tr>
+    <tr>
+      <td style="text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-weight: bold;">implements</span></td>
+      <td style="text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">task -&gt; requirement<br/>
+        defect -&gt; requirement</td>
+      <td style="text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">
+        <ul>
+          <li>Use it to describe the relationship between some actions needed to fulfil a product related Work Item</li>
+          <li>Use from task and/or defect to requirement Work Items<br/>
+          </li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-weight: bold;">verifies</span></td>
+      <td style="text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">test case -&gt; requirement</td>
+      <td style="text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Use it to link test cases to requirements which are tested by the test cases</td>
+    </tr>
+    <tr>
+      <td style="text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-weight: bold;">derived_from</span></td>
+      <td style="text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">derived requirement -&gt; requirement</td>
+      <td style="text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-weight: normal;font-style: normal;color: #000000;">Use it to link requirements that are implied or transformed from higher-level requirement to the higher-level requirement<br/>
+        </span></td>
+    </tr>
+    <tr>
+      <td style="text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-weight: bold;">branched_from</span></td>
+      <td style="text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">branched requirement -&gt; requirement</td>
+      <td style="text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">
+        <ul>
+          <li>Represents a branch/trunk relationship</li>
+          <li>Used by Polarion if a work item is overwritten in a branched document<br/>
+          </li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-weight: bold;">refines</span></td>
+      <td style="text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">refining requirement -&gt; requirement</td>
+      <td style="text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Use it to link requirements which specify another requirement in more detail</td>
+    </tr>
+    <tr>
+      <td style="text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-weight: bold;">relates_to</span></td>
+      <td style="text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Any</td>
+      <td style="text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Use it as reference link. &quot;If you read this you should also have a look at the following work item&quot;. A generic relation type, more concrete link should be used where possible</td>
+    </tr>
+  </tbody>
+</table>]]></field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Links and their Meaning</field>
+    <field id="type">slide</field>
+</work-item>

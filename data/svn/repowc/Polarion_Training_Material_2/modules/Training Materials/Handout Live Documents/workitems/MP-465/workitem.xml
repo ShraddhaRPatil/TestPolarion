@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="author">admin</field>
+    <field id="title">Linking Work Items using Documents</field>
+    <field id="created">2011-04-01 10:01:47.195 +0200</field>
+    <field id="priority">25.0</field>
+    <field id="description" text-type="text/html">&lt;ul&gt;&lt;li&gt;Click on  create link symbol next to your work item icon to start the link&lt;/li&gt;&lt;/ul&gt;&lt;img style="width: 789px;height: 191px;" src="attachment:startlink.jpg"/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;ul&gt;&lt;li&gt;&lt;span style="color: #000000;"&gt;Click on the link symbol of a different Work Utem to complete the link. This Work Item can be contained in the same or in another Document.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style="color: #000000;"&gt;Select the role for the link using the linking dialog&lt;/span&gt;&lt;/li&gt;&lt;li&gt;Link multiple work items using CTRL+click&lt;/li&gt;&lt;li&gt;Save the Document where you started your link, Polarion takes care that the link is always saved with the child of the link.&lt;/li&gt;&lt;/ul&gt;&lt;img style="width: 789px;height: 258px;" src="attachment:endlink.png"/&gt;</field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="subtitle" type="string"> </field>
+</work-item>

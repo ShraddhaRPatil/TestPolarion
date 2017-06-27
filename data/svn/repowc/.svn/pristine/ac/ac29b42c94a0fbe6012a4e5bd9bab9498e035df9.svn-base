@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">hartliebc</field>
+    <field id="created">2012-04-24 05:44:49.165 -0400</field>
+    <field id="description" text-type="text/html"><![CDATA[<ul>
+  <li>Add following three new requirements and save the document</li>
+  <ul style="font-style: italic;">
+    <li>The user should be able to search for books</li>
+    <li>The user should be able to lend books</li>
+    <li>The user should be able to manage a book favorites list</li>
+  </ul>
+</ul>
+ 
+<ul>
+  <li>Create following two sub requirements below the requirement <span style="font-style: italic;">search for books (Remember: Press [tab] button to indent Work Items)<br/>
+      </span></li>
+  <ul>
+    <li><span style="font-style: italic;">Support of wildcards in search</span></li>
+    <li><span style="font-style: italic;">It must be possible to search in all book fields<br/>
+        </span></li>
+  </ul>
+  <li>Create a new requirement <span style="font-style: italic;">Book Data</span> and add following content as table<br/>
+    <img src="attachment:128-screenshot-20151231-061307.png" style="width: 150px;height: 284px;"/>   <img src="attachment:tableProperties.jpg" style="width: 339px;height: 250px;"/></li>
+  <ul>
+    <li><span style="font-style: italic;">Author: string</span></li>
+    <li><span style="font-style: italic;">Title: string</span></li>
+    <li><span style="font-style: italic;">Cover image: jpg, gif</span></li>
+    <li><span style="font-style: italic;">ISBN number: string</span></li>
+  </ul>
+  <li><span style="font-style: normal;">Add a caption <span style="font-style: italic;">Book data variables</span> to your table<br/>
+      <img src="attachment:129-screenshot-20151231-061307.png" style="width: 300px;height: 275px;"/></span></li>
+</ul>
+ 
+<table id="polarion_wiki macro name=table;params=uid=client1" class="polarion-Document-table" style="width: 80%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;">
+  <tbody>
+    <tr>
+      <th style="background-color: #F0F0F0;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Hint: <br/>
+        
+        <ul>
+          <li>You can use your TAB / Shift+TAB key to navigate through your tables. </li>
+          <li>To indent data you press Shift-Alt-Left/Right Arrow </li>
+          <li>You can also copy and paste data using Alt+C / Alt+V</li>
+        </ul>
+        </th>
+    </tr>
+  </tbody>
+</table>
+ <br/>]]></field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Add requirements to specification</field>
+    <field id="type">exercise</field>
+</work-item>

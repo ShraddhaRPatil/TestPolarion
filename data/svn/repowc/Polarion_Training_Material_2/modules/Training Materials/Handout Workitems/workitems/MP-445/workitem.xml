@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="author">admin</field>
+    <field id="title">Advanced Fields</field>
+    <field id="created">2011-03-26 16:50:40.090 +0100</field>
+    <field id="description" text-type="text/html">&lt;img src="workitemimg:2-screenshot-1.jpg" style="WIDTH: 675px; HEIGHT: 284px"/&gt;&lt;br/&gt;&lt;ul style="TEXT-ALIGN: left"&gt;&lt;li&gt;&lt;span style="FONT-WEIGHT: bold"&gt;custom fields:&lt;/span&gt; Custom fields defined in your process&lt;/li&gt;&lt;li&gt;&lt;span style="FONT-WEIGHT: bold"&gt;comments&lt;/span&gt;: Collaborate on the content of a work item&lt;/li&gt;&lt;li&gt;&lt;span style="FONT-WEIGHT: bold"&gt;work records&lt;/span&gt;: track individual time spent on a work item&lt;/li&gt;&lt;li&gt;&lt;span style="FONT-WEIGHT: bold"&gt;approvals&lt;/span&gt;: who needs to approve a work item ?&lt;/li&gt;&lt;li&gt;&lt;span style="FONT-WEIGHT: bold"&gt;linked revisions&lt;/span&gt;: what changes have been done in source code?&lt;/li&gt;&lt;/ul&gt;</field>
+    <field id="priority">25.0</field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="subtitle" type="string"> </field>
+</work-item>

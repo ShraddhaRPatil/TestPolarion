@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="hyperlinks">
+        <list>
+            <struct>
+                <item id="role">renderSlide</item>
+                <item id="uri">/polarion/wiki/bin/view/project/MyPolarion/page/macros/RenderSlides?item=MP-459</item>
+            </struct>
+        </list>
+    </field>
+    <field id="type">slide</field>
+    <field id="author">admin</field>
+    <field id="title">Comments And Email Notification</field>
+    <field id="created">2011-03-31 21:11:02.420 +0200</field>
+    <field id="description" text-type="text/html">&lt;img style="width: 761px;height: 487px;" src="attachment:screenshot-1.jpg"/&gt;</field>
+    <field id="priority">25.0</field>
+    <field id="status">accepted</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+    <field id="subtitle" type="string">Comments will help your colleagues understand why a work item was changed.</field>
+    <field id="hint" type="string">At the beginning you should only send notifications when somebody adds a comment</field>
+    <field id="printNotes" text-type="text/html" type="text/html">1) Harry creates a defect in Polarion and assigns it to Ron&lt;br&gt;2) Ron will be notified via email about the assignment&lt;br&gt;3) Ron clicks on the item and adds a comment&lt;br&gt;4) Harry will receive an email that contains the changes</field>
+    <field id="speakersNotes" text-type="text/html" type="text/html">&lt;div&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;/div&gt;</field>
+</work-item>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<enumeration>
+    <option id="2012SR1" name="Polarion 2012 SR1" sortOrder="1"/>
+    <option id="2012SR2" name="Polarion 2012 SR2" sortOrder="2"/>
+    <option id="2012SR3" name="Polarion 2012 SR3" sortOrder="3"/>
+    <option id="2013" name="Polarion 2013" sortOrder="4"/>
+    <option id="2013SR1" name="Polarion 2013 SR1" sortOrder="5"/>
+    <option id="2013SR2" name="Polarion 2013 SR2" sortOrder="6"/>
+</enumeration>

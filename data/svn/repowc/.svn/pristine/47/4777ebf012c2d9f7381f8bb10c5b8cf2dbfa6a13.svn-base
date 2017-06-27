@@ -1,0 +1,36 @@
+<NotepadPlus>
+    <UserLang name="Velocity (IX6)" ext="vm">
+        <Settings>
+            <Global caseIgnored="no" />
+            <TreatAsSymbol comment="no" commentLine="no" />
+            <Prefix words1="no" words2="yes" words3="yes" words4="yes" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Delimiters">&apos;&quot;0&apos;&quot;0</Keywords>
+            <Keywords name="Folder+">#if #foreach #macro #{if}</Keywords>
+            <Keywords name="Folder-">#end #{end}</Keywords>
+            <Keywords name="Operators">( ) &lt; = &gt;</Keywords>
+            <Keywords name="Comment">1#* 2*# 0##</Keywords>
+            <Keywords name="Words1">#break #elseif #else #evaluate #set #include #parse #stop #template in class</Keywords>
+            <Keywords name="Words2">#a #b #c #d #ea #eb #ec #ed #ee #ef #eg #eh #ei #ej #ek #ela #elb #elc #eld #ele #elf #elg #elh #eli #elj #elk #ell #elm #eln #elo #elp #elq #elr #elsa #elsb #elsc #elsd #elsf #elsg #elsh #elsi #elsj #elsk #elsl #elsm #elsn #elso #elsp #elsq #elsr #elss #elst #elsu #elsv #elsw #elsx #elsy #elsz #elt #elu #elv #elw #elx #ely #elz #em #ena #enb #enc #ene #enf #eng #enh #eni #enj #enk #enl #enm #enn #eno #enp #enq #enr #ens #ent #enu #env #enw #enx #eny #enz #eo #ep #eq #er #es #et #eu #ev #ew #ex #ey #ez #eA #eB #eC #eD #eE #eF #eG #eH #eI #eJ #eK #eL #eM #eN #eO #eP #eQ #eR #eS #eT #eU #eV #eW #eX #eY #eZ #e0 #e1 #e2 #e3 #e4 #e5 #e6 #e7 #e8 #e9 #e_ #e- #fa #fb #fc #fd #fe #ff #fg #fh #fi #fj #fk #fl #fm #fn #foa #fob #foc #fod #foe #fof #fog #foh #foi #foj #fok #fol #fom #fon #foo #fop #foq #fos #fot #fou #fov #fow #fox #foy #foz #fp #fq #fr #fs #ft #fu #fv #fw #fx #fy #fz #fA #fB #fC #fD #fE #fF #fG #fH #fI #fJ #fK #fL #fM #fN #fO #fP #fQ #fR #fS #fT #fU #fV #fW #fX #fY #fZ #f0 #f1 #f2 #f3 #f4 #f5 #f6 #f7 #f8 #f9 #f_ #f- #g #h #ia #ib #ic #id #ie #ig #ih #ii #ij #ik #il #im #in #io #ip #iq #ir #is #it #iu #iv #iw #ix #iy #iz #iA #iB #iC #iD #iE #iF #iG #iH #iJ #iK #iL #iM #iN #iO #iP #iQ #iR #iS #iT #iU #iV #iW #iX #iY #iZ #i0 #i1 #i2 #i3 #i4 #i5 #i6 #i7 #i8 #i9 #i_ #i- #j #k #l #maa #mab #maca #macb #macc #macd #mace #macf #macg #mach #maci #macj #mack #macl #macm #macn #maco #macp #macq #macra #macrb #macrc #macrd #macre #macrf #macrg #macrh #macri #macrj #macrk #macrl #macrm #macrn #macrp #macrq #macrr #macrs #macrt #macru #macrv #macrw #macrx #macry #macrz #macs #mact #macu #macv #macw #macx #macy #macz #mad #mae #maf #mag #mah #mai #maj #mak #mal #mam #man #mao #map #maq #mar #mas #mat #mau #mav #maw #max #may #maz #mb #mc #md #me #mf #mg #mh #mi #mj #mk #ml #mm #mn #mo #mp #mq #mr #ms #mt #mu #mv #mw #mx #my #mz #mA #mB #mC #mD #mE #mF #mG #mH #mI #mJ #mK #mL #mM #mN #mO #mP #mQ #mR #mS #mT #mU #mV #mW #mX #mY #mZ #m0 #m1 #m2 #m3 #m4 #m5 #m6 #m7 #m8 #m9 #m_ #m- #n #o #p #q #r #s #t #u #v #w #x #y #z #A #B #C #D #E #F #G #H #I #J #K #L #M #N #O #P #Q #R #S #T #U #V #W #X #Y #Z</Keywords>
+            <Keywords name="Words3">$AccessController $AppWalker $ApplicationLister $AsynchronousRequestHandler $BCM $BpeeFactory $Browser $CalendarPortlet $ChartHelper $Chat $Codec $CollectionFactory $Constants $DC $DEBUG $DIMHelper $DataTransferCallable $DbUtil $DefaultMaker $DistributionControl $DoubletService $DrFilterHelper $drRecord $DtUtil $ESC $Error $ExceptionUtil $Exchange $FCKConnectorResponseFactory $Factory $FieldFormatter $FileHelper $FileUtil $Filter $ForumInfo $FramesetHelper $HelperFactory $JSON $LayoutManager $ListBoxControl $ListFormatter $Loader $LogAnalyzer $MBGallery $MassMailCallable $Math $Menu $MenuCloud $NewsControllerUtil $ObjectHelper $PageLister $PageUtil $PolicyBrowserFactory $PollHelper $Portal $PortalLayoutFactory $PreparedQuery $ProcessingContext $QNameFactory $RDFCallable $RendererFactory $RenderingContext $Request $Response $RtCache $SaucMenu $SearchUtil $Session $SettingsHelper $SharedState $Sort $SystemHelper $TextUtil $TickerMan $Unique $UrlBuilder $User $UserProfileCls $VDiff $VH $VHHelper $VelocityContext $VelocityUtil $Wiki $Zebra $defaultLanguage $lang $layout</Keywords>
+            <Keywords name="Words4">$ !$</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" styleID="11" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="FOLDEROPEN" styleID="12" fgColor="800000" bgColor="FFFFFF" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="FOLDERCLOSE" styleID="13" fgColor="800000" bgColor="FFFFFF" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="KEYWORD1" styleID="5" fgColor="800000" bgColor="FFFFFF" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="KEYWORD2" styleID="6" fgColor="800000" bgColor="FFFFFF" fontName="" fontStyle="3" fontSize="" />
+            <WordsStyle name="KEYWORD3" styleID="7" fgColor="E95D0E" bgColor="FFFFFF" fontName="" fontStyle="3" fontSize="" />
+            <WordsStyle name="KEYWORD4" styleID="8" fgColor="FF0000" bgColor="FFFFFF" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="NUMBER" styleID="4" fgColor="FF0000" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="800000" bgColor="FFFFFF" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="DELIMINER1" styleID="14" fgColor="808040" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER2" styleID="15" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="10" />
+            <WordsStyle name="REGEX" styleID="52" fgColor="8000FF" bgColor="F2F4FF" fontName="" fontStyle="0" fontSize="" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>

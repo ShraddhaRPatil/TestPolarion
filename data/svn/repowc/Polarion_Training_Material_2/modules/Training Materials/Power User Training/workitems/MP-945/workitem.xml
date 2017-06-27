@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">stroebelet</field>
+    <field id="created">2011-07-30 09:20:00.979 -0400</field>
+    <field id="description" text-type="text/html"><![CDATA[Another way to export document and pages is the PDF exporter. This export should also be adjusted to have your own data and style in these exports.<br/>
+ <br/>
+ 
+<ul>
+  <li>Open A<span style="font-style: italic;">dministration&gt;Documents &amp; Pages&gt;PDF Export Configuration</span> and create a project configuration by pasting the global configuration</li>
+  <li>Change <span style="font-style: italic;">Polarion Software</span> and URL to <span style="font-style: italic;">MyCompany</span> in Header</li>
+  <li>Remove <span style="font-style: italic;">$[productName] $[productVersion]</span> in Footer</li>
+  <li><span style="font-style: italic;">Verify in frontend changes are working by exporting a document or wiki page<br/>
+      <br/>
+      
+      <table id="polarion_wiki macro name=table" class="polarion-Document-table" style="width: 80%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;">
+        <tbody>
+          <tr>
+            <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Hint: You can declare custom Velocity variables and/or page parameters in classic Wiki pages, and reference them in the header/footer export configuration. By using conditional logic in the configuration, you can include or exclude content of the variables or page parameters in the header/footer of exported documents.<br/>
+              <br/>
+              -  Try following configuration to mark exported Questions Specification documents as confidential. All other PDF exports won´t add this confidential string<br/>
+               <br/>
+              #if($document.getType().getId()==&quot;questionSpec&quot;)<br/>
+              &lt;td width=&quot;70%&quot; align=&quot;right&quot;&gt;$[projectName] $[documentTitle] (rev. $[revision]) CONFIDENTIAL&lt;/td&gt; <br/>
+              #else &lt;td width=&quot;70%&quot; align=&quot;right&quot;&gt;$[projectName] $[documentTitle] (rev. $[revision])&lt;/td&gt; <br/>
+              #end<br/>
+              <br/>
+              <br/>
+              </th>
+          </tr>
+        </tbody>
+      </table>
+      </span></li>
+</ul>
+ Additional Information about the used pdf engine can be found her: <a href="http://pd4ml.com/" target="_top">http://pd4ml.com/</a>]]></field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Add a Custom Header and Footer to the PDF Template</field>
+    <field id="type">exercise</field>
+</work-item>

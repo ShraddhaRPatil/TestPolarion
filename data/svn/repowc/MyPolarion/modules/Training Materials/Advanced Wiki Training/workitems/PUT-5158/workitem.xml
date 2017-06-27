@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">admin</field>
+    <field id="created">2013-11-06 10:25:35.721 +0100</field>
+    <field id="description" text-type="text/html">First we will create a wiki page "[YOUR NAME] Defect Dashboard" (Your name might be necessary if you work all together at the same project) which will give us some information about all defects and their priority. &lt;ul&gt;&lt;li&gt;Add Title for you report&lt;/li&gt;&lt;li&gt;Add Subheadings for every priority enumeration&lt;/li&gt;&lt;li&gt;Use workitems macro to display defects for each priority&lt;/li&gt;&lt;li style="list-style: none"&gt;&lt;ul&gt;&lt;li&gt;display fields: id,title,status,priority,assignee,timePoint,initialEstimate&lt;/li&gt;&lt;li&gt;sort by descending order: priority as first level sorting and status as second level sorting&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;span style="font-weight: bold;"&gt;Example Image:&lt;/span&gt;&lt;br/&gt;&lt;img style="width: 788px;height: 366px;" src="attachment:defect_dashboard.jpg"/&gt;</field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="type">exercise</field>
+</work-item>

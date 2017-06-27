@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">hartliebc</field>
+    <field id="created">2012-05-16 05:10:53.277 -0400</field>
+    <field id="description" text-type="text/html">The standard requirements process is straightforward.&lt;br/&gt;&lt;br/&gt;&lt;img src="attachment:Workflow.jpg"/&gt; </field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Standard Requirement Workflow</field>
+    <field id="type">slide</field>
+</work-item>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">stroebelet</field>
+    <field id="created">2012-04-24 05:06:05.431 -0400</field>
+    <field id="description" text-type="text/html"><![CDATA[Typical examples for work items are tasks. Tasks are helpful to track planned activities. Tracking tasks will ensure that you have a common understanding on all activities in your team. <br/>
+<br/>
+<ul>
+  <li>Create a new task &quot;gather requirements for our project&quot;</li>
+  <li>Add yourself as assignee to the task<br/>
+  </li>
+  <li>Add an initial estimate of 2 days (2d) to the task</li>
+  <li>Add a hyperlink to: <a href="http://en.wikipedia.org/wiki/Activity_%28project_management%29" target="_blank">http://en.wikipedia.org/wiki/Activity_(project_management)</a></li>
+  <li>Add a funny image using copy &amp; paste (CTRL + C and CTRL + V)  in your work item description</li>
+  <li>Add a simple Use-Case diagram using the internal diagram editor</li>
+</ul>]]></field>
+    <field id="hyperlinks">
+        <list>
+            <struct>
+                <item id="role">externalURL</item>
+                <item id="uri">http://en.wikipedia.org/wiki/Activity_(project_management)</item>
+            </struct>
+            <struct>
+                <item id="role">linkedExercise</item>
+                <item id="uri">/polarion/#/project/MyPolarion/wiki/Exercises/Create Work Item</item>
+            </struct>
+        </list>
+    </field>
+    <field id="initialEstimate">1/12h</field>
+    <field id="linkedWorkItems">
+        <list>
+            <struct>
+                <item id="revision">41995</item>
+                <item id="role">branched_from</item>
+                <item id="workItem">MP-776</item>
+            </struct>
+        </list>
+    </field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="remainingEstimate">1/12h</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Create your first work item</field>
+    <field id="type">exercise</field>
+</work-item>

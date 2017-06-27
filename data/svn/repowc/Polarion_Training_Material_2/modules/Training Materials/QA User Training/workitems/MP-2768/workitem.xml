@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">daniel.morris</field>
+    <field id="created">2012-05-09 05:40:17.419 -0400</field>
+    <field id="description" text-type="text/html"><![CDATA[If you haven´t already seen, Polarion delivers a fully integrated defect tracker aswell. In our current test run we should already have 2 defects linked to our failed test cases. These defects were automatically created after our test cases failed. The title of the defects are resulting to the test case name and the comment we have written into the test case comment field is displayed in the description of the defect together with a link to the test run 
+<ul>
+  <li>Open one of the defects and let´s say this defect is fixed</li>
+  <ul>
+    <li>Change status of this defect to &quot;Verified as Done&quot; by using action &quot;Perform action Mark Verified Done&quot;<br/>
+    </li>
+    <li>Set Resolution field to &quot;Done&quot;</li>
+    <li>Select time point &quot;Version 1.0&quot;</li>
+    <li>Assign yourself to this defect</li>
+  </ul>
+  <li>If you review our test run another time you will see the defect is striked through.</li>
+</ul>]]></field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Tracking defects for failed test cases</field>
+    <field id="type">exercise</field>
+</work-item>

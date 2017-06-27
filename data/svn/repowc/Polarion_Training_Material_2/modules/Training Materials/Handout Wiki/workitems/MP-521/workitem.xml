@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="author">stroebelet</field>
+    <field id="title">Create Your First Wiki Page</field>
+    <field id="created">2011-04-26 12:10:56.743 +0200</field>
+    <field id="priority">25.0</field>
+    <field id="description" text-type="text/html">&lt;img src="workitemimg:2-screenshot-2.jpg" style="height: 450px; width: 622px;"/&gt;</field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="subtitle" type="string"> </field>
+    <field id="printNotes" text-type="text/html" type="text/html">&lt;div&gt;&lt;ul&gt;&lt;li&gt;When you are in edit mode of a wiki page you can see example on the right side&lt;/li&gt;&lt;li&gt;Click on "&lt;span style="font-style: italic;"&gt;detailed syntax help&lt;/span&gt;" to open a more detailed help&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</field>
+</work-item>

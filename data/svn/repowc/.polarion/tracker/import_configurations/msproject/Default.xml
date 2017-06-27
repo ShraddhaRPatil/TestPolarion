@@ -1,0 +1,136 @@
+<!-- Configuration of Work Items import from MS Project XML format -->
+<import>
+
+  <task>
+    
+    <!-- Import of assignments
+      Attributes:
+      createUserReference ("true" or "false")
+        - determines whether reference to assignee should be set (reference may be set even if you choose 
+          not to create users for resources /in resource element below/ - such a reference will not be resolvable)
+    -->
+    <assignee createUserReference="true"/>
+
+    <type>
+      <!-- Type for non-summary task -->
+      <task kind="normal" type="task"/>
+      <!-- Type for summary task -->
+      <task kind="summary" type="requirement"/>
+    </type>
+
+    <linkRole>
+      <!-- Role for link from summary task to parent summary task -->
+      <role kind="summary2summary" role="parent"/>
+      <!-- Role for link from normal task to parent summary task -->
+      <role kind="normal2summary" role="parent"/>
+
+      <!-- 
+        Roles for links from task to predecessor of particular type (finish to finish, finish to start etc.).
+        There may be more predecessor role elements for the role kind diferring in the value of
+        attribute taskKind (with value "normal" or "summary"). If attribute taskKind is missing,
+        the element applies for tasks that have not their specific role element.
+      -->
+      <role kind="predecessorFF" role="relates_to"/>
+      <role kind="predecessorFS" role="depends_on"/>
+      <role kind="predecessorSF" role="relates_to"/>
+      <role kind="predecessorSS" role="relates_to"/>
+    </linkRole>
+
+    <status>
+      <!-- 
+        There may be more status elements for the same status kind diferring in the value of
+        attribute taskKind (with value "normal" or "summary"). If attribute taskKind is missing,
+        the element applies for tasks that have not their specific status element.
+      -->
+      <!-- status for Work Item the work of which is not completed yet -->
+      <status kind="incomplete" status="open"/>
+      <!-- status and resolution for Work Item the work of which is already completed -->
+      <status kind="complete" status="done" resolution="fixed"/>
+    </status>
+
+    <!-- 
+      Existing priorities of MS Project tasks (0-1000) will be rescaled proportionally so that the upper 
+      bound will be "scaleMax" instead of 1000. For example if 100 is returned, the imported priorities 
+      will be divided by 10. 
+    -->
+    <priority scaleMax="100"/>
+
+    <severity>
+      <!-- 
+        Severity for imported Work Items. There may be more severity elements diferring in the value of
+        attribute taskKind (with value "normal" or "summary"). If attribute taskKind is missing,
+        the element applies for tasks that have not their specific severity element.
+      -->
+      <severity value="normal"/>
+    </severity>
+
+    <!--
+      If importAll is set to true, all custom fields
+      will be imported using available information (type, label). Otherwise
+      only custom fields listed here will be imported. 
+      Name attribute specifies original custom field name, e.g. Text1 or Flag10.
+   
+      Example:
+       <customFields importAll="false">
+         <customField name="Duration1"/>
+       </customFields>
+    -->
+    <customFields importAll="true">
+    </customFields>
+
+    <!--
+      Definition of mapping from source custom or regular fields to target custom fields.
+      The source field type (important only if the source field is regular) may be one 
+      of the following identifiers:
+        integer
+        string
+        decimal (will be mapped to float)
+        float
+        duration 
+        dateTime (will be mapped to date-time)
+        boolean
+      
+      Examples:
+        <map field="Cost" type="decimal" custom="false" toField="TotalCost"/>
+        <map field="Text1" custom="true" toField="Quote"/>
+    -->
+    <map field="Cost" type="decimal" custom="false" toField="TotalCost"/>
+
+  </task>
+
+  <!-- Import of resources
+    Only resources assigned to some task may be imported (as Polarion users).
+    Attributes:
+      createUsers ("true" or "false")
+        - determines whether users should be created in Polarion; if not references to
+          users representing resources may still be set during import (see configuration of assignments import above), 
+          but they will be unresolvable          
+      trySearchByEmail ("true" or "false")
+        - deterines what to do if there is a Polarion user with the same email as an MS Project resource 
+          that is to be imported; if set to "true", importer will bind references to the resource in case 
+          to the existing Polarion user (otherwise importer will create a new user with the same email
+          in this situation)
+      trySearchById ("true" or "false")
+        - deterines what to do if there is a Polarion user with the same id as was selected for an MS Project 
+          resource  that is to be imported; if set to "true", importer will bind references to the resource in case 
+          to the existing Polarion user (otherwise importer will fail in this situation)
+  -->
+  <resource createUsers="true" trySearchByEmail="true" trySearchById="true">
+
+    <!--
+      Resources in MS Project do not have an id suitable for use in Polarion as login name.
+      Therefore it has to be invented during import. Polarion will invent it from resource 
+      name by replacing characters that cannot occurr in id (e.g. spaces) by character 
+      specified in attribute "replaceChar". If attribute "fromEmail" is set to "true",
+      Polarion will take the id from the email address (the part before @) and will
+      use resource name only if the email address is missing.
+
+      If you want to create users in Polarion and you want to use some particular ids for your resource
+      (e.g. John Doe), you may change the name to the desired id (e.g. DoeJ) directly in MS Project before import 
+      and then set fromEmail to "false".
+    -->    
+    <id fromEmail="true" replaceChar="."/>
+
+  </resource>
+
+</import>

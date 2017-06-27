@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">exercise</field>
+    <field id="author">daniel.morris</field>
+    <field id="title">Update a test case on a changed requirement</field>
+    <field id="created">2012-05-08 10:53:17.251 +0200</field>
+    <field id="description" text-type="text/html">All requirments are covered by your test cases, but what happens when the requirments are changed? Keep your project data consistent by working with suspects. In the previous exercise we linked 2 test cases to our requirement "This is a sample of non functional requirement", now we make some changes to this requirment and create a suspect link. &lt;ul&gt;&lt;li&gt;Search for requirment "Some functional requirement representing a system feature. Itemize the detailed... " and add following text to description: "This is an example for suspect links"&lt;/li&gt;&lt;li&gt;Now save this requirement as suspect to mark all linked test cases as supect linked work items.&lt;br/&gt; &lt;img style="width: 487px;height: 107px;" src="attachment:suspect.PNG"/&gt;&lt;/li&gt;&lt;li&gt;Open your personal homepage &lt;span style="font-style: italic;"&gt;"My Polarion"&lt;/span&gt; and you will see all potential change impacts.&lt;span style="font-style: italic;"&gt;&lt;br/&gt; &lt;img style="width: 481px;height: 107px;" src="attachment:suspect1.PNG"/&gt;&lt;br/&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;Open each suspect test case and check if an update is needed.&lt;/li&gt;&lt;li&gt;Update the test case and remove the suspect by unmarking the suspect flag in the link section of our test case&lt;br/&gt; &lt;img style="width: 479px;height: 176px;" src="attachment:suspect2.PNG"/&gt;&lt;br/&gt;&lt;/li&gt;&lt;/ul&gt;</field>
+    <field id="priority">25.0</field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+</work-item>

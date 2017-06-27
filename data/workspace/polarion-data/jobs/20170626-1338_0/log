@@ -1,0 +1,37 @@
+2017-06-26 13:38:48,112 [Thread-31] INFO  root  - Job "DB History Creator" has id e37226ee-927abeae-1dd6e400-4ae85f4b
+2017-06-26 13:38:48,118 [Thread-31] INFO  root  - State of job "DB History Creator" changed to UNSCHEDULED
+2017-06-26 13:38:48,123 [Thread-31] INFO  root  - Working directory of root job "DB History Creator" is C:\Polarion\data\workspace\polarion-data\jobs\20170626-1338_0
+2017-06-26 13:38:48,127 [Thread-31] INFO  root  - Job "DB History Creator" runs as user "polarion"
+2017-06-26 13:38:48,130 [Thread-31 | u:p] INFO  root  - State of job "DB History Creator" changed to ACTIVATING
+2017-06-26 13:38:48,135 [Thread-31 | u:p] INFO  root  - State of job "DB History Creator" changed to WAITING
+2017-06-26 13:38:48,145 [Worker-1 | u:p] INFO  root  - State of job "DB History Creator" changed to RUNNING
+2017-06-26 13:38:48,373 [DBHistoryCreator-2 | u:p] INFO  root  - Executed command #143/144 [10 BuildArtifact(s): 1 in 'CAPA', 1 in 'NEW_CAPA', 1 global, 2 in 'elibrary', 2 in 'drivepilot', 1 in 'MyPolarion', 1 in '--Demo Projects', 1 in 'library']
+2017-06-26 13:38:48,373 [DBHistoryCreator-1 | u:p] INFO  root  - Executed command #144/144 [1 Revision(s): 1 global]
+2017-06-26 13:38:48,572 [Worker-1 | u:p | job: polarion.jobs.db.history] INFO  root  - Filled baseline cache for Attachment with 388 items
+2017-06-26 13:38:48,590 [Worker-1 | u:p | job: polarion.jobs.db.history] INFO  root  - Filled baseline cache for Baseline with 2 items
+2017-06-26 13:38:48,616 [Worker-1 | u:p | job: polarion.jobs.db.history] INFO  root  - Filled baseline cache for Build with 8 items
+2017-06-26 13:38:48,633 [Worker-1 | u:p | job: polarion.jobs.db.history] INFO  root  - Filled baseline cache for BuildArtifact with 5 items
+2017-06-26 13:38:48,646 [Worker-1 | u:p | job: polarion.jobs.db.history] INFO  root  - Filled baseline cache for Category with 8 items
+2017-06-26 13:38:48,684 [Worker-1 | u:p | job: polarion.jobs.db.history] INFO  root  - Filled baseline cache for Comment with 76 items
+2017-06-26 13:38:48,704 [Worker-1 | u:p | job: polarion.jobs.db.history] INFO  root  - Filled baseline cache for DocumentWorkflowSignature with 6 items
+2017-06-26 13:38:48,780 [Worker-1 | u:p | job: polarion.jobs.db.history] INFO  root  - Filled baseline cache for Module with 101 items
+2017-06-26 13:38:49,192 [Worker-1 | u:p | job: polarion.jobs.db.history] INFO  root  - Filled baseline cache for ModuleAttachment with 1157 items
+2017-06-26 13:38:49,217 [Worker-1 | u:p | job: polarion.jobs.db.history] INFO  root  - Filled baseline cache for ModuleComment with 20 items
+2017-06-26 13:38:49,250 [Worker-1 | u:p | job: polarion.jobs.db.history] INFO  root  - Filled baseline cache for Plan with 14 items
+2017-06-26 13:38:49,271 [Worker-1 | u:p | job: polarion.jobs.db.history] INFO  root  - Filled baseline cache for Project with 10 items
+2017-06-26 13:38:49,284 [Worker-1 | u:p | job: polarion.jobs.db.history] INFO  root  - Filled baseline cache for ProjectGroup with 1 items
+2017-06-26 13:38:49,354 [Worker-1 | u:p | job: polarion.jobs.db.history] INFO  root  - Filled baseline cache for Revision with 187 items
+2017-06-26 13:38:49,385 [Worker-1 | u:p | job: polarion.jobs.db.history] INFO  root  - Filled baseline cache for RichPage with 24 items
+2017-06-26 13:38:49,410 [Worker-1 | u:p | job: polarion.jobs.db.history] INFO  root  - Filled baseline cache for RichPageAttachment with 0 items
+2017-06-26 13:38:49,441 [Worker-1 | u:p | job: polarion.jobs.db.history] INFO  root  - Filled baseline cache for TestRun with 23 items
+2017-06-26 13:38:49,459 [Worker-1 | u:p | job: polarion.jobs.db.history] INFO  root  - Filled baseline cache for TestRunAttachment with 0 items
+2017-06-26 13:38:49,477 [Worker-1 | u:p | job: polarion.jobs.db.history] INFO  root  - Filled baseline cache for TestRunComment with 0 items
+2017-06-26 13:38:49,490 [Worker-1 | u:p | job: polarion.jobs.db.history] INFO  root  - Filled baseline cache for TestRunWorkflowSignature with 0 items
+2017-06-26 13:38:49,507 [Worker-1 | u:p | job: polarion.jobs.db.history] INFO  root  - Filled baseline cache for TimePoint with 5 items
+2017-06-26 13:38:49,540 [Worker-1 | u:p | job: polarion.jobs.db.history] INFO  root  - Filled baseline cache for WikiPage with 54 items
+2017-06-26 13:38:49,573 [Worker-1 | u:p | job: polarion.jobs.db.history] INFO  root  - Filled baseline cache for WikiPageAttachment with 48 items
+2017-06-26 13:38:50,156 [Worker-1 | u:p | job: polarion.jobs.db.history] INFO  root  - Filled baseline cache for WorkItem with 2132 items
+2017-06-26 13:38:50,180 [Worker-1 | u:p | job: polarion.jobs.db.history] INFO  root  - Filled baseline cache for WorkRecord with 12 items
+2017-06-26 13:38:50,197 [Worker-1 | u:p | job: polarion.jobs.db.history] INFO  root  - Filled baseline cache for t_user with 9 items
+2017-06-26 13:38:50,204 [Worker-1 | u:p] INFO  root  - State of job "DB History Creator" changed to FINISHED
+2017-06-26 13:38:50,208 [Worker-1 | u:p] INFO  root  - Status of job "DB History Creator" is OK

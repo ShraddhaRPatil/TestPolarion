@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="hyperlinks">
+        <list>
+            <struct>
+                <item id="role">renderSlide</item>
+                <item id="uri">/polarion/wiki/bin/view/project/MyPolarion/page/macros/RenderSlides?item=MP-532</item>
+            </struct>
+        </list>
+    </field>
+    <field id="author">stroebelet</field>
+    <field id="title">Configuration Context</field>
+    <field id="created">2011-04-27 11:35:58.515 +0200</field>
+    <field id="description" text-type="text/html">&lt;br/&gt;&lt;br/&gt;&lt;table id="polarion_wiki macro name=table;params=width=100%" style="margin: auto; empty-cells: show; font-size: 100%; border-collapse: collapse; width: 100%; border: 1px solid rgb(204, 204, 204);"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th style="height: 12px; text-align: left; vertical-align: top; font-weight: bold; background-color: rgb(240, 240, 240); border: 1px solid rgb(204, 204, 204); padding: 5px;"&gt; Type specific&lt;/th&gt;&lt;th style="height: 12px; text-align: left; vertical-align: top; font-weight: bold; background-color: rgb(240, 240, 240); border: 1px solid rgb(204, 204, 204); padding: 5px;"&gt; type independent&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="height: 12px; text-align: left; vertical-align: top; line-height: 18px; border: 1px solid rgb(204, 204, 204); padding: 5px;"&gt;Configuration is prefixed with type identifier&lt;br/&gt;&lt;span style="color: rgb(204, 0, 0); font-weight: bold; font-style: italic;"&gt;task-workflow.xml&lt;/span&gt;&lt;/td&gt;&lt;td style="height: 12px; text-align: left; vertical-align: top; line-height: 18px; border: 1px solid rgb(204, 204, 204); padding: 5px;"&gt;Is used when no type specific configuration is available&lt;br/&gt;&lt;span style="color: rgb(153, 0, 0); font-weight: bold; font-style: italic;"&gt;workflow.xml&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;br/&gt;&lt;span style="font-weight: bold;"&gt;Example:&lt;/span&gt;&lt;br/&gt;&lt;img style="width: 494px; height: 206px;" src="workitemimg:1-typesepecificVsGeneral.png"/&gt;&lt;br/&gt;&lt;br/&gt;On project level following configurations will be used:&lt;br/&gt;&lt;br/&gt;&lt;ul&gt;&lt;li&gt;for task: &lt;span style="color: rgb(0, 153, 0);"&gt;task-workflow.xml&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style="color: rgb(0, 153, 0);"&gt;&lt;span style="color: rgb(0, 0, 0);"&gt;for defect:&lt;/span&gt; &lt;span style="color: rgb(255, 0, 0);"&gt;defect-workflow.xml&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=" color: rgb(0, 153, 0);"&gt;&lt;span style=" color: rgb(255, 0, 0);"&gt;&lt;span style="color: rgb(0, 0, 0);"&gt;for requirement:&lt;/span&gt; workflow.xml&lt;br/&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;span style="font-weight: bold;"&gt;Attention: Type specific configurations are always used instead of type independent configurations.&lt;/span&gt;&lt;br/&gt;Exception: &lt;span style="font-style: italic;"&gt;custom-fields&lt;/span&gt; = combination of &lt;span style="font-style: italic;"&gt;custom-fields.xml&lt;/span&gt; + e.g. &lt;span style="font-style: italic;"&gt;task-custom-fields.xml&lt;/span&gt;</field>
+    <field id="priority">25.0</field>
+    <field id="status">accepted</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+    <field id="subtitle" type="string">General versus type specific configurations</field>
+</work-item>

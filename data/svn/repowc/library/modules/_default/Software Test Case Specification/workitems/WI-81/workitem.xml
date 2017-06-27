@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">testcase</field>
+    <field id="author">admin</field>
+    <field id="title">Test Case A</field>
+    <field id="created">2009-01-09 20:51:08.417 +0100</field>
+    <field id="description" text-type="text/html">A test case specification shall aim to evaluate the operation of a key element or function of the&lt;br/&gt;system. For each test case, identify or specify&lt;br/&gt;&lt;br/&gt; &lt;span style="font-weight: bold;"&gt;Test items&lt;/span&gt;&lt;br/&gt;Identify and briefly describe the items and features to be exercised by this test case.&lt;br/&gt;&lt;br/&gt; &lt;span style="font-weight: bold;"&gt;Input specifications&lt;/span&gt;&lt;br/&gt;Specify inputs required to execute the test case. The inputs might be specified by value (with tolerances where appropriate),&lt;br/&gt;or by name. Specify also all required relationships between inputs (e.g., timing).&lt;br/&gt;&lt;br/&gt; &lt;span style="font-weight: bold;"&gt;Output specifications&lt;/span&gt;&lt;br/&gt;Specify outputs expected from executing the test case relevant to pass or fail criteria. (e.g., response time).&lt;br/&gt;&lt;br/&gt; &lt;span style="font-weight: bold;"&gt;Environmental needs&lt;/span&gt;&lt;br/&gt;&lt;ul&gt;&lt;li&gt;characteristics and configurations of required hardware&lt;/li&gt;&lt;li&gt;required system and application software&lt;/li&gt;&lt;li&gt;other special equipment or specially-trained personnel&lt;br/&gt;&lt;/li&gt;&lt;/ul&gt;&lt;span style="font-weight: bold;"&gt;Special procedural requirements&lt;/span&gt;&lt;br/&gt;Special constraints on test procedures that execute this test case&lt;br/&gt;&lt;br/&gt; &lt;span style="font-weight: bold;"&gt;Inter-case dependencies&lt;/span&gt;&lt;br/&gt;Test cases that must be executed before this test case should be linked using the "depends_on" link role.</field>
+    <field id="priority">25.0</field>
+    <field id="status">draft</field>
+    <field id="severity">normal</field>
+</work-item>

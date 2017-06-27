@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">text</field>
+    <field id="author">CarolaH</field>
+    <field id="created">2013-01-04 11:01:59.538 +0100</field>
+    <field id="description" text-type="text/html">Those members of the Requirements team to prefer to work with office documents when defining requirements can do so. Using special, customizable Live Document templates that come standard with Polarion, document-oriented people can write up requirements with familiar Microsoft Office Word and/or Microsoft Office Excel tools which they already know, and with which they are productive.&lt;br style=""/&gt;When checked in to the project repository (Subversion), Polarion automatically creates Work Items (requirements and tasks) from the document. The engineering team can manage these in Polarion. If they need to change a requirement or task, they can do so and the changes are automatically reflected in the relevant office document.</field>
+    <field id="priority">25.0</field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+</work-item>

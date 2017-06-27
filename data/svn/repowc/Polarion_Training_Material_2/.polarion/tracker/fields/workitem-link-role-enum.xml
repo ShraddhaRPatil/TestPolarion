@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<enumeration>
+    <option description="A generic relation type, more concrete link should be used where possible" id="relates_to" name="relates to" oppositeName="is related to" sortOrder="1">
+        <rule from="task, requirement, session" to="task"/>
+        <rule from="text" to="heading"/>
+    </option>
+
+    <option id="parent" name="has parent" oppositeName="is parent of" parent="true" sortOrder="4">
+        <rule sameType="true"/>
+    </option>
+
+    <option description="Used for traceability from Tasks to Requirements" id="implements" name="implements" oppositeName="is implemented by" parent="true" sortOrder="7">
+        <rule from="task" to="requirement, session, task, exercise, slide"/>
+    </option>
+
+    <option description="Trainng sessions cover requirements" id="covers" name="covers" oppositeName="is covered by" sortOrder="8">
+        <rule from="session" to="requirement"/>
+    </option>
+
+    <option id="next" name="is next slide of" oppositeName="is previous slide of" sortOrder="9">
+        <rule from="slide" sameType="true"/>
+    </option>
+
+    <option id="seeAlso" name="See Also" oppositeName="See Also" sortOrder="10">
+        <rule from="slide" sameType="true"/>
+    </option>
+
+    <option id="" name="" sortOrder="11"/>
+</enumeration>

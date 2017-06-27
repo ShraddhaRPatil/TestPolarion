@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<fields>
+    <field description="Impact of the incident" id="impact" name="Impact" type="enum:Impact"/>
+    <field description="Urgency at which incident needs to be resolved" id="urgency" name="Urgency" type="enum:Urgency"/>
+    <field description="Priority at which incident needs to be handled" id="priority" name="Priority" type="enum:Priority"/>
+    <field description="Customer component\application area impacted by Incident" id="impactedComponent" name="Impacted Component" type="enum:impactedComponent"/>
+    <field description="Incident resulted in type of resolution" id="resolutionType" name="Resolution Type" type="enum:resolutionType"/>
+    <field description="Resolution Description" id="resolutionDesc" name="Resolution Description" type="string"/>
+    <field description="Incident Category" id="category" name="Category" type="enum:@category"/>
+    <field description="Incident Sub Category" id="subCategory" name="Sub Category" type="enum:subCategory"/>
+    <field description="Reason for waiting like for details from customer" id="reasonForWait" name="Reason for Waiting" type="string"/>
+    <field description="Incident reported by" id="originatorName" name="Originator Name" type="string"/>
+    <field description="Incident reporter's phone no" id="originatorTel" name="Originator Telephone" type="string"/>
+    <field description="Incident reporter's email id" id="originatorEmail" name="Originator email id" type="string"/>
+    <field description="Incident reporter's location and address" id="originatorAddress" name="Originator Office Address and Location" type="string"/>
+</fields>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">stroebelet</field>
+    <field id="created">2012-05-30 06:13:33.277 -0400</field>
+    <field id="description" text-type="text/html"><![CDATA[<ul>
+  <li>Open <span style="font-style: italic;">Releases/Unplanned</span> wiki page. All requirements which are in status <span style="font-style: italic;">approved</span> but yet not planned are listed here.<br/>
+    <br/>
+    <img src="workitemimg:3-screenshot-20140916-162321.png"/><br/>
+    <br/>
+    
+    <table id="polarion_wiki macro name=table;params=width=600px" class="polarion-Document-table" style="width: 600px;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;">
+      <tbody>
+        <tr>
+          <th style="font-weight: bold;font-size: 9pt;background-color: #F0F0F0;line-height: 1.5;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Hint: You can also use work item tree or table view with an appropriate query like <span style="font-style: italic;">type:requirement AND status:approved AND NOT PLAN:(*)</span> to get all unplanned requirements. </th>
+        </tr>
+      </tbody>
+    </table>
+    <br/>
+  </li>
+  <li>Use <span style="font-style: italic;">Open in table</span> option and change the status of all listed requirements to accepted.<br/>
+    <img src="workitemimg:1-screenshot-20140916-161934.png"/><br/>
+    Set the following field values to:<br/>
+  </li>
+  <ul>
+    <li>Planned In: Version 1.0</li>
+    <li>Initial Estimate: 5days each<br/>
+      <br/>
+      <img src="workitemimg:2-screenshot-20140916-161934.png" style="width: 704px;height: 378px;"/><br/>
+    </li>
+  </ul>
+  <li>Build a query which displays all requirements for <span style="font-style: italic;">Version 1.0<br/>
+    </span></li>
+  <li>Open <span style="font-style: italic;">Releases</span> home page and check <span style="font-style: italic;">Version 1.0</span> and <span style="font-style: italic;">Unplanned</span> page<span style="font-style: italic;"><br/>
+    </span></li>
+</ul>]]></field>
+    <field id="linkedWorkItems">
+        <list>
+            <struct>
+                <item id="revision">36882</item>
+                <item id="role">branched_from</item>
+                <item id="workItem">MP-792</item>
+            </struct>
+        </list>
+    </field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Assign requirements to release</field>
+    <field id="type">exercise</field>
+</work-item>

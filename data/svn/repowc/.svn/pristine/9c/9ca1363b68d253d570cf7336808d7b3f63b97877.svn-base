@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">admin</field>
+    <field id="created">2017-06-19 17:16:51.153 +0530</field>
+    <field id="previousStatus">resolved</field>
+    <field id="priority">50.0</field>
+    <field id="resolution">done</field>
+    <field id="resolvedOn">2017-06-19 17:17:45.950 +0530</field>
+    <field id="severity">normal</field>
+    <field id="status">closed</field>
+    <field id="title">testIssueWorkflow3</field>
+    <field id="type">issue</field>
+</work-item>

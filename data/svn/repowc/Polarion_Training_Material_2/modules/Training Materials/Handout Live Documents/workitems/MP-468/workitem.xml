@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="author">admin</field>
+    <field id="title">Print Your Document</field>
+    <field id="created">2011-04-01 11:06:11.727 +0200</field>
+    <field id="description" text-type="text/html">&lt;img src="attachment:printdoc.jpg"/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;ul&gt;&lt;li&gt;Print: Opens up print dialog&lt;/li&gt;&lt;li&gt;Export to PDF: Print via pdf-export&lt;/li&gt;&lt;li&gt;Word Round-trip&amp;gt; Export Document: Select "Review" if you want to print the document&lt;br/&gt;&lt;/li&gt;&lt;/ul&gt;</field>
+    <field id="priority">25.0</field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="subtitle" type="string">You have 3 options to print your document. All of them are available in the "Operations" menu</field>
+</work-item>

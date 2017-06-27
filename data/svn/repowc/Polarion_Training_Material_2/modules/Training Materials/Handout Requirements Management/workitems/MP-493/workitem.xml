@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="linkedWorkItems">
+        <list>
+            <struct>
+                <item id="workItem">MP-484</item>
+                <item id="suspect">false</item>
+                <item id="role">seeAlso</item>
+            </struct>
+            <struct>
+                <item id="workItem">MP-494</item>
+                <item id="suspect">false</item>
+                <item id="role">seeAlso</item>
+            </struct>
+        </list>
+    </field>
+    <field id="type">slide</field>
+    <field id="hyperlinks">
+        <list>
+            <struct>
+                <item id="role">renderSlide</item>
+                <item id="uri">/polarion/wiki/bin/view/project/MyPolarion/page/macros/RenderSlides?item=MP-493</item>
+            </struct>
+        </list>
+    </field>
+    <field id="author">stroebelet</field>
+    <field id="title">Changing Requirements</field>
+    <field id="created">2011-04-12 15:36:04.583 +0200</field>
+    <field id="description" text-type="text/html">We can differentiate between two types of changes on requirements&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;img src="workitemimg:1-immediate_Propagation.jpg"/&gt;&lt;br/&gt;&lt;br/&gt;&lt;ul&gt;&lt;li&gt;Changes are directly propagated into development&lt;br/&gt;&lt;/li&gt;&lt;li&gt;Suspect is used to keep information consistent&lt;/li&gt;&lt;li&gt;less formal, early stage of requirements specification&lt;br/&gt;&lt;/li&gt;&lt;/ul&gt;&lt;img src="workitemimg:2-parallel_analysis.jpg"/&gt;&lt;br/&gt;&lt;ul&gt;&lt;li&gt;Changes are tracked as work items&lt;/li&gt;&lt;li&gt;Impact analysis is done prior to actual change&lt;/li&gt;&lt;li&gt;Change and all needed sub-changes are tracked and planned as separate work items&lt;/li&gt;&lt;li&gt;Suspects are used during implementation of change not during analysis&lt;br/&gt;&lt;/li&gt;&lt;/ul&gt;</field>
+    <field id="priority">25.0</field>
+    <field id="status">accepted</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+    <field id="subtitle" type="string"> </field>
+</work-item>

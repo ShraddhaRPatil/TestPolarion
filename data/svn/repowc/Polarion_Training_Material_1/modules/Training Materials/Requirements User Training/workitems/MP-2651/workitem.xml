@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">exercise</field>
+    <field id="author">hartliebc</field>
+    <field id="title">Move existing requirement to specification</field>
+    <field id="created">2012-04-24 11:44:49.279 +0200</field>
+    <field id="description" text-type="text/html">&lt;ul&gt;&lt;li&gt;Search for requirement "The user should be able to login to E-Library"&lt;/li&gt;&lt;li&gt;Select work item action menu and move work item to your user specification "CRS_E-Library"&lt;br/&gt; &lt;img style="width: 173px;height: 300px;" src="attachment:moveWI.jpg"/&gt;&lt;/li&gt;&lt;/ul&gt;</field>
+    <field id="priority">25.0</field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+    <field id="upgradedescription" type="boolean">true</field>
+</work-item>

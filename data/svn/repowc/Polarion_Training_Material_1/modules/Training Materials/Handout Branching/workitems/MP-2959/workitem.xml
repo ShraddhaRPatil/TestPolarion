@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="author">hartliebc</field>
+    <field id="title">Creating a Branched Document</field>
+    <field id="created">2012-05-30 12:51:13.581 +0200</field>
+    <field id="description" text-type="text/html">&lt;span style="font-weight: bold;"&gt;Options for Branching:&lt;/span&gt;&lt;br/&gt;&lt;br/&gt;&lt;ul&gt;&lt;li&gt;Branching the Current State&lt;/li&gt;&lt;li&gt;Branching a Historical Revision&lt;/li&gt;&lt;li&gt;Branching a Baseline&lt;/li&gt;&lt;li&gt;Branching a Filtered Document&lt;br/&gt;&lt;/li&gt;&lt;/ul&gt;&lt;img src="attachment:createbranch.jpg" style="width: 581px; height: 385px;"/&gt;  </field>
+    <field id="priority">25.0</field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+    <field id="subtitle" type="string">Various ways to branch a document</field>
+    <field id="trainingCategory" multi="true" type="enum:trainingCategory"/>
+</work-item>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">admin</field>
+    <field id="created">2014-10-30 12:20:03.362 -0400</field>
+    <field id="description" text-type="text/html"><![CDATA[As an administrator you might want to provide wiki reports for your users to give them live reports which give them information they are requesting more often. In our case we want to build a report which shows all questions sorted by their topic sorted by our custom priority. 
+<ul>
+  <li>Create a new wiki page</li>
+  <li>Add Title for your report &quot;Question Dashboard&quot;</li>
+  <li>Add Subheadings for every custom priority enumeration</li>
+  <li>Use workitems macro to display question for each priority</li>
+  <ul>
+    <li>display fields: id,title,status,customPriority,assignee</li>
+    <li>sort by descending order: customPriority as first level sorting and status as second level sorting</li>
+  </ul>
+</ul>]]></field>
+    <field id="linkedWorkItems">
+        <list>
+            <struct>
+                <item id="revision">23978</item>
+                <item id="role">branched_from</item>
+                <item id="workItem">PUT-5158</item>
+            </struct>
+        </list>
+    </field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Create a wiki page "Question Dashboard"</field>
+    <field id="type">exercise</field>
+</work-item>

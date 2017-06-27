@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<comment>
+    <field id="tags">
+        <list>
+            <item>approvals</item>
+        </list>
+    </field>
+    <field id="author">rProject</field>
+    <field id="text" text-type="text/plain">We should consider VW as well.</field>
+    <field id="created">2013-05-15 10:47:12.630 +0200</field>
+    <field id="title">Approval comment</field>
+</comment>

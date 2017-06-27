@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="hyperlinks">
+        <list>
+            <struct>
+                <item id="role">renderSlide</item>
+                <item id="uri">/polarion/wiki/bin/view/project/MyPolarion/page/macros/RenderSlides?item=MP-519</item>
+            </struct>
+        </list>
+    </field>
+    <field id="author">stroebelet</field>
+    <field id="title">Wiki Pages Versus Documents</field>
+    <field id="created">2011-04-26 11:53:31.889 +0200</field>
+    <field id="priority">25.0</field>
+    <field id="description" text-type="text/html">&lt;img src="workitemimg:6-screenshot-3.jpg"/&gt;&lt;br/&gt;&lt;ul&gt;&lt;li&gt;Use wiki pages to drive your process&lt;/li&gt;&lt;li&gt;Combine &lt;span style="font-weight: bold;"&gt;process description&lt;/span&gt; with &lt;span style="font-weight: bold;"&gt;dynamic data&lt;/span&gt; and &lt;span style="font-weight: bold;"&gt;custom actions&lt;/span&gt;&lt;/li&gt;&lt;li&gt;Custom reports and dashboards&lt;/li&gt;&lt;/ul&gt;&lt;br/&gt;&lt;img src="workitemimg:4-screenshot.jpg" style="height: 28px; width: 164px;"/&gt;&lt;br/&gt;&lt;ul&gt;&lt;li&gt;Easy structuring of work items in a document similar to MS Word&lt;br/&gt;&lt;ul&gt;&lt;li&gt;Specification documents&lt;/li&gt;&lt;li&gt;Meeting notes&lt;/li&gt;&lt;li&gt;Checklists&lt;/li&gt;&lt;li&gt;Plans&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;</field>
+    <field id="status">accepted</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+    <field id="subtitle" type="string">When to use wiki pages </field>
+</work-item>

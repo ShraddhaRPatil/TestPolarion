@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="author">CarolaH</field>
+    <field id="title">Different Ways to Create Links</field>
+    <field id="created">2012-12-14 11:53:59.222 +0100</field>
+    <field id="description" text-type="text/html">&lt;ul&gt;&lt;li&gt;Create and link a Work Item in one step&lt;br/&gt; &lt;img src="attachment:createNewLinkedWI.jpg"/&gt;&lt;/li&gt;&lt;li&gt;Link existing Work Items using the Polarion Tracker or Polarion Documents&lt;br/&gt; &lt;img src="attachment:linkExistingWI.jpg"/&gt;&lt;br/&gt;&lt;/li&gt;&lt;/ul&gt;&lt;br/&gt; </field>
+    <field id="priority">25.0</field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+    <field id="trainingCategory" multi="true" type="enum:trainingCategory"/>
+</work-item>

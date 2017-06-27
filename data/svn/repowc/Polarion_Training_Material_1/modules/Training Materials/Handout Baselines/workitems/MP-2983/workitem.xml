@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="author">hartliebc</field>
+    <field id="title">Polarion Time Machine</field>
+    <field id="created">2012-05-30 15:59:22.853 +0200</field>
+    <field id="priority">25.0</field>
+    <field id="description" text-type="text/html">&lt;ul&gt;&lt;li&gt;Enables users to browse any baseline just as if it were the current project state&lt;br/&gt;&lt;/li&gt;&lt;li&gt;All artifacts appear in the state they were when the baseline was created&lt;/li&gt;&lt;li&gt;Queries and reports retrieve only information from the baseline.&lt;/li&gt;&lt;/ul&gt;&lt;br/&gt;&lt;img src="attachment:timemachine.jpg" style="width: 730px; height: 447px;"/&gt;&lt;br/&gt; </field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+    <field id="trainingCategory" multi="true" type="enum:trainingCategory"/>
+</work-item>

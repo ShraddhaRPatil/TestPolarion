@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">requirement</field>
+    <field id="author">admin</field>
+    <field id="title">Scope and Limitations</field>
+    <field id="created">2008-10-02 21:26:46.051 +0200</field>
+    <field id="description" text-type="text/html">&lt;span style="font-style: italic;" class="Apple-style-span"&gt;The project scope defines the concept and range of the proposed solution. It’s also important to define what will not be included in the product. Clarifying the scope and limitations helps to establish realistic expectations of the many stakeholders. It also provides a reference frame against which proposed features and requirements changes can be evaluated. Proposed requirements that are out of scope for the envisioned product must be rejected, unless they are so beneficial that the scope should be enlarged to accommodate them (with accompanying changes in budget, schedule, and/or resources).&lt;/span&gt;</field>
+    <field id="priority">25.0</field>
+    <field id="status">draft</field>
+    <field id="severity">should_have</field>
+    <field id="previousStatus">open</field>
+</work-item>

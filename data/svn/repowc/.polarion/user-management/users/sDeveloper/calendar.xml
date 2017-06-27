@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calendars>
+    <Calendar>
+        <UID>2</UID>
+        <Name>sDeveloper</Name>
+        <IsBaseCalendar>0</IsBaseCalendar>
+        <BaseCalendarUID>1</BaseCalendarUID>
+        <WeekDays>
+            <WeekDay>
+                <Name/>
+                <DayType>5</DayType>
+                <DayWorking>1</DayWorking>
+                <WorkingTimes>
+                    <WorkingTime>
+                        <FromTime>12:0:00</FromTime>
+                        <ToTime>17:0:00</ToTime>
+                    </WorkingTime>
+                </WorkingTimes>
+            </WeekDay>
+            <WeekDay>
+                <Name/>
+                <DayType>6</DayType>
+                <DayWorking>1</DayWorking>
+                <WorkingTimes>
+                    <WorkingTime>
+                        <FromTime>9:0:00</FromTime>
+                        <ToTime>12:0:00</ToTime>
+                    </WorkingTime>
+                </WorkingTimes>
+            </WeekDay>
+        </WeekDays>
+    </Calendar>
+</Calendars>

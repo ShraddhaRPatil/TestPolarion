@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="hyperlinks">
+        <list>
+            <struct>
+                <item id="role">renderSlide</item>
+                <item id="uri">/polarion/wiki/bin/view/project/MyPolarion/page/macros/RenderSlides?item=MP-654</item>
+            </struct>
+        </list>
+    </field>
+    <field id="author">stroebelet</field>
+    <field id="title">Build Phases And Execution</field>
+    <field id="created">2011-05-17 19:31:35.093 +0200</field>
+    <field id="description" text-type="text/html">&lt;p&gt;A Polarion build process has 3 phases&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;span style="font-weight: bold;"&gt;Checkout&lt;/span&gt; of files from desired location of subversion repository&lt;/li&gt;&lt;li&gt;&lt;span style="font-weight: bold;"&gt;Execution&lt;/span&gt; of build filed (ANT, MAVEN, batch or shell script)&lt;/li&gt;&lt;li&gt;&lt;span style="font-weight: bold;"&gt;Deployment&lt;/span&gt; of build result to build repository and creation of build report&lt;br&gt;&lt;img style="width: 142px; height: 56px;" src="workitemimg:1-buildreport.jpg"&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;A build can be triggered in following ways:&lt;br&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Scheduled build job&lt;/li&gt;&lt;li&gt;Manual build execution&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;</field>
+    <field id="priority">25.0</field>
+    <field id="status">accepted</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+    <field id="subtitle" type="string"> </field>
+    <field id="hint" type="string">Builds can also be used to create zip files or other build results.</field>
+</work-item>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="approvals">
+        <list>
+            <struct>
+                <item id="status">approved</item>
+                <item id="user">rProject</item>
+            </struct>
+        </list>
+    </field>
+    <field id="author">admin</field>
+    <field id="created">2010-11-20 12:33:18.500 +0100</field>
+    <field id="description" text-type="text/html">The user should easily get the information about what books he/she has lent.</field>
+    <field id="previousStatus">closed</field>
+    <field id="priority">72.0</field>
+    <field id="resolution">done</field>
+    <field id="resolvedOn">2010-11-25 16:34:20.898 +0100</field>
+    <field id="severity">must_have</field>
+    <field id="status">verified</field>
+    <field id="storyPoints" type="integer">8</field>
+    <field id="title">User Statistics</field>
+    <field id="type">userstory</field>
+</work-item>

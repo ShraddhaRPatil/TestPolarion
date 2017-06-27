@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="author">stroebelet</field>
+    <field id="title">Custom Header and Footer in PDF Export</field>
+    <field id="created">2011-09-17 20:12:37.727 +0200</field>
+    <field id="priority">25.0</field>
+    <field id="description" text-type="text/html">&lt;img src="workitemimg:4-screenshot-3.jpg"/&gt;&lt;br/&gt;</field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="subtitle" type="string">Wiki header and footer can be customized with html</field>
+    <field id="trainingCategory" multi="true" type="enum:trainingCategory"/>
+    <field id="printNotes" text-type="text/html" type="text/html">&lt;img src="workitemimg:1-screenshot.jpg"&gt;&lt;br&gt;</field>
+    <field id="speakersNotes" text-type="text/html" type="text/html">&lt;div&gt;&lt;br&gt;&lt;/div&gt;</field>
+</work-item>

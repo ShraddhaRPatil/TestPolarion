@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">stroebelet</field>
+    <field id="created">2012-04-18 09:57:09.283 -0400</field>
+    <field id="description" text-type="text/html"><![CDATA[Sometimes it is helpful to upload configuration files into your project. Usually this is not necessary as you can edit all configuration files directly in Polarion but sometimes you might want to reuse a configuration of another project without retyping evrything inside of your project again e.g. work item types<br/>
+<ul>
+  <li>Open Administration view<br/>
+    <img src="attachment:adminView.png" style="width: 294px;height: 188px;"/></li>
+  <li>Open following topic in global configuration: Work Items|<span style="font-style: italic;">Enumerations<br/>
+      <img src="attachment:globalConf.png" style="width: 187px;height: 111px;"/></span></li>
+  <li>Download the priority-enum.xml file to your desktop (by using righclick) and open it. What you see is a typical Polarion configuration file<img src="attachment:config.png" style="width: 751px;height: 416px;"/></li>
+  <li>Open your project to change administration scope</li>
+  <li>Upload the configuration file to your project using the upload function at the bottom<br/>
+    <img src="attachment:uploadConf.png" style="width: 705px;height: 226px;"/></li>
+  <li>edit the configuration file and remove following two entries</li>
+  <ul>
+    <li>highest, lowest<br/>
+      <img src="attachment:editConf.png" style="width: 718px;height: 163px;"/></li>
+  </ul>
+</ul>]]></field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Download, Review and Upload an Example Configuration File</field>
+    <field id="type">exercise</field>
+</work-item>

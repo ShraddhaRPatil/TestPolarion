@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="hyperlinks">
+        <list>
+            <struct>
+                <item id="role">renderSlide</item>
+                <item id="uri">/polarion/wiki/bin/view/project/MyPolarion/page/macros/RenderSlides?item=MP-953</item>
+            </struct>
+        </list>
+    </field>
+    <field id="author">stroebelet</field>
+    <field id="title">Work Items, Documents &amp; Wiki Pages</field>
+    <field id="created">2011-08-03 17:42:19.335 +0200</field>
+    <field id="description" text-type="text/html">&lt;ul&gt;&lt;li&gt;Work items = smallest entity you can track&lt;/li&gt;&lt;li&gt;Documents = container for work items, documents can also reference work items&lt;br/&gt;&lt;/li&gt;&lt;li&gt;Wiki Pages = used for reporting and allows to guide team members through your process&lt;br/&gt;&lt;/li&gt;&lt;/ul&gt;</field>
+    <field id="priority">25.0</field>
+    <field id="status">accepted</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+    <field id="subtitle" type="string">Wiki pages are used for navigation and reporting</field>
+    <field id="trainingCategory" multi="true" type="enum:trainingCategory"/>
+</work-item>

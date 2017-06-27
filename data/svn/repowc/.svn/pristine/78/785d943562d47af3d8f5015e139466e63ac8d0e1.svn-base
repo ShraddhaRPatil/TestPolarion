@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+  <!--
+    Build Work Item reports configuration
+    =====================================
+    Using element <workitem-report> you can list some Work Items in the build preview and notification.
+    Typical usage is to list Work Items that were resolved since previous build.
+    There may be several Work Item reports (each corresponding to one <workitem-report> element), each report
+    will occurr as a new section in the build preview and notification (below section "Build Results").
+    
+    <workitem-report>
+      By attributes buildArtifact and buildDescriptor you can define for which artifacts and build descriptors
+      this report definition applies. The Work Items will be listed only on previews of builds that match this 
+      criteria. 
+        buildArtifact 
+          Artifact selector in format ARTIFACT_GROUP_ID:ARTIFACT_ID:REPOSITORY_TAG, where 
+          any of the three parts may end with '*' to indicate matching by prefix (leave part empty or equal 
+          to '*' to match all artifacts). 
+        buildDescriptor 
+          Name of the build descriptor. If the attribute is missing, all descriptors are matched.
+        
+
+      <linkRole>
+        Id of the report, unique among work reports in a project.
+      <title>
+        Title of the section.
+      <query>
+        This element contains query that together with attributes of this element determines which 
+        Work Items are listed.
+        String ${build.stamp} in query will be replaced by current build stamp (this might be useful
+        in case you are maintaining some custom field with build relevant information).
+        Attributes (only one of resolved* criteria may be used):
+            currentProjectOnly (true or false)
+                - include only Work Items from the current project
+            resolvedSinceLastSuccessfulBuild (true or false)
+                - include only Work Items resolved since last successfull build of the artifact in case
+            resolvedSinceBuild (build stamp)
+                - include only Work Items resolved since build with given stamp
+            resolvedSince (time in the format YYYY-MM-DD HH:MM)
+                - include only Work Items resolved since given time
+            resolvedInLastDays (positive integer)
+                - include only Work Items resolved in last n days
+      <sort-by>
+        This element can have one or more subelements <field>, that may determine sorting of the items list
+        in descending or ascending order (boolean attribute descending).
+
+    Example:
+
+        <workitem-report buildArtifact="*:*:*">
+            <linkRole>resolved_requirements</linkRole>
+            <title>Recently Resolved Requirements</title>
+            <query currentProjectOnly="true" resolvedInLastDays="14">type:requirement</query>
+            <sort-by>
+                <field name="resolvedOn" descending="false"/>
+            </sort-by>
+        </workitem-report>
+
+        <workitem-report buildArtifact="*:*:*">
+            <linkRole>resolved_defects</linkRole>
+            <title>Recently Resolved Defects</title>
+            <query currentProjectOnly="true" resolvedInLastDays="14">type:defect</query>
+            <sort-by>
+                <field name="resolvedOn" descending="false"/>
+            </sort-by>
+        </workitem-report>
+
+  -->
+<workitem-reports>
+
+</workitem-reports>

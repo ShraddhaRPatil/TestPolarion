@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="hyperlinks">
+        <list>
+            <struct>
+                <item id="role">renderSlide</item>
+                <item id="uri">/polarion/wiki/bin/view/project/MyPolarion/page/macros/RenderSlides?item=MP-483</item>
+            </struct>
+        </list>
+    </field>
+    <field id="author">stroebelet</field>
+    <field id="title">Project Management And Planning</field>
+    <field id="created">2011-04-05 21:19:01.440 +0200</field>
+    <field id="description" text-type="text/html">&lt;ul&gt;&lt;li&gt;Working with project documents&lt;/li&gt;&lt;li&gt;Create a release plan and a release backlog&lt;/li&gt;&lt;li&gt;Plan work packages using units&lt;br/&gt;&lt;/li&gt;&lt;li&gt;Create an Iteration Plan&lt;/li&gt;&lt;li&gt;Monitor an Iteration Plan&lt;/li&gt;&lt;li&gt;Create Iteration Reports&lt;br/&gt;&lt;/li&gt;&lt;/ul&gt;</field>
+    <field id="priority">25.0</field>
+    <field id="status">accepted</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+    <field id="subtitle" type="string"> </field>
+    <field id="trainingCategory" multi="true" type="enum:trainingCategory">
+        <list>
+            <item>user</item>
+        </list>
+    </field>
+</work-item>

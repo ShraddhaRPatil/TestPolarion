@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">stroebelet</field>
+    <field id="created">2012-04-24 04:15:45.432 -0400</field>
+    <field id="description" text-type="text/html"><![CDATA[<ul>
+  <li>Create a new space <span style="font-style: italic;">Meetings by opening Documents &amp; Pages and clicking the plus icon as vizualized in screenshot below.<br/>
+      <img src="attachment:65-screenshot-20160105-053057.png" style="width: 721px;height: 413px;"/><br/>
+      <br/>
+    </span></li>
+  <li>Create a new document <span style="font-style: italic;">Meeting Template</span></li>
+  <ul>
+    <li>change <span style="font-style: italic;">Work Item Type</span> to: <span style="font-style: italic;">task<br/>
+        <img src="attachment:66-screenshot-20160105-053057.png" style="width: 526px;height: 600px;"/><br/>
+      </span></li>
+  </ul>
+  <li>Add headings level 1 for:</li>
+  <ul>
+    <li>Agenda</li>
+    <li>Participants</li>
+    <li>Action Items</li>
+  </ul>
+  <li>Save the Document</li>
+</ul>]]></field>
+    <field id="linkedWorkItems">
+        <list>
+            <struct>
+                <item id="revision">41916</item>
+                <item id="role">branched_from</item>
+                <item id="workItem">MP-799</item>
+            </struct>
+        </list>
+    </field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Create Meeting Minutes Document Template</field>
+    <field id="type">exercise</field>
+</work-item>

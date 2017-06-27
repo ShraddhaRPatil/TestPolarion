@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">andyholton</field>
+    <field id="created">2013-03-22 09:28:13.448 -0400</field>
+    <field id="description" text-type="text/html"><![CDATA[In many cases you will receive a specification in form of an excel document. In this case you will need to extract all relevant test cases out of the document and manage them as separate test cases.<br/>
+ 
+<ul>
+  <li>Go to <span style="font-style: italic;">Work Items|Operations|Import|Format: Microsoft Excel Workbook<br/>
+      </span></li>
+  <ul>
+    <li>Choose Import File provided to you or found on <a href="/polarion/#/project/MyPolarion/home" target="_blank" class="descriptionLink"><span id="WIKI_LINK:_default.Home|Home"></span> </a><br/>
+      </li>
+  </ul>
+  <li><span style="font-style: italic;">Import as new document named &quot;Test Specification</span>&quot; in space &quot;Specification&quot;<br/>
+    <img src="attachment:import1.png" style="width: 724px;height: 150px;"/><br/>
+    </li>
+  <li>Apply following settings<img src="attachment:excelimporter2.png" style="width: 724px;height: 207px;"/><br/>
+    
+    <table id="polarion_wiki macro name=table;params=width=600px" class="polarion-Document-table" style="width: 600px;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;">
+      <tbody>
+        <tr>
+          <th style="font-weight: bold;font-size: 9pt;background-color: #F0F0F0;line-height: 1.5;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Hint: You can also import multi valued fields e.g. &quot;Release&quot;. See help for more information. </th>
+        </tr>
+      </tbody>
+    </table>
+    </li>
+</ul>]]></field>
+    <field id="linkedWorkItems">
+        <list>
+            <struct>
+                <item id="revision">10561</item>
+                <item id="role">branched_from</item>
+                <item id="workItem">MP-4405</item>
+            </struct>
+        </list>
+    </field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Importing an Excel Spreadsheet</field>
+    <field id="type">exercise</field>
+</work-item>

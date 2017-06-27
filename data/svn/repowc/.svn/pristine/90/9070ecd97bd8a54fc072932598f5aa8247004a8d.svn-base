@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">stroebelet</field>
+    <field id="created">2011-07-28 13:56:06.546 -0400</field>
+    <field id="description" text-type="text/html"><![CDATA[For our question item we need some extra fields which should be created during this exercise. We need an answer field, an enumeration to slect a topic this question is about and we also want to use our custom priority to define how urgent a question is. In addition the selected priority should be dependant on the topic we choose.<br/>
+ 
+<ul>
+  <li>Before we create our custom fields we shoukd create our enumeration values which can be selected by these custom fields.<br/>
+    Open <span style="font-style: italic;">Administration&gt;Work Items&gt;Enumerations</span> to create the enumerations<br/>
+    <img src="attachment:newenum.jpg" style="width: 600px;height: 188px;"/> </li>
+  <ul>
+    <li>Select question as workitem type and add following enumeration values<br/>
+      <img src="attachment:52-screenshot-20141029-063653.png" style="width: 246px;height: 150px;"/><br/>
+      </li>
+    <ul>
+      <li>topicenum (enumeration values: process, configuration, trainingMaterials, polarion, other)<br/>
+        <img src="attachment:53-screenshot-20141029-063654.png" style="width: 704px;height: 133px;"/></li>
+      <li>prio (enumeration values: urgent, notUrgent, average)</li>
+    </ul>
+  </ul>
+  <li>Open <span style="font-style: italic;">Administration&gt;Work Items&gt;Custom Fields</span> to define the custom fields</li>
+  <ul>
+    <li>Create a new question-custom-fields.xml</li>
+    <li>Add folowing custom fields</li>
+    <ul>
+      <li>answer: (type:rich text)</li>
+      <li>topic: (enumeration value: topicenum)<br/>
+        </li>
+      <li>customPriority: (enumeration value: prio)</li>
+      <li>customPriority should be dependant on a selected topic</li>
+      <ul>
+        <li>Click  <img src="attachment:54-screenshot-20141029-063654.png" style="width: 30px;height: 20px;"/>to add a dependency</li>
+        <li>Select Topic as field and add a mapping</li>
+        <ul>
+          <li>Questions regarding Training Materials should not be Urgent. All other topics should select all custom Priorities.<br/>
+            <img src="attachment:56-screenshot-20141029-063744.png" style="width: 654px;height: 381px;"/></li>
+        </ul>
+      </ul>
+    </ul>
+    <li>Verify if you create a new question and select Training Materials as topic you can only select Average or Not Urgent</li>
+  </ul>
+</ul>
+ <br/>]]></field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Add Custom Fields to Question Work Item</field>
+    <field id="type">exercise</field>
+</work-item>

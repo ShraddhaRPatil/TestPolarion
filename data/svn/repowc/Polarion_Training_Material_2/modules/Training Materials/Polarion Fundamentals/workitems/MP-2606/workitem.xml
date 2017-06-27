@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">stroebelet</field>
+    <field id="created">2012-04-24 03:39:55.549 -0400</field>
+    <field id="description" text-type="text/html"><![CDATA[<ul>
+  <li>Open <span style="font-style: italic;">User Training Meeting Notes</span> and place your cursor at the location where you want to see the open tasks of last meetings</li>
+  <li><span style="font-style: italic;">Insert Wiki Content</span><br/>
+    <img src="attachment:61-screenshot-20141120-033550.png"/><br/>
+    and add <span style="font-style: italic;">{document-workitems:name=$page.space.name/$page.name|query=type:task AND status:open|display=table}</span><br/>
+    macro which displays all open tasks in this document<br/>
+  </li>
+  <li>Try following macro as alternative<br/>
+    <span style="font-style: italic;">{workitems:query=document.id:$page.space.name/&quot;$page.name&quot; AND type:task}</span></li>
+  <li>Add macro to your document template also</li>
+</ul>]]></field>
+    <field id="linkedWorkItems">
+        <list>
+            <struct>
+                <item id="revision">36904</item>
+                <item id="role">branched_from</item>
+                <item id="workItem">MP-800</item>
+            </struct>
+        </list>
+    </field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Show open tasks on top of your meeting document</field>
+    <field id="type">exercise</field>
+</work-item>

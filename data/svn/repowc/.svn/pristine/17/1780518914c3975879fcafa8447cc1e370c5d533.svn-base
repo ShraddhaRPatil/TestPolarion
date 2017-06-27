@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="linkedWorkItems">
+        <list>
+            <struct>
+                <item id="revision">41892</item>
+                <item id="workItem">MP-781</item>
+                <item id="role">branched_from</item>
+                <item id="suspect">false</item>
+            </struct>
+        </list>
+    </field>
+    <field id="type">exercise</field>
+    <field id="author">stroebelet</field>
+    <field id="title">Rework the imported document</field>
+    <field id="created">2012-05-18 11:01:04.760 +0200</field>
+    <field id="description" text-type="text/html">Once imported you will want to review the recognized requirements and fine tune the result. Perform following tasks to familiarize yourself with the document editing mode.&lt;br/&gt;&lt;ul&gt;&lt;li&gt;Create a new requirement by marking a text section as new requirement&lt;/li&gt;&lt;li&gt;Create a new requirement by splitting a big requirement into two requirements using the [&lt;span style="font-style: italic;"&gt;enter&lt;/span&gt;] key&lt;/li&gt;&lt;li&gt;Create a new requirement between two existing requirements&lt;/li&gt;&lt;li&gt;Unmark a requirement which was not recognized correctly by left clicking the requirements icon located at the left side of your specification.&lt;/li&gt;&lt;li&gt;Select two requirements with your mouse and move them into a different section of the document&lt;br/&gt; &lt;span style="font-weight: bold;"&gt;Attention&lt;/span&gt;: Please ensure that after cut/paste the requirement has no temporary id.&lt;br/&gt; &lt;img src="attachment:temporaryId.jpg"/&gt;&lt;br/&gt; This may happen when the selection of one work item was not recognized. In case of problems just add a section above and below the work item before you move it.&lt;/li&gt;&lt;/ul&gt;</field>
+    <field id="priority">25.0</field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+</work-item>

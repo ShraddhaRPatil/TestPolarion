@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="hyperlinks">
+        <list>
+            <struct>
+                <item id="role">renderSlide</item>
+                <item id="uri">/polarion/wiki/bin/view/project/MyPolarion/page/macros/RenderSlides?item=MP-1232</item>
+            </struct>
+        </list>
+    </field>
+    <field id="author">stroebelet</field>
+    <field id="title">Custom Linking Model</field>
+    <field id="created">2011-09-16 23:50:51.732 +0200</field>
+    <field id="priority">25.0</field>
+    <field id="description" text-type="text/html">&lt;img src="workitemimg:2-screenshot-2.jpg"/&gt;&lt;br/&gt;&lt;ul&gt;&lt;li&gt;Parent links are used for hierarchical relationships. They are the default links in a document. You should not remove them&lt;/li&gt;&lt;li&gt;Don't create parent links between different item types&lt;/li&gt;&lt;li&gt;Parent checkbox: include link type in calculated field calculation&lt;br/&gt;&lt;/li&gt;&lt;/ul&gt;</field>
+    <field id="status">accepted</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+    <field id="subtitle" type="string"> </field>
+    <field id="trainingCategory" multi="true" type="enum:trainingCategory"/>
+</work-item>

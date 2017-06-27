@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<enumeration>
+    <option id="true" name="True" description="" color="#dd0000" iconURL="images/polarion/enums/severity_critical.gif" sortOrder="1"/>
+    <option id="false" name="False" description="" color="#330000" iconURL="images/polarion/enums/severity_major.gif" sortOrder="2"/>
+</enumeration>

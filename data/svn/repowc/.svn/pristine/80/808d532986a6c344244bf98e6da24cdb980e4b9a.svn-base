@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="assignee">
+        <list>
+            <item>pGUI</item>
+            <item>jRequirement</item>
+        </list>
+    </field>
+    <field id="author">admin</field>
+    <field id="created">2013-02-04 18:00:37.250 +0100</field>
+    <field id="initialEstimate">7d</field>
+    <field id="linkedWorkItems">
+        <list>
+            <struct>
+                <item id="role">implements</item>
+                <item id="suspect">false</item>
+                <item id="workItem">DP-350</item>
+            </struct>
+            <struct>
+                <item id="role">implements</item>
+                <item id="suspect">false</item>
+                <item id="workItem">DP-331</item>
+            </struct>
+        </list>
+    </field>
+    <field id="previousStatus">open</field>
+    <field id="priority">50.0</field>
+    <field id="resolution">done</field>
+    <field id="resolvedOn">2013-02-04 18:05:45.832 +0100</field>
+    <field id="severity">nice_to_have</field>
+    <field id="status">verified-done</field>
+    <field id="timeSpent">6d</field>
+    <field id="title">Operation check - DrivePilot shall operate with input power of 12 Volts, not to exceed 15 Amps.</field>
+    <field id="type">workPackage</field>
+</work-item>

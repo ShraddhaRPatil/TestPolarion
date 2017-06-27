@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">admin</field>
+    <field id="created">2013-02-05 20:23:39.544 +0100</field>
+    <field id="linkedWorkItems">
+        <list>
+            <struct>
+                <item id="role">verifies</item>
+                <item id="workItem">DP-332</item>
+            </struct>
+        </list>
+    </field>
+    <field id="previousStatus">draft</field>
+    <field id="priority">50.0</field>
+    <field id="severity">basic</field>
+    <field id="status">active</field>
+    <field id="testSteps" type="struct:TestSteps">
+        <struct>
+            <item id="keys">
+                <list>
+                    <item>step</item>
+                    <item>description</item>
+                    <item>expectedResult</item>
+                </list>
+            </item>
+            <item id="steps">
+                <list>
+                    <struct>
+                        <item id="values">
+                            <list>
+                                <item text-type="text/html">Install the Drive Pilot into a vehicle with &amp;quot;auto-parking&amp;quot;</item>
+                                <item text-type="text/html"/>
+                                <item text-type="text/html"/>
+                            </list>
+                        </item>
+                    </struct>
+                    <struct>
+                        <item id="values">
+                            <list>
+                                <item text-type="text/html">Start DrivePilot System </item>
+                                <item text-type="text/html">Push the start button</item>
+                                <item text-type="text/html">Welcome screen is displayed</item>
+                            </list>
+                        </item>
+                    </struct>
+                    <struct>
+                        <item id="values">
+                            <list>
+                                <item text-type="text/html">Start AutoPilot</item>
+                                <item text-type="text/html">Click on &amp;quot;AutoPilot&amp;quot;</item>
+                                <item text-type="text/html">The system says the car has an &amp;quot;auto-parking&amp;quot; feature and DrivePilot cannot be started</item>
+                            </list>
+                        </item>
+                    </struct>
+                </list>
+            </item>
+        </struct>
+    </field>
+    <field id="title">DrivePilot cannot be started on vehicles with "auto-parking"</field>
+    <field id="type">systemTestCase</field>
+</work-item>

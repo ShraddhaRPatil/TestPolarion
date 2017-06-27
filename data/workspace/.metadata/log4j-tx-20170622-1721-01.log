@@ -1,0 +1,12 @@
+2017-06-22 17:21:04,617 [main | u:p] INFO  TXLOGGER  - Summary for 'Platform startup': transactions: 0, DB: 0.0421 s [50% update (126x), 49% query (13x)] (206x), svn: 0.0242 s [85% checkPath (1x)] (3x)
+2017-06-22 17:21:04,822 [main | u:p] INFO  TXLOGGER  - Summary for 'Context recognition': transactions: 0, svn: 0.0711 s [36% info (3x), 33% getDir2 content (2x), 31% getFile content (1x)] (6x)
+2017-06-22 17:21:06,028 [LowLevelDataService-contextInitializer-4 | u:p] INFO  TXLOGGER  - Summary: Total: 1.2 s, transactions: 0
+2017-06-22 17:21:06,028 [LowLevelDataService-contextInitializer-3 | u:p] INFO  TXLOGGER  - Summary: Total: 1.2 s, transactions: 0, ObjectMaps: 0.255 s [100% getAllPrimaryObjects (1x)] (7x)
+2017-06-22 17:21:06,028 [LowLevelDataService-contextInitializer-5 | u:p] INFO  TXLOGGER  - Summary: Total: 1.2 s, transactions: 0, svn: 0.135 s [39% log2 (5x), 28% log (1x), 19% info (4x)] (15x)
+2017-06-22 17:21:06,028 [LowLevelDataService-contextInitializer-1 | u:p] INFO  TXLOGGER  - Summary: Total: 1.2 s, transactions: 0, svn: 0.125 s [97% log2 (10x)] (12x), ObjectMaps: 0.0681 s [97% getAllPrimaryObjects (2x)] (20x)
+2017-06-22 17:21:06,028 [LowLevelDataService-contextInitializer-2 | u:p] INFO  TXLOGGER  - Summary: Total: 1.2 s, transactions: 0, svn: 0.12 s [98% log2 (6x)] (8x)
+2017-06-22 17:21:06,029 [main | u:p] INFO  TXLOGGER  - Summary for 'Context initialization': transactions: 0, svn: 0.462 s [80% log2 (31x)] (47x), ObjectMaps: 0.413 s [98% getAllPrimaryObjects (7x)] (55x)
+2017-06-22 17:21:06,225 [main | u:p] INFO  TXLOGGER  - Tx 5733e90f22801_0_5733e90f22801_0_: finished. Total: 0.1 s
+2017-06-22 17:21:06,365 [main | u:p] INFO  TXLOGGER  - Summary for 'Revisions processing': transactions: 14, RepositoryConfigService: 0.231 s [100% getReadConfiguration (42x)] (42x), svn: 0.105 s [90% info (15x)] (32x)
+2017-06-22 17:21:07,181 [main | u:p] INFO  TXLOGGER  - Summary for 'Build artifacts recognition': transactions: 40, svn: 0.636 s [87% info (78x)] (131x), RepositoryConfigService: 0.536 s [100% getReadConfiguration (48x)] (48x)
+2017-06-22 17:21:07,756 [main | u:p] INFO  TXLOGGER  - Summary for 'Data indexing': transactions: 0, Lucene: 0.256 s [100% refresh (1x)] (1x), SubterraURITable: 0.013 s [100% addIfNotExistsDB (1x)] (1x)

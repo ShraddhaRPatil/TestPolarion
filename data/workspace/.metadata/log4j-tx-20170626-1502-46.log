@@ -1,0 +1,11 @@
+2017-06-26 15:02:51,842 [main | u:p] INFO  TXLOGGER  - Summary for 'Platform startup': transactions: 0, DB: 0.0497 s [57% query (13x), 42% update (126x)] (206x), svn: 0.0267 s [85% checkPath (1x)] (3x)
+2017-06-26 15:02:52,053 [main | u:p] INFO  TXLOGGER  - Summary for 'Context recognition': transactions: 0, svn: 0.0868 s [36% info (3x), 36% getDir2 content (2x), 28% getFile content (1x)] (6x)
+2017-06-26 15:02:53,307 [LowLevelDataService-contextInitializer-1 | u:p] INFO  TXLOGGER  - Summary: Total: 1.25 s, transactions: 0
+2017-06-26 15:02:53,307 [LowLevelDataService-contextInitializer-3 | u:p] INFO  TXLOGGER  - Summary: Total: 1.25 s, transactions: 0, ObjectMaps: 0.259 s [100% getAllPrimaryObjects (1x)] (7x)
+2017-06-26 15:02:53,308 [LowLevelDataService-contextInitializer-5 | u:p] INFO  TXLOGGER  - Summary: Total: 1.25 s, transactions: 0, svn: 0.175 s [38% log (1x), 26% log2 (5x), 20% info (5x)] (17x)
+2017-06-26 15:02:53,308 [LowLevelDataService-contextInitializer-2 | u:p] INFO  TXLOGGER  - Summary: Total: 1.25 s, transactions: 0, svn: 0.139 s [97% log2 (11x)] (14x), ObjectMaps: 0.0698 s [99% getAllPrimaryObjects (3x)] (21x)
+2017-06-26 15:02:53,307 [LowLevelDataService-contextInitializer-4 | u:p] INFO  TXLOGGER  - Summary: Total: 1.25 s, transactions: 0, svn: 0.143 s [97% log2 (10x)] (12x)
+2017-06-26 15:02:53,309 [main | u:p] INFO  TXLOGGER  - Summary for 'Context initialization': transactions: 0, svn: 0.52 s [73% log2 (36x), 13% log (1x)] (55x), ObjectMaps: 0.416 s [97% getAllPrimaryObjects (8x)] (62x)
+2017-06-26 15:02:53,645 [main | u:p] INFO  TXLOGGER  - Summary for 'Revisions processing': transactions: 16, RepositoryConfigService: 0.221 s [100% getReadConfiguration (48x)] (48x), svn: 0.133 s [92% info (17x)] (36x)
+2017-06-26 15:02:54,459 [main | u:p] INFO  TXLOGGER  - Summary for 'Build artifacts recognition': transactions: 45, svn: 0.63 s [87% info (87x)] (145x), RepositoryConfigService: 0.511 s [100% getReadConfiguration (90x)] (90x)
+2017-06-26 15:02:55,116 [main | u:p] INFO  TXLOGGER  - Summary for 'Data indexing': transactions: 0, Lucene: 0.25 s [100% refresh (2x)] (2x), DB: 0.0251 s [45% update (42x), 24% execute (13x), 23% query (19x)] (114x), SubterraURITable: 0.025 s [100% addIfNotExistsDB (19x)] (19x)

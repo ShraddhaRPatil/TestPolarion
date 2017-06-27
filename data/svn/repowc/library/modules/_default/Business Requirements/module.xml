@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<module>
+    <field id="author">admin</field>
+    <field id="created">2011-02-01 11:47:29.579 +0100</field>
+    <field id="homePageContent" text-type="text/html"><![CDATA[<h1 id="polarion_wiki macro name=module-workitem;params=id=WI-91"></h1><p id="polarion_new_0">
+  Business Requirements constitute a specification of what the business wants, the purpose of initializing a specific project, what the needed achievements will be, and the quality measures. This is usually expressed in terms of broad outcomes the business requires, rather than specific functions the system may perform. Specific design elements are usually outside the scope of this document, although design standards may be referenced.
+</p><div id="polarion_wiki macro name=toc"></div><h2 id="polarion_wiki macro name=module-workitem;params=id=WI-92"></h2><h3 id="polarion_wiki macro name=module-workitem;params=id=WI-93"></h3><p id="polarion_merged_2">
+  <span style="font-style: italic;">Identify the purpose of this Business Requirements document and its intended audience.</span>
+</p><h3 id="polarion_wiki macro name=module-workitem;params=id=WI-94"></h3><p id="polarion_merged_3">
+  <span style="font-style: italic;">Provide a short description of the software being specified and its purpose, including relevant benefits, objectives, and goals.</span>
+</p><h3 id="polarion_wiki macro name=module-workitem;params=id=WI-95"></h3><p id="polarion_merged_4">
+  <span style="font-style: italic;">List any other documents or Web addresses to which this business requirements document refers. Provide enough information so that the reader could access a copy of each reference, including title, author, version number, date, and source or location.</span>
+</p><h3 id="polarion_wiki macro name=module-workitem;params=id=WI-96"></h3><p id="polarion_merged_5">
+  <span style="font-style: italic;">A short description of how the rest of the business requirements document is organized and what can be found in the rest of the document.</span>
+</p><h2 id="polarion_wiki macro name=module-workitem;params=id=WI-97"></h2><p id="polarion_merged_6">
+  <span style="font-style: italic;">The business requirements provide the foundation and reference for all detailed requirements development. You may gather business requirements from the customer or development organization’s senior management, an executive sponsor, a project visionary, product management, the marketing department, or other individuals who have a clear sense of why the project is being undertaken and the ultimate value it will provide, both to the business and to customers.</span>
+</p><div id="polarion_wiki macro name=module-workitem;params=id=WI-58"></div><div id="polarion_wiki macro name=module-workitem;params=id=WI-59"></div><div id="polarion_wiki macro name=module-workitem;params=id=WI-60"></div><div id="polarion_wiki macro name=module-workitem;params=id=WI-61"></div><div id="polarion_wiki macro name=module-workitem;params=id=WI-62"></div><h2 id="polarion_wiki macro name=module-workitem;params=id=WI-98"></h2><p id="polarion_merged_0">
+  <span style="font-style: italic;">This section establishes a long-term vision for the system to be built to address the business objectives. This vision will provide the context for making decisions throughout the course of the product development life cycle. The vision should not include detailed functional requirements or project planning information.</span><span style="font-weight: bold;"><br/>
+  </span>
+</p><div id="polarion_wiki macro name=module-workitem;params=id=WI-64"></div><div id="polarion_wiki macro name=module-workitem;params=id=WI-65"></div><div id="polarion_wiki macro name=module-workitem;params=id=WI-66"></div><div id="polarion_wiki macro name=module-workitem;params=id=WI-67"></div><div id="polarion_wiki macro name=module-workitem;params=id=WI-68"></div><div id="polarion_wiki macro name=module-workitem;params=id=WI-69"></div><div id="polarion_wiki macro name=module-workitem;params=id=WI-70"></div><h2 id="polarion_wiki macro name=module-workitem;params=id=WI-99"></h2><p id="polarion_merged_1">
+  <span style="font-style: italic;">This section summarizes some of the business issues around the project, including profiles of major customer categories, assumptions that went into the project concept, and the management priorities for the project.<br/>
+  </span>
+</p><div id="polarion_wiki macro name=module-workitem;params=id=WI-72"></div><div id="polarion_wiki macro name=module-workitem;params=id=WI-73"></div><div id="polarion_wiki macro name=module-workitem;params=id=WI-74"></div><h2 id="polarion_wiki macro name=module-workitem;params=id=WI-100"></h2><p id="polarion_merged_7">
+  <span style="font-style: italic;">Provide a matrix that relates software modules to software requirements and vice versa.</span>
+</p>]]></field>
+    <field id="outlineNumbering">
+        <struct/>
+    </field>
+    <field id="renderingLayouts">
+        <list>
+            <struct>
+                <item id="label">Requirement</item>
+                <item id="layouter">section</item>
+                <item id="properties">
+                    <list>
+                        <struct>
+                            <item id="key">fieldsAtStart</item>
+                            <item id="value">id</item>
+                        </struct>
+                        <struct>
+                            <item id="key">fieldsAtEnd</item>
+                            <item id="value">severity, status</item>
+                        </struct>
+                        <struct>
+                            <item id="key">fieldsAtEndAsTable</item>
+                        </struct>
+                        <struct>
+                            <item id="key">hidden</item>
+                        </struct>
+                    </list>
+                </item>
+                <item id="type">requirement</item>
+            </struct>
+        </list>
+    </field>
+    <field id="status">draft</field>
+    <field id="structureLinkRole">parent</field>
+    <field id="type">req_specification</field>
+    <field id="usesOutlineNumbering">true</field>
+</module>

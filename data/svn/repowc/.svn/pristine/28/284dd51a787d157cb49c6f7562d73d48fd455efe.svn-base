@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">hartliebc</field>
+    <field id="created">2012-05-30 10:07:16.585 -0400</field>
+    <field id="description" text-type="text/html"><![CDATA[The Baselines Time Machine feature is so-named because it literally enables you to go back in time and browse, search, view or run reports in a baseline just as if the baseline were the current project state. The main differences are that no artifacts can be changed, and current artifacts that did not exist at the time of the baseline do not appear when browsing and will not be found by searches or report queries.<br/>
+<ul>
+  <li>Browse your project as it appears in the state of baseline &quot;<span style="font-style: italic;">Specification for Version 1</span>&quot;<br/>
+    <br/>
+    <img src="attachment:timemachine-2.jpg" style="width: 724px;height: 296px;"/><br/>
+    <br/>
+  </li>
+  <li>What differences did you recognize between baseline and current project ?<br/>
+  </li>
+</ul>]]></field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Browse Baseline using Time Machine</field>
+    <field id="type">exercise</field>
+</work-item>

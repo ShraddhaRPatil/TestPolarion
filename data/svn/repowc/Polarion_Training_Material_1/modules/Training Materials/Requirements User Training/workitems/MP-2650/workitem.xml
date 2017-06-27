@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">exercise</field>
+    <field id="author">hartliebc</field>
+    <field id="title">Link requirements inside specification</field>
+    <field id="created">2012-04-24 11:44:49.223 +0200</field>
+    <field id="priority">25.0</field>
+    <field id="description" text-type="text/html">&lt;ul&gt;&lt;li&gt;Create a relates to link from &lt;span style="font-style: italic;"&gt;"Book Data"&lt;/span&gt; to &lt;span style="font-style: italic;"&gt;"It must be possible to search in all book fields."&lt;br/&gt;&lt;br/&gt;&lt;/span&gt; &lt;span style="font-weight: bold;"&gt;Attention:&lt;/span&gt; use the "create link" option next to "&lt;span style="font-style: italic;"&gt;Book Data&lt;/span&gt;" icon to start the linking dialog. Use the "create link" option next to "&lt;span style="font-style: italic;"&gt;It must be possible to search in all book fields&lt;/span&gt;" icon to finish the linking dialog. Don't forget to save your document to save your link.&lt;br/&gt; &lt;span style="font-style: italic;"&gt;&lt;br/&gt; &lt;img src="attachment:linking.jpg"/&gt;&lt;br/&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;   </field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+    <field id="upgradedescription" type="boolean">true</field>
+</work-item>

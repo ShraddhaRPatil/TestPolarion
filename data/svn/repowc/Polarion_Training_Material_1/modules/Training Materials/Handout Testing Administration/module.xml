@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<module>
+    <field id="usesOutlineNumbering">true</field>
+    <field id="homePageContent" text-type="text/html">&lt;h1 id="polarion_wiki macro name=module-workitem;params=id=MP-4963"&gt;&lt;/h1&gt;&lt;p id="polarion_1"&gt;&lt;/p&gt;&lt;h2 id="polarion_wiki macro name=module-workitem;params=id=MP-4956"&gt;&lt;/h2&gt;&lt;div id="polarion_wiki macro name=toc"&gt;&lt;/div&gt;&lt;p id="polarion_2"&gt;&lt;/p&gt;&lt;p id="polarion_3"&gt;&lt;/p&gt;&lt;h2 id="polarion_wiki macro name=module-workitem;params=id=MP-4957"&gt;&lt;/h2&gt;&lt;div id="polarion_wiki macro name=module-workitem;params=id=MP-4964"&gt;&lt;/div&gt;&lt;p id="polarion_5"&gt;&lt;/p&gt;&lt;h2 id="polarion_wiki macro name=module-workitem;params=id=MP-4958"&gt;&lt;/h2&gt;&lt;div id="polarion_wiki macro name=module-workitem;params=id=MP-4965"&gt;&lt;/div&gt;&lt;p id="polarion_7"&gt;&lt;/p&gt;&lt;h2 id="polarion_wiki macro name=module-workitem;params=id=MP-4959"&gt;&lt;/h2&gt;&lt;div id="polarion_wiki macro name=module-workitem;params=id=MP-4966"&gt;&lt;/div&gt;&lt;p id="polarion_9"&gt;&lt;/p&gt;&lt;h2 id="polarion_wiki macro name=module-workitem;params=id=MP-4960"&gt;&lt;/h2&gt;&lt;div id="polarion_wiki macro name=module-workitem;params=id=MP-4967"&gt;&lt;/div&gt;&lt;p id="polarion_11"&gt;&lt;/p&gt;&lt;h2 id="polarion_wiki macro name=module-workitem;params=id=MP-4961"&gt;&lt;/h2&gt;&lt;div id="polarion_wiki macro name=module-workitem;params=id=MP-4968"&gt;&lt;/div&gt;&lt;p id="polarion_13"&gt;&lt;/p&gt;&lt;h2 id="polarion_wiki macro name=module-workitem;params=id=MP-4962"&gt;&lt;/h2&gt;&lt;div id="polarion_wiki macro name=module-workitem;params=id=MP-4969"&gt;&lt;/div&gt;&lt;p id="polarion_15"&gt;&lt;/p&gt;&lt;p id="polarion_16"&gt;&lt;/p&gt;&lt;p id="polarion_template_1"&gt;&lt;/p&gt;</field>
+    <field id="structureLinkRole">parent</field>
+    <field id="outlineNumbering">
+        <struct>
+            <item id="prefix"/>
+        </struct>
+    </field>
+    <field id="author">schucks</field>
+    <field id="created">2013-07-31 15:24:26.945 +0200</field>
+    <field id="renderingLayouts">
+        <list>
+            <struct>
+                <item id="layouter">section</item>
+                <item id="label">Slide</item>
+                <item id="properties">
+                    <list>
+                        <struct>
+                            <item id="value">id</item>
+                            <item id="key">fieldsAtStart</item>
+                        </struct>
+                        <struct>
+                            <item id="value">severity</item>
+                            <item id="key">fieldsAtEnd</item>
+                        </struct>
+                        <struct>
+                            <item id="key">fieldsAtEndAsTable</item>
+                        </struct>
+                        <struct>
+                            <item id="key">hidden</item>
+                        </struct>
+                    </list>
+                </item>
+                <item id="type">slide</item>
+            </struct>
+        </list>
+    </field>
+</module>

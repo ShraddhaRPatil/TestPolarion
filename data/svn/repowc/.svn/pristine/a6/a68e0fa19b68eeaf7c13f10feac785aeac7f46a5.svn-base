@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">stroebelet</field>
+    <field id="created">2011-05-17 13:44:31.828 -0400</field>
+    <field id="description" text-type="text/html"><![CDATA[<span style="font-weight: bold;color: #3333FF;">Artifacts (What and Engine)</span><br/>
+<ul>
+  <li>Define the build type (shell, maven or ant)<br/>
+  </li>
+  <li>Smallest buildable entity</li>
+  <li>Comprised of resources - usually source code and support files. Multiple build artifacts may share the same resources.<br/>
+  </li>
+</ul>
+<span style="font-weight: bold;color: #3333FF;">Descriptors (Where and Reporting)</span><br/>
+<ul>
+  <li>Where to save the build results</li>
+  <li>What reports to execute</li>
+</ul>
+<span style="font-weight: bold;color: #3333FF;">Work Item reports (What has been implemented)</span><br/>
+<ul>
+  <li>Custom query which is executed on build execution</li>
+  <li>Report can be related to to other builds e.g. fixed since last build etc.<br/>
+  </li>
+</ul>]]></field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="subtitle" type="string"> </field>
+    <field id="title">Build Artifacts, Descriptors And Reports</field>
+    <field id="type">slide</field>
+</work-item>

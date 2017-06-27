@@ -1,0 +1,20 @@
+<configuration>
+
+  <workItemRules>
+
+    <workItemRule>
+
+      <startCondition>
+          <containsWords>must, should</containsWords>
+      </startCondition>
+
+      <layout>
+        <fieldsAtStart>id</fieldsAtStart> 
+        <fieldsAtEnd>severity</fieldsAtEnd> 
+      </layout>
+
+    </workItemRule>
+
+  </workItemRules>
+
+</configuration>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="hyperlinks">
+        <list>
+            <struct>
+                <item id="role">renderSlide</item>
+                <item id="uri">/polarion/wiki/bin/view/project/MyPolarion/page/macros/RenderSlides?item=MP-510</item>
+            </struct>
+        </list>
+    </field>
+    <field id="author">stroebelet</field>
+    <field id="title">What Is a View</field>
+    <field id="created">2011-04-21 16:34:28.187 +0200</field>
+    <field id="priority">25.0</field>
+    <field id="description" text-type="text/html">&lt;ul&gt;&lt;li&gt;topics&lt;br/&gt;&lt;img src="workitemimg:8-screenshot-6.jpg" style="height: 200px; width: 220px;"/&gt;&lt;br/&gt;&lt;br/&gt;&lt;/li&gt;&lt;li&gt;Layout and filter of work items&lt;br/&gt;&lt;table style="margin: auto; empty-cells: show; font-size: 100%; border-collapse: collapse; width: 100%; border: 1px solid rgb(204, 204, 204);" id="polarion_wiki macro name=table;params=width=100%"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th style="height: 12px; text-align: left; vertical-align: top; font-weight: bold; background-color: rgb(240, 240, 240); border: 1px solid rgb(204, 204, 204); padding: 5px;"&gt; Defined Layout        &lt;img src="workitemimg:9-screenshot-7.jpg"/&gt;&lt;/th&gt;&lt;th style="height: 12px; text-align: left; vertical-align: top; font-weight: bold; background-color: rgb(240, 240, 240); border: 1px solid rgb(204, 204, 204); padding: 5px;"&gt; Filter on status        &lt;img src="workitemimg:10-screenshot-8.jpg"/&gt;&lt;/th&gt;&lt;th style="height: 12px; text-align: left; vertical-align: top; font-weight: bold; background-color: rgb(240, 240, 240); border: 1px solid rgb(204, 204, 204); padding: 5px;"&gt;Filter on action         &lt;img src="workitemimg:10-screenshot-8.jpg"/&gt;&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="height: 12px; text-align: left; vertical-align: top; line-height: 18px; border: 1px solid rgb(204, 204, 204); padding: 5px;"&gt; &lt;img src="workitemimg:2-screenshot.jpg"/&gt;&lt;/td&gt;&lt;td style="height: 12px; text-align: left; vertical-align: top; line-height: 18px; border: 1px solid rgb(204, 204, 204); padding: 5px;"&gt; &lt;img src="workitemimg:4-screenshot-2.jpg"/&gt;&lt;/td&gt;&lt;td style="height: 12px; text-align: left; vertical-align: top; line-height: 18px; border: 1px solid rgb(204, 204, 204); padding: 5px;"&gt; &lt;img src="workitemimg:5-screenshot-3.jpg"/&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/li&gt;&lt;/ul&gt;&lt;br/&gt;</field>
+    <field id="status">accepted</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+    <field id="subtitle" type="string">Views in Polarion are filters on features and work item data</field>
+    <field id="hint" type="string">Disable work item filters by deselecting "Enable Lite UI"</field>
+    <field id="trainingCategory" multi="true" type="enum:trainingCategory">
+        <list>
+            <item>user</item>
+        </list>
+    </field>
+</work-item>

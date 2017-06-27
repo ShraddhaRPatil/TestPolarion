@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">stroebelet</field>
+    <field id="created">2011-07-29 15:31:55.554 -0400</field>
+    <field id="description" text-type="text/html"><![CDATA[When exporting a document you want to define your own layout. Documents which are created via an word import save their document style but documents created inside of Polarion are using a standard Polarion format. We want to change this format so you can add your company guidelines.<br/>
+ 
+<ul>
+  <li>Open <span style="font-style: italic;">Administration&gt;Work Items&gt;Round-trip Template</span></li>
+  <li>Save global Configuration <span style="font-style: italic;">roundtrip.docx</span> on you desktop and open it in MS Word</li>
+  <li>Replace Polarion Logo with your own company logo</li>
+  <li>Remove Product Version variable from document footer<br/>
+    </li>
+  <li>Add following variables to document header</li>
+  <ul>
+    <li><span style="font-style: italic;">updatedBy</span></li>
+    <ul>
+      <li><span style="font-style: italic;">you have to make the developer tools visible via File&gt;Options&gt;Customize Menu&gt; activate checkmark for developer tools</span></li>
+      <li><span style="font-style: italic;text-decoration: underline;color: #000000;">(Word 2013 English) File&gt;Options&gt;Customize Ribbon.  Select checkmark for &quot;Developer&quot;</span></li>
+      <li><span style="font-style: italic;">for inserting a variable enter go to the document header, open the developer tools tab, select design mode, add a (<span style="text-decoration: underline;">&quot;plain text&quot;)</span> text only element (next to design mode) and select properties in the new field.</span></li>
+    </ul>
+  </ul>
+</ul>
+ <img src="attachment:75-screenshot-20141103-105649.png" style="width: 788px;height: 658px;"/><br/>
+ 
+<ul>
+  <li>Upload your changed template and verify your template is working as expected</li>
+</ul>]]></field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Adjust Round-Trip Template Layout</field>
+    <field id="type">exercise</field>
+</work-item>

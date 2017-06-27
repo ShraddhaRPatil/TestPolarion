@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autoassignment>
+<!-- Example:
+        <rule>
+                <condition>
+                        <!- Condition can have more field conditions.
+                                All field conditions must be satisfied for condition to be satisfied.
+                                Values are not case sensitive. ->
+
+                        <field id="type">
+                                task
+                        </field>
+
+                        <field id="timePoint.id" negative="true">
+
+                                <!- field id is case sensitive, see workitem.xml for exact case ->
+                                <!- field condition can have more values defined. 
+                                        It is satisfied, when given field has any of these values,
+                                        or none of these values, when negative="true" ->
+
+                                <value>tp1</value>
+                                <value>tp2</value>
+                        </field>
+
+                        <field id="title">
+                                <expression>*LDAP*</expression> <!- string matching expression, not case sensitive, can have any number of * ->
+                                <expression>*Mozilla*</expression>
+                                <value><no-value/></value> <!- <value> and <expression> can be used together ->
+                        </field>
+
+                        <field id="categories.id"> <!- in field id '.' can be used to check values from referenced objects  ->
+                                <value>tracker</value>
+                                <value><no-value/></value> <!- </no-value> is used to check for empty field, cannot be used inside <expression> ->
+                        </field>
+                </condition>
+                <assignee>
+                        <user id="admin"/>
+                </assignee>
+
+                <!- leave assignee empty to suppress evaluating following rules when this rule's condition is satisfied ->
+                <!- use <assignee><project-lead/></assignee> to assign to current project leader ->
+        </rule>
+
+        <rule>
+                <condition>
+                        <field id="severity">
+                                blocker
+                        </field>
+                        <field id="priority">
+                                high
+                        </field>
+                        <field id="author.id">
+                                admin
+                        </field>
+                </condition>
+                <assignee>
+                        <user id="admin"/>
+                </assignee>
+        </rule>
+        <rule>
+                <condition>
+                        <!- empty condition is always satisfied ->
+                </condition>
+                <assignee>
+                        <project-lead/>
+                </assignee>
+        </rule>
+-->
+</autoassignment>

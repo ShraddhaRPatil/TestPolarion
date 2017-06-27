@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="author">stroebelet</field>
+    <field id="title">Limit Access To a Document or a Folder</field>
+    <field id="created">2011-04-27 15:51:12.399 +0200</field>
+    <field id="description" text-type="text/html">&lt;ul&gt;&lt;li&gt;Set access rights for the folder which corresponds to the document name&lt;br/&gt;&lt;/li&gt;&lt;/ul&gt;&lt;img src="workitemimg:1-screenshot.jpg" style="width: 757px; height: 321px;"/&gt;</field>
+    <field id="priority">25.0</field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="subtitle" type="string"> </field>
+    <field id="hint" type="string">Wiki pages are stored under /_wiki</field>
+</work-item>

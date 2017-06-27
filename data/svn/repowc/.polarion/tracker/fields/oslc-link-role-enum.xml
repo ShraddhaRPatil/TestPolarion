@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<enumeration>
+    <option id="http://open-services.net/ns/cm#relatedChangeRequest" name="related to" sortOrder="1"/>
+    <option id="http://open-services.net/ns/cm#affectedByDefect" name="is affected by" sortOrder="2"/>
+    <option id="http://open-services.net/ns/cm#affectsPlanItem" name="affects" sortOrder="3"/>
+    <option id="http://open-services.net/ns/cm#affectsRequirement" name="affects" sortOrder="4"/>
+    <option id="http://open-services.net/ns/cm#affectsTestResult" name="affects" sortOrder="5"/>
+    <option id="http://open-services.net/ns/cm#blocksTestExecutionRecord" name="blocks" sortOrder="6"/>
+    <option id="http://open-services.net/ns/cm#implementsRequirement" name="implements" sortOrder="7"/>
+    <option id="http://open-services.net/ns/cm#relatedTestCase" name="related to" sortOrder="9"/>
+    <option id="http://open-services.net/ns/cm#relatedTestExecutionRecord" name="related to" sortOrder="10"/>
+    <option id="http://open-services.net/ns/cm#relatedTestPlan" name="related to" sortOrder="11"/>
+    <option id="http://open-services.net/ns/cm#relatedTestScript" name="related to" sortOrder="12"/>
+    <option id="http://open-services.net/ns/cm#testedByTestCase" name="is verified by" sortOrder="13"/>
+    <option id="http://open-services.net/ns/cm#tracksChangeSet" name="tracks" sortOrder="14"/>
+    <option id="http://open-services.net/ns/cm#tracksRequirement" name="tracks" sortOrder="15"/>
+    <option id="http://open-services.net/ns/rm#affectedBy" name="is affected by" sortOrder="16"/>
+    <option id="http://open-services.net/ns/rm#elaboratedBy" name="is elaborated by" sortOrder="17"/>
+    <option id="http://open-services.net/ns/rm#implementedBy" name="is implemented by" sortOrder="18"/>
+    <option id="http://open-services.net/ns/rm#specifiedBy" name="is specified by" sortOrder="19"/>
+    <option id="http://open-services.net/ns/rm#trackedBy" name="is tracked by" sortOrder="20"/>
+    <option id="http://open-services.net/ns/rm#uses" name="uses" sortOrder="21"/>
+    <option id="http://open-services.net/ns/rm#validatedBy" name="is validated by" sortOrder="22"/>
+    <option id="http://purl.org/dc/terms/relation" name="related to" sortOrder="23"/>
+</enumeration>

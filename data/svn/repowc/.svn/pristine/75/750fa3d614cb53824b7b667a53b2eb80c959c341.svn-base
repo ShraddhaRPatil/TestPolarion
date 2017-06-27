@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="author">daniel.morris</field>
+    <field id="title">Approve your requirements really easily</field>
+    <field id="created">2013-07-25 14:31:07.468 +0200</field>
+    <field id="description" text-type="text/html">&lt;ul&gt;&lt;li&gt;Open Easy Approvals&lt;/li&gt;&lt;/ul&gt;&lt;img style="width: 150px;height: 121px;" src="attachment:openApprovals.jpg"/&gt;&lt;br/&gt;&lt;br/&gt;Use Tracker                                                                                                       or document view&lt;br/&gt;&lt;img style="width: 366px;height: 223px;" src="attachment:myapprove.png"/&gt;  &lt;img style="width: 380px;height: 223px;" src="attachment:allapprove.png"/&gt;&lt;br/&gt;</field>
+    <field id="priority">25.0</field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+    <field id="trainingCategory" multi="true" type="enum:trainingCategory"/>
+</work-item>

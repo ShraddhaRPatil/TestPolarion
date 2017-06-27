@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="assignee">sDeveloper</field>
+    <field id="author">admin</field>
+    <field id="created">2013-01-29 15:35:01.504 +0100</field>
+    <field id="initialEstimate">4 1/2d</field>
+    <field id="linkedWorkItems">
+        <list>
+            <struct>
+                <item id="role">implements</item>
+                <item id="suspect">false</item>
+                <item id="workItem">DP-316</item>
+            </struct>
+        </list>
+    </field>
+    <field id="previousStatus">open</field>
+    <field id="priority">50.0</field>
+    <field id="resolution">done</field>
+    <field id="resolvedOn">2013-02-04 18:06:14.989 +0100</field>
+    <field id="severity">should_have</field>
+    <field id="status">verified-done</field>
+    <field id="timeSpent">4d</field>
+    <field id="title">DrivePilot requires confirmation of a test drive</field>
+    <field id="type">workPackage</field>
+</work-item>

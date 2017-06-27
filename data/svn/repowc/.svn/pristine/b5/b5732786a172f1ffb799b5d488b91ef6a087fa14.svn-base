@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">admin</field>
+    <field id="created">2013-11-06 15:14:32.518 +0100</field>
+    <field id="description" text-type="text/html">Let´s make the parent topic more specific and add a map.&lt;br/&gt;&lt;ul&gt;&lt;li&gt;Create a new map variable $parents&lt;/li&gt;&lt;li&gt;Add "Mother" and "Father" as key and their first names as values. &lt;/li&gt;&lt;/ul&gt;&lt;span style="font-weight: bold;"&gt;Example Image:&lt;/span&gt;&lt;br/&gt;&lt;img src="attachment:map_image.jpg"/&gt;</field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="type">exercise</field>
+</work-item>

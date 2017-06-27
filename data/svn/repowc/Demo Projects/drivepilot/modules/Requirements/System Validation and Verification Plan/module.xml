@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<module>
+    <field id="author">admin</field>
+    <field id="created">2013-01-09 22:56:36.682 +0100</field>
+    <field id="homePageContent" text-type="text/html"><![CDATA[<h1 id="polarion_wiki macro name=module-workitem;params=id=DP-120"></h1><div id="polarion_wiki macro name=toc"></div><h2 id="polarion_wiki macro name=module-workitem;params=id=DP-121"></h2><h3 id="polarion_wiki macro name=module-workitem;params=id=DP-122"></h3><p id="polarion_merged_5">
+  The System Validation and Verification Plan (SysVVP) document outlines the planned tasks and expectations for validation and verification of the system.
+</p><ul id="polarion_new_1">
+  <ul>
+    <li>WHO will be responsible for completion, review, and approval of these tasks.</li>
+    <li>HOW the verification will be performed including failure resolution.<br/>
+      </li>
+    <li>WHAT documentation/deliverables will be generated.</li>
+  </ul>
+</ul><h3 id="polarion_wiki macro name=module-workitem;params=id=DP-124"></h3><p id="polarion_merged_2">
+  No applicable reference.
+</p><h2 id="polarion_wiki macro name=module-workitem;params=id=DP-125"></h2><p id="polarion_merged_19">
+  <span style="font-weight: bold;">Verification and Validation</span> are independent procedures that are used together for checking that the system meets requirements and specifications and that it fulfills its intended purpose. These are critical components of a quality management system. 
+</p><ul id="polarion_merged_24" style="margin-left: 1.6em;">
+  <li>&quot;<span style="font-weight: bold;">Validation.</span> The assurance that a product, service, or system meets the needs of the customer and other identified stakeholders. It often involves acceptance and suitability with external customers. Contrast with verification.&quot;</li>
+  <li>&quot;<span style="font-weight: bold;">Verification</span>. The evaluation of whether or not a product, service, or system complies with a regulation, requirement, specification, or imposed condition. It is often an internal process. Contrast with validation.&quot;</li>
+</ul><h3 id="polarion_wiki macro name=module-workitem;params=id=DP-126"></h3><ol id="polarion_merged_1">
+  <li>The system requirements should be validated as soon as possible after implementation</li>
+  <li>The system requirements are validated by executing  &quot;System Verification Test&quot;</li>
+  <li>All the SystemTest Cases linked to implemented System Requirements need to be planned</li>
+</ol><h4 id="polarion_wiki macro name=module-workitem;params=id=DP-127"></h4><div id="polarion_wiki macro name=module-workitem;params=id=DP-470"></div><h3 id="polarion_wiki macro name=module-workitem;params=id=DP-128"></h3><ol id="polarion_merged_3">
+  <li>The system requirements should be validated as soon as possible after implementation.</li>
+  <li>The validation is performed by: </li>
+</ol><ul id="polarion_merged_0">
+  <ul>
+    <li>outsourced sample users group </li>
+    <li>stakeholders</li>
+  </ul>
+</ul><h4 id="polarion_wiki macro name=module-workitem;params=id=DP-129"></h4><div id="polarion_wiki macro name=module-workitem;params=id=DP-471"></div><p id="polarion_1"></p>]]></field>
+    <field id="renderingLayouts">
+        <list>
+            <struct>
+                <item id="label">Task</item>
+                <item id="layouter">paragraph</item>
+                <item id="properties">
+                    <list>
+                        <struct>
+                            <item id="key">fieldsAtStart</item>
+                            <item id="value">id</item>
+                        </struct>
+                        <struct>
+                            <item id="key">fieldsAtEnd</item>
+                            <item id="value">severity</item>
+                        </struct>
+                        <struct>
+                            <item id="key">fieldsAtEndAsTable</item>
+                        </struct>
+                        <struct>
+                            <item id="key">hidden</item>
+                        </struct>
+                    </list>
+                </item>
+                <item id="type">task</item>
+            </struct>
+        </list>
+    </field>
+    <field id="status">published</field>
+    <field id="structureLinkRole">parent</field>
+    <field id="type">generic</field>
+    <field id="usesOutlineNumbering">true</field>
+</module>

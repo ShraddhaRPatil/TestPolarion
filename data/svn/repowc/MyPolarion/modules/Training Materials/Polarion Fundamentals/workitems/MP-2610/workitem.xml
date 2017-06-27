@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">stroebelet</field>
+    <field id="created">2012-04-24 10:53:20.995 +0200</field>
+    <field id="description" text-type="text/html">Personal wiki pages allow you to display and link information you are interested in&lt;br/&gt;&lt;ul&gt;&lt;li&gt;Create a new page &lt;span style="font-style: italic;"&gt;[your Name]_Home&lt;/span&gt; in "Default Space" e.g. "&lt;span style="font-style: italic;"&gt;Tim_Home&lt;/span&gt;"&lt;/li&gt;&lt;li&gt;Add title and content:&lt;/li&gt;&lt;li style="list-style: none"&gt;&lt;ul&gt;&lt;li&gt;title: My Wiki Page&lt;/li&gt;&lt;li&gt;text: This is my cool wiki page especially for me&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;Add following subheadings&lt;/li&gt;&lt;li style="list-style: none"&gt;&lt;ul&gt;&lt;li&gt;My favorite Links&lt;/li&gt;&lt;li&gt;Open tasks&lt;/li&gt;&lt;li&gt;Unscheduled Items&lt;/li&gt;&lt;li&gt;Action Items&lt;br/&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;Add a link to project home page using wiki link [Home]&lt;/li&gt;&lt;li&gt;Change the link so that it is written "&lt;span style="font-style: italic;"&gt;goto home page"&lt;/span&gt; using an alias&lt;/li&gt;&lt;li&gt;Add a link which displays all items assigned to you. To achieve that copy the URL which displays your workitems into the wiki page.&lt;/li&gt;&lt;/ul&gt;</field>
+    <field id="linkedWorkItems">
+        <list>
+            <struct>
+                <item id="revision">41916</item>
+                <item id="role">branched_from</item>
+                <item id="workItem">MP-785</item>
+            </struct>
+        </list>
+    </field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Create your first wiki page</field>
+    <field id="type">exercise</field>
+    <field id="upgradedescription" type="boolean">true</field>
+</work-item>

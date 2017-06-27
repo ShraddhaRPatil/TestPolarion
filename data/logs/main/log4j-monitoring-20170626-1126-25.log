@@ -1,0 +1,282 @@
+2017-06-26 11:26:30,185 [main | u:p] INFO  com.polarion.platform.monitoring  - Full monitoring results are stored in file C:\Polarion\polarion\..\data\workspace\monitoring\results.txt
+2017-06-26 11:26:30,222 [main | u:p] INFO  com.polarion.platform.monitoring  - Executing actions from stage PREBOOT
+2017-06-26 11:26:30,223 [main | u:p] INFO  com.polarion.platform.monitoring  - Executing action 'system.info.disk.data.free'
+2017-06-26 11:26:30,225 [main | u:p] INFO  com.polarion.platform.monitoring  - system.info.disk.data.free (Free data disk 'c:\Polarion\polarion\..\data' space) = Disk Space 
+845.75 GB
+ [Mon Jun 26 11:26:30 IST 2017]
+2017-06-26 11:26:30,290 [main | u:p] INFO  com.polarion.platform.monitoring  - Executing action 'system.info.jvm.version'
+2017-06-26 11:26:30,291 [main | u:p] INFO  com.polarion.platform.monitoring  - system.info.jvm.version (JVM Version) = JVM Version 
+Oracle Corporation Java HotSpot(TM) 64-Bit Server VM 25.111-b14
+ [Mon Jun 26 11:26:30 IST 2017]
+2017-06-26 11:26:30,298 [main | u:p] INFO  com.polarion.platform.monitoring  - Executing action 'system.info.os.version'
+2017-06-26 11:26:30,298 [main | u:p] INFO  com.polarion.platform.monitoring  - system.info.os.version (OS Version) = OS Version 
+Windows 10 10.0 amd64
+ [Mon Jun 26 11:26:30 IST 2017]
+2017-06-26 11:26:30,308 [main | u:p] INFO  com.polarion.platform.monitoring  - Finished with actions from stage PREBOOT: {OK=3}
+2017-06-26 11:27:03,423 [main | u:p] INFO  com.polarion.platform.monitoring  - Next slow periodic actions will be executed on Tue Jun 27 01:00:03 IST 2017
+2017-06-26 11:27:03,424 [main] INFO  com.polarion.platform.monitoring  - Executing actions from stage POSTBOOT
+2017-06-26 11:27:03,425 [main] INFO  com.polarion.platform.monitoring  - Finished with actions from stage POSTBOOT: {}
+2017-06-26 11:37:03,427 [Monitoring] INFO  com.polarion.platform.monitoring  - Executing actions from stage PERIODIC with speed FAST
+2017-06-26 11:37:03,427 [Monitoring] INFO  com.polarion.platform.monitoring  - Executing action 'system.info.disk.data.free'
+2017-06-26 11:37:03,428 [Monitoring] INFO  com.polarion.platform.monitoring  - system.info.disk.data.free (Free data disk 'c:\Polarion\polarion\..\data' space) = Disk Space 
+845.75 GB
+ [Mon Jun 26 11:37:03 IST 2017]
+2017-06-26 11:37:03,475 [Monitoring] INFO  com.polarion.platform.monitoring  - Executing action 'system.info.garbageCollector.full.cycles'
+2017-06-26 11:37:03,475 [Monitoring] INFO  com.polarion.platform.monitoring  - system.info.garbageCollector.full.cycles (Full Garbage Collector cycles) = Full Garbage Collector cycles 
+Full GC cycles: 0; Time: 0
+ [Mon Jun 26 11:37:03 IST 2017]
+2017-06-26 11:37:03,486 [Monitoring] INFO  com.polarion.platform.monitoring  - Executing action 'system.info.garbageCollector.normal.cycles'
+2017-06-26 11:37:03,486 [Monitoring] INFO  com.polarion.platform.monitoring  - system.info.garbageCollector.normal.cycles (Normal Garbage Collector cycles) = Normal Garbage Collector cycles 
+Normal GC cycles: 30; Time: 602
+ [Mon Jun 26 11:37:03 IST 2017]
+2017-06-26 11:37:03,496 [Monitoring] INFO  com.polarion.platform.monitoring  - Executing action 'system.info.memory.nonheap.free'
+2017-06-26 11:37:03,497 [Monitoring] INFO  com.polarion.platform.monitoring  - system.info.memory.nonheap.free (Free non-heap memory) = Java Metaspace Memory 
+Unlimited
+ [Mon Jun 26 11:37:03 IST 2017]
+2017-06-26 11:37:03,549 [Monitoring] INFO  com.polarion.platform.monitoring  - Executing action 'system.info.memory.oldGen.free'
+2017-06-26 11:37:03,550 [Monitoring] INFO  com.polarion.platform.monitoring  - system.info.memory.oldGen.free (Free Old Gen memory after GC) = Java Heap Memory 
+Old Gen pool has  100.00% memory free after GC.
+ [Mon Jun 26 11:37:03 IST 2017]
+2017-06-26 11:37:03,595 [Monitoring] INFO  com.polarion.platform.monitoring  - Finished with actions from stage PERIODIC: {OK=5}
+2017-06-26 11:47:03,431 [Monitoring] INFO  com.polarion.platform.monitoring  - Executing actions from stage PERIODIC with speed FAST
+2017-06-26 11:47:03,431 [Monitoring] INFO  com.polarion.platform.monitoring  - Executing action 'system.info.disk.data.free'
+2017-06-26 11:47:03,432 [Monitoring] INFO  com.polarion.platform.monitoring  - system.info.disk.data.free (Free data disk 'c:\Polarion\polarion\..\data' space) = Disk Space 
+845.74 GB
+ [Mon Jun 26 11:47:03 IST 2017]
+2017-06-26 11:47:03,473 [Monitoring] INFO  com.polarion.platform.monitoring  - Executing action 'system.info.garbageCollector.full.cycles'
+2017-06-26 11:47:03,473 [Monitoring] INFO  com.polarion.platform.monitoring  - system.info.garbageCollector.full.cycles (Full Garbage Collector cycles) = Full Garbage Collector cycles 
+Full GC cycles: 0; Time: 0
+ [Mon Jun 26 11:47:03 IST 2017]
+2017-06-26 11:47:03,480 [Monitoring] INFO  com.polarion.platform.monitoring  - Executing action 'system.info.garbageCollector.normal.cycles'
+2017-06-26 11:47:03,480 [Monitoring] INFO  com.polarion.platform.monitoring  - system.info.garbageCollector.normal.cycles (Normal Garbage Collector cycles) = Normal Garbage Collector cycles 
+Normal GC cycles: 33; Time: 654
+ [Mon Jun 26 11:47:03 IST 2017]
+2017-06-26 11:47:03,486 [Monitoring] INFO  com.polarion.platform.monitoring  - Executing action 'system.info.memory.nonheap.free'
+2017-06-26 11:47:03,486 [Monitoring] INFO  com.polarion.platform.monitoring  - system.info.memory.nonheap.free (Free non-heap memory) = Java Metaspace Memory 
+Unlimited
+ [Mon Jun 26 11:47:03 IST 2017]
+2017-06-26 11:47:03,520 [Monitoring] INFO  com.polarion.platform.monitoring  - Executing action 'system.info.memory.oldGen.free'
+2017-06-26 11:47:03,520 [Monitoring] INFO  com.polarion.platform.monitoring  - system.info.memory.oldGen.free (Free Old Gen memory after GC) = Java Heap Memory 
+Old Gen pool has  100.00% memory free after GC.
+ [Mon Jun 26 11:47:03 IST 2017]
+2017-06-26 11:47:03,557 [Monitoring] INFO  com.polarion.platform.monitoring  - Finished with actions from stage PERIODIC: {OK=5}
+2017-06-26 11:57:03,435 [Monitoring] INFO  com.polarion.platform.monitoring  - Executing actions from stage PERIODIC with speed FAST
+2017-06-26 11:57:03,435 [Monitoring] INFO  com.polarion.platform.monitoring  - Executing action 'system.info.disk.data.free'
+2017-06-26 11:57:03,435 [Monitoring] INFO  com.polarion.platform.monitoring  - system.info.disk.data.free (Free data disk 'c:\Polarion\polarion\..\data' space) = Disk Space 
+845.74 GB
+ [Mon Jun 26 11:57:03 IST 2017]
+2017-06-26 11:57:03,476 [Monitoring] INFO  com.polarion.platform.monitoring  - Executing action 'system.info.garbageCollector.full.cycles'
+2017-06-26 11:57:03,476 [Monitoring] INFO  com.polarion.platform.monitoring  - system.info.garbageCollector.full.cycles (Full Garbage Collector cycles) = Full Garbage Collector cycles 
+Full GC cycles: 0; Time: 0
+ [Mon Jun 26 11:57:03 IST 2017]
+2017-06-26 11:57:03,482 [Monitoring] INFO  com.polarion.platform.monitoring  - Executing action 'system.info.garbageCollector.normal.cycles'
+2017-06-26 11:57:03,483 [Monitoring] INFO  com.polarion.platform.monitoring  - system.info.garbageCollector.normal.cycles (Normal Garbage Collector cycles) = Normal Garbage Collector cycles 
+Normal GC cycles: 35; Time: 685
+ [Mon Jun 26 11:57:03 IST 2017]
+2017-06-26 11:57:03,489 [Monitoring] INFO  com.polarion.platform.monitoring  - Executing action 'system.info.memory.nonheap.free'
+2017-06-26 11:57:03,489 [Monitoring] INFO  com.polarion.platform.monitoring  - system.info.memory.nonheap.free (Free non-heap memory) = Java Metaspace Memory 
+Unlimited
+ [Mon Jun 26 11:57:03 IST 2017]
+2017-06-26 11:57:03,524 [Monitoring] INFO  com.polarion.platform.monitoring  - Executing action 'system.info.memory.oldGen.free'
+2017-06-26 11:57:03,524 [Monitoring] INFO  com.polarion.platform.monitoring  - system.info.memory.oldGen.free (Free Old Gen memory after GC) = Java Heap Memory 
+Old Gen pool has  100.00% memory free after GC.
+ [Mon Jun 26 11:57:03 IST 2017]
+2017-06-26 11:57:03,560 [Monitoring] INFO  com.polarion.platform.monitoring  - Finished with actions from stage PERIODIC: {OK=5}
+2017-06-26 12:07:03,440 [Monitoring] INFO  com.polarion.platform.monitoring  - Executing actions from stage PERIODIC with speed FAST
+2017-06-26 12:07:03,440 [Monitoring] INFO  com.polarion.platform.monitoring  - Executing action 'system.info.disk.data.free'
+2017-06-26 12:07:03,441 [Monitoring] INFO  com.polarion.platform.monitoring  - system.info.disk.data.free (Free data disk 'c:\Polarion\polarion\..\data' space) = Disk Space 
+845.74 GB
+ [Mon Jun 26 12:07:03 IST 2017]
+2017-06-26 12:07:03,483 [Monitoring] INFO  com.polarion.platform.monitoring  - Executing action 'system.info.garbageCollector.full.cycles'
+2017-06-26 12:07:03,483 [Monitoring] INFO  com.polarion.platform.monitoring  - system.info.garbageCollector.full.cycles (Full Garbage Collector cycles) = Full Garbage Collector cycles 
+Full GC cycles: 0; Time: 0
+ [Mon Jun 26 12:07:03 IST 2017]
+2017-06-26 12:07:03,489 [Monitoring] INFO  com.polarion.platform.monitoring  - Executing action 'system.info.garbageCollector.normal.cycles'
+2017-06-26 12:07:03,489 [Monitoring] INFO  com.polarion.platform.monitoring  - system.info.garbageCollector.normal.cycles (Normal Garbage Collector cycles) = Normal Garbage Collector cycles 
+Normal GC cycles: 38; Time: 745
+ [Mon Jun 26 12:07:03 IST 2017]
+2017-06-26 12:07:03,496 [Monitoring] INFO  com.polarion.platform.monitoring  - Executing action 'system.info.memory.nonheap.free'
+2017-06-26 12:07:03,496 [Monitoring] INFO  com.polarion.platform.monitoring  - system.info.memory.nonheap.free (Free non-heap memory) = Java Metaspace Memory 
+Unlimited
+ [Mon Jun 26 12:07:03 IST 2017]
+2017-06-26 12:07:03,530 [Monitoring] INFO  com.polarion.platform.monitoring  - Executing action 'system.info.memory.oldGen.free'
+2017-06-26 12:07:03,530 [Monitoring] INFO  com.polarion.platform.monitoring  - system.info.memory.oldGen.free (Free Old Gen memory after GC) = Java Heap Memory 
+Old Gen pool has  100.00% memory free after GC.
+ [Mon Jun 26 12:07:03 IST 2017]
+2017-06-26 12:07:03,567 [Monitoring] INFO  com.polarion.platform.monitoring  - Finished with actions from stage PERIODIC: {OK=5}
+2017-06-26 12:17:03,444 [Monitoring] INFO  com.polarion.platform.monitoring  - Executing actions from stage PERIODIC with speed FAST
+2017-06-26 12:17:03,444 [Monitoring] INFO  com.polarion.platform.monitoring  - Executing action 'system.info.disk.data.free'
+2017-06-26 12:17:03,445 [Monitoring] INFO  com.polarion.platform.monitoring  - system.info.disk.data.free (Free data disk 'c:\Polarion\polarion\..\data' space) = Disk Space 
+845.73 GB
+ [Mon Jun 26 12:17:03 IST 2017]
+2017-06-26 12:17:03,489 [Monitoring] INFO  com.polarion.platform.monitoring  - Executing action 'system.info.garbageCollector.full.cycles'
+2017-06-26 12:17:03,489 [Monitoring] INFO  com.polarion.platform.monitoring  - system.info.garbageCollector.full.cycles (Full Garbage Collector cycles) = Full Garbage Collector cycles 
+Full GC cycles: 0; Time: 0
+ [Mon Jun 26 12:17:03 IST 2017]
+2017-06-26 12:17:03,495 [Monitoring] INFO  com.polarion.platform.monitoring  - Executing action 'system.info.garbageCollector.normal.cycles'
+2017-06-26 12:17:03,495 [Monitoring] INFO  com.polarion.platform.monitoring  - system.info.garbageCollector.normal.cycles (Normal Garbage Collector cycles) = Normal Garbage Collector cycles 
+Normal GC cycles: 38; Time: 745
+ [Mon Jun 26 12:17:03 IST 2017]
+2017-06-26 12:17:03,502 [Monitoring] INFO  com.polarion.platform.monitoring  - Executing action 'system.info.memory.nonheap.free'
+2017-06-26 12:17:03,502 [Monitoring] INFO  com.polarion.platform.monitoring  - system.info.memory.nonheap.free (Free non-heap memory) = Java Metaspace Memory 
+Unlimited
+ [Mon Jun 26 12:17:03 IST 2017]
+2017-06-26 12:17:03,543 [Monitoring] INFO  com.polarion.platform.monitoring  - Executing action 'system.info.memory.oldGen.free'
+2017-06-26 12:17:03,543 [Monitoring] INFO  com.polarion.platform.monitoring  - system.info.memory.oldGen.free (Free Old Gen memory after GC) = Java Heap Memory 
+Old Gen pool has  100.00% memory free after GC.
+ [Mon Jun 26 12:17:03 IST 2017]
+2017-06-26 12:17:03,580 [Monitoring] INFO  com.polarion.platform.monitoring  - Finished with actions from stage PERIODIC: {OK=5}
+2017-06-26 12:27:03,449 [Monitoring] INFO  com.polarion.platform.monitoring  - Executing actions from stage PERIODIC with speed FAST
+2017-06-26 12:27:03,449 [Monitoring] INFO  com.polarion.platform.monitoring  - Executing action 'system.info.disk.data.free'
+2017-06-26 12:27:03,449 [Monitoring] INFO  com.polarion.platform.monitoring  - system.info.disk.data.free (Free data disk 'c:\Polarion\polarion\..\data' space) = Disk Space 
+845.72 GB
+ [Mon Jun 26 12:27:03 IST 2017]
+2017-06-26 12:27:03,491 [Monitoring] INFO  com.polarion.platform.monitoring  - Executing action 'system.info.garbageCollector.full.cycles'
+2017-06-26 12:27:03,492 [Monitoring] INFO  com.polarion.platform.monitoring  - system.info.garbageCollector.full.cycles (Full Garbage Collector cycles) = Full Garbage Collector cycles 
+Full GC cycles: 0; Time: 0
+ [Mon Jun 26 12:27:03 IST 2017]
+2017-06-26 12:27:03,498 [Monitoring] INFO  com.polarion.platform.monitoring  - Executing action 'system.info.garbageCollector.normal.cycles'
+2017-06-26 12:27:03,498 [Monitoring] INFO  com.polarion.platform.monitoring  - system.info.garbageCollector.normal.cycles (Normal Garbage Collector cycles) = Normal Garbage Collector cycles 
+Normal GC cycles: 38; Time: 745
+ [Mon Jun 26 12:27:03 IST 2017]
+2017-06-26 12:27:03,504 [Monitoring] INFO  com.polarion.platform.monitoring  - Executing action 'system.info.memory.nonheap.free'
+2017-06-26 12:27:03,504 [Monitoring] INFO  com.polarion.platform.monitoring  - system.info.memory.nonheap.free (Free non-heap memory) = Java Metaspace Memory 
+Unlimited
+ [Mon Jun 26 12:27:03 IST 2017]
+2017-06-26 12:27:03,541 [Monitoring] INFO  com.polarion.platform.monitoring  - Executing action 'system.info.memory.oldGen.free'
+2017-06-26 12:27:03,542 [Monitoring] INFO  com.polarion.platform.monitoring  - system.info.memory.oldGen.free (Free Old Gen memory after GC) = Java Heap Memory 
+Old Gen pool has  100.00% memory free after GC.
+ [Mon Jun 26 12:27:03 IST 2017]
+2017-06-26 12:27:03,581 [Monitoring] INFO  com.polarion.platform.monitoring  - Finished with actions from stage PERIODIC: {OK=5}
+2017-06-26 12:37:03,454 [Monitoring] INFO  com.polarion.platform.monitoring  - Executing actions from stage PERIODIC with speed FAST
+2017-06-26 12:37:03,454 [Monitoring] INFO  com.polarion.platform.monitoring  - Executing action 'system.info.disk.data.free'
+2017-06-26 12:37:03,454 [Monitoring] INFO  com.polarion.platform.monitoring  - system.info.disk.data.free (Free data disk 'c:\Polarion\polarion\..\data' space) = Disk Space 
+845.72 GB
+ [Mon Jun 26 12:37:03 IST 2017]
+2017-06-26 12:37:03,496 [Monitoring] INFO  com.polarion.platform.monitoring  - Executing action 'system.info.garbageCollector.full.cycles'
+2017-06-26 12:37:03,496 [Monitoring] INFO  com.polarion.platform.monitoring  - system.info.garbageCollector.full.cycles (Full Garbage Collector cycles) = Full Garbage Collector cycles 
+Full GC cycles: 0; Time: 0
+ [Mon Jun 26 12:37:03 IST 2017]
+2017-06-26 12:37:03,502 [Monitoring] INFO  com.polarion.platform.monitoring  - Executing action 'system.info.garbageCollector.normal.cycles'
+2017-06-26 12:37:03,502 [Monitoring] INFO  com.polarion.platform.monitoring  - system.info.garbageCollector.normal.cycles (Normal Garbage Collector cycles) = Normal Garbage Collector cycles 
+Normal GC cycles: 38; Time: 745
+ [Mon Jun 26 12:37:03 IST 2017]
+2017-06-26 12:37:03,508 [Monitoring] INFO  com.polarion.platform.monitoring  - Executing action 'system.info.memory.nonheap.free'
+2017-06-26 12:37:03,508 [Monitoring] INFO  com.polarion.platform.monitoring  - system.info.memory.nonheap.free (Free non-heap memory) = Java Metaspace Memory 
+Unlimited
+ [Mon Jun 26 12:37:03 IST 2017]
+2017-06-26 12:37:03,542 [Monitoring] INFO  com.polarion.platform.monitoring  - Executing action 'system.info.memory.oldGen.free'
+2017-06-26 12:37:03,542 [Monitoring] INFO  com.polarion.platform.monitoring  - system.info.memory.oldGen.free (Free Old Gen memory after GC) = Java Heap Memory 
+Old Gen pool has  100.00% memory free after GC.
+ [Mon Jun 26 12:37:03 IST 2017]
+2017-06-26 12:37:03,579 [Monitoring] INFO  com.polarion.platform.monitoring  - Finished with actions from stage PERIODIC: {OK=5}
+2017-06-26 12:47:03,458 [Monitoring] INFO  com.polarion.platform.monitoring  - Executing actions from stage PERIODIC with speed FAST
+2017-06-26 12:47:03,458 [Monitoring] INFO  com.polarion.platform.monitoring  - Executing action 'system.info.disk.data.free'
+2017-06-26 12:47:03,458 [Monitoring] INFO  com.polarion.platform.monitoring  - system.info.disk.data.free (Free data disk 'c:\Polarion\polarion\..\data' space) = Disk Space 
+845.72 GB
+ [Mon Jun 26 12:47:03 IST 2017]
+2017-06-26 12:47:03,500 [Monitoring] INFO  com.polarion.platform.monitoring  - Executing action 'system.info.garbageCollector.full.cycles'
+2017-06-26 12:47:03,500 [Monitoring] INFO  com.polarion.platform.monitoring  - system.info.garbageCollector.full.cycles (Full Garbage Collector cycles) = Full Garbage Collector cycles 
+Full GC cycles: 0; Time: 0
+ [Mon Jun 26 12:47:03 IST 2017]
+2017-06-26 12:47:03,507 [Monitoring] INFO  com.polarion.platform.monitoring  - Executing action 'system.info.garbageCollector.normal.cycles'
+2017-06-26 12:47:03,507 [Monitoring] INFO  com.polarion.platform.monitoring  - system.info.garbageCollector.normal.cycles (Normal Garbage Collector cycles) = Normal Garbage Collector cycles 
+Normal GC cycles: 38; Time: 745
+ [Mon Jun 26 12:47:03 IST 2017]
+2017-06-26 12:47:03,513 [Monitoring] INFO  com.polarion.platform.monitoring  - Executing action 'system.info.memory.nonheap.free'
+2017-06-26 12:47:03,513 [Monitoring] INFO  com.polarion.platform.monitoring  - system.info.memory.nonheap.free (Free non-heap memory) = Java Metaspace Memory 
+Unlimited
+ [Mon Jun 26 12:47:03 IST 2017]
+2017-06-26 12:47:03,547 [Monitoring] INFO  com.polarion.platform.monitoring  - Executing action 'system.info.memory.oldGen.free'
+2017-06-26 12:47:03,547 [Monitoring] INFO  com.polarion.platform.monitoring  - system.info.memory.oldGen.free (Free Old Gen memory after GC) = Java Heap Memory 
+Old Gen pool has  100.00% memory free after GC.
+ [Mon Jun 26 12:47:03 IST 2017]
+2017-06-26 12:47:04,434 [Monitoring] INFO  com.polarion.platform.monitoring  - Finished with actions from stage PERIODIC: {OK=5}
+2017-06-26 12:57:03,462 [Monitoring] INFO  com.polarion.platform.monitoring  - Executing actions from stage PERIODIC with speed FAST
+2017-06-26 12:57:03,462 [Monitoring] INFO  com.polarion.platform.monitoring  - Executing action 'system.info.disk.data.free'
+2017-06-26 12:57:03,462 [Monitoring] INFO  com.polarion.platform.monitoring  - system.info.disk.data.free (Free data disk 'c:\Polarion\polarion\..\data' space) = Disk Space 
+845.72 GB
+ [Mon Jun 26 12:57:03 IST 2017]
+2017-06-26 12:57:03,509 [Monitoring] INFO  com.polarion.platform.monitoring  - Executing action 'system.info.garbageCollector.full.cycles'
+2017-06-26 12:57:03,509 [Monitoring] INFO  com.polarion.platform.monitoring  - system.info.garbageCollector.full.cycles (Full Garbage Collector cycles) = Full Garbage Collector cycles 
+Full GC cycles: 0; Time: 0
+ [Mon Jun 26 12:57:03 IST 2017]
+2017-06-26 12:57:03,516 [Monitoring] INFO  com.polarion.platform.monitoring  - Executing action 'system.info.garbageCollector.normal.cycles'
+2017-06-26 12:57:03,516 [Monitoring] INFO  com.polarion.platform.monitoring  - system.info.garbageCollector.normal.cycles (Normal Garbage Collector cycles) = Normal Garbage Collector cycles 
+Normal GC cycles: 38; Time: 745
+ [Mon Jun 26 12:57:03 IST 2017]
+2017-06-26 12:57:03,522 [Monitoring] INFO  com.polarion.platform.monitoring  - Executing action 'system.info.memory.nonheap.free'
+2017-06-26 12:57:03,522 [Monitoring] INFO  com.polarion.platform.monitoring  - system.info.memory.nonheap.free (Free non-heap memory) = Java Metaspace Memory 
+Unlimited
+ [Mon Jun 26 12:57:03 IST 2017]
+2017-06-26 12:57:03,557 [Monitoring] INFO  com.polarion.platform.monitoring  - Executing action 'system.info.memory.oldGen.free'
+2017-06-26 12:57:03,557 [Monitoring] INFO  com.polarion.platform.monitoring  - system.info.memory.oldGen.free (Free Old Gen memory after GC) = Java Heap Memory 
+Old Gen pool has  100.00% memory free after GC.
+ [Mon Jun 26 12:57:03 IST 2017]
+2017-06-26 12:57:03,595 [Monitoring] INFO  com.polarion.platform.monitoring  - Finished with actions from stage PERIODIC: {OK=5}
+2017-06-26 13:07:03,466 [Monitoring] INFO  com.polarion.platform.monitoring  - Executing actions from stage PERIODIC with speed FAST
+2017-06-26 13:07:03,466 [Monitoring] INFO  com.polarion.platform.monitoring  - Executing action 'system.info.disk.data.free'
+2017-06-26 13:07:03,466 [Monitoring] INFO  com.polarion.platform.monitoring  - system.info.disk.data.free (Free data disk 'c:\Polarion\polarion\..\data' space) = Disk Space 
+845.72 GB
+ [Mon Jun 26 13:07:03 IST 2017]
+2017-06-26 13:07:03,509 [Monitoring] INFO  com.polarion.platform.monitoring  - Executing action 'system.info.garbageCollector.full.cycles'
+2017-06-26 13:07:03,509 [Monitoring] INFO  com.polarion.platform.monitoring  - system.info.garbageCollector.full.cycles (Full Garbage Collector cycles) = Full Garbage Collector cycles 
+Full GC cycles: 0; Time: 0
+ [Mon Jun 26 13:07:03 IST 2017]
+2017-06-26 13:07:03,515 [Monitoring] INFO  com.polarion.platform.monitoring  - Executing action 'system.info.garbageCollector.normal.cycles'
+2017-06-26 13:07:03,515 [Monitoring] INFO  com.polarion.platform.monitoring  - system.info.garbageCollector.normal.cycles (Normal Garbage Collector cycles) = Normal Garbage Collector cycles 
+Normal GC cycles: 39; Time: 774
+ [Mon Jun 26 13:07:03 IST 2017]
+2017-06-26 13:07:03,522 [Monitoring] INFO  com.polarion.platform.monitoring  - Executing action 'system.info.memory.nonheap.free'
+2017-06-26 13:07:03,522 [Monitoring] INFO  com.polarion.platform.monitoring  - system.info.memory.nonheap.free (Free non-heap memory) = Java Metaspace Memory 
+Unlimited
+ [Mon Jun 26 13:07:03 IST 2017]
+2017-06-26 13:07:03,557 [Monitoring] INFO  com.polarion.platform.monitoring  - Executing action 'system.info.memory.oldGen.free'
+2017-06-26 13:07:03,558 [Monitoring] INFO  com.polarion.platform.monitoring  - system.info.memory.oldGen.free (Free Old Gen memory after GC) = Java Heap Memory 
+Old Gen pool has  100.00% memory free after GC.
+ [Mon Jun 26 13:07:03 IST 2017]
+2017-06-26 13:07:03,596 [Monitoring] INFO  com.polarion.platform.monitoring  - Finished with actions from stage PERIODIC: {OK=5}
+2017-06-26 13:17:03,470 [Monitoring] INFO  com.polarion.platform.monitoring  - Executing actions from stage PERIODIC with speed FAST
+2017-06-26 13:17:03,470 [Monitoring] INFO  com.polarion.platform.monitoring  - Executing action 'system.info.disk.data.free'
+2017-06-26 13:17:03,470 [Monitoring] INFO  com.polarion.platform.monitoring  - system.info.disk.data.free (Free data disk 'c:\Polarion\polarion\..\data' space) = Disk Space 
+845.71 GB
+ [Mon Jun 26 13:17:03 IST 2017]
+2017-06-26 13:17:03,512 [Monitoring] INFO  com.polarion.platform.monitoring  - Executing action 'system.info.garbageCollector.full.cycles'
+2017-06-26 13:17:03,512 [Monitoring] INFO  com.polarion.platform.monitoring  - system.info.garbageCollector.full.cycles (Full Garbage Collector cycles) = Full Garbage Collector cycles 
+Full GC cycles: 0; Time: 0
+ [Mon Jun 26 13:17:03 IST 2017]
+2017-06-26 13:17:03,518 [Monitoring] INFO  com.polarion.platform.monitoring  - Executing action 'system.info.garbageCollector.normal.cycles'
+2017-06-26 13:17:03,518 [Monitoring] INFO  com.polarion.platform.monitoring  - system.info.garbageCollector.normal.cycles (Normal Garbage Collector cycles) = Normal Garbage Collector cycles 
+Normal GC cycles: 39; Time: 774
+ [Mon Jun 26 13:17:03 IST 2017]
+2017-06-26 13:17:03,523 [Monitoring] INFO  com.polarion.platform.monitoring  - Executing action 'system.info.memory.nonheap.free'
+2017-06-26 13:17:03,524 [Monitoring] INFO  com.polarion.platform.monitoring  - system.info.memory.nonheap.free (Free non-heap memory) = Java Metaspace Memory 
+Unlimited
+ [Mon Jun 26 13:17:03 IST 2017]
+2017-06-26 13:17:03,558 [Monitoring] INFO  com.polarion.platform.monitoring  - Executing action 'system.info.memory.oldGen.free'
+2017-06-26 13:17:03,558 [Monitoring] INFO  com.polarion.platform.monitoring  - system.info.memory.oldGen.free (Free Old Gen memory after GC) = Java Heap Memory 
+Old Gen pool has  100.00% memory free after GC.
+ [Mon Jun 26 13:17:03 IST 2017]
+2017-06-26 13:17:03,594 [Monitoring] INFO  com.polarion.platform.monitoring  - Finished with actions from stage PERIODIC: {OK=5}
+2017-06-26 13:27:03,474 [Monitoring] INFO  com.polarion.platform.monitoring  - Executing actions from stage PERIODIC with speed FAST
+2017-06-26 13:27:03,474 [Monitoring] INFO  com.polarion.platform.monitoring  - Executing action 'system.info.disk.data.free'
+2017-06-26 13:27:03,474 [Monitoring] INFO  com.polarion.platform.monitoring  - system.info.disk.data.free (Free data disk 'c:\Polarion\polarion\..\data' space) = Disk Space 
+845.71 GB
+ [Mon Jun 26 13:27:03 IST 2017]
+2017-06-26 13:27:03,517 [Monitoring] INFO  com.polarion.platform.monitoring  - Executing action 'system.info.garbageCollector.full.cycles'
+2017-06-26 13:27:03,517 [Monitoring] INFO  com.polarion.platform.monitoring  - system.info.garbageCollector.full.cycles (Full Garbage Collector cycles) = Full Garbage Collector cycles 
+Full GC cycles: 0; Time: 0
+ [Mon Jun 26 13:27:03 IST 2017]
+2017-06-26 13:27:03,523 [Monitoring] INFO  com.polarion.platform.monitoring  - Executing action 'system.info.garbageCollector.normal.cycles'
+2017-06-26 13:27:03,523 [Monitoring] INFO  com.polarion.platform.monitoring  - system.info.garbageCollector.normal.cycles (Normal Garbage Collector cycles) = Normal Garbage Collector cycles 
+Normal GC cycles: 39; Time: 774
+ [Mon Jun 26 13:27:03 IST 2017]
+2017-06-26 13:27:03,529 [Monitoring] INFO  com.polarion.platform.monitoring  - Executing action 'system.info.memory.nonheap.free'
+2017-06-26 13:27:03,529 [Monitoring] INFO  com.polarion.platform.monitoring  - system.info.memory.nonheap.free (Free non-heap memory) = Java Metaspace Memory 
+Unlimited
+ [Mon Jun 26 13:27:03 IST 2017]
+2017-06-26 13:27:03,564 [Monitoring] INFO  com.polarion.platform.monitoring  - Executing action 'system.info.memory.oldGen.free'
+2017-06-26 13:27:03,564 [Monitoring] INFO  com.polarion.platform.monitoring  - system.info.memory.oldGen.free (Free Old Gen memory after GC) = Java Heap Memory 
+Old Gen pool has  100.00% memory free after GC.
+ [Mon Jun 26 13:27:03 IST 2017]
+2017-06-26 13:27:03,601 [Monitoring] INFO  com.polarion.platform.monitoring  - Finished with actions from stage PERIODIC: {OK=5}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<enumeration>
+    <option id="issue" name="Issue" sortOrder="1"/>
+    <option id="cr" name="CR" sortOrder="2"/>
+    <option id="rejectedAsNotValid" name="Rejected as Not Valid" sortOrder="3"/>
+    <option id="rejectedAsDuplicate" name="Rejected as Duplicate" sortOrder="4"/>
+</enumeration>

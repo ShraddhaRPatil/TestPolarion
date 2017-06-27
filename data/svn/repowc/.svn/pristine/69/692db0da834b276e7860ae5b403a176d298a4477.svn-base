@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">hartliebc</field>
+    <field id="created">2012-04-24 05:44:49.279 -0400</field>
+    <field id="description" text-type="text/html"><![CDATA[Moving of Work Items from one type of storage to another is probably not something you would do frequently, but you may occasionally encounter a need for it.<br/>
+<ul>
+  <li>Search for requirement &quot;The user should be able to login to E-Library&quot;</li>
+  <li>Select work item action menu and move work item to your user specification &quot;CRS_E-Library&quot;<br/>
+    <img src="attachment:moveWI.jpg" style="width: 173px;height: 300px;"/></li>
+</ul>
+<table id="polarion_wiki macro name=table" class="polarion-Document-table" style="width: 80%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;">
+  <tbody>
+    <tr>
+      <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Hint: You can only move Work Items into a specification if their Work Item type is an allowed type. You can add additional Work Item types into a specification like in <span class="polarion-rte-link" data-type="workItem" id="fake" data-item-id="MP-2653" data-option-id="short"></span> </th>
+    </tr>
+  </tbody>
+</table>
+<br/>]]></field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Move existing requirement to specification</field>
+    <field id="type">exercise</field>
+    <field id="upgradedescription" type="boolean">true</field>
+</work-item>

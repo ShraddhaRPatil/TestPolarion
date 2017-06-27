@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<module>
+    <field id="usesOutlineNumbering">true</field>
+    <field id="homePageContent" text-type="text/html"><![CDATA[<p id="polarion_new_79"> </p>
+<div id="polarion_editor_html_block_merged_0" style="position: relative; border-left: 6px dotted rgb(221, 221, 221); padding-bottom: 4px; line-height: 1.7em; margin-top: 1px; padding-left: 34px; padding-top: 3px; left: -40px;" contenteditable="false"><div contenteditable="false" id="polarion_editor_html_block_content">content</div><pre id="polarion_editor_html_block_source" style="position: absolute; display: none; margin-left: -100000px;" contenteditable="false">#includeMacros("macros.macros")</pre></div>
+<h1 id="polarion_wiki macro name=module-workitem;params=id=MP-3407"></h1>
+<p id="polarion_new_13"><br id="polarion_new_12"/></p>
+<div id="polarion_wiki macro name=module-workitem;params=id=MP-2281|external=true|layout=2"></div>
+<h2 id="polarion_wiki macro name=module-workitem;params=id=MP-3408"></h2>
+<div id="polarion_wiki macro name=module-workitem;params=id=MP-2285|layout=2|external=true"></div>
+<p id="polarion_new_44"><br/></p>
+<p id="polarion_new_43"> <br/></p>
+<div id="polarion_wiki macro name=page_break"></div>
+<h2 id="polarion_wiki macro name=module-workitem;params=id=MP-3409"></h2>
+<div id="polarion_wiki macro name=toc"></div>
+<p id="polarion_merged_3"><br/></p>
+<div id="polarion_wiki macro name=page_break;params=uid=0"></div>
+<h2 id="polarion_wiki macro name=module-workitem;params=id=MP-3429"></h2>
+<h3 id="polarion_wiki macro name=module-workitem;params=id=MP-3439"></h3>
+<h4 id="polarion_wiki macro name=module-workitem;params=id=MP-3440"></h4>
+<div id="polarion_editor_html_block_new_4" style="position: relative; border-left: 6px dotted rgb(221, 221, 221); padding-bottom: 4px; line-height: 1.7em; margin-top: 1px; padding-left: 34px; padding-top: 3px; left: -40px;" contenteditable="false"><div contenteditable="false" id="polarion_editor_html_block_content">content</div><pre id="polarion_editor_html_block_source" style="position: absolute; display: none; margin-left: -100000px;" contenteditable="false">{show:wiki}
+#slide("MP-2910")
+{show}
+#video("http://www.polarion.com/video/tutorials/traceability/basic/")
+{show:wiki}
+#helpLink("/polarion/help/topic/com.polarion.xray.doc.user/ugchWorkitemsLinking.html" "Linking Work Items")
+{show}</pre></div>
+<p id="polarion_new_48"><span id="polarion_new_37" style="font-style: italic;"><br/></span></p>
+<h4 id="polarion_wiki macro name=module-workitem;params=id=MP-3441"></h4>
+<div id="polarion_wiki macro name=module-workitem;params=id=MP-2665|layout=1|external=true"></div>
+<p id="polarion_cleaned_4"><br/> </p>
+<div id="polarion_wiki macro name=module-workitem;params=id=MP-2909|layout=1|external=true"></div>
+<p id="polarion_new_133"><br/></p>
+<div id="polarion_wiki macro name=module-workitem;params=id=MP-2666|layout=1|external=true"></div>
+<p id="polarion_new_132"><br/></p>
+<div id="polarion_wiki macro name=module-workitem;params=id=MP-2908|layout=1|external=true"></div>
+<p id="polarion_new_56"><br/></p>
+<div id="polarion_wiki macro name=page_break;params=uid=10"></div>
+<h3 id="polarion_wiki macro name=module-workitem;params=id=MP-3442"></h3>
+<h4 id="polarion_wiki macro name=module-workitem;params=id=MP-3443"></h4>
+<div id="polarion_editor_html_block_pasted_5" style="position: relative; border-left: 6px dotted rgb(221, 221, 221); padding-bottom: 4px; line-height: 1.7em; margin-top: 1px; padding-left: 34px; padding-top: 3px; left: -40px;" contenteditable="false"><div contenteditable="false" id="polarion_editor_html_block_content">content</div><pre id="polarion_editor_html_block_source" style="position: absolute; display: none; margin-left: -100000px;" contenteditable="false">{show:wiki}
+#slide("MP-2934")
+{show}
+{show:wiki}
+#helpLink("/polarion/help/topic/com.polarion.xray.doc.user/ugchProjectMgrs.html" "Polarion for Project Managers")
+{show}</pre></div>
+<h4 id="polarion_wiki macro name=module-workitem;params=id=MP-3444"></h4>
+<div id="polarion_wiki macro name=module-workitem;params=id=MP-2951|layout=1|external=true"></div>
+<p id="polarion_cleaned_0"></p>
+<p id="polarion_new_55"><br/></p>
+<div id="polarion_wiki macro name=module-workitem;params=id=MP-2952|layout=1|external=true"></div>
+]]></field>
+    <field id="structureLinkRole">parent</field>
+    <field id="branchedFrom">Training Materials#Requirements User Training</field>
+    <field id="outlineNumbering">
+        <struct>
+            <item id="prefix"/>
+        </struct>
+    </field>
+    <field id="author">CarolaH</field>
+    <field id="created">2012-07-26 10:46:45.861 +0200</field>
+    <field id="renderingLayouts">
+        <list>
+            <struct>
+                <item id="layouter">section</item>
+                <item id="label">Task</item>
+                <item id="properties">
+                    <list>
+                        <struct>
+                            <item id="value"/>
+                            <item id="key">fieldsAtStart</item>
+                        </struct>
+                        <struct>
+                            <item id="value">status,Resolution</item>
+                            <item id="key">fieldsAtEnd</item>
+                        </struct>
+                        <struct>
+                            <item id="value"/>
+                            <item id="key">fieldsAtEndAsTable</item>
+                        </struct>
+                        <struct>
+                            <item id="value"/>
+                            <item id="key">hidden</item>
+                        </struct>
+                    </list>
+                </item>
+                <item id="type">task</item>
+            </struct>
+            <struct>
+                <item id="layouter">section</item>
+                <item id="label">Exercise</item>
+                <item id="properties">
+                    <list>
+                        <struct>
+                            <item id="value">id</item>
+                            <item id="key">fieldsAtStart</item>
+                        </struct>
+                        <struct>
+                            <item id="value"/>
+                            <item id="key">fieldsAtEnd</item>
+                        </struct>
+                        <struct>
+                            <item id="value">true</item>
+                            <item id="key">fieldsAtEndAsTable</item>
+                        </struct>
+                        <struct>
+                            <item id="value"/>
+                            <item id="key">hidden</item>
+                        </struct>
+                    </list>
+                </item>
+                <item id="type">exercise</item>
+            </struct>
+            <struct>
+                <item id="layouter">paragraph</item>
+                <item id="label">Text</item>
+                <item id="properties">
+                    <list>
+                        <struct>
+                            <item id="value"/>
+                            <item id="key">fieldsAtStart</item>
+                        </struct>
+                        <struct>
+                            <item id="value"/>
+                            <item id="key">fieldsAtEnd</item>
+                        </struct>
+                        <struct>
+                            <item id="value"/>
+                            <item id="key">fieldsAtEndAsTable</item>
+                        </struct>
+                        <struct>
+                            <item id="value"/>
+                            <item id="key">hidden</item>
+                        </struct>
+                    </list>
+                </item>
+                <item id="type">text</item>
+            </struct>
+        </list>
+    </field>
+</module>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<notification-config>
+    <workitem-created filter="type:slide"/>
+    <workitem-updated>
+        <all-watchers/>
+        <new-assignee/>
+        <all-commenters/>
+        <current-author/>
+    </workitem-updated>
+
+    <workitem-status-changed/>
+    <workitem-assigned/>
+    <workitem-commented>
+        <current-assignee/>
+        <current-author/>
+        <all-watchers/>
+        <all-voters/>
+        <current-user/>
+        <comment-thread-participant/>
+        <project-members/>
+    </workitem-commented>
+
+    <workitem-attachment-added/>
+    <workitem-attachment-updated/>
+    <workitem-attachment-removed/>
+    <workitem-linked/>
+    <linked-workitem-updated/>
+    <backlinked-workitem-updated/>
+    <workitem-watcher-added>
+        <current-assignee/>
+        <current-author/>
+        <all-watchers/>
+        <all-voters/>
+        <current-user/>
+    </workitem-watcher-added>
+
+    <workitem-watcher-removed>
+        <current-assignee/>
+        <current-author/>
+        <all-watchers/>
+        <all-voters/>
+        <current-user/>
+    </workitem-watcher-removed>
+
+    <workitem-approval-added>
+        <current-assignee/>
+        <current-author/>
+        <all-watchers/>
+        <all-voters/>
+        <current-user/>
+    </workitem-approval-added>
+
+    <workitem-approval-removed>
+        <current-assignee/>
+        <current-author/>
+        <all-watchers/>
+        <all-voters/>
+        <current-user/>
+    </workitem-approval-removed>
+
+    <workitem-approval-changed>
+        <current-assignee/>
+        <current-author/>
+        <all-watchers/>
+        <all-voters/>
+        <current-user/>
+    </workitem-approval-changed>
+
+    <module-created>
+        <current-user/>
+    </module-created>
+
+    <revision-linked>
+        <current-assignee/>
+        <current-author/>
+        <all-watchers/>
+        <all-voters/>
+        <current-user/>
+    </revision-linked>
+
+    <build-finished>
+        <project-lead/>
+        <project-members/>
+    </build-finished>
+
+    <user-created>
+        <current-user/>
+        <affected-user/>
+        <global-role role="admin"/>
+    </user-created>
+
+    <user-updated>
+        <affected-user/>
+        <current-user/>
+    </user-updated>
+
+    <user-deleted>
+        <affected-user/>
+        <current-user/>
+    </user-deleted>
+
+    <document-updated>
+        <all-watchers/>
+    </document-updated>
+
+    <document-commented>
+        <project-members/>
+    </document-commented>
+
+</notification-config>

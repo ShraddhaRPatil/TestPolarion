@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<module>
+    <field id="author">hartliebc</field>
+    <field id="created">2012-05-30 09:33:21.508 -0400</field>
+    <field id="homePageContent" text-type="text/html"><![CDATA[<h1 id="polarion_wiki macro name=module-workitem;params=id=MP-2975"></h1>
+<h2 id="polarion_wiki macro name=module-workitem;params=id=MP-2976"></h2>
+<div id="polarion_wiki macro name=toc"></div>
+<h2 id="polarion_wiki macro name=module-workitem;params=id=MP-2978"></h2>
+<div id="polarion_wiki macro name=module-workitem;params=id=MP-2979"></div>
+<h2 id="polarion_wiki macro name=module-workitem;params=id=MP-2981"></h2>
+<div id="polarion_wiki macro name=module-workitem;params=id=MP-2980"></div>
+<h2 id="polarion_wiki macro name=module-workitem;params=id=MP-2982"></h2>
+<div id="polarion_wiki macro name=module-workitem;params=id=MP-2983"></div>
+<p id="polarion_2"></p>
+]]></field>
+    <field id="outlineNumbering">
+        <struct/>
+    </field>
+    <field id="renderingLayouts">
+        <list>
+            <struct>
+                <item id="label">Slide</item>
+                <item id="layouter">section</item>
+                <item id="properties">
+                    <list>
+                        <struct>
+                            <item id="key">fieldsAtStart</item>
+                            <item id="value">id</item>
+                        </struct>
+                        <struct>
+                            <item id="key">fieldsAtEnd</item>
+                        </struct>
+                        <struct>
+                            <item id="key">fieldsAtEndAsTable</item>
+                        </struct>
+                        <struct>
+                            <item id="key">hidden</item>
+                        </struct>
+                    </list>
+                </item>
+                <item id="type">slide</item>
+            </struct>
+            <struct>
+                <item id="label">Text</item>
+                <item id="layouter">paragraph</item>
+                <item id="properties">
+                    <list>
+                        <struct>
+                            <item id="key">fieldsAtStart</item>
+                        </struct>
+                        <struct>
+                            <item id="key">fieldsAtEnd</item>
+                        </struct>
+                        <struct>
+                            <item id="key">fieldsAtEndAsTable</item>
+                        </struct>
+                        <struct>
+                            <item id="key">hidden</item>
+                        </struct>
+                    </list>
+                </item>
+                <item id="type">text</item>
+            </struct>
+        </list>
+    </field>
+    <field id="structureLinkRole">next</field>
+    <field id="usesOutlineNumbering">true</field>
+</module>

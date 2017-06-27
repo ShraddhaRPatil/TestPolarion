@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="author">schucks</field>
+    <field id="title">General Overview</field>
+    <field id="created">2013-07-31 15:36:14.729 +0200</field>
+    <field id="description" text-type="text/html">The Testing Chapter in the global, or project configuration includes all options available to customize the behaviour of test planning, managing and execution.&lt;br/&gt;&lt;br/&gt;&lt;img src="attachment:screenshot.jpg"/&gt;</field>
+    <field id="priority">25.0</field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+    <field id="trainingCategory" multi="true" type="enum:trainingCategory"/>
+</work-item>

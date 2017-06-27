@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<module>
+    <field id="author">admin</field>
+    <field id="created">2011-02-01 12:59:17.127 +0100</field>
+    <field id="homePageContent" text-type="text/html"><![CDATA[<h1 id="polarion_wiki macro name=module-workitem;params=id=WI-197"></h1><div id="polarion_wiki macro name=toc"></div><h2 id="polarion_wiki macro name=module-workitem;params=id=WI-198"></h2><h3 id="polarion_wiki macro name=module-workitem;params=id=WI-199"></h3><p id="polarion_1">
+  Identify the purpose of this Test Plan document and its intended audience.
+</p><h3 id="polarion_wiki macro name=module-workitem;params=id=WI-200"></h3><p id="polarion_2">
+  Provide a short description of the software being tested and the test itself.
+</p><h3 id="polarion_wiki macro name=module-workitem;params=id=WI-201"></h3><p id="polarion_3">
+  List any other documents or Web addresses to which this test plan document refers. Provide enough information so that the reader could access a copy of each reference, including title, author, version number, date, and source or location.Example: References to the following documents, when they exist, are required in the highest level test plan:
+</p><ol id="polarion_4">
+  <li>Project authorization</li>
+  <li>Project plan</li>
+  <li>Quality assurance plan</li>
+  <li>Configuration management plan</li>
+  <li>Relevant policies</li>
+  <li>Relevant standards</li>
+</ol><h2 id="polarion_wiki macro name=module-workitem;params=id=WI-202"></h2><p id="polarion_8">
+  Identify the test items including their version/revision level.Supply references to the following test item documentation, if it exists:
+</p><ol id="polarion_9">
+  <li>Requirements specification</li>
+  <li>Design specification</li>
+  <li>Users guide</li>
+  <li>Operations guide</li>
+  <li>Installation guide</li>
+</ol><h2 id="polarion_wiki macro name=module-workitem;params=id=WI-203"></h2><h2 id="polarion_wiki macro name=module-workitem;params=id=WI-204"></h2><h2 id="polarion_wiki macro name=module-workitem;params=id=WI-205"></h2><h2 id="polarion_wiki macro name=module-workitem;params=id=WI-206"></h2><h2 id="polarion_wiki macro name=module-workitem;params=id=WI-207"></h2><h2 id="polarion_wiki macro name=module-workitem;params=id=WI-208"></h2><h2 id="polarion_wiki macro name=module-workitem;params=id=WI-209"></h2><h2 id="polarion_wiki macro name=module-workitem;params=id=WI-210"></h2><h2 id="polarion_wiki macro name=module-workitem;params=id=WI-211"></h2><h2 id="polarion_wiki macro name=module-workitem;params=id=WI-212"></h2><h2 id="polarion_wiki macro name=module-workitem;params=id=WI-213"></h2><h2 id="polarion_wiki macro name=module-workitem;params=id=WI-214"></h2><h2 id="polarion_wiki macro name=module-workitem;params=id=WI-215"></h2><p id="polarion_14"></p>]]></field>
+    <field id="outlineNumbering">
+        <struct/>
+    </field>
+    <field id="renderingLayouts">
+        <list>
+            <struct>
+                <item id="label">Task</item>
+                <item id="layouter">section</item>
+                <item id="properties">
+                    <list>
+                        <struct>
+                            <item id="key">fieldsAtStart</item>
+                            <item id="value">id</item>
+                        </struct>
+                        <struct>
+                            <item id="key">fieldsAtEnd</item>
+                            <item id="value">severity, status</item>
+                        </struct>
+                        <struct>
+                            <item id="key">fieldsAtEndAsTable</item>
+                        </struct>
+                        <struct>
+                            <item id="key">hidden</item>
+                        </struct>
+                    </list>
+                </item>
+                <item id="type">task</item>
+            </struct>
+        </list>
+    </field>
+    <field id="status">draft</field>
+    <field id="structureLinkRole">parent</field>
+    <field id="type">generic</field>
+    <field id="usesOutlineNumbering">true</field>
+</module>

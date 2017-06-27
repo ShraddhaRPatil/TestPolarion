@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<comment>
+    <field id="author">schucks</field>
+    <field id="text" text-type="text/plain">it should be mentioned how a rule is created that is always true. in this case it is "type contains Risk"</field>
+    <field id="resolved">true</field>
+    <field id="created">2012-09-04 15:08:41.577 +0200</field>
+    <field id="title">unclear</field>
+</comment>

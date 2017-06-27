@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export>
+  <pdf marginLeft="40" marginTop="10" marginRight="40"  marginBottom="10">
+	<header height="50">
+		 <![CDATA[
+			<table width="100%" style="color:rgb(128,128,128)">
+				<tr>
+					<td width="5%"><img width="30" height="34" src="http://www.polarion.com/img/logos/polarion_logo_60x68.gif"></td>
+					<td width="35%">Polarion Training<br><a style="color:rgb(128,128,128)" href="http://www.polarion.com">http://www.polarion.com</a></td>
+					<td width="70%" align="right">(rev. $[revision])</td>
+				</tr>
+			</table>
+		]]>
+
+	</header>
+	<footer height="25">
+		<![CDATA[
+			<table width="100%" style="border-top:1px solid rgb(128,128,128);color:rgb(128,128,128)">
+				<tr>
+					<td width="20%"><span style="color:rgb(0,0,0)">$[generated]</td>
+					<td width="60%" align="center"><a style="color:rgb(128,128,128)" href="http://www.polarion.com"></a></td>
+					<td width="20%" align="right">$[page] |</span> $[total]</td>
+				</tr>
+			</table>
+		]]>
+	</footer>
+  </pdf>
+</export>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="author">hartliebc</field>
+    <field id="title">Release Management using Polarion LiveBranch</field>
+    <field id="created">2012-07-10 10:10:06.461 +0200</field>
+    <field id="description" text-type="text/html">&lt;b&gt;&lt;br/&gt;Situation:&lt;/b&gt;&lt;br/&gt;&lt;ol&gt;&lt;li&gt;Project just started. All teams are working with current project status.&lt;/li&gt;&lt;li&gt;Specification team has finished specification for release 1 and starts working on specification for release 2 while development and QA team are still working on release 1&lt;br/&gt;&lt;/li&gt;&lt;/ol&gt;&lt;br/&gt;&lt;img src="attachment:releasemanagement.jpg" style="height: 274px; width: 788px;"/&gt;&lt;br/&gt;&lt;br/&gt; &lt;b&gt;Typical Needs:&lt;br/&gt;&lt;br/&gt; &lt;/b&gt;2a. Development and QA team &lt;ul&gt;&lt;li&gt;should not be affected by changes in specification, which are only relevant for the next release&lt;/li&gt;&lt;li&gt;link test cases to requirements&lt;br/&gt;&lt;/li&gt;&lt;/ul&gt;2b. Specification team&lt;ul&gt;&lt;li&gt;modify specification for next release&lt;/li&gt;&lt;li&gt;do not loose links between test cases and requirements based on release 1&lt;/li&gt;&lt;li&gt;remove link between test case and requirement if requirement needs to be changed for next release&lt;/li&gt;&lt;/ul&gt;&lt;b&gt;How Polarion helps:&lt;br/&gt;&lt;br/&gt;&lt;/b&gt;&lt;ul&gt;&lt;li&gt;create branched documents frozen to specific revision or baseline to avoid unwanted changes&lt;br/&gt;&lt;/li&gt;&lt;li&gt;use overwrite, remove or add functionality to modify branched documents frozen to a specific revision or baseline&lt;/li&gt;&lt;li&gt;use spaces to group project artefacte like specifications for a specific release&lt;br/&gt;&lt;/li&gt;&lt;/ul&gt;</field>
+    <field id="priority">25.0</field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+    <field id="subtitle" type="string">How to support teams working parallel on different releases</field>
+    <field id="trainingCategory" multi="true" type="enum:trainingCategory"/>
+</work-item>

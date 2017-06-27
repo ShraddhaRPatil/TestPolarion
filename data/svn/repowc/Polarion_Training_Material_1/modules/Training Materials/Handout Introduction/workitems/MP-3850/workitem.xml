@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="author">CarolaH</field>
+    <field id="title">Manage Your Screen - Work Item Presentation</field>
+    <field id="created">2012-11-14 12:20:38.321 +0100</field>
+    <field id="priority">25.0</field>
+    <field id="description" text-type="text/html">&lt;ul&gt;&lt;li&gt;Views&lt;/li&gt;&lt;li&gt;Text Wrap&lt;/li&gt;&lt;li&gt;Tile Panes Horizontally or Vertically&lt;/li&gt;&lt;li&gt;Full Screen&lt;/li&gt;&lt;/ul&gt;&lt;img style="height: 510px; width: 788px;" src="attachment:uiwi.jpg"/&gt;&lt;br/&gt;&lt;br/&gt;  </field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+    <field id="subtitle" type="string">Different options to configure your preferred work item presentation</field>
+    <field id="trainingCategory" multi="true" type="enum:trainingCategory"/>
+</work-item>

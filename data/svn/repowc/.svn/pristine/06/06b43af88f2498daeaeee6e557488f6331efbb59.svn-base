@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<linking-settings>
+
+    <!--
+       Valid values: 'true' or 'false'      
+    --> 
+    <auto-suspect>false</auto-suspect>
+
+    <!--
+       Valid values: 'true' or 'false'      
+    --> 
+    <external-linking>true</external-linking>
+
+</linking-settings>

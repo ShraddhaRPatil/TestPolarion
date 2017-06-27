@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="linkedWorkItems">
+        <list>
+            <struct>
+                <item id="workItem">MP-484</item>
+                <item id="suspect">false</item>
+                <item id="role">seeAlso</item>
+            </struct>
+            <struct>
+                <item id="revision">40801</item>
+                <item id="workItem">MP-493</item>
+                <item id="suspect">false</item>
+                <item id="role">branched_from</item>
+            </struct>
+        </list>
+    </field>
+    <field id="type">slide</field>
+    <field id="hyperlinks">
+        <list>
+            <struct>
+                <item id="role">renderSlide</item>
+                <item id="uri">/polarion/wiki/bin/view/project/MyPolarion/page/macros/RenderSlides?item=MP-493</item>
+            </struct>
+        </list>
+    </field>
+    <field id="author">stroebelet</field>
+    <field id="title">Changing Requirements</field>
+    <field id="created">2012-05-30 17:06:16.642 +0200</field>
+    <field id="priority">25.0</field>
+    <field id="description" text-type="text/html">We can differentiate between two types of changes to requirements:&lt;br/&gt;&lt;br/&gt;&lt;img src="attachment:change1.jpg"/&gt;&lt;br/&gt;&lt;br/&gt;&lt;ul&gt;&lt;li&gt;Changes are directly propagated into development&lt;br/&gt;&lt;/li&gt;&lt;li&gt;"Suspect" links are used to keep information consistent&lt;/li&gt;&lt;li&gt;Less formal, early stage of requirements specification&lt;br/&gt;&lt;/li&gt;&lt;/ul&gt;&lt;img src="attachment:change2.jpg"/&gt;&lt;br/&gt;&lt;br/&gt;&lt;ul&gt;&lt;li&gt;Changes are tracked as Work Items&lt;/li&gt;&lt;li&gt;Impact analysis is done prior to actual change&lt;/li&gt;&lt;li&gt;Change and all needed sub-changes are tracked and planned as separate Work Items&lt;/li&gt;&lt;li&gt;Suspects are used during implementation of change, not during analysis&lt;br/&gt;&lt;/li&gt;&lt;/ul&gt;</field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">accepted</field>
+    <field id="subtitle" type="string"> </field>
+    <field id="trainingCategory" multi="true" type="enum:trainingCategory"/>
+</work-item>

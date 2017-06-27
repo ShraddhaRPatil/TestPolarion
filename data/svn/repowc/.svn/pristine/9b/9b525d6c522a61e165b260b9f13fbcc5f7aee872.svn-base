@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">daniel.morris</field>
+    <field id="created">2015-12-29 06:41:39.042 -0500</field>
+    <field id="description" text-type="text/html"><![CDATA[Some organizations have a formal review and sign-off process for specifications and other documents. Such a process can be supported in Polarion using electronic signatures, including secure signatures compliant with common regulatory standards. This is accomplished in the Document Workflow configuration. You can set the Requires Signature option on any configured Document workflow action - an action such as &quot;Mark Approved&quot;, for example. Some additional parameters can be set specifying a signature policy. It is also possible to configure a default set of invited reviewers/signers via a workflow function with appropriate parameters.<br/>
+ 
+<ul>
+  <li>Open <span style="font-style: italic;">document properties </span><span style="font-style: normal;">in document sidebar</span></li>
+  <li>Send document in Review via changing document status</li>
+  <ul>
+    <li>Polarion will ask you to fill Version. So add <span style="font-style: italic;">1.0</span> to Version field</li>
+  </ul>
+  <li>Due to your workflow change all content of your LiveDoc should be in read-only mode. Verify all content is read only. Try to change</li>
+  <ul>
+    <li>a Work Item</li>
+    <li>Plain text of your LiveDoc</li>
+  </ul>
+  <li>Try to change LiveDoc to next workflow state. Due to a signature police this shouldn´t be possible.</li>
+  <li>A report about current signature status can be added as wiki content. <br/>
+    Add wiki content to your live doc and paste following code:<br/>
+    <span style="font-style: italic;">#documentPanel(true &quot;approved&quot;)<br/>
+      <img src="attachment:119-screenshot-20151229-085308.png" style="width: 338px;height: 200px;"/></span></li>
+</ul>
+ 
+<table id="polarion_wiki macro name=table" class="polarion-Document-table" style="width: 80%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;">
+  <tbody>
+    <tr>
+      <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Hints:<br/>
+        
+        <ul>
+          <li>If you´re logged in with global admin you might be able to change plain text of your document</li>
+          <li>Signature policies are configurable. You ca also define policies so that e.g. all people must sign, 1 person must sign, or also define your own rules via advance workflow rule</li>
+          <li>Document signers can be invited manually but also automatically via advanced workflow rule. A rule is by default defined which invites people who have the role project_approver if you send your document to approval</li>
+          <li>Due to the change of your document workflow all requirements also changed their workflow state. This is also configurable. In this case the document workflow should be the leading workflow for all it´s content. It is also possible to define conditions so a document workflow change is only allowed if the condition is fullfilled e.g. all Work Items inside the document have reached a specific status.</li>
+        </ul>
+        </th>
+    </tr>
+  </tbody>
+</table>
+ <br/>]]></field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Changing LiveDoc workflow</field>
+    <field id="type">exercise</field>
+</work-item>

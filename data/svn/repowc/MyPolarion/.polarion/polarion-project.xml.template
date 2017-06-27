@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <field id="name">%project-id%</field>
+    <field id="trackerPrefix">MP</field>
+    <field id="active">true</field>
+</project>

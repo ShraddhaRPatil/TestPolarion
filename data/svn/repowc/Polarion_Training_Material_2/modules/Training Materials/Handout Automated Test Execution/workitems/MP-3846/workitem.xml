@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="linkedWorkItems">
+        <list>
+            <struct>
+                <item id="workItem">MP-3034</item>
+                <item id="role">parent</item>
+                <item id="suspect">false</item>
+            </struct>
+            <struct>
+                <item id="revision">4322</item>
+                <item id="workItem">MP-3032</item>
+                <item id="role">branched_from</item>
+                <item id="suspect">false</item>
+            </struct>
+        </list>
+    </field>
+    <field id="type">slide</field>
+    <field id="author">daniel.morris</field>
+    <field id="title">Generated Test Run</field>
+    <field id="created">2012-11-08 13:52:47.684 +0100</field>
+    <field id="priority">25.0</field>
+    <field id="description" text-type="text/html">&lt;img src="attachment:autoTestRun.jpg"/&gt;</field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+    <field id="trainingCategory" multi="true" type="enum:trainingCategory"/>
+</work-item>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<specificationConfiguration>
+    <forImport>false</forImport>
+    <forRIF>false</forRIF>
+    <mappingConfiguration>
+        <mappingGroups direction="EXPORT" polarionType="heading" reqIfType="a14f20f0-fa87-48bc-b514-1eed5881ff7c">
+            <fieldMappings reqIfAttribute="relations"/>
+            <fieldMappings polarionField="title" reqIfAttribute="polarion_prostep_ReqIF.ChapterName"/>
+            <fieldMappings polarionField="author" reqIfAttribute="polarion_prostep_ReqIF.ForeignCreatedBy"/>
+            <fieldMappings polarionField="created" reqIfAttribute="polarion_prostep_ReqIF.ForeignCreatedOn"/>
+            <fieldMappings polarionField="id" reqIfAttribute="polarion_prostep_ReqIF.ForeignID"/>
+            <fieldMappings polarionField="description" reqIfAttribute="polarion_prostep_ReqIF.Text"/>
+        </mappingGroups>
+        <mappingGroups direction="EXPORT" polarionType="service" reqIfType="6faddf42-cf3a-4a44-8e66-b04a4ca915b5">
+            <fieldMappings reqIfAttribute="relations"/>
+            <fieldMappings polarionField="title" reqIfAttribute="polarion_prostep_ReqIF.ChapterName"/>
+            <fieldMappings polarionField="author" reqIfAttribute="polarion_prostep_ReqIF.ForeignCreatedBy"/>
+            <fieldMappings polarionField="created" reqIfAttribute="polarion_prostep_ReqIF.ForeignCreatedOn"/>
+            <fieldMappings polarionField="id" reqIfAttribute="polarion_prostep_ReqIF.ForeignID"/>
+            <fieldMappings polarionField="description" reqIfAttribute="polarion_prostep_ReqIF.Text"/>
+        </mappingGroups>
+        <mappingGroups direction="EXPORT" polarionType="task" reqIfType="01e26608-0f1d-4608-b8d8-3dfbd2f06469">
+            <fieldMappings reqIfAttribute="relations"/>
+            <fieldMappings polarionField="title" reqIfAttribute="polarion_prostep_ReqIF.ChapterName"/>
+            <fieldMappings polarionField="author" reqIfAttribute="polarion_prostep_ReqIF.ForeignCreatedBy"/>
+            <fieldMappings polarionField="created" reqIfAttribute="polarion_prostep_ReqIF.ForeignCreatedOn"/>
+            <fieldMappings polarionField="id" reqIfAttribute="polarion_prostep_ReqIF.ForeignID"/>
+            <fieldMappings polarionField="description" reqIfAttribute="polarion_prostep_ReqIF.Text"/>
+        </mappingGroups>
+        <mappingGroups direction="EXPORT" polarionType="text" reqIfType="f45c50fa-c288-43a9-8915-ea3d0fdeacce">
+            <fieldMappings reqIfAttribute="relations"/>
+            <fieldMappings polarionField="title" reqIfAttribute="polarion_prostep_ReqIF.ChapterName"/>
+            <fieldMappings polarionField="author" reqIfAttribute="polarion_prostep_ReqIF.ForeignCreatedBy"/>
+            <fieldMappings polarionField="created" reqIfAttribute="polarion_prostep_ReqIF.ForeignCreatedOn"/>
+            <fieldMappings polarionField="id" reqIfAttribute="polarion_prostep_ReqIF.ForeignID"/>
+            <fieldMappings polarionField="description" reqIfAttribute="polarion_prostep_ReqIF.Text"/>
+        </mappingGroups>
+    </mappingConfiguration>
+    <exportNew>true</exportNew>
+    <polarionConfiguration document="WBT Modules" space="Not In Build" useCurrentUser="true" useTitleAsRoot="true">
+        <ignoreStructureLinks>true</ignoreStructureLinks>
+    </polarionConfiguration>
+    <reqIfConfiguration documentName="wbt session.reqif" doorsCompatibilityMode="false" fileName="wbt session.reqifz" rif="false"/>
+    <updateMetadata>true</updateMetadata>
+</specificationConfiguration>

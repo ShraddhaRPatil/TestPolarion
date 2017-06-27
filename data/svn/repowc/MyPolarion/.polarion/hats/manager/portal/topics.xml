@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+The "My Hat" feature enables end users to work either with all available topics,
+Work Item fields, and other information, or with a subset relevant to their
+current work context.  When a user "puts on" a "Hat", s/he works only with the
+most needed information, and the rest is out of the way but easily accessible by
+switching Hats.
+
+This is the configuration file for the '-Default-' Hat that defines which
+topics are visible in the Topics portlet when the user "puts on" the this Hat.
+Each <topic> element represents a topic visible in the Topics portlet when the
+'-Default-' "Hat" is invoked by selecting it in the My Hats combo which
+appears to the right of the user's name in the Portal header.
+
+Topics will appear in the same order as they appear here. Possible topics are:
+
+    <topic id="home"/>
+    <topic id="dashboard"/>
+    <topic id="workitems"/>
+    <topic id="modules"/>
+    <topic id="documents"/>
+    <topic id="baselines"/>
+    <topic id="wiki"/>
+    <topic id="builds"/>
+    <topic id="quality"/>
+    <topic id="reports"/>
+    <topic id="monitor"/>
+    <topic id="repository_browser"/>
+    <topic id="global_shortcuts"/>
+    <topic id="project_shortcuts"/>
+    <topic id="user_shortcuts"/>
+
+To hide a topic when a user "puts on" this "Hat", either comment out, or remove the
+respective <topic> element in the <topics> structure below.
+-->
+<topics xmlns="http://polarion.com/schema/Portal/Topics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://polarion.com/schema/Portal/Topics">
+
+    <topic id="home"/>
+    <topic id="dashboard"/>
+    <topic id="workitems"/>
+    <topic id="modules"/>
+    <topic id="documents"/>
+    <topic id="baselines"/>
+    <topic id="wiki"/>
+    <topic id="builds"/>
+    <topic id="quality"/>
+    <topic id="reports"/>
+    <topic id="monitor"/>
+    <topic id="repository_browser"/>
+    <topic id="global_shortcuts"/>
+    <topic id="project_shortcuts"/>
+    <topic id="user_shortcuts"/>
+
+</topics>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">schucks</field>
+    <field id="created">2013-07-31 09:16:04.063 -0400</field>
+    <field id="description" text-type="text/html"><![CDATA[By default our project_user has more or less read only rights. We want to allow him to create and modify work items and also documents.<br/>
+ 
+<ul>
+  <li>Go to User Management &gt; Permissions Management</li>
+  <li>Select tab &quot;By Role&quot;</li>
+  <li>Enable Permissions</li>
+  <ul>
+    <li>Work Items:</li>
+    <ul>
+      <li>Read, Create New, Modify, Comment, Vote, Watch</li>
+    </ul>
+    <li>Documents:</li>
+    <ul>
+      <li>Read, Create New, Modify fields, Modify Content, Manage</li>
+    </ul>
+  </ul>
+</ul>
+ <img src="attachment:72-screenshot-20141030-080043.png" style="width: 379px;height: 600px;"/><br/>
+ 
+<ul>
+  <li>Verify that your newly created user can create and modify work items/documents, but can&#39;t delete these or create wiki pages.<br/>
+    <table id="polarion_wiki macro name=table" class="polarion-Document-table" style="width: 80%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;">
+      <tbody>
+        <tr>
+          <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Hint: Dynamic Roles and Permissions<br/>
+            <br/>
+            Dynamic roles are built into Polarion for the purpose of controlling permissions for various operations on Work Items and Documents. For example, there is a dynamic role author for both of these artifact types. It has a default set of permissions, and an administrator can grant or revoke various permissions to/from the role if the defaults are not what is needed. The Document or Work Item&#39;s author will generally have broader permissions, DELETE permission for example, than users who have other roles.<br/>
+            <br/>
+            Dynamic roles are &quot;dynamic&quot; in the sense that they are dynamically assigned to users by Polarion. For example, the creator of a Document is automatically assigned the document_author role, and the author of a comment automatically gets the comment_author role.</th>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+</ul>]]></field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Change Permissions  in your Project</field>
+    <field id="type">exercise</field>
+</work-item>

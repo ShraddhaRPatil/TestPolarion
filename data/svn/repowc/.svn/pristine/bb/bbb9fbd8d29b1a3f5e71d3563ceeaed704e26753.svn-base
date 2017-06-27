@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project>
+    <field id="start">2013-02-28</field>
+    <field id="description" text-type="text/plain">This model project demonstrates how an actual system engineering project might be set up using the 'System Engineering Template'.</field>
+    <field id="name">Drive Pilot</field>
+    <field id="trackerPrefix">DP</field>
+    <field id="active">true</field>
+    <field id="lead">rProject</field>
+</project>

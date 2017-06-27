@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">daniel.morris</field>
+    <field id="created">2014-08-07 07:37:25.552 -0400</field>
+    <field id="description" text-type="text/html"><![CDATA[Imagine you have already specified, reviewed and approved a requirements specification. Your next step would be to test these requirements but also to implement specified requirements. Most of the time the software you develop will not been implemented within 1 release or iteration. For this purpose we want to plan requirements to different releases and within a release have more specific iterations.<br/>
+Before we start to plan items we first need to create some example requirements.<br/>
+ 
+<ul>
+  <li>Create 2 example requirements</li>
+  <ul>
+    <li>Add initial estimate of 4 days</li>
+    <li>Add yourself as assignee</li>
+  </ul>
+  <li>Create a defect and an implementation task for both requirements<br/>
+    <img src="workitemimg:1-screenshot-20140730-115854.png" style="width: 238px;height: 230px;"/></li>
+  <li>Goto Plans and select release &quot;Version 1.0&quot;</li>
+  <li>Create 2 new iterations &quot;Iteration 2&quot; and &quot;Iteration 3&quot; as sub plans for release &quot;Version 1.0&quot;<br/>
+    <img src="attachment:1-screenshot-20141031-095904.png"/><br/>
+  </li>
+</ul>
+ 
+<table id="polarion_wiki macro name=table" class="polarion-Document-table" style="width: 80%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;">
+  <tbody>
+    <tr>
+      <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Hint: In this template we plan qequirements. Other templates plan work packages or user stories instead. In general you can plan work items so it is up to your company environment what you are going to plan. </th>
+    </tr>
+  </tbody>
+</table>
+ <br/>]]></field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Create Items for planning</field>
+    <field id="type">exercise</field>
+</work-item>

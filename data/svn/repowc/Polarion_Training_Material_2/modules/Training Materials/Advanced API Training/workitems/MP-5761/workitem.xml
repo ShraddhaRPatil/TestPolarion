@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">daniel.morris</field>
+    <field id="created">2016-06-07 12:08:01.872 -0400</field>
+    <field id="description" text-type="text/html">&lt;span style="font-weight: normal;"&gt;Have a look at &lt;a href="http://almdemo.polarion.com/polarion/sdk//doc/javadoc-rendering/com/polarion/alm/shared/api/transaction/ReadOnlyTransaction.html" target="_top" class="descriptionLink"&gt;ReadOnlyTransaction&lt;/a&gt;&lt;span style="font-size: 10pt;line-height: 1.5;"&gt; to understand what kind of data can be accessed using the variable $transaction&lt;/span&gt;&lt;/span&gt;</field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="type">exercise</field>
+</work-item>

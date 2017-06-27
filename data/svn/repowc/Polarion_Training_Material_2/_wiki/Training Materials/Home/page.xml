@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><wiki-page>
+<author>stroebelet</author>
+<created>20070820235100</created>
+<type>active</type>
+<content><![CDATA[{section:width=100%}
+{column:width=65%}
+1.1 Training Guides
+* {document:Polarion Fundamentals}
+* {document:Requirements User Training}
+* {document:QA User Training}
+* {document:Power User Training}
+1.1 Handouts / Slides
+Documents containing the different slides used during training + (todo) additional information which is used in printout 
+{pages: query=*:* AND page:Handout*|sortby=name}
+{column}
+
+
+{column:width=32%}
+{activity-stream}
+
+
+ {column}
+{section}]]></content>
+</wiki-page>

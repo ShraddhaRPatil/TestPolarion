@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="linkedWorkItems">
+        <list>
+            <struct>
+                <item id="workItem">MP-483</item>
+                <item id="role">seeAlso</item>
+                <item id="suspect">false</item>
+            </struct>
+        </list>
+    </field>
+    <field id="type">slide</field>
+    <field id="hyperlinks">
+        <list>
+            <struct>
+                <item id="role">renderSlide</item>
+                <item id="uri">/polarion/wiki/bin/view/project/MyPolarion/page/macros/RenderSlides?item=MP-495</item>
+            </struct>
+        </list>
+    </field>
+    <field id="author">stroebelet</field>
+    <field id="title">Planning Requirements</field>
+    <field id="created">2011-04-12 16:07:52.479 +0200</field>
+    <field id="description" text-type="text/html">Planning of requirements is initiated via acceptance of a requirement.&lt;br/&gt;&lt;br/&gt;&lt;img src="workitemimg:1-screenshot.jpg"/&gt;</field>
+    <field id="priority">25.0</field>
+    <field id="status">accepted</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+    <field id="subtitle" type="string"> </field>
+</work-item>

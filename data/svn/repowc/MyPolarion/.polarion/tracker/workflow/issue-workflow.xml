@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<workflow initial-action="init" initial-status="new" prototype="WorkItem">
+    <transitions>
+        <transition action="waitingForResponse" from="new" to="waitingForResponse"/>
+        <transition action="resolve_and_close" from="new" to="closed"/>
+        <transition action="resolve_and_close" from="waitingForResponse" to="closed"/>
+        <transition action="reopen" from="closed" to="new"/>
+        <transition action="waitingForResponse" from="closed" to="waitingForResponse"/>
+    </transitions>
+    <actions>
+        <action id="init" name="Initialization">
+            <required>
+                <field name="plannedIn"/>
+            </required>
+            <cleared>
+                <field name="resolution"/>
+                <field name="resolvedOn"/>
+            </cleared>
+            <functions>
+                <function name="LinkedWorkItemsStatusChange">
+                    <param name="back.link.roles" value="depends_on"/>
+                    <param name="link.roles" value="parent"/>
+                    <param name="valid.states" value="open,inprogress,reopened"/>
+                    <param name="target.state" value="reopened"/>
+                    <param name="clear.attribs" value="resolution,resolvedOn"/>
+                </function>
+            </functions>
+        </action>
+        <action id="resolve_and_close" name="Resolve and Close">
+            <required>
+                <field name="resolution"/>
+            </required>
+            <conditions>
+                <condition name="LinkedWorkItemsStatus">
+                    <param name="back.link.roles" value="parent"/>
+                    <param name="link.roles" value="depends_on"/>
+                    <param name="valid.states" value="closed"/>
+                </condition>
+            </conditions>
+            <functions>
+                <function name="ChangeField">
+                    <param name="field.name" value="resolvedOn"/>
+                    <param name="field.value.type" value="current.date"/>
+                </function>
+            </functions>
+        </action>
+        <action id="reopen" name="Reopen">
+            <cleared>
+                <field name="resolution"/>
+                <field name="resolvedOn"/>
+            </cleared>
+            <functions>
+                <function name="LinkedWorkItemsStatusChange">
+                    <param name="back.link.roles" value="depends_on"/>
+                    <param name="link.roles" value="parent"/>
+                    <param name="valid.states" value="open,inprogress,reopened"/>
+                    <param name="target.state" value="reopened"/>
+                    <param name="clear.attribs" value="resolution,resolvedOn"/>
+                </function>
+            </functions>
+        </action>
+        <action id="waitingForResponse" name="Waiting for Response"/>
+    </actions>
+</workflow>

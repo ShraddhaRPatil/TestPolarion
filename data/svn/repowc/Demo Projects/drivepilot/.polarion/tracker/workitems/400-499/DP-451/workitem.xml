@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="initialEstimate">1d</field>
+    <field id="linkedWorkItems">
+        <list>
+            <struct>
+                <item id="workItem">DP-450</item>
+                <item id="suspect">false</item>
+                <item id="role">implements</item>
+            </struct>
+        </list>
+    </field>
+    <field id="resolution">done</field>
+    <field id="type">task</field>
+    <field id="timeSpent">9h</field>
+    <field id="resolvedOn">2013-02-04 18:06:58.731 +0100</field>
+    <field id="author">admin</field>
+    <field id="title">Implement: Require Tutorial before first run</field>
+    <field id="created">2013-01-29 15:31:05.851 +0100</field>
+    <field id="priority">50.0</field>
+    <field id="status">verified-done</field>
+    <field id="assignee">sDeveloper</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+</work-item>

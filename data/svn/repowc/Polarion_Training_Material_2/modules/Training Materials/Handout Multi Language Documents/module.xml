@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<module>
+    <field id="usesOutlineNumbering">true</field>
+    <field id="homePageContent" text-type="text/html">&lt;h1 id="polarion_wiki macro name=module-workitem;params=id=MP-4940"&gt;&lt;/h1&gt;&lt;p id="polarion_template_0"&gt;&lt;/p&gt;&lt;p id="polarion_1"&gt;&lt;/p&gt;&lt;h2 id="polarion_wiki macro name=module-workitem;params=id=MP-4937"&gt;&lt;/h2&gt;&lt;div id="polarion_wiki macro name=toc"&gt;&lt;/div&gt;&lt;p id="polarion_2"&gt;&lt;/p&gt;&lt;h2 id="polarion_wiki macro name=module-workitem;params=id=MP-4938"&gt;&lt;/h2&gt;&lt;div id="polarion_wiki macro name=module-workitem;params=id=MP-4939"&gt;&lt;/div&gt;&lt;h2 id="polarion_wiki macro name=module-workitem;params=id=MP-4941"&gt;&lt;/h2&gt;&lt;div id="polarion_wiki macro name=module-workitem;params=id=MP-4942"&gt;&lt;/div&gt;&lt;h2 id="polarion_wiki macro name=module-workitem;params=id=MP-4948"&gt;&lt;/h2&gt;&lt;div id="polarion_wiki macro name=module-workitem;params=id=MP-4943"&gt;&lt;/div&gt;&lt;h2 id="polarion_wiki macro name=module-workitem;params=id=MP-4945"&gt;&lt;/h2&gt;&lt;div id="polarion_wiki macro name=module-workitem;params=id=MP-4946"&gt;&lt;/div&gt;&lt;p id="polarion_4"&gt;&lt;/p&gt;</field>
+    <field id="structureLinkRole">parent</field>
+    <field id="outlineNumbering">
+        <struct>
+            <item id="prefix"/>
+        </struct>
+    </field>
+    <field id="author">schucks</field>
+    <field id="created">2013-07-31 11:39:53.248 +0200</field>
+    <field id="renderingLayouts">
+        <list>
+            <struct>
+                <item id="layouter">section</item>
+                <item id="label">Slide</item>
+                <item id="properties">
+                    <list>
+                        <struct>
+                            <item id="value">id</item>
+                            <item id="key">fieldsAtStart</item>
+                        </struct>
+                        <struct>
+                            <item id="value">severity</item>
+                            <item id="key">fieldsAtEnd</item>
+                        </struct>
+                        <struct>
+                            <item id="key">fieldsAtEndAsTable</item>
+                        </struct>
+                        <struct>
+                            <item id="key">hidden</item>
+                        </struct>
+                    </list>
+                </item>
+                <item id="type">slide</item>
+            </struct>
+        </list>
+    </field>
+</module>

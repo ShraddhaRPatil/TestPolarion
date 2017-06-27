@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="author">stroebelet</field>
+    <field id="title">Document Reuse - Derived Copy</field>
+    <field id="created">2011-09-13 22:34:45.134 +0200</field>
+    <field id="description" text-type="text/html">&lt;img src="workitemimg:1-screenshot.jpg"/&gt;</field>
+    <field id="priority">25.0</field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="subtitle" type="string">Derived documents can be updated</field>
+    <field id="trainingCategory" multi="true" type="enum:trainingCategory"/>
+    <field id="printNotes" text-type="text/html" type="text/html">&lt;div&gt;&lt;ul&gt;&lt;li&gt;All read-only fields of derived document can be automatically updated&lt;/li&gt;&lt;li&gt;Suspects are propagated automatically&lt;/li&gt;&lt;li&gt;Helpful when you need to reuse a specific standard&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</field>
+    <field id="speakersNotes" text-type="text/plain" type="text/html"/>
+</work-item>

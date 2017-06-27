@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<workflow initial-action="open" initial-status="open" prototype="WorkItem">
+    <transitions>
+        <transition action="reopen" from="rejected" to="reopened"/>
+        <transition action="markAccepted" from="open" to="inEvaluation"/>
+        <transition action="markEvaluated" from="inEvaluation" to="inprogress"/>
+        <transition action="markResolved" from="inprogress" to="resolved"/>
+        <transition action="reopen" from="resolved" to="reopened"/>
+        <transition action="markClosed" from="resolved" to="closed"/>
+        <transition action="markAccepted" from="reopened" to="inprogress"/>
+        <transition action="reject" from="inEvaluation" to="rejected"/>
+    </transitions>
+    <actions>
+        <action id="open" name="Open">
+            <functions>
+                <function name="LinkedWorkItemsStatusChange">
+                    <param name="back.link.roles" value="depends_on"/>
+                    <param name="link.roles" value="parent"/>
+                    <param name="valid.states" value="open,inprogress,reopened"/>
+                    <param name="target.state" value="reopened"/>
+                    <param name="clear.attribs" value="resolution"/>
+                </function>
+            </functions>
+        </action>
+        <action id="reopen" name="Reopen">
+            <cleared>
+                <field name="resolution"/>
+            </cleared>
+            <functions>
+                <function name="LinkedWorkItemsStatusChange">
+                    <param name="back.link.roles" value="depends_on"/>
+                    <param name="link.roles" value="parent"/>
+                    <param name="valid.states" value="open,inprogress,reopened"/>
+                    <param name="target.state" value="reopened"/>
+                    <param name="clear.attribs" value="resolution"/>
+                </function>
+            </functions>
+        </action>
+        <action id="reject" name="Reject">
+            <required>
+                <field name="resolution"/>
+            </required>
+        </action>
+        <action id="markAccepted" name="Mark Accepted"/>
+        <action id="markEvaluated" name="Mark Evaluated"/>
+        <action id="markResolved" name="Mark Resolved">
+            <required>
+                <field name="resolution"/>
+            </required>
+        </action>
+        <action id="markClosed" name="Mark Closed"/>
+    </actions>
+</workflow>

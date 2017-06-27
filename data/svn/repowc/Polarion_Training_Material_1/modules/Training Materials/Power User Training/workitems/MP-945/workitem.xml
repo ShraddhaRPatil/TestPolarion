@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">stroebelet</field>
+    <field id="created">2011-07-30 09:20:00.979 -0400</field>
+    <field id="description" text-type="text/html"><![CDATA[Another way to export document and wiki pages is the PDF exporter. This export should also be adjusted to have your own data and style in these exports.<br/>
+ 
+<ul>
+  <li>Open A<span style="font-style: italic;">dministration&gt;wiki&gt;export</span> and create a project configuration by pasting the global configuration</li>
+  <li>Change <span style="font-style: italic;">Polarion Software</span> and URL to <span style="font-style: italic;">MyCompany</span> in Header</li>
+  <li>Remove <span style="font-style: italic;">$[productName] $[productVersion]</span> in Footer<span style="font-style: italic;"> </span></li>
+  <li><span style="font-style: italic;">Verify in frontend changes are working by exporting a document or wiki page</span></li>
+</ul>
+ Additional Information about the used pdf engine can be found her: <a href="http://pd4ml.com/">http://pd4ml.com/</a>]]></field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Add a Custom Header and Footer to the PDF Template</field>
+    <field id="type">exercise</field>
+</work-item>

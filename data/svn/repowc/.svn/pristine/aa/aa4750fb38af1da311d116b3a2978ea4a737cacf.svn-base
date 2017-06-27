@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="author">stroebelet</field>
+    <field id="title">Advanced Workflow Rules</field>
+    <field id="created">2011-04-27 17:23:08.532 +0200</field>
+    <field id="priority">25.0</field>
+    <field id="description" text-type="text/html">&lt;img src="workitemimg:2-screenshot-2.jpg" style="height: 450px; width: 572px;"/&gt;&lt;br/&gt;</field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="subtitle" type="string">Functions and conditions</field>
+</work-item>

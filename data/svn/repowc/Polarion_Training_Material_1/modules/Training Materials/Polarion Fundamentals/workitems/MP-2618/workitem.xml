@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">stroebelet</field>
+    <field id="created">2012-04-24 05:07:30.258 -0400</field>
+    <field id="description" text-type="text/html">Templates will increase reuse and quality within your projects. Build templates for checklists and guidelines to ensure that project relevant data is tracked. &lt;ul&gt;&lt;li&gt;Open the document library project and browse through the available templates&lt;br/&gt; &lt;img src="attachment:openDocLibrary.jpg"/&gt;&lt;br/&gt;&lt;/li&gt;&lt;li&gt;Open one of the templates e.g. &lt;span style="font-style: italic;"&gt;Software Test Plan&lt;/span&gt; and &lt;span style="font-style: italic;"&gt;Reuse Document&lt;br/&gt; &lt;img src="workitemimg:1-screenshot-20141017-082745.png"/&gt;&lt;br/&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;Enter necessary data in the reuse document dialog window&lt;/li&gt;&lt;li style="list-style: none"&gt;&lt;ul&gt;&lt;li&gt;Provide a new name for the document "&lt;span style="font-style: italic;"&gt;Software Testplan ELibrary Release 1&lt;/span&gt;"&lt;/li&gt;&lt;li&gt;Select your project and select "&lt;span style="font-style: italic;"&gt;Testing&lt;/span&gt;" space.&lt;/li&gt;&lt;li&gt;Uncheck "&lt;span style="font-style: italic;"&gt;link duplicate to original"&lt;br/&gt;&lt;/span&gt; &lt;span style="font-weight: bold;"&gt;Attention:&lt;/span&gt; If you create documents based on existing templates traceability is usually not necessary&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;Verify that your project now contains the document "&lt;span style="font-style: italic;"&gt;Software Testplan ELibrary Release 1&lt;/span&gt;"&lt;br/&gt;&lt;/li&gt;&lt;/ul&gt;</field>
+    <field id="linkedWorkItems">
+        <list>
+            <struct>
+                <item id="revision">41894</item>
+                <item id="role">branched_from</item>
+                <item id="workItem">MP-784</item>
+            </struct>
+        </list>
+    </field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Using document templates</field>
+    <field id="type">exercise</field>
+</work-item>

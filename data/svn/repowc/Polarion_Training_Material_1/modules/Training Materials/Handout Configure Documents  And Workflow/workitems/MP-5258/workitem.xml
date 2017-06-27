@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">sergeD</field>
+    <field id="created">2014-08-29 09:49:52.678 -0400</field>
+    <field id="description" text-type="text/html"><![CDATA[<br/>
+<span style="font-family: Verdana, Geneva, sans-serif;">Actions may be configured to trigger some system function, like manage approvals at  Work Items AND<br/>
+  document level.</span><br/>
+A link can then be done between Documents and Work Items Workflow <br/>
+<img src="attachment:screenshot-20140829-172131.png"/><br/>
+With <span style="font-weight: bold;">InvokeAction</span>, <span style="font-family: Verdana, Geneva, sans-serif;">Workflow transition is executed on all Work Items contained in the (filtered) Document.<br/>
+  <br/>
+</span> 
+<ul>
+  <li><span style="font-family: Verdana, Geneva, sans-serif;">On <span style="font-weight: bold;">SendToReview</span> document Workflow action, the contained Work Items ( <span style="font-weight: bold;">type:requirement</span>) with status <span style="font-weight: bold;">Draft </span>are transitioned through Work Item <span style="font-weight: bold;">Review </span><span style="font-weight: normal;">action to <span style="font-weight: bold;">InReview</span> status</span></span></li>
+</ul>]]></field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="subtitle" type="string">Functions and conditions</field>
+    <field id="title">Advanced  Document Workflow Rules</field>
+    <field id="type">slide</field>
+</work-item>

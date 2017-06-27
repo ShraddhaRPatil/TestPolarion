@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">text</field>
+    <field id="author">tstrobele</field>
+    <field id="created">2012-08-15 13:50:59.520 +0200</field>
+    <field id="priority">25.0</field>
+    <field id="description" text-type="text/html">Wiki pages are very helpful for creating reports or when you need to guide the end user through a defined process.</field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+</work-item>

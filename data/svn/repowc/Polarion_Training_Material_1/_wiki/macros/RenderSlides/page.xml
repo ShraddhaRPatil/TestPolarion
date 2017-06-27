@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><wiki-page>
+<author>admin</author>
+<created>20110324150949</created>
+<type>portal</type>
+<content><![CDATA[<style type="text/css">
+.beitrag { border:1px outset gray; margin:.5em; padding:.5em; background-color:#efd;}
+table.main {
+	border-width: 1px;
+	border-spacing: 10px;
+	border-style: none;
+	border-color: white;
+	background-color: white;
+}
+table.main td {
+	border-width: 0px;
+	padding: 5px;
+	border-style: none;
+	border-color: white;
+	background-color: white;
+}
+
+table.hint{
+	border-width: 1px;
+	border-spacing: 0px;
+	border-style: dashed;
+	border-color: grey;
+	border-collapse: separate;
+	background-color: white;
+}
+table.hint th {
+	border-width: 1px;
+	padding: 5px;
+	border-style: none;
+	border-color: grey;
+	background-color: white;
+}
+table.hint td {
+	border-width: 1px;
+	padding: 5px;
+	border-style: none;
+	border-color: grey;
+	background-color: white;
+}
+
+table.subtitle{
+	border-width: 2px;
+	border-spacing: 0px;
+	border-style: dashed;
+	border-color: red;
+	border-collapse: separate;
+	background-color: white;
+}
+table.subtitle th {
+	border-width: 1px;
+	padding: 5px;
+	border-style: none;
+	border-color: red;
+	background-color: white;
+}
+table.subtitle td {
+	border-width: 1px;
+	padding: 5px;
+	border-style: none;
+	border-color: red;
+	background-color: white;
+}
+
+.content {
+font-size=30;
+}
+
+table.video{
+	border-width: 1px;
+	border-spacing: 0px;
+	border-style: dashed;
+	border-color: blue;
+	border-collapse: separate;
+	background-color: white;
+}
+table.video th {
+	border-width: 0px;
+	padding: 5px;
+	border-style: none;
+	border-color: blue;
+	background-color: blue;
+}
+table.video td {
+	border-width: 0px;
+	padding: 5px;
+	border-style: none;
+	border-color: blue;
+	background-color: white;
+}
+table.seeAlso{
+	border-width: 1px;
+	border-spacing: 0px;
+	border-style: dashed;
+	border-color: blue;
+	border-collapse: separate;
+	background-color: white;
+}
+table.seeAlso th {
+	border-width: 0px;
+	padding: 5px;
+	border-style: none;
+	border-color: blue;
+	background-color: blue;
+}
+table.seeAlso td {
+	border-width: 0px;
+	padding: 5px;
+	border-style: none;
+	border-color: blue;
+	background-color: white;
+}
+
+</style>
+
+############################# Render Slides ###########################
+
+#set ($projectId = $doc.getProject($doc.space))
+#set ($slideItem = $request.getParameter("item") )
+#if (!$slideItem) #set ($slideItem = "MP-449") #end
+#set ($bgImage = $request.getParameter("bgImage") )
+#if (!$bgImage) #set ($bgImage = "bgTitle.jpg") #end
+
+#set ($selected = $trackerService.getWorkItem($projectId, $slideItem) )
+#set ($containingDoc = $selected.getModule().getModuleNameWithSpace() ) 
+## dirty way to get title WI
+#set ($childs = $selected.getModule().getRootNode().getChildren() )
+#foreach ($child in $childs)
+  #set ($rootItem = $child)
+#end
+#set ( $titleItem = $rootItem.getWorkItem() )
+#set ( $items = [] )
+#set ( $toc = "")
+#set ( $moduleItems = $selected.getModule().getContainedWorkItems() )
+#foreach ($wi in $moduleItems)
+  #if ( $wi.type.id == "slide")
+    #set ($void = $items.add("$wi.id") )
+    #set ( $toc = "$toc<br><a style='font-size:16' href='/polarion/wiki/bin/view/project/$page.Project/page/$page.Space.Name/$page.Name?item=$wi.id'>$wi.title</a>" )
+  #end
+#end
+##
+##
+## link to next slide
+##
+##
+#macro(next $wi)
+  #set ($found = false)
+  #set ($index = 0)
+  #set ($next = "")
+  #foreach ($item in $items)
+    #if($found == true)
+      #set($next = $item)
+      <a href="/polarion/wiki/bin/view/project/$page.Project/page/$page.Space.Name/$page.Name?item=$next">{image:next.png}</a>
+      #set($found = false)
+    #end
+    #if ($item.equals($wi.id) )
+      #set ($found = true)
+    #end
+    #set ($index = $index +1 )
+  #end
+
+#end
+##
+##
+## link to previous slide
+##
+##
+#macro(previous $wi)
+  #set ($found = false)
+  #set ($index = 0)
+  #set ($prevItem = "")
+  #foreach ($item in $items)
+    #if ($item.equals($wi.id) && $index != 0)
+      #set($prevItem = $prev)
+      <a href="/polarion/wiki/bin/view/project/$page.Project/page/$page.Space.Name/$page.Name?item=$prevItem&Returning=1">{image:prev.png}</a>
+      #set($found = false)
+    #elseif ($item.equals($wi.id) && $index == 0)
+      <a href="/polarion/wiki/bin/view/project/$page.Project/page/$page.Space.Name/$page.Name?item=$titleItem.id&Returning=1">{image:prev.png}</a>    
+    #end
+    #set ($index = $index +1 )
+    #set ($prev = $item)
+  #end
+
+
+
+#end
+
+##
+##
+## Render Title of Slide
+##
+##
+#macro(renderTitle $wi)
+<table  style="background-image:url('/polarion/wiki/bin/download/project/MyPolarion/page/macros/ExampleTim/$bgImage')" align="center" height="50" width="100%">
+<tr>
+<td align="right" width="50">#previous($wi)</td>
+<td align="center"><h1 style="color:#000000;font-size:26">$wi.title</h1></td>
+<td align="right" width="50">#next($wi)</td>
+</tr>
+</table>
+#end
+##
+##
+## macro to check if slide is Title Slide (no previous slides)
+##
+##
+#macro(isTitleSlide $wi)
+  #if ( $wi.id == $titleItem.id  )
+    #set($isTitleSlide = true)
+    #else
+    #set($isTitleSlide = false)
+  #end
+#end
+##
+##
+## Render Subtitle of Slide
+##
+##
+#macro(renderSubTitle $wi)
+ #set( $subtitle = $wi.getValue("subtitle") )
+  #if ( $subtitle != ""  || $subtitle != ""){style:color=green}
+<i>$wi.getValue("subtitle")</i>{style}
+  #end
+#end
+##
+##
+## Render hint of Slide
+##
+##
+#macro(renderHint $wi)
+ #set( $hint = $wi.getValue("hint") )
+  #if ( $hint != ""  || $hint != "")
+{hint}
+$wi.getValue("hint")
+{hint} 
+#end
+#end
+##
+##
+## Render Description of Slide
+##
+##
+#macro(renderDescription $wi)
+{style:font-size=16|color=black}
+  #set ( $description = $wi.renderDescription($wi.getDescription(),$wi.RenderingOptions()) )
+  #set ($content = $description.getContent() )
+$description.getContent()
+{style}
+#end
+##
+##
+## Render Video Links
+##
+##
+#macro(renderVideoLink $wi)
+  #set ( $videoLinks = "" )
+  #set ( $hyperlinks = $wi.getHyperlinks() )
+  #foreach ( $hyperlink in $hyperlinks)
+    #if ( $hyperlink.role.id == "video" )
+      #set ( $videoLinks = "$videoLinks  $hyperlink.uri" )
+    #end    
+  #end
+  #if ( $videoLinks != "" ) 
+Video Tutorials:\\
+$videoLinks\\
+  #end
+#end
+##
+##
+## Render Help Links
+##
+##
+#macro(renderHelpLink $wi)
+  #set ( $helpLinks = "" )
+  #set ( $hyperlinks = $wi.getHyperlinks() )
+  #foreach ( $hyperlink in $hyperlinks)
+    #if ( $hyperlink.role.id == "help" )
+      #set ( $helpLinks = "$helpLinks <a href='$hyperlink.uri'>$hyperlink.uri</a><br>" )
+    #end    
+  #end
+  #if ( $helpLinks != "" ) 
+Polarion Help:\\
+$helpLinks
+  #end
+#end
+##
+##
+## Render Help Links
+##
+##
+#macro(renderDownloadLink $wi)
+  #set ( $downloadLinks = "" )
+  #set ( $hyperlinks = $wi.getHyperlinks() )
+  #foreach ( $hyperlink in $hyperlinks)
+    #if ( $hyperlink.role.id == "download" )
+      #set ( $downloadLinks = "$downloadLinks  <img src='/polarion/wiki/bin/download/project/MyPolarion/page/macros/RenderSlides/download.jpg'><a href='$hyperlink.uri'>$hyperlink.uri</a><br>" )
+    #end    
+  #end
+  #if ( $downloadLinks != "" ) 
+    <table class="download" width="100%"><tr><td>$downloadLinks</td></tr></table>
+  #end
+#end
+##
+##
+## Render See also link
+##
+##
+#macro(renderSeeAlso $wi)
+  #set ( $seeAlsoLinks = "" )
+  #set ( $titleToDisplayed = false )
+  #set ( $titleFromDisplayed = false )
+  #set ( $wiToLinks = $wi.getLinkedWorkItemsStructsDirect() )  
+  #set ( $wiFromLinks = $wi.getLinkedWorkItemsStructsBack() )
+  #foreach ( $wiToLink in $wiToLinks)
+    #if ( $wiToLink.linkRole.id == "seeAlso" )
+      #if ( $titleToDisplayed == false ) See Also:\\ #set ($titleToDisplayed=true) #end
+      <a href="/polarion/wiki/bin/view/project/MyPolarion/page/macros/RenderSlides?item=$wiToLink.linkedItem.id">$wiToLink.linkedItem.title</a><br>
+    #end
+  #end
+  #foreach ( $wiFromLink in $wiFromLinks)
+    #if ( $wiFromLink.linkRole.id == "seeAlso" )
+      #if ( $titleFromDisplayed == false ) <br> Is Referenced by:\\ #set ($titleFromDisplayed=true) #end
+      <a href="/polarion/wiki/bin/view/project/MyPolarion/page/macros/RenderSlides?item=$wiFromLink.linkedItem.id">$wiFromLink.linkedItem.title</a><br>
+    #end
+  #end
+#end
+
+##
+##
+## check if next slide exists
+##
+##
+#macro(hasNextSlide $wi)
+  #set($hasNextSlide = false)
+  #set ($backLinks = $wi.getLinkedWorkItemsStructsBack() )
+   #foreach ($backLink in $backLinks)
+     #if ("next" == $backLink.linkRole.id ) #set ( $hasNextSlide = true )  #end
+   #end
+#end
+
+##
+##
+## Main macro to render the title slide
+##
+##
+#macro(renderTitleSlide $wi $referer)
+  #renderTitle($wi)
+  <br>
+<center>
+  <table class="main">
+    <tr><td width="200"><a href="$referer">{image:trainingBiggerLogo.png}</a></td>
+    <td width="400">{style:font-size=16|color=black}<br>__AGENDA__<br><br> $toc {style}</td>
+    <td width="200">
+      #renderHelpLink($wi)<br>
+      #renderHint($wi)<br>
+      #renderSeeAlso($wi)
+    </td>
+    </tr> 
+  </table>
+</center>
+{workitem: $wi.Id}  ##<a href="$referer">*TOC*</a>
+
+#end
+##
+##
+## Main macro to render standard slides
+##
+##
+#macro(renderSlide $wi $referer $startPage)
+  #renderTitle($wi)
+  <center>#renderSubTitle($wi)</center>
+<br><br>
+<table align="center">
+<tr><td>
+#renderDescription($wi)</center>
+</td></td>
+</table>
+
+{workitem: $wi.Id} <a href="$startPage&Returning=1">*Agenda*</a>
+      #renderHint($wi)<br>
+      #renderVideoLink($wi)<br>
+      #renderHelpLink($wi)<br>
+      #renderSeeAlso($wi)<br>
+      #renderDownloadLink($wi)<br>
+
+#end
+##
+## Agenda Session Flow State macro to maintain session state for Referer & start page
+##
+## The idea is allowing the user to return to the Agenda Page (aka start page) from any page and
+## also allow them to return to some TOC page (original referer page).
+##
+#macro(agendaSession $referer $startPage)
+  #set ( $returning = $request.getParameter("Returning") )
+  #if (!$returning)
+    #set ( $referer = $request.getHeader("Referer") )
+    $session.setAttribute("originalReferer", $referer)
+    $session.setAttribute("startPage", $startPage)
+  #else
+    #set ( $referer = $session.getAttribute("originalReferer") )
+    #set ( $startPage = $session.getAttribute("startPage") )
+  #end
+#end
+##
+##
+## Main Entry Point for Slide Rendering
+##
+##
+#set( $session = $request.getSession() )
+#set ( $startPage = "/polarion/wiki/bin/view/project/$page.Project/page/$page.Space.Name/$page.Name?item=$slideItem" )
+#set ( $slideItem = $trackerService.getWorkItem($projectId,$slideItem) )
+
+#isTitleSlide($slideItem)
+#if ($isTitleSlide)
+  #agendaSession($referer $startPage)
+  #renderTitleSlide($slideItem $referer)
+  #else
+  #set($referer = $session.getAttribute("originalReferer") )
+  #set ( $startPage = $session.getAttribute("startPage") )
+  #renderSlide($slideItem $referer $startPage)
+#end
+]]></content>
+</wiki-page>

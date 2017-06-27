@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="hyperlinks">
+        <list>
+            <struct>
+                <item id="role">renderSlide</item>
+                <item id="uri">/polarion/wiki/bin/view/project/MyPolarion/page/macros/RenderSlides?item=MP-455</item>
+            </struct>
+        </list>
+    </field>
+    <field id="author">admin</field>
+    <field id="title">Available Queries</field>
+    <field id="created">2011-03-30 10:49:15.708 +0200</field>
+    <field id="priority">25.0</field>
+    <field id="description" text-type="text/html">&lt;table style="width: 100%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;" id="polarion_wiki macro name=table;params=width=100%"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;border: 1px solid #CCCCCC;padding: 5px;"&gt; Query&lt;/th&gt;&lt;th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;border: 1px solid #CCCCCC;padding: 5px;"&gt; &lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="line-height: 18px;text-align: left;vertical-align: top;border: 1px solid #CCCCCC;padding: 5px;"&gt;Unscheduled&lt;/td&gt;&lt;td style="line-height: 18px;text-align: left;vertical-align: top;border: 1px solid #CCCCCC;padding: 5px;"&gt; Which work items aren't scheduled - have no time point assigned.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="line-height: 18px;text-align: left;vertical-align: top;border: 1px solid #CCCCCC;padding: 5px;"&gt; Unassigned&lt;/td&gt;&lt;td style="line-height: 18px;text-align: left;vertical-align: top;border: 1px solid #CCCCCC;padding: 5px;"&gt; Which work items have no responsible yet. Probably nobody will take care of these Work Items&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</field>
+    <field id="status">accepted</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+    <field id="subtitle" type="string">Queries can be applied to any view in Polarion so they are more flexible</field>
+</work-item>

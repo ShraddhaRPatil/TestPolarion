@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="hyperlinks">
+        <list>
+            <struct>
+                <item id="role">help</item>
+                <item id="uri">/polarion/help/?topic=/com.polarion.xray.doc.user/ugchDevelopers.html</item>
+            </struct>
+            <struct>
+                <item id="role">renderSlide</item>
+                <item id="uri">/polarion/wiki/bin/view/project/MyPolarion/page/macros/RenderSlides?item=MP-661</item>
+            </struct>
+        </list>
+    </field>
+    <field id="author">stroebelet</field>
+    <field id="title">Linking Source Code With Work Items</field>
+    <field id="created">2011-05-17 20:48:56.810 +0200</field>
+    <field id="priority">25.0</field>
+    <field id="description" text-type="text/html">Anytime you commit source code to the main stream of your project you should do the following to link your changes to a work item&lt;br/&gt;&lt;ul&gt;&lt;li&gt;Add the work item id to the subversion commit message&lt;br/&gt;&lt;img style="width: 329px; height: 80px;" src="workitemimg:2-addId.jpg"/&gt;&lt;br/&gt;&lt;br/&gt;&lt;/li&gt;&lt;li&gt;You can obtain the work item id in following way&lt;br/&gt;&lt;img src="workitemimg:3-screenshot.jpg" style="height: 130px; width: 336px;"/&gt;&lt;br/&gt;&lt;br/&gt;&lt;/li&gt;&lt;/ul&gt;</field>
+    <field id="status">accepted</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+    <field id="subtitle" type="string">All you source code changes should be linked to work items</field>
+</work-item>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<comment>
+    <field id="created">2011-05-20 21:14:22.515 +0200</field>
+    <field id="author">phaedrusxon</field>
+    <field id="text" text-type="text/plain">This slide has a lot of white space to the right of the polarion hyperlinks.  Could we extend them right and include wiki code for the macro that is cut-and-paste ready into the user's wiki page?  Then it wouldn't matter that the bubble comment covers part of the code.</field>
+    <field id="title">Grabbing White Space</field>
+</comment>

@@ -1,0 +1,139 @@
+<!-- TERMINOLOGY:
+Source Document: the Document the user is merging content FROM
+Source item: a Work Item contained in the Source Document
+Target Document: the Document the user is merging content TO
+Target item: a Work item contained in or appearing via reference in the Target Document
+Overwritten item: a Work Item in the target Document that is referenced from the source Document, but the content is changed in the target Document.
+ 
+This file specifies which actions are available for the target Document in the Merge sidebar when comparing two Documents. 
+The actions can be specified for global and/or project configurations. Actions can be allowed conditionally. See the example <condition> elements 
+in the actions below, and "CONDITIONS INFORMATION" at the end of this file. 
+
+For more information about this configuration see <Help> 
+-->
+<actions>
+    <!-- Insert actions are available if an item in the source Document does not exist in the target Document. -->
+   <action id="com.polarion.insertLiveReference" color="#27AE60" text-color="#FFFFFF">
+       <title>Insert Live Reference</title>
+       <description>Insert Work Item as a "live" referenced Work Item. Subsequent changes to the original will propagate automatically.</description>
+	   <!-- Hint: Specify the condition when the action should be allowed. The following condition is an example when insert referenced Work Item action is not allowed if document is a Master. -->
+	   <conditions>
+		<not>
+			<condition id="com.polarion.sourceDocumentBranchedFromTarget"/>
+		</not>
+	   </conditions>
+   </action>
+      <action id="com.polarion.insertFrozenReference" color="#27AE60" text-color="#FFFFFF">
+       <title>Insert Frozen Reference</title>
+       <description>Insert Work Item as a referenced Work Item "frozen" to the current revision of the source item. Subsequent changes to the source item will NOT propagate automatically. It will be possible to manually update the reference to some future revision of the source item.</description>
+	   <conditions>
+		<not>
+			<condition id="com.polarion.sourceDocumentBranchedFromTarget"/>
+		</not>
+	   </conditions>			
+   </action>
+   <!-- This action is available when the target item is referenced from the Source Document -->
+   <action id="com.polarion.freezeReference" color="#8e44ad" text-color="#FFFFFF">
+       <title>Freeze Work Item Reference</title>
+       <description>Freeze the Work Item reference in the target Document at a specific revision of the source item.</description>
+   </action>
+   <!-- Replace Overwritten actions are available if target is an overwritten Work Item -->
+   <action id="com.polarion.replaceOverwrittenWithLiveReference" color="#8e44ad" text-color="#FFFFFF">
+       <title>Replace Overwritten Work Item with Live Reference</title>
+       <description>Send an overwritten Work Item in the target Document to the Recycle Bin, and replace it with a "live" referenced Work Item. Subsequent changes to the referenced item will propagate automatically.</description>
+   </action>
+   <action id="com.polarion.replaceOverwrittenWithFrozenReference" color="#8e44ad" text-color="#FFFFFF">
+       <title>Replace Overwritten Work Item with Frozen Reference</title>
+       <description>Send an overwritten Work item in the target Document to the Recycle Bin, replace it with a referenced Work Item from the source Document, and freeze the reference to the current revision of the source item. Subsequent changes to the source item will NOT propagate. It will be possible to manually update the reference to some future revision of the source item.</description>
+   </action>
+   <!-- This action is available if target item is a reference to a Work Item that does not now exist in the source Document. -->
+   <action id="com.polarion.deleteReference" color="#c0392b" text-color="#FFFFFF">
+       <title>Delete Reference</title>
+       <description>Delete the referenced Work Item from the target Document</description>
+   </action>
+   <!-- This action is available when source item does not exist and the target item is not a referenced Work Item. -->
+   <action id="com.polarion.unmarkWorkItem" color="#c0392b" text-color="#FFFFFF">
+       <title>Send Item to Recycle Bin</title>
+       <description>Remove Work Item from the target Document but keep it in the Recycle Bin</description>
+   </action>
+   <!-- 
+       This action is available when source item does not exist and the target item is not a referenced Work Item. It is disabled by default. Allowing deletion of Work Items is   
+       generally not a good practice in regulated industries. Your company's management should decide on a policy. 
+   -->
+   <!--action id="com.polarion.deleteWorkItem" color="#c0392b" text-color="#FFFFFF">
+       <title>Delete Work Item</title>
+       <description>Delete Work Item from the Document and the repository (but not from History)</description>
+   </action-->
+   <!-- This action is available when a Work Item in the source Document is selected for merging, and the target Document contains no copy of or reference to the source item. -->
+   <action id="com.polarion.duplicateWorkItemAsOverwritten" color="#27ae60" text-color="#FFFFFF">
+       <title>Copy the Work Item</title>
+       <description>Copy the Work Item to the target Document creating a traceability link to the source Work Item. Item in the target Document will be a static copy, not a reference. Never updated unless manually replaced by another copy.</description>
+   </action>
+   <!-- Unlink and Insert actions are available when target is an overwritten item from source Work Item -->
+   <action id="com.polarion.unlinkAndInsertFrozenReference" color="#27AE60" text-color="#FFFFFF">
+       <title>Unlink and insert Frozen Reference</title>
+       <description>Insert Work Item as a referenced Work Item "frozen" to the current revision of the source item. Subsequent changes to the source will NOT propagate automatically. The existing traceability link between the source item and the target item will be removed. Both the existing target Work Item and the new referenced Work Item will appear in the target Document.</description>
+   </action>
+   <action id="com.polarion.unlinkAndInsertLiveReference" color="#27AE60" text-color="#FFFFFF">
+       <title>Unlink and Insert Live Reference</title>
+       <description>Insert Work Item as a "live" referenced Work Item. Subsequent changes to the original will propagate automatically. The existing traceability link between the source item and the target item will be removed. Both the existing target Work Item and the new referenced Work Item will appear in the target Document.</description>
+   </action>
+
+   <!-- Merge fields actions are available if the merge target is a Work Item -->
+   <!-- Hint: 
+   1) Specify the fields to be copied in <field> elements within the <fields> element. Other fields are skipped. 
+   2) Specify fields that must NOT be copied in <field> elements within the <excluded-fields> element. Other fields are copied. --> 
+   <action id="com.polarion.mergeFieldsAction" color="#8E44AD" text-color="#FFFFFF">
+       <title>Merge Some Fields</title>
+       <description>Merge fields specified in the Merge Actions configuration. By default this includes Title, Description and Test Steps, but this can be changed by an Administrator. </description>
+       <fields>
+           <field id="title"/>
+           <field id="description"/>
+           <field id="testSteps"/>
+       </fields>
+       <!-- 
+       <excluded-fields>
+          <field id="assignee"/>
+          <field id="initialEstimate"/>
+          <field id="myCustomField"/>
+       </excluded-fields>
+       -->
+   </action>
+   <action id="com.polarion.mergeFieldsAction" color="#8E44AD" text-color="#FFFFFF">
+       <title>Merge All Fields</title>
+       <description>Merge all fields of the Work Item that are supported for merging</description>
+       <!-- Hint: Specify the query-based conditions when the action should be allowed.
+	   <conditions>
+			<condition id="com.polarion.sourceWorkItemQuery">status:approved</condition>
+			<condition id="com.polarion.targetDocumentQuery">status:draft</condition>
+	   </conditions>
+       -->
+   </action>
+
+</actions>
+
+<!-- CONDITIONS INFORMATION:
+    
+    * Only one <conditions> element is allowed within any <action> element. Any that apear after the first one are ignored. 
+    * The <conditions> element can contain multiple <condition> elements.
+    * You can construct complex conditions by using nested <and>, <or>, and <not> tags within a <condition> element. 
+    * A <condition> can contain multiple <not> tags, the result being as if they were enclosed by an "<and>" tag. So the <not> tag actually works like a "NAND" logical operator.
+    * Empty <and>, <or> tags evaluate to "true".
+    * Empty <not> tags evaluates to "false".
+    * Unknown or invalid elements and tags, and <condition> elements having an unknown/invalid "id" attribute value are ignored.
+    * A <condition> element having one of the following values specified in its "id" attribute can contain a Lucene query on the respective artifact:
+        - com.polarion.sourceWorkItemQuery (the <condition> value should be a Lucene query on the attributes of the Source Work Item)
+        - com.polarion.targetWorkItemQuery (the <condition> value should be a Lucene query on the attributes of the Target Work Item)
+        - com.polarion.sourceDocumentQuery (the <condition> value should be a Lucene query on the attributes of the Source Document)
+        - com.polarion.targetDocumentQuery (the <condition> value should be a Lucene query on the attributes of the Target Document)
+		
+        Examples:
+        <condition id="com.polarion.sourceWorkItemQuery">type:requirement AND NOT status:in-review</condition>
+        <condition id="com.polarion.targetDocumentQuery">type:test-specification AND status:draft</condition>
+        Notes:
+        - If the query is empty, the condition is ignored.
+        - If the query is defined, for example, for the target item, and that item is null, the condition is ignored.
+      
+-->
+
+

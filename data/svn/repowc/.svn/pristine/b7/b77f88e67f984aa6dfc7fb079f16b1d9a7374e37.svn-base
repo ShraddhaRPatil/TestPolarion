@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="assignee">
+        <list>
+            <item>pGUI</item>
+            <item>sDeveloper</item>
+        </list>
+    </field>
+    <field id="author">admin</field>
+    <field id="created">2013-01-29 15:36:07.495 +0100</field>
+    <field id="initialEstimate">8d</field>
+    <field id="linkedWorkItems">
+        <list>
+            <struct>
+                <item id="role">implements</item>
+                <item id="suspect">false</item>
+                <item id="workItem">DP-317</item>
+            </struct>
+        </list>
+    </field>
+    <field id="previousStatus">verified-done</field>
+    <field id="priority">40.0</field>
+    <field id="remainingEstimate">1d</field>
+    <field id="severity">should_have</field>
+    <field id="status">reopened</field>
+    <field id="timeSpent">7d</field>
+    <field id="title">Drive Pilot warnings on special conditions</field>
+    <field id="type">workPackage</field>
+</work-item>

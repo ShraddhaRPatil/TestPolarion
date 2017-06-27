@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">requirement</field>
+    <field id="author">admin</field>
+    <field id="title">Limitations and Exclusions</field>
+    <field id="created">2008-10-02 21:28:03.957 +0200</field>
+    <field id="description" text-type="text/html">&lt;span class="Apple-style-span" style="font-style: italic;"&gt;Identify any product features or characteristics that a stakeholder might anticipate, but which are not planned to be included in the new product.&lt;/span&gt;</field>
+    <field id="priority">25.0</field>
+    <field id="status">draft</field>
+    <field id="severity">should_have</field>
+    <field id="previousStatus">open</field>
+</work-item>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<module>
+    <field id="author">stroebelet</field>
+    <field id="created">2012-02-14 14:00:03.788 -0500</field>
+    <field id="homePageContent" text-type="text/html"><![CDATA[<h1 id="polarion_wiki macro name=module-workitem;params=id=MP-1859"></h1><p id="polarion_template_0">
+  <br/>
+  Description what is part of the document
+</p><h2 id="polarion_wiki macro name=module-workitem;params=id=MP-1860"></h2><div id="polarion_wiki macro name=toc"></div><h2 id="polarion_wiki macro name=module-workitem;params=id=MP-1861"></h2><div id="polarion_editor_html_block_new_0" class="polarion-dle-wiki-block">
+  <div id="polarion_editor_html_block_content" contentEditable="false"></div><pre id="polarion_editor_html_block_source" class="polarion-dle-wiki-block-source" contentEditable="false">{workitems: document.id:"$page.space.name/$page.name" AND type:slide|fields=title,status|display=table|sortby=outlineNumber}</pre>
+</div><p id="polarion_cleaned_0">
+   
+</p><h2 id="polarion_wiki macro name=module-workitem;params=id=MP-1862"></h2><div id="polarion_wiki macro name=module-workitem;params=id=MP-535"></div><h2 id="polarion_wiki macro name=module-workitem;params=id=MP-1869"></h2><div id="polarion_wiki macro name=module-workitem;params=id=MP-536"></div><h2 id="polarion_wiki macro name=module-workitem;params=id=MP-1870"></h2><div id="polarion_wiki macro name=module-workitem;params=id=MP-537"></div><h2 id="polarion_wiki macro name=module-workitem;params=id=MP-1871"></h2><div id="polarion_wiki macro name=module-workitem;params=id=MP-538"></div><h2 id="polarion_wiki macro name=module-workitem;params=id=MP-5352"></h2><div id="polarion_wiki macro name=module-workitem;params=id=MP-5353"></div><h2 id="polarion_wiki macro name=module-workitem;params=id=MP-5354"></h2><div id="polarion_wiki macro name=module-workitem;params=id=MP-5355"></div><h2 id="polarion_wiki macro name=module-workitem;params=id=MP-1872"></h2><div id="polarion_wiki macro name=module-workitem;params=id=MP-539"></div><p id="polarion_1"></p>]]></field>
+    <field id="renderingLayouts">
+        <list>
+            <struct>
+                <item id="label">Slide</item>
+                <item id="layouter">section</item>
+                <item id="properties">
+                    <list>
+                        <struct>
+                            <item id="key">fieldsAtStart</item>
+                            <item id="value">id</item>
+                        </struct>
+                        <struct>
+                            <item id="key">fieldsAtEnd</item>
+                        </struct>
+                        <struct>
+                            <item id="key">fieldsAtEndAsTable</item>
+                        </struct>
+                        <struct>
+                            <item id="key">hidden</item>
+                        </struct>
+                    </list>
+                </item>
+                <item id="type">slide</item>
+            </struct>
+        </list>
+    </field>
+    <field id="structureLinkRole">next</field>
+    <field id="usesOutlineNumbering">true</field>
+</module>

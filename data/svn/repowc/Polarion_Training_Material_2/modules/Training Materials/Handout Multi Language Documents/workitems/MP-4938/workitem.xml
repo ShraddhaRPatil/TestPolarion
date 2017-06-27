@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">heading</field>
+    <field id="author">schucks</field>
+    <field id="title">A Sample Document</field>
+    <field id="created">2013-07-31 11:44:35.432 +0200</field>
+    <field id="priority">25.0</field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+</work-item>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<permissions>
+    <customset id="Module_Submitted_and_Released_Requirements_Specifications" title="Submitted and Released Requirements Specifications">com.polarion.persistence.object.Module(type:req_specification AND NOT status:draft)</customset>
+    <permission name="com.polarion">
+        <role name="project_admin">
+            <grant permission="persistence.object.ModuleComment(.module:(@Module_Submitted_and_Released_Requirements_Specifications)).create"/>
+            <deny permission="@Module_Submitted_and_Released_Requirements_Specifications.modifyContent"/>
+        </role>
+        <role name="project_assignable">
+            <grant permission="persistence.object.ModuleComment(.module:(@Module_Submitted_and_Released_Requirements_Specifications)).create"/>
+            <deny permission="@Module_Submitted_and_Released_Requirements_Specifications.modifyContent"/>
+        </role>
+        <role name="user">
+            <grant permission="persistence.object.Project.read"/>
+            <grant permission="persistence.object.WorkItem.read"/>
+            <grant permission="tracker.WorkItem.watch"/>
+            <grant permission="persistence.object.Module.read"/>
+            <grant permission="persistence.object.RichPage.read"/>
+            <grant permission="persistence.object.WikiPage.read"/>
+            <grant permission="persistence.object.Plan.read"/>
+            <grant permission="persistence.object.TestRun.read"/>
+            <grant permission="persistence.object.Baseline.read"/>
+            <grant permission="reports.read"/>
+            <grant permission="persistence.object.Build.read"/>
+            <grant permission="builds.download"/>
+        </role>
+    </permission>
+</permissions>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">daniel.morris</field>
+    <field id="created">2014-08-07 07:37:29.126 -0400</field>
+    <field id="description" text-type="text/html"><![CDATA[As project manager you might want to setup multiple milestones during a year and work with multiple teams. A deeper hierarchy than &quot;Release -&gt; Iteration&quot; is needed.<br/>
+<img src="workitemimg:1-screenshot-20140731-132446.png"/><br/>
+<ul>
+  <li>Open Plan Properties of &quot;Version 1.0&quot; and rename your plan to current year while being in edit mode</li>
+  <li>Create new sub release &quot;MS 1&quot; (Parent of MS 1 should be previously changed year release)</li>
+  <li>Create below &quot;MS1&quot; 2 sub releases &quot;Team 1&quot; and &quot;Team 2&quot; as displayed on image above</li>
+  <li>We still have to move our existing iteration(s) into our team space. Select &quot;Iteration 1&quot;, open Properties and change &quot;Parent&quot; atribute to &quot;Team_1&quot;</li>
+  <li>Save your changes and refresh your browser window to see your updated structure</li>
+</ul>]]></field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Create a multi team and multiple milestone structure</field>
+    <field id="type">exercise</field>
+</work-item>

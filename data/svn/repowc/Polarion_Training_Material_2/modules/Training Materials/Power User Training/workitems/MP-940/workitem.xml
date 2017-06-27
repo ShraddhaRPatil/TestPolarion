@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">exercise</field>
+    <field id="author">stroebelet</field>
+    <field id="title">Create Wiki Page With Different Reports</field>
+    <field id="created">2011-07-29 21:52:46.741 +0200</field>
+    <field id="priority">25.0</field>
+    <field id="description" text-type="text/html">Highest risks should always be visible on Top. Display risks sorted by review cycle&lt;br/&gt;&lt;br/&gt;&lt;ul&gt;&lt;li&gt;Create a new Wiki Page with name RiskCockpit&lt;/li&gt;&lt;li&gt;Embed a &lt;span style="font-style: italic;"&gt;{workitems} macro&lt;/span&gt; which displays all risks with high impact and high probability&lt;br/&gt; &lt;img src="attachment:risk2.PNG"/&gt;&lt;/li&gt;&lt;/ul&gt;</field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+</work-item>

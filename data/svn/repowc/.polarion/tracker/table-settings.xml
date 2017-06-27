@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workitems-table-settings>
+    <columns>
+        <!-- DEFAULT COLUMNS VISIBLE IN TABLE VIEW -->
+        <column id="id" width="90"/>
+        <column id="title" width="260"/>
+        <column id="priority" width="60"/>
+        <column id="severity" width="60"/>
+        <column id="status" width="60"/>
+        <column id="resolution" width="75"/>
+        <column id="author" width="90"/>
+        <column id="assignee" width="90"/>
+        <column id="timePoint" width="90"/>
+        <column id="remainingEstimate" width="90"/>
+        <column id="created" width="90"/>
+        <column id="updated" width="90"/>
+    
+        <!-- Cut any columns you want to display in the Table view  from the 
+             list in the next comment, and paste them into the list above 
+             this comment. Or add a new element with the corect field id.
+             Change the width (pixels) attribute if desired. 
+        -->
+        <!-- OTHER AVAILABLE COLUMNS:
+        <column id="type" width="35"/>
+        <column id="previousStatus" width="50"/>
+        <column id="dueDate" width="110"/>
+        <column id="initialEstimate" width="75"/>
+        <column id="timeSpent" width="75"/>
+        <column id="plannedStart" width="110"/>
+        <column id="plannedEnd" width="110"/>
+        <column id="project" width="100"/>
+        -->
+    </columns>
+    <sort-by>
+        <column id="created" descending="true"/>
+        <column id="id" descending="true"/>
+    </sort-by>
+</workitems-table-settings>

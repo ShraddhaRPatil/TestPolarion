@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="hyperlinks">
+        <list>
+            <struct>
+                <item id="role">renderSlide</item>
+                <item id="uri">/polarion/wiki/bin/view/project/MyPolarion/page/macros/RenderSlides?item=MP-1226</item>
+            </struct>
+        </list>
+    </field>
+    <field id="author">stroebelet</field>
+    <field id="title">Creating A New View</field>
+    <field id="created">2011-09-16 22:31:20.312 +0200</field>
+    <field id="priority">25.0</field>
+    <field id="description" text-type="text/html">&lt;img src="workitemimg:3-screenshot-2.jpg"/&gt;&lt;br/&gt;&lt;br/&gt;&lt;ul&gt;&lt;li&gt;Name of view is created out of provided ID.&lt;/li&gt;&lt;li&gt;Scope is set automatically&lt;/li&gt;&lt;li&gt;Only listed roles can see and use the view&lt;br/&gt;&lt;/li&gt;&lt;/ul&gt;</field>
+    <field id="status">accepted</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+    <field id="subtitle" type="string">All views must be defined globally first to become active</field>
+    <field id="trainingCategory" multi="true" type="enum:trainingCategory"/>
+</work-item>

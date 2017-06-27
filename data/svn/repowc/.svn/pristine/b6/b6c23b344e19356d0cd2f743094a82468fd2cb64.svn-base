@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<module>
+    <field id="usesOutlineNumbering">true</field>
+    <field id="homePageContent" text-type="text/html"><![CDATA[<h1 id="polarion_wiki macro name=module-workitem;params=id=MP-4152"></h1><p id="polarion_new_0">
+  <br/>
+</p><p id="polarion_new_2">
+  This guide shall help administrators to install the SVN Webclient for an external subversion repository.
+</p><p id="polarion_new_3">
+  <br/>
+</p><h2 id="polarion_wiki macro name=module-workitem;params=id=MP-4162"></h2><div id="polarion_wiki macro name=toc"></div><p id="polarion_template_0">
+  <br/>
+</p><p id="polarion_new_46">
+  <br/>
+</p><div id="polarion_wiki macro name=page_break|uid=merged_0" contentEditable="false"></div><h2 id="polarion_wiki macro name=module-workitem;params=id=MP-4155"></h2><p id="polarion_merged_0">
+  Please download the SVN Webclient &quot;war&quot; file from <a href="http://www.polarion.com/products/svn/svn_webclient.php" target="_blank" class="descriptionLink">www.polarion.com</a>.
+</p><p id="polarion_merged_1">
+  The File will be used later. 
+</p><p id="polarion_merged_2">
+  <br/>
+</p><h2 id="polarion_wiki macro name=module-workitem;params=id=MP-4153"></h2><p id="polarion_new_4">
+  SVN Webclient needs an own instance of Apache running on the subversion server, It is used to generate the GUI and manage access authorization.<br/>
+</p><p id="polarion_new_5">
+  <br/>
+</p><p id="polarion_new_6">
+  To install a common Apache Version for your Operating System please follow the fitting guide on <a href="http://httpd.apache.org/download.cgi" target="_blank" class="descriptionLink">Apache Foundation Download page</a>. 
+</p><p id="polarion_new_7">
+  It is important to note all setting, especially if you are not using the default configuration.
+</p><p id="polarion_new_8">
+  <br/>
+</p><h3 id="polarion_wiki macro name=module-workitem;params=id=MP-4154"></h3><p id="polarion_new_1">
+  <br/>
+</p><p id="polarion_new_9">
+  <span style="font-weight: bold;">Port Configuration:</span>
+</p><table id="polarion_wiki macro name=table;params=width=99%" class="polarion-Document-table" style="width: 99%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;">
+  <tbody>
+    <tr>
+      <th style="font-weight: bold;font-size: 12px;background-color: #F0F0F0;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"> Action</th>
+      <th style="font-weight: bold;font-size: 12px;background-color: #F0F0F0;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Port </th>
+    </tr>
+    <tr>
+      <td style="font-size: 12px;line-height: 18px;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"> Shutdown</td>
+      <td style="font-size: 12px;line-height: 18px;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">8010 </td>
+    </tr>
+    <tr>
+      <td style="font-size: 12px;line-height: 18px;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"> HTTP/1.1</td>
+      <td style="font-size: 12px;line-height: 18px;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">8085 </td>
+    </tr>
+    <tr>
+      <td style="font-size: 12px;line-height: 18px;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"> AJP/1.3</td>
+      <td style="font-size: 12px;line-height: 18px;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">8014 </td>
+    </tr>
+  </tbody>
+</table><p id="polarion_cleaned_0">
+  <br/>
+</p><p id="polarion_merged_3">
+  <span style="font-weight: bold;">Service Name:</span> Tomcat7
+</p><p id="polarion_merged_4">
+  <span style="font-weight: bold;">Login:</span> admin/admin
+</p><p id="polarion_merged_5">
+  <span style="font-weight: bold;">Installation Path:</span> C:\Program Files\Tomcat 7.0<br/>
+</p><p id="polarion_new_11">
+  <br/>
+</p><h2 id="polarion_wiki macro name=module-workitem;params=id=MP-4156"></h2><p id="polarion_merged_6">
+  If the target Server does not yet contain a Subversion repository you have to install one. Which type of Server is installed does not matter for the Webclient to work.
+</p><p id="polarion_merged_7">
+  Choose any Webserver (eg <a href="http://www.visualsvn.com/server/" target="_blank" class="descriptionLink">VisualSVN Server</a>) and note the settings set during installation.<br/>
+</p><p id="polarion_cleaned_1">
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+</p><h3 id="polarion_wiki macro name=module-workitem;params=id=MP-4157"></h3><p id="polarion_merged_10">
+  <span style="font-weight: bold;">HTTP Port:</span> 89  
+</p><p id="polarion_merged_11">
+  <span style="font-weight: bold;font-style: italic;">HTTPS seems to be not supported. It is intended to configure the Apache Server to allow only secure connections instead of configuring Apache to SVN (which wouldn't make too much sense if the servers are on the same machine).</span>
+</p><p id="polarion_merged_12">
+  <span style="font-weight: bold;"><br/>
+  </span>
+</p><p id="polarion_merged_13">
+  <span style="font-weight: bold;">Instalaltion path:</span> C:\Program Files (x86)\VisualSVN Server\
+</p><p id="polarion_merged_14">
+  <span style="font-weight: bold;">Repository Path:</span> C:\D\Repository_VSVN\<br/>
+</p><p id="polarion_merged_15">
+  Create a new repository &quot;Demo_Code&quot; (or any other name) and give appropriate rights for admin user to the new repository!<br/>
+</p><p id="polarion_merged_16">
+  <span style="font-weight: bold;">SVN-Web-Link:</span> http://schucks-pc:89/svn/Demo_Code/
+</p><p id="polarion_merged_17">
+  <br/>
+</p><h2 id="polarion_wiki macro name=module-workitem;params=id=MP-4158"></h2><h3 id="polarion_wiki macro name=module-workitem;params=id=MP-4159"></h3><p id="polarion_merged_18">
+  Go to the Apache Tomcat App manager web-interface.<br/>
+</p><p id="polarion_merged_19">
+  <img src="attachment:screenshot.jpg"/>
+</p><p id="polarion_merged_20">
+  <br/>
+</p><p id="polarion_merged_21">
+  In the manager App you will find a section where you can select and deploy the SVN Webclient.war file. Please do so.
+</p><p id="polarion_merged_22">
+  <img src="attachment:screenshot-2.jpg"/><br/>
+</p><h3 id="polarion_wiki macro name=module-workitem;params=id=MP-4160"></h3><p id="polarion_merged_8">
+  <br/>
+</p><p id="polarion_merged_9">
+  Go to you tomcat installation path and navigate to the specified folder:
+</p><p id="polarion_merged_23">
+  <span style="font-weight: bold;font-style: italic;"><br/>
+  </span>
+</p><table id="polarion_wiki macro name=table;params=header=no|width=100%|uid=merged_0" class="polarion-Document-table" style="width: 100%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;">
+  <tbody>
+    <tr>
+      <td style="font-size: 12px;line-height: 18px;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-weight: bold;">Windows</span></td>
+      <td style="font-size: 12px;line-height: 18px;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-weight: normal;font-style: normal;">[Tomcat 7.0 home]\webapps\svnwebclient\WEB-INF</span></td>
+    </tr>
+    <tr>
+      <td style="font-size: 12px;line-height: 18px;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-weight: bold;">Linux </span></td>
+      <td style="font-size: 12px;line-height: 18px;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-weight: normal;font-style: normal;">/var/lib/tomcat6/webapps</span></td>
+    </tr>
+  </tbody>
+</table><p id="polarion_cleaned_4">
+  <span style="font-weight: bold;font-style: italic;"><br/>
+  </span><br/>
+</p><p id="polarion_merged_24">
+  Open the file <span style="font-weight: bold;">&quot;web.xml&quot;</span>.
+</p><p id="polarion_merged_25">
+  The following parameters must be entered for basic usage. Replace sample data with the noted settings:
+</p><p id="polarion_merged_30">
+  <span style="font-weight: bold;font-style: italic;"><br/>
+  </span>
+</p><p id="polarion_merged_31">
+  <span style="font-style: italic;">&lt;context-param&gt;        </span>
+</p><p id="polarion_merged_32" style="margin-left: 40px;">
+  <span style="font-weight: bold;font-style: italic;">&lt;param-name&gt;RepositoryUrl&lt;/param-name&gt;        </span>
+</p><p id="polarion_merged_33" style="margin-left: 40px;">
+  <span style="font-weight: bold;font-style: italic;">&lt;param-value&gt;http://schucks-pc:89/svn/Demo_Code&lt;/param-value&gt;    </span>
+</p><p id="polarion_merged_34">
+  <span style="font-style: italic;">&lt;/context-param&gt;    </span>
+</p><p id="polarion_merged_35">
+  <span style="font-style: italic;">&lt;context-param&gt;        </span>
+</p><p id="polarion_cleaned_2"></p><p id="polarion_cleaned_3" style="margin-left: 40px;">
+  <span style="font-weight: bold;font-style: italic;">&lt;param-name&gt;Username&lt;/param-name&gt;        </span>
+</p><p id="polarion_cleaned_5" style="margin-left: 40px;">
+  <span style="font-weight: bold;font-style: italic;">&lt;param-value&gt;empty-value&lt;/param-value&gt;    </span><br/>
+</p><p id="polarion_merged_37">
+  <span style="font-style: italic;">&lt;/context-param&gt;    </span>
+</p><p id="polarion_merged_38">
+  <span style="font-style: italic;">&lt;context-param&gt;      <span style="font-weight: bold;">  </span></span>
+</p><p id="polarion_merged_39" style="margin-left: 40px;">
+  <span style="font-weight: bold;font-style: italic;">&lt;param-name&gt;Password&lt;/param-name&gt;        </span>
+</p><p id="polarion_merged_40" style="margin-left: 40px;">
+  <span style="font-weight: bold;font-style: italic;">&lt;param-value&gt;empty-value&lt;/param-value&gt;    </span>
+</p><p id="polarion_merged_41">
+  <span style="font-style: italic;">&lt;/context-param&gt;        </span>
+</p><p id="polarion_merged_42">
+  <span style="font-style: italic;">&lt;context-param&gt;      <span style="font-weight: bold;">  </span></span>
+</p><p id="polarion_merged_43" style="margin-left: 40px;">
+  <span style="font-weight: bold;font-style: italic;">&lt;param-name&gt;BasicAuth&lt;/param-name&gt;        </span>
+</p><p id="polarion_merged_44" style="margin-left: 40px;">
+  <span style="font-weight: bold;font-style: italic;">&lt;param-value&gt;true&lt;/param-value&gt;    </span>
+</p><p id="polarion_merged_45">
+  <span style="font-style: italic;">&lt;/context-param&gt;<br/>
+    &lt;context-param&gt;        </span>
+</p><p id="polarion_merged_26" style="margin-left: 40px;">
+  <span style="font-weight: bold;font-style: italic;">&lt;param-name&gt;RepositoryUrl&lt;/param-name&gt;        </span>
+</p><p id="polarion_merged_27" style="margin-left: 40px;">
+  <span style="font-weight: bold;font-style: italic;">&lt;param-value&gt;http://schucks-pc:89/svn/Demo_Code&lt;/param-value&gt;    </span>
+</p><p id="polarion_merged_28">
+  <span style="font-style: italic;">&lt;/context-param&gt; </span>
+</p><p id="polarion_merged_46">
+  <br/>
+</p><p id="polarion_merged_47">
+  If you require a special configuration enter the other parameters as documented inlinse in file web.xml.
+</p><p id="polarion_merged_29">
+  <br/>
+</p><p id="polarion_cleaned_6"></p><h2 id="polarion_wiki macro name=module-workitem;params=id=MP-4161"></h2><p id="polarion_merged_49">
+  To make the external SVN Repository be shown using the webinterface you need to configure the following parameters in the Polarion external repositories menu:
+</p><p id="polarion_merged_50">
+  <img src="attachment:screenshot-3.jpg"/><br/>
+</p><p id="polarion_merged_51">
+  <br/>
+</p><p id="polarion_merged_52">
+  <img src="attachment:screenshot-4.jpg"/><br/>
+</p><p id="polarion_merged_53">
+  <br/>
+</p><p id="polarion_merged_54">
+  Enter the last three parameters as following;
+</p><p id="polarion_merged_55">
+  <br/>
+</p><p id="polarion_merged_56">
+  <span style="font-weight: bold;">View Location Diff URL: </span>
+</p><p id="polarion_merged_57">
+  http://localhost:8085/svnwebclient/changedResource.jsp?url=$locationEscaped$&amp;rev=$revision$&amp;action=$action$ 
+</p><p id="polarion_merged_58">
+  <span style="font-weight: bold;">View Location URL: </span>
+</p><p id="polarion_merged_59">
+  http://localhost:8085/svnwebclient/fileContent.jsp?url=$locationEscaped$&amp;pegrev=$headRevision$&amp;crev=$revision$
+</p><p id="polarion_merged_60">
+  <span style="font-weight: bold;">View URL: </span>
+</p><p id="polarion_merged_61">
+  http://localhost:8085/svnwebclient/revisionDetails.jsp?rev=$revision$<br/>
+</p><div id="polarion_wiki macro name=page_break;params=uid=2" contentEditable="false"></div><p id="polarion_29"></p><h2 id="polarion_wiki macro name=module-workitem;params=id=MP-4930"></h2><p id="polarion_1">
+  The proposed solution to activate https is to let the Subversion daemon be served from Apache that handles requests from http and https protocol (via 80 and 443 port). Developers and SVN users use these ports to access the repository.
+</p><p id="polarion_cleaned_7">
+  <img src="attachment:screenshot-5.jpg" style="width: 754px;height: 324px;"/>
+</p><p id="polarion_2"></p><p id="polarion_7" style="margin-left: 0px;">
+  Tomcat is not exposed in network, but uses AJP module in Apache to server Polarion SVNWebClient.<br/>
+  Apache is configured to handle a redirection to AJP module to Tomcat  when the following path(s) are called:
+</p><p id="polarion_8" style="margin-left: 40px;">
+  <span style="font-weight: bold;">http(s)://&lt;network-address&gt;/svnwebclient</span>
+</p><p id="polarion_9">
+  In Polarions external repository setting the SVNWebclient will be entered in the following way:
+</p><p id="polarion_10" style="margin-left: 40px;">
+  <span style="font-weight: bold;">http(s)://&lt;network-address&gt;/svnwebclient</span>
+</p><p id="polarion_11"></p><p id="polarion_12">
+  Be sure <span style="text-decoration: underline;">not</span> to include the port:
+</p><p id="polarion_13" style="margin-left: 0px;">
+  <span style="font-weight: normal;">http(s)://&lt;network-address&gt;:<span style="text-decoration: line-through;">8080</span>/svnwebclient</span><br/>
+</p><p id="polarion_14"></p><h3 id="polarion_wiki macro name=module-workitem;params=id=MP-4931"></h3><p id="polarion_16">
+  <br/>
+  This new infrastructure cooperation schema, is more secure that actual. Basically it is not a good idea to expose Tomcat directly on network, it should be configured behind an Apache that could be a proxy to Tomcat and for specific requests only.
+</p><p id="polarion_5">
+  <br/>
+  This new schema allows Polarion to integrate external SVN easily, without port mapping on 8080, and will definitively resolve the problem about to use SVNWebClient in https, because Apache itself directly handles http.<br/>
+</p><h3 id="polarion_wiki macro name=module-workitem;params=id=MP-4932"></h3><p id="polarion_3">
+  Here you can see the fitting Apache Webeserver configuration:
+</p><p id="polarion_6">
+  <img src="attachment:screenshot-6.jpg" style="width: 754px;height: 345px;"/>
+</p><p id="polarion_4"></p><p id="polarion_15">
+  Tomcat is configured with default setup, including AJP to Apache Support.
+</p><p id="polarion_17"></p><p id="polarion_18">
+  For a better usage the SVN Web Client is installed twice on tomcat, one time using http, one time using https:
+</p><p id="polarion_19">
+  <img src="attachment:screenshot-7.jpg"/>
+</p><p id="polarion_20">
+  Due the nature of the SVNWebClient it is only possible to configure and manage only one server / protocol in a single configuration, we decided to install two different versions, that are masquerade from Apache that handles both protocol redirecting http and https requests to the different SVNWebVlient following the rules defined in the Apache configuration table above.
+</p><p id="polarion_21">
+  <br/>
+  Both SVNWebClient have a configuration file (web.xml) that is configured as follows:<br/>
+</p><p id="polarion_22">
+  <span style="font-weight: bold;">SVNWebClient for http:</span><br/>
+</p><p id="polarion_23">
+  <span style="font-style: italic;">&lt;web-app&gt;<br/>
+       &lt;context-param&gt;<br/>
+          &lt;param-name&gt;ParentRepositoryDirectory&lt;/param-name&gt;<br/>
+          &lt;param-value&gt;&lt;network-address&gt;/repo/&lt;/param-value&gt;<br/>
+       &lt;/context-param&gt;<br/>
+       &lt;context-param&gt;<br/>
+          &lt;param-name&gt;Username&lt;/param-name&gt;<br/>
+          &lt;param-value&gt; empty-value &lt;/param-value&gt;<br/>
+       &lt;/context-param&gt;<br/>
+       &lt;context-param&gt;<br/>
+          &lt;param-name&gt;Password&lt;/param-name&gt;<br/>
+          &lt;param-value&gt;empty-value&lt;/param-value&gt;<br/>
+       &lt;/context-param&gt;</span><br/>
+</p><p id="polarion_44"></p><p id="polarion_24">
+  <span style="font-weight: bold;">SVNWebClient for https:</span>
+</p><p id="polarion_43">
+  <br/>
+  <span style="font-style: italic;">&lt;web-app&gt;<br/>
+       &lt;context-param&gt;<br/>
+          &lt;param-name&gt;ParentRepositoryDirectory&lt;/param-name&gt;<br/>
+          &lt;param-value&gt;https://&lt;network-address&gt;/repo/&lt;/param-value&gt;<br/>
+       &lt;/context-param&gt;<br/>
+       &lt;context-param&gt;<br/>
+          &lt;param-name&gt;Username&lt;/param-name&gt;<br/>
+          &lt;param-value&gt; empty-value &lt;/param-value&gt;<br/>
+       &lt;/context-param&gt;<br/>
+       &lt;context-param&gt;<br/>
+          &lt;param-name&gt;Password&lt;/param-name&gt;<br/>
+          &lt;param-value&gt;empty-value&lt;/param-value&gt;<br/>
+       &lt;/context-param&gt;</span><br/>
+</p><p id="polarion_25"></p><p id="polarion_27">
+  This configuration works to manage http and https configuration in the same server, with same Apache.
+</p><p id="polarion_28"></p><p id="polarion_41"></p><p id="polarion_42"></p>]]></field>
+    <field id="structureLinkRole">parent</field>
+    <field id="outlineNumbering">
+        <struct>
+            <item id="prefix">SVNWC</item>
+        </struct>
+    </field>
+    <field id="author">schucks</field>
+    <field id="created">2013-01-22 09:31:28.751 +0100</field>
+    <field id="renderingLayouts">
+        <list>
+            <struct>
+                <item id="layouter">paragraph</item>
+                <item id="label">Slide</item>
+                <item id="properties">
+                    <list>
+                        <struct>
+                            <item id="value">id</item>
+                            <item id="key">fieldsAtStart</item>
+                        </struct>
+                        <struct>
+                            <item id="value">severity</item>
+                            <item id="key">fieldsAtEnd</item>
+                        </struct>
+                        <struct>
+                            <item id="key">fieldsAtEndAsTable</item>
+                        </struct>
+                        <struct>
+                            <item id="key">hidden</item>
+                        </struct>
+                    </list>
+                </item>
+                <item id="type">slide</item>
+            </struct>
+        </list>
+    </field>
+</module>

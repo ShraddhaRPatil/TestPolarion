@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<enumeration>
+    <option id="admin" name="Admin" sortOrder="1"/>
+    <option id="user" name="User" sortOrder="2"/>
+    <option id="advanced" name="Advanced" sortOrder="3"/>
+    <option id="basic" name="Basic" sortOrder="4"/>
+</enumeration>

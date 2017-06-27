@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">hartliebc</field>
+    <field id="created">2012-05-21 12:04:26.913 +0200</field>
+    <field id="description" text-type="text/html">In order to meet project or product deadlines you must be able to have a cohesive system that allows all stakeholders to work in real time. If stakeholders are working in silos the time to market or the ability to fix a defect can be more time consuming which will lead to delays. A way to deal with this is to provide complete forensic traceability so that all requirements are linked to a test case. Having requirements linked with test cases will keep your product managers, developers and QA stakeholders all in sync and doing so in real time so that deadlines and goals are met.&lt;br/&gt;&lt;br/&gt;&lt;ul&gt;&lt;li&gt;Open document &lt;span style="font-style: italic;"&gt;Portal Specification&lt;/span&gt;&lt;/li&gt;&lt;li&gt;Switch view to table view&lt;/li&gt;&lt;li&gt;Select your first functional requirement &lt;span style="font-style: italic;"&gt;I as a user want to perform simple searches&lt;/span&gt;&lt;/li&gt;&lt;li&gt;Create and link a test case&lt;br/&gt;&lt;br/&gt; &lt;img style="width: 679px;height: 483px;" src="attachment:createlink.jpg"/&gt;&lt;br/&gt;&lt;br/&gt; &lt;table style="width: 600px;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;" class="polarion-Document-table" id="polarion_wiki macro name=table;params=width=600px"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th style="font-weight: bold;font-size: 9pt;background-color: #F0F0F0;line-height: 1.5;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"&gt;Hint: Polarion supports pre-filled fields like test case title. &lt;/th&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;br/&gt;&lt;/li&gt;&lt;li&gt;Add test steps for your test case&lt;br/&gt;&lt;br/&gt; &lt;img src="attachment:newtestcase.jpg"/&gt;&lt;/li&gt;&lt;li&gt;Create new test case&lt;/li&gt;&lt;li&gt;Navigate between work items using their links. Verify that traceability is available in both directions&lt;br/&gt;&lt;/li&gt;&lt;/ul&gt;</field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Create and Link Test Cases with your functional requirements</field>
+    <field id="type">exercise</field>
+</work-item>

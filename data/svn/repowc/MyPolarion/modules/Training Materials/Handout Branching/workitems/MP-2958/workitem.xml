@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="author">hartliebc</field>
+    <field id="title">Branching Documents</field>
+    <field id="created">2012-05-30 12:40:54.679 +0200</field>
+    <field id="priority">25.0</field>
+    <field id="description" text-type="text/html">&lt;img src="attachment:branchingdocuments.jpg" style="width: 719px; height: 452px;"/&gt;&lt;br/&gt;&lt;br/&gt; In each of the branched variants, some requirements from the original or "master" are "referenced". That is, they appear in the variant, but are not contained in it, and may not be modified in it</field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+    <field id="subtitle" type="string">Polarion supports branching of entire Documents, or branching of existing Document-based Work Items into a new Document, in both cases creating a variant Document</field>
+    <field id="trainingCategory" multi="true" type="enum:trainingCategory"/>
+</work-item>

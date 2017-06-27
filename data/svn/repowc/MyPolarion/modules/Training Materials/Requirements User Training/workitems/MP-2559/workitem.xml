@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="initialEstimate">1/10h</field>
+    <field id="type">exercise</field>
+    <field id="author">hartliebc</field>
+    <field id="title">Track requirements as work items</field>
+    <field id="created">2012-04-23 13:17:51.579 +0200</field>
+    <field id="priority">25.0</field>
+    <field id="description" text-type="text/html">Create your first user requirement: &lt;ul&gt;&lt;li&gt;Create new user requirement using shortcut "Create Work Item"&lt;/li&gt;&lt;li&gt;Select type:requirement&lt;/li&gt;&lt;li&gt;Ensure requirement is created in your project&lt;br/&gt;&lt;/li&gt;&lt;/ul&gt;&lt;img style="width: 553px;height: 462px;" src="attachment:createrequirement.jpg"/&gt;&lt;br/&gt;&lt;ul&gt;&lt;li&gt;Add title "The user should be able to login to E-Library"&lt;/li&gt;&lt;li&gt;Add yourself as assignee&lt;/li&gt;&lt;/ul&gt;</field>
+    <field id="remainingEstimate">1/10h</field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+</work-item>

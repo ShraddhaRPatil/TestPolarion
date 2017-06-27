@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<module>
+    <field id="author">schucks</field>
+    <field id="created">2014-12-01 08:42:30.522 -0500</field>
+    <field id="homePageContent" text-type="text/html"><![CDATA[<h1 id="polarion_wiki macro name=module-workitem;params=id=MP-5493"></h1><p id="polarion_template_0">
+   
+</p><h2 id="polarion_wiki macro name=module-workitem;params=id=MP-5494"></h2><div id="polarion_wiki macro name=toc"></div><p id="polarion_2"></p><p id="polarion_3"></p><h2 id="polarion_wiki macro name=module-workitem;params=id=MP-5495"></h2><div id="polarion_wiki macro name=module-workitem;params=id=MP-5496"></div><h2 id="polarion_wiki macro name=module-workitem;params=id=MP-5497"></h2><div id="polarion_wiki macro name=module-workitem;params=id=MP-5498"></div><p id="polarion_4"></p><p id="polarion_5"></p><p id="polarion_1"></p>]]></field>
+    <field id="renderingLayouts">
+        <list>
+            <struct>
+                <item id="label">Slide</item>
+                <item id="layouter">section</item>
+                <item id="properties">
+                    <list>
+                        <struct>
+                            <item id="key">fieldsAtStart</item>
+                            <item id="value">id</item>
+                        </struct>
+                        <struct>
+                            <item id="key">fieldsAtEnd</item>
+                        </struct>
+                        <struct>
+                            <item id="key">fieldsAtEndAsTable</item>
+                        </struct>
+                        <struct>
+                            <item id="key">hidden</item>
+                        </struct>
+                    </list>
+                </item>
+                <item id="type">slide</item>
+            </struct>
+        </list>
+    </field>
+    <field id="structureLinkRole">next</field>
+    <field id="title">Handout Using SQL</field>
+    <field id="usesOutlineNumbering">true</field>
+</module>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">daniel.morris</field>
+    <field id="created">2014-08-07 13:51:58.580 +0200</field>
+    <field id="description" text-type="text/html">Add planning for your testing team&lt;img src="workitemimg:1-DOCATTACHMENT_planboard-testcase.png" style="width:788px;height:410px"/&gt;</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Add planning for your testing team</field>
+    <field id="type">slide</field>
+</work-item>

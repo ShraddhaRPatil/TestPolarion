@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">stroebelet</field>
+    <field id="created">2011-07-29 10:04:39.033 -0400</field>
+    <field id="description" text-type="text/html"><![CDATA[Notifications should only be sent for questions on assignment and when comments have been added<br/>
+<ul>
+  <li>Open <span style="font-style: italic;">Administration&gt;Notifications&gt;Events and Targets</span></li>
+  <li><span style="font-style: italic;">remove all events except of<br/>
+    </span></li>
+  <ul>
+    <li><span style="font-style: italic;">workitem-commented<br/>
+      </span></li>
+    <li><span style="font-style: italic;">workitem-assigned</span></li>
+    <li><span style="font-style: italic;">workitem-watcher-added</span></li>
+    <li><span style="font-style: italic;">workitem-watcher-removed<br/>
+      </span></li>
+    <li><span style="font-style: italic;">document-updated</span></li>
+    <li><span style="font-style: italic;">document-commented</span></li>
+  </ul>
+  <li>Open Advanced Settings and add a filter so E-Mails will only be sent if a &quot;Question&quot; is assigned or commented. </li>
+</ul>]]></field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Define a Minimum Meaningful Notification Level</field>
+    <field id="type">exercise</field>
+</work-item>

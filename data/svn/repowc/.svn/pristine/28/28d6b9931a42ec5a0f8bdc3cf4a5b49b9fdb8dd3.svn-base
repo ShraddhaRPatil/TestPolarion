@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">Wolfgang</field>
+    <field id="created">2015-04-15 05:41:07.554 -0400</field>
+    <field id="description" text-type="text/html"><![CDATA[In one of the previous excercises you have created a Classic Wiki Page. For people who don´t use to work with wiki pages and their scripting language we might want to have an easy way to create reports.<br/>
+ 
+<ul>
+  <li>Goto Documents &amp; Pages</li>
+  <li><span style="font-size: 10pt;line-height: 1.5;">Create a new LiveReport page by clicking plus icon top left</span></li>
+  <li><span style="font-size: 10pt;line-height: 1.5;">Add title and space for your LiveReport (name will be set automatically):<br/>
+      </span></li>
+  <ul>
+    <li>Title: Task Overview</li>
+    <li>Space: Meetings</li>
+  </ul>
+  <li>The layout has three regions by default. The first region should be used for title and description.<br/>
+    Add Table - Block widget into second region (left region) and add a Separated by - Pie Chart widget into the third region (right region).<br/>
+    <img src="attachment:62-screenshot-20151229-044437.png" style="width: 721px;height: 226px;"/><br/>
+    </li>
+  <ul>
+    <li>Add a description for your Rich Page into your first region:<br/>
+      &quot;This report gives you an overview about your tasks in this project. These tasks are separated by status&quot;</li>
+    <li>Setup Table - Block Widget</li>
+    <ul>
+      <li>Select only Task Work Items</li>
+      <li>Remove column Severity</li>
+      <li>Add column Assignee</li>
+      <li>Sort by Status</li>
+    </ul>
+    <li>Setup Separated by - Pie Chart</li>
+    <ul>
+      <li>Add chart title <span style="font-style: italic;">Task by status</span></li>
+      <li>Select only Task Work Items</li>
+      <li>We want to separate by Status<br/>
+        
+        <table id="polarion_wiki macro name=table" class="polarion-Document-table" style="width: 80%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;">
+          <tbody>
+            <tr>
+              <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Hint: To visualize changes made in widget sidebar you need to click &quot;Apply&quot;</th>
+            </tr>
+          </tbody>
+        </table>
+        </li>
+    </ul>
+  </ul>
+</ul>]]></field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Create a new Rich Page report</field>
+    <field id="type">exercise</field>
+</work-item>

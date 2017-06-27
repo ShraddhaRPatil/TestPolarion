@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">admin</field>
+    <field id="created">2013-11-07 06:39:47.598 -0500</field>
+    <field id="description" text-type="text/html"><![CDATA[<span style="font-weight: normal;">Lets ask ourself if we are able to write our own reports after this training.<br/>
+</span> 
+<ul>
+  <li><span style="font-weight: normal;">Create a boolean page parameter &quot;answer&quot;</span></li>
+  <li><span style="font-weight: normal;">Create a parameter form</span></li>
+  <li><span style="font-weight: normal;">Add a HTML table with 2 columns</span></li>
+  <ul>
+    <li><span style="font-weight: normal;">First column should contain &quot;Are we able to script our own reports after training?&quot;</span></li>
+    <li><span style="font-weight: normal;">Second column should check if &quot;anwer&quot; is true or false.</span></li>
+    <ul>
+      <li><span style="font-weight: normal;">If it is true &quot;Good Job!&quot; should be displayed</span></li>
+      <li><span style="font-weight: normal;">If it is false &quot;Oh no :(&quot; should be displayed</span></li>
+    </ul>
+  </ul>
+</ul>
+ <span style="font-weight: bold;">Example Image:<br/>
+  <img src="attachment:parameter.jpg"/><br/>
+</span>]]></field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="type">exercise</field>
+</work-item>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">stroebelet</field>
+    <field id="created">2012-04-24 05:07:30.429 -0400</field>
+    <field id="description" text-type="text/html"><![CDATA[In many cases you will want to reuse a query multiple times. In such cases it is useful to save the query. 
+<ul>
+  <li>Build a query with &quot;bad&quot; words like &quot;easy fast quick modern...&quot; and save it as project query with the name &quot;<span style="font-style: italic;">bad words</span>&quot;<br/>
+    <img src="attachment:savequery.jpg"/><br/>
+  </li>
+</ul>]]></field>
+    <field id="linkedWorkItems">
+        <list>
+            <struct>
+                <item id="revision">41895</item>
+                <item id="role">branched_from</item>
+                <item id="workItem">MP-789</item>
+            </struct>
+        </list>
+    </field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Save your search for later reuse</field>
+    <field id="type">exercise</field>
+</work-item>

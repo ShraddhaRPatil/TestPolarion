@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">daniel.morris</field>
+    <field id="created">2014-08-07 07:37:30.437 -0400</field>
+    <field id="description" text-type="text/html"><![CDATA[In default configuration time which is booked on tasks or defects isn´t calculated automatically to their requirements they are implementing.<br/>
+As a project manager you might want to generate rports how much time it took to implement specific requirements without checking all subtasks.<br/>
+<span style="font-style: normal;">Open Administration&gt;Work Items&gt;Calculated Fields and setup calculated field timeSpent for work item type &quot;Requirement&quot;<br/>
+</span> 
+<ul>
+  <li><span style="font-style: normal;">Set &quot;Calculated Field ID&quot; to &quot;timeSpent&quot;</span></li>
+  <li>Set calculation to sum and add timeSpent as &quot;Source Field ID&quot; calculated from &quot;Chield field&quot;<br/>
+    <img src="workitemimg:1-screenshot-20140731-162549.png" style="width: 413px;height: 110px;"/></li>
+  <li>Verify calculation is working in frontend by inserting an initial estimate to a requirement and book some time on sub task which is linked to your requirement via &quot;implements&quot; link role</li>
+</ul>]]></field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Calculate time spent of your implementing tasks and defects to your requirements</field>
+    <field id="type">exercise</field>
+</work-item>

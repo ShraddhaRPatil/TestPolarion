@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<menu>
+  <item childInModule="true"/>
+
+  <item label="Child Testcase" role="parent" type="testcase" copyFields="categories, timePoint"/>
+  <item label="Related Defect" role="relates_to" type="defect" copyFields="categories"/>
+  <item label="Task" role="implements" type="task" copyFields="categories, timePoint"/>
+
+</Separator>
+</menu>

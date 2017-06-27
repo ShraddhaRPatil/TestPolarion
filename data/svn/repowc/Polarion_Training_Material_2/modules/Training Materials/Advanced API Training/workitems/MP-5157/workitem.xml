@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">schucks</field>
+    <field id="created">2013-10-10 07:19:01.484 -0400</field>
+    <field id="description" text-type="text/html"><![CDATA[Common Macros<br/>
+ Installing commonly used wiki extensions is recommended way to improve the basic wiki functionalities with often used additional features.<br/>
+ To include them go to <a href="http://extensions.polarion.com/polarion/extensions/extension.jsp?extension=PE-174" target="_blank" class="descriptionLink">extensions.polarion.com/polarion/extensions/extension.jsp?extension=PE-174</a>  and download the extension.<br/>
+ <br/>
+ <img src="workitemimg:1-scriptingextension.jpg"/><br/>
+ <br/>
+ After downloading install the extension to Polarion by following the instructions. Normally extensions are installed by unzipping the content to the folder C:\Polarion\polarion\extensions, followed by a restart of the Polarion server.<br/>
+<table id="polarion_wiki macro name=table" class="polarion-Document-table" style="width: 80%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;">
+  <tbody>
+    <tr>
+      <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Hint: Variables in WIki Scripting Tools are available out of the box in Rich Pages. (Variable names differ a little bit) If you want to use Wiki Scripting Variables in Wiki Pages you need to install this extension. For this training we need this extension to be installed.</th>
+    </tr>
+  </tbody>
+</table>
+<br/>]]></field>
+    <field id="previousStatus">open</field>
+    <field id="priority">50.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Common Macros</field>
+    <field id="type">exercise</field>
+</work-item>

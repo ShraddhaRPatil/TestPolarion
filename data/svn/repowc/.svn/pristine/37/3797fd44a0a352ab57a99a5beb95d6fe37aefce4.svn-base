@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<module>
+    <field id="author">daniel.morris</field>
+    <field id="created">2014-08-07 13:46:47.978 +0200</field>
+    <field id="homePageContent" text-type="text/html">&lt;h1 id="polarion_wiki macro name=module-workitem;params=id=MP-5202"&gt;&lt;/h1&gt;&lt;div id="polarion_wiki macro name=module-workitem;params=id=MP-5209"&gt;&lt;/div&gt;&lt;div id="polarion_wiki macro name=module-workitem;params=id=MP-5210"&gt;&lt;/div&gt;&lt;div id="polarion_wiki macro name=module-workitem;params=id=MP-5211"&gt;&lt;/div&gt;&lt;div id="polarion_wiki macro name=module-workitem;params=id=MP-5212"&gt;&lt;/div&gt;&lt;div id="polarion_wiki macro name=module-workitem;params=id=MP-5213"&gt;&lt;/div&gt;&lt;p id="polarion_1"&gt;&lt;/p&gt;</field>
+    <field id="renderingLayouts">
+        <list>
+            <struct>
+                <item id="label">Slide</item>
+                <item id="layouter">paragraph</item>
+                <item id="properties">
+                    <list>
+                        <struct>
+                            <item id="key">fieldsAtStart</item>
+                            <item id="value">id</item>
+                        </struct>
+                        <struct>
+                            <item id="key">fieldsAtEnd</item>
+                            <item id="value">severity</item>
+                        </struct>
+                        <struct>
+                            <item id="key">fieldsAtEndAsTable</item>
+                        </struct>
+                        <struct>
+                            <item id="key">hidden</item>
+                        </struct>
+                    </list>
+                </item>
+                <item id="type">slide</item>
+            </struct>
+        </list>
+    </field>
+    <field id="structureLinkRole">parent</field>
+</module>

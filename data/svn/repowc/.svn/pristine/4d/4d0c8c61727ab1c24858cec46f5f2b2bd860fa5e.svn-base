@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">admin</field>
+    <field id="created">2013-11-07 15:38:22.424 +0100</field>
+    <field id="description" text-type="text/html">Before we go on creating a new wiki page you should explore these API classes, their paramters and return values to get a feeling about their functionallity. Please take your time it might save you some time in the future.&lt;br/&gt;Try some simple functions like:&lt;br/&gt;&lt;ul&gt;&lt;li&gt;$me&lt;/li&gt;&lt;li&gt;$page.project&lt;/li&gt;&lt;li&gt;$page.name&lt;/li&gt;&lt;li&gt;$platformService.polarionProductName&lt;/li&gt;&lt;li&gt;$platformService.polarionVersion&lt;/li&gt;&lt;/ul&gt;</field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="type">exercise</field>
+</work-item>

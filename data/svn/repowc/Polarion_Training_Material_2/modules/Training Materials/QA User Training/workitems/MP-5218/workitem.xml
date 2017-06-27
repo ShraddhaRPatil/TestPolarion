@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">daniel.morris</field>
+    <field id="created">2014-08-07 08:57:24.863 -0400</field>
+    <field id="description" text-type="text/html"><![CDATA[By default test runs are disabled in our Software Specification project. Before we start we need to enable this topic in project administration.<br/>
+<ul>
+  <li>Open Administration &gt; Portal &gt; Topics &gt; Edit default Topic configuration</li>
+  <li>Add &quot;testruns&quot; as topic<br/>
+    <img src="workitemimg:1-screenshot-20140807-145725.png"/></li>
+  <li>Save configuration and verify Test Runs are available in Polarion UI</li>
+</ul>]]></field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Enable Test Runs topic in project</field>
+    <field id="type">exercise</field>
+</work-item>

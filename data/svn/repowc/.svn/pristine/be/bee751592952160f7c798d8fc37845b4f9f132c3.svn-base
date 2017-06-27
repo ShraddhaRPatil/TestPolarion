@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">exercise</field>
+    <field id="author">hartliebc</field>
+    <field id="title">Propagate, Check and Remove a Suspect</field>
+    <field id="created">2012-05-16 09:56:23.128 +0200</field>
+    <field id="description" text-type="text/html">Whenever you change the meaning of a task or another work item you should consider a suspect. &lt;ul&gt;&lt;li&gt;Open your task "&lt;span style="font-style: italic;"&gt;gather requirements for our project"&lt;/span&gt;&lt;/li&gt;&lt;li&gt;Add to description "We need to create a requirement work item for each requirement in our project."&lt;/li&gt;&lt;li&gt;Select "save and suspect" or if you edit the task within a document go to document properties and turn auto-suspect "on"&lt;/li&gt;&lt;li&gt;open shortcut "My Suspect Work Items"&lt;br/&gt; &lt;table style="width: 600px;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;" class="polarion-Document-table" id="polarion_wiki macro name=table;params=width=600px"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th style="font-weight: bold;font-size: 12px;background-color: #F0F0F0;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"&gt;Hint: Suspect work items are also displayed on your personal home page&lt;/th&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;br/&gt;&lt;/li&gt;&lt;li&gt;open each suspect task and check if an update is needed&lt;/li&gt;&lt;li&gt;use work item comments to track your changes&lt;/li&gt;&lt;li&gt;update task and remove the suspect&lt;br/&gt;&lt;/li&gt;&lt;/ul&gt;</field>
+    <field id="priority">25.0</field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+</work-item>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">daniel.morris</field>
+    <field id="created">2012-05-08 08:59:33.927 -0400</field>
+    <field id="description" text-type="text/html"><![CDATA[Usually you won´t develop test cases and test scenarios only for one test run. By developing your product you are going to retest your product again and again, so called regression tests. We want to reuse our test cases with severity &quot;smoke&quot; inside a test scenario so called test run. 
+<ul>
+  <li>Goto Test Runs and click &quot;Create&quot; at the upper left</li>
+  <li>Create 2 test runs &quot;<span style="font-size: 10pt;line-height: 1.5;">i1_SmokeTest_Team A</span>&quot; and &quot;<span style="font-size: 10pt;line-height: 1.5;">i1_SmokeTest_Team B</span>&quot; and select &quot;Smoke Test&quot; as template</li>
+  <li>After creation you should have 2 test runs which are also test reports for our management<br/>
+    </li>
+</ul>
+ You have created 2 similar test runs with the same test cases. Next step will be to assign these test runs to a testing team by creating a test plan.]]></field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Reuse test cases and test scenarios</field>
+    <field id="type">exercise</field>
+</work-item>

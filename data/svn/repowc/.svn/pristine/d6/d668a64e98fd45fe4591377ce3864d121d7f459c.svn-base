@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<module>
+    <field id="usesOutlineNumbering">true</field>
+    <field id="homePageContent" text-type="text/html"><![CDATA[<p id="polarion_merged_0"><br/></p>
+<h1 id="polarion_wiki macro name=module-workitem;params=id=MP-3704"></h1>
+<p id="polarion_template_0"><br/>Description what is part of the document</p>
+<h2 id="polarion_wiki macro name=module-workitem;params=id=MP-3705"></h2>
+<div id="polarion_wiki macro name=toc"></div>
+<p id="polarion_merged_1"><br/></p>
+<div id="polarion_wiki macro name=page_break"></div>
+<h2 id="polarion_wiki macro name=module-workitem;params=id=MP-3707"></h2>
+<div id="polarion_wiki macro name=module-workitem;params=id=MP-2914|external=true"></div>
+<p id="polarion_merged_2"><br/></p>
+<div id="polarion_wiki macro name=page_break;params=uid=10"></div>
+<h2 id="polarion_wiki macro name=module-workitem;params=id=MP-3708"></h2>
+<div id="polarion_wiki macro name=module-workitem;params=id=MP-2932|external=true"></div>
+<p id="polarion_merged_5"><br/></p>
+<div id="polarion_wiki macro name=page_break|uid=merged_0"></div>
+<div id="polarion_wiki macro name=module-workitem;params=id=MP-3933|external=true" class="polarion-Document-workitem"></div>
+<p id="polarion_merged_7"><br/></p>
+<div id="polarion_wiki macro name=page_break|uid=merged_1"></div>
+<div id="polarion_wiki macro name=module-workitem;params=id=MP-3927|external=true" class="polarion-Document-workitem"></div>
+<div id="polarion_wiki macro name=page_break;params=uid=11"></div>
+<div id="polarion_wiki macro name=module-workitem;params=id=MP-3040|external=true"></div>
+<p id="polarion_new_4"><br/></p>
+<div id="polarion_wiki macro name=page_break;params=uid=12"></div>
+<div id="polarion_wiki macro name=module-workitem;params=id=MP-3043|external=true"></div>
+<p id="polarion_merged_3"><br/></p>
+<div id="polarion_wiki macro name=page_break;params=uid=13"></div>
+<h2 id="polarion_wiki macro name=module-workitem;params=id=MP-3709"></h2>
+<div id="polarion_wiki macro name=module-workitem;params=id=MP-2933|external=true"></div>
+<p id="polarion_new_5"><br/></p>
+<div id="polarion_wiki macro name=page_break;params=uid=14"></div>
+<div id="polarion_wiki macro name=module-workitem;params=id=MP-3041|external=true"></div>
+<p id="polarion_new_7"><br/></p>
+<div id="polarion_wiki macro name=page_break;params=uid=15"></div>
+<div id="polarion_wiki macro name=module-workitem;params=id=MP-3042|external=true"></div>
+<p id="polarion_new_18"><br/></p>
+<div id="polarion_wiki macro name=page_break;params=uid=19"></div>
+<h2 id="polarion_wiki macro name=module-workitem;params=id=MP-3710"></h2>
+<div id="polarion_wiki macro name=module-workitem;params=id=MP-2940|external=true"></div>
+<p id="polarion_new_9"><br/></p>
+<div id="polarion_wiki macro name=page_break;params=uid=16"></div>
+<h2 id="polarion_wiki macro name=module-workitem;params=id=MP-3711"></h2>
+<div id="polarion_wiki macro name=module-workitem;params=id=MP-3075|external=true"></div>
+<p id="polarion_new_8"><br/></p>
+<div id="polarion_wiki macro name=page_break;params=uid=17"></div>
+<h2 id="polarion_wiki macro name=module-workitem;params=id=MP-3712"></h2>
+<div id="polarion_wiki macro name=module-workitem;params=id=MP-2942|external=true"></div>
+]]></field>
+    <field id="structureLinkRole">next</field>
+    <field id="branchedFrom">Training Materials#Handout Linking Requirements</field>
+    <field id="outlineNumbering">
+        <struct>
+            <item id="prefix"/>
+        </struct>
+    </field>
+    <field id="author">CarolaH</field>
+    <field id="created">2012-08-07 13:20:22.599 +0200</field>
+    <field id="renderingLayouts">
+        <list>
+            <struct>
+                <item id="layouter">section</item>
+                <item id="label">Slide</item>
+                <item id="properties">
+                    <list>
+                        <struct>
+                            <item id="value">id</item>
+                            <item id="key">fieldsAtStart</item>
+                        </struct>
+                        <struct>
+                            <item id="value"/>
+                            <item id="key">fieldsAtEnd</item>
+                        </struct>
+                        <struct>
+                            <item id="value"/>
+                            <item id="key">fieldsAtEndAsTable</item>
+                        </struct>
+                        <struct>
+                            <item id="value"/>
+                            <item id="key">hidden</item>
+                        </struct>
+                    </list>
+                </item>
+                <item id="type">slide</item>
+            </struct>
+        </list>
+    </field>
+</module>

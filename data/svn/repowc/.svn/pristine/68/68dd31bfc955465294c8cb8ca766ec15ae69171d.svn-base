@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">stroebelet</field>
+    <field id="created">2011-04-27 09:59:48.336 -0400</field>
+    <field id="description" text-type="text/html"><![CDATA[<ul>
+  <li>Do not allow to delete items completely (items will stay in recycle bin)<br/>
+    <img src="attachment:1-screenshot-20141031-072239.png" style="width: 229px;height: 200px;"/><br/>
+    <br/>
+  </li>
+  <li>Only project_roles can browse projects<br/>
+    <img src="attachment:2-screenshot-20141031-072239.png" style="width: 167px;height: 70px;"/><br/>
+    <br/>
+  </li>
+  <li>Not everybody can execute reports (reduce server load)<br/>
+    <img src="attachment:3-screenshot-20141031-072239.png" style="width: 229px;height: 90px;"/><br/>
+  </li>
+</ul>]]></field>
+    <field id="hyperlinks">
+        <list>
+            <struct>
+                <item id="role">renderSlide</item>
+                <item id="uri">/polarion/wiki/bin/view/project/MyPolarion/page/macros/RenderSlides?item=MP-538</item>
+            </struct>
+        </list>
+    </field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">accepted</field>
+    <field id="subtitle" type="string"> </field>
+    <field id="title">Typical Permission Options</field>
+    <field id="type">slide</field>
+</work-item>

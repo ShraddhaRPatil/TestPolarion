@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<module>
+    <field id="author">admin</field>
+    <field id="created">2011-02-01 12:57:01.949 +0100</field>
+    <field id="homePageContent" text-type="text/html"><![CDATA[<h1 id="polarion_wiki macro name=module-workitem;params=id=WI-187"></h1><p id="polarion_new_0">
+  A document specifying the details of the test approach for a software feature or combination of software features and identifying the associated tests.
+</p><div id="polarion_wiki macro name=toc"></div><h2 id="polarion_wiki macro name=module-workitem;params=id=WI-188"></h2><h3 id="polarion_wiki macro name=module-workitem;params=id=WI-189"></h3><p id="polarion_1">
+  Identify the purpose of this Test Plan document and its intended audience.
+</p><h3 id="polarion_wiki macro name=module-workitem;params=id=WI-190"></h3><p id="polarion_2">
+  Provide a short description of the software being tested and the test design itself.
+</p><h3 id="polarion_wiki macro name=module-workitem;params=id=WI-191"></h3><p id="polarion_3">
+  List any other documents or Web addresses to which this test design document refers. Provide enough information so that the reader could access a copy of each reference, including title, author, version number, date, and source or location.
+</p><h2 id="polarion_wiki macro name=module-workitem;params=id=WI-192"></h2><h2 id="polarion_wiki macro name=module-workitem;params=id=WI-193"></h2><h2 id="polarion_wiki macro name=module-workitem;params=id=WI-194"></h2><p id="polarion_4">
+  List the identifier and a brief description of each test case associated with this design. A particular test case may be identified in more than one test design specification. List the identifier and a brief description of each procedure associated with this test design specification.Example:
+</p><ul id="polarion_5">
+  <li><span style="font-style: italic;"><img src="/polarion/icons/default/details/document.png"/>Acceptance Test Case A</span> - an acceptance test case A, ...</li>
+  <li><span style="font-style: italic;"><img src="/polarion/icons/default/details/document.png"/>System Test Procedure A</span> - a system test procedure A, ...</li>
+  <li><span style="font-style: italic;"><img src="/polarion/icons/default/details/document.png"/>Acceptance Test Case A</span> - an acceptance test case A, ...</li>
+  <li><span style="font-style: italic;"><img src="/polarion/icons/default/details/document.png"/>System Test Procedure A</span> - a system test procedure A, ...</li>
+</ul><h2 id="polarion_wiki macro name=module-workitem;params=id=WI-195"></h2><h2 id="polarion_wiki macro name=module-workitem;params=id=WI-331"></h2><p id="polarion_merged_0">
+  Define all the terms necessary to properly interpret this document, including acronyms and abbreviations. You may wish to build a separate glossary that spans multiple projects or the entire organization, and just include terms specific to a single project in each document.
+</p>]]></field>
+    <field id="outlineNumbering">
+        <struct/>
+    </field>
+    <field id="renderingLayouts">
+        <list>
+            <struct>
+                <item id="label">Task</item>
+                <item id="layouter">section</item>
+                <item id="properties">
+                    <list>
+                        <struct>
+                            <item id="key">fieldsAtStart</item>
+                            <item id="value">id</item>
+                        </struct>
+                        <struct>
+                            <item id="key">fieldsAtEnd</item>
+                            <item id="value">severity, status</item>
+                        </struct>
+                        <struct>
+                            <item id="key">fieldsAtEndAsTable</item>
+                        </struct>
+                        <struct>
+                            <item id="key">hidden</item>
+                        </struct>
+                    </list>
+                </item>
+                <item id="type">task</item>
+            </struct>
+        </list>
+    </field>
+    <field id="status">draft</field>
+    <field id="structureLinkRole">parent</field>
+    <field id="type">generic</field>
+    <field id="usesOutlineNumbering">true</field>
+</module>

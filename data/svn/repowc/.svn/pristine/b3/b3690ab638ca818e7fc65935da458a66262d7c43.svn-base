@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<roles>
+    <role>creator</role>
+    <role>incidentCoordinator</role>
+    <role>incidentInvestigator</role>
+    <role>incidentReviewer</role>
+</roles>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<module>
+    <field id="author">sergeD</field>
+    <field id="created">2014-08-29 09:49:51.813 -0400</field>
+    <field id="homePageContent" text-type="text/html"><![CDATA[<h1 id="polarion_wiki macro name=module-workitem;params=id=MP-5248"></h1><p id="polarion_template_0">
+  <br/>
+  <span style="font-family: Verdana, Geneva, sans-serif;">Sometimes it can be useful classify Polarion </span><a href="http://pc-serged:81/polarion/help/topic/com.polarion.xray.doc.user/apa.html#gl_livedocument" style="color: #000080;">LiveDoc</a><span style="font-family: Verdana, Geneva, sans-serif;"> documents (&quot;Documents&quot;) by type.<br/>
+    For example, you might want to have different Document <span style="background-color: #B5D5FF;">types</span> for different <span style="background-color: #B5D5FF;">types</span> of specifications. </span>
+</p><p id="polarion_1">
+  <span style="font-family: Verdana, Geneva, sans-serif;"> there can be a need to have workflow control over entire Documents in order to establish traceability for some process related to Documents. <br/>
+    For example, you might want to have Document statuses such as &quot;Draft&quot;, &quot;Under Review&quot;, &quot;Reviewed&quot;, &quot;Approved&quot;, etc. and be able to transition entire Documents through these statuses.</span>
+</p><h2 id="polarion_wiki macro name=module-workitem;params=id=MP-5249"></h2><div id="polarion_wiki macro name=toc"></div><h2 id="polarion_wiki macro name=module-workitem;params=id=MP-5351"></h2><div id="polarion_wiki macro name=module-workitem;params=id=MP-5214"></div><p id="polarion_cleaned_0"></p><h2 id="polarion_wiki macro name=module-workitem;params=id=MP-5262"></h2><div id="polarion_wiki macro name=module-workitem;params=id=MP-5263"></div><p id="polarion_2"></p><h2 id="polarion_wiki macro name=module-workitem;params=id=MP-5251"></h2><div id="polarion_wiki macro name=module-workitem;params=id=MP-5259"></div><div id="polarion_wiki macro name=module-workitem;params=id=MP-5260"></div><h2 id="polarion_wiki macro name=module-workitem;params=id=MP-5356"></h2><div id="polarion_wiki macro name=module-workitem;params=id=MP-5215"></div><p id="polarion_3"></p><h2 id="polarion_wiki macro name=module-workitem;params=id=MP-5253"></h2><div id="polarion_wiki macro name=module-workitem;params=id=MP-5254"></div><h2 id="polarion_wiki macro name=module-workitem;params=id=MP-5257"></h2><div id="polarion_wiki macro name=module-workitem;params=id=MP-5258"></div><div id="polarion_wiki macro name=module-workitem;params=id=MP-5261"></div><p id="polarion_merged_1">
+  <br/>
+</p>]]></field>
+    <field id="renderingLayouts">
+        <list>
+            <struct>
+                <item id="label">Slide</item>
+                <item id="layouter">section</item>
+                <item id="properties">
+                    <list>
+                        <struct>
+                            <item id="key">fieldsAtStart</item>
+                            <item id="value">id</item>
+                        </struct>
+                        <struct>
+                            <item id="key">fieldsAtEnd</item>
+                        </struct>
+                        <struct>
+                            <item id="key">fieldsAtEndAsTable</item>
+                        </struct>
+                        <struct>
+                            <item id="key">hidden</item>
+                        </struct>
+                    </list>
+                </item>
+                <item id="type">slide</item>
+            </struct>
+        </list>
+    </field>
+    <field id="structureLinkRole">next</field>
+    <field id="usesOutlineNumbering">true</field>
+</module>

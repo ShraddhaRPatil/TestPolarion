@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<workflow initial-action="open" initial-status="open" prototype="WorkItem">
+    <transitions>
+        <transition action="markAccepted" from="open" to="inInvestigation"/>
+        <transition action="sendToRootCauseApproval" from="inInvestigation" to="approveRootCause"/>
+        <transition action="markRootCauseApproved" from="approveRootCause" to="inImplementation"/>
+        <transition action="sendToReview" from="inImplementation" to="review"/>
+        <transition action="markReviewed" from="review" to="monitor"/>
+        <transition action="markClosed" from="monitor" to="closed"/>
+    </transitions>
+    <actions>
+        <action id="open" name="Open">
+            <cleared>
+                <field name="resolution"/>
+            </cleared>
+            <functions>
+                <function name="LinkedWorkItemsStatusChange">
+                    <param name="back.link.roles" value="depends_on"/>
+                    <param name="link.roles" value="parent"/>
+                    <param name="valid.states" value="open,inprogress,reopened"/>
+                    <param name="target.state" value="reopened"/>
+                    <param name="clear.attribs" value="resolution"/>
+                </function>
+            </functions>
+        </action>
+        <action id="markAccepted" name="Mark Accepted"/>
+        <action id="startInvestigation" name="Start Investigation"/>
+        <action id="markInvestigationDone" name="Mark Investigation Done"/>
+        <action id="sendToRootCauseApproval" name="Send to Root Cause Approval"/>
+        <action id="markRootCauseApproved" name="Mark Root Cause Approved"/>
+        <action id="sendToReview" name="Send to Review"/>
+        <action id="markReviewed" name="Mark Reviewed"/>
+        <action id="markClosed" name="Mark Closed"/>
+    </actions>
+</workflow>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="author">stroebelet</field>
+    <field id="title">Query Builder And Filter</field>
+    <field id="created">2012-02-13 21:49:38.959 +0100</field>
+    <field id="priority">25.0</field>
+    <field id="description" text-type="text/html">&lt;ul&gt;&lt;li&gt;&lt;span style="font-size: 12.800000190734863px; line-height: normal;"&gt;Query Builder enables the user to build complex queries visually&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;br/&gt;&lt;img src="attachment:querybuilder.jpg"/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;ul style=""&gt;&lt;li style=""&gt;&lt;span style="font-size: 12.800000190734863px; line-height: normal;"&gt;It is possible to switch between query builder and the query language itself&lt;/span&gt;&lt;/li&gt;&lt;li style=""&gt;&lt;span style="font-size: 12.800000190734863px; line-height: normal;"&gt;The query language itself can be extended using custom macros&lt;br style=""/&gt;&lt;/span&gt;&lt;/li&gt;&lt;li style=""&gt;&lt;span style="font-size: 12.800000190734863px; line-height: normal;"&gt;Queries are cached for later reuse&lt;/span&gt;&lt;/li&gt;&lt;li style=""&gt;&lt;span style="font-size: 12.800000190734863px; line-height: normal;"&gt;Queries could be stored as global-, project  or user-related query. &lt;/span&gt;&lt;/li&gt;&lt;li style=""&gt;&lt;span style="font-size: 12.800000190734863px; line-height: normal;"&gt;There are a number of default saved queries which are available using the drop down menu in the user interface.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;br/&gt;&lt;br/&gt;&lt;img src="attachment:queryoptions.jpg"/&gt;</field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+    <field id="subtitle" type="string"> Search queries can range from simple to complex depending on what subset of Work Items is searched for.  </field>
+    <field id="trainingCategory" multi="true" type="enum:trainingCategory"/>
+</work-item>

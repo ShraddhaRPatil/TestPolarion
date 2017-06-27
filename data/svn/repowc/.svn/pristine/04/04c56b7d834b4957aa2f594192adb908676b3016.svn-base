@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="hyperlinks">
+        <list>
+            <struct>
+                <item id="role">renderSlide</item>
+                <item id="uri">/polarion/wiki/bin/view/project/MyPolarion/page/macros/RenderSlides?item=MP-1208</item>
+            </struct>
+        </list>
+    </field>
+    <field id="author">stroebelet</field>
+    <field id="title">Links to Keep Traceability And Consistency</field>
+    <field id="created">2011-09-13 13:35:32.777 +0200</field>
+    <field id="description" text-type="text/html">&lt;img src="workitemimg:3-statementTraceability2.jpg" style="width: 716px; height: 511px;"/&gt;</field>
+    <field id="priority">25.0</field>
+    <field id="status">accepted</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+    <field id="subtitle" type="string">You must be able to trace each statements within and across the different documents</field>
+    <field id="trainingCategory" multi="true" type="enum:trainingCategory"/>
+    <field id="printNotes" text-type="text/html" type="text/html">&lt;div&gt;&lt;ul&gt;&lt;li&gt;you need to understand the impact of changes&lt;/li&gt;&lt;li&gt;you need to ensure that all information in the project and across projects stays consistent&lt;/li&gt;&lt;li&gt;you need to ensure that all requirements are covered with in your project&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</field>
+    <field id="speakersNotes" text-type="text/plain" type="text/html"/>
+</work-item>

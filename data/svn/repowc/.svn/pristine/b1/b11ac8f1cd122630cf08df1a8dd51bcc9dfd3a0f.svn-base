@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">hartliebc</field>
+    <field id="created">2012-05-15 08:47:59.924 -0400</field>
+    <field id="description" text-type="text/html"><![CDATA[<ul>
+  <li>Click on the gear icon inside of the document<br/>
+    <img src="workitemimg:2-screenshot-20141017-082744.png"/><br/>
+    and click <span style="font-style: italic;">Reuse</span> to create a new Meeting Document with name: <span style="font-style: italic;">User Training Meeting Notes [date]</span></li>
+  <ul>
+    <li>Select Space &quot;Meetings&quot;<br/>
+    </li>
+    <li>Check: <span style="font-style: italic;">Remove outgoing Work Item links</span><br/>
+    </li>
+    <li>Uncheck: <span style="font-style: italic;">Link duplicate to original<br/>
+        <img src="workitemimg:1-screenshot-20141017-082445.png"/><br/>
+      </span></li>
+  </ul>
+  <li>Change document title to <span style="font-style: italic;">User Training Meeting Notes</span><br/>
+  </li>
+</ul>
+<table id="polarion_wiki macro name=table;params=width=600px" class="polarion-Document-table" style="width: 600px;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;">
+  <tbody>
+    <tr>
+      <th style="font-weight: bold;font-size: 9pt;background-color: #F0F0F0;line-height: 1.5;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Hint: Try out following options: 
+        <ul>
+          <li>Create at least two new tasks</li>
+          <li>Create at least one child task by pressing the tab button.<br/>
+          </li>
+          <li>Open <span style="font-style: italic;">Work Item Properties<span id="polarion-comment:33"></span> Pane</span> and add responsible person (if needed change pane settings to show assignee)</li>
+          <li>Configure your document that the assignee is shown on the document<br/>
+          </li>
+          <li>Move and delete tasks</li>
+          <li>Add a &quot;relates_to&quot; link between two tasks using the link symbol next to the task icon<br/>
+          </li>
+          <li>Try <span style="font-style: italic;">Recycle Bin</span> and document <span style="font-style: italic;">Comment</span></li>
+        </ul>
+      </th>
+    </tr>
+  </tbody>
+</table>
+<br/>
+<table id="polarion_wiki macro name=table;params=width=600px|uid=client1" class="polarion-Document-table" style="width: 600px;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;">
+  <tbody>
+    <tr>
+      <th style="font-size: 9pt;background-color: #F0F0F0;line-height: 1.5;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Hint: Use your document <span style="font-style: italic;">Training Meeting Notes to take</span> notes during your training </th>
+    </tr>
+  </tbody>
+</table>
+<br/>
+<br/>]]></field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Create Meeting Minutes Document</field>
+    <field id="type">exercise</field>
+    <field id="upgradedescription" type="boolean">true</field>
+</work-item>

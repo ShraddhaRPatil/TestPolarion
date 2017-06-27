@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">hartliebc</field>
+    <field id="created">2012-05-16 04:58:30.742 -0400</field>
+    <field id="description" text-type="text/html"><![CDATA[A) Create requirements as a stand alone work item<br/>
+<br/>
+<br/>
+B) Elicit requirements using Polarion LiveDoc Documents<br/>
+<br/>
+<br/>
+C) Import requirements from a Microsoft Word and/or Excel document]]></field>
+    <field id="hyperlinks">
+        <list>
+            <struct>
+                <item id="role">renderSlide</item>
+                <item id="uri">/polarion/wiki/bin/view/project/MyPolarion/page/macros/RenderSlides?item=MP-490</item>
+            </struct>
+            <struct>
+                <item id="role">video</item>
+                <item id="uri">http://www.polarion.com/video/tutorials/workwithdocs/</item>
+            </struct>
+            <struct>
+                <item id="role">help</item>
+                <item id="uri">/polarion/help/index.jsp</item>
+            </struct>
+        </list>
+    </field>
+    <field id="linkedWorkItems">
+        <list>
+            <struct>
+                <item id="role">seeAlso</item>
+                <item id="workItem">MP-462</item>
+            </struct>
+            <struct>
+                <item id="role">seeAlso</item>
+                <item id="workItem">MP-469</item>
+            </struct>
+            <struct>
+                <item id="role">seeAlso</item>
+                <item id="workItem">MP-446</item>
+            </struct>
+        </list>
+    </field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">accepted</field>
+    <field id="subtitle" type="string">There are various ways how requirements can be entered into Polarion</field>
+    <field id="title">Requirements Elicitation</field>
+    <field id="type">slide</field>
+</work-item>

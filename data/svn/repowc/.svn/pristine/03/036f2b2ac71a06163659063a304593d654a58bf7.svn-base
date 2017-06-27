@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">schucks</field>
+    <field id="created">2014-08-04 04:57:51.066 -0400</field>
+    <field id="description" text-type="text/html">&lt;span style="font-weight: bold;"&gt;Changing the Job&lt;/span&gt;&lt;br/&gt;&lt;br/&gt;Now that you are familiar with the job, we will change the example.&lt;br/&gt;&lt;ol&gt;&lt;li&gt;Copy the Project or import it again using the name "com.polarion.training.job".&lt;/li&gt;&lt;li&gt;Delete all parameters except "query".&lt;/li&gt;&lt;li&gt;Delete all logic from runInternal(...) except the line:&lt;/li&gt;&lt;li style="list-style: none"&gt;&lt;ol&gt;&lt;li&gt;ITrackerService trackerService = (ITrackerService) PlatformContext.getPlatform().lookupService(ITrackerService.class);&lt;/li&gt;&lt;/ol&gt;&lt;/li&gt;&lt;li&gt;Delete everything from the java files which is not used any longer.&lt;/li&gt;&lt;li&gt;In the runInternal method, add the code to print a comment into the job's logfile.&lt;/li&gt;&lt;li style="list-style: none"&gt;&lt;ol&gt;&lt;li&gt;Use line getLogger().info("&amp;lt;some text&amp;gt;"); to create log comments&lt;/li&gt;&lt;li&gt;The left Parameter in the job is query - insert into the comment the amount of items the query returns.&lt;/li&gt;&lt;/ol&gt;&lt;/li&gt;&lt;li&gt;Start your server, execute the job and confirm that the log contains the correct output.&lt;/li&gt;&lt;/ol&gt;</field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="type">exercise</field>
+</work-item>

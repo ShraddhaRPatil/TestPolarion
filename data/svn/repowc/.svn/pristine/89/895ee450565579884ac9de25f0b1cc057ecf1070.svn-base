@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="assignee">
+        <list>
+            <item>jRequirement</item>
+            <item>mTest</item>
+        </list>
+    </field>
+    <field id="author">admin</field>
+    <field id="created">2011-01-26 20:18:24.259 +0100</field>
+    <field id="description" text-type="text/html">User can be assigned into multiple user roles</field>
+    <field id="previousStatus">draft</field>
+    <field id="priority">50.0</field>
+    <field id="reqtype" type="enum:reqtype">functional</field>
+    <field id="severity">should_have</field>
+    <field id="status">reviewed</field>
+    <field id="targetVersion" type="enum:@plan[template.id:release]">Version_1_0</field>
+    <field id="type">requirement</field>
+</work-item>

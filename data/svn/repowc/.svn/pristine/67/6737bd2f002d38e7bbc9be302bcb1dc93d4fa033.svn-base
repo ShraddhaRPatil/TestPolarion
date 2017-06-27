@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">hartliebc</field>
+    <field id="created">2012-05-21 06:01:01.622 -0400</field>
+    <field id="description" text-type="text/html"><![CDATA[<ul>
+  <li>Select <span style="font-style: italic;">Specification</span> and check coverage for Functional Requirements by clicking on Test Coverage Link<br/>
+    <img src="attachment:coveragefunctional.jpg" style="width: 629px;height: 397px;"/><br/>
+    <br/>
+    
+    <table id="polarion_wiki macro name=table" class="polarion-Document-table" style="width: 80%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;">
+      <tbody>
+        <tr>
+          <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Hint: This was a way to change status of data without a formal review and approval with signatures. We also didn´t have any restrictions. his will change in our next exercises.</th>
+        </tr>
+      </tbody>
+    </table>
+    </li>
+</ul>]]></field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Check coverage of functional requirements by test cases</field>
+    <field id="type">exercise</field>
+</work-item>

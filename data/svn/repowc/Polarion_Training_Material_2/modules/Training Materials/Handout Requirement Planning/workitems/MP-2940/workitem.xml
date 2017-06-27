@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="hyperlinks">
+        <list>
+            <struct>
+                <item id="role">renderSlide</item>
+                <item id="uri">/polarion/wiki/bin/view/project/MyPolarion/page/macros/RenderSlides?item=MP-497</item>
+            </struct>
+        </list>
+    </field>
+    <field id="author">hartliebc</field>
+    <field id="title">How to Plan Requirements</field>
+    <field id="created">2012-05-30 11:30:09.717 +0200</field>
+    <field id="priority">25.0</field>
+    <field id="description" text-type="text/html">&lt;span style="font-weight: bolder;"&gt;Release Planning:&lt;/span&gt;&lt;br/&gt;&lt;br/&gt;&lt;ol&gt;&lt;li&gt;&lt;p&gt;To plan an item for release the requirement needs to be approved first&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Select items that are approved but not yet accepted&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Accept them and set the appropriate target release&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Items planned to a release will then be refined and planned to iterations using time points&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;&lt;br/&gt;&lt;img src="attachment:planning.jpg" style="width: 605px;height: 261px;"/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;span style="font-weight: bolder;font-style: italic;"&gt;Releases/Unplanned&lt;/span&gt;&lt;span style="font-weight: bolder;"&gt;:&lt;/span&gt; &lt;span style="font-style: italic;"&gt;Approved requirements/user stories which are not yet planned&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span style="font-weight: bolder;font-style: italic;"&gt;Releases/Release 1:&lt;/span&gt; Accepted requirements/user stories planned for Release 1&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;SprintBoard: Backlog for a sprint (iteration) - Accepted requirements/user stories planned to sprint with timePoint&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</field>
+    <field id="status">accepted</field>
+    <field id="severity">normal</field>
+    <field id="subtitle" type="string"> </field>
+</work-item>

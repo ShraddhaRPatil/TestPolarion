@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">hartliebc</field>
+    <field id="created">2012-05-30 07:36:47.563 -0400</field>
+    <field id="description" text-type="text/html">&lt;ul&gt;&lt;li&gt;Open your &lt;span style="font-style: italic;"&gt;Portal Specification&lt;/span&gt; document&lt;/li&gt;&lt;li&gt;Create a branched document based on head revision and name it &lt;span style="font-style: italic;"&gt;Portal Specification Android&lt;/span&gt;&lt;br/&gt; &lt;img src="attachment:111-screenshot-20141031-084211.png"/&gt;&lt;br/&gt;&lt;br/&gt; &lt;img src="attachment:112-screenshot-20141031-084211.png"/&gt;&lt;br/&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;Make changes to work items and check branched document - are changes reflected in branched document ?&lt;/li&gt;&lt;/ul&gt;</field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Create a branched document of your portal specification for e.g. Android smart phones</field>
+    <field id="type">exercise</field>
+</work-item>

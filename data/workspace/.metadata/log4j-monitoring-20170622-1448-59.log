@@ -1,0 +1,18 @@
+2017-06-22 14:49:05,069 [main | u:p] INFO  com.polarion.platform.monitoring  - Full monitoring results are stored in file C:\Polarion\data\workspace\monitoring\results.txt
+2017-06-22 14:49:05,116 [main | u:p] INFO  com.polarion.platform.monitoring  - Executing actions from stage PREBOOT
+2017-06-22 14:49:05,120 [main | u:p] INFO  com.polarion.platform.monitoring  - Executing action 'system.info.disk.data.free'
+2017-06-22 14:49:05,123 [main | u:p] INFO  com.polarion.platform.monitoring  - system.info.disk.data.free (Free data disk 'C:\Polarion\polarion\..\data' space) = Disk Space 
+844.95 GB
+ [Thu Jun 22 14:49:05 IST 2017]
+2017-06-22 14:49:05,168 [main | u:p] INFO  com.polarion.platform.monitoring  - Executing action 'system.info.jvm.version'
+2017-06-22 14:49:05,168 [main | u:p] INFO  com.polarion.platform.monitoring  - system.info.jvm.version (JVM Version) = JVM Version 
+Oracle Corporation Java HotSpot(TM) 64-Bit Server VM 25.111-b14
+ [Thu Jun 22 14:49:05 IST 2017]
+2017-06-22 14:49:05,177 [main | u:p] INFO  com.polarion.platform.monitoring  - Executing action 'system.info.os.version'
+2017-06-22 14:49:05,177 [main | u:p] INFO  com.polarion.platform.monitoring  - system.info.os.version (OS Version) = OS Version 
+Windows 10 10.0 amd64
+ [Thu Jun 22 14:49:05 IST 2017]
+2017-06-22 14:49:05,185 [main | u:p] INFO  com.polarion.platform.monitoring  - Finished with actions from stage PREBOOT: {OK=3}
+2017-06-22 14:49:44,655 [main | u:p] INFO  com.polarion.platform.monitoring  - Next slow periodic actions will be executed on Fri Jun 23 01:00:44 IST 2017
+2017-06-22 14:49:44,656 [main] INFO  com.polarion.platform.monitoring  - Executing actions from stage POSTBOOT
+2017-06-22 14:49:44,656 [main] INFO  com.polarion.platform.monitoring  - Finished with actions from stage POSTBOOT: {}

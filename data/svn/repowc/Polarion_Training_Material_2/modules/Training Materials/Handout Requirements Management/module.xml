@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<module>
+    <field id="usesOutlineNumbering">true</field>
+    <field id="homePageContent" text-type="text/html"><![CDATA[<h1 id="polarion_wiki macro name=module-workitem;params=id=MP-1814"></h1>
+<p id="polarion_template_0"><br/>Description what is part of the document</p>
+<h2 id="polarion_wiki macro name=module-workitem;params=id=MP-1815"> </h2>
+<div contenteditable="false" id="polarion_wiki macro name=toc"></div>
+<h2 id="polarion_wiki macro name=module-workitem;params=id=MP-1816"> </h2>
+<div contenteditable="false" id="polarion_editor_html_block_new_0" style="POSITION: relative; BORDER-LEFT: #dddddd 6px dotted; PADDING-BOTTOM: 4px; LINE-HEIGHT: 1.7em; MARGIN-TOP: 1px; PADDING-LEFT: 34px; PADDING-TOP: 3px; LEFT: -40px"><div contenteditable="false" id="polarion_editor_html_block_content">content</div><pre contenteditable="false" id="polarion_editor_html_block_source" style="POSITION: absolute; DISPLAY: none; MARGIN-LEFT: -100000px">{workitems: document.id:"$page.space.name/$page.name" AND type:slide|fields=title,status|display=table|sortby=outlineNumber}</pre></div>
+<p id="polarion_cleaned_0"> </p>
+<H2 id="polarion_wiki macro name=module-workitem;params=id=MP-1817">&nbsp;</H2>
+<div id="polarion_wiki macro name=module-workitem;params=id=MP-481">MP-481</div>
+<h2 id="polarion_wiki macro name=module-workitem;params=id=MP-1823"></h2>
+<div id="polarion_wiki macro name=module-workitem;params=id=MP-490"></div>
+<h2 id="polarion_wiki macro name=module-workitem;params=id=MP-1824"></h2>
+<div id="polarion_wiki macro name=module-workitem;params=id=MP-492"></div>
+<h2 id="polarion_wiki macro name=module-workitem;params=id=MP-1825"></h2>
+<div id="polarion_wiki macro name=module-workitem;params=id=MP-493"></div>
+<h2 id="polarion_wiki macro name=module-workitem;params=id=MP-1826"></h2>
+<div id="polarion_wiki macro name=module-workitem;params=id=MP-495"></div>
+]]></field>
+    <field id="structureLinkRole">next</field>
+    <field id="outlineNumbering">
+        <struct>
+            <item id="prefix"/>
+        </struct>
+    </field>
+    <field id="author">stroebelet</field>
+    <field id="created">2012-02-14 19:34:30.595 +0100</field>
+    <field id="renderingLayouts">
+        <list>
+            <struct>
+                <item id="layouter">section</item>
+                <item id="label">Slide</item>
+                <item id="properties">
+                    <list>
+                        <struct>
+                            <item id="value">id</item>
+                            <item id="key">fieldsAtStart</item>
+                        </struct>
+                        <struct>
+                            <item id="value"/>
+                            <item id="key">fieldsAtEnd</item>
+                        </struct>
+                        <struct>
+                            <item id="value"/>
+                            <item id="key">fieldsAtEndAsTable</item>
+                        </struct>
+                        <struct>
+                            <item id="value"/>
+                            <item id="key">hidden</item>
+                        </struct>
+                    </list>
+                </item>
+                <item id="type">slide</item>
+            </struct>
+        </list>
+    </field>
+</module>

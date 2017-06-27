@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="author">CarolaH</field>
+    <field id="title">Polarion User Interface</field>
+    <field id="created">2012-11-14 12:12:20.348 +0100</field>
+    <field id="priority">25.0</field>
+    <field id="description" text-type="text/html">&lt;img style="height: 609px; width: 788px;" src="attachment:ui.jpg"/&gt;</field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+    <field id="trainingCategory" multi="true" type="enum:trainingCategory"/>
+</work-item>

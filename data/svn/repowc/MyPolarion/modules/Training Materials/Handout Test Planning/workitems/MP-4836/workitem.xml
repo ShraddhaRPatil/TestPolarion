@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="author">daniel.morris</field>
+    <field id="title">Why Test Runs</field>
+    <field id="created">2013-03-08 16:04:53.155 +0100</field>
+    <field id="priority">25.0</field>
+    <field id="description" text-type="text/html">&lt;img style="height: 491px; width: 788px;" src="attachment:testplanning1.PNG"/&gt;</field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+    <field id="trainingCategory" multi="true" type="enum:trainingCategory"/>
+</work-item>

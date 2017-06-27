@@ -1,0 +1,65 @@
+
+#set($items = $parameters.workItems.getFor().revision($null).items())
+#foreach($item in $items)
+id>>$item.render.withTitle.withLinks<br>
+status>>$item.getOldApi.status
+#end
+
+###macro (readEnumById $enumerationID)
+         
+          #set($foundEnum = "false")
+          #set($enums = $transaction.enumerations()) 
+          #set($globalEnums = $enums.definedEnumerations().forProject($page.reference.projectId))
+		  #foreach($enum in $globalEnums)
+       $enum.label
+		 #end
+  #*  #foreach($enum in $globalEnums ) 
+
+           #set($enumLabel = $enum.label() )
+
+        #if($enumLabel == $enumerationID )
+              #set($foundEnum = "true")
+              #set($enumOptions = $enum.options())
+              #foreach ( $option in $enumOptions )
+                  #set($oId = $option.id())
+                  #set($oName = $option.label())
+                  #set($ofields = $option.fields())
+                  #set($oDesc = $ofields.description().get())
+                                                                
+                     #if(!$enumOptionsNamesMap.containsKey($oId))
+                         #set($oldValue=$enumOptionsNamesMap.put($oId,$oName))
+                     #end
+                                                                  
+                     #if(!$enumOptionDescMap.containsKey($oId))
+                         #set($oldValue=$enumOptionsDescsMap.put($oId,$oDesc))                                     
+                     #end
+              #end 
+        #end
+    #end
+	*#
+###end
+
+
+
+   #*#set($html0=$renderingContext.createHtmlFragmentBuilder())
+    #set($chart=$renderingContext.createChartBuilder())
+    #set($pie=$chart.pie().name("runresults"))
+	#set($p1=$!pie.addValue("pass",$numPass ).null)
+	#set($p2=$!pie.addValue("hierarchypass",$numHierarchypass).null)
+	#set($p3=$!pie.addValue("fail",$numFail).null)
+    #set($p4=$!pie.addValue("block",$numBlock).null)
+    #set($p5=$!pie.addValue("not executed",$numNotExecuted).null)
+    #set($p6=$!pie.addValue("uncovered",$numUncovered).null)
+	#set($p7=$!pie.addValue("other",$numOther).null)	
+	#set($void=$!p1.color($colorPass))
+	#set($void=$!p2.color($colorHierarchypass))
+	#set($void=$!p3.color($colorFail))
+    #set($void=$!p4.color($colorBlock))
+    #set($void=$!p5.color($colorNotExecuted))
+    #set($void=$!p6.color($colorUncovered))
+	#set($void=$!p7.color($colorOther))
+    #set($void=$!chart.build().title().text("Requirements/testcases run results").null)
+    #set($void=$!chart.build().plotOptions().pie().addRawAttribute("tooltip","{pointFormat:'Share:<b>{point.y}</b>'}").null)
+    #set($void=$!chart.build().render($html0,380,$RichPageWidgetCommonContext.columnWidth()).null)
+    $html0*#
+	

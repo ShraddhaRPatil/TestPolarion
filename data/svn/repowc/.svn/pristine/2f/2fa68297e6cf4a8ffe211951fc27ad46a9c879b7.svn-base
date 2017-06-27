@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">schucks</field>
+    <field id="created">2013-10-09 10:26:35.976 -0400</field>
+    <field id="description" text-type="text/html">Installing the Polarion Chrome Plugin&lt;br/&gt; Download and install the following extension:&lt;br/&gt; &lt;img src="workitemimg:1-chrome.jpg"/&gt;&lt;br/&gt; &lt;br/&gt; You can find this Extension on the POP Extension Portal on www.polarion.com. Try to find it via the menu or search and follow the installation instructions.&lt;br/&gt; &lt;br/&gt; Direct Link: &lt;a class="descriptionLink" target="_blank" href="http://extensions.polarion.com/polarion/extensions/extension.jsp?extension=PE-455"&gt; http://extensions.polarion.com/polarion/extensions/extension.jsp?extension=PE-455&lt;/a&gt; &lt;br/&gt; &lt;br/&gt; &lt;br/&gt; &lt;span style="font-weight: bold;"&gt;Example Image:&lt;/span&gt;&lt;br/&gt; &lt;img style="width: 788px;height: 455px;" src="workitemimg:2-polarionsyntaxhighlight.jpg"/&gt; &lt;table style="width: 80%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;" class="polarion-Document-table" id="polarion_wiki macro name=table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"&gt;&lt;span style="font-size: 10pt;line-height: 1.5;"&gt;Hint: The extension conflicts  with Polarion´s script widget so if you are using it make sure it is only enabled while working with wiki pages.&lt;/span&gt;&lt;br/&gt; &lt;span style="font-size: 10pt;line-height: 1.5;"&gt;Additionally the extension shows only the first 100 lines of your code (there is another limit at 300 lines). If you want to see the rest of your code place your curso into line 100 add a letter and remove it diretly. Your page will be expanded.&lt;/span&gt;&lt;/th&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</field>
+    <field id="previousStatus">open</field>
+    <field id="priority">50.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Installing the Polarion Chrome Plugin</field>
+    <field id="type">exercise</field>
+</work-item>

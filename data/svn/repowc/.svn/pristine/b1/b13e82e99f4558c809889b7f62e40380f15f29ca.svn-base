@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="linkedWorkItems">
+        <list>
+            <struct>
+                <item id="revision">42477</item>
+                <item id="workItem">MP-2651</item>
+                <item id="role">branched_from</item>
+                <item id="suspect">false</item>
+            </struct>
+        </list>
+    </field>
+    <field id="type">exercise</field>
+    <field id="author">hartliebc</field>
+    <field id="title">Move existing test case to specification</field>
+    <field id="created">2012-05-07 13:30:58.955 +0200</field>
+    <field id="priority">25.0</field>
+    <field id="description" text-type="text/html">&lt;ul&gt;&lt;li&gt;Search for test case "&lt;span style="font-style: italic;"&gt;Is login case sensitive&lt;/span&gt;"&lt;/li&gt;&lt;li&gt;Select work item action menu and move work item to your user specification "&lt;span style="font-style: italic;"&gt;QA_Elibrary Test Specification&lt;/span&gt;"&lt;/li&gt;&lt;/ul&gt;</field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+</work-item>

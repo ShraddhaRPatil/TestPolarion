@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><wiki-page>
+<author>admin</author>
+<created>20110215142508</created>
+<type>content</type>
+<content><![CDATA[##
+##
+########################################################
+## display help
+########################################################
+##
+##
+#if ($page.name == "macros")
+1 This page contains Macros for the MyPolarion project
+#end
+##
+## Display link to slide items and sort them by attribute
+##
+#macro(slideSort $wi_id $sort)
+ #if (!$sort) #set($sort="id") #end
+ #set( $foundItems = $trackerService.queryWorkItems("id:$page.project/$wi_id","$sort") )
+ #foreach($wi in $foundItems)
+<a href="/polarion/wiki/bin/view/project/$page.project/page/macros/RenderSlides?item=$wi.id" target="_new"><img src="/polarion/icons/default/details/projects_persp.gif"/>  - $wi.title</a><br>
+ #end
+#end
+##
+## display link to slide item.
+##
+#macro(slide $wiId)
+ #slideSort($wiId "id")
+#end
+##
+##  display link to tutorial with additional alias (title)
+##
+#macro(videoTitle $url $title)
+<a href="$url"><img src="/polarion/icons/project/$page.project/video.gif"/> - $title</a><br>
+#end
+##
+##  display link to tutorial url of link will be displayed
+##
+#macro(video $url)
+ #videoTitle($url $url)
+#end
+##
+##  display clickable admin link. URL is displayed on page 
+##
+#macro(link $adminURL)
+#linkWithName( $adminURL "click link")
+#end
+##
+##  display clickable admin link with admin icon. linkName (alias) is displayed on page 
+##
+#macro(linkWithName $adminURL $linkName)
+<a href="/polarion/#/project/$page.project$adminURL" target="_admin"><img src="/polarion/icons/project/$page.project/polarionIcon.png"/> - $linkName</a>
+#end
+##
+##  display clickable help link with help icon. linkName (alias) is displayed on page 
+##
+#macro(helpLink $helpURL $alias)
+<a href="$helpURL" target="_help"><img src="/polarion/help/advanced/images/toc_closed.gif"> - $alias</a>\\
+#end
+
+
+]]></content>
+</wiki-page>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="hyperlinks">
+        <list>
+            <struct>
+                <item id="role">renderSlide</item>
+                <item id="uri">/polarion/wiki/bin/view/project/MyPolarion/page/macros/RenderSlides?item=MP-807</item>
+            </struct>
+        </list>
+    </field>
+    <field id="author">stroebelet</field>
+    <field id="title">Sprint Planning Phases</field>
+    <field id="created">2011-07-15 12:28:25.323 +0200</field>
+    <field id="description" text-type="text/html">&lt;span style="font-weight: bold; text-decoration: underline;"&gt;&lt;br/&gt;&lt;/span&gt;&lt;br/&gt;&lt;table style="margin: auto; empty-cells: show; font-size: 100%; border-collapse: collapse; width: 763px; border: 1px solid rgb(204, 204, 204); height: 641px;" id="polarion_wiki macro name=table;params=header=no|width=100%"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style="height: 12px;text-align: left;vertical-align: top;line-height: 18px;border: 1px solid #CCCCCC;padding: 5px;"&gt;&lt;p&gt;&lt;span style="font-weight: bold; text-decoration: underline;"&gt;Planning Phase: Start (Planning Sprint)&lt;/span&gt;&lt;br/&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Defines burndown chart for next sprint. Calculation will update the black line (ideal progress)&lt;br/&gt;&lt;img style="width: 277px; height: 212px;" src="workitemimg:2-screenshot-1.jpg"/&gt;&lt;/li&gt;&lt;li&gt;First and last day of sprint is reserved for planning and assessment meeting. In a 10 day sprint only 8 days are available for development&lt;/li&gt;&lt;/ul&gt;&lt;p style="font-weight: bold; text-decoration: underline;"&gt;Sprint Phase: Regular (Sprint in Progress)&lt;/p&gt;&lt;ul&gt;&lt;li&gt;planned progress will not be updated but is frozen (black line)&lt;/li&gt;&lt;li&gt;actual progress will be updated on each calculation (&lt;span style="color: rgb(51, 204, 0);"&gt;green line&lt;/span&gt;)&lt;br/&gt;&lt;img style="width: 280px; height: 204px;" src="workitemimg:3-screenshot-2.jpg"/&gt;&lt;br/&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/td&gt;&lt;td style="height: 12px;text-align: left;vertical-align: top;line-height: 18px;border: 1px solid #CCCCCC;padding: 5px;"&gt;&lt;span style="font-weight: bold; text-decoration: underline;"&gt;Sprint Administration Page:&lt;/span&gt;&lt;br/&gt;&lt;br/&gt;&lt;img src="workitemimg:5-screenshot-4.jpg" style="width: 417px; height: 248px;"/&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;</field>
+    <field id="priority">25.0</field>
+    <field id="status">accepted</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+    <field id="subtitle" type="string">Sprint administration has two phases: Start and Regular</field>
+    <field id="questions" type="string">Example: What is the team capacity with 4 people in 10 day sprint</field>
+    <field id="trainingCategory" multi="true" type="enum:trainingCategory"/>
+    <field id="speakersNotes" text-type="text/html" type="text/html">Example: What is the team capacity with 4 people in 10 day sprint&lt;br&gt;Answer: 4 x (10-2) = 32 man-days&lt;br&gt;</field>
+</work-item>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">admin</field>
+    <field id="created">2013-02-05 21:26:43.916 +0100</field>
+    <field id="initialEstimate">8d</field>
+    <field id="linkedWorkItems">
+        <list>
+            <struct>
+                <item id="role">implements</item>
+                <item id="suspect">false</item>
+                <item id="workItem">DP-338</item>
+            </struct>
+        </list>
+    </field>
+    <field id="priority">50.0</field>
+    <field id="remainingEstimate">8d</field>
+    <field id="severity">should_have</field>
+    <field id="status">open</field>
+    <field id="title">Android Application - basic control panel</field>
+    <field id="type">workPackage</field>
+</work-item>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">admin</field>
+    <field id="created">2013-11-07 17:59:20.548 +0100</field>
+    <field id="description" text-type="text/html">Add a new requirement to your project via API but remember, everytime you open your wiki page a new workitem will be created. &lt;span style="font-weight: bold;"&gt;Hint:&lt;/span&gt; for the future you should add a button to create a new work item but for now it´s fine without any button just uncomment the script afterwards.&lt;br/&gt;&lt;ul&gt;&lt;li&gt;Create new work item requirement&lt;/li&gt;&lt;li style="list-style: none"&gt;&lt;ul&gt;&lt;li&gt;Use title "I like this training"&lt;/li&gt;&lt;li&gt;Add description "I will be an advanced wiki user"&lt;/li&gt;&lt;li&gt;Add an inital estimate of 2 days and 4 hours&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;span style="font-weight: bold;"&gt;Example Image:&lt;br/&gt; &lt;img src="attachment:createNewWI.jpg"/&gt;&lt;/span&gt;&lt;br/&gt;</field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="type">exercise</field>
+</work-item>

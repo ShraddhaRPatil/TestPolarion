@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<user>
+    <field id="avatarFileName">avatar.png</field>
+    <field id="description" text-type="text/plain"/>
+    <field id="email"/>
+    <field id="name">Carl User</field>
+    <field id="votes">
+        <list>
+            <item>elibrary$EL-7</item>
+        </list>
+    </field>
+</user>

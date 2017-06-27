@@ -1,0 +1,44 @@
+<!--  For more details see comments in _default role layout configuration -->
+<formLayout xmlns="http://polarion.com/schema/WorkItems/FormLayout" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://polarion.com/schema/WorkItems/FormLayout">
+     <horizontal>
+		<vertical>
+			<section>
+				<field id="type" />
+				<field id="testCategory" />			
+				<field id="timePoint" />			
+				<field id="testEstimate" />			
+			</section>					
+		</vertical>
+		<vertical>
+			<section>
+				<field id="testRun" />
+				<field id="testResult" />
+				<field id="testComment" />        
+			</section>
+		</vertical>
+		<vertical>
+			<section>
+				<field id="lastTestResult" />        
+				<field id="status" />
+				<field id="assignee" />
+				<field id="resolution" />		
+			</section>
+		</vertical>	
+	 </horizontal>
+	<field id="description" />	
+
+
+	 <field id="linkedWorkItems" /> 
+	 <!-- Justify tells to horizontal layout to try justify containng elements on the whole row. -->
+	 <field id="attachments" />
+	<field id="comments" />
+   
+   <panel description="test case metrics">
+      <field id="runCount"  readOnly="true"/> 
+      <field id="passRatio" readOnly="true"/> 
+      <field id="passedCount" readOnly="true"/> 
+      <field id="failedCount" readOnly="true"/> 
+      <field id="blockedCount" readOnly="true"/> 
+   </panel>
+   <field id="linkedRevisions" /> 
+</formLayout>

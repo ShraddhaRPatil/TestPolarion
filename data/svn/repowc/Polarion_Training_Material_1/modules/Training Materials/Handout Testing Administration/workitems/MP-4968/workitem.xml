@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="author">schucks</field>
+    <field id="title">Test Run Administration</field>
+    <field id="created">2013-07-31 15:52:25.120 +0200</field>
+    <field id="description" text-type="text/html">&lt;br/&gt;Additional fields, custom verdicts or types of test runs can be configured using the 3 different Test Case submenus.&lt;br/&gt;&lt;img style="width: 788px;height: 405px;" src="attachment:screenshot-5.jpg"/&gt;&lt;br/&gt;</field>
+    <field id="priority">25.0</field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+    <field id="trainingCategory" multi="true" type="enum:trainingCategory"/>
+</work-item>

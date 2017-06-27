@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<enumeration>
+    <option description="A Slide used during training" iconURL="/polarion/icons/default/details/projects_persp.gif" id="slide" name="Slide" sortOrder="3"/>
+    <option default="true" description="A task that needs to be done." iconURL="images/polarion/enums/type_task.gif" id="task" name="Task" sortOrder="9"/>
+    <option description="An exercise to be done in a training session" iconURL="/polarion/icons/default/enums/req_status_draft.gif" id="exercise" name="Exercise" sortOrder="10"/>
+    <option description="An issue or question which came up during POC, rollout or training" iconURL="/polarion/icons/default/enums/type_improvement.gif" id="issue" name="Issue" sortOrder="11"/>
+    <option description="A description which may be reused in other branched documents and therfore is tracked as work item" iconURL="/polarion/icons/default/enums/type_generic.gif" id="text" name="Text" sortOrder="12"/>
+    <option iconURL="/polarion/icons/project/MyPolarion/polarionIcon.png" id="service" name="Service" sortOrder="13"/>
+</enumeration>

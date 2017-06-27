@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<enumeration>
+    <option color="#dd0000" iconURL="/polarion/icons/default/enums/severity_blocker.gif" id="blocker" name="Blocker" sortOrder="1"/>
+    <option color="#aa0000" iconURL="/polarion/icons/default/enums/severity_critical.gif" id="critical" name="Critical" sortOrder="2"/>
+    <option color="#440000" iconURL="/polarion/icons/default/enums/severity_major.gif" id="major" name="Major" sortOrder="3"/>
+    <option color="#000000" default="true" iconURL="/polarion/icons/default/enums/severity_normal.gif" id="normal" name="Normal" sortOrder="4"/>
+    <option color="#222222" iconURL="/polarion/icons/default/enums/severity_minor.gif" id="minor" name="Minor" sortOrder="5"/>
+    <option color="#555555" iconURL="/polarion/icons/default/enums/severity_trivial.gif" id="trivial" name="Trivial" sortOrder="6"/>
+</enumeration>

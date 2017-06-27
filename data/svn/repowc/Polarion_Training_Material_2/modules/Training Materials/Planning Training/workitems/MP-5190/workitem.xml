@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">daniel.morris</field>
+    <field id="created">2014-08-07 07:37:26.190 -0400</field>
+    <field id="description" text-type="text/html"><![CDATA[Your newly created requirements now need to e planned for a release so project managers know which item has been planned and also implemtend in which release.<br/>
+<ul>
+  <li>Open release &quot;Version 1.0&quot; and add your newly created requirements to existing plan<br/>
+    (Don´t forget to save your plan after adding your items)<br/>
+    <img src="workitemimg:1-screenshot-20140730-141001.png" style="width: 229px;height: 193px;"/></li>
+  <li>By default your requirements have a priority of 50. Increase priority of your new requirments so they are on top of your release backlog.<br/>
+    <img src="attachment:2-screenshot-20141031-095904.png"/></li>
+  <li>Verify Statistics, Child Plans and Planned items are displayed correctly (your requirements should be on top of your backlog)</li>
+  <li>Set release to &quot;In Progress&quot; and refresh your plan to start calculation of your plan</li>
+</ul>
+<table id="polarion_wiki macro name=table" class="polarion-Document-table" style="width: 80%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;">
+  <tbody>
+    <tr>
+      <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Hint: You can use drag and drop or arrow / plus keys to increase / decrease or add / remove your items</th>
+    </tr>
+  </tbody>
+</table>]]></field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Add Requirements to release and prioritize</field>
+    <field id="type">exercise</field>
+</work-item>

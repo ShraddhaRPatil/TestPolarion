@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">requirement</field>
+    <field id="author">admin</field>
+    <field id="title">Project Priorities</field>
+    <field id="created">2008-10-02 21:30:54.223 +0200</field>
+    <field id="description" text-type="text/html">&lt;span style="font-style: italic;" class="Apple-style-span"&gt;Describe the priorities among the project’s requirements, schedule, and budget. The table below may be helpful in identifying the parameters around the project’s key drivers (top priority objectives), constraints to work within, and dimensions that can be balanced against each other to achieve the drivers within the known constraints. For more information, see chapter 2 of Creating a Software Engineering Culture by Karl E. Wiegers (Dorset House, 1996). &lt;/span&gt;</field>
+    <field id="priority">25.0</field>
+    <field id="status">draft</field>
+    <field id="severity">nice_to_have</field>
+    <field id="previousStatus">open</field>
+</work-item>

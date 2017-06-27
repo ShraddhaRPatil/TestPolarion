@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">admin</field>
+    <field id="created">2013-11-07 12:53:43.025 +0100</field>
+    <field id="description" text-type="text/html">If you add your anwer parameter to page URL you should see the result in your wiki page.&lt;br/&gt;&lt;ul&gt;&lt;li&gt;Open URL of your page with URL parameter "answer=true"&lt;/li&gt;&lt;/ul&gt;</field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="type">exercise</field>
+</work-item>

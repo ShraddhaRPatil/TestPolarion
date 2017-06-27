@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="hyperlinks">
+        <list>
+            <struct>
+                <item id="role">renderSlide</item>
+                <item id="uri">/polarion/wiki/bin/view/project/MyPolarion/page/macros/RenderSlides?item=MP-469</item>
+            </struct>
+        </list>
+    </field>
+    <field id="author">hartliebc</field>
+    <field id="title">MS Word Import</field>
+    <field id="created">2012-05-18 09:48:01.867 +0200</field>
+    <field id="priority">25.0</field>
+    <field id="description" text-type="text/html">Import Process: &lt;ol&gt;&lt;li&gt;Start import of existing Microsoft Word document - document is parsed by Polarion&lt;br/&gt;&lt;/li&gt;&lt;li&gt;Configure what paragraphs should be marked as requirements or other entities. Recognition rules are based on keywords, styles and/or regular expressions. Recognition rules can be saved for later reuse&lt;/li&gt;&lt;li&gt;Finish import of the Word document - &lt;span style="color: #000000;"&gt;document is imported, converted and items are created&lt;/span&gt;&lt;br/&gt;&lt;/li&gt;&lt;/ol&gt;&lt;img style="width: 788px;height: 190px;" src="attachment:importprocess-2.jpg"/&gt;&lt;br/&gt;&lt;br/&gt;The imported documents preserve all content:&lt;br/&gt;&lt;br/&gt;&lt;ul&gt;&lt;li&gt;Document structure including headings&lt;/li&gt;&lt;li&gt;Free form rich text content, chapters like: Introduction, Appendices, Index…&lt;/li&gt;&lt;li&gt;Tables and Images&lt;/li&gt;&lt;li&gt;Requirements and/or other entities&lt;/li&gt;&lt;/ul&gt;</field>
+    <field id="status">accepted</field>
+    <field id="severity">normal</field>
+    <field id="subtitle" type="string"> Import MS Word document with rule-based Work Item recognition</field>
+    <field id="trainingCategory" multi="true" type="enum:trainingCategory">
+        <list>
+            <item>user</item>
+        </list>
+    </field>
+    <field id="speakersNotes" text-type="text/plain" type="text/html"/>
+</work-item>

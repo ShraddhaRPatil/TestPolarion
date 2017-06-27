@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="author">schucks</field>
+    <field id="title">Descriptors</field>
+    <field id="created">2012-10-16 14:26:55.086 +0200</field>
+    <field id="priority">25.0</field>
+    <field id="description" text-type="text/html">&lt;i&gt;&lt;br/&gt;&amp;lt;?xml version="1.0" encoding="UTF-8"?&amp;gt;&lt;br/&gt;&amp;lt;descriptors xmlns="http://polarion.com/schema/Builder/Descriptors"&lt;br/&gt;  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&amp;gt;&lt;br/&gt;  xsi:schemaLocation="http://polarion.com/schema/Builder/Descriptors"&amp;gt;&lt;br/&gt;  &amp;lt;!-- no name and "_default" are equal --&amp;gt;&lt;br/&gt;&lt;br/&gt;  &amp;lt;descriptor name="run test.bat"&amp;gt;&lt;br/&gt;    &amp;lt;artifacts&amp;gt;&lt;br/&gt;      &amp;lt;artifact&amp;gt;&lt;br/&gt;        &amp;lt;artifactId&amp;gt;test.bat&amp;lt;/artifactId&amp;gt;&lt;br/&gt;      &amp;lt;/artifact&amp;gt;&lt;br/&gt;    &amp;lt;/artifacts&amp;gt;&lt;br/&gt;    &amp;lt;deploy&amp;gt;&lt;br/&gt;        &amp;lt;copy dir="target/material" label="build created" todir="material"/&amp;gt;&lt;br/&gt;    &amp;lt;/deploy&amp;gt;&lt;br/&gt;  &amp;lt;/descriptor&amp;gt;&lt;br/&gt;&lt;br/&gt;  &amp;lt;descriptor name="run Test.sh"&amp;gt;&lt;br/&gt;    &amp;lt;artifacts&amp;gt;&lt;br/&gt;      &amp;lt;artifact&amp;gt;&lt;br/&gt;        &amp;lt;artifactId&amp;gt;test.sh&amp;lt;/artifactId&amp;gt;&lt;br/&gt;      &amp;lt;/artifact&amp;gt;&lt;br/&gt;    &amp;lt;/artifacts&amp;gt;&lt;br/&gt;  &amp;lt;/descriptor&amp;gt;&lt;br/&gt;&amp;lt;/descriptors&amp;gt; &lt;/i&gt; &lt;br/&gt;&lt;br/&gt; </field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+    <field id="trainingCategory" multi="true" type="enum:trainingCategory"/>
+</work-item>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<menu>
+  <item childInModule="true"/>
+
+  <item label="Child Requirement" role="parent" type="requirement" copyFields="categories, timePoint"/>
+  <item label="Displayed Screen" role="displays" type="screen" titlePrefix="Display: " copyFields="categories, timePoint"/>
+  <item label="Refining Solution" role="refines" type="solution" copyFields="categories, timePoint"/>
+  <item label="Verifying Test Case" role="tests" type="testcase" titlePrefix="Test: " copyFields="categories"/>
+
+  <item label="Implementing Task" role="implements" type="task" titlePrefix="Implement: " copyFields="categories, timePoint"/>
+  <item label="Related Defect" role="relates_to" type="defect" copyFields="categories"/>
+  
+  <separator/>
+  
+  <item label="duplicate for change" role="replaces" type="requirement" copyFields="categories,title,description,severity,priority,attachments,hyperlinks"/>
+
+</menu>

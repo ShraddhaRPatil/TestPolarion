@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="hyperlinks">
+        <list>
+            <struct>
+                <item id="role">help</item>
+                <item id="uri">/polarion/#/wiki/Doc/SyntaxHelp</item>
+            </struct>
+            <struct>
+                <item id="role">renderSlide</item>
+                <item id="uri">/polarion/wiki/bin/view/project/MyPolarion/page/macros/RenderSlides?item=MP-523</item>
+            </struct>
+        </list>
+    </field>
+    <field id="type">slide</field>
+    <field id="author">stroebelet</field>
+    <field id="title">Embedding Work Items In Wiki Pages</field>
+    <field id="created">2011-04-26 12:29:27.560 +0200</field>
+    <field id="description" text-type="text/html">&lt;table style="width: 750px;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;" class="polarion-Document-table" id="polarion_wiki macro name=table;params=header=no|width=750px"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style="font-size: 12px;line-height: 18px;text-align: left;vertical-align: top;width: 600px;height: 64px;border: 1px solid #CCCCCC;padding: 5px;"&gt; &lt;img src="workitemimg:1-screenshot.jpg"/&gt;&lt;br/&gt; &lt;img style="width: 450px;height: 34px;" src="workitemimg:8-screenshot-7.jpg"/&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="font-size: 12px;line-height: 18px;text-align: left;vertical-align: top;width: 600px;height: 133px;border: 1px solid #CCCCCC;padding: 5px;"&gt; &lt;img src="workitemimg:3-screenshot-2.jpg"/&gt;&lt;br/&gt; &lt;img style="width: 600px;height: 86px;" src="workitemimg:7-screenshot-6.jpg"/&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="font-size: 12px;line-height: 18px;text-align: left;vertical-align: top;width: 600px;height: 142px;border: 1px solid #CCCCCC;padding: 5px;"&gt; &lt;img src="workitemimg:5-screenshot-4.jpg"/&gt;&lt;br/&gt; &lt;img style="width: 450px;height: 111px;" src="workitemimg:9-screenshot-8.jpg"/&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</field>
+    <field id="priority">25.0</field>
+    <field id="status">accepted</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+    <field id="subtitle" type="string"> </field>
+</work-item>

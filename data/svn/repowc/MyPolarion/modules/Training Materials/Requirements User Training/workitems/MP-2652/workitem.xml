@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">exercise</field>
+    <field id="author">hartliebc</field>
+    <field id="title">Change requirement type</field>
+    <field id="created">2012-04-24 11:44:49.338 +0200</field>
+    <field id="description" text-type="text/html">&lt;ul&gt;&lt;li&gt; use bulk edit to change requirement type for all requirements inside specification to "user requirement"&lt;br/&gt; &lt;img style="width: 263px;height: 500px;" src="attachment:bulkEdit.jpg"/&gt;&lt;br/&gt;&lt;/li&gt;&lt;/ul&gt;</field>
+    <field id="priority">25.0</field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+    <field id="upgradedescription" type="boolean">true</field>
+</work-item>

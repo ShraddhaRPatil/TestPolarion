@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<enumeration>
+    <option default="true" description="A task that needs to be done." iconURL="/polarion/icons/default/enums/type_task.gif" id="task" name="Task" sortOrder="1"/>
+    <option description="A request for change of appearance of functionality." iconURL="/polarion/icons/default/enums/type_changerequest.gif" id="changerequest" name="Change Request" sortOrder="2"/>
+    <option description="Functional or behavioral requirement to be fulfilled." iconURL="/polarion/icons/default/enums/type_requirement.gif" id="requirement" name="Requirement" sortOrder="3"/>
+    <option description="A defect that needs to be fixed." iconURL="/polarion/icons/default/enums/type_bug.gif" id="defect" name="Defect" sortOrder="4"/>
+    <option iconURL="/polarion/icons/default/enums/type_test.gif" id="testcase" name="Test Case" sortOrder="5"/>
+    <option description="Incident is an unplanned interruption that may cause, or reduces the quality of Business Service and is reported by customers to the service desk" iconURL="/polarion/icons/project/CAPA/Incidentnewtouse.png" id="incident" name="Incident" sortOrder="6"/>
+    <option iconURL="/polarion/icons/default/enums/type_bug.gif" id="issue" name="Issue" sortOrder="7"/>
+    <option iconURL="/polarion/icons/project/CAPA/issue.png" id="capa" name="CAPA" sortOrder="8"/>
+</enumeration>

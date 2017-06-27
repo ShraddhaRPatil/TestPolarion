@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">heading</field>
+    <field id="author">stroebelet</field>
+    <field id="title">Creating Work Items in Documents</field>
+    <field id="created">2012-02-13 18:10:28.967 +0100</field>
+    <field id="priority">25.0</field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+</work-item>

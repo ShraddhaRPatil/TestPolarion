@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<enumeration>
+    <option default="true" description="Recorded training video available on http://www.polarion.com" iconURL="/polarion/icons/project/MyPolarion/polarionIcon.png" id="polarionVideo" name="Polarion Video" sortOrder="3"/>
+    <option description="Additional information in the web, references, howtos ..." iconURL="/polarion/icons/project/MyPolarion/info.png" id="reference" name="Reference" sortOrder="4"/>
+    <option iconURL="/polarion/icons/project/MyPolarion/help.gif" id="help" name="Polarion Help" sortOrder="5"/>
+    <option description="Link to a video in YouTube" iconURL="/polarion/icons/project/MyPolarion/utube.png" id="utube" name="U-Tube" sortOrder="6"/>
+    <option iconURL="/polarion/icons/default/enums/enum_generic.gif" id="wiki" name="Wiki" sortOrder="7"/>
+</enumeration>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shortcuts>
+    <shortcut name="Create Work Item" form_mode="create" icon="/polarion/icons/default/actions/new_workitem.gif" pagePath="workitem"/>
+    <shortcut name="My Suspect Work Items" icon="/polarion/icons/default/topicIconsSmall/App_184-warning.png" pagePath="workitems" personal="assigned" query="suspect:true" resolution="unresolved" sorting="~priority,~created,~id"/>
+</shortcuts>

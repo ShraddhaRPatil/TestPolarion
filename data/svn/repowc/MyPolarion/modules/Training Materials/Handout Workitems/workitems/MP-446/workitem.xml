@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="hyperlinks">
+        <list>
+            <struct>
+                <item id="role">renderSlide</item>
+                <item id="uri">/polarion/wiki/bin/view/project/MyPolarion/page/macros/RenderSlides?item=MP-446</item>
+            </struct>
+        </list>
+    </field>
+    <field id="type">slide</field>
+    <field id="author">admin</field>
+    <field id="title">What Is A Work Item ?</field>
+    <field id="created">2011-03-26 21:55:18.246 +0100</field>
+    <field id="description" text-type="text/html">&lt;br/&gt;&lt;table style="width: 100%;margin-left: auto;margin-right: auto;empty-cells: show;border-collapse: collapse;" id="polarion_wiki macro name=table;params=header=no|border=no|width=100%"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style="line-height: 18px;text-align: left;vertical-align: top;height: 12px;padding: 2px;"&gt; &lt;img style="width: 188px;height: 224px;" src="workitemimg:3-screenshot-1.jpg"/&gt;&lt;/td&gt;&lt;td style="line-height: 18px;text-align: left;vertical-align: top;height: 12px;padding: 2px;"&gt;&lt;ul&gt;&lt;li&gt;Who is responsible for it?&lt;/li&gt;&lt;li&gt;What is the status ?&lt;/li&gt;&lt;li&gt;Who changed what and when ?&lt;/li&gt;&lt;li&gt;Where can I find related information &lt;/li&gt;&lt;/ul&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</field>
+    <field id="priority">25.0</field>
+    <field id="status">accepted</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+    <field id="subtitle" type="string">"if it is not tracked it may be forgotten ..."</field>
+</work-item>

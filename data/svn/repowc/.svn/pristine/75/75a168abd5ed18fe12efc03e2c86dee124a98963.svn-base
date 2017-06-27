@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">heading</field>
+    <field id="author">daniel.morris</field>
+    <field id="title">Polarion QA</field>
+    <field id="created">2012-07-16 12:50:26.609 +0200</field>
+    <field id="priority">25.0</field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+</work-item>

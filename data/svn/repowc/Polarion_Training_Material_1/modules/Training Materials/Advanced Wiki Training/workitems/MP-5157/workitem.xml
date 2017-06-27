@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">schucks</field>
+    <field id="created">2013-10-10 13:19:01.484 +0200</field>
+    <field id="description" text-type="text/html">Common Macros&lt;br/&gt;Installing commonly used macros is recommendden to improve the basic wiki functionalities with often used additional features.&lt;br/&gt;To include them go to &lt;a class="descriptionLink" target="_blank" href="http://extensions.polarion.com/polarion/extensions/extension.jsp?extension=PE-174"&gt;extensions.polarion.com/polarion/extensions/extension.jsp?extension=PE-174&lt;/a&gt;  and download the extension.&lt;br/&gt;&lt;br/&gt;&lt;img src="workitemimg:1-scriptingextension.jpg"/&gt;&lt;br/&gt;&lt;br/&gt;After downloading install the extension to Polarion by following the instructions. Normally extensions are installed by unzipping the content to the folder C:\Polarion\polarion\extensions, followed by a restart of the Polarion server.&lt;br/&gt;</field>
+    <field id="previousStatus">open</field>
+    <field id="priority">50.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Common Macros</field>
+    <field id="type">exercise</field>
+</work-item>

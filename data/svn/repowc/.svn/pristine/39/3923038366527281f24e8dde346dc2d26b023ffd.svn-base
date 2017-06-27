@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">schucks</field>
+    <field id="created">2013-07-31 10:07:32.443 -0400</field>
+    <field id="description" text-type="text/html">If you are synchronizing &lt;span id="polarion-comment:31"&gt;&lt;/span&gt;Polarion with a central LDAP server user creation is not necessary. Instead users are synched with you LDAP server or created on first login of user.&lt;br/&gt; &lt;br/&gt; &lt;ul&gt;&lt;li&gt;Open &lt;span style="font-style: italic;"&gt;administration&amp;gt;User Management&amp;gt;Users&lt;/span&gt;. Take care to select the project configuration&lt;br/&gt;&lt;/li&gt;&lt;li&gt;Fill the required fields with your credentials&lt;br/&gt;&lt;/li&gt;&lt;li&gt;Assign the global role: &lt;span style="font-style: italic;"&gt;user&lt;/span&gt;&lt;br/&gt;&lt;/li&gt;&lt;li&gt;Assign the project role: &lt;span style="font-style: italic;"&gt;project_user&lt;/span&gt;&lt;/li&gt;&lt;li&gt;As project admin you can´t automatically be assigned to work items or to an approval. If users should be able to select a user you need to add him to these roles.&lt;/li&gt;&lt;li style="list-style: none"&gt;&lt;ul&gt;&lt;li&gt;Goto: User Management &amp;gt; Roles&lt;/li&gt;&lt;li style="list-style: none"&gt;&lt;ul&gt;&lt;li&gt;assign the project role: &lt;span style="font-style: italic;"&gt;project_assignable and&lt;/span&gt; &lt;span style="font-style: italic;"&gt;project_approver&lt;/span&gt; to your admin&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;table style="width: 80%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;" class="polarion-Document-table" id="polarion_wiki macro name=table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"&gt;Hint: During this training we will do all exercises using our admin account. Your&lt;span id="polarion-comment:32"&gt;&lt;/span&gt; newly created user will be used to verify permission restrictions.&lt;/th&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;br/&gt;</field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Create a new User</field>
+    <field id="type">exercise</field>
+</work-item>

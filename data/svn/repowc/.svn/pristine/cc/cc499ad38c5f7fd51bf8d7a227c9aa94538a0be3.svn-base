@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><wiki-page>
+<author>stroebelet</author>
+<created>20120323154327</created>
+<type>content</type>
+<content><![CDATA[## set the query as variables
+##
+1 My Polarion - Training Materials
+{style:type=div|color=grey|float=right}<sub>Build: {includeForm: buildNumber}</sub>{style}
+{section:width=100%}
+{column:width=20%}
+{image:trainingBiggerLogo.png}
+{column}
+{column:width=70%}
+Welcome to the "My Polarion" project. Depending on what you want to do click on one of the links below
+\\ \\
+* {document:Training Materials/Polarion Fundamentals}:Understand the basic features of Polarion
+* {document:Training Materials/Requirements User Training}:Understand the basic features of Polarion REQUIREMENTS
+* {document:Training Materials/QA User Training}:Understand the basic features of Polarion QA
+* {document:Training Materials/Power User Training}: All you need to know to configure and customize Polarion to your own needs.
+* {document:Training Materials/Advanced Wiki Training}: All you need to know to configure and customize wiki pages, access Polarions database and Polarions API
+* {document:Training Materials/Planning Training}: Understand how to use Polarion plans and configure plans to your needs
+{image:Structure training materials.png}
+{column}
+{section}
+
+1.1 Example Documents
+{attach: E-Library_2011_spec.docx}: Use this document for word import if you have no other document available.<br/>
+{attach: ElibraryTestStepsImport2013.xlsx}: Use this document for excel import if you have no other document available.<br/>
+{attach: SeleniumTests 20111005-162929.xml}: Use this document for automated test import if you have no other document available.
+
+1.1 Give Us Your Feedback
+If you experience any problems with the materials please use Polarion's documenting feature to provide your feedback. Just add a document review comment to the specific paragraph and send a round trip export to your sales or consultant. If you prefer you can also send an email to <a href="mailto:trainings@polarion.com">trainings@polarion.com</a>
+
+{section:width=100%}
+{column:width=70%}
+
+{column}
+{column:width=30%}
+
+{column}
+{section}]]></content>
+</wiki-page>

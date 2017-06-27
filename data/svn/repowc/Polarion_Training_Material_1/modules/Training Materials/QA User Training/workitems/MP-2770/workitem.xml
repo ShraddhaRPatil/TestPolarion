@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">daniel.morris</field>
+    <field id="created">2012-05-09 10:30:07.561 -0400</field>
+    <field id="description" text-type="text/html"><![CDATA[Most organizations are testing their unit tests with special testing tools and need to generate some reports and statistics for their managers,<br/>
+ Polarion delivers an importer which can handle a xUnit file output of such automated testing tools. 
+<ul>
+  <li>Create a new test run called &quot;auto_Product A&quot; and choose &quot;xUnit Test Manual Upload&quot; as template</li>
+  <li>You will get a new test run which looks nearly like other test runs we already now. Use the &quot;Upload Results&quot; button to upload the file manually. Usually you would create a job which will import these files automatically.<br/>
+    <img src="attachment:uploadResults.PNG" style="width: 211px;height: 146px;"/></li>
+  <li>Use your selenium test results file  stored at <span id="WIKI_LINK:_default.Home|Home"></span>  to upload your results.</li>
+  <li>After uploading your test report will be generated and all test cases and defects which are new will be created, Test cases which are already available will be updated.<br/>
+    </li>
+</ul>]]></field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">How to integrate with test automation tools</field>
+    <field id="type">exercise</field>
+</work-item>

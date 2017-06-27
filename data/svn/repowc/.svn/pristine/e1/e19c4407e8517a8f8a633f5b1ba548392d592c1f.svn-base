@@ -1,0 +1,4 @@
+$parameters.put("plans", $factory.dataSet("Plans").prototype().plan().build())
+$parameters.put("showChildren", $factory.bool("Show Children").build())
+$parameters.put("showDetailedScale", $factory.bool("Detailed Scale").build())
+$parameters.put("height", $factory.integer("Height").build())

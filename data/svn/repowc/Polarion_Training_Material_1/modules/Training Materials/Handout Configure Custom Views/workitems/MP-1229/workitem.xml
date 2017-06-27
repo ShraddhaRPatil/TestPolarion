@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="author">stroebelet</field>
+    <field id="title">Custom Work Item Menus</field>
+    <field id="created">2011-09-16 23:36:18.345 +0200</field>
+    <field id="priority">25.0</field>
+    <field id="description" text-type="text/html">&lt;img src="workitemimg:2-screenshot-2.jpg" style="height: 450px; width: 659px;"/&gt;&lt;br/&gt;</field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="subtitle" type="string">Use menus to increase useability</field>
+    <field id="trainingCategory" multi="true" type="enum:trainingCategory"/>
+    <field id="printNotes" text-type="text/html" type="text/html">&lt;div&gt;&lt;ul&gt;&lt;li&gt;displayed items in sub menu depend on defined linking model&lt;/li&gt;&lt;li&gt;if menu item is contradicting with the defined linking model it will not be displayed&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</field>
+    <field id="speakersNotes" text-type="text/plain" type="text/html"/>
+</work-item>

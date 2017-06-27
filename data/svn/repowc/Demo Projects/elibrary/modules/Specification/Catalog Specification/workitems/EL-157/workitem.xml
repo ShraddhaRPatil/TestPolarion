@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">admin</field>
+    <field id="created">2011-01-05 18:24:42.323 +0100</field>
+    <field id="description" text-type="text/html">User may not be told if the password or user name is wrong</field>
+    <field id="previousStatus">draft</field>
+    <field id="priority">50.0</field>
+    <field id="reqtype" type="enum:reqtype">functional</field>
+    <field id="severity">should_have</field>
+    <field id="status">reviewed</field>
+    <field id="type">requirement</field>
+</work-item>

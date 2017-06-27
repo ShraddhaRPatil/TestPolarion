@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">stroebelet</field>
+    <field id="created">2011-09-14 16:19:49.144 -0400</field>
+    <field id="description" text-type="text/html"><![CDATA[<img src="workitemimg:2-screenshot-2.jpg" style="width: 766px;height: 450px;"/><br/>
+Custom Sets and permissions also control what is visible but are not dependant on views<br/>]]></field>
+    <field id="hyperlinks">
+        <list>
+            <struct>
+                <item id="role">renderSlide</item>
+                <item id="uri">/polarion/wiki/bin/view/project/MyPolarion/page/macros/RenderSlides?item=MP-1225</item>
+            </struct>
+        </list>
+    </field>
+    <field id="previousStatus">open</field>
+    <field id="printNotes" text-type="text/html" type="text/html">&lt;div&gt;A view can be compared to a hat you are wearing. It gives you a special view on the data of the repository&lt;/div&gt;</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="speakersNotes" text-type="text/html" type="text/html">&lt;div&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;/div&gt;</field>
+    <field id="status">accepted</field>
+    <field id="subtitle" type="string"> </field>
+    <field id="title">Views Control What Information Is Visible</field>
+    <field id="type">slide</field>
+</work-item>

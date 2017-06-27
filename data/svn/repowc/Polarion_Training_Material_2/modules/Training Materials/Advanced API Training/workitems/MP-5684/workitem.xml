@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">daniel.morris</field>
+    <field id="created">2016-06-06 06:48:53.490 -0400</field>
+    <field id="description" text-type="text/html"><![CDATA[Install the extension and try this script for a specific Work Item in your project.<br/>
+<br/>
+If you have an own example you can also add your own example. Otherwise you can also try some of the predefined scripts added to the extension.]]></field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="type">exercise</field>
+</work-item>

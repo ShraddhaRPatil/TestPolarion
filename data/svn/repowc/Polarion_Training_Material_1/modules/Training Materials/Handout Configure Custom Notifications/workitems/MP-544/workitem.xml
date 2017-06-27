@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="hyperlinks">
+        <list>
+            <struct>
+                <item id="role">renderSlide</item>
+                <item id="uri">/polarion/wiki/bin/view/project/MyPolarion/page/macros/RenderSlides?item=MP-544</item>
+            </struct>
+            <struct>
+                <item id="role">help</item>
+                <item id="uri">/polarion/help/?topic=/com.polarion.xray.doc.user/agchConfigNotification.html</item>
+            </struct>
+        </list>
+    </field>
+    <field id="author">stroebelet</field>
+    <field id="title">Notification Mechanism Overview</field>
+    <field id="created">2011-05-05 16:27:34.105 +0200</field>
+    <field id="description" text-type="text/html">&lt;p&gt;&lt;img style="width: 534px; height: 273px;" src="workitemimg:1-concept.jpg"&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Events: work item events, user events, document events, build events&lt;/li&gt;&lt;li&gt;Event Filters (optional): for work items only, filter what event should lead to an email&lt;/li&gt;&lt;li&gt;Event Priority: Only one email is sent. In case of multiple events the event with highest priority wins&lt;/li&gt;&lt;li&gt;Targets: Who will receive notification email&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;br&gt;</field>
+    <field id="priority">25.0</field>
+    <field id="status">accepted</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+    <field id="subtitle" type="string"> </field>
+    <field id="hint" type="string"/>
+</work-item>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">admin</field>
+    <field id="created">2013-11-06 15:50:27.553 +0100</field>
+    <field id="description" text-type="text/html">Lets combine these conditions with a map like the map we created before. We want to check who is older our mother or our father.&lt;br/&gt;&lt;ul&gt;&lt;li&gt;Add a new map $age and add their (father and mother) first names as key and their age as value.&lt;/li&gt;&lt;li&gt;Write conditions and check &lt;/li&gt;&lt;li style="list-style: none"&gt;&lt;ul&gt;&lt;li&gt;if they are at the same age&lt;/li&gt;&lt;li&gt;father is older than mother&lt;/li&gt;&lt;li&gt;mother is older than father&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;span style="font-weight: bold;"&gt;Example Image:&lt;br/&gt; &lt;img src="attachment:conditions.jpg"/&gt;&lt;/span&gt;</field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="type">exercise</field>
+</work-item>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="hyperlinks">
+        <list>
+            <struct>
+                <item id="role">renderSlide</item>
+                <item id="uri">/polarion/wiki/bin/view/project/MyPolarion/page/macros/RenderSlides?item=MP-471</item>
+            </struct>
+        </list>
+    </field>
+    <field id="author">hartliebc</field>
+    <field id="title">MS Word Import: Recognition Rules</field>
+    <field id="created">2012-05-18 09:48:01.944 +0200</field>
+    <field id="priority">25.0</field>
+    <field id="description" text-type="text/html">&lt;ul&gt;&lt;li&gt;Define what sections of the document should be analyzed. If you select a main heading all subheadings will be analyzed as well&lt;br/&gt; &lt;img style="width: 741px;height: 244px;" src="workitemimg:2-screenshot.jpg"/&gt;&lt;br/&gt;&lt;br/&gt;&lt;/li&gt;&lt;li&gt;Pick the most appropriate rule. You can select multiple rules if needed.&lt;br/&gt; &lt;img style="width: 727px;height: 264px;" src="workitemimg:3-screenshot-1.jpg"/&gt;&lt;br/&gt;&lt;br/&gt;&lt;/li&gt;&lt;/ul&gt;</field>
+    <field id="status">accepted</field>
+    <field id="severity">normal</field>
+    <field id="subtitle" type="string"> </field>
+    <field id="printNotes" text-type="text/html" type="text/html">&lt;p&gt;Import of MS-Word documents is a three phase process&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;span style="font-weight: bold;"&gt;Preview&lt;/span&gt;: Define import rules and review import result&lt;/li&gt;&lt;li&gt;&lt;span style="font-weight: bold;"&gt;Import&lt;/span&gt;: Import document according to import rules&lt;/li&gt;&lt;li&gt;&lt;span style="font-weight: bold;"&gt;Review&lt;/span&gt;: review imported document and make minor adjustments&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Don't spend too much time on rule definition as you can easily mark or unmark work items after import.&lt;/p&gt;</field>
+    <field id="speakersNotes" text-type="text/plain" type="text/html"/>
+</work-item>

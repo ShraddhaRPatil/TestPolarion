@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="linkedWorkItems">
+        <list>
+            <struct>
+                <item id="revision">41895</item>
+                <item id="workItem">MP-789</item>
+                <item id="suspect">false</item>
+                <item id="role">branched_from</item>
+            </struct>
+        </list>
+    </field>
+    <field id="type">exercise</field>
+    <field id="author">stroebelet</field>
+    <field id="title">Save your search for later reuse</field>
+    <field id="created">2012-04-24 11:07:30.429 +0200</field>
+    <field id="priority">25.0</field>
+    <field id="description" text-type="text/html">In many cases you will want to reuse a query multiple times. In such cases it is useful to save the query. &lt;ul&gt;&lt;li&gt;Build a query with "bad" words like "easy fast quick modern..." and save it as project query with the name "&lt;span style="font-style: italic;"&gt;bad words&lt;/span&gt;"&lt;br/&gt;&lt;img src="attachment:savequery.jpg"/&gt;&lt;br/&gt;&lt;/li&gt;&lt;li&gt;create a query which displays a tree view with all &lt;span style="font-style: italic;"&gt;Reviewed&lt;/span&gt; requirements on top and all linked items below. The tree should be 6 levels deep. Save your query as shortcut with name "&lt;span style="font-style: italic;"&gt;reviewed requirements impact&lt;/span&gt;"&lt;/li&gt;&lt;/ul&gt;</field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+</work-item>

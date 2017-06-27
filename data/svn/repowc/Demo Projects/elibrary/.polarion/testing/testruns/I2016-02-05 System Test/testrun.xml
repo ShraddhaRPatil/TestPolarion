@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<test-run>
+    <field id="author">mTest</field>
+    <field id="created">2016-02-04 18:16:50.303 +0100</field>
+    <field id="description" text-type="text/plain" type="text">This is a full manual test that includes all the manual test cases from the selected project.</field>
+    <field id="finishedOn">2016-02-06 18:34:16.006 +0200</field>
+    <field id="groupId">1.0.0.20160204-1445</field>
+    <field id="platform" type="enum:platform">linux</field>
+    <field id="query">testType:manual AND type:testcase AND status:active</field>
+    <field id="records">
+        <list>
+            <struct>
+                <item id="duration">65.489</item>
+                <item id="executed">2016-02-06 18:19:07.332 +0200</item>
+                <item id="executedBy">mTest</item>
+                <item id="result">passed</item>
+                <item id="signed">true</item>
+                <item id="testCase">EL-1</item>
+                <item id="testStepResults">
+                    <list>
+                        <struct>
+                            <item id="result">passed</item>
+                        </struct>
+                        <struct>
+                            <item id="result">passed</item>
+                        </struct>
+                        <struct>
+                            <item id="result">passed</item>
+                        </struct>
+                    </list>
+                </item>
+            </struct>
+            <struct>
+                <item id="duration">96.045</item>
+                <item id="executed">2016-02-06 18:20:44.042 +0200</item>
+                <item id="executedBy">mTest</item>
+                <item id="result">passed</item>
+                <item id="signed">true</item>
+                <item id="testCase">EL-2</item>
+                <item id="testStepResults">
+                    <list>
+                        <struct>
+                            <item id="result">passed</item>
+                        </struct>
+                        <struct>
+                            <item id="result">passed</item>
+                        </struct>
+                        <struct>
+                            <item id="result">passed</item>
+                        </struct>
+                    </list>
+                </item>
+            </struct>
+            <struct>
+                <item id="duration">101.109</item>
+                <item id="executed">2016-02-06 18:21:49.833 +0200</item>
+                <item id="executedBy">mTest</item>
+                <item id="result">passed</item>
+                <item id="signed">true</item>
+                <item id="testCase">EL-3</item>
+                <item id="testStepResults">
+                    <list>
+                        <struct>
+                            <item id="result">passed</item>
+                        </struct>
+                        <struct>
+                            <item id="result">passed</item>
+                        </struct>
+                        <struct>
+                            <item id="result">passed</item>
+                        </struct>
+                        <struct>
+                            <item id="result">passed</item>
+                        </struct>
+                    </list>
+                </item>
+            </struct>
+        </list>
+    </field>
+    <field id="selectTestCasesBy">staticQueryResult</field>
+    <field id="status">verifiedPassed</field>
+    <field id="template">Full Manual System Test</field>
+    <field id="type">manual</field>
+    <field id="useReportFromTemplate">true</field>
+</test-run>

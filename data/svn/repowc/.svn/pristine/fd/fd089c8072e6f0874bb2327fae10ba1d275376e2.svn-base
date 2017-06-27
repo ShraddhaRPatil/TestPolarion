@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<module>
+    <field id="author">admin</field>
+    <field id="created">2011-02-01 13:34:12.051 +0100</field>
+    <field id="homePageContent" text-type="text/html"><![CDATA[<h1 id="polarion_wiki macro name=module-workitem;params=id=WI-238"></h1><p id="polarion_new_0">
+  Description of the scope, approach, resources, and schedule of the testing activities and identification of the items being tested, the features to be tested, the testing tasks to be performed, the personnel responsible for each task, and the risks associated with this plan.
+</p><div id="polarion_wiki macro name=toc"></div><h2 id="polarion_wiki macro name=module-workitem;params=id=WI-239"></h2><h3 id="polarion_wiki macro name=module-workitem;params=id=WI-240"></h3><p id="polarion_new_26">
+  <span style="font-style: italic;">Identify the purpose of this Test Plan document and its intended audience.The goal of test planning is to establish the list of tasks that, if performed, will identify all of the requirements that have not been met in the software.</span>
+</p><h3 id="polarion_wiki macro name=module-workitem;params=id=WI-241"></h3><p id="polarion_new_25">
+  <span style="font-style: italic;">Provide a short description of the software being tested and the test itself.</span>
+</p><h3 id="polarion_wiki macro name=module-workitem;params=id=WI-242"></h3><p id="polarion_new_24">
+  <span style="font-style: italic;">List any other documents or Web addresses to which this test plan document refers. Provide enough information so that the reader could access a copy of each reference, including title, author, version number, date, and source or location.Example: References to the following documents, when they exist, are required in the highest level test plan:</span><br style="font-style: italic;"/>
+  <br style="font-style: italic;"/>
+  <span style="font-style: italic;">   1. Project authorization</span><br style="font-style: italic;"/>
+  <span style="font-style: italic;">   2. Project plan</span><br style="font-style: italic;"/>
+  <span style="font-style: italic;">   3. Quality assurance plan</span><br style="font-style: italic;"/>
+  <span style="font-style: italic;">   4. Configuration management plan</span><br style="font-style: italic;"/>
+  <span style="font-style: italic;">   5. Relevant policies</span><br style="font-style: italic;"/>
+  <span style="font-style: italic;">   6. Relevant standards</span>
+</p><h2 id="polarion_wiki macro name=module-workitem;params=id=WI-243"></h2><p id="polarion_new_20">
+  <span style="font-style: italic;">Identify the test items including their version/revision level.Supply references to the following test item documentation, if it exists:</span>
+</p><ol id="polarion_new_22">
+  <li><span style="font-style: italic;">   Requirements specification</span></li>
+  <li><span style="font-style: italic;">   Design specification</span></li>
+  <li><span style="font-style: italic;">   Users guide</span></li>
+  <li><span style="font-style: italic;">   Operations guide</span></li>
+  <li><span style="font-style: italic;">   Installation guide</span><br style="font-style: italic;"/>
+  </li>
+</ol><p id="polarion_new_21">
+  <span style="font-style: italic;">Example: focusing on the functional aspects of testing, identifies all features and combination of features to be tested. It also describes all those features that are not to be tested and the reasons for not testing them.</span>
+</p><h2 id="polarion_wiki macro name=module-workitem;params=id=WI-244"></h2><p id="polarion_new_27">
+  <span style="font-style: italic;">Describe the overall approach to testing. For each major group of features or feature combination, specify the approach that will ensure that these feature groups are adequately tested. Specify the major activities, techniques, and tools that are used to test the designated groups of features.Different strategies are often needed to test different parts of the system.</span>
+</p><h3 id="polarion_wiki macro name=module-workitem;params=id=WI-245"></h3><p id="polarion_new_28">
+  <span style="font-style: italic;">Specifies generic pass/fail criteria for the tests covered in this plan. They are supplemented by pass/fail criteria in the test specification.</span>
+</p><h3 id="polarion_wiki macro name=module-workitem;params=id=WI-246"></h3><p id="polarion_new_29">
+  <span style="font-style: italic;">Specify the criteria used to suspend all or a portion of the testing activity on the test items associated with this plan. Specify the testing activities that must be repeated, when testing is resumed.</span>
+</p><h2 id="polarion_wiki macro name=module-workitem;params=id=WI-247"></h2><p id="polarion_new_30">
+  <span style="font-style: italic;">Specify both the necessary and desired properties of the test environment. This specification should contain the physical characteristics of the facilities including the hardware, the communications and system software, the mode of usage (e.g., stand-alone), and any other software or supplies needed to support the test.</span>
+</p><h2 id="polarion_wiki macro name=module-workitem;params=id=WI-248"></h2><p id="polarion_new_31">
+  <span style="font-style: italic;">Identify the set of tasks necessary to prepare for and perform testing. Identify all inter-task dependencies and any special skills required.</span>
+</p><h3 id="polarion_wiki macro name=module-workitem;params=id=WI-335"></h3><div id="polarion_wiki macro name=module-workitem;params=id=WI-76"></div><div id="polarion_wiki macro name=module-workitem;params=id=WI-77"></div><h3 id="polarion_wiki macro name=module-workitem;params=id=WI-336"></h3><div id="polarion_wiki macro name=module-workitem;params=id=WI-79"></div><h2 id="polarion_wiki macro name=module-workitem;params=id=WI-249"></h2><p id="polarion_new_32">
+  <span style="font-style: italic;">Cover responsibilities, staffing and training needs, risks and contingencies, and the test schedule.</span>
+</p>]]></field>
+    <field id="outlineNumbering">
+        <struct/>
+    </field>
+    <field id="renderingLayouts">
+        <list>
+            <struct>
+                <item id="label">Task</item>
+                <item id="layouter">section</item>
+                <item id="properties">
+                    <list>
+                        <struct>
+                            <item id="key">fieldsAtStart</item>
+                            <item id="value">id</item>
+                        </struct>
+                        <struct>
+                            <item id="key">fieldsAtEnd</item>
+                            <item id="value">severity, status</item>
+                        </struct>
+                        <struct>
+                            <item id="key">fieldsAtEndAsTable</item>
+                        </struct>
+                        <struct>
+                            <item id="key">hidden</item>
+                        </struct>
+                    </list>
+                </item>
+                <item id="type">task</item>
+            </struct>
+        </list>
+    </field>
+    <field id="status">draft</field>
+    <field id="structureLinkRole">parent</field>
+    <field id="type">generic</field>
+    <field id="usesOutlineNumbering">true</field>
+</module>

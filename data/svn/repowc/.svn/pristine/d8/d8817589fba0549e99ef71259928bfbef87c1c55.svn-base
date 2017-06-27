@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">stroebelet</field>
+    <field id="created">2011-07-29 15:20:01.116 -0400</field>
+    <field id="description" text-type="text/html"><![CDATA[You might want to collect some Polarion questions you can´t answer for your Polarion consultant. If you have a list of questions you might want to send this list as Round trip export. (Collabortaion mode so the consultant can send it back with answers directly added to your custom field.<br/>
+ <br/>
+ 
+<ul>
+  <li>Goto frontend</li>
+  <li>Create a new document with name <span style="font-style: italic;">Questions to Polarion</span> which contains question work items<br/>
+  </li>
+  <li>Select following layout options by using document configuration<br/>
+    <img src="attachment:65-screenshot-20141029-100221.png"/><br/>
+  </li>
+  <ul>
+    <li>Content: title and description</li>
+    <li>Fields at Start: id<br/>
+    </li>
+    <li>display following fields as table in Document using the checkbox<br/>
+      <img src="attachment:66-screenshot-20141029-100221.png"/><br/>
+    </li>
+    <li>Fields at End: status,answer<br/>
+      <br/>
+      <img src="attachment:67-screenshot-20141029-100222.png" style="width: 704px;height: 155px;"/></li>
+  </ul>
+  <li>Verify your Polarion consultant can give answers to your questions by doing a Round trip in collaboration mode (allow to change field &quot;answer&quot;).</li>
+</ul>
+<table id="polarion_wiki macro name=table" class="polarion-Document-table" style="width: 80%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;">
+  <tbody>
+    <tr>
+      <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Hint: Each user can modify the fields he wants to see in a document. If  you confgure Fields at End as your personal configuration these are non visible for other users.<br/>
+        <img src="attachment:68-screenshot-20141029-100222.png"/></th>
+    </tr>
+  </tbody>
+</table>
+<br/>]]></field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Create New Question Document With Custom Rendering</field>
+    <field id="type">exercise</field>
+</work-item>

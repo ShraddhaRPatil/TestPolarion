@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="linkedWorkItems">
+        <list>
+            <struct>
+                <item id="revision">37029</item>
+                <item id="workItem">MP-812</item>
+                <item id="role">branched_from</item>
+                <item id="suspect">false</item>
+            </struct>
+        </list>
+    </field>
+    <field id="type">exercise</field>
+    <field id="author">stroebelet</field>
+    <field id="title">Create a new change request</field>
+    <field id="created">2012-05-30 14:02:14.356 +0200</field>
+    <field id="description" text-type="text/html">&lt;ul&gt;&lt;li&gt;Create a new change request "simple search should also support field: "&lt;span style="font-style: italic;"&gt;published in&lt;/span&gt;"&lt;br/&gt;&lt;br/&gt; &lt;table style="width: 600px;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;" class="polarion-Document-table" id="polarion_wiki macro name=table;params=width=600px"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th style="font-weight: bold;font-size: 12px;background-color: #F0F0F0;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"&gt;Hint: Use Global Shortcut &lt;span style="font-style: italic;"&gt;Create Work Items&lt;/span&gt; &lt;/th&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;br/&gt; &lt;img src="attachment:createchangerequest.jpg"/&gt;&lt;br/&gt;&lt;br/&gt;&lt;/li&gt;&lt;li&gt;Review the change request and change status to &lt;span style="font-style: italic;"&gt;In Progress&lt;/span&gt; using action &lt;span style="font-style: italic;"&gt;Perform action Start Progress&lt;/span&gt;&lt;br/&gt;&lt;/li&gt;&lt;li&gt;Create a linked task with title "&lt;span style="font-style: italic;"&gt;analyse impact of simple search extension&lt;/span&gt;"&lt;br/&gt;&lt;br/&gt; &lt;img src="attachment:createlinkedtask.jpg"/&gt;&lt;br/&gt;&lt;/li&gt;&lt;/ul&gt;</field>
+    <field id="priority">25.0</field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+</work-item>

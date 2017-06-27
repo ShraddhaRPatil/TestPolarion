@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">daniel.morris</field>
+    <field id="created">2016-04-28 09:29:19.261 -0400</field>
+    <field id="description" text-type="text/html"><![CDATA[A test run and its reporting function is a perfect way for a manager to have an overview about the test runs and their current status. <br/>
+Polarion can also support formal testing review and sign-off process for Test Runs, using secure electronic signatures compliant with U.S. 21 CFR Part 11. An administrator can map the organization&#39;s review and sign-off process to the Test Run Workflow configuration. Each step in the process can optionally be set up to require an electronic signature before a Test Run can move to the next stage in the workflow.<br/>
+<span style="font-size: 10pt;line-height: 1.5;">If you have completed all your test cases of your test run set your test run to &quot;Passed&quot; or &quot;Failed&quot; by clicking the button on the upper right.<br/>
+</span>
+<ul>
+  <li></li>
+</ul>]]></field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Test Run Workflow</field>
+    <field id="type">exercise</field>
+</work-item>

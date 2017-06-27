@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">daniel.morris</field>
+    <field id="created">2012-06-04 19:39:20.896 +0200</field>
+    <field id="description" text-type="text/html">&lt;ul&gt;&lt;li&gt;Change Work Item scope to test cases&lt;/li&gt;&lt;li&gt;Click on the gear icon at the upper left and select "export"&lt;br/&gt; &lt;img style="width: 167px;height: 139px;" src="attachment:export.PNG"/&gt;&lt;br/&gt;&lt;/li&gt;&lt;li style="list-style: none"&gt;&lt;ul&gt;&lt;li&gt;As format choose "xlsx:Microsoft Excel" and as template "Basic"&lt;/li&gt;&lt;li&gt;Now you have to select all attributes which should be exported to an Excel document to collaborate with an external stakeholder which has no Polarion. Select columns ID, Title, Description, Type and lock these attributes if there isn´t already a lock icon by clicking at the end of the attribute field. &lt;/li&gt;&lt;li&gt;Now select severity as exported attribute and unlock this field. After clicking OK you will get an exported Excel file.&lt;br/&gt; &lt;img style="width: 389px;height: 338px;" src="attachment:excel-round-trip.png"/&gt;&lt;br/&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;Open this file and verify that all fields which were locked aren´t editable.&lt;/li&gt;&lt;li style="list-style: none"&gt;&lt;ul&gt;&lt;li&gt;Change severity of all test cases to "basic" if they aren´t basic yet.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;Reimport changed Excel sheet by clicking on the gear icon another time and select "import".&lt;/li&gt;&lt;li style="list-style: none"&gt;&lt;ul&gt;&lt;li&gt;As format choose "xlsx: Microsoft Excel Round-trip Changes" and select the exported file.&lt;/li&gt;&lt;li&gt;Click on "Start" and if successful you will get a summary which files were changed.&lt;br/&gt; &lt;img style="width: 308px;height: 200px;" src="attachment:round-trip-changed.PNG"/&gt;&lt;br/&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;Verify that all changes are correctly reimported to Polarion.&lt;br/&gt;&lt;/li&gt;&lt;/ul&gt;</field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Using Excel Round-trip</field>
+    <field id="type">exercise</field>
+</work-item>

@@ -1,0 +1,1874 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<factbase artifact="MyPolarion" id="workitems-data" tag="2017-06-27">
+    <structure-element id="root" provider="root" type="root">
+        <properties>
+            <property id="scope">
+                <value>project/MyPolarion</value>
+            </property>
+            <property id="revision">
+                <value>290</value>
+            </property>
+        </properties>
+        <value-fact-element id="RESOLVED-UNRESOLVED" provider="WorkItemsAnalysis" type="RESOLVED-UNRESOLVED">
+            <value/>
+            <properties>
+                <property id="kind">
+                    <value>distribution</value>
+                </property>
+                <property id="label">
+                    <value>Resolved vs. Unresolved</value>
+                </property>
+                <property id="trendable">
+                    <value>true</value>
+                </property>
+            </properties>
+            <value-fact-element id="RESOLVED-UNRESOLVED.RESOLVED" provider="WorkItemsAnalysis" type="RESOLVED-UNRESOLVED.ITEM">
+                <value type="java.lang.Double">0.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Resolved</value>
+                    </property>
+                    <property id="query">
+                        <value>(project.id:MyPolarion) AND (HAS_VALUE:resolution)</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+            <value-fact-element id="RESOLVED-UNRESOLVED.UNRESOLVED" provider="WorkItemsAnalysis" type="RESOLVED-UNRESOLVED.ITEM">
+                <value type="java.lang.Double">1233.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Unresolved</value>
+                    </property>
+                    <property id="query">
+                        <value>(project.id:MyPolarion) AND NOT HAS_VALUE:resolution</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+        </value-fact-element>
+        <value-fact-element id="UNRESOLVED-BY-ASSIGNEE" provider="WorkItemsAnalysis" type="UNRESOLVED-BY-ASSIGNEE">
+            <value/>
+            <properties>
+                <property id="kind">
+                    <value>distribution</value>
+                </property>
+                <property id="label">
+                    <value>Unresolved by Assignee</value>
+                </property>
+                <property id="trendable">
+                    <value>true</value>
+                </property>
+                <property id="category">
+                    <value/>
+                </property>
+            </properties>
+            <value-fact-element id="UNRESOLVED-BY-ASSIGNEE._unassigned" provider="WorkItemsAnalysis" type="UNRESOLVED-BY-ASSIGNEE.ITEM">
+                <value type="java.lang.Double">1233.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Unassigned</value>
+                    </property>
+                    <property id="query">
+                        <value>((project.id:MyPolarion) AND NOT HAS_VALUE:assignee.id) AND ((NOT HAS_VALUE:resolution))</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+            <value-fact-element id="UNRESOLVED-BY-ASSIGNEE.admin" provider="WorkItemsAnalysis" type="UNRESOLVED-BY-ASSIGNEE.ITEM">
+                <value type="java.lang.Double">0.0</value>
+                <properties>
+                    <property id="label">
+                        <value>System Administrator</value>
+                    </property>
+                    <property id="query">
+                        <value>((project.id:MyPolarion) AND (assignee.id:admin)) AND ((NOT HAS_VALUE:resolution))</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+        </value-fact-element>
+        <value-fact-element id="UNRESOLVED-BY-CATEGORY" provider="WorkItemsAnalysis" type="UNRESOLVED-BY-CATEGORY">
+            <value/>
+            <properties>
+                <property id="kind">
+                    <value>distribution</value>
+                </property>
+                <property id="label">
+                    <value>Unresolved by Category</value>
+                </property>
+                <property id="trendable">
+                    <value>true</value>
+                </property>
+                <property id="category">
+                    <value/>
+                </property>
+            </properties>
+            <value-fact-element id="UNRESOLVED-BY-CATEGORY._uncategorized" provider="WorkItemsAnalysis" type="UNRESOLVED-BY-CATEGORY.ITEM">
+                <value type="java.lang.Double">1233.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Uncategorized</value>
+                    </property>
+                    <property id="query">
+                        <value>((project.id:MyPolarion) AND NOT HAS_VALUE:categories.id) AND ((NOT HAS_VALUE:resolution))</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+        </value-fact-element>
+        <value-fact-element id="UNRESOLVED-BY-TIMEPOINT" provider="WorkItemsAnalysis" type="UNRESOLVED-BY-TIMEPOINT">
+            <value/>
+            <properties>
+                <property id="kind">
+                    <value>distribution</value>
+                </property>
+                <property id="label">
+                    <value>Unresolved by Time Point</value>
+                </property>
+                <property id="trendable">
+                    <value>true</value>
+                </property>
+                <property id="category">
+                    <value/>
+                </property>
+            </properties>
+            <value-fact-element id="UNRESOLVED-BY-TIMEPOINT._unscheduled" provider="WorkItemsAnalysis" type="UNRESOLVED-BY-TIMEPOINT.ITEM">
+                <value type="java.lang.Double">1233.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Unscheduled</value>
+                    </property>
+                    <property id="query">
+                        <value>((project.id:MyPolarion) AND NOT HAS_VALUE:timePoint.id) AND ((NOT HAS_VALUE:resolution))</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+        </value-fact-element>
+        <value-fact-element id="MAI" provider="WorkItemsAnalysis" type="MAI">
+            <value>--</value>
+            <properties>
+                <property id="label">
+                    <value>Most Assigned to Individual</value>
+                </property>
+                <property id="trendable">
+                    <value>true</value>
+                </property>
+            </properties>
+        </value-fact-element>
+        <value-fact-element id="MEI" provider="WorkItemsAnalysis" type="MEI">
+            <value type="java.lang.Double">70.0</value>
+            <properties>
+                <property id="label">
+                    <value>Most Entered by Individual</value>
+                </property>
+                <property id="trendable">
+                    <value>true</value>
+                </property>
+            </properties>
+            <value-fact-element id="MEI/target" provider="WorkItemsAnalysis" type="MEI/target">
+                <value type="data-instance">/default/${User}admin</value>
+            </value-fact-element>
+        </value-fact-element>
+        <value-fact-element id="MSI" provider="WorkItemsAnalysis" type="MSI">
+            <value>--</value>
+            <properties>
+                <property id="label">
+                    <value>Most Solved by Individual</value>
+                </property>
+                <property id="trendable">
+                    <value>true</value>
+                </property>
+            </properties>
+        </value-fact-element>
+        <value-fact-element id="ESTIMATE-ACCURACY" provider="WorkItemsAnalysis" type="ESTIMATE-ACCURACY">
+            <value/>
+            <properties>
+                <property id="kind">
+                    <value>distribution</value>
+                </property>
+                <property id="label">
+                    <value>Estimate Accuracy</value>
+                </property>
+                <property id="score">
+                    <value type="java.lang.Double">1.0</value>
+                </property>
+                <property id="score-category">
+                    <value>Planning</value>
+                </property>
+                <property id="trendable">
+                    <value>true</value>
+                </property>
+                <property id="category">
+                    <value>WorkItems</value>
+                </property>
+            </properties>
+            <value-fact-element id="ESTIMATE-ACCURACY.pos" provider="WorkItemsAnalysis" type="ESTIMATE-ACCURACY.ITEM">
+                <value type="java.lang.Double">1.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Accurate</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+            <value-fact-element id="ESTIMATE-ACCURACY.neg" provider="WorkItemsAnalysis" type="ESTIMATE-ACCURACY.ITEM">
+                <value type="java.lang.Double">0.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Inaccurate</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+        </value-fact-element>
+        <value-fact-element id="PROJECT-PLAN-ACCURACY" provider="WorkItemsAnalysis" type="PROJECT-PLAN-ACCURACY">
+            <value/>
+            <properties>
+                <property id="kind">
+                    <value>distribution</value>
+                </property>
+                <property id="label">
+                    <value>Project Plan Accuracy</value>
+                </property>
+                <property id="score">
+                    <value type="java.lang.Double">1.0</value>
+                </property>
+                <property id="score-category">
+                    <value>Planning</value>
+                </property>
+                <property id="trendable">
+                    <value>true</value>
+                </property>
+                <property id="category">
+                    <value>WorkItems</value>
+                </property>
+            </properties>
+            <value-fact-element id="PROJECT-PLAN-ACCURACY.pos" provider="WorkItemsAnalysis" type="PROJECT-PLAN-ACCURACY.ITEM">
+                <value type="java.lang.Double">1.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Accurate</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+            <value-fact-element id="PROJECT-PLAN-ACCURACY.neg" provider="WorkItemsAnalysis" type="PROJECT-PLAN-ACCURACY.ITEM">
+                <value type="java.lang.Double">0.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Inaccurate</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+        </value-fact-element>
+        <value-fact-element id="PLANNING-ACCURACY" provider="WorkItemsAnalysis" type="PLANNING-ACCURACY">
+            <value>--</value>
+            <properties>
+                <property id="label">
+                    <value>Planning Accuracy</value>
+                </property>
+                <property id="trendable">
+                    <value>true</value>
+                </property>
+            </properties>
+        </value-fact-element>
+        <value-fact-element id="PLANNING-COVERAGE" provider="WorkItemsAnalysis" type="PLANNING-COVERAGE">
+            <value/>
+            <properties>
+                <property id="kind">
+                    <value>distribution</value>
+                </property>
+                <property id="label">
+                    <value>Estimated vs. Not Estimated Work Items</value>
+                </property>
+                <property id="score">
+                    <value type="java.lang.Double">0.0040551500405515</value>
+                </property>
+                <property id="score-category">
+                    <value>Planning</value>
+                </property>
+                <property id="trendable">
+                    <value>true</value>
+                </property>
+                <property id="category">
+                    <value>WorkItems</value>
+                </property>
+            </properties>
+            <value-fact-element id="PLANNING-COVERAGE.planned" provider="WorkItemsAnalysis" type="PLANNING-COVERAGE.ITEM">
+                <value type="java.lang.Double">5.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Estimated</value>
+                    </property>
+                    <property id="query">
+                        <value>(project.id:MyPolarion AND HAS_VALUE:initialEstimate AND HAS_VALUE:timeSpent) OR (project.id:MyPolarion AND HAS_VALUE:initialEstimate AND HAS_VALUE:remainingEstimate)</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+            <value-fact-element id="PLANNING-COVERAGE.not-planned" provider="WorkItemsAnalysis" type="PLANNING-COVERAGE.ITEM">
+                <value type="java.lang.Double">1228.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Not Estimated</value>
+                    </property>
+                    <property id="query">
+                        <value>(project.id:MyPolarion AND NOT HAS_VALUE:initialEstimate) OR (project.id:MyPolarion AND NOT HAS_VALUE:remainingEstimate AND NOT HAS_VALUE:timeSpent)</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+        </value-fact-element>
+        <value-fact-element id="WORKITEMS-PLANNING-ACCURACY" provider="WorkItemsAnalysis" type="WORKITEMS-PLANNING-ACCURACY">
+            <value/>
+            <properties>
+                <property id="kind">
+                    <value>distribution</value>
+                </property>
+                <property id="label">
+                    <value>In Time vs. Underestimated Work Items</value>
+                </property>
+                <property id="description">
+                    <value>Rate of in time vs. underestimated Work Items (by in time it is meant that initial estimate &gt;= time spent + remaining estimate); only Work Items having filled initial estimate and at least one of time spent and remaining estimate are taken into account</value>
+                </property>
+                <property id="score">
+                    <value type="java.lang.Double">1.0</value>
+                </property>
+                <property id="score-category">
+                    <value>Planning</value>
+                </property>
+                <property id="trendable">
+                    <value>true</value>
+                </property>
+                <property id="category">
+                    <value>WorkItems</value>
+                </property>
+            </properties>
+            <value-fact-element id="WORKITEMS-PLANNING-ACCURACY.correct" provider="WorkItemsAnalysis" type="WORKITEMS-PLANNING-ACCURACY.ITEM">
+                <value type="java.lang.Double">5.0</value>
+                <properties>
+                    <property id="label">
+                        <value>In Time</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+            <value-fact-element id="WORKITEMS-PLANNING-ACCURACY.incorrect" provider="WorkItemsAnalysis" type="WORKITEMS-PLANNING-ACCURACY.ITEM">
+                <value type="java.lang.Double">0.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Underestimated</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+        </value-fact-element>
+        <value-fact-element id="RESOLVED-RATIO" provider="WorkItemsAnalysis" type="RESOLVED-RATIO">
+            <value/>
+            <properties>
+                <property id="kind">
+                    <value>distribution</value>
+                </property>
+                <property id="label">
+                    <value>Resolved vs. Unresolved</value>
+                </property>
+                <property id="description">
+                    <value><![CDATA[
+                    Rate of Work Items that have resolution set.
+            ]]></value>
+                </property>
+                <property id="trendable">
+                    <value>true</value>
+                </property>
+            </properties>
+            <value-fact-element id="RESOLVED-RATIO.resolved" provider="WorkItemsAnalysis" type="RESOLVED-RATIO.ITEM">
+                <value type="java.lang.Double">0.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Resolved</value>
+                    </property>
+                    <property id="query">
+                        <value>(project.id:MyPolarion) AND (HAS_VALUE:resolution)</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+            <value-fact-element id="RESOLVED-RATIO.not-resolved" provider="WorkItemsAnalysis" type="RESOLVED-RATIO.ITEM">
+                <value type="java.lang.Double">1233.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Unresolved</value>
+                    </property>
+                    <property id="query">
+                        <value>(project.id:MyPolarion) AND NOT HAS_VALUE:resolution</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+        </value-fact-element>
+        <value-fact-element id="ASSIGNMENT-RATIO" provider="WorkItemsAnalysis" type="ASSIGNMENT-RATIO">
+            <value/>
+            <properties>
+                <property id="kind">
+                    <value>distribution</value>
+                </property>
+                <property id="label">
+                    <value>Assigned vs. Unassigned</value>
+                </property>
+                <property id="description">
+                    <value><![CDATA[
+            Rate of Work Items that have assignee set.
+            ]]></value>
+                </property>
+                <property id="trendable">
+                    <value>true</value>
+                </property>
+            </properties>
+            <value-fact-element id="ASSIGNMENT-RATIO.assigned" provider="WorkItemsAnalysis" type="ASSIGNMENT-RATIO.ITEM">
+                <value type="java.lang.Double">0.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Assigned</value>
+                    </property>
+                    <property id="query">
+                        <value>(project.id:MyPolarion) AND NOT HAS_VALUE:resolution AND HAS_VALUE:assignee.id</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+            <value-fact-element id="ASSIGNMENT-RATIO.not-assigned" provider="WorkItemsAnalysis" type="ASSIGNMENT-RATIO.ITEM">
+                <value type="java.lang.Double">1233.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Unassigned</value>
+                    </property>
+                    <property id="query">
+                        <value>(project.id:MyPolarion) AND NOT HAS_VALUE:resolution AND NOT HAS_VALUE:assignee.id</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+        </value-fact-element>
+        <value-fact-element id="PLANNING-RATIO" provider="WorkItemsAnalysis" type="PLANNING-RATIO">
+            <value/>
+            <properties>
+                <property id="kind">
+                    <value>distribution</value>
+                </property>
+                <property id="label">
+                    <value>Scheduled vs. Unscheduled</value>
+                </property>
+                <property id="description">
+                    <value><![CDATA[
+            Rate of unresolved Work Items that are assigned to a plan.
+            ]]></value>
+                </property>
+                <property id="trendable">
+                    <value>true</value>
+                </property>
+            </properties>
+            <value-fact-element id="PLANNING-RATIO.planned" provider="WorkItemsAnalysis" type="PLANNING-RATIO.ITEM">
+                <value type="java.lang.Double">0.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Scheduled</value>
+                    </property>
+                    <property id="query">
+                        <value>(project.id:MyPolarion) AND NOT HAS_VALUE:resolution AND PLAN:(*)</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+            <value-fact-element id="PLANNING-RATIO.not-planned" provider="WorkItemsAnalysis" type="PLANNING-RATIO.ITEM">
+                <value type="java.lang.Double">1233.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Unscheduled</value>
+                    </property>
+                    <property id="query">
+                        <value>(project.id:MyPolarion) AND NOT HAS_VALUE:resolution AND NOT PLAN:(*)</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+        </value-fact-element>
+        <value-fact-element id="SEVERITY" provider="WorkItemsAnalysis" type="SEVERITY">
+            <value/>
+            <properties>
+                <property id="kind">
+                    <value>distribution</value>
+                </property>
+                <property id="label">
+                    <value>Work Items by Severity</value>
+                </property>
+                <property id="trendable">
+                    <value>true</value>
+                </property>
+            </properties>
+            <value-fact-element id="SEVERITY.normal" provider="WorkItemsAnalysis" type="SEVERITY.ITEM">
+                <value type="java.lang.Double">838.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Normal</value>
+                    </property>
+                    <property id="query">
+                        <value>(project.id:MyPolarion) AND (severity:normal)</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+            <value-fact-element id="SEVERITY.critical" provider="WorkItemsAnalysis" type="SEVERITY.ITEM">
+                <value type="java.lang.Double">0.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Critical</value>
+                    </property>
+                    <property id="query">
+                        <value>(project.id:MyPolarion) AND (severity:critical)</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+            <value-fact-element id="SEVERITY.blocker" provider="WorkItemsAnalysis" type="SEVERITY.ITEM">
+                <value type="java.lang.Double">0.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Blocker</value>
+                    </property>
+                    <property id="query">
+                        <value>(project.id:MyPolarion) AND (severity:blocker)</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+        </value-fact-element>
+        <value-fact-element id="OPEN-BY-SEVERITY" provider="WorkItemsAnalysis" type="OPEN-BY-SEVERITY">
+            <value/>
+            <properties>
+                <property id="kind">
+                    <value>distribution</value>
+                </property>
+                <property id="label">
+                    <value>Unresolved by Severity</value>
+                </property>
+                <property id="trendable">
+                    <value>true</value>
+                </property>
+            </properties>
+            <value-fact-element id="OPEN-BY-SEVERITY.normal" provider="WorkItemsAnalysis" type="OPEN-BY-SEVERITY.ITEM">
+                <value type="java.lang.Double">838.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Normal</value>
+                    </property>
+                    <property id="query">
+                        <value>(project.id:MyPolarion) AND (severity:normal AND NOT HAS_VALUE:resolution)</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+            <value-fact-element id="OPEN-BY-SEVERITY.critical" provider="WorkItemsAnalysis" type="OPEN-BY-SEVERITY.ITEM">
+                <value type="java.lang.Double">0.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Critical</value>
+                    </property>
+                    <property id="query">
+                        <value>(project.id:MyPolarion) AND (severity:critical AND NOT HAS_VALUE:resolution)</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+            <value-fact-element id="OPEN-BY-SEVERITY.blocker" provider="WorkItemsAnalysis" type="OPEN-BY-SEVERITY.ITEM">
+                <value type="java.lang.Double">0.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Blocker</value>
+                    </property>
+                    <property id="query">
+                        <value>(project.id:MyPolarion) AND (severity:blocker AND NOT HAS_VALUE:resolution)</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+        </value-fact-element>
+        <value-fact-element id="RESOLVED-BY-SEVERITY" provider="WorkItemsAnalysis" type="RESOLVED-BY-SEVERITY">
+            <value/>
+            <properties>
+                <property id="kind">
+                    <value>distribution</value>
+                </property>
+                <property id="label">
+                    <value>Resolved by Severity</value>
+                </property>
+                <property id="trendable">
+                    <value>true</value>
+                </property>
+            </properties>
+            <value-fact-element id="RESOLVED-BY-SEVERITY.normal" provider="WorkItemsAnalysis" type="RESOLVED-BY-SEVERITY.ITEM">
+                <value type="java.lang.Double">0.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Normal</value>
+                    </property>
+                    <property id="query">
+                        <value>(project.id:MyPolarion) AND (severity:normal AND HAS_VALUE:resolution)</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+            <value-fact-element id="RESOLVED-BY-SEVERITY.critical" provider="WorkItemsAnalysis" type="RESOLVED-BY-SEVERITY.ITEM">
+                <value type="java.lang.Double">0.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Critical</value>
+                    </property>
+                    <property id="query">
+                        <value>(project.id:MyPolarion) AND (severity:critical AND HAS_VALUE:resolution)</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+            <value-fact-element id="RESOLVED-BY-SEVERITY.blocker" provider="WorkItemsAnalysis" type="RESOLVED-BY-SEVERITY.ITEM">
+                <value type="java.lang.Double">0.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Blocker</value>
+                    </property>
+                    <property id="query">
+                        <value>(project.id:MyPolarion) AND (severity:blocker AND HAS_VALUE:resolution)</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+        </value-fact-element>
+        <value-fact-element id="PRIORITY" provider="WorkItemsAnalysis" type="PRIORITY">
+            <value/>
+            <properties>
+                <property id="kind">
+                    <value>distribution</value>
+                </property>
+                <property id="label">
+                    <value>Work Items by Priority</value>
+                </property>
+                <property id="trendable">
+                    <value>true</value>
+                </property>
+            </properties>
+            <value-fact-element id="PRIORITY.lowest" provider="WorkItemsAnalysis" type="PRIORITY.ITEM">
+                <value type="java.lang.Double">0.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Lowest</value>
+                    </property>
+                    <property id="query">
+                        <value>(project.id:MyPolarion) AND (priority:lowest)</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+            <value-fact-element id="PRIORITY.low" provider="WorkItemsAnalysis" type="PRIORITY.ITEM">
+                <value type="java.lang.Double">0.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Low</value>
+                    </property>
+                    <property id="query">
+                        <value>(project.id:MyPolarion) AND (priority:low)</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+            <value-fact-element id="PRIORITY.medium" provider="WorkItemsAnalysis" type="PRIORITY.ITEM">
+                <value type="java.lang.Double">832.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Medium</value>
+                    </property>
+                    <property id="query">
+                        <value>(project.id:MyPolarion) AND (priority:medium)</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+            <value-fact-element id="PRIORITY.high" provider="WorkItemsAnalysis" type="PRIORITY.ITEM">
+                <value type="java.lang.Double">0.0</value>
+                <properties>
+                    <property id="label">
+                        <value>High</value>
+                    </property>
+                    <property id="query">
+                        <value>(project.id:MyPolarion) AND (priority:high)</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+            <value-fact-element id="PRIORITY.highest" provider="WorkItemsAnalysis" type="PRIORITY.ITEM">
+                <value type="java.lang.Double">6.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Highest</value>
+                    </property>
+                    <property id="query">
+                        <value>(project.id:MyPolarion) AND (priority:highest)</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+        </value-fact-element>
+        <value-fact-element id="OPEN-BY-PRIORITY" provider="WorkItemsAnalysis" type="OPEN-BY-PRIORITY">
+            <value/>
+            <properties>
+                <property id="kind">
+                    <value>distribution</value>
+                </property>
+                <property id="label">
+                    <value>Unresolved by Priority</value>
+                </property>
+                <property id="trendable">
+                    <value>true</value>
+                </property>
+            </properties>
+            <value-fact-element id="OPEN-BY-PRIORITY.lowest" provider="WorkItemsAnalysis" type="OPEN-BY-PRIORITY.ITEM">
+                <value type="java.lang.Double">0.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Lowest</value>
+                    </property>
+                    <property id="query">
+                        <value>(project.id:MyPolarion) AND (priority:lowest AND NOT HAS_VALUE:resolution)</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+            <value-fact-element id="OPEN-BY-PRIORITY.low" provider="WorkItemsAnalysis" type="OPEN-BY-PRIORITY.ITEM">
+                <value type="java.lang.Double">0.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Low</value>
+                    </property>
+                    <property id="query">
+                        <value>(project.id:MyPolarion) AND (priority:low AND NOT HAS_VALUE:resolution)</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+            <value-fact-element id="OPEN-BY-PRIORITY.medium" provider="WorkItemsAnalysis" type="OPEN-BY-PRIORITY.ITEM">
+                <value type="java.lang.Double">832.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Medium</value>
+                    </property>
+                    <property id="query">
+                        <value>(project.id:MyPolarion) AND (priority:medium AND NOT HAS_VALUE:resolution)</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+            <value-fact-element id="OPEN-BY-PRIORITY.high" provider="WorkItemsAnalysis" type="OPEN-BY-PRIORITY.ITEM">
+                <value type="java.lang.Double">0.0</value>
+                <properties>
+                    <property id="label">
+                        <value>High</value>
+                    </property>
+                    <property id="query">
+                        <value>(project.id:MyPolarion) AND (priority:high AND NOT HAS_VALUE:resolution)</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+            <value-fact-element id="OPEN-BY-PRIORITY.highest" provider="WorkItemsAnalysis" type="OPEN-BY-PRIORITY.ITEM">
+                <value type="java.lang.Double">6.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Highest</value>
+                    </property>
+                    <property id="query">
+                        <value>(project.id:MyPolarion) AND (priority:highest AND NOT HAS_VALUE:resolution)</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+        </value-fact-element>
+        <value-fact-element id="RESOLUTION" provider="WorkItemsAnalysis" type="RESOLUTION">
+            <value/>
+            <properties>
+                <property id="kind">
+                    <value>distribution</value>
+                </property>
+                <property id="label">
+                    <value>Work Items by Resolution</value>
+                </property>
+                <property id="trendable">
+                    <value>true</value>
+                </property>
+            </properties>
+            <value-fact-element id="RESOLUTION.fixed" provider="WorkItemsAnalysis" type="RESOLUTION.ITEM">
+                <value type="java.lang.Double">0.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Fixed</value>
+                    </property>
+                    <property id="query">
+                        <value>(project.id:MyPolarion) AND (resolution:fixed)</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+            <value-fact-element id="RESOLUTION.finished" provider="WorkItemsAnalysis" type="RESOLUTION.ITEM">
+                <value type="java.lang.Double">0.0</value>
+                <properties>
+                    <property id="label">
+                        <value>finished</value>
+                    </property>
+                    <property id="query">
+                        <value>(project.id:MyPolarion) AND (resolution:finished)</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+            <value-fact-element id="RESOLUTION.wontfix" provider="WorkItemsAnalysis" type="RESOLUTION.ITEM">
+                <value type="java.lang.Double">0.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Won't Fix</value>
+                    </property>
+                    <property id="query">
+                        <value>(project.id:MyPolarion) AND (resolution:wontfix)</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+            <value-fact-element id="RESOLUTION.stopped" provider="WorkItemsAnalysis" type="RESOLUTION.ITEM">
+                <value type="java.lang.Double">0.0</value>
+                <properties>
+                    <property id="label">
+                        <value>stopped</value>
+                    </property>
+                    <property id="query">
+                        <value>(project.id:MyPolarion) AND (resolution:stopped)</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+            <value-fact-element id="RESOLUTION.duplicate" provider="WorkItemsAnalysis" type="RESOLUTION.ITEM">
+                <value type="java.lang.Double">0.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Duplicate</value>
+                    </property>
+                    <property id="query">
+                        <value>(project.id:MyPolarion) AND (resolution:duplicate)</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+            <value-fact-element id="RESOLUTION.other" provider="WorkItemsAnalysis" type="RESOLUTION.ITEM">
+                <value type="java.lang.Double">0.0</value>
+                <properties>
+                    <property id="label">
+                        <value>other</value>
+                    </property>
+                    <property id="query">
+                        <value>(project.id:MyPolarion) AND (resolution:other)</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+            <value-fact-element id="RESOLUTION.incomplete" provider="WorkItemsAnalysis" type="RESOLUTION.ITEM">
+                <value type="java.lang.Double">0.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Incomplete</value>
+                    </property>
+                    <property id="query">
+                        <value>(project.id:MyPolarion) AND (resolution:incomplete)</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+            <value-fact-element id="RESOLUTION.notPossible" provider="WorkItemsAnalysis" type="RESOLUTION.ITEM">
+                <value type="java.lang.Double">0.0</value>
+                <properties>
+                    <property id="label">
+                        <value>not possible</value>
+                    </property>
+                    <property id="query">
+                        <value>(project.id:MyPolarion) AND (resolution:notPossible)</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+            <value-fact-element id="RESOLUTION.cannotreproduce" provider="WorkItemsAnalysis" type="RESOLUTION.ITEM">
+                <value type="java.lang.Double">0.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Cannot Reproduce</value>
+                    </property>
+                    <property id="query">
+                        <value>(project.id:MyPolarion) AND (resolution:cannotreproduce)</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+            <value-fact-element id="RESOLUTION.notNeeded" provider="WorkItemsAnalysis" type="RESOLUTION.ITEM">
+                <value type="java.lang.Double">0.0</value>
+                <properties>
+                    <property id="label">
+                        <value>not needed</value>
+                    </property>
+                    <property id="query">
+                        <value>(project.id:MyPolarion) AND (resolution:notNeeded)</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+            <value-fact-element id="RESOLUTION.invalid" provider="WorkItemsAnalysis" type="RESOLUTION.ITEM">
+                <value type="java.lang.Double">0.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Invalid</value>
+                    </property>
+                    <property id="query">
+                        <value>(project.id:MyPolarion) AND (resolution:invalid)</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+            <value-fact-element id="RESOLUTION.later" provider="WorkItemsAnalysis" type="RESOLUTION.ITEM">
+                <value type="java.lang.Double">0.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Later</value>
+                    </property>
+                    <property id="query">
+                        <value>(project.id:MyPolarion) AND (resolution:later)</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+        </value-fact-element>
+        <value-fact-element id="STATUS" provider="WorkItemsAnalysis" type="STATUS">
+            <value/>
+            <properties>
+                <property id="kind">
+                    <value>distribution</value>
+                </property>
+                <property id="label">
+                    <value>Work Items by Status</value>
+                </property>
+                <property id="trendable">
+                    <value>true</value>
+                </property>
+            </properties>
+            <value-fact-element id="STATUS.accepted" provider="WorkItemsAnalysis" type="STATUS.ITEM">
+                <value type="java.lang.Double">101.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Accepted</value>
+                    </property>
+                    <property id="query">
+                        <value>(project.id:MyPolarion) AND (status:accepted)</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+            <value-fact-element id="STATUS.open" provider="WorkItemsAnalysis" type="STATUS.ITEM">
+                <value type="java.lang.Double">1132.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Open</value>
+                    </property>
+                    <property id="query">
+                        <value>(project.id:MyPolarion) AND (status:open)</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+            <value-fact-element id="STATUS.accepted" provider="WorkItemsAnalysis" type="STATUS.ITEM">
+                <value type="java.lang.Double">101.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Accepted</value>
+                    </property>
+                    <property id="query">
+                        <value>(project.id:MyPolarion) AND (status:accepted)</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+            <value-fact-element id="STATUS.open" provider="WorkItemsAnalysis" type="STATUS.ITEM">
+                <value type="java.lang.Double">1132.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Open</value>
+                    </property>
+                    <property id="query">
+                        <value>(project.id:MyPolarion) AND (status:open)</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+            <value-fact-element id="STATUS.closed" provider="WorkItemsAnalysis" type="STATUS.ITEM">
+                <value type="java.lang.Double">0.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Closed</value>
+                    </property>
+                    <property id="query">
+                        <value>(project.id:MyPolarion) AND (status:closed)</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+            <value-fact-element id="STATUS.inprogress" provider="WorkItemsAnalysis" type="STATUS.ITEM">
+                <value type="java.lang.Double">0.0</value>
+                <properties>
+                    <property id="label">
+                        <value>In Progress</value>
+                    </property>
+                    <property id="query">
+                        <value>(project.id:MyPolarion) AND (status:inprogress)</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+            <value-fact-element id="STATUS.inprogress" provider="WorkItemsAnalysis" type="STATUS.ITEM">
+                <value type="java.lang.Double">0.0</value>
+                <properties>
+                    <property id="label">
+                        <value>In Progress</value>
+                    </property>
+                    <property id="query">
+                        <value>(project.id:MyPolarion) AND (status:inprogress)</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+            <value-fact-element id="STATUS.closed" provider="WorkItemsAnalysis" type="STATUS.ITEM">
+                <value type="java.lang.Double">0.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Closed</value>
+                    </property>
+                    <property id="query">
+                        <value>(project.id:MyPolarion) AND (status:closed)</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+            <value-fact-element id="STATUS.open" provider="WorkItemsAnalysis" type="STATUS.ITEM">
+                <value type="java.lang.Double">1132.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Open</value>
+                    </property>
+                    <property id="query">
+                        <value>(project.id:MyPolarion) AND (status:open)</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+            <value-fact-element id="STATUS.new" provider="WorkItemsAnalysis" type="STATUS.ITEM">
+                <value type="java.lang.Double">0.0</value>
+                <properties>
+                    <property id="label">
+                        <value>New</value>
+                    </property>
+                    <property id="query">
+                        <value>(project.id:MyPolarion) AND (status:new)</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+            <value-fact-element id="STATUS.open" provider="WorkItemsAnalysis" type="STATUS.ITEM">
+                <value type="java.lang.Double">1132.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Open</value>
+                    </property>
+                    <property id="query">
+                        <value>(project.id:MyPolarion) AND (status:open)</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+            <value-fact-element id="STATUS.open" provider="WorkItemsAnalysis" type="STATUS.ITEM">
+                <value type="java.lang.Double">1132.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Open</value>
+                    </property>
+                    <property id="query">
+                        <value>(project.id:MyPolarion) AND (status:open)</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+            <value-fact-element id="STATUS.reopened" provider="WorkItemsAnalysis" type="STATUS.ITEM">
+                <value type="java.lang.Double">0.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Reopened</value>
+                    </property>
+                    <property id="query">
+                        <value>(project.id:MyPolarion) AND (status:reopened)</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+            <value-fact-element id="STATUS.updateNeeded" provider="WorkItemsAnalysis" type="STATUS.ITEM">
+                <value type="java.lang.Double">0.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Update Needed</value>
+                    </property>
+                    <property id="query">
+                        <value>(project.id:MyPolarion) AND (status:updateNeeded)</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+            <value-fact-element id="STATUS.resolved" provider="WorkItemsAnalysis" type="STATUS.ITEM">
+                <value type="java.lang.Double">0.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Resolved</value>
+                    </property>
+                    <property id="query">
+                        <value>(project.id:MyPolarion) AND (status:resolved)</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+            <value-fact-element id="STATUS.waitingForResponse" provider="WorkItemsAnalysis" type="STATUS.ITEM">
+                <value type="java.lang.Double">0.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Waiting For Response</value>
+                    </property>
+                    <property id="query">
+                        <value>(project.id:MyPolarion) AND (status:waitingForResponse)</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+            <value-fact-element id="STATUS.approved" provider="WorkItemsAnalysis" type="STATUS.ITEM">
+                <value type="java.lang.Double">0.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Approved</value>
+                    </property>
+                    <property id="query">
+                        <value>(project.id:MyPolarion) AND (status:approved)</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+            <value-fact-element id="STATUS.finished" provider="WorkItemsAnalysis" type="STATUS.ITEM">
+                <value type="java.lang.Double">0.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Finished</value>
+                    </property>
+                    <property id="query">
+                        <value>(project.id:MyPolarion) AND (status:finished)</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+            <value-fact-element id="STATUS.closed" provider="WorkItemsAnalysis" type="STATUS.ITEM">
+                <value type="java.lang.Double">0.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Closed</value>
+                    </property>
+                    <property id="query">
+                        <value>(project.id:MyPolarion) AND (status:closed)</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+            <value-fact-element id="STATUS.draft" provider="WorkItemsAnalysis" type="STATUS.ITEM">
+                <value type="java.lang.Double">0.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Draft</value>
+                    </property>
+                    <property id="query">
+                        <value>(project.id:MyPolarion) AND (status:draft)</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+            <value-fact-element id="STATUS.finished" provider="WorkItemsAnalysis" type="STATUS.ITEM">
+                <value type="java.lang.Double">0.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Finished</value>
+                    </property>
+                    <property id="query">
+                        <value>(project.id:MyPolarion) AND (status:finished)</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+            <value-fact-element id="STATUS.inProgress" provider="WorkItemsAnalysis" type="STATUS.ITEM">
+                <value type="java.lang.Double">0.0</value>
+                <properties>
+                    <property id="label">
+                        <value>In Progress</value>
+                    </property>
+                    <property id="query">
+                        <value>(project.id:MyPolarion) AND (status:inProgress)</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+        </value-fact-element>
+        <value-fact-element id="ALL" provider="WorkItemsAnalysis" type="ALL">
+            <value type="java.lang.Double">1233.0</value>
+            <properties>
+                <property id="label">
+                    <value>All Work Items</value>
+                </property>
+                <property id="query">
+                    <value/>
+                </property>
+                <property id="trendable">
+                    <value>true</value>
+                </property>
+            </properties>
+        </value-fact-element>
+        <value-fact-element id="OPEN" provider="WorkItemsAnalysis" type="OPEN">
+            <value type="java.lang.Double">0.0</value>
+            <properties>
+                <property id="label">
+                    <value>Open Work Items</value>
+                </property>
+                <property id="query">
+                    <value>HAS_VALUE:assignee.id AND PLAN:(*) AND NOT HAS_VALUE:resolution</value>
+                </property>
+                <property id="trendable">
+                    <value>true</value>
+                </property>
+            </properties>
+        </value-fact-element>
+        <value-fact-element id="UNRESOLVED-VERSION-1" provider="WorkItemsAnalysis" type="UNRESOLVED-VERSION-1">
+            <value type="java.lang.Double">0.0</value>
+            <properties>
+                <property id="label">
+                    <value>Unresolved Work Items Planned for Version 1.0</value>
+                </property>
+                <property id="query">
+                    <value>targetVersion.KEY:Version_1_0 AND NOT HAS_VALUE:resolution</value>
+                </property>
+                <property id="trendable">
+                    <value>true</value>
+                </property>
+            </properties>
+        </value-fact-element>
+        <value-fact-element id="NOT-VERIFIED-REQUIREMENTS-VERSION-1" provider="WorkItemsAnalysis" type="NOT-VERIFIED-REQUIREMENTS-VERSION-1">
+            <value type="java.lang.Double">0.0</value>
+            <properties>
+                <property id="label">
+                    <value>Not Verified Requirements Planned for Version 1.0</value>
+                </property>
+                <property id="query">
+                    <value>targetVersion.KEY:Version_1_0 AND type:requirement AND status:implemented</value>
+                </property>
+                <property id="trendable">
+                    <value>true</value>
+                </property>
+            </properties>
+        </value-fact-element>
+        <value-fact-element id="NEW" provider="WorkItemsAnalysis" type="NEW">
+            <value type="java.lang.Double">1233.0</value>
+            <properties>
+                <property id="label">
+                    <value>New Work Items</value>
+                </property>
+                <property id="query">
+                    <value>NOT HAS_VALUE:resolution AND (NOT HAS_VALUE:assignee.id OR (NOT PLAN:(*)))</value>
+                </property>
+                <property id="trendable">
+                    <value>true</value>
+                </property>
+            </properties>
+        </value-fact-element>
+        <value-fact-element id="SUSPECT-RATIO" provider="WorkItemsAnalysis" type="SUSPECT-RATIO">
+            <value/>
+            <properties>
+                <property id="kind">
+                    <value>distribution</value>
+                </property>
+                <property id="label">
+                    <value>Not Suspect vs. Suspect Work Items</value>
+                </property>
+                <property id="description">
+                    <value><![CDATA[
+            Rate of unresolved Work Items that have suspected link to other Work Item.
+            ]]></value>
+                </property>
+                <property id="trendable">
+                    <value>true</value>
+                </property>
+            </properties>
+            <value-fact-element id="SUSPECT-RATIO.not-suspect" provider="WorkItemsAnalysis" type="SUSPECT-RATIO.ITEM">
+                <value type="java.lang.Double">1233.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Not suspect</value>
+                    </property>
+                    <property id="query">
+                        <value>(project.id:MyPolarion) AND NOT HAS_VALUE:resolution AND NOT suspect:true</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+            <value-fact-element id="SUSPECT-RATIO.suspect" provider="WorkItemsAnalysis" type="SUSPECT-RATIO.ITEM">
+                <value type="java.lang.Double">0.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Suspect</value>
+                    </property>
+                    <property id="query">
+                        <value>(project.id:MyPolarion) AND NOT HAS_VALUE:resolution AND suspect:true</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+        </value-fact-element>
+        <value-fact-element id="TRACEABILITY-REQUIREMENTS-COMMITS" provider="WorkItemsAnalysis" type="TRACEABILITY-REQUIREMENTS-COMMITS">
+            <value/>
+            <properties>
+                <property id="kind">
+                    <value>distribution</value>
+                </property>
+                <property id="label">
+                    <value>Tracebility Work Items to Commits</value>
+                </property>
+                <property id="description">
+                    <value><![CDATA[
+                    Rate of Work Items that are linked to commits.
+            ]]></value>
+                </property>
+                <property id="score">
+                    <value type="java.lang.Double">NaN</value>
+                </property>
+                <property id="score-category">
+                    <value>Traceability</value>
+                </property>
+                <property id="trendable">
+                    <value>true</value>
+                </property>
+            </properties>
+            <value-fact-element id="TRACEABILITY-REQUIREMENTS-COMMITS.traceable" provider="WorkItemsAnalysis" type="TRACEABILITY-REQUIREMENTS-COMMITS.ITEM">
+                <value type="java.lang.Double">0.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Traceable Work Items</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+            <value-fact-element id="TRACEABILITY-REQUIREMENTS-COMMITS.untraceable" provider="WorkItemsAnalysis" type="TRACEABILITY-REQUIREMENTS-COMMITS.ITEM">
+                <value type="java.lang.Double">0.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Untraceable Work Items</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+        </value-fact-element>
+        <value-fact-element id="TRACEABILITY-COMMITS-REQUIREMENTS" provider="WorkItemsAnalysis" type="TRACEABILITY-COMMITS-REQUIREMENTS">
+            <value/>
+            <properties>
+                <property id="kind">
+                    <value>distribution</value>
+                </property>
+                <property id="label">
+                    <value>Tracebility Commits to Work Items</value>
+                </property>
+                <property id="description">
+                    <value><![CDATA[
+                    Rate of Commits that are linked to Work Items. 
+            ]]></value>
+                </property>
+                <property id="score">
+                    <value type="java.lang.Double">0.0</value>
+                </property>
+                <property id="score-category">
+                    <value>Traceability</value>
+                </property>
+                <property id="trendable">
+                    <value>true</value>
+                </property>
+            </properties>
+            <value-fact-element id="TRACEABILITY-COMMITS-REQUIREMENTS.traceable" provider="WorkItemsAnalysis" type="TRACEABILITY-COMMITS-REQUIREMENTS.ITEM">
+                <value type="java.lang.Double">0.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Traceable Commits</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+            <value-fact-element id="TRACEABILITY-COMMITS-REQUIREMENTS.untraceable" provider="WorkItemsAnalysis" type="TRACEABILITY-COMMITS-REQUIREMENTS.ITEM">
+                <value type="java.lang.Double">1.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Untraceable Commits</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+        </value-fact-element>
+        <value-fact-element id="ITEMS-BY-TYPE" provider="WorkItemsAnalysis" type="ITEMS-BY-TYPE">
+            <value/>
+            <properties>
+                <property id="kind">
+                    <value>distribution</value>
+                </property>
+                <property id="label">
+                    <value>Work Items by Type</value>
+                </property>
+                <property id="trendable">
+                    <value>true</value>
+                </property>
+            </properties>
+            <value-fact-element id="ITEMS-BY-TYPE.service" provider="WorkItemsAnalysis" type="ITEMS-BY-TYPE.ITEM">
+                <value type="java.lang.Double">0.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Service</value>
+                    </property>
+                    <property id="query">
+                        <value>(project.id:MyPolarion) AND (type:service)</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+            <value-fact-element id="ITEMS-BY-TYPE.text" provider="WorkItemsAnalysis" type="ITEMS-BY-TYPE.ITEM">
+                <value type="java.lang.Double">12.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Text</value>
+                    </property>
+                    <property id="query">
+                        <value>(project.id:MyPolarion) AND (type:text)</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+            <value-fact-element id="ITEMS-BY-TYPE.issue" provider="WorkItemsAnalysis" type="ITEMS-BY-TYPE.ITEM">
+                <value type="java.lang.Double">0.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Issue</value>
+                    </property>
+                    <property id="query">
+                        <value>(project.id:MyPolarion) AND (type:issue)</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+            <value-fact-element id="ITEMS-BY-TYPE.exercise" provider="WorkItemsAnalysis" type="ITEMS-BY-TYPE.ITEM">
+                <value type="java.lang.Double">144.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Exercise</value>
+                    </property>
+                    <property id="query">
+                        <value>(project.id:MyPolarion) AND (type:exercise)</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+            <value-fact-element id="ITEMS-BY-TYPE.task" provider="WorkItemsAnalysis" type="ITEMS-BY-TYPE.ITEM">
+                <value type="java.lang.Double">0.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Task</value>
+                    </property>
+                    <property id="query">
+                        <value>(project.id:MyPolarion) AND (type:task)</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+            <value-fact-element id="ITEMS-BY-TYPE.testing" provider="WorkItemsAnalysis" type="ITEMS-BY-TYPE.ITEM">
+                <value type="java.lang.Double">0.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Testing</value>
+                    </property>
+                    <property id="query">
+                        <value>(project.id:MyPolarion) AND (type:testing)</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+            <value-fact-element id="ITEMS-BY-TYPE.slide" provider="WorkItemsAnalysis" type="ITEMS-BY-TYPE.ITEM">
+                <value type="java.lang.Double">260.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Slide</value>
+                    </property>
+                    <property id="query">
+                        <value>(project.id:MyPolarion) AND (type:slide)</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+            <value-fact-element id="ITEMS-BY-TYPE.documentation" provider="WorkItemsAnalysis" type="ITEMS-BY-TYPE.ITEM">
+                <value type="java.lang.Double">0.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Documentation</value>
+                    </property>
+                    <property id="query">
+                        <value>(project.id:MyPolarion) AND (type:documentation)</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+            <value-fact-element id="ITEMS-BY-TYPE.implementation" provider="WorkItemsAnalysis" type="ITEMS-BY-TYPE.ITEM">
+                <value type="java.lang.Double">0.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Implementation</value>
+                    </property>
+                    <property id="query">
+                        <value>(project.id:MyPolarion) AND (type:implementation)</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+            <value-fact-element id="ITEMS-BY-TYPE.analysis" provider="WorkItemsAnalysis" type="ITEMS-BY-TYPE.ITEM">
+                <value type="java.lang.Double">0.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Analysis</value>
+                    </property>
+                    <property id="query">
+                        <value>(project.id:MyPolarion) AND (type:analysis)</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+        </value-fact-element>
+        <value-fact-element id="ITEMS-UNRESOLVED-BY-TYPE" provider="WorkItemsAnalysis" type="ITEMS-UNRESOLVED-BY-TYPE">
+            <value/>
+            <properties>
+                <property id="kind">
+                    <value>distribution</value>
+                </property>
+                <property id="label">
+                    <value>Unresolved Work Items by Type</value>
+                </property>
+                <property id="trendable">
+                    <value>true</value>
+                </property>
+            </properties>
+            <value-fact-element id="ITEMS-UNRESOLVED-BY-TYPE.service" provider="WorkItemsAnalysis" type="ITEMS-UNRESOLVED-BY-TYPE.ITEM">
+                <value type="java.lang.Double">0.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Service</value>
+                    </property>
+                    <property id="query">
+                        <value>(project.id:MyPolarion) AND (type:service AND NOT HAS_VALUE:resolution)</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+            <value-fact-element id="ITEMS-UNRESOLVED-BY-TYPE.text" provider="WorkItemsAnalysis" type="ITEMS-UNRESOLVED-BY-TYPE.ITEM">
+                <value type="java.lang.Double">12.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Text</value>
+                    </property>
+                    <property id="query">
+                        <value>(project.id:MyPolarion) AND (type:text AND NOT HAS_VALUE:resolution)</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+            <value-fact-element id="ITEMS-UNRESOLVED-BY-TYPE.issue" provider="WorkItemsAnalysis" type="ITEMS-UNRESOLVED-BY-TYPE.ITEM">
+                <value type="java.lang.Double">0.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Issue</value>
+                    </property>
+                    <property id="query">
+                        <value>(project.id:MyPolarion) AND (type:issue AND NOT HAS_VALUE:resolution)</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+            <value-fact-element id="ITEMS-UNRESOLVED-BY-TYPE.exercise" provider="WorkItemsAnalysis" type="ITEMS-UNRESOLVED-BY-TYPE.ITEM">
+                <value type="java.lang.Double">144.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Exercise</value>
+                    </property>
+                    <property id="query">
+                        <value>(project.id:MyPolarion) AND (type:exercise AND NOT HAS_VALUE:resolution)</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+            <value-fact-element id="ITEMS-UNRESOLVED-BY-TYPE.task" provider="WorkItemsAnalysis" type="ITEMS-UNRESOLVED-BY-TYPE.ITEM">
+                <value type="java.lang.Double">0.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Task</value>
+                    </property>
+                    <property id="query">
+                        <value>(project.id:MyPolarion) AND (type:task AND NOT HAS_VALUE:resolution)</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+            <value-fact-element id="ITEMS-UNRESOLVED-BY-TYPE.testing" provider="WorkItemsAnalysis" type="ITEMS-UNRESOLVED-BY-TYPE.ITEM">
+                <value type="java.lang.Double">0.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Testing</value>
+                    </property>
+                    <property id="query">
+                        <value>(project.id:MyPolarion) AND (type:testing AND NOT HAS_VALUE:resolution)</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+            <value-fact-element id="ITEMS-UNRESOLVED-BY-TYPE.slide" provider="WorkItemsAnalysis" type="ITEMS-UNRESOLVED-BY-TYPE.ITEM">
+                <value type="java.lang.Double">260.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Slide</value>
+                    </property>
+                    <property id="query">
+                        <value>(project.id:MyPolarion) AND (type:slide AND NOT HAS_VALUE:resolution)</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+            <value-fact-element id="ITEMS-UNRESOLVED-BY-TYPE.documentation" provider="WorkItemsAnalysis" type="ITEMS-UNRESOLVED-BY-TYPE.ITEM">
+                <value type="java.lang.Double">0.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Documentation</value>
+                    </property>
+                    <property id="query">
+                        <value>(project.id:MyPolarion) AND (type:documentation AND NOT HAS_VALUE:resolution)</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+            <value-fact-element id="ITEMS-UNRESOLVED-BY-TYPE.implementation" provider="WorkItemsAnalysis" type="ITEMS-UNRESOLVED-BY-TYPE.ITEM">
+                <value type="java.lang.Double">0.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Implementation</value>
+                    </property>
+                    <property id="query">
+                        <value>(project.id:MyPolarion) AND (type:implementation AND NOT HAS_VALUE:resolution)</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+            <value-fact-element id="ITEMS-UNRESOLVED-BY-TYPE.analysis" provider="WorkItemsAnalysis" type="ITEMS-UNRESOLVED-BY-TYPE.ITEM">
+                <value type="java.lang.Double">0.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Analysis</value>
+                    </property>
+                    <property id="query">
+                        <value>(project.id:MyPolarion) AND (type:analysis AND NOT HAS_VALUE:resolution)</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+        </value-fact-element>
+        <value-fact-element id="ITEMS-UNRESOLVED-ASSIGNED-BY-TYPE" provider="WorkItemsAnalysis" type="ITEMS-UNRESOLVED-ASSIGNED-BY-TYPE">
+            <value/>
+            <properties>
+                <property id="kind">
+                    <value>distribution</value>
+                </property>
+                <property id="label">
+                    <value>Assigned (Unresolved) Work Items by Type</value>
+                </property>
+                <property id="trendable">
+                    <value>true</value>
+                </property>
+            </properties>
+            <value-fact-element id="ITEMS-UNRESOLVED-ASSIGNED-BY-TYPE.service" provider="WorkItemsAnalysis" type="ITEMS-UNRESOLVED-ASSIGNED-BY-TYPE.ITEM">
+                <value type="java.lang.Double">0.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Service</value>
+                    </property>
+                    <property id="query">
+                        <value>(project.id:MyPolarion) AND (type:service AND NOT HAS_VALUE:resolution AND HAS_VALUE:assignee.id)</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+            <value-fact-element id="ITEMS-UNRESOLVED-ASSIGNED-BY-TYPE.text" provider="WorkItemsAnalysis" type="ITEMS-UNRESOLVED-ASSIGNED-BY-TYPE.ITEM">
+                <value type="java.lang.Double">0.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Text</value>
+                    </property>
+                    <property id="query">
+                        <value>(project.id:MyPolarion) AND (type:text AND NOT HAS_VALUE:resolution AND HAS_VALUE:assignee.id)</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+            <value-fact-element id="ITEMS-UNRESOLVED-ASSIGNED-BY-TYPE.issue" provider="WorkItemsAnalysis" type="ITEMS-UNRESOLVED-ASSIGNED-BY-TYPE.ITEM">
+                <value type="java.lang.Double">0.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Issue</value>
+                    </property>
+                    <property id="query">
+                        <value>(project.id:MyPolarion) AND (type:issue AND NOT HAS_VALUE:resolution AND HAS_VALUE:assignee.id)</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+            <value-fact-element id="ITEMS-UNRESOLVED-ASSIGNED-BY-TYPE.exercise" provider="WorkItemsAnalysis" type="ITEMS-UNRESOLVED-ASSIGNED-BY-TYPE.ITEM">
+                <value type="java.lang.Double">0.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Exercise</value>
+                    </property>
+                    <property id="query">
+                        <value>(project.id:MyPolarion) AND (type:exercise AND NOT HAS_VALUE:resolution AND HAS_VALUE:assignee.id)</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+            <value-fact-element id="ITEMS-UNRESOLVED-ASSIGNED-BY-TYPE.task" provider="WorkItemsAnalysis" type="ITEMS-UNRESOLVED-ASSIGNED-BY-TYPE.ITEM">
+                <value type="java.lang.Double">0.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Task</value>
+                    </property>
+                    <property id="query">
+                        <value>(project.id:MyPolarion) AND (type:task AND NOT HAS_VALUE:resolution AND HAS_VALUE:assignee.id)</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+            <value-fact-element id="ITEMS-UNRESOLVED-ASSIGNED-BY-TYPE.testing" provider="WorkItemsAnalysis" type="ITEMS-UNRESOLVED-ASSIGNED-BY-TYPE.ITEM">
+                <value type="java.lang.Double">0.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Testing</value>
+                    </property>
+                    <property id="query">
+                        <value>(project.id:MyPolarion) AND (type:testing AND NOT HAS_VALUE:resolution AND HAS_VALUE:assignee.id)</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+            <value-fact-element id="ITEMS-UNRESOLVED-ASSIGNED-BY-TYPE.slide" provider="WorkItemsAnalysis" type="ITEMS-UNRESOLVED-ASSIGNED-BY-TYPE.ITEM">
+                <value type="java.lang.Double">0.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Slide</value>
+                    </property>
+                    <property id="query">
+                        <value>(project.id:MyPolarion) AND (type:slide AND NOT HAS_VALUE:resolution AND HAS_VALUE:assignee.id)</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+            <value-fact-element id="ITEMS-UNRESOLVED-ASSIGNED-BY-TYPE.documentation" provider="WorkItemsAnalysis" type="ITEMS-UNRESOLVED-ASSIGNED-BY-TYPE.ITEM">
+                <value type="java.lang.Double">0.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Documentation</value>
+                    </property>
+                    <property id="query">
+                        <value>(project.id:MyPolarion) AND (type:documentation AND NOT HAS_VALUE:resolution AND HAS_VALUE:assignee.id)</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+            <value-fact-element id="ITEMS-UNRESOLVED-ASSIGNED-BY-TYPE.implementation" provider="WorkItemsAnalysis" type="ITEMS-UNRESOLVED-ASSIGNED-BY-TYPE.ITEM">
+                <value type="java.lang.Double">0.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Implementation</value>
+                    </property>
+                    <property id="query">
+                        <value>(project.id:MyPolarion) AND (type:implementation AND NOT HAS_VALUE:resolution AND HAS_VALUE:assignee.id)</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+            <value-fact-element id="ITEMS-UNRESOLVED-ASSIGNED-BY-TYPE.analysis" provider="WorkItemsAnalysis" type="ITEMS-UNRESOLVED-ASSIGNED-BY-TYPE.ITEM">
+                <value type="java.lang.Double">0.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Analysis</value>
+                    </property>
+                    <property id="query">
+                        <value>(project.id:MyPolarion) AND (type:analysis AND NOT HAS_VALUE:resolution AND HAS_VALUE:assignee.id)</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+        </value-fact-element>
+        <value-fact-element id="ITEMS-UNRESOLVED-SCHEDULED-BY-TYPE" provider="WorkItemsAnalysis" type="ITEMS-UNRESOLVED-SCHEDULED-BY-TYPE">
+            <value/>
+            <properties>
+                <property id="kind">
+                    <value>distribution</value>
+                </property>
+                <property id="label">
+                    <value>Scheduled (Unresolved) Work Items by Type</value>
+                </property>
+                <property id="trendable">
+                    <value>true</value>
+                </property>
+            </properties>
+            <value-fact-element id="ITEMS-UNRESOLVED-SCHEDULED-BY-TYPE.service" provider="WorkItemsAnalysis" type="ITEMS-UNRESOLVED-SCHEDULED-BY-TYPE.ITEM">
+                <value type="java.lang.Double">0.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Service</value>
+                    </property>
+                    <property id="query">
+                        <value>(project.id:MyPolarion) AND (type:service AND NOT HAS_VALUE:resolution AND PLAN:(*))</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+            <value-fact-element id="ITEMS-UNRESOLVED-SCHEDULED-BY-TYPE.text" provider="WorkItemsAnalysis" type="ITEMS-UNRESOLVED-SCHEDULED-BY-TYPE.ITEM">
+                <value type="java.lang.Double">0.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Text</value>
+                    </property>
+                    <property id="query">
+                        <value>(project.id:MyPolarion) AND (type:text AND NOT HAS_VALUE:resolution AND PLAN:(*))</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+            <value-fact-element id="ITEMS-UNRESOLVED-SCHEDULED-BY-TYPE.issue" provider="WorkItemsAnalysis" type="ITEMS-UNRESOLVED-SCHEDULED-BY-TYPE.ITEM">
+                <value type="java.lang.Double">0.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Issue</value>
+                    </property>
+                    <property id="query">
+                        <value>(project.id:MyPolarion) AND (type:issue AND NOT HAS_VALUE:resolution AND PLAN:(*))</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+            <value-fact-element id="ITEMS-UNRESOLVED-SCHEDULED-BY-TYPE.exercise" provider="WorkItemsAnalysis" type="ITEMS-UNRESOLVED-SCHEDULED-BY-TYPE.ITEM">
+                <value type="java.lang.Double">0.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Exercise</value>
+                    </property>
+                    <property id="query">
+                        <value>(project.id:MyPolarion) AND (type:exercise AND NOT HAS_VALUE:resolution AND PLAN:(*))</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+            <value-fact-element id="ITEMS-UNRESOLVED-SCHEDULED-BY-TYPE.task" provider="WorkItemsAnalysis" type="ITEMS-UNRESOLVED-SCHEDULED-BY-TYPE.ITEM">
+                <value type="java.lang.Double">0.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Task</value>
+                    </property>
+                    <property id="query">
+                        <value>(project.id:MyPolarion) AND (type:task AND NOT HAS_VALUE:resolution AND PLAN:(*))</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+            <value-fact-element id="ITEMS-UNRESOLVED-SCHEDULED-BY-TYPE.testing" provider="WorkItemsAnalysis" type="ITEMS-UNRESOLVED-SCHEDULED-BY-TYPE.ITEM">
+                <value type="java.lang.Double">0.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Testing</value>
+                    </property>
+                    <property id="query">
+                        <value>(project.id:MyPolarion) AND (type:testing AND NOT HAS_VALUE:resolution AND PLAN:(*))</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+            <value-fact-element id="ITEMS-UNRESOLVED-SCHEDULED-BY-TYPE.slide" provider="WorkItemsAnalysis" type="ITEMS-UNRESOLVED-SCHEDULED-BY-TYPE.ITEM">
+                <value type="java.lang.Double">0.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Slide</value>
+                    </property>
+                    <property id="query">
+                        <value>(project.id:MyPolarion) AND (type:slide AND NOT HAS_VALUE:resolution AND PLAN:(*))</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+            <value-fact-element id="ITEMS-UNRESOLVED-SCHEDULED-BY-TYPE.documentation" provider="WorkItemsAnalysis" type="ITEMS-UNRESOLVED-SCHEDULED-BY-TYPE.ITEM">
+                <value type="java.lang.Double">0.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Documentation</value>
+                    </property>
+                    <property id="query">
+                        <value>(project.id:MyPolarion) AND (type:documentation AND NOT HAS_VALUE:resolution AND PLAN:(*))</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+            <value-fact-element id="ITEMS-UNRESOLVED-SCHEDULED-BY-TYPE.implementation" provider="WorkItemsAnalysis" type="ITEMS-UNRESOLVED-SCHEDULED-BY-TYPE.ITEM">
+                <value type="java.lang.Double">0.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Implementation</value>
+                    </property>
+                    <property id="query">
+                        <value>(project.id:MyPolarion) AND (type:implementation AND NOT HAS_VALUE:resolution AND PLAN:(*))</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+            <value-fact-element id="ITEMS-UNRESOLVED-SCHEDULED-BY-TYPE.analysis" provider="WorkItemsAnalysis" type="ITEMS-UNRESOLVED-SCHEDULED-BY-TYPE.ITEM">
+                <value type="java.lang.Double">0.0</value>
+                <properties>
+                    <property id="label">
+                        <value>Analysis</value>
+                    </property>
+                    <property id="query">
+                        <value>(project.id:MyPolarion) AND (type:analysis AND NOT HAS_VALUE:resolution AND PLAN:(*))</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+        </value-fact-element>
+        <value-fact-element id="Total" provider="WorkItemsAnalysis" type="Total">
+            <value type="java.lang.Double">0.37550689375506896</value>
+            <value-fact-element id="Planning" provider="WorkItemsAnalysis" type="Planning-SCORE&#9;">
+                <value type="java.lang.Double">0.7510137875101379</value>
+                <properties>
+                    <property id="url">
+                        <value>/polarion/#/project/MyPolarion/quality/workitems_quality?target=Planning</value>
+                    </property>
+                    <property id="label">
+                        <value>Planning</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+            <value-fact-element id="Traceability" provider="WorkItemsAnalysis" type="Traceability-SCORE&#9;">
+                <value type="java.lang.Double">0.0</value>
+                <properties>
+                    <property id="url">
+                        <value>/polarion/#/project/MyPolarion/quality/workitems_quality?target=Traceability</value>
+                    </property>
+                    <property id="label">
+                        <value>Traceability</value>
+                    </property>
+                </properties>
+            </value-fact-element>
+        </value-fact-element>
+    </structure-element>
+</factbase>

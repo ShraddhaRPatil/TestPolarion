@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<polarionLicenseFile>
+	<VariantsConcurrentUsers>10</VariantsConcurrentUsers>
+	<almConcurrentUsers>10</almConcurrentUsers>
+	<dateCreated>21.06.2017</dateCreated>
+	<expirationDate>31.05.2018</expirationDate>
+	<generatedBy>license@polarion.com</generatedBy>
+	<hardwareKey>388E-7FGG-1351</hardwareKey>
+	<licenseFormat>2017</licenseFormat>
+	<licenseType>TERM</licenseType>
+	<multiInstanceRunningInstances>3</multiInstanceRunningInstances>
+	<proConcurrentUsers>10</proConcurrentUsers>
+	<product>Polarion</product>
+	<qaConcurrentUsers>10</qaConcurrentUsers>
+	<requirementsConcurrentUsers>10</requirementsConcurrentUsers>
+	<reviewerConcurrentUsers>10</reviewerConcurrentUsers>
+	<userCompany>Siemens PLM </userCompany>
+	<userEmail>shraddha.patil@siemens.com</userEmail>
+	<userName>Shraddha Patil</userName>
+	<licenseCode>302c02141ac0b6412121043cd03ad1fab565b6ccd3918976021459853478bd8e2f92553a9e6827ac4fc8d30f27d4</licenseCode>
+</polarionLicenseFile>

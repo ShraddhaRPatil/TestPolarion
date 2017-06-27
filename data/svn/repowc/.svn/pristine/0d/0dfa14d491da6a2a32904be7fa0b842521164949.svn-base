@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="author">hartliebc</field>
+    <field id="title">Find Unplanned Requirements</field>
+    <field id="created">2012-06-29 10:44:38.288 +0200</field>
+    <field id="priority">25.0</field>
+    <field id="description" text-type="text/html">&lt;img src="attachment:unplannend.jpg" style="width: 605px;height: 474px;"/&gt;</field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+    <field id="subtitle" type="string"> Search for requirements, which are approved but not yet accepted.</field>
+    <field id="trainingCategory" multi="true" type="enum:trainingCategory"/>
+</work-item>

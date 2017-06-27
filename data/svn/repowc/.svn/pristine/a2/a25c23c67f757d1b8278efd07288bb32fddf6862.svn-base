@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">testcase</field>
+    <field id="author">admin</field>
+    <field id="title">Test Case A</field>
+    <field id="created">2011-02-23 10:27:00.506 +0100</field>
+    <field id="description" text-type="text/html">&lt;ul&gt;&lt;li&gt;&lt;span style="font-style: italic;"&gt;specify a test step or a sequence of steps to test the correct behavior of some application feature&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;span style="font-weight: bold;"&gt;Result&lt;/span&gt;: &lt;span style="font-style: italic;"&gt;An expected result or expected outcome&lt;/span&gt;&lt;br/&gt; &lt;span style="font-weight: bold;"&gt;Check&lt;/span&gt;: &lt;span style="font-style: italic;"&gt;Additional criteria that should be checked why executing a test case&lt;/span&gt;</field>
+    <field id="priority">50.0</field>
+    <field id="status">draft</field>
+    <field id="severity">normal</field>
+</work-item>

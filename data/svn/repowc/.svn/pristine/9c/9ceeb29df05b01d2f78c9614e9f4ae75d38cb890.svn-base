@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">requirement</field>
+    <field id="author">admin</field>
+    <field id="title">Business Objectives and Success Criteria</field>
+    <field id="created">2008-10-02 21:25:03.192 +0200</field>
+    <field id="description" text-type="text/html">&lt;span style="font-style: italic;" class="Apple-style-span"&gt;Describe the important business objectives of the product in a way that is quantitative and measurable. The value provided to customers is described in section 1.4, so this section should focus on the value provided to the business. This could include estimates of revenue or cost savings, return on investment analysis, or target release dates. Determine how success will be defined and measured on this project, and describe the factors that are likely to have the greatest impact on achieving that success. Include things within the direct control of the organization, as well as external factors. Establish measurable criteria to assess whether the business objectives have been met.&lt;/span&gt;</field>
+    <field id="priority">25.0</field>
+    <field id="status">draft</field>
+    <field id="severity">should_have</field>
+    <field id="previousStatus">open</field>
+</work-item>

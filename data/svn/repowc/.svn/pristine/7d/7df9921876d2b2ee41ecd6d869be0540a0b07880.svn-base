@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">stroebelet</field>
+    <field id="created">2012-04-18 09:57:09.283 -0400</field>
+    <field id="description" text-type="text/html">Sometimes it is helpful to upload configuration files into your project. Usually this is not necessary as you can edit all configuration files directly in Polarion but sometimes you might want to reuse a configuration of another project without retyping everything inside of your project again e.g. work item types&lt;br/&gt; &lt;ul&gt;&lt;li&gt;Open Administration view&lt;br/&gt; &lt;img style="width: 294px;height: 188px;" src="attachment:adminView.png"/&gt;&lt;/li&gt;&lt;li&gt;Open following topic in global configuration: Work Items|&lt;span style="font-style: italic;"&gt;Enumerations&lt;br/&gt; &lt;img style="width: 187px;height: 111px;" src="attachment:globalConf.png"/&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;Download the priority-enum.xml file to your desktop (by using rightclick) and open it. What you see now is a typical Polarion configuration file&lt;img style="width: 751px;height: 416px;" src="attachment:config.png"/&gt;&lt;/li&gt;&lt;li&gt;Open your project to change administration scope&lt;/li&gt;&lt;li&gt;Upload the configuration file to your project using the upload function at the bottom&lt;br/&gt; &lt;span id="polarion-comment:28"&gt;&lt;/span&gt;&lt;img style="width: 705px;height: 226px;" src="attachment:uploadConf.png"/&gt;&lt;/li&gt;&lt;li&gt;Edit the configuration file and remove the following two entries&lt;/li&gt;&lt;li style="list-style: none"&gt;&lt;ul&gt;&lt;li&gt;highest, lowest&lt;br/&gt; &lt;img style="width: 718px;height: 163px;" src="attachment:editConf.png"/&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;</field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Download, Review and Upload an Example Configuration File</field>
+    <field id="type">exercise</field>
+</work-item>

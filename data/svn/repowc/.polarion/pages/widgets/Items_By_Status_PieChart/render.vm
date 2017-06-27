@@ -1,0 +1,129 @@
+
+#set($type=$parameters.workItems.subtype())
+#set($property=$parameters.properties.singleValue)
+#set($enumName ="")
+#set($user=$trackerService.projectsService.getCurrentUser().id)
+
+<h1>$!{type.toUpperCase()} Details</h1>
+ 
+#if(!$type)
+   #error("Invalid input type. Please select any one Work Item type")
+#else
+   #if($property=="status")
+     #set($enumName ="$!{type}-status")
+   #elseif($property=="severity")
+     #set($enumName ="$!{type}-severity")
+   #elseif($property=="catagory")
+     #set($enumName ="$!{type}-catagory")
+   #elseif($property=="priority")
+     #set($enumName ="$!{type}-priority")  
+   #end
+
+   #set($enumOptionNameMap = $objectFactory.newMap())
+   #set($enums = $transaction.enumerations()) 
+   #set($projectId=$page.reference.projectId)
+   #set($globalEnums = $enums.definedEnumerations().forProject($projectId))
+   #set($Enums1=$enums.getEnumeration($enumName).forProject($projectId))
+   #set($enumOptions=$Enums1.options()) 
+
+   #foreach ( $option in $enumOptions )
+      #set($id = $option.id())
+	  #set($_query =  "type:$!{type} AND $!{property}:$id")
+      #set($_sort = "id")
+      #set($_items = $trackerService.queryWorkItems($_query, $_sort)) 
+      #set($numCapa = $_items.size())
+	  #set($void=$enumOptionNameMap.put($id,$numCapa))
+   #end
+   
+   #set($html=$renderingContext.createHtmlFragmentBuilder())
+   #set($chart=$renderingContext.createChartBuilder())  
+   #set($pie=$chart.pie().name("$!{type.toUpperCase()}"))
+   #foreach($key in $enumOptionNameMap.keySet())
+       #set($p1=$!pie.addValue($key,$enumOptionNameMap.get($key)).null)
+   #end
+   <h4>#set($void=$!chart.build().title().text("$!{type.toUpperCase()} object sorted according to $!{property}").null)</h4>
+   #set($void=$chart.build().plotOptions().series().addRawAttribute("tooltip", "{pointFormat: '<b>{point.y}</b>'}"))
+   #set($void=$chart.build().plotOptions().series().addRawAttribute("dataLabels", "{enabled: true, distance: -50, format:'<b>{y}</b>', color: 'white'}"))
+   #set($void=$chart.build().plotOptions().series().addRawAttribute("showInLegend", "{enabled: true}"))
+   #set($void=$chart.build().plotOptions().series().addRawAttribute("animation", "{enabled: true}")) 
+   #set($void=$!chart.build().render($html,300,$RichPageWidgetCommonContext.columnWidth()).null)
+   <table>
+	<tr >
+	   <td>
+          $html
+       </td>      
+#end
+       
+##Assigned to me##
+#if($user!="admin")
+  #if(!$type)
+    #error("Invalid input type. Please select any one Work Item type")
+  #else
+    #set($property="severity")
+    #if($property=="severity")
+      #set($enumName ="$!{type}-severity") 
+    #end
+	
+   #set($enumOptionNameMap = $objectFactory.newMap())
+   #set($enums = $transaction.enumerations()) 
+   #set($projectId=$page.reference.projectId)
+   #set($globalEnums = $enums.definedEnumerations().forProject($projectId))
+   #set($Enums1=$enums.getEnumeration($enumName).forProject($projectId))
+   #set($enumOptions=$Enums1.options()) 
+
+   #foreach ( $option in $enumOptions )
+      #set($id = $option.id())
+	  #set($_query =  "type:$!{type} AND $!{property}:$id AND assignee.id:$!user")
+      #set($_sort = "id")
+      #set($_items = $trackerService.queryWorkItems($_query, $_sort)) 
+      #set($numCapa = $_items.size())
+	  #set($void=$enumOptionNameMap.put($id,$numCapa))
+   #end
+       
+   #set($html1=$renderingContext.createHtmlFragmentBuilder())
+   #set($chart=$renderingContext.createChartBuilder())  
+   #set($pie=$chart.pie().name("$!{type.toUpperCase()}"))
+   #foreach($key in $enumOptionNameMap.keySet())
+     #set($p1=$!pie.addValue($key,$enumOptionNameMap.get($key)).null)
+   #end
+   <h4>#set($void=$!chart.build().title().text("$!{type.toUpperCase()} object assigned to me sorted according to $!{property}").null)</h4>
+   #set($void=$chart.build().plotOptions().series().addRawAttribute("tooltip", "{pointFormat: '<b>{point.y}</b>'}"))
+   #set($void=$chart.build().plotOptions().series().addRawAttribute("dataLabels", "{enabled: true, distance: -50, format:'<b>{y}</b>', color: 'white'}"))
+   #set($void=$chart.build().plotOptions().series().addRawAttribute("showInLegend", "{enabled: true}"))
+   #set($void=$chart.build().plotOptions().series().addRawAttribute("animation", "{enabled: true}")) 
+   #set($void=$!chart.build().render($html1,300,$RichPageWidgetCommonContext.columnWidth()).null)
+   ##Table	
+        <td>
+	      $html1	
+	    </td>
+	</tr>
+   </table>
+   <h4> $!{type.toUpperCase()} Assigned to me</h4>
+	
+   <table class="polarion-rpw-table-content" >
+	<tr class="polarion-rpw-table-header-row" >
+		<th>Id</th>
+		<th>Title</th>
+		<th>Severity</th>
+		<th>Status</th>
+	</tr>
+    #set($_query =  "type:$!{type} AND HAS_VALUE:severity AND assignee.id:$!user")
+    #set($_sort = "id")
+    #set($All_items = $trackerService.queryWorkItems($_query, $_sort)) 
+	#foreach($item in $All_items)	
+		<tr class="polarion-rpw-table-content-row" >
+			<td>$item.id</a></td>							    
+			<td>$item.title </td> 								
+			<td> $item.getSeverity().Name</td>
+			<td> $item.getStatus().Name</td>
+		</tr>
+	#end				
+	</table>
+  #end   
+#end
+
+
+
+
+	
+

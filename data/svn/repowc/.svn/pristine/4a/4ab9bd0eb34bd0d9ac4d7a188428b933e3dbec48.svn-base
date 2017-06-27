@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">stroebelet</field>
+    <field id="created">2011-07-29 09:38:00.871 -0400</field>
+    <field id="description" text-type="text/html"><![CDATA[Once a risk has been answered or closed you might want to deny people the change of specific fields without reopening the question. For this purpose you can define read-only fields based on specific workflow states. In our case we don&#39;t want users to change description, answer, topic and title after they have been closed or answered. A comment should be still possible.<br/>
+ 
+<ul>
+  <li>Open <span style="font-style: italic;">Administration&gt;Work Items&gt;Read-Only Fields</span></li>
+  <li><span style="font-style: normal;">Create new Read-only fields for a question</span></li>
+  <li>Make following fields read-only in <span style="font-weight: normal;">status </span><span style="font-style: italic;">answered or closed</span>: description,answer,topic,title</li>
+  <li>Verify in the frontend that your read only fields are working as supposed</li>
+</ul>]]></field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Questions shouldn't be modified after they have been closed or answered</field>
+    <field id="type">exercise</field>
+</work-item>

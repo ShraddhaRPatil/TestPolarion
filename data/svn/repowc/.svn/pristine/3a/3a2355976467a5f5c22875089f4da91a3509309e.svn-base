@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="author">stroebelet</field>
+    <field id="title">Polarion Features Overview</field>
+    <field id="created">2012-03-28 19:19:48.712 +0200</field>
+    <field id="description" text-type="text/html">&lt;img style="width: 788px;height: 538px;" src="attachment:polarionFeaturesOverview.jpg"/&gt;&lt;br/&gt; </field>
+    <field id="priority">25.0</field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+    <field id="trainingCategory" multi="true" type="enum:trainingCategory"/>
+</work-item>

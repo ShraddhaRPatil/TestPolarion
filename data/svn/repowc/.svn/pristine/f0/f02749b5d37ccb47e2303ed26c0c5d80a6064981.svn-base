@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<module>
+    <field id="author">admin</field>
+    <field id="created">2013-01-15 13:43:31.061 +0100</field>
+    <field id="homePageContent" text-type="text/html"><![CDATA[<h1 id="polarion_wiki macro name=module-workitem;params=id=DP-286"></h1><div id="polarion_wiki macro name=toc"></div><h2 id="polarion_wiki macro name=module-workitem;params=id=DP-287"></h2><h3 id="polarion_wiki macro name=module-workitem;params=id=DP-339"></h3><p id="polarion_merged_5">The SoftwareTest Specification document collects the test cases that verify the Software Design requirements (see References below). Each test case specifies inputs, predicted results, and a set of execution conditions for a test case item.</p><h3 id="polarion_wiki macro name=module-workitem;params=id=DP-344"></h3><ul id="polarion_merged_3">
+  <li><span class="polarion-rte-link" data-type="document" id="fake" data-item-name="System Test Specification" data-space-name="Requirements" data-option-id="default"></span></li>
+</ul><h2 id="polarion_wiki macro name=module-workitem;params=id=DP-372"></h2><p id="polarion_merged_8">All the Software Design requirements need to be covered by Test Cases collected in this document (see Test Cases below).</p><ul id="polarion_merged_4">
+  <li><span class="polarion-rte-link" data-type="document" id="fake" data-item-name="Software Design Specification" data-space-name="Design" data-option-id="default"></span></li>
+</ul><h2 id="polarion_wiki macro name=module-workitem;params=id=DP-373"></h2><p id="polarion_merged_1">The approach described in the following test plan document should be used to perform the testing:</p><ul id="polarion_merged_7">
+  <li><span class="polarion-rte-link" data-type="document" id="fake" data-item-name="Software Verification Test Plan" data-space-name="Design" data-option-id="default"></span></li>
+</ul><h2 id="polarion_wiki macro name=module-workitem;params=id=DP-291"></h2><h3 id="polarion_wiki macro name=module-workitem;params=id=DP-375"></h3><div id="polarion_wiki macro name=module-workitem;params=id=DP-292"></div><p id="polarion_1"></p>]]></field>
+    <field id="renderingLayouts">
+        <list>
+            <struct>
+                <item id="label">Software Test Case</item>
+                <item id="layouter">titleTestSteps</item>
+                <item id="properties">
+                    <list>
+                        <struct>
+                            <item id="key">fieldsAtStart</item>
+                            <item id="value">id</item>
+                        </struct>
+                        <struct>
+                            <item id="key">fieldsAtEnd</item>
+                            <item id="value">status</item>
+                        </struct>
+                        <struct>
+                            <item id="key">fieldsAtEndAsTable</item>
+                        </struct>
+                        <struct>
+                            <item id="key">hidden</item>
+                        </struct>
+                    </list>
+                </item>
+                <item id="type">softwareTestCase</item>
+            </struct>
+        </list>
+    </field>
+    <field id="status">published</field>
+    <field id="structureLinkRole">parent</field>
+    <field id="type">generic</field>
+    <field id="usesOutlineNumbering">true</field>
+</module>

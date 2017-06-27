@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">stroebelet</field>
+    <field id="created">2011-07-29 07:57:37.338 -0400</field>
+    <field id="description" text-type="text/html"><![CDATA[While doing application lifecycle management you might need several link roles and a meta model of how different work items are related to each other. For our knowledge base we don´t need that much. We only need a follow up task to a question.<br/>
+ Adjust the link meta model according to following picture<br/>
+ <img src="attachment:diagram_20141029-1216.32554.mxg.png"/><br/>
+ 
+<ul>
+  <li>Open <span style="font-style: italic;">Administration&gt;Work Items&gt;Enumerations&gt;workitem-link-role-enum.xml</span></li>
+  <li>Modify link types &quot;<span style="font-style: italic;">follow_up&quot;<br/>
+      <img src="attachment:59-screenshot-20141029-072017.png" style="width: 721px;height: 259px;"/><br/>
+    </span></li>
+  <li>All other link roles can stay as they are. A relates to link is already confgured so it doesn´t need to be modified.<span style="font-style: italic;"><br/>
+    </span></li>
+</ul>]]></field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Define Link Roles for Question and Related Task</field>
+    <field id="type">exercise</field>
+</work-item>

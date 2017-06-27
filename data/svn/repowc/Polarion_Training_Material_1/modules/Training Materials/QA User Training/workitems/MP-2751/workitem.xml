@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="linkedWorkItems">
+        <list>
+            <struct>
+                <item id="revision">42472</item>
+                <item id="workItem">MP-2650</item>
+                <item id="role">branched_from</item>
+                <item id="suspect">false</item>
+            </struct>
+        </list>
+    </field>
+    <field id="type">exercise</field>
+    <field id="author">hartliebc</field>
+    <field id="title">Link Testcases with requirements</field>
+    <field id="created">2012-05-07 13:30:58.882 +0200</field>
+    <field id="description" text-type="text/html">In order to meet project or product deadlines you must be able to have a cohesive system that allows all stakeholders to work in real time. If stakeholders are working in silos the time to market or the ability to fix a defect can be more time consuming which will lead to delays. A way to deal with this is to provide complete forensic traceability so that all requirements are linked to a test case. Having requirements linked with test cases will keep your product managers, developers and QA stakeholders all in sync and doing so in real time so that deadlines and goals are met.&lt;br/&gt;&lt;ul&gt;&lt;li&gt;Create a "&lt;span style="font-style: italic;"&gt;verifies&lt;/span&gt;" link from &lt;span style="font-style: italic;"&gt;example requirement "Some functional requirement representing a system feature. Itemize the detailed..."&lt;/span&gt; to &lt;span style="font-style: italic;"&gt;test case "Is login case sensitive"&lt;/span&gt;&lt;br/&gt; &lt;span style="font-weight: bold;"&gt;Attention:&lt;/span&gt; Click on the start link icon of &lt;span style="font-style: italic;"&gt;"&lt;/span&gt;Some functional requirement representing a system feature. Itemize the detailed...&lt;span style="font-style: italic;"&gt;"&lt;/span&gt; click on the link icon of &lt;span style="font-style: italic;"&gt;"Is login case sensitive" select link role "is verified by"  and save your changes.&lt;/span&gt;&lt;br/&gt; &lt;span style="font-style: italic;"&gt;&lt;img src="attachment:startlink.jpg"/&gt;&lt;/span&gt;&lt;br/&gt; &lt;span style="font-style: italic;"&gt;&lt;img style="width: 0px;height: 0px;" src="attachment:Link.jpg"/&gt;&lt;img src="attachment:Link.jpg"/&gt;&lt;/span&gt;&lt;br/&gt;&lt;/li&gt;&lt;/ul&gt;</field>
+    <field id="priority">25.0</field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+</work-item>

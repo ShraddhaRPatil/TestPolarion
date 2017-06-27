@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="author">stroebelet</field>
+    <field id="title">How To Backup</field>
+    <field id="created">2012-02-21 16:06:51.749 +0100</field>
+    <field id="priority">25.0</field>
+    <field id="description" text-type="text/html">lkwjfg oqerhgoqer jogiqe&lt;br/&gt; </field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+    <field id="trainingCategory" multi="true" type="enum:trainingCategory"/>
+    <field id="printNotes" text-type="text/html" type="text/html">&lt;div&gt;&lt;br&gt;&lt;/div&gt;</field>
+    <field id="speakersNotes" text-type="text/html" type="text/html">&lt;div&gt;&lt;br&gt;&lt;/div&gt;</field>
+</work-item>

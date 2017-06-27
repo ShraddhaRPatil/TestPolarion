@@ -1,0 +1,3 @@
+$parameters.put("workItems", $factory.dataSet("Work Items").build())
+$parameters.put("properties", $factory.customEnum("Properties").addEnumItem("status","Status").addEnumItem("severity","Severity").addEnumItem("catagory","catagory").addEnumItem("priority","Priority").singleValue("Status").dependencySource(true).build())
+		

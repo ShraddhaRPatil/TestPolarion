@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">requirement</field>
+    <field id="author">admin</field>
+    <field id="title">Component X</field>
+    <field id="created">2008-09-30 12:30:33.146 +0200</field>
+    <field id="description" text-type="text/html">&lt;span style="font-weight: bold;font-style: italic;"&gt;Purpose&lt;br/&gt;&lt;/span&gt;&lt;span style="font-style: italic;"&gt;- A reference back to the requirements spec.  - fill the link to the requirement&lt;br/&gt;&lt;/span&gt; &lt;span style="font-weight: bold;font-style: italic;"&gt;&lt;br/&gt; Function&lt;br/&gt;&lt;/span&gt; &lt;span style="font-style: italic;"&gt;- What does the component do?  Description of its processing.&lt;br/&gt;&lt;/span&gt; &lt;span style="font-weight: bold;font-style: italic;"&gt;&lt;br/&gt; Subordinates&lt;br/&gt;&lt;/span&gt; &lt;span style="font-style: italic;"&gt;- The components used by this component.  - links&lt;br/&gt;&lt;/span&gt; &lt;span style="font-weight: bold;font-style: italic;"&gt;&lt;br/&gt; Dependencies&lt;br/&gt;&lt;/span&gt; &lt;span style="font-style: italic;"&gt;- Constraints placed on this component by other components.&lt;br/&gt;&lt;/span&gt; &lt;span style="font-weight: bold;font-style: italic;"&gt;&lt;br/&gt; Interfaces&lt;br/&gt;&lt;/span&gt; &lt;span style="font-style: italic;"&gt;- Control and data flow into and out of the component.&lt;br/&gt;&lt;/span&gt; &lt;span style="font-weight: bold;font-style: italic;"&gt;&lt;br/&gt; Data&lt;br/&gt;&lt;/span&gt; &lt;span style="font-style: italic;"&gt;- Descriptions of internal data.&lt;/span&gt;</field>
+    <field id="priority">25.0</field>
+    <field id="status">draft</field>
+    <field id="severity">should_have</field>
+    <field id="previousStatus">open</field>
+</work-item>

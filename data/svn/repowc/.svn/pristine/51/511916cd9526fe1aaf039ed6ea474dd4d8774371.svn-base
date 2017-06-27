@@ -1,0 +1,140 @@
+########### PREPARE PARAMETERS ###########
+#if(!$parameters.plans.prototype().name().equals("Plan"))
+<div class="polarion-rp-widget-warningMessage">The Gantt widget supports only items of type "Plan"</div>
+#else
+
+	#if ($widgetContext.target.isPdf)
+	#info("The Gantt widget cannot be exported to PDF")
+	#end
+
+#set($plansSet = $parameters.plans.getFor().sort("endDate").revision($revision).items())
+#set($showChildren = $parameters.showChildren.value)
+#set($scopeProject = "$!parameters.plans.scope.projectId()")
+#set($gantt_id = $widgetContext.generateUniqueElementId())
+
+#set($baselineLinkPart = "")
+#if($widgetContext.sharedContext.baselineRevision)
+   #set($baselineLinkPart = "/baseline/$widgetContext.sharedContext.baselineRevision")
+#end
+
+########### LOAD SOME GENERIC MACROS ###########
+#import("resource_utils.vm")
+
+##### LOAD JS AND CSS ###########################
+#loadJsResource("/polarion/ria/dhtmlxGantt/dhtmlxgantt.js")
+#loadJsResource("/polarion/ria/dhtmlxGantt/ext/dhtmlxgantt_tooltip.js")
+#loadWidgetJsResource("resources/custom_rendering_functions.js")
+
+#loadCssResource("/polarion/ria/dhtmlxGantt/dhtmlxgantt.css")
+#loadWidgetCssResource("resources/custom_styles.css")
+
+##### GANTT PANEL ###########################
+#if (!$widgetContext.target.isPdf)
+<div id="$gantt_id"  class="dhx_cal_container" style='width:100%; height:30px;'></div>
+#end
+<script type="text/javascript">
+
+#set($parentIds = [])
+#foreach($pNew in $plansSet) 
+    $!parentIds.add($pNew.getOldApi().id).null
+#end    
+
+#macro(addChildren $plan $addParent)
+#set($children = $trackerService.getPlanningManager().searchPlans("project.id:$plan.getProjectId() AND parent.id:$plan.id","startDate",100))
+#foreach($ch in $children)
+#addChild($ch $addParent)
+#end
+#end
+
+#macro(addChild $p $addParent)
+ #if($p.startDate && $p.dueDate)
+     #if(!$parentIds.contains($p.id))
+      $!parentIds.add($p.id).null
+     #end
+ 	 #set($stats = $p.getStatistics())
+	 #set($showProject = "")
+	 #if(!$p.getProjectId().equals($scopeProject)) 
+	 	#set($showProject = "($p.getProject().getName())")
+	 #end
+	 $sep {id:"$p.getProjectId()_$p.id",
+	       pid:"$p.id",
+	       text:"$p.name $showProject", 
+	       start_date:"$p.startDate", 
+	       end_date:"$p.dueDate",
+	       statusIcon:"$p.status.getProperty('iconURL')",
+	       statusName:"$p.status.name", 
+	       projectId:"$p.getProjectId()", 
+	       color:"$p.getDecorationColor()", 
+	       progress:$stats.progress(), 
+	       idealProgress:$stats.idealProgress(), 
+	       done:$stats.done(),
+	       todo:$stats.todo(),
+	       idealProgressAsString:"$stats.idealProgressAsString()", 
+	       doneAsString:"$stats.doneAsString()", 
+	       todoAsString:"$stats.todoAsString()",
+	       open:true 
+           #set($parent = $addParent)
+           #if($p.parent && $parentIds.contains($p.parent.id))
+            #set($parent = "true")
+           #end
+	       #if($parent && $p.parent.id ) , parent:"$p.parent.getProjectId()_$p.parent.id" #end 
+	   }
+	   #set($sep = " , ")
+	   #if($showChildren)
+	   	#addChildren($p "true")
+	   #end
+	#end
+#end
+
+#set($sep = "")
+var tasks =  {data:[
+#foreach($pNew in $plansSet) 
+	#addChild($pNew.getOldApi() $false) 
+#end    
+]};
+
+gantt.config.columns = [
+    {name:"text",       label:"Plan",  width:"*", tree:true , template:function(obj){
+        return "<a target='_new' href='/polarion/#$baselineLinkPart/project/"+obj.projectId +"/plan?id="+obj.pid+"'><b>"+obj.text+"</b></a>"} },
+    {name:"statusIcon", label:"Status", template:function(obj){
+        return "<img src='"+obj.statusIcon+"'/>"},align: "center",width:35},
+    {name:"progress", label:"%", template:function(obj){
+        return Math.round(obj.progress * 100)+ "%"},align: "center",width:45}
+];
+
+
+gantt.config.grid_width = 330;
+gantt.config.task_height = 24;
+gantt.config.row_height = 30;
+gantt.config.readonly = true;
+gantt.config.xml_date="%Y-%m-%d";
+gantt.config.min_column_width = 100;
+gantt.config.scale_unit = "month"; 
+gantt.config.date_scale = "%M %Y"; 
+gantt.config.subscales = [];
+gantt.config.scale_height = 35;
+
+#if($parameters.showDetailedScale.value)
+  gantt.config.min_column_width = 50;   
+  gantt.config.scale_unit = "month"; 
+  gantt.config.date_scale = "%M %Y"; 
+  gantt.config.subscales = [{unit:"week", step:1, date:"%d"}];
+  gantt.config.scale_height = 35;
+#end
+
+gantt.init("$gantt_id");
+
+var sch = document.getElementById("$gantt_id");
+#if($parameters.height.value)
+    var h = $parameters.height.value;
+#else
+    var h = ($parentIds.size() * gantt.config.row_height) + gantt.config.scale_height + 3;
+    gantt.config.autosize = "y"
+#end
+sch.style.height =  h + "px";
+gantt.setSizes();
+
+gantt.parse(tasks);
+
+</script>
+#end

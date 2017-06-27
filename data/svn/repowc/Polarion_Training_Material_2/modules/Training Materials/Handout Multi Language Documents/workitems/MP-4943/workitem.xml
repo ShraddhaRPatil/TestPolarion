@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="author">schucks</field>
+    <field id="title">Step 2 - Create New Language</field>
+    <field id="created">2013-07-31 12:00:40.907 +0200</field>
+    <field id="description" text-type="text/html">To make the new fields work as a new language you need to configure this in the Administration of the Portal.&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;img style="width: 788px;height: 504px;" src="attachment:screenshot-4.jpg"/&gt;&lt;br/&gt;&lt;br/&gt;In this example also the Heading Item has a new specified field to replace the title. </field>
+    <field id="priority">25.0</field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+    <field id="trainingCategory" multi="true" type="enum:trainingCategory"/>
+</work-item>

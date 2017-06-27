@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">daniel.morris</field>
+    <field id="created">2014-10-31 05:17:41.198 -0400</field>
+    <field id="description" text-type="text/html">In a previous exercise (&lt;span id="polarion_wiki macro name=workitem;params=MyPolarion/MP-5335|display=long"&gt;&lt;/span&gt; ) we already limited acces for users so they can´t see tasks. Additionally we want to be sure users are not able to modify document content while it has been sent to a consultant.&lt;br/&gt;&lt;ul&gt;&lt;li&gt;Open &lt;span style="font-style: italic;"&gt;Administration &amp;gt; User Management &amp;gt; Permissions Management&lt;/span&gt;&lt;/li&gt;&lt;li&gt;Select &lt;span style="font-style: italic;"&gt;Documents&lt;/span&gt; from the &lt;span style="font-style: italic;"&gt;+Custom Set&lt;/span&gt; menu.&lt;/li&gt;&lt;li style="list-style: none"&gt;&lt;ul&gt;&lt;li&gt;Name: Documents in Review Read-only&lt;/li&gt;&lt;li&gt;Query: status:inReview&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;Decline project_user to be able to: Create New, Modify content&lt;/li&gt;&lt;li&gt;Verify in frontend a project_user isn´t able to modify content of a document while it is in Review&lt;/li&gt;&lt;/ul&gt;</field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Custom set to make documents read only</field>
+    <field id="type">exercise</field>
+</work-item>

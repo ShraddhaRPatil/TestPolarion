@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="author">stroebelet</field>
+    <field id="title">Work Item Reports For Builds</field>
+    <field id="created">2011-05-17 19:59:46.329 +0200</field>
+    <field id="description" text-type="text/html">&lt;ul&gt;&lt;li&gt;For each artifact it is possible to customize which items should be displayed as resolved items.&lt;br/&gt;&lt;img style="width: 512px; height: 118px;" src="workitemimg:1-resolvedWorkItems.jpg"/&gt;&lt;br/&gt;&lt;br/&gt;&lt;/li&gt;&lt;li&gt;You can add any parameters to the query e.g. only display items for a specific release or timepoint&lt;/li&gt;&lt;/ul&gt;</field>
+    <field id="priority">25.0</field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="subtitle" type="string"> </field>
+</work-item>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="author">schucks</field>
+    <field id="title">Testing Configuration</field>
+    <field id="created">2013-07-31 15:44:24.329 +0200</field>
+    <field id="description" text-type="text/html">&lt;br/&gt;&lt;br/&gt;The interesting part of the configuration is the lower half of the page, starting from the section "Manual Testing".&lt;br/&gt;This section contains the basic information on how a Test Case is identified by Polarion. You need to map fields of test case specific types to the default configuration. This only has to be done if you are updating from Polarion 2012 SR2 and previous.&lt;br/&gt;&lt;br/&gt;The chapter "Defect Configuration" handles the automatic creation of defects if a test case fails.&lt;img style="width: 788px;height: 660px;" src="attachment:screenshot-2.jpg"/&gt;&lt;br/&gt;</field>
+    <field id="priority">25.0</field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+    <field id="trainingCategory" multi="true" type="enum:trainingCategory"/>
+</work-item>

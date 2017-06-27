@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<fields>
+    <field description="Type of CR" id="type" name="Type" type="enum:Type"/>
+    <field description="Severity of CR" id="severity" name="Severity" type="enum:severity"/>
+    <field description="Area Application in which this CR deals" id="applicationArea" name="Application Area" type="enum:applicationArea"/>
+    <field description="Feature impacted by CR" id="impactedFeature" name="Impacted Feature" type="string"/>
+    <field description="Use case impacted by CR" id="impactedUseCase" name="Impacted Use Case" type="string"/>
+    <field description="version of product the issue is fixed" id="fixInVersion" name="Fix in Version" type="enum:fixInVersion"/>
+    <field description="Estimate for implementing CR" id="estImplementation" name="Estimate for Implementation" type="duration"/>
+    <field description="Estimate for Testing" id="estTesting" name="Estimate for Testing" type="duration"/>
+</fields>

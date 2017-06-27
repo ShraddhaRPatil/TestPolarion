@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="hyperlinks">
+        <list>
+            <struct>
+                <item id="role">renderSlide</item>
+                <item id="uri">/polarion/wiki/bin/view/project/MyPolarion/page/macros/RenderSlides?item=MP-491</item>
+            </struct>
+        </list>
+    </field>
+    <field id="author">stroebelet</field>
+    <field id="title">Document Reuse Wizard</field>
+    <field id="created">2011-04-12 14:05:52.324 +0200</field>
+    <field id="priority">25.0</field>
+    <field id="description" text-type="text/html">Document templates can be found in the project: &lt;span style="font-weight: bold;font-style: italic;color: #3333FF;"&gt;Document Library.&lt;/span&gt;&lt;br/&gt;&lt;span style="color: #000000;"&gt;To reuse a document perform following steps:&lt;br/&gt;&lt;/span&gt;&lt;br/&gt;&lt;ul&gt;&lt;li&gt;From &lt;span style="font-style: italic;"&gt;Home&lt;/span&gt; page select: &lt;img style="width: 100px;height: 19px;" src="workitemimg:2-screenshot-1.jpg"/&gt; or open the document and select:&lt;br/&gt; &lt;img src="attachment:reuse.jpg"/&gt;&lt;br/&gt;&lt;br/&gt;&lt;/li&gt;&lt;li&gt;Specify document &lt;span style="font-style: italic;"&gt;name&lt;/span&gt;, &lt;span style="font-style: italic;"&gt;project&lt;/span&gt; and &lt;span style="font-style: italic;"&gt;space&lt;/span&gt; for the new document.&lt;/li&gt;&lt;li&gt;Uncheck &lt;span style="font-style: italic;"&gt;Link duplicate to original&lt;/span&gt;.&lt;br/&gt; &lt;img src="workitemimg:4-screenshot-3.jpg"/&gt;&lt;br/&gt;&lt;/li&gt;&lt;/ul&gt;&lt;span style="font-weight: bold;font-style: italic;color: #3333FF;"&gt;&lt;br/&gt;&lt;/span&gt;</field>
+    <field id="status">accepted</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+    <field id="subtitle" type="string"> </field>
+    <field id="printNotes" text-type="text/html" type="text/html">&lt;div&gt;&lt;ul&gt;&lt;li&gt;Also multiple documents can be reused&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</field>
+    <field id="speakersNotes" text-type="text/plain" type="text/html"/>
+</work-item>

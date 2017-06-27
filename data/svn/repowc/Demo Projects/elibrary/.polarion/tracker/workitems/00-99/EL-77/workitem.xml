@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="assignee">sDeveloper</field>
+    <field id="author">admin</field>
+    <field id="categories">
+        <list>
+            <item>Searching</item>
+        </list>
+    </field>
+    <field id="created">2011-05-25 21:08:59.159 +0200</field>
+    <field id="initialEstimate">1/2d</field>
+    <field id="linkedWorkItems">
+        <list>
+            <struct>
+                <item id="role">implements</item>
+                <item id="suspect">false</item>
+                <item id="workItem">EL-139</item>
+            </struct>
+        </list>
+    </field>
+    <field id="occurredInVersion" type="string">0.9</field>
+    <field id="previousStatus">open</field>
+    <field id="priority">50.0</field>
+    <field id="resolution">done</field>
+    <field id="resolvedOn">2011-05-26 08:07:47.701 +0200</field>
+    <field id="severity">critical</field>
+    <field id="status">done</field>
+    <field id="targetVersion" type="enum:@plan[template.id:release]">Version_1_0</field>
+    <field id="timeSpent">5h</field>
+    <field id="title">Cannot sort books by keywords</field>
+    <field id="type">defect</field>
+</work-item>

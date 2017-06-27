@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">stroebelet</field>
+    <field id="created">2011-07-29 09:31:27.105 -0400</field>
+    <field id="description" text-type="text/html">If possible people shouldn´t think about who needs to be assigned to a question. This should be done automatically. In our case we want to assign polarion and configuration questions automatically to ourself.&lt;br/&gt; &lt;br/&gt; &lt;ul&gt;&lt;li&gt;Open &lt;span style="font-style: italic;"&gt;Administration&amp;gt;Work Items&amp;gt;Auto-assignment&lt;/span&gt;&lt;/li&gt;&lt;li&gt;Create a configuration which assigns your user to a question if topic field contains polarion or configuration.&lt;/li&gt;&lt;li&gt;Verify in frontend your auto assignment is working during creation.&lt;/li&gt;&lt;/ul&gt;</field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Create New Rule Which Auto-Assigns questions to you if their topic is Polarion or about Configuration stuff</field>
+    <field id="type">exercise</field>
+</work-item>

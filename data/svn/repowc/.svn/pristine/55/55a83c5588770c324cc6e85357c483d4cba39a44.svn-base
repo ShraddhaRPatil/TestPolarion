@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="linkedWorkItems">
+        <list>
+            <struct>
+                <item id="workItem">DP-314</item>
+                <item id="suspect">false</item>
+                <item id="role">assesses</item>
+            </struct>
+        </list>
+    </field>
+    <field id="type">risk</field>
+    <field id="author">admin</field>
+    <field id="title">DrivePilot Controller Fails Suddenly</field>
+    <field id="created">2013-01-09 22:59:12.203 +0100</field>
+    <field id="description" text-type="text/html">&lt;span id="polarion_source=DrivePilot/modules/FMEA Risk/DrivePilot Initial FMEA Study"&gt;T&lt;/span&gt;his failure mode applies to complete failure of the DrivePilot Command Controller, its interfaces and consoles.&lt;br/&gt;The effects of the DCC systematically shutting down would mean that all servos will stop working competely.</field>
+    <field id="priority">50.0</field>
+    <field id="status">action-pending</field>
+    <field id="severity">should_have</field>
+    <field id="occurrenceRating" type="integer">5</field>
+    <field id="controls" text-type="text/plain" type="text"/>
+    <field id="recommendedActions" text-type="text/plain" type="text">Perform cost analysis of adding additional sensor halfway between low and high level sensors.</field>
+    <field id="severityRating" type="integer">3</field>
+    <field id="causes" text-type="text/plain" type="text"><![CDATA[Main vehicle power to DCC terminates for unexplained reasons.
+15 Amp Fuse to DCC Subsystem trips due to excessive current.
+Too much power is supplied to DCC - in excess of 60 Watts - due to improper vehicle fuse or short circuit in vehicle wiring harness.]]></field>
+    <field id="detectionRating" type="integer">3</field>
+</work-item>

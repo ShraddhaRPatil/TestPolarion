@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">schucks</field>
+    <field id="created">2013-10-09 11:11:32.659 -0400</field>
+    <field id="description" text-type="text/html"><![CDATA[Setup database connection and install SQuirreL SQL Client<br/>
+ To be able to connect you need to allow access to Polarions database and add a user for it.<br/>
+ Go into polarion.properties and add following code.<br/>
+ <br/>
+ 
+<table id="polarion_wiki macro name=table;params=header=no" class="polarion-Document-table" style="width: 80%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;">
+  <tbody>
+    <tr>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">#Settings for external access to database<br/>
+        com.polarion.platform.sql.externalUserPassword=YOURPASSWORD<br/>
+        com.polarion.platform.sql.tcpPort=9092<br/>
+        com.polarion.platform.sql.pgPort=5435<br/>
+         </td>
+    </tr>
+  </tbody>
+</table>
+ <br/>
+ After restart of the server open the server logfile (the last updated one) and search for &quot;database&quot;. This should lead you to two connection strings, to the Polarion HEAD, and Historic database to be used in squirrel.<br/>
+ <br/>
+ Squirrel is a free SQL Client. Search in the internet for it, download and install it following the instructions.<br/>
+ <span style="font-weight: bold;">Download Link: <a href="http://www.squirrelsql.org/#installation" target="_blank" class="descriptionLink">www.squirrelsql.org/#installation</a> <br/>
+  <br/>
+  </span> <span style="font-weight: normal;">Please also download and install H2 driver (jar file from &quot;all plattforms&quot; link) by copying the file to lib folder of Squirrel.</span><span style="font-weight: bold;"><br/>
+  Download Link: <a href="http://www.h2database.com/html/main.html" target="_blank" class="descriptionLink">www.h2database.com/html/main.html</a> <br/>
+  <br/>
+  </span> <span style="font-weight: normal;"><span style="font-style: italic;">Hint: Add H2 Driver ( eg. h2-1.3.174.jar ) in the <span style="font-weight: bold;">lib</span> folder of Squirrel installation folder (eg.squirrel-sql-3.5.0\lib )</span><br/>
+  <span style="font-style: italic;">Useful Documentation can be found in Polarion Help /polarion/sdk/doc/database/ExternalDatabaseConnection.pdf<br/>
+    Default URL is:<br/>
+    </span> j</span><span style="font-weight: normal;font-style: italic;">dbc:h2:tcp://<span style="font-weight: bold;">your server name or ip</span>:9092/C:\Polarion\polarion\..\data\workspace\polarion-data\database\polarion</span><span style="font-weight: bold;"><br/>
+  </span><br/>
+ After installation open Squirell, and add a new alias. Use H2 as driver and use the login credentials you defined before.<br/>
+ The URL is the the one from the log file.<br/>
+ <br/>
+ <span style="font-weight: bold;">Example Image:</span><span style="font-weight: normal;"><br/>
+  <img src="attachment:h2squirellconnection.png"/></span><span style="font-weight: bold;"><br/>
+  </span><span style="font-weight: normal;">Now you should be able to connect to Polarions database.</span>]]></field>
+    <field id="previousStatus">open</field>
+    <field id="priority">50.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Install SQuirreL SQL Client</field>
+    <field id="type">exercise</field>
+</work-item>

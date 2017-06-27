@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<module>
+    <field id="author">admin</field>
+    <field id="created">2011-02-01 12:13:26.584 +0100</field>
+    <field id="homePageContent" text-type="text/html"><![CDATA[<h1 id="polarion_wiki macro name=module-workitem;params=id=WI-127"></h1><p id="polarion_new_0">
+  This Software Project Management Plan (SPMP) describes the planning, organization and staffing …
+</p><div id="polarion_wiki macro name=toc"></div><h2 id="polarion_wiki macro name=module-workitem;params=id=WI-128"></h2><p id="polarion_1">
+  This section provides an overview of the project’s motivation, objectives, success criteria, major deliverables, and constraints. You might include a top-level summary of major milestones, required resources, schedule, and budget.
+</p><h3 id="polarion_wiki macro name=module-workitem;params=id=WI-129"></h3><p id="polarion_2">
+  Define the purpose, scope, and objectives of the project and its delivered products. This information might already appear in the Vision and Scope Document. If so, avoid duplicating information in both places. Briefly state the business needs to be satisfied and the methods by which satisfaction of those needs will be determined. Define quantitative and measurable business objectives. Define the criteria by which key stakeholders will judge how successful the project is. State the relationship of this project to other projects and the integration of this product with other products. Other specific issues to address might include:
+</p><ul id="polarion_3">
+  <li>Shared resources and their availability</li>
+  <li>Shared designs, code, and hardware components</li>
+  <li>Feature dependencies</li>
+  <li>Schedule dependencies</li>
+  <li>Shared resources and their availability</li>
+  <li>Shared designs, code, and hardware components</li>
+  <li>Feature dependencies</li>
+  <li>Schedule dependencies</li>
+</ul><h3 id="polarion_wiki macro name=module-workitem;params=id=WI-130"></h3><p id="polarion_5">
+  List the major items to be delivered to the customers, subcontractors, integrators, or other parties. As appropriate, list the deliverables, their recipients, interim and final delivery dates, and delivery method. A table like the one below is a good way to show this information.
+</p><table id="polarion_wiki macro name=table;params=width=100%|uid=1" class="polarion-Document-table" style="width: 100%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;">
+  <tbody>
+    <tr>
+      <th style="font-weight: bold;font-size: 12px;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Deliverable</th>
+      <th style="font-weight: bold;font-size: 12px;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Recipients</th>
+      <th style="font-weight: bold;font-size: 12px;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Delivery Date</th>
+      <th style="font-weight: bold;font-size: 12px;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Delivery Method</th>
+      <th style="font-weight: bold;font-size: 12px;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Comments</th>
+    </tr>
+    <tr>
+      <td style="font-size: 12px;line-height: 18px;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"><br/>
+      </td>
+      <td style="font-size: 12px;line-height: 18px;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"><br/>
+      </td>
+      <td style="font-size: 12px;line-height: 18px;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"><br/>
+      </td>
+      <td style="font-size: 12px;line-height: 18px;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"><br/>
+      </td>
+      <td style="font-size: 12px;line-height: 18px;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"><br/>
+      </td>
+    </tr>
+  </tbody>
+</table><h3 id="polarion_wiki macro name=module-workitem;params=id=WI-131"></h3><p id="polarion_6">
+  This subsection describes known assumptions upon which the project is based (facts that are known to be true are not assumptions); any external events or externally-supplied items upon which the project depends; and the constraints under which the project will be conducted. Of the five project dimensions of features, quality, schedule, cost, and staff, determine and document which are constraints, which are project success drivers, and which are degrees of freedom. Give each assumption, dependency, and constraint a unique identifier, such as AS-1, DE-2, and CO-3, to facilitate referring to them elsewhere.
+</p><h3 id="polarion_wiki macro name=module-workitem;params=id=WI-132"></h3><p id="polarion_7">
+  List all documents and any other materials used as sources of information for this plan. For on-line documents, provide hyperlinks wherever possible.
+</p><h3 id="polarion_wiki macro name=module-workitem;params=id=WI-133"></h3><p id="polarion_8">
+  Define any acronyms or project-specific terms. For each acronym, give both the meaning of the abbreviation and a definition of the item.
+</p><h3 id="polarion_wiki macro name=module-workitem;params=id=WI-134"></h3><p id="polarion_9">
+  Describe the method for producing both scheduled and unscheduled updates to this plan and how the new information will be disseminated. For example, you could state that you will review the plan every time the product requirements specification or certain other major project artifacts are updated, or when project constraints or resources change. Alternatively or additionally, you could schedule periodic project reviews at specified milestones and update the plan as needed following each review. Describe mechanisms for placing the baseline version and future revisions of the plan under configuration control.
+</p><h2 id="polarion_wiki macro name=module-workitem;params=id=WI-135"></h2><p id="polarion_10">
+  This section describes interfaces to entities outside of the project, identifies the internal project structure, and defines roles and responsibilities for the project.
+</p><h3 id="polarion_wiki macro name=module-workitem;params=id=WI-136"></h3><p id="polarion_11">
+  Describe the organizational boundaries between the project and external entities. Define and describe communication with senior management, customers, subcontractors, purchasing, sales, marketing, legal, finance, procurement, installation and support organizations, standards or certification bodies, auditors, manufacturing, and the like.
+</p><h3 id="polarion_wiki macro name=module-workitem;params=id=WI-137"></h3><p id="polarion_12">
+  Describe the internal structure of the project organization, including interfaces between the units of the software team. It might be helpful to include organization charts or matrix diagrams to illustrate lines of authority, responsibility, and communication. Identify representatives of key units, such as senior management, engineering support functions (configuration management, quality assurance, verification and validation), and process improvement.
+</p><h3 id="polarion_wiki macro name=module-workitem;params=id=WI-138"></h3><p id="polarion_13">
+  List the major project team roles and the individuals who will fill these roles, along with the specific responsibilities those individuals will have. Identify the organizational units or project team roles that are responsible for all major work activities and supporting processes. Consider the following list of potential project roles, adapted to your organization’s local terminology:
+</p><ul id="polarion_14">
+  <li>Project Manager</li>
+  <li>Product Manager</li>
+  <li>Technical Lead</li>
+  <li>Software Lead</li>
+  <li>Hardware Lead</li>
+  <li>Architect</li>
+  <li>Systems Engineer</li>
+  <li>Requirements Analyst</li>
+  <li>Software Engineer</li>
+  <li>Hardware Engineer</li>
+  <li>Test Engineer</li>
+  <li>Configuration Control Board</li>
+  <li>Configuration Management Manager or Coordinator</li>
+  <li>Quality Assurance Manager, Coordinator, or Engineer</li>
+  <li>Technical Applications Support</li>
+  <li>Subject Matter Expert</li>
+</ul><p id="polarion_15">
+  Identify other internal and external project stakeholders who are not specifically members of the project team. Describe their relevance to the project and their degree of interaction for specific project activities. Potential topics to address regarding stakeholders include:
+</p><ul id="polarion_16">
+  <li>List of all relevant stakeholders and the rationale for each stakeholder’s involvement</li>
+  <li>Project roles and responsibilities of stakeholders during each life-cycle phase</li>
+  <li>Relationships between stakeholders</li>
+  <li>Relative importance of each stakeholder to project success by project phase</li>
+  <li>Resources (such as training, materials, time, or funding) needed to ensure adequate stakeholder participation</li>
+  <li>Schedule for phasing of stakeholder participation</li>
+  <li>Project Manager</li>
+  <li>Product Manager</li>
+  <li>Technical Lead</li>
+  <li>Software Lead</li>
+  <li>Hardware Lead</li>
+  <li>Architect</li>
+  <li>Systems Engineer</li>
+  <li>Requirements Analyst</li>
+  <li>Software Engineer</li>
+  <li>Hardware Engineer</li>
+  <li>Test Engineer</li>
+  <li>Configuration Control Board</li>
+  <li>Configuration Management Manager or Coordinator</li>
+  <li>Quality Assurance Manager, Coordinator, or Engineer</li>
+  <li>Technical Applications Support</li>
+  <li>Subject Matter Expert</li>
+  <li>List of all relevant stakeholders and the rationale for each stakeholder’s involvement</li>
+  <li>Project roles and responsibilities of stakeholders during each life-cycle phase</li>
+  <li>Relationships between stakeholders</li>
+  <li>Relative importance of each stakeholder to project success by project phase</li>
+  <li>Resources (such as training, materials, time, or funding) needed to ensure adequate stakeholder participation</li>
+  <li>Schedule for phasing of stakeholder participation</li>
+</ul><h2 id="polarion_wiki macro name=module-workitem;params=id=WI-139"></h2><p id="polarion_18">
+  This section defines the various project management plans and activities for the project.
+</p><h3 id="polarion_wiki macro name=module-workitem;params=id=WI-140"></h3><p id="polarion_19">
+  This section specifies plans that will lay a solid foundation for a successful project. Depending on the size and scope of the project, you may incorporate these plans directly in this section, or each section may simply contain a reference or hyperlink to a separate document.
+</p><h4 id="polarion_wiki macro name=module-workitem;params=id=WI-141"></h4><p id="polarion_20">
+  This section describes how project estimates will be prepared, including:
+</p><ul id="polarion_21">
+  <li>The methods, tools, and techniques that will be used to estimate project size, effort, cost, schedule, and critical computer resource requirements</li>
+  <li>The timing of the estimates</li>
+  <li>Who will participate in the estimation process</li>
+  <li>How the estimates will be documented, reviewed, and reported</li>
+</ul><p id="polarion_22">
+  You can include the actual estimates in this section or they can be stored elsewhere. For each estimate made, document the estimation method used, the assumptions made, and the confidence level for the estimate. Describe the rationale behind contingency buffers incorporated into estimates. Specify the methods to be used periodically to re-estimate the cost, time, and resources needed to complete the project.
+</p><ul id="polarion_45">
+  <li>The methods, tools, and techniques that will be used to estimate project size, effort, cost, schedule, and critical computer resource requirements</li>
+  <li>The timing of the estimates</li>
+  <li>Who will participate in the estimation process</li>
+  <li>How the estimates will be documented, reviewed, and reported</li>
+</ul><h4 id="polarion_wiki macro name=module-workitem;params=id=WI-142"></h4><p id="polarion_23">
+  Specify the number of staff needed by skill area or project role (see section 1.1), along with required skill levels, and the duration for which each staff member is needed. Describe the anticipated staffing profile (the mix of skills and effort levels needed at various times in the project), when people will be added to the project or depart from it, and how new team members will be brought up to speed. Specify the sources of the staff: internal from your department, internal from another department within your organization, hiring of a new employee, or hiring of contractors. Document the following information in this section:
+</p><ul id="polarion_24">
+  <li>Available internal candidates, their skill sets, and dates of availability</li>
+  <li>Requirements for external candidates, including job classifications and descriptions</li>
+  <li>Selection of candidates and assignments to tasks</li>
+  <li>Availability and duration of assignment for all candidates</li>
+  <li>Available internal candidates, their skill sets, and dates of availability</li>
+  <li>Requirements for external candidates, including job classifications and descriptions</li>
+  <li>Selection of candidates and assignments to tasks</li>
+  <li>Availability and duration of assignment for all candidates</li>
+</ul><h4 id="polarion_wiki macro name=module-workitem;params=id=WI-143"></h4><p id="polarion_26">
+  This section specifies any training that will be needed to ensure the necessary skill levels needed for the project. The types of training, number of people to be trained, and the training methods should be specified. The Project Manager’s responsibilities include identifying training requirements and working with local sources to provide training.
+</p><h4 id="polarion_wiki macro name=module-workitem;params=id=WI-144"></h4><p id="polarion_27">
+  This section specifies the plan for acquiring the resources other than personnel needed to successfully complete the project. Describe the resource acquisition process. Specify the points in the project schedule when the various acquisition activities will be needed. List any constraints, such as contention for shared resources (e.g., test facilities). Address any known resource issues. Non-human resource categories are:
+</p><ul id="polarion_28">
+  <li>Development resources: the software and hardware tools required to execute the project (number and size of computers, operating systems, databases, software tools needed, network connectivity needed, CM and other support tools)</li>
+  <li>Test resources: the software and hardware tools required to test the software and integrated products (number and size of computers, operating systems, software products, tools for test case management and test automation, test equipment, and network connectivity); details could appear in the Test Plan</li>
+  <li>Product resources: memory, disk, and other resources required by the final product. At the end of development and engineering testing, this product will have its operating environment resources identified so they can be included in the user documentation that will be part of the product distribution.</li>
+  <li>Development resources: the software and hardware tools required to execute the project (number and size of computers, operating systems, databases, software tools needed, network connectivity needed, CM and other support tools)</li>
+  <li>Test resources: the software and hardware tools required to test the software and integrated products (number and size of computers, operating systems, software products, tools for test case management and test automation, test equipment, and network connectivity); details could appear in the Test Plan</li>
+  <li>Product resources: memory, disk, and other resources required by the final product. At the end of development and engineering testing, this product will have its operating environment resources identified so they can be included in the user documentation that will be part of the product distribution.</li>
+</ul><h4 id="polarion_wiki macro name=module-workitem;params=id=WI-145"></h4><p id="polarion_30">
+  Record commitments that the project as a whole is making to external parties, as well as major commitments that one individual or group within the project team is making to another. This gives those involved a clear, shared understanding of their commitments and allows project participants to track whether or not commitments are being fulfilled. A table such as the one below is a convenient way to record these commitments. Describe how project commitment changes will be communicated to the affected parties.
+</p><table id="polarion_wiki macro name=table;params=width=100%|uid=2" class="polarion-Document-table" style="width: 100%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;">
+  <tbody>
+    <tr>
+      <th style="font-weight: bold;font-size: 12px;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Commitment</th>
+      <th style="font-weight: bold;font-size: 12px;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Made By</th>
+      <th style="font-weight: bold;font-size: 12px;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Made To</th>
+      <th style="font-weight: bold;font-size: 12px;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Due Date</th>
+      <th style="font-weight: bold;font-size: 12px;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Comments</th>
+    </tr>
+    <tr>
+      <td style="font-size: 12px;line-height: 18px;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"><br/>
+      </td>
+      <td style="font-size: 12px;line-height: 18px;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"><br/>
+      </td>
+      <td style="font-size: 12px;line-height: 18px;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"><br/>
+      </td>
+      <td style="font-size: 12px;line-height: 18px;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"><br/>
+      </td>
+      <td style="font-size: 12px;line-height: 18px;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"><br/>
+      </td>
+    </tr>
+  </tbody>
+</table><h3 id="polarion_wiki macro name=module-workitem;params=id=WI-146"></h3><p id="polarion_31">
+  Specify the various work activities required to produce the project’s major deliverables, including contents and timing of the activities. Use a work breakdown structure or a table to depict the work activities, corresponding deliverables, and the relationships among the activities. If the work breakdown structure is stored in a separate location, such as a project tracking tool, provide a reference or link to that location here. For each work package, specify factors such as staff, budget, and other resources needed, estimated duration, work products to be produced, and predecessor tasks. Decompose tasks to a degree that will permit accurate estimation and will reveal risks and complexity.Identify major progress milestones at sufficient granularity that tracking against these milestones will indicate whether significant deviations are taking place from the planned objectives. Early milestones provide visibility to see if the project is straying off course.
+</p><h3 id="polarion_wiki macro name=module-workitem;params=id=WI-147"></h3><p id="polarion_32">
+  This section describes how the project will control and report on the project status and activities. Specify the frequency at which the various project status indicators are to be monitored and specific events that could trigger a status evaluation.
+</p><h3 id="polarion_wiki macro name=module-workitem;params=id=WI-148"></h3><p id="polarion_33">
+  Describe how the project will manage its data, including deliverable and non-deliverable documents, project status metrics, reports, specifications, and so on. Address the following:
+</p><ul id="polarion_34">
+  <li>Types of data to be managed</li>
+  <li>Content and format description where pertinent (such as templates to be used)</li>
+  <li>Data requirements lists for suppliers</li>
+  <li>Privacy requirements</li>
+  <li>Security requirements and procedures</li>
+  <li>Mechanisms for data collection, retrieval, distribution, and archiving</li>
+  <li>Types of data to be managed</li>
+  <li>Content and format description where pertinent (such as templates to be used)</li>
+  <li>Data requirements lists for suppliers</li>
+  <li>Privacy requirements</li>
+  <li>Security requirements and procedures</li>
+  <li>Mechanisms for data collection, retrieval, distribution, and archiving</li>
+</ul><h4 id="polarion_wiki macro name=module-workitem;params=id=WI-149"></h4><p id="polarion_36">
+  Specify the mechanisms for measuring, reporting, and controlling changes to the product requirements. Describe how to assess the impact of requirement changes on product scope and quality, and on project schedule, budget, resources, and risk factors. If a separate change control process is being followed, refer to that here. If changes in requirements affect project schedule or other commitments, update this Project Management Plan, other plans, estimates, and commitments to reflect the changes. Incorporate the tasks and effort to perform the requirements control steps into the project’s work breakdown structure and schedule.
+</p><h4 id="polarion_wiki macro name=module-workitem;params=id=WI-150"></h4><p id="polarion_37">
+  Specify the control mechanisms used to measure the progress of the work completed at milestones. Specify the methods and tools used to compare actual schedule performance to planned performance and to implement corrective action when actual performance deviates from planned or required performance. A project schedule in the form of a GANTT chart should be created, preferably in a project tracking tool. Describe how contingency buffers will be tapped and revised when actual performance falls behind estimates. Describe how and when schedules will be modified and how agreement and commitment to the revised schedules will be achieved.
+</p><h4 id="polarion_wiki macro name=module-workitem;params=id=WI-151"></h4><p id="polarion_38">
+  Specify the control mechanisms used to measure the cost of work completed, compare actual to budgeted cost, and implement corrective actions when actual cost deviates excessively from budgeted cost. Specify the intervals or points at which cost reporting is needed and the methods and tools that will be used to manage the budget. For example, you might say that the Department Manager is responsible for forecasting and controlling budgets and expenses on an annual basis, and the Project Manager is responsible for tracking actual hours and for reporting actual and estimated project hours by milestone to the Department Manager.
+</p><h4 id="polarion_wiki macro name=module-workitem;params=id=WI-152"></h4><p id="polarion_41">
+  Identify the regular reports and communications expected of the project, such as weekly status reports, regular reviews, and as-needed communication. The exact types of communication vary between groups, but it is useful to identify the planned means at the start of the project. Specify the reporting mechanisms, report contents, and information flows used to communicate the status of requirements, schedule, budget, quality, risks, and other status indicators both within the project and to external stakeholders. Special communication issues, such as offshore outsourcing, require particular attention. A table such as that below is a convenient way to describe the communication expectations.
+</p><table id="polarion_wiki macro name=table;params=width=100%|uid=54" class="polarion-Document-table" style="width: 100%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;">
+  <tbody>
+    <tr>
+      <th style="font-weight: bold;font-size: 12px;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Type of Communication</th>
+      <th style="font-weight: bold;font-size: 12px;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Communication Schedule</th>
+      <th style="font-weight: bold;font-size: 12px;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Typical Communication Mechanism</th>
+      <th style="font-weight: bold;font-size: 12px;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Who Initiates</th>
+      <th style="font-weight: bold;font-size: 12px;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Recipient</th>
+    </tr>
+    <tr>
+      <td style="font-size: 12px;line-height: 18px;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Status Report</td>
+      <td style="font-size: 12px;line-height: 18px;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">every Friday</td>
+      <td style="font-size: 12px;line-height: 18px;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">team meeting</td>
+      <td style="font-size: 12px;line-height: 18px;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Project Manager</td>
+      <td style="font-size: 12px;line-height: 18px;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Project Team</td>
+    </tr>
+    <tr>
+      <td style="font-size: 12px;line-height: 18px;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Schedule and Effort Tracking Report</td>
+      <td style="font-size: 12px;line-height: 18px;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">weekly</td>
+      <td style="font-size: 12px;line-height: 18px;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">email</td>
+      <td style="font-size: 12px;line-height: 18px;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Project Manager</td>
+      <td style="font-size: 12px;line-height: 18px;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Program Manager</td>
+    </tr>
+    <tr>
+      <td style="font-size: 12px;line-height: 18px;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Project Review</td>
+      <td style="font-size: 12px;line-height: 18px;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">monthly</td>
+      <td style="font-size: 12px;line-height: 18px;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">face to face</td>
+      <td style="font-size: 12px;line-height: 18px;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Project Manager</td>
+      <td style="font-size: 12px;line-height: 18px;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Project Team</td>
+    </tr>
+    <tr>
+      <td style="font-size: 12px;line-height: 18px;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Risk Mitigation Status</td>
+      <td style="font-size: 12px;line-height: 18px;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">as mitigation actions are completed</td>
+      <td style="font-size: 12px;line-height: 18px;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">email</td>
+      <td style="font-size: 12px;line-height: 18px;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">responsible team member</td>
+      <td style="font-size: 12px;line-height: 18px;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Project Manager</td>
+    </tr>
+    <tr>
+      <td style="font-size: 12px;line-height: 18px;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Requirement Changes</td>
+      <td style="font-size: 12px;line-height: 18px;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">as changes are approved</td>
+      <td style="font-size: 12px;line-height: 18px;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">email and change control tool</td>
+      <td style="font-size: 12px;line-height: 18px;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">CCB Chair</td>
+      <td style="font-size: 12px;line-height: 18px;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">affected Project Participants</td>
+    </tr>
+    <tr>
+      <td style="font-size: 12px;line-height: 18px;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Supplier Management Review</td>
+      <td style="font-size: 12px;line-height: 18px;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">at project life cycle gates</td>
+      <td style="font-size: 12px;line-height: 18px;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">video conference</td>
+      <td style="font-size: 12px;line-height: 18px;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Program Manager</td>
+      <td style="font-size: 12px;line-height: 18px;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Project Manager, Program Manager, Subcontract Manager</td>
+    </tr>
+  </tbody>
+</table><h4 id="polarion_wiki macro name=module-workitem;params=id=WI-153"></h4><p id="polarion_51">
+  Specify the methods, tools, and techniques used to collect and retain project metrics. The metrics to be collected, the collection frequency, and how the metrics will be validated, analyzed, reported, stored, and used should all be addressed.
+</p><h3 id="polarion_wiki macro name=module-workitem;params=id=WI-154"></h3><p id="polarion_54">
+  This section specifies the plan for identifying, analyzing, prioritizing, and controlling project risks. It should describe the procedures for contingency planning and the methods used in tracking risks, evaluating changes in individual risk exposures, and responding to those changes. Include a plan for ongoing risk identification throughout the project’s life cycle. Document the risks in a separate risk list (possibly an appendix to this Plan), not in this section. A large project should create a separate risk management plan. Identify the risk management tasks to be performed, who is responsible for each, and the target date for completion of each task. Estimate the percentage of project effort or the number of hours planned for risk management activities. Incorporate risk management tasks into the project schedule and budget.
+</p><h3 id="polarion_wiki macro name=module-workitem;params=id=WI-155"></h3><p id="polarion_55">
+  Describe how problems, issues, and action items that arise on the project will be documented, resolved, and tracked to closure. Identify the project’s decision-makers for issues such as requirements base-lining, requirements changes, resource contention, priority conflicts, etc.
+</p><h3 id="polarion_wiki macro name=module-workitem;params=id=WI-156"></h3><p id="polarion_56">
+  This section describes the actions necessary to ensure an orderly closeout of the project. Address staff reassignment, archiving of project materials, recording of metrics, holding a project retrospective, and preparation of a final report to include lessons learned and analysis of project objectives achieved.
+</p><h2 id="polarion_wiki macro name=module-workitem;params=id=WI-157"></h2><p id="polarion_57">
+  This section describes the technical approaches to be used on the project. Depending on the size and scope of the project, these plans may be incorporated directly in this section, or each section may simply contain a reference or hyperlink to an external plan. For example, nearly every project should create separate Configuration Management and Quality Assurance Plans.
+</p><h3 id="polarion_wiki macro name=module-workitem;params=id=WI-158"></h3><p id="polarion_58">
+  Describe the product development life cycle that the project will use. Examples include waterfall, iterative, and incremental (e.g., evolutionary, spiral, or agile). If an iterative or incremental model is used, identify clear milestones and provide the planned iteration number for each task in the work breakdown structure. The project’s GANTT chart should reflect the model used. Identify checkpoints at which management reviews are needed.
+</p><h3 id="polarion_wiki macro name=module-workitem;params=id=WI-159"></h3><p id="polarion_59">
+  This section describes the design and development methodologies, programming languages, software and hardware tools, and operating environments to be used, as well as pertinent technical and management standards and procedures. Describe the following:
+</p><ul id="polarion_60">
+  <li>The hardware, OS, and network environments for development, test, and operation</li>
+  <li>Software tools including those for requirements management, design modeling, source code and document version control, compiler or IDE, build automation, and so on</li>
+  <li>Development methodologies, including requirements development practices, design methodologies and notations, programming languages, coding standards, documentation standards, and system integration procedure</li>
+  <li>Quality assurance practices, including methods of technical peer review, unit testing, debugging tools, defect tracking, integration and system testing, and test automation. The details of these approaches will appear in a separate QA Plan or Test Plan.</li>
+  <li>The hardware, OS, and network environments for development, test, and operation</li>
+  <li>Software tools including those for requirements management, design modeling, source code and document version control, compiler or IDE, build automation, and so on</li>
+  <li>Development methodologies, including requirements development practices, design methodologies and notations, programming languages, coding standards, documentation standards, and system integration procedure</li>
+  <li>Quality assurance practices, including methods of technical peer review, unit testing, debugging tools, defect tracking, integration and system testing, and test automation. The details of these approaches will appear in a separate QA Plan or Test Plan.</li>
+</ul><h3 id="polarion_wiki macro name=module-workitem;params=id=WI-160"></h3><p id="polarion_64">
+  This section could contain the configuration management plan for this project. For any but very small projects, this section should refer to a separate document. The CM plan should describe the activities and methods used for configuration identification, control, status accounting, auditing, and release management. The configuration management plan should address the initial base-lining of work products, logging and analysis of change requests, change control board procedures, tracking of changes in progress, and procedures for notifying concerned parties when baselines are established and changed. Estimate the percentage of project effort or the number of hours planned for configuration management activities. Incorporate CM tasks into the project schedule and budget. List the personnel responsible for establishing the baselines, maintaining the configuration management system, and conducting CM reviews and audits.
+</p><h3 id="polarion_wiki macro name=module-workitem;params=id=WI-161"></h3><p id="polarion_65">
+  This section could contain the quality assurance plan for this project. For any but very small projects, this section should refer to a separate document. The QA plan should describe the activities and methods used to build a high-quality product by the sensible application of an appropriate process. The plan should indicate the relationships among the quality assurance, testing (or verification and validation), peer review, audit, and configuration management activities. Identify the quality-related tasks to be performed, who is responsible for each, and the target date for completion. Estimate the percentage of project effort or the number of hours planned for quality assurance activities. Incorporate QA tasks into the project schedule and budget. List the personnel responsible for performing identified QA tasks.
+</p><h3 id="polarion_wiki macro name=module-workitem;params=id=WI-162"></h3><p id="polarion_66">
+  Describe the plans for creating system documentation deliverables, including installation and maintenance guides, user guides, reference manuals, on-line help systems, release notes, and so forth. List the documents to be created. For each type of documentation, describe: any pertinent template, standard, or conventions to be followed; who will prepare it; who will review it; target dates for initial delivery and base-lining; and information about recipients, distribution, or storage. A table like the one shown below is a convenient way to record this information.
+</p><table id="polarion_wiki macro name=table;params=width=100%|uid=57" class="polarion-Document-table" style="width: 100%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;">
+  <tbody>
+    <tr>
+      <th style="font-weight: bold;font-size: 12px;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Document</th>
+      <th style="font-weight: bold;font-size: 12px;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Template or Standard</th>
+      <th style="font-weight: bold;font-size: 12px;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Created By</th>
+      <th style="font-weight: bold;font-size: 12px;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Reviewed By</th>
+      <th style="font-weight: bold;font-size: 12px;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Target Date</th>
+      <th style="font-weight: bold;font-size: 12px;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Distribution</th>
+    </tr>
+    <tr>
+      <td style="font-size: 12px;line-height: 18px;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"><br/>
+      </td>
+      <td style="font-size: 12px;line-height: 18px;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"><br/>
+      </td>
+      <td style="font-size: 12px;line-height: 18px;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"><br/>
+      </td>
+      <td style="font-size: 12px;line-height: 18px;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"><br/>
+      </td>
+      <td style="font-size: 12px;line-height: 18px;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"><br/>
+      </td>
+      <td style="font-size: 12px;line-height: 18px;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"><br/>
+      </td>
+    </tr>
+  </tbody>
+</table><h3 id="polarion_wiki macro name=module-workitem;params=id=WI-163"></h3><p id="polarion_67">
+  This section describes plans for assessing the project and its processes, determining areas for process improvement, and implementing improvement plans without seriously disrupting an ongoing project. Each project should address at least one process improvement activity, selected from the following list:
+</p><ul id="polarion_68">
+  <li>New procedure or a new example of how to implement an existing procedure or process</li>
+  <li>Improved procedure or template based on lessons learned</li>
+  <li>New tool or improved use of a current tool</li>
+</ul><p id="polarion_69">
+  List the specific new process approaches to be tried and the anticipated impacts on the project. As the project progresses, track how the new approaches are being used, how they are affecting the project, and whether they had to be modified. Capture lessons learned from these experiences during the project retrospective (see section 1.1).
+</p><ul id="polarion_70">
+  <li>New procedure or a new example of how to implement an existing procedure or process</li>
+  <li>Improved procedure or template based on lessons learned</li>
+  <li>New tool or improved use of a current tool</li>
+</ul><h2 id="polarion_wiki macro name=module-workitem;params=id=WI-164"></h2><div id="polarion_wiki macro name=module-workitem;params=id=WI-19|level=0"></div><p id="polarion_72"></p>]]></field>
+    <field id="outlineNumbering">
+        <struct/>
+    </field>
+    <field id="renderingLayouts">
+        <list>
+            <struct>
+                <item id="label">Task</item>
+                <item id="layouter">section</item>
+                <item id="properties">
+                    <list>
+                        <struct>
+                            <item id="key">fieldsAtStart</item>
+                            <item id="value">id</item>
+                        </struct>
+                        <struct>
+                            <item id="key">fieldsAtEnd</item>
+                            <item id="value">severity, status</item>
+                        </struct>
+                        <struct>
+                            <item id="key">fieldsAtEndAsTable</item>
+                        </struct>
+                        <struct>
+                            <item id="key">hidden</item>
+                        </struct>
+                    </list>
+                </item>
+                <item id="type">task</item>
+            </struct>
+        </list>
+    </field>
+    <field id="status">draft</field>
+    <field id="structureLinkRole">parent</field>
+    <field id="type">generic</field>
+    <field id="usesOutlineNumbering">true</field>
+</module>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">schucks</field>
+    <field id="created">2014-12-01 06:24:05.830 -0500</field>
+    <field id="description" text-type="text/html">&lt;img src="attachment:6-screenshot-20141201-062829.png" style="width: 334px;height: 500px;"/&gt;</field>
+    <field id="printNotes" text-type="text/html" type="text/html">Thes Notes will be printed as part of the training materials</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Wiki Macros</field>
+    <field id="type">slide</field>
+</work-item>

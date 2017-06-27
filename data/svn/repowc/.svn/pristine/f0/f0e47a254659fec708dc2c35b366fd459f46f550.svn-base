@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">stroebelet</field>
+    <field id="created">2011-07-28 14:26:46.808 -0400</field>
+    <field id="description" text-type="text/html">By default a newly created work item will have lot of standard fields. In our case we want to track questions so we don´t need to see that much fields.&lt;br/&gt; &lt;ul&gt;&lt;li&gt;Open &lt;span style="font-style: italic;"&gt;Administration&amp;gt;Work Items&amp;gt;Form Configuration&lt;/span&gt; and create new question form layout&lt;br/&gt;&lt;/li&gt;&lt;li&gt;On top of our question we only need a few attributes. Attributes we want to see are:&lt;/li&gt;&lt;li style="list-style: none"&gt;&lt;ul&gt;&lt;li&gt;type&lt;/li&gt;&lt;li&gt;author&lt;/li&gt;&lt;li&gt;project&lt;/li&gt;&lt;li&gt;topic&lt;/li&gt;&lt;li&gt;assignee&lt;/li&gt;&lt;li&gt;status&lt;/li&gt;&lt;li&gt;resolution&lt;/li&gt;&lt;li&gt;customPriority&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;Below these we want to have following fields:&lt;/li&gt;&lt;li style="list-style: none"&gt;&lt;ul&gt;&lt;li&gt;description&lt;/li&gt;&lt;li&gt;answer&lt;/li&gt;&lt;li&gt;comments&lt;/li&gt;&lt;li&gt;linkedWorkItems&lt;/li&gt;&lt;li&gt;watches&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;Remove all other fields&lt;/li&gt;&lt;/ul&gt;&lt;img style="width: 633px;height: 500px;" src="attachment:63-screenshot-20141029-085631.png"/&gt;&lt;br/&gt;</field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Define Question Work Item Layout</field>
+    <field id="type">exercise</field>
+</work-item>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">daniel.morris</field>
+    <field id="created">2014-08-07 07:37:26.906 -0400</field>
+    <field id="description" text-type="text/html"><![CDATA[In our last step we have specified a release so we have an overall plan what we are going to implement during this release. This is a more wide range plan to be more specific and have a plan for a shorter implementation time we are going to creat an iteration.<br/>
+Before we start working on our tasks and defects we need to setup a Start Date, Due Date and we need to select the items we are planning for this iteration. <br/>
+ 
+<ul>
+  <li>Select &quot;Iteration 2&quot; in Plans section<br/>
+    <img src="workitemimg:1-screenshot-20140730-155217.png" style="width: 244px;height: 132px;"/></li>
+  <ul>
+    <li>Set as &quot;Start Date&quot; todays date and as &quot;Due Date&quot; 7 days later. So our Iteration will take 1 week.</li>
+    <li>We also set a capacity of 40 hours which means 1 person is working on this iteration (5 working days * 8 hours)<br/>
+      <img src="workitemimg:2-screenshot-20140730-160449.png" style="width: 370px;height: 168px;"/></li>
+    <li>Add our 2 requirements to this iteration and check calculation on the right planning sidebar.<br/>
+      (Remember, we have added an initial estimate of 4 days for each requirment and our current capacity is set to 1 person working 5 days)<br/>
+      
+      <table id="polarion_wiki macro name=table;params=uid=client1" class="polarion-Document-table" style="width: 602px;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;">
+        <tbody>
+          <tr>
+            <th style="background-color: #F0F0F0;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Hint: In properties configuration you can define a &quot;Default Estimate&quot; (input in hours) for work items which currently have no estimation. It is also possible to configure and use custom estimate types e.g. story points.</th>
+          </tr>
+        </tbody>
+      </table>
+      <br/>
+      <img src="workitemimg:3-planning-estimate.png" style="width: 335px;height: 321px;"/></li>
+    <li>Set Status of &quot;Iteration 2&quot; to &quot;In Progress&quot; and refresh plan to start calculation</li>
+  </ul>
+</ul>
+ 
+<table id="polarion_wiki macro name=table" class="polarion-Document-table" style="width: 80%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;">
+  <tbody>
+    <tr>
+      <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Hint: By default you can only add requirements to an iteration which have been planned in a parent (release) plan</th>
+    </tr>
+  </tbody>
+</table>
+ <br/>]]></field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Add items to an iteration</field>
+    <field id="type">exercise</field>
+</work-item>

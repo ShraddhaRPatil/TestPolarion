@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="linkedWorkItems">
+        <list>
+            <struct>
+                <item id="workItem">MP-462</item>
+                <item id="suspect">false</item>
+                <item id="role">seeAlso</item>
+            </struct>
+            <struct>
+                <item id="workItem">MP-469</item>
+                <item id="suspect">false</item>
+                <item id="role">seeAlso</item>
+            </struct>
+            <struct>
+                <item id="workItem">MP-446</item>
+                <item id="suspect">false</item>
+                <item id="role">seeAlso</item>
+            </struct>
+        </list>
+    </field>
+    <field id="type">slide</field>
+    <field id="hyperlinks">
+        <list>
+            <struct>
+                <item id="role">renderSlide</item>
+                <item id="uri">/polarion/wiki/bin/view/project/MyPolarion/page/macros/RenderSlides?item=MP-490</item>
+            </struct>
+            <struct>
+                <item id="role">video</item>
+                <item id="uri">http://www.polarion.com/video/tutorials/workwithdocs/</item>
+            </struct>
+            <struct>
+                <item id="role">help</item>
+                <item id="uri">/polarion/help/index.jsp</item>
+            </struct>
+        </list>
+    </field>
+    <field id="author">stroebelet</field>
+    <field id="title">Requirements Elicitation</field>
+    <field id="created">2011-04-12 13:07:38.254 +0200</field>
+    <field id="description" text-type="text/html">&lt;ul&gt;&lt;li&gt;Elicit requirements using Polarion LiveDocuments&lt;/li&gt;&lt;li&gt;Import requirements from a MS Word document&lt;/li&gt;&lt;li&gt;Create requirements as stand alone work items&lt;br/&gt;&lt;/li&gt;&lt;/ul&gt;Change the status of your requirement with &lt;span style="font-style: italic;"&gt;"send to approve"&lt;/span&gt; when the requirement is ready to be approved.&lt;br/&gt;&lt;br/&gt; &lt;img src="workitemimg:2-screenshot-1.jpg"/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;If you need approval from specific people add them to approvals section.&lt;br/&gt;&lt;br/&gt;&lt;img src="workitemimg:1-screenshot.jpg"/&gt;&lt;br/&gt;</field>
+    <field id="priority">25.0</field>
+    <field id="status">accepted</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+    <field id="subtitle" type="string">There are various ways how requirements can be entered into Polarion</field>
+    <field id="hint" type="string">"Quickly approve..." links are helpful in small projects when one person represents multiple roles at the same time</field>
+</work-item>

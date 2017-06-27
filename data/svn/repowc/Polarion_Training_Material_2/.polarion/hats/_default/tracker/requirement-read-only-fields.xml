@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<read-only>
+    <!--<status id="approved">
+        <field id="description" />
+        <field id="severity" />
+        <field id="attachments" />
+    </status>-->
+</read-only>
+

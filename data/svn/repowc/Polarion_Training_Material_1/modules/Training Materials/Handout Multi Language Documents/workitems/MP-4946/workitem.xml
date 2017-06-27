@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="author">schucks</field>
+    <field id="title">Step 3 - Configure Your Interface</field>
+    <field id="created">2013-07-31 12:04:50.520 +0200</field>
+    <field id="description" text-type="text/html">Now you can switch over to the Document and add your fields for Description and Title in your specified language to the Work Items Properties Panel:&lt;br/&gt;&lt;br/&gt;&lt;img style="width: 1200px;height: 505px;" src="attachment:screenshot-5.jpg"/&gt;&lt;br/&gt;</field>
+    <field id="priority">25.0</field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+    <field id="trainingCategory" multi="true" type="enum:trainingCategory"/>
+</work-item>

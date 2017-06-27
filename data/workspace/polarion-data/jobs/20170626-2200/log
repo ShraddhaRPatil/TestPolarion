@@ -1,0 +1,16 @@
+2017-06-26 22:00:00,012 [DefaultQuartzScheduler_Worker-4] INFO  root  - Job "Live Plan Chart Update" has id e53d034b-927abeae-315365ef-7419aa8f
+2017-06-26 22:00:00,017 [DefaultQuartzScheduler_Worker-4] INFO  root  - State of job "Live Plan Chart Update" changed to UNSCHEDULED
+2017-06-26 22:00:00,020 [DefaultQuartzScheduler_Worker-4] INFO  root  - Working directory of root job "Live Plan Chart Update" is C:\Polarion\data\workspace\polarion-data\jobs\20170626-2200
+2017-06-26 22:00:00,022 [DefaultQuartzScheduler_Worker-4] INFO  root  - Job "Live Plan Chart Update" runs as user "polarion"
+2017-06-26 22:00:00,024 [DefaultQuartzScheduler_Worker-4 | u:p] INFO  root  - State of job "Live Plan Chart Update" changed to ACTIVATING
+2017-06-26 22:00:00,027 [DefaultQuartzScheduler_Worker-4 | u:p] INFO  root  - State of job "Live Plan Chart Update" changed to WAITING
+2017-06-26 22:00:00,030 [Worker-1 | u:p] INFO  root  - State of job "Live Plan Chart Update" changed to RUNNING
+2017-06-26 22:00:00,061 [Worker-1 | u:p | job: update.plan] INFO  root  -  -- planning started
+2017-06-26 22:00:00,103 [Worker-1 | u:p | job: update.plan] INFO  root  -  -- planning finished  [ TIME 0.0417 s. ]
+2017-06-26 22:00:00,106 [Worker-1 | u:p | job: update.plan] INFO  root  -  -- 0 planning problems found
+2017-06-26 22:00:00,108 [Worker-1 | u:p | job: update.plan] INFO  root  -  -- serializing live-plan.xml to RR 
+2017-06-26 22:00:00,120 [Worker-1 | u:p | job: update.plan] INFO  root  -  -- going to start index refresh job
+2017-06-26 22:00:00,865 [Worker-1 | u:p | job: update.plan] INFO  root  -  -- index refresh job finished with status: OK
+2017-06-26 22:00:00,868 [Worker-1 | u:p | job: update.plan] INFO  root  - Live plan update finished  [ TIME 0.808 s. ]
+2017-06-26 22:00:00,871 [Worker-1 | u:p] INFO  root  - State of job "Live Plan Chart Update" changed to FINISHED
+2017-06-26 22:00:00,874 [Worker-1 | u:p] INFO  root  - Status of job "Live Plan Chart Update" is OK

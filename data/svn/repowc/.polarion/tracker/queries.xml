@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<queries>
+    <query name="Unassigned" query="NOT HAS_VALUE:assignee.id"/>
+    <query name="Unscheduled" query="NOT HAS_VALUE:timePoint.id"/>
+</queries>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">requirement</field>
+    <field id="author">admin</field>
+    <field id="title">Stakeholder Profiles</field>
+    <field id="created">2008-10-02 21:29:37.270 +0200</field>
+    <field id="description" text-type="text/html">&lt;span style="font-style: italic;" class="Apple-style-span"&gt;Stakeholders are individuals, groups, or organizations that are actively involved in a project, are affected by its outcome, or can influence its outcome. The stakeholder profiles identify the customers for this product and other stakeholders, and states their major interests in the product. Characterize business-level customers, target market segments, and different user classes, to reduce the likelihood of unexpected requirements surfacing later that cannot be accommodated because of schedule or scope constraints. For each stakeholder category, the profile includes the major value or benefits they will receive from the product, their likely attitudes toward the product, major features and characteristics of interest, and any known constraints that must be accommodated.&lt;br/&gt;Examples of stakeholder value include:&lt;br/&gt;&lt;/span&gt;&lt;ul&gt;&lt;li&gt;&lt;span style="font-style: italic;" class="Apple-style-span"&gt;improved productivity&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style="font-style: italic;" class="Apple-style-span"&gt;reduced rework&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style="font-style: italic;" class="Apple-style-span"&gt;cost savings&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style="font-style: italic;" class="Apple-style-span"&gt;streamlined business processes&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style="font-style: italic;" class="Apple-style-span"&gt;automation of previously manual tasks&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style="font-style: italic;" class="Apple-style-span"&gt;ability to perform entirely new tasks or functions&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style="font-style: italic;" class="Apple-style-span"&gt;conformance to current standards or regulations&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style="font-style: italic;" class="Apple-style-span"&gt;improved usability or reduced frustration level compared to current applications&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;</field>
+    <field id="priority">25.0</field>
+    <field id="status">draft</field>
+    <field id="severity">nice_to_have</field>
+    <field id="previousStatus">open</field>
+</work-item>

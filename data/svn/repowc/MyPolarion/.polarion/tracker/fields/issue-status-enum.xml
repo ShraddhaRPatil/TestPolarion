@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<enumeration>
+    <option description="The issue is new and has not been adressed yet to Polarion" iconURL="/polarion/icons/default/enums/req_status_draft.gif" id="new" name="New" sortOrder="4"/>
+    <option description="The issue has been raised to Polarion and we are waiting for response" iconURL="/polarion/icons/default/enums/req_status_awaiting_review.gif" id="waitingForResponse" name="Waiting For Response" sortOrder="7"/>
+    <option description="The issue has been resolved and can be closed" iconURL="/polarion/icons/default/enums/req_status_verified.gif" id="closed" name="Closed" sortOrder="8"/>
+</enumeration>

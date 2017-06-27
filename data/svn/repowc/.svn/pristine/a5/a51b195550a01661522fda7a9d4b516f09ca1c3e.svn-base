@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">admin</field>
+    <field id="created">2017-06-21 19:14:37.930 +0530</field>
+    <field id="previousStatus">inInvestigation</field>
+    <field id="priority">50.0</field>
+    <field id="risk" type="enum:risk">low</field>
+    <field id="status">approveRootCause</field>
+    <field id="title">TestCAPA2</field>
+    <field id="type">capa</field>
+</work-item>

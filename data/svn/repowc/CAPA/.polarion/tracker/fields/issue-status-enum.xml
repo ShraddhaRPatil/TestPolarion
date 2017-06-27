@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<enumeration>
+    <option color="#F9FF4D" iconURL="/polarion/icons/default/enums/status_open.gif" id="open" name="Open" sortOrder="1"/>
+    <option color="lightgreen" iconURL="/polarion/icons/default/enums/testrun_type_loadtest.png" id="inEvaluation" name="In Evaluation" sortOrder="2"/>
+    <option color="#2D8DA1" iconURL="/polarion/icons/default/enums/status_inprogress.gif" id="inprogress" name="In Progress" sortOrder="3"/>
+    <option iconURL="/polarion/icons/default/enums/status_resolved.gif" id="resolved" name="Resolved" sortOrder="4"/>
+    <option color="#FFB321" iconURL="/polarion/icons/default/enums/approval_disapproved.gif" id="rejected" name="Rejected" sortOrder="5"/>
+    <option color="#A30000" iconURL="/polarion/icons/default/enums/req_status_changes_needed.gif" id="reopened" name="Reopened" sortOrder="6"/>
+    <option color="#FFB321" iconURL="/polarion/icons/default/enums/req_status_approved.gif" id="closed" name="Closed" sortOrder="7"/>
+</enumeration>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">daniel.morris</field>
+    <field id="created">2014-10-30 06:02:30.411 -0400</field>
+    <field id="description" text-type="text/html"><![CDATA[We will create a smilar workflow as for single questions. We will only add a state to display that a document has been send to a consultant. We also define only project admins should be able to change document workflow states.<br/>
+ 
+<ul>
+  <li>Open <span style="font-style: italic;">Administration&gt;Documents&amp;Wiki&gt;Document Workflow</span> and add question workflow<br/>
+  </li>
+  <li>Define following workflow<br/>
+    <img src="workitemimg:3-diagram_20141029-1207.09846.mxg.png"/></li>
+  <li>Verify your document workflow and required / cleared fields are working as configured by creating / modifying a test specification.<br/>
+    
+    <table id="polarion_wiki macro name=table;params=uid=client2" class="polarion-Document-table" style="width: 602px;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;">
+      <tbody>
+        <tr>
+          <th style="background-color: #F0F0F0;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Hint: You can also define advanced workflow rules to use functions and conditions. e.g. to change status of all contained work items of a specification. </th>
+        </tr>
+      </tbody>
+    </table>
+    <br/>
+    <br/>
+  </li>
+</ul>]]></field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Define Workflow for Question document</field>
+    <field id="type">exercise</field>
+</work-item>

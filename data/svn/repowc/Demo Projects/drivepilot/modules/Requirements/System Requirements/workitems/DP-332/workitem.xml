@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="approvals">
+        <list>
+            <struct>
+                <item id="status">approved</item>
+                <item id="user">rProject</item>
+            </struct>
+        </list>
+    </field>
+    <field id="author">admin</field>
+    <field id="created">2013-01-21 22:12:34.744 +0100</field>
+    <field id="description" text-type="text/html">DrivePilot is NOT compatible with any vehicle that has "auto parking" capability.&lt;br/&gt;Some models of vehicles come equipped with such capability.  Not all models are so equipped, but only when correctly optioned out.&lt;br/&gt; &lt;br/&gt;&lt;table style="width: 80%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;" id="polarion_wiki macro name=table;params=uid=pasted_0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;border: 1px solid #CCCCCC;padding: 5px;"&gt; Manufacturer&lt;/th&gt;&lt;th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;border: 1px solid #CCCCCC;padding: 5px;"&gt; Model&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="text-align: left;vertical-align: top;border: 1px solid #CCCCCC;padding: 5px;"&gt;Toyota/Lexus&lt;/td&gt;&lt;td style="text-align: left;vertical-align: top;border: 1px solid #CCCCCC;padding: 5px;"&gt;Prius, LX200&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="text-align: left;vertical-align: top;border: 1px solid #CCCCCC;padding: 5px;"&gt;Volkswagen&lt;/td&gt;&lt;td style="text-align: left;vertical-align: top;border: 1px solid #CCCCCC;padding: 5px;"&gt;Tiguan, Passat/CC,Golf&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</field>
+    <field id="previousStatus">inReview</field>
+    <field id="priority">50.0</field>
+    <field id="severity">must_have</field>
+    <field id="status">approved</field>
+    <field id="targetVersion" multi="true" type="enum:@plan[template.id:release]">
+        <list>
+            <item>Version_1_0</item>
+        </list>
+    </field>
+    <field id="type">systemRequirement</field>
+</work-item>

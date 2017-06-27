@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">text</field>
+    <field id="author">tstrobele</field>
+    <field id="created">2012-08-15 13:49:32.354 +0200</field>
+    <field id="priority">25.0</field>
+    <field id="description" text-type="text/html">To ensure that all information in the project is kept in sync you can use the suspect features to mark work items which need review</field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+</work-item>

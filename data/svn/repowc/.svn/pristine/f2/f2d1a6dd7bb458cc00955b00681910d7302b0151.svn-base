@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schedule>
+
+  <job name="Cleanup of Temporary Files" id="jobs.cleanup" cronExpression="0 0 6 ? * *" scope="system">
+    <preserveAgeHours>24</preserveAgeHours>
+  </job>
+
+  <job name="Index Checker" id="checker" cronExpression="0 0 23 ? * *" scope="system">
+  </job>
+
+  <job name="All Calculations" id="master.build" scope="system">
+    <calculationDescriptorName>all</calculationDescriptorName>
+    <localDeploymentSpaceName>_default</localDeploymentSpaceName>
+  </job>
+
+  <job name="Work Item Analysis" id="master.build" cronExpression="0 0 0 ? * *" scope="system">
+    <calculationDescriptorName>trackeranalysis</calculationDescriptorName>
+    <localDeploymentSpaceName>_default</localDeploymentSpaceName>
+  </job>
+
+  <job name="Work Item Analysis - Project Groups" id="master.build" cronExpression="0 50 0 ? * *" scope="system">
+    <calculationDescriptorName>trackeranalysis-projectgroup</calculationDescriptorName>
+    <localDeploymentSpaceName>_default</localDeploymentSpaceName>
+  </job>
+
+  <job name="Live Plan Chart Update" id="update.plan" cronExpression="0 0 * * * ? *" scope="system">
+  </job>
+
+  <job name="Repository Analysis" id="master.build" cronExpression="0 0 1 ? * MON-SAT" scope="system">
+    <calculationDescriptorName>repoanalysis</calculationDescriptorName>
+    <localDeploymentSpaceName>_default</localDeploymentSpaceName>
+  </job>
+
+  <job name="Process Audit" id="master.build" cronExpression="0 0 3 ? * MON-SAT" scope="system" disabled="true">
+    <calculationDescriptorName>processaudit</calculationDescriptorName>
+    <localDeploymentSpaceName>_default</localDeploymentSpaceName>
+  </job>
+
+  <job name="Live CMMI" id="master.build" cronExpression="0 0 4 ? * MON-SAT" scope="system">
+    <calculationDescriptorName>cmmi-analysis</calculationDescriptorName> 
+    <localDeploymentSpaceName>_default</localDeploymentSpaceName> 
+  </job>
+
+  <job name="Suspend DB History Creator" id="polarion.jobs.db.history.killer" disabled="true" cronExpression="0 0 8 ? * MON-FRI" scope="system"/>
+  <job name="Resume DB History Creator" id="polarion.jobs.db.history" disabled="true" cronExpression="0 0 19 ? * MON-FRI" scope="system"/>
+
+  <job name="Polarion Diagnostic Tool" id="execute.command" scope="system">
+    <command>$[com.polarion.home]/diagtool/run$[shellExtension]</command>
+	<arguments>
+	  <argument>-sendResults</argument>
+	  <argument>no</argument>
+	  <argument>-resultsDir</argument>
+	  <argument>$[jobDir]</argument>
+<!-- 
+	  <argument>-mail.subject</argument>
+	  <argument>MAIL_SUBJECT</argument>
+	  
+	  <argument>-mail.sender</argument>
+	  <argument>VALID_RETURN_EMAIL_ADDRESS</argument>
+	  
+	  <argument>-mail.recipient</argument>
+	  <argument>VALID_MAIL_RECIPIENT</argument>
+	  
+	  <argument>-mail.host</argument>
+	  <argument>MAIL_HOST</argument>
+	  
+	  <argument>-mail.port</argument>
+	  <argument>MAIL_SERVER_HOST_PORT</argument>
+	  
+	  <argument>-mail.protocol</argument>
+	  <argument>MAIL_SERVER_PROTOCOL</argument>
+
+	  <argument>-mail.attachmentThreshold</argument>
+	  <argument>MAIL_MAX_ATTACHMENT_SIZE_IN_BYTES</argument>
+	  
+	  <argument>-mail.auth</argument>
+	  <argument>MAIL_SERVER_AUTHENTICATION_REQUIRED_TRUE_OR_FALSE</argument>
+	  
+	  <argument>-mail.user</argument>
+	  <argument>MAIL_SERVER_USER</argument>
+	  
+	  <argument>-mail.password</argument>
+	  <argument>MAIL_SERVER_USER_PASSWORD</argument>
+-->
+	</arguments>
+  </job>
+
+  <job name="E-library Nightly Build" id="master.build" disabled="true" cronExpression="0 0 1 ? * *" scope="project:elibrary">
+    <buildArtifact>elibrary:elibrary</buildArtifact>
+    <buildDescriptorName>_default</buildDescriptorName>
+  </job>
+
+  <job cronExpression="0 0 21 ? * *" disabled="true" id="build.clean" name="Builds Cleanup" scope="system">
+    <maxBuildAgeDays>14</maxBuildAgeDays>
+    <minSuccessfulBuildsCount>7</minSuccessfulBuildsCount>
+    <buildArtifacts>
+        <buildArtifact>elibrary*</buildArtifact>
+    </buildArtifacts>
+  </job>
+
+  <job name="Cleanup of Test Runs" id="polarion.jobs.testruns.delete" disabled="true" scope="system"/>
+  
+  <job cronExpression="0 0 0 ? * SUN" id="activityCleanerJob" name="Cleanup of Activities" scope="system"/>
+
+</schedule>

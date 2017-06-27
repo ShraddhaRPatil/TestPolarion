@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ldap-config>
+
+    <!--
+      If synchronization is not enabled, user sycnhronization action is not available,
+      and also autocreated users will not be updated with information from LDAP server.
+    -->
+    <enabled>false</enabled>
+
+    <!-- Url of the LDAP server, e.g. ldap://localhost:389 -->
+    <ldapHost>ldap://localhost:389</ldapHost>
+
+    <!-- 
+      Attribute that contains the id for Polarion user, usually uid or sAMAccountName 
+      (for Active Directory - displayed as "Login Name (for systems older than Windows 2000)" 
+      in the Active Directory administration). The value has to be chosen in such a way
+      that no user contains in it non US-ASCII chars and any of characters that cannot be 
+      part of Polarion id (\/:*?\"<>|#';$^`%~ [space]).
+    -->
+    <userIdAttribute>sAMAccountName</userIdAttribute>
+
+    <!-- 
+      Set of user nodes of which Polarion is aware (can synchronize them) 
+      is intersection of set of nodes below a base node satisfying search 
+      filter (optionally in the whole subtree) and a set of nodes in an LDAP
+      group (if user group is configured). 
+    -->
+
+    <!--
+      User search options:
+      baseDN
+        Name of the LDAP node from which to search for users, 
+        often in the form cn=Users,dc=company,dc=com 
+      searchFilter
+        Filter that limits found users. The value can be any valid LDAP query. 
+        When doing the search it is concatenated with & USER_ID_ATTRIBUTE=*. 
+      searchSubtree
+        Set to false to limit the search to users directly under the base DN
+      searchSizeLimit
+        Limits the number of users in the search result. If search result is bigger,
+        an error will occur.
+    -->
+    <baseDN>cn=Users,dc=company,dc=com</baseDN>
+    <searchFilter>memberOf=CN=polarion,CN=users,DC=example,DC=com</searchFilter>
+    <searchSubtree>true</searchSubtree>
+    <searchSizeLimit>2000</searchSizeLimit>
+
+    <!-- 
+      User group options:
+      groupDN
+        Name of the LDAP node that represents a group of Polarion users,
+        e.g. in the form cn=Polarion Users,dc=company,dc=com.
+      groupMemberAttribute
+        Multi-valued attribute of groupDN node that contains members 
+        of a group, often it is member (from object class groupOfNames).
+    -->
+    <groupDN>cn=Polarion Users,dc=company,dc=com</groupDN>
+    <groupMemberAttribute>member</groupMemberAttribute>
+
+    <!-- Name to use when searching for users; leave empty for anonymous search.
+         Bind password can be set using Polarion property "ldap.bind.password" -->
+    <bindDN>cn=searchUser, cn=Users, dc=company, dc=com</bindDN>
+
+    <!-- 
+      Mapping of LDAP user attributes to Polarion user fields. You can setup mapping of LDAP 
+      attributes to name, email and description user fields. For any of these fields you can 
+      provide any number of mappings; always the first applicable one is used. Mapping is applicable
+      if the attributes present in the mapping string are present and not empty in the LDAP user node.
+    -->
+    <mappings>
+        
+        <nameMappings>
+            <mapping>%cn%</mapping>
+            <!--<mapping>%firstName% %lastName%</mapping>-->
+        </nameMappings>
+        
+        <emailMappings>
+            <mapping>%email%</mapping>
+            <mapping>%emailAddress%</mapping>
+            <mapping>%mail%</mapping>
+            <!--<mapping>%uid%@mydomain.com</mapping>-->
+        </emailMappings>
+        
+        <descriptionMappings>
+            <mapping>%description%</mapping>
+        </descriptionMappings>
+
+    </mappings>
+    
+</ldap-config>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="hyperlinks">
+        <list>
+            <struct>
+                <item id="role">renderSlide</item>
+                <item id="uri">/polarion/wiki/bin/view/project/MyPolarion/page/macros/RenderSlides?item=MP-508</item>
+            </struct>
+        </list>
+    </field>
+    <field id="author">stroebelet</field>
+    <field id="title">Configure Custom Notifications</field>
+    <field id="created">2011-04-21 16:10:11.894 +0200</field>
+    <field id="description" text-type="text/html">&lt;ul&gt;&lt;li&gt;genereal overview events, filters, priority on events and targets&lt;/li&gt;&lt;li&gt;how to chagne notification settings&lt;/li&gt;&lt;li&gt;how to change the layout&lt;/li&gt;&lt;li&gt;layout per workitem&lt;/li&gt;&lt;li&gt;noification examples&lt;br/&gt;&lt;/li&gt;&lt;/ul&gt;</field>
+    <field id="priority">25.0</field>
+    <field id="status">accepted</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+    <field id="subtitle" type="string"> </field>
+    <field id="trainingCategory" multi="true" type="enum:trainingCategory">
+        <list>
+            <item>admin</item>
+        </list>
+    </field>
+</work-item>

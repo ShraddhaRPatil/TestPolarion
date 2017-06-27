@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<enumeration>
+    <option id="critical" name="Critical" sortOrder="1"/>
+    <option id="high" name="High" sortOrder="2"/>
+    <option id="moderate" name="Moderate" sortOrder="3"/>
+    <option id="low" name="Low" sortOrder="4"/>
+    <option id="planning" name="Planning" sortOrder="5"/>
+</enumeration>

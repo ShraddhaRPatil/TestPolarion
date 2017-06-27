@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="linkedWorkItems">
+        <list>
+            <struct>
+                <item id="workItem">MP-1208</item>
+                <item id="role">relates_to</item>
+                <item id="suspect">false</item>
+            </struct>
+        </list>
+    </field>
+    <field id="type">slide</field>
+    <field id="hyperlinks">
+        <list>
+            <struct>
+                <item id="role">renderSlide</item>
+                <item id="uri">/polarion/wiki/bin/view/project/MyPolarion/page/macros/RenderSlides?item=MP-1208</item>
+            </struct>
+        </list>
+    </field>
+    <field id="author">stroebelet</field>
+    <field id="title">Links to Keep Traceability And Consistency</field>
+    <field id="created">2012-05-21 13:22:07.477 +0200</field>
+    <field id="priority">25.0</field>
+    <field id="description" text-type="text/html">&lt;br/&gt;&lt;img src="workitemimg:1-statementTraceability2.jpg" style="width: 605px;height: 432px;"/&gt;</field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">accepted</field>
+    <field id="subtitle" type="string">Links are the key for traceability throughout your project. Links are based on link roles e.g. verfiy link role between test cases and requirements.You must be able to trace each statements within and across different documents</field>
+    <field id="trainingCategory" multi="true" type="enum:trainingCategory"/>
+    <field id="printNotes" text-type="text/html" type="text/html">&lt;div&gt;&lt;ul&gt;&lt;li&gt;you need to understand the impact of changes&lt;/li&gt;&lt;li&gt;you need to ensure that all information in the project and across projects stays consistent&lt;/li&gt;&lt;li&gt;you need to ensure that all requirements are covered with in your project&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</field>
+    <field id="speakersNotes" text-type="text/plain" type="text/html"/>
+</work-item>

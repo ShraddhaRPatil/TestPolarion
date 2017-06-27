@@ -1,0 +1,11 @@
+Starting the 'Apache2Polarion' service
+[Wed Jun 21 13:51:26.162777 2017] [mpm_winnt:notice] [pid 15844:tid 580] AH00455: Apache/2.4.25 (Win64) SVN/1.9.4 configured -- resuming normal operations
+[Wed Jun 21 13:51:26.162777 2017] [mpm_winnt:notice] [pid 15844:tid 580] AH00456: Server built: Dec 17 2016 00:28:36
+[Wed Jun 21 13:51:26.162777 2017] [core:notice] [pid 15844:tid 580] AH00094: Command line: 'C:\\Polarion\\bundled\\apache\\bin\\httpd.exe -d C:/Polarion/bundled/apache -f C:/Polarion/bundled/apache\\conf\\httpd.conf -d C:/Polarion/bundled/apache\\.'
+[Wed Jun 21 13:51:26.162777 2017] [mpm_winnt:notice] [pid 15844:tid 580] AH00418: Parent: Created child process 14800
+[Wed Jun 21 13:51:26.381552 2017] [mpm_winnt:notice] [pid 14800:tid 488] AH00354: Child: Starting 150 worker threads.
+The 'Apache2Polarion' service is running.
+[Wed Jun 21 14:41:40.847837 2017] [dav:error] [pid 14800:tid 1660] [client 127.0.0.1:58938] File not found: revision 6, path '/CAPA/modules'  [404, #160013]
+[Wed Jun 21 15:15:25.684738 2017] [auth_basic:error] [pid 14800:tid 1668] [client 127.0.0.1:59419] AH01617: user admin: authentication failure for "/repo": Password Mismatch
+[Wed Jun 21 15:15:25.713816 2017] [auth_basic:error] [pid 14800:tid 1668] [client 127.0.0.1:59420] AH01617: user admin: authentication failure for "/repo": Password Mismatch
+[Wed Jun 21 18:46:46.036189 2017] [dav:error] [pid 14800:tid 1624] [client 127.0.0.1:60737] File not found: revision 45, path '/MyPolarion/documents'  [404, #160013]

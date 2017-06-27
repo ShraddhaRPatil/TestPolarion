@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">hartliebc</field>
+    <field id="created">2012-04-24 05:56:52.866 -0400</field>
+    <field id="description" text-type="text/html"><![CDATA[<ul>
+  <li>Status, Severity and ReqType should be shown in Sidebar<br/>
+    <br/>
+    <img src="attachment:propertiesPane.jpg"/><img src="attachment:documentPropertiesPane.jpg" style="width: 387px;height: 200px;"/><br/>
+  </li>
+</ul>]]></field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Configure your Work Item Properties Pane</field>
+    <field id="type">exercise</field>
+    <field id="upgradedescription" type="boolean">true</field>
+</work-item>

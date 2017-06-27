@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<workflow initial-action="markAccepted" initial-status="open" prototype="WorkItem">
+    <transitions>
+        <transition action="reject" from="open" to="rejected"/>
+        <transition action="reopen" from="resolved" to="reopened"/>
+        <transition action="markAccepted" from="open" to="inprogress"/>
+        <transition action="askForDetails" from="inprogress" to="awaitingDetails"/>
+        <transition action="markResolved" from="inprogress" to="resolved"/>
+        <transition action="markAccepted" from="reopened" to="inprogress"/>
+        <transition action="receivedDetails" from="awaitingDetails" to="inprogress"/>
+        <transition action="markClosed" from="resolved" to="closed"/>
+        <transition action="reopen" from="rejected" to="reopened"/>
+    </transitions>
+    <actions>
+        <action id="markAccepted" name="Mark Accepted">
+            <functions>
+                <function name="LinkedWorkItemsStatusChange">
+                    <param name="back.link.roles" value="depends_on"/>
+                    <param name="link.roles" value="parent"/>
+                    <param name="valid.states" value="open,inprogress,reopened"/>
+                    <param name="target.state" value="reopened"/>
+                    <param name="clear.attribs" value="resolution"/>
+                </function>
+            </functions>
+        </action>
+        <action id="markResolved" name="Mark Resolved"/>
+        <action id="askForDetails" name="Ask For Details"/>
+        <action id="receivedDetails" name="Received Details"/>
+        <action id="reopen" name="Reopen">
+            <cleared>
+                <field name="resolution"/>
+            </cleared>
+            <functions>
+                <function name="LinkedWorkItemsStatusChange">
+                    <param name="back.link.roles" value="depends_on"/>
+                    <param name="link.roles" value="parent"/>
+                    <param name="valid.states" value="open,inprogress,reopened"/>
+                    <param name="target.state" value="reopened"/>
+                    <param name="clear.attribs" value="resolution"/>
+                </function>
+            </functions>
+        </action>
+        <action id="reject" name="Reject">
+            <required>
+                <field name="resolution"/>
+            </required>
+        </action>
+        <action id="markClosed" name="Mark Closed"/>
+    </actions>
+</workflow>

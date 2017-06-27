@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">daniel.morris</field>
+    <field id="created">2012-05-08 08:59:33.972 -0400</field>
+    <field id="description" text-type="text/html"><![CDATA[We have already created a test plan by reusing a document out of our document eilbrary. Now we want to assign our test runs to our testing teams. 
+<ul>
+  <li>Goto Documents &amp; Pages | Testing | Test Plan</li>
+  <li>In chapter 5.2 you will find a task &quot;Execute test A&quot;</li>
+  <ul>
+    <li>Change task name to &quot;Exceute test run i1_SmokeTest_Team A&quot;, copy link of test run &quot;i1_SmokeTest_Team A&quot; and paste it into task description and assign task to yourself<br/>
+      </li>
+    <li>Add 2 additional tasks below and repeat the steps only for test run &quot;i1_SmokeTest_Team B&quot; and &quot;i1_LoginTest_Team C&quot; and assign these aswell to yourself.<br/>
+      </li>
+  </ul>
+  <li>Verify if tasks are assigned to you in your &quot;My Polarion&quot; dashboard<br/>
+    </li>
+</ul>]]></field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Create an overall test plan</field>
+    <field id="type">exercise</field>
+</work-item>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">daniel.morris</field>
+    <field id="created">2014-10-29 05:48:06.583 -0400</field>
+    <field id="description" text-type="text/html"><![CDATA[When<span id="polarion-comment:26"></span> starting new projects in your company which might be using new processes, environments, etc. you should have a place where they can track their questions. This way you have a central place for all these question and in addition you will have some sort of knowledge base, which helps new users to get an answer to their question.<br/>
+ During this training we will create such a project which can be used afterwards in your environment.<br/>
+ <br/>
+ You will use your new project for all exercises throughout this training<br/>
+ 
+<ul>
+  <li>Select &quot;Create a new project&quot;<br/>
+    <img src="attachment:48-screenshot-20141029-054928.png"/><br/>
+  </li>
+  <li>click next and add following project data</li>
+  <ul>
+    <li>Name = [Know How &quot;YOUR NAME&quot;]</li>
+    <li>TrackerPrefix = KNOW</li>
+  </ul>
+  <li>Create a new project in Sandbox/[Your Project Name] using following template<br/>
+    <img src="workitemimg:1-screenshot-20141029-054806.png"/></li>
+  <li>Open Project Home Page</li>
+</ul>
+<img src="attachment:49-screenshot-20141029-054928.png"/><br/>]]></field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Create Your Own template Project</field>
+    <field id="type">exercise</field>
+</work-item>

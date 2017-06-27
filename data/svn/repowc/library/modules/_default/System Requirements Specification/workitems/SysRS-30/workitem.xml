@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">requirement</field>
+    <field id="author">admin</field>
+    <field id="title">Function X Inputs</field>
+    <field id="created">2008-10-01 12:02:48.504 +0200</field>
+    <field id="description" text-type="text/html">&lt;span class="Apple-style-span" style="font-style: italic;"&gt;Describe the inputs to the function, including sources, valid ranges of values, timing considerations, operator requirements, and special interfaces.&lt;/span&gt;</field>
+    <field id="priority">25.0</field>
+    <field id="status">draft</field>
+    <field id="severity">should_have</field>
+    <field id="previousStatus">open</field>
+</work-item>

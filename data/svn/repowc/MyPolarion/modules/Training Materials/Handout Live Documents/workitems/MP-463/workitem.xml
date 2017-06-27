@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="author">admin</field>
+    <field id="title">Creating Work Items in Documents</field>
+    <field id="created">2011-04-01 09:24:59.604 +0200</field>
+    <field id="description" text-type="text/html">&lt;img src="attachment:markpara.jpg" style="height: 183px; width: 788px;"/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;img src="attachment:addworkitem.jpg" style="height: 80px; width: 788px;"/&gt;</field>
+    <field id="priority">25.0</field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="subtitle" type="string">There are two ways to create work items in a document:</field>
+    <field id="hint" type="string">Place cursor in the middle of work item description and hit enter to split the work item into two items. Press "backspace" between two work items to merge the work items into one item</field>
+    <field id="printNotes" text-type="text/html" type="text/html">&lt;p&gt;There are 2 ways to create work items in a document&lt;/p&gt;&lt;ul&gt;&lt;li&gt;select a paragraph and mark it as work item&lt;/li&gt;&lt;li&gt;Place cursor at the end of an existing work item and press enter. A new work item of the same type will be created&lt;/li&gt;&lt;li&gt;When you press "TAB" the work item will be indented and a hierarchical link to the parent item is created&lt;/li&gt;&lt;/ul&gt;</field>
+    <field id="speakersNotes" text-type="text/plain" type="text/html"/>
+</work-item>

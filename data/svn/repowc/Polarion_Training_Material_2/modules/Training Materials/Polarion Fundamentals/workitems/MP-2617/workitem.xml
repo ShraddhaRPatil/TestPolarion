@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">stroebelet</field>
+    <field id="created">2012-04-24 05:07:30.159 -0400</field>
+    <field id="description" text-type="text/html"><![CDATA[<ul>
+  <li>Open the task &quot;gather requirements for our project&quot;</li>
+  <li>Change the status to in progress by performing the action &quot;Start Progress&quot;<br/>
+    <img src="attachment:start_progress.jpg"/></li>
+  <li>Save the work item</li>
+</ul>]]></field>
+    <field id="linkedWorkItems">
+        <list>
+            <struct>
+                <item id="revision">42001</item>
+                <item id="role">branched_from</item>
+                <item id="workItem">MP-2369</item>
+            </struct>
+        </list>
+    </field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Change status of a work item</field>
+    <field id="type">exercise</field>
+</work-item>

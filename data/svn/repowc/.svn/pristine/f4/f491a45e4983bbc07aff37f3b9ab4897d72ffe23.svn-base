@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<module>
+    <field id="author">daniel.morris</field>
+    <field id="branchedFrom">Training Materials#QA User Training</field>
+    <field id="created">2012-07-18 07:48:18.533 -0400</field>
+    <field id="homePageContent" text-type="text/html"><![CDATA[<div id="polarion_editor_html_block_merged_0" class="polarion-dle-wiki-block">
+  <div id="polarion_editor_html_block_content" contentEditable="false"></div><pre id="polarion_editor_html_block_source" class="polarion-dle-wiki-block-source" contentEditable="false">#includeMacros(&quot;macros.macros&quot;)</pre>
+</div><h1 id="polarion_wiki macro name=module-workitem;params=id=MP-3296"></h1><p id="polarion_new_18">
+  <br/>
+</p><div id="polarion_wiki macro name=module-workitem;params=id=MP-2281|layout=2|external=true"></div><h2 id="polarion_wiki macro name=module-workitem;params=id=MP-3297"></h2><p id="polarion_new_17"> </p><div id="polarion_wiki macro name=module-workitem;params=id=MP-2285|layout=2|external=true"></div><p id="polarion_new_16">
+  <br/>
+</p><div id="polarion_wiki macro name=page_break" contentEditable="false"></div><h2 id="polarion_wiki macro name=module-workitem;params=id=MP-3298"></h2><div id="polarion_wiki macro name=toc"></div><p id="polarion_new_4">
+  <br/>
+</p><div id="polarion_wiki macro name=page_break;params=uid=0" contentEditable="false"></div><p id="polarion_new_10"></p><h3 id="polarion_wiki macro name=module-workitem;params=id=MP-5555"></h3><h4 id="polarion_wiki macro name=module-workitem;params=id=MP-5556"></h4><div id="polarion_editor_html_block1" class="polarion-dle-wiki-block">
+  <div id="polarion_editor_html_block_content" contentEditable="false"></div><pre id="polarion_editor_html_block_source" class="polarion-dle-wiki-block-source" contentEditable="false">#slide(&quot;MP-3012&quot;)
+#video(&quot;http://www.polarion.com/video/tutorials/testmanagement/overview/&quot;)
+#helpLink(&quot;/polarion/help/topic/com.polarion.xray.doc.user/ugchQA.html&quot; &quot;Managing Test Runs&quot;)</pre>
+</div><p id="polarion_2"></p><h4 id="polarion_wiki macro name=module-workitem;params=id=MP-5557"></h4><div id="polarion_wiki macro name=module-workitem;params=id=MP-2763|layout=1|external=true"></div><div id="polarion_wiki macro name=module-workitem;params=id=MP-2764|layout=1|external=true"></div><div id="polarion_wiki macro name=module-workitem;params=id=MP-5549|layout=1|external=true"></div><div id="polarion_wiki macro name=module-workitem;params=id=MP-2765|layout=1|external=true"></div><h3 id="polarion_wiki macro name=module-workitem;params=id=MP-5558"></h3><h4 id="polarion_wiki macro name=module-workitem;params=id=MP-5559"></h4><div id="polarion_editor_html_block3" class="polarion-dle-wiki-block">
+  <div id="polarion_editor_html_block_content" contentEditable="false"></div><pre id="polarion_editor_html_block_source" class="polarion-dle-wiki-block-source" contentEditable="false">#slide(&quot;MP-3021&quot;)
+#helpLink(&quot;/polarion/help/topic/com.polarion.xray.doc.user/ugchQA.html&quot; &quot;Managing Test Runs&quot;)</pre>
+</div><h4 id="polarion_wiki macro name=module-workitem;params=id=MP-5560"></h4><div id="polarion_wiki macro name=module-workitem;params=id=MP-2766|layout=1|external=true"></div><div id="polarion_wiki macro name=module-workitem;params=id=MP-2767|layout=1|external=true"></div><div id="polarion_wiki macro name=module-workitem;params=id=MP-5550|layout=1|external=true"></div><div id="polarion_wiki macro name=module-workitem;params=id=MP-2768|layout=1|external=true"></div><h3 id="polarion_wiki macro name=module-workitem;params=id=MP-5561"></h3><h4 id="polarion_wiki macro name=module-workitem;params=id=MP-5562"></h4><div id="polarion_editor_html_block4" class="polarion-dle-wiki-block">
+  <div id="polarion_editor_html_block_content" contentEditable="false"></div><pre id="polarion_editor_html_block_source" class="polarion-dle-wiki-block-source" contentEditable="false">#slide(&quot;MP-3845&quot;)
+#slide(&quot;MP-1849&quot;)
+#video(&quot;http://www.polarion.com/video/tutorials/repobrowser&quot;)
+#helpLink(&quot;/polarion/help/topic/com.polarion.xray.doc.user/ugchQA.html&quot; &quot;Integrating with external testing tools&quot;)
+#helpLink(&quot;/polarion/help/topic/com.polarion.xray.doc.user/ugchDevelopers.html&quot; &quot;Polarion for Developers&quot;)</pre>
+</div><p id="polarion_5"></p><h4 id="polarion_wiki macro name=module-workitem;params=id=MP-5563"></h4><div id="polarion_wiki macro name=module-workitem;params=id=MP-2770|layout=1|external=true"></div><p id="polarion_new_5"></p>]]></field>
+    <field id="renderingLayouts">
+        <list>
+            <struct>
+                <item id="label">Task</item>
+                <item id="layouter">section</item>
+                <item id="properties">
+                    <list>
+                        <struct>
+                            <item id="key">fieldsAtStart</item>
+                        </struct>
+                        <struct>
+                            <item id="key">fieldsAtEnd</item>
+                            <item id="value">status,Resolution</item>
+                        </struct>
+                        <struct>
+                            <item id="key">fieldsAtEndAsTable</item>
+                        </struct>
+                        <struct>
+                            <item id="key">hidden</item>
+                        </struct>
+                    </list>
+                </item>
+                <item id="type">task</item>
+            </struct>
+            <struct>
+                <item id="label">Exercise</item>
+                <item id="layouter">section</item>
+                <item id="properties">
+                    <list>
+                        <struct>
+                            <item id="key">fieldsAtStart</item>
+                            <item id="value">id</item>
+                        </struct>
+                        <struct>
+                            <item id="key">fieldsAtEnd</item>
+                        </struct>
+                        <struct>
+                            <item id="key">fieldsAtEndAsTable</item>
+                            <item id="value">true</item>
+                        </struct>
+                        <struct>
+                            <item id="key">hidden</item>
+                        </struct>
+                    </list>
+                </item>
+                <item id="type">exercise</item>
+            </struct>
+            <struct>
+                <item id="label">Text</item>
+                <item id="layouter">paragraph</item>
+                <item id="properties">
+                    <list>
+                        <struct>
+                            <item id="key">fieldsAtStart</item>
+                        </struct>
+                        <struct>
+                            <item id="key">fieldsAtEnd</item>
+                        </struct>
+                        <struct>
+                            <item id="key">fieldsAtEndAsTable</item>
+                        </struct>
+                        <struct>
+                            <item id="key">hidden</item>
+                        </struct>
+                    </list>
+                </item>
+                <item id="type">text</item>
+            </struct>
+        </list>
+    </field>
+    <field id="structureLinkRole">parent</field>
+    <field id="usesOutlineNumbering">true</field>
+</module>

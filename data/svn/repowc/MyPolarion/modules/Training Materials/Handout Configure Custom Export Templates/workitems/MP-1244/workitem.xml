@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">stroebelet</field>
+    <field id="created">2011-09-17 12:02:00.734 -0400</field>
+    <field id="description" text-type="text/html">&lt;img src="attachment:1-screenshot-20141031-071427.png"/&gt;&lt;br/&gt;</field>
+    <field id="hyperlinks">
+        <list>
+            <struct>
+                <item id="role">renderSlide</item>
+                <item id="uri">/polarion/wiki/bin/view/project/MyPolarion/page/macros/RenderSlides?item=MP-1244</item>
+            </struct>
+        </list>
+    </field>
+    <field id="previousStatus">open</field>
+    <field id="printNotes" text-type="text/html" type="text/html">&lt;div&gt;&lt;ul&gt;&lt;li&gt;Do not add any text to the content of the template&lt;/li&gt;&lt;li&gt;You can change header and footer however&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">accepted</field>
+    <field id="subtitle" type="string">roundtrip.docx contains the styles used during word export</field>
+    <field id="title">Word Round-trip Template</field>
+    <field id="type">slide</field>
+</work-item>

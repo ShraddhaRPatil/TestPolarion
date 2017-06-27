@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="initialEstimate">1/12h</field>
+    <field id="linkedWorkItems">
+        <list>
+            <struct>
+                <item id="workItem">EL-105</item>
+                <item id="suspect">false</item>
+                <item id="role">verifies</item>
+            </struct>
+        </list>
+    </field>
+    <field id="type">testcase</field>
+    <field id="author">admin</field>
+    <field id="title">Login to the portal</field>
+    <field id="created">2010-12-06 14:46:33.317 +0100</field>
+    <field id="priority">50.0</field>
+    <field id="remainingEstimate">1/12h</field>
+    <field id="status">active</field>
+    <field id="severity">smoke</field>
+    <field id="testType" type="enum:testtype">user</field>
+    <field id="testSteps" type="struct:TestSteps">
+        <struct>
+            <item id="keys">
+                <list>
+                    <item>step</item>
+                    <item>description</item>
+                    <item>expectedResult</item>
+                </list>
+            </item>
+            <item id="steps">
+                <list>
+                    <struct>
+                        <item id="values">
+                            <list>
+                                <item text-type="text/html">Open Login Screen</item>
+                                <item text-type="text/html">Go to E-Library Portal welcome page, right corner, click login</item>
+                                <item text-type="text/html">Login screen with user name and password text fields is displayed</item>
+                            </list>
+                        </item>
+                    </struct>
+                    <struct>
+                        <item id="values">
+                            <list>
+                                <item text-type="text/html">Enter False User Details</item>
+                                <item text-type="text/html">False details: admin/wrong</item>
+                                <item text-type="text/html">The login button is disabled until both user name and password is entered</item>
+                            </list>
+                        </item>
+                    </struct>
+                    <struct>
+                        <item id="values">
+                            <list>
+                                <item text-type="text/html">Click "Login"</item>
+                                <item text-type="text/html"> </item>
+                                <item text-type="text/html">Login failed message is shown.</item>
+                            </list>
+                        </item>
+                    </struct>
+                </list>
+            </item>
+        </struct>
+    </field>
+</work-item>

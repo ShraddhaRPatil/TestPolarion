@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="hyperlinks">
+        <list>
+            <struct>
+                <item id="role">renderSlide</item>
+                <item id="uri">/polarion/wiki/bin/view/project/MyPolarion/page/macros/RenderSlides?item=MP-547</item>
+            </struct>
+        </list>
+    </field>
+    <field id="author">stroebelet</field>
+    <field id="title">Building with Polarion</field>
+    <field id="created">2011-05-05 18:44:18.967 +0200</field>
+    <field id="description" text-type="text/html">&lt;ul&gt;&lt;li&gt;Overview on Build concept&lt;/li&gt;&lt;li&gt;artifacts, descriptors etc explained&lt;/li&gt;&lt;li&gt;Build Example (shell, ant, maven)&lt;/li&gt;&lt;li&gt;work item reports for each build&lt;/li&gt;&lt;li&gt;notification on builds -&amp;gt; see notification settings&lt;br/&gt;&lt;/li&gt;&lt;/ul&gt;</field>
+    <field id="priority">25.0</field>
+    <field id="status">accepted</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+    <field id="subtitle" type="string"> </field>
+    <field id="trainingCategory" multi="true" type="enum:trainingCategory">
+        <list>
+            <item>admin</item>
+        </list>
+    </field>
+</work-item>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">daniel.morris</field>
+    <field id="created">2014-08-07 07:48:26.077 -0400</field>
+    <field id="description" text-type="text/html">&lt;br/&gt; &lt;img src="workitemimg:1-DOCATTACHMENT_websiteMockup.png"/&gt;&lt;br/&gt; Planning an implementation is not done in one day. Usually you split it into several releases / iterations&lt;br/&gt;</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Why is planning needed?</field>
+    <field id="type">slide</field>
+</work-item>

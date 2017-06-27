@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">daniel.morris</field>
+    <field id="created">2012-05-07 11:49:37.242 -0400</field>
+    <field id="description" text-type="text/html"><![CDATA[While focused on any Work Item, you can quickly create a new Work Item and a link, all in a single operation. 
+<ul>
+  <li>Select <span style="font-style: italic;">example requirement &quot;Some functional requirement representing a system feature. Itemize the detailed...&quot;</span> and click on the plus symbol below the requirement<br/>
+  </li>
+  <li>Select &quot;Veryfing Test Case&quot; and create a new linked Test case &quot;This is an example Test Case&quot;<br/>
+    <img src="attachment:linking1.PNG" style="width: 492px;height: 180px;"/><br/>
+    <table id="polarion_wiki macro name=table" class="polarion-Document-table" style="width: 80%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;">
+      <tbody>
+        <tr>
+          <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Hint: Polarion has lots of traceability reports available but own reports can be customized.<br/>
+            Checkout some out of the box reports and verify all of them show the correct results:<br/>
+            - Test Case Traceability<br/>
+            - Requirements Test Coverage<br/>
+            - Traceability Report<br/>
+            - Work Item tree view<br/>
+            <br/>
+            Additionally Polarion has a matrix view which can be used to link Work Items to each other but this view is not pretty handy. Just to ensure you also know this view open this view and filter for requirements and test cases.<br/>
+            <img src="attachment:75-screenshot-20150902-055128.png" style="width: 157px;height: 200px;"/><br/>
+            <br/>
+            <img src="attachment:76-screenshot-20150902-055128.png" style="width: 641px;height: 300px;"/><br/>
+          </th>
+        </tr>
+      </tbody>
+    </table>
+    <br/>
+  </li>
+</ul>]]></field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Create a testcase from a requirement</field>
+    <field id="type">exercise</field>
+</work-item>

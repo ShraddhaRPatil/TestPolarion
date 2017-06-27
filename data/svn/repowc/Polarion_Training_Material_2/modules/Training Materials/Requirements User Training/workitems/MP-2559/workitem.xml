@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">hartliebc</field>
+    <field id="created">2012-04-23 07:17:51.579 -0400</field>
+    <field id="description" text-type="text/html"><![CDATA[Create your first user requirement: 
+<ul>
+  <li>Create a new user requirement using shortcut &quot;Create Work Item&quot;</li>
+  <li>Select: Requirement</li>
+  <li>Ensure requirement is created in your project<br/>
+    </li>
+</ul>
+ <img src="attachment:createrequirement.jpg" style="width: 553px;height: 462px;"/><br/>
+ 
+<ul>
+  <li>Add title &quot;The user should be able to login to E-Library&quot;</li>
+  <li>Add yourself as assignee</li>
+</ul>]]></field>
+    <field id="initialEstimate">1/10h</field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="remainingEstimate">1/10h</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Track requirements as work items</field>
+    <field id="type">exercise</field>
+</work-item>

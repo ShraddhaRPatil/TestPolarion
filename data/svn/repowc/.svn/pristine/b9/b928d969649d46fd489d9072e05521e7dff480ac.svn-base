@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<voting-settings>
+
+    <!--
+       Valid values: 'true' or 'false'      
+    --> 
+    <disabled>false</disabled>
+
+    <!--
+       Specifies per-user limit of votes on workitems in the project.
+       Valid values: 'unbounded' or any positive integer
+    -->
+    <user-votes-limit>10</user-votes-limit>
+
+</voting-settings>

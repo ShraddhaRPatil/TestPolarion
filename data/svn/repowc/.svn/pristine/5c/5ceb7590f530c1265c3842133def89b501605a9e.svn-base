@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">exercise</field>
+    <field id="author">daniel.morris</field>
+    <field id="title">Track test cases as work items</field>
+    <field id="created">2012-05-07 11:25:26.055 +0200</field>
+    <field id="priority">25.0</field>
+    <field id="description" text-type="text/html">Polarion comes with pre configured templates that define work items by individual fields arranged in various containers, such as the core information, Description, Comments, etc.  Each of the containers can contain as many fields as are necessary to define the work item as your business rules dictate.  In addition to the fields that are already available, custom fields can be created to appear in any container available in the work item.  Additional containers can be created as are needed.&lt;br/&gt;Create your first test case using work item type "Test Case" &lt;ul&gt;&lt;li&gt;Title: Is login case sensitive&lt;/li&gt;&lt;li&gt;Severity: Smoke&lt;br/&gt;&lt;/li&gt;&lt;li&gt;Description:&lt;/li&gt;&lt;li style="list-style: none"&gt;&lt;ul&gt;&lt;li&gt;Precondition:&lt;/li&gt;&lt;li&gt;Postcondition:&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;Test Steps:&lt;/li&gt;&lt;li style="list-style: none"&gt;&lt;ul&gt;&lt;li&gt;Open login screen&lt;/li&gt;&lt;li&gt;Use login name "Admin"&lt;/li&gt;&lt;li&gt;Use password "Admin"&lt;/li&gt;&lt;li&gt;Click login button&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;Assign test case to current user&lt;/li&gt;&lt;/ul&gt;</field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+</work-item>

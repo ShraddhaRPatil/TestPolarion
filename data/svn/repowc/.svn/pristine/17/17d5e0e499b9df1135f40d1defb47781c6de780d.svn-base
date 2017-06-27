@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<projects>
+    <!--
+Polarion for Subversion projects configuration
+
+WARNING: This file contains core configuration of Polarion Server, do not modify
+the content manually, unless you are absolutely sure what you are doing!
+
+Modified by Polarion Wed Jun 21 14:41:39 IST 2017
+-->
+    <project id="library" path="/library"/>
+    <project id="drivepilot" path="/Demo Projects/drivepilot"/>
+    <project id="elibrary" path="/Demo Projects/elibrary"/>
+    <project id="CAPA" path="/CAPA"/>
+</projects>

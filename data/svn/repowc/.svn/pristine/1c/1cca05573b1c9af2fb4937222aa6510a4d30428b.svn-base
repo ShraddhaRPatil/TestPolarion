@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="linkedWorkItems">
+        <list>
+            <struct>
+                <item id="revision">41916</item>
+                <item id="workItem">MP-793</item>
+                <item id="suspect">false</item>
+                <item id="role">branched_from</item>
+            </struct>
+        </list>
+    </field>
+    <field id="type">exercise</field>
+    <field id="author">stroebelet</field>
+    <field id="title">Create Baseline</field>
+    <field id="created">2012-05-30 16:07:16.481 +0200</field>
+    <field id="description" text-type="text/html">&lt;ul&gt;&lt;li&gt;Create a Baseline with name "&lt;span style="font-style: italic;"&gt;Specification for Version 1&lt;/span&gt;"&lt;br/&gt;&lt;br/&gt;&lt;img src="attachment:createbaseline.jpg" style="height: 307px; width: 724px;"/&gt;&lt;br/&gt;&lt;br/&gt;&lt;/li&gt;&lt;li&gt;Make some changes in &lt;span style="font-style: italic;"&gt;ElibrarySpecification&lt;/span&gt; document&lt;/li&gt;&lt;li&gt;Display &lt;span style="font-style: italic;"&gt;ELibrarySpecification&lt;/span&gt; document as it was in baseline "&lt;span style="font-style: italic;"&gt;Specification for Version 1&lt;/span&gt;"&lt;br/&gt;&lt;br/&gt;&lt;img src="attachment:showrevision.jpg" style="height: 220px; width: 724px;"/&gt;&lt;br/&gt;&lt;/li&gt;&lt;/ul&gt;</field>
+    <field id="priority">25.0</field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+</work-item>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">admin</field>
+    <field id="created">2013-11-08 12:27:45.649 +0100</field>
+    <field id="description" text-type="text/html">Browse some of these tables to get familiar with these and which information they contain. Check at least:&lt;br/&gt;&lt;ul&gt;&lt;li&gt;POLARION.WORKITEM&lt;/li&gt;&lt;li&gt;STRUCT_WORKITEM_LINKEDWORKITEMS&lt;/li&gt;&lt;li&gt;POLARION.TESTRUN&lt;/li&gt;&lt;li&gt;POLARION:WORKRECORD&lt;br/&gt;&lt;/li&gt;&lt;/ul&gt;</field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="type">exercise</field>
+</work-item>

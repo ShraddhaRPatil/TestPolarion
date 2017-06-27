@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<specificationConfiguration>
+    <forImport>false</forImport>
+    <forRIF>false</forRIF>
+    <mappingConfiguration>
+        <mappingGroups direction="EXPORT" polarionType="exercise" reqIfType="e0c1ab5f-e704-4cdb-8a37-dac4138b302c">
+            <fieldMappings reqIfAttribute="relations"/>
+            <fieldMappings polarionField="title" reqIfAttribute="polarion_prostep_ReqIF.ChapterName"/>
+            <fieldMappings polarionField="author" reqIfAttribute="polarion_prostep_ReqIF.ForeignCreatedBy"/>
+            <fieldMappings polarionField="created" reqIfAttribute="polarion_prostep_ReqIF.ForeignCreatedOn"/>
+            <fieldMappings polarionField="id" reqIfAttribute="polarion_prostep_ReqIF.ForeignID"/>
+            <fieldMappings polarionField="description" reqIfAttribute="polarion_prostep_ReqIF.Text"/>
+        </mappingGroups>
+        <mappingGroups direction="EXPORT" polarionType="heading" reqIfType="b8442ac2-580b-4213-b20e-166c6695be52">
+            <fieldMappings reqIfAttribute="relations"/>
+            <fieldMappings polarionField="title" reqIfAttribute="polarion_prostep_ReqIF.ChapterName"/>
+            <fieldMappings polarionField="author" reqIfAttribute="polarion_prostep_ReqIF.ForeignCreatedBy"/>
+            <fieldMappings polarionField="created" reqIfAttribute="polarion_prostep_ReqIF.ForeignCreatedOn"/>
+            <fieldMappings polarionField="id" reqIfAttribute="polarion_prostep_ReqIF.ForeignID"/>
+            <fieldMappings polarionField="description" reqIfAttribute="polarion_prostep_ReqIF.Text"/>
+        </mappingGroups>
+    </mappingConfiguration>
+    <exportNew>true</exportNew>
+    <polarionConfiguration document="QA Power User Training" space="Not In Build" useCurrentUser="true" useTitleAsRoot="true">
+        <ignoreStructureLinks>true</ignoreStructureLinks>
+    </polarionConfiguration>
+    <reqIfConfiguration documentName="qa.reqif" doorsCompatibilityMode="false" fileName="qa.reqifz" rif="false"/>
+    <updateMetadata>true</updateMetadata>
+</specificationConfiguration>

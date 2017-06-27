@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<enumeration>
+    <option id="requirementsUnknown" name="Requirements Unknown" sortOrder="1"/>
+    <option id="designProblem" name="Design Problem" sortOrder="2"/>
+    <option id="workInstructionsInadqueate" name="Work Instructions Inadqueate" sortOrder="3"/>
+    <option id="training" name="Training" sortOrder="4"/>
+    <option id="processCapability" name="Process Capability" sortOrder="5"/>
+</enumeration>

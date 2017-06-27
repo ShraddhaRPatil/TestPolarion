@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<module>
+    <field id="author">admin</field>
+    <field id="created">2013-01-15 13:11:16.097 +0100</field>
+    <field id="homePageContent" text-type="text/html"><![CDATA[<h1 id="polarion_wiki macro name=module-workitem;params=id=DP-243"></h1><p id="polarion_merged_0">
+  <span style="font-style: italic;"><span style="font-weight: bold;">NOTE TO AUTHOR</span>:  Highlighted, italicized text throughout this template is provided solely as background information to assist you in creating this document.  Please delete all such text, as well as the instructions in each section, prior to submitting this document.  <span style="font-weight: bold;">ONLY YOUR PROJECT-SPECIFIC INFORMATION SHOULD APPEAR IN THE FINAL VERSION OF THIS DOCUMENT.</span></span>
+</p><div id="polarion_wiki macro name=toc"></div><h2 id="polarion_wiki macro name=module-workitem;params=id=DP-244"></h2><h3 id="polarion_wiki macro name=module-workitem;params=id=DP-376"></h3><p id="polarion_merged_1">The Software Verification Plan document outlines the planned tasks and expectations for verification of Software Requirements.</p><ul id="polarion_merged_2">
+  <li>WHO will be responsible for completion, review, and approval of these tasks.</li>
+  <li>HOW the verification will be performed including failure resolution.<br/>
+    </li>
+  <li>WHAT documentation/deliverables will be generated.</li>
+</ul><h3 id="polarion_wiki macro name=module-workitem;params=id=DP-377"></h3><ul id="polarion_merged_4">
+  <li><span class="polarion-rte-link" data-type="document" id="fake" data-item-name="Project Scope" data-space-name="Concept" data-option-id="default"></span><br/>
+    </li>
+  <li><span class="polarion-rte-link" data-type="document" id="fake" data-item-name="System Validation and Verification Plan" data-space-name="Requirements" data-option-id="default"></span><br/>
+    </li>
+</ul><h2 id="polarion_wiki macro name=module-workitem;params=id=DP-378"></h2><p id="polarion_merged_6">All the Software requirements in the following specification need to be verified:</p><ul id="polarion_merged_3">
+  <li><span class="polarion-rte-link" data-type="document" id="fake" data-item-name="Software Design Specification" data-space-name="Design" data-option-id="default"></span></li>
+</ul><h2 id="polarion_wiki macro name=module-workitem;params=id=DP-379"></h2><p id="polarion_merged_8">For every milestone the &quot;Software Design Verification Test&quot;  needs to be performed and must pass. See:</p><ul id="polarion_1">
+  <li><span class="polarion-rte-link" data-type="testRun" id="fake" data-item-id="Software Design Verification Test" data-option-id="long"></span></li>
+</ul><h3 id="polarion_wiki macro name=module-workitem;params=id=DP-380"></h3><p id="polarion_merged_10">At the end of a milestone the &quot;Software Design Verification Test&quot; must pass. When it does, the Test Run needs to be marked as &quot;Passed&quot;.</p><p id="polarion_merged_11">If the test is failing, the QA manager is responsible to decide if the Test Cases will be deactivated and moved to next milestones.</p><h3 id="polarion_wiki macro name=module-workitem;params=id=DP-381"></h3><p id="polarion_merged_12">
+  <span style="font-style: italic;">TO DO: Specify the criteria used to suspend all or a portion of the testing activity on the test items associated with this plan. Specify the testing activities that must be repeated, when testing is resumed.</span>
+</p><h2 id="polarion_wiki macro name=module-workitem;params=id=DP-382"></h2><p id="polarion_merged_13">
+  The DrivePilotSoftware Test must be performed on all the supported platforms specified in the <span class="polarion-rte-link" data-type="document" id="fake" data-item-name="System Requirements" data-space-name="Requirements" data-option-id="default"></span> specification.
+</p><h2 id="polarion_wiki macro name=module-workitem;params=id=DP-383"></h2><p id="polarion_merged_14">The following sections comprise the set of tasks necessary to prepare for and perform testing.</p><h3 id="polarion_wiki macro name=module-workitem;params=id=DP-254"></h3><div id="polarion_wiki macro name=module-workitem;params=id=DP-255"></div><div id="polarion_wiki macro name=module-workitem;params=id=DP-256"></div><h3 id="polarion_wiki macro name=module-workitem;params=id=DP-257"></h3><div id="polarion_wiki macro name=module-workitem;params=id=DP-258"></div><h2 id="polarion_wiki macro name=module-workitem;params=id=DP-259"></h2><p id="polarion_new_32">
+  <span style="font-style: italic;">TO DO: Specify responsibilities, staffing and training needs, risks and contingencies, and the testing schedule.</span>
+</p>]]></field>
+    <field id="renderingLayouts">
+        <list>
+            <struct>
+                <item id="label">Task</item>
+                <item id="layouter">section</item>
+                <item id="properties">
+                    <list>
+                        <struct>
+                            <item id="key">fieldsAtStart</item>
+                            <item id="value">id</item>
+                        </struct>
+                        <struct>
+                            <item id="key">fieldsAtEnd</item>
+                            <item id="value">severity</item>
+                        </struct>
+                        <struct>
+                            <item id="key">fieldsAtEndAsTable</item>
+                        </struct>
+                        <struct>
+                            <item id="key">hidden</item>
+                        </struct>
+                    </list>
+                </item>
+                <item id="type">task</item>
+            </struct>
+        </list>
+    </field>
+    <field id="status">published</field>
+    <field id="structureLinkRole">parent</field>
+    <field id="type">generic</field>
+    <field id="usesOutlineNumbering">true</field>
+</module>

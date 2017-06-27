@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<test-run>
+    <field id="author">sDeveloper</field>
+    <field id="created">2016-02-24 16:23:26.183 +0100</field>
+    <field id="environmentDescription" text-type="text/html" type="text/html">&lt;html&gt;&lt;head&gt;&lt;META http-equiv="Content-Type" content="text/html; charset=UTF-8"&gt;&lt;meta content="HTML Tidy for Java (vers. 26 Z&amp;aacute;ř 2004), see www.w3.org" name="generator"&gt;&lt;title&gt;&lt;/title&gt;&lt;/head&gt;&lt;body&gt;Drive Pilot&lt;br last_known_index="1"&gt;&lt;/body&gt;&lt;/html&gt;</field>
+    <field id="finishedOn">2016-02-24 16:23:26.193 +0100</field>
+    <field id="groupId">20160224-1723</field>
+    <field id="platform" type="enum:platform">linux</field>
+    <field id="records">
+        <list>
+            <struct>
+                <item id="duration">0.0</item>
+                <item id="executed">2016-02-24 16:23:26.183 +0100</item>
+                <item id="executedBy">sDeveloper</item>
+                <item id="result">passed</item>
+                <item id="testCase">DP-87</item>
+            </struct>
+            <struct>
+                <item id="duration">0.0</item>
+                <item id="executed">2016-02-24 16:23:26.183 +0100</item>
+                <item id="executedBy">sDeveloper</item>
+                <item id="result">passed</item>
+                <item id="testCase">DP-88</item>
+            </struct>
+            <struct>
+                <item id="duration">0.0</item>
+                <item id="executed">2016-02-24 16:23:26.183 +0100</item>
+                <item id="executedBy">sDeveloper</item>
+                <item id="result">passed</item>
+                <item id="testCase">DP-89</item>
+            </struct>
+        </list>
+    </field>
+    <field id="selectTestCasesBy">automatedProcess</field>
+    <field id="status">verifiedPassed</field>
+    <field id="template">xUnit Build Test</field>
+    <field id="type">automated</field>
+    <field id="useReportFromTemplate">true</field>
+</test-run>

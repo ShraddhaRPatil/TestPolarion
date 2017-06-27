@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">exercise</field>
+    <field id="author">daniel.morris</field>
+    <field id="title">Create a testcase from a requirement</field>
+    <field id="created">2012-05-07 17:49:37.242 +0200</field>
+    <field id="description" text-type="text/html">While focused on any Work Item, you can quickly create a new Work Item and a link, all in a single operation. &lt;ul&gt;&lt;li&gt;Select &lt;span style="font-style: italic;"&gt;example requirement "Some functional requirement representing a system feature. Itemize the detailed..."&lt;/span&gt; and click on the plus symbol below the requirement&lt;br/&gt;&lt;/li&gt;&lt;li&gt;Select "Veryfing Test Case" and create a new linked Test case "This is an example Test Case"&lt;br/&gt; &lt;img style="width: 492px;height: 180px;" src="attachment:linking1.PNG"/&gt;&lt;br/&gt;&lt;/li&gt;&lt;/ul&gt;</field>
+    <field id="priority">25.0</field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+</work-item>

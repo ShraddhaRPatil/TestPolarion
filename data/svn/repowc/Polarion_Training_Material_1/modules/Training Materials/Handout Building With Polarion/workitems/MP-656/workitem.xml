@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="hyperlinks">
+        <list>
+            <struct>
+                <item id="role">renderSlide</item>
+                <item id="uri">/polarion/wiki/bin/view/project/MyPolarion/page/macros/RenderSlides?item=MP-656</item>
+            </struct>
+            <struct>
+                <item id="role">help</item>
+                <item id="uri">/polarion/help/?topic=/com.polarion.xray.doc.user/agchConfigBuilding.html</item>
+            </struct>
+        </list>
+    </field>
+    <field id="author">stroebelet</field>
+    <field id="title">Build Artifacts and Descriptors</field>
+    <field id="created">2011-05-17 19:47:53.087 +0200</field>
+    <field id="description" text-type="text/html">&lt;img style="width: 764px; height: 401px;" src="workitemimg:1-artifactsDescriptors.jpg"/&gt;</field>
+    <field id="priority">25.0</field>
+    <field id="status">accepted</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+    <field id="subtitle" type="string">The same descriptor can be used to build different artifacts</field>
+</work-item>

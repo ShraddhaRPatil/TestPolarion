@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<module>
+    <field id="author">CarolaH</field>
+    <field id="branchedFrom">Training Materials#Polarion Fundamentals</field>
+    <field id="created">2012-12-17 05:56:35.587 -0500</field>
+    <field id="homePageContent" text-type="text/html"><![CDATA[<div id="polarion_editor_html_block_merged_0" class="polarion-dle-wiki-block">
+  <div id="polarion_editor_html_block_content" contentEditable="false"></div><pre id="polarion_editor_html_block_source" class="polarion-dle-wiki-block-source" contentEditable="false">#includeMacros(&quot;macros.macros&quot;)</pre>
+</div><h1 id="polarion_wiki macro name=module-workitem;params=id=MP-3989"></h1><div id="polarion_wiki macro name=module-workitem;params=id=MP-2281|layout=2|external=true"></div><h2 id="polarion_wiki macro name=module-workitem;params=id=MP-3990"></h2><div id="polarion_wiki macro name=module-workitem;params=id=MP-2285|layout=2|external=true"></div><p id="polarion_new_13">
+  <br/>
+</p><h2 id="polarion_wiki macro name=module-workitem;params=id=MP-3991"></h2><div id="polarion_wiki macro name=toc"></div><div id="polarion_wiki macro name=page_break" contentEditable="false"></div><h2 id="polarion_wiki macro name=module-workitem;params=id=MP-3992"></h2><h3 id="polarion_wiki macro name=module-workitem;params=id=MP-4005"></h3><div id="polarion_wiki macro name=module-workitem;params=id=MP-3715|layout=2|external=true"></div><h4 id="polarion_wiki macro name=module-workitem;params=id=MP-4006"></h4><div id="polarion_editor_html_block_pasted_0" class="polarion-dle-wiki-block">
+  <div id="polarion_editor_html_block_content" contentEditable="false"></div><pre id="polarion_editor_html_block_source" class="polarion-dle-wiki-block-source" contentEditable="false">{show:wiki}
+#slide(&quot;MP-1784&quot;)
+{show}
+#video(&quot;http://www.polarion.com/video/tutorials/traceability/basic/&quot;)
+{show:wiki}
+#helpLink(&quot;/polarion/help/topic/com.polarion.xray.doc.user/ugchWorkitemsLinking.html&quot; &quot;Linking Work Items&quot;)
+{show}</pre>
+</div><h4 id="polarion_wiki macro name=module-workitem;params=id=MP-4007"></h4><div id="polarion_wiki macro name=module-workitem;params=id=MP-3988|layout=1|external=true"></div><p id="polarion_merged_3">
+  <br/>
+</p><div id="polarion_wiki macro name=module-workitem;params=id=MP-2831|layout=1|external=true"></div><p id="polarion_new_1">
+  <br/>
+</p><div id="polarion_wiki macro name=page_break|uid=merged_0" contentEditable="false"></div><h3 id="polarion_wiki macro name=module-workitem;params=id=MP-4008"></h3><div id="polarion_wiki macro name=module-workitem;params=id=MP-2619|layout=2|external=true"></div><h4 id="polarion_wiki macro name=module-workitem;params=id=MP-4009"></h4><div id="polarion_editor_html_block_new_6" class="polarion-dle-wiki-block">
+  <div id="polarion_editor_html_block_content" contentEditable="false"></div><pre id="polarion_editor_html_block_source" class="polarion-dle-wiki-block-source" contentEditable="false">{show:wiki}
+#slide(&quot;MP-1792&quot;)
+{show}
+#video(&quot;http://www.polarion.com/video/tutorials/search/&quot;)
+#video(&quot;http://www.polarion.com/video/tutorials/advancedsearch/&quot;)
+{show:wiki}
+#helpLink(&quot;/polarion/help/topic/com.polarion.xray.doc.user/ugchWorkitemsSearch.html&quot; &quot;Searching Work Items&quot;)
+{show}</pre>
+</div><p id="polarion_new_9"> </p><h4 id="polarion_wiki macro name=module-workitem;params=id=MP-4010"></h4><div id="polarion_wiki macro name=module-workitem;params=id=MP-2620|layout=1|external=true"></div><p id="polarion_new_11">
+  <br/>
+</p><div id="polarion_wiki macro name=module-workitem;params=id=MP-2607|layout=1|external=true"></div><p id="polarion_new_30">
+  <br/>
+</p><div id="polarion_wiki macro name=module-workitem;params=id=MP-2621|layout=1|external=true"></div><p id="polarion_new_16">
+  <br/>
+</p><p id="polarion_cleaned_4"></p><div id="polarion_wiki macro name=page_break;params=uid=26" contentEditable="false"></div><h3 id="polarion_wiki macro name=module-workitem;params=id=MP-4011"></h3><div id="polarion_wiki macro name=module-workitem;params=id=MP-3716|layout=2|external=true"></div><h4 id="polarion_wiki macro name=module-workitem;params=id=MP-4012"></h4><div id="polarion_editor_html_block_new_2" class="polarion-dle-wiki-block">
+  <div id="polarion_editor_html_block_content" contentEditable="false"></div><pre id="polarion_editor_html_block_source" class="polarion-dle-wiki-block-source" contentEditable="false">{show:wiki}
+#slide(&quot;MP-1809&quot;)
+{show}
+#video(&quot;http://www.polarion.com/video/tutorials/wikiintro/&quot;)
+{show:wiki}
+#helpLink(&quot;/polarion/help/topic/com.polarion.xray.doc.user/ugchWiki.html&quot; &quot;Using the Wiki&quot;)
+#helpLink(&quot;/polarion/#/wiki/Doc/SyntaxHelp&quot; &quot;Detailed wiki syntax help&quot;)
+{show}</pre>
+</div><p id="polarion_new_39"> </p><h4 id="polarion_wiki macro name=module-workitem;params=id=MP-4013"></h4><div id="polarion_wiki macro name=module-workitem;params=id=MP-2610|layout=1|external=true"></div><div id="polarion_wiki macro name=module-workitem;params=id=MP-5531|layout=1|external=true"></div><p id="polarion_new_31">
+  <br/>
+</p><div id="polarion_wiki macro name=module-workitem;params=id=MP-2611|layout=1|external=true"></div><p id="polarion_new_7">
+  <br/>
+</p><div id="polarion_wiki macro name=module-workitem;params=id=MP-2606|layout=1|external=true"></div><p id="polarion_new_4">
+  <br/>
+</p><div id="polarion_wiki macro name=page_break;params=uid=28" contentEditable="false"></div><p id="polarion_cleaned_6">
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+</p>]]></field>
+    <field id="renderingLayouts">
+        <list>
+            <struct>
+                <item id="label">Task</item>
+                <item id="layouter">section</item>
+                <item id="properties">
+                    <list>
+                        <struct>
+                            <item id="key">fieldsAtStart</item>
+                        </struct>
+                        <struct>
+                            <item id="key">fieldsAtEnd</item>
+                            <item id="value">status,Resolution</item>
+                        </struct>
+                        <struct>
+                            <item id="key">fieldsAtEndAsTable</item>
+                        </struct>
+                        <struct>
+                            <item id="key">hidden</item>
+                        </struct>
+                    </list>
+                </item>
+                <item id="type">task</item>
+            </struct>
+            <struct>
+                <item id="label">Exercise</item>
+                <item id="layouter">section</item>
+                <item id="properties">
+                    <list>
+                        <struct>
+                            <item id="key">fieldsAtStart</item>
+                            <item id="value">id</item>
+                        </struct>
+                        <struct>
+                            <item id="key">fieldsAtEnd</item>
+                        </struct>
+                        <struct>
+                            <item id="key">fieldsAtEndAsTable</item>
+                            <item id="value">true</item>
+                        </struct>
+                        <struct>
+                            <item id="key">hidden</item>
+                        </struct>
+                    </list>
+                </item>
+                <item id="type">exercise</item>
+            </struct>
+            <struct>
+                <item id="label">Text</item>
+                <item id="layouter">paragraph</item>
+                <item id="properties">
+                    <list>
+                        <struct>
+                            <item id="key">fieldsAtStart</item>
+                        </struct>
+                        <struct>
+                            <item id="key">fieldsAtEnd</item>
+                        </struct>
+                        <struct>
+                            <item id="key">fieldsAtEndAsTable</item>
+                        </struct>
+                        <struct>
+                            <item id="key">hidden</item>
+                        </struct>
+                    </list>
+                </item>
+                <item id="type">text</item>
+            </struct>
+        </list>
+    </field>
+    <field id="structureLinkRole">parent</field>
+    <field id="usesOutlineNumbering">true</field>
+</module>

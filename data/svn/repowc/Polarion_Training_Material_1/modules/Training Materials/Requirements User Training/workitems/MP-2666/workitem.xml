@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">exercise</field>
+    <field id="author">hartliebc</field>
+    <field id="title">Check coverage of user requirements by functional requirements</field>
+    <field id="created">2012-04-24 13:15:19.833 +0200</field>
+    <field id="priority">25.0</field>
+    <field id="description" text-type="text/html">&lt;ul&gt;&lt;li&gt;Select &lt;span style="font-style: italic;"&gt;CRS_E-Library document&lt;/span&gt; and switch from document view to tree view&lt;/li&gt;&lt;li&gt;Configure tree view to show all Backlinked Work Items with role "refines"&lt;br/&gt; &lt;img style="width: 632px;height: 372px;" src="attachment:treecoverage.jpg"/&gt;&lt;br/&gt;&lt;/li&gt;&lt;li&gt;use matrix view with appropriate query&lt;br/&gt; &lt;img style="width: 718px;height: 473px;" src="attachment:matrixview.jpg"/&gt;&lt;br/&gt;&lt;/li&gt;&lt;/ul&gt;</field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+</work-item>

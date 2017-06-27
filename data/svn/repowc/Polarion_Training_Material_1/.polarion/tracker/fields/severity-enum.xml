@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<enumeration>
+    <option color="#dd0000" description="" iconURL="images/polarion/enums/severity_blocker.gif" id="blocker" name="Blocker" sortOrder="1"/>
+    <option color="#aa0000" description="" iconURL="images/polarion/enums/severity_critical.gif" id="critical" name="Critical" sortOrder="2"/>
+    <option color="#440000" default="true" description="" iconURL="images/polarion/enums/severity_normal.gif" id="normal" name="Normal" sortOrder="3"/>
+</enumeration>

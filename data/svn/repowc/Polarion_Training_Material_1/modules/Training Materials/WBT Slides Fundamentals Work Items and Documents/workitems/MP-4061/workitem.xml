@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">text</field>
+    <field id="author">CarolaH</field>
+    <field id="title"/>
+    <field id="created">2013-01-04 11:00:48.454 +0100</field>
+    <field id="description" text-type="text/html">Polarion® ALM is a comprehensive, fully integrated ALM platform that delivers solid benefits to all stakeholders in the software development process, including those outside the firewall. From inception of requirements through coding and testing, this unified approach to ALM enables organizations to effectively and efficiently manage the software development process using powerful management and team collaboration tools that improve project visibility, productivity, compliance and more.&lt;br style=""/&gt;Polarion ALM uses Subversion as the basis for its version control features and in new and highly innovative ways. In the Polarion ALM architecture, it actually serves as a single-source, historical repository for all artifacts in the software development process. Such artifacts include everything from tasks and document attachments to team collaborations. This unique approach makes exclusive advanced features like “Live ALM” and requirement-to-source traceability a reality.&lt;br style=""/&gt; </field>
+    <field id="priority">25.0</field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+</work-item>

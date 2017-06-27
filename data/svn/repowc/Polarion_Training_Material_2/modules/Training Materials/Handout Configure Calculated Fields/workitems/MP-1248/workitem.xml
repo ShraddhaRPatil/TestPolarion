@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">stroebelet</field>
+    <field id="created">2011-09-17 14:40:16.002 -0400</field>
+    <field id="description" text-type="text/html"><![CDATA[<img src="workitemimg:2-screenshot-2.jpg"/><br/>
+Remark: Calculated fields are part of Polarions Planning training<br/>]]></field>
+    <field id="hyperlinks">
+        <list>
+            <struct>
+                <item id="role">renderSlide</item>
+                <item id="uri">/polarion/wiki/bin/view/project/MyPolarion/page/macros/RenderSlides?item=MP-1248</item>
+            </struct>
+        </list>
+    </field>
+    <field id="previousStatus">open</field>
+    <field id="printNotes" text-type="text/html" type="text/html">&lt;div&gt;&lt;ul&gt;&lt;li&gt;Calculation is only done when link role is marked as parent&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">accepted</field>
+    <field id="title">Calculated Fields</field>
+    <field id="type">slide</field>
+</work-item>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<work-item>
+    <field id="created">2009-01-09 21:10:54.245 +0100</field>
+    <field id="title">Contingencies</field>
+    <field id="severity">normal</field>
+    <field id="priority">25.0</field>
+    <field id="type">task</field>
+    <field id="status">open</field>
+    <field id="description" text-type="text/html">&lt;span style="font-style: italic;"&gt;Describe the actions necessary to deal with anomalous events that may occur during execution.&lt;/span&gt;</field>
+    <field id="author">admin</field>
+</work-item>

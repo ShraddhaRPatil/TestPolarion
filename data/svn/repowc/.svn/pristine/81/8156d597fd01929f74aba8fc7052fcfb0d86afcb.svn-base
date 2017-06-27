@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<module>
+    <field id="author">admin</field>
+    <field id="created">2011-02-01 13:36:20.404 +0100</field>
+    <field id="homePageContent" text-type="text/html"><![CDATA[<h1 id="polarion_wiki macro name=module-workitem;params=id=WI-258"></h1>
+<p id="polarion_new_0"><span class="regiondescription" style="">User requirements describe the tasks that the users must be able to accomplish with the product or system.</span></p>
+<div contenteditable="false" id="polarion_wiki macro name=toc"></div>
+<h2 id="polarion_wiki macro name=module-workitem;params=id=WI-259"></h2>
+<h3 id="polarion_wiki macro name=module-workitem;params=id=WI-260"></h3>
+<p id="polarion_merged_0"><span style="font-style: italic;">Identify the purpose of this document and its intended audience.</span></p>
+<h3 id="polarion_wiki macro name=module-workitem;params=id=WI-261"></h3>
+<p id="polarion_merged_1"><span style="font-style: italic;">Provide a short description of the software being specified and its purpose, including relevant benefits, objectives, and goals.</span></p>
+<h3 id="polarion_wiki macro name=module-workitem;params=id=WI-262"></h3>
+<p id="polarion_merged_2"><span style="font-style: italic;">List any other documents or Web addresses to which this requirements document refers. These may include contracts, standards, system requirements specifications, use case documents, or a vision and scope document. Provide enough information so that the reader could access a copy of each reference, including title, author, version number, date, and source or location.</span></p>
+<h3 id="polarion_wiki macro name=module-workitem;params=id=WI-263"></h3>
+<p id="polarion_merged_3"><span style="font-style: italic;">A short description of how the rest of the document is organized and what can be found in the rest of the document.</span></p>
+<h2 id="polarion_wiki macro name=module-workitem;params=id=WI-264"></h2>
+<DIV id="polarion_wiki macro name=module-workitem;params=id=WI-266">&nbsp;</DIV>
+<h2 id="polarion_wiki macro name=module-workitem;params=id=WI-265"></h2>
+<p id="polarion_merged_4"><span style="font-style: italic;">Provide a matrix that relates product modules to requirements and vice versa.</span></p>
+]]></field>
+    <field id="outlineNumbering">
+        <struct/>
+    </field>
+    <field id="renderingLayouts">
+        <list>
+            <struct>
+                <item id="label">Requirement</item>
+                <item id="layouter">paragraph</item>
+                <item id="properties">
+                    <list>
+                        <struct>
+                            <item id="key">fieldsAtStart</item>
+                            <item id="value">id</item>
+                        </struct>
+                        <struct>
+                            <item id="key">fieldsAtEnd</item>
+                            <item id="value">severity, status</item>
+                        </struct>
+                        <struct>
+                            <item id="key">fieldsAtEndAsTable</item>
+                        </struct>
+                        <struct>
+                            <item id="key">hidden</item>
+                        </struct>
+                    </list>
+                </item>
+                <item id="type">requirement</item>
+            </struct>
+        </list>
+    </field>
+    <field id="status">draft</field>
+    <field id="structureLinkRole">parent</field>
+    <field id="type">req_specification</field>
+    <field id="usesOutlineNumbering">true</field>
+</module>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<read-only>
+    <status id="_default">
+        <field id="lastTestResult" />
+    </status>
+</read-only>
+

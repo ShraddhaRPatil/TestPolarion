@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<descriptors xmlns="http://polarion.com/schema/Builder/Descriptors" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:schemaLocation="http://polarion.com/schema/Builder/Descriptors"> 
+  <descriptor>
+    <artifacts>
+      <artifact>
+        <artifactId>drivepilot</artifactId>
+      </artifact>
+    </artifacts>
+    <build>
+      <properties>
+           <exclude.tests.pattern>**/LoginTest.java</exclude.tests.pattern>           
+           <polarion.build.xUnit.import.idPrefix>build_quick</polarion.build.xUnit.import.idPrefix>
+           <polarion.build.xUnit.import.enabled>true</polarion.build.xUnit.import.enabled>
+      </properties>
+    </build>
+  </descriptor>
+  <descriptor name="All Tests">
+    <artifacts>
+      <artifact>
+        <artifactId>drivepilot</artifactId>
+      </artifact>
+    </artifacts>
+    <build>
+      <properties>
+           <polarion.build.xUnit.import.idPrefix>build_all</polarion.build.xUnit.import.idPrefix>
+           <polarion.build.xUnit.import.enabled>true</polarion.build.xUnit.import.enabled>
+      </properties>
+    </build>
+  </descriptor>
+  <descriptor name="All Tests (No xUnit Test Import)">
+    <artifacts>
+      <artifact>
+        <artifactId>drivepilot</artifactId>
+      </artifact>
+    </artifacts>
+    <build>
+      <properties>
+           <polarion.build.xUnit.import.enabled>false</polarion.build.xUnit.import.enabled>
+      </properties>
+    </build>
+  </descriptor>
+</descriptors> 

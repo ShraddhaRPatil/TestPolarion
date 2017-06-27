@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">daniel.morris</field>
+    <field id="created">2012-05-08 09:37:19.083 -0400</field>
+    <field id="description" text-type="text/html"><![CDATA[First part of our test execution will be online testing inside of Polarion. 
+<ul>
+  <li>Select test run &quot;i1_SmokeTest_Team A&quot; and Perform action Start Progress by clicking Test Run status button on top right.<br/>
+    This will indicate to other users this Test Run is currently in testing.</li>
+  <li>Now click on &quot;Execute test&quot;<br/>
+    <img src="attachment:84-screenshot-20160428-092919.png" style="width: 402px;height: 150px;"/></li>
+  <li>You will see a list of all test cases which are not yet executed. Read all test step and let´s say this test passed, so click on the &quot;Passed&quot; button for all test steps and this test case.<br/>
+    
+    <table id="polarion_wiki macro name=table" class="polarion-Document-table" style="width: 80%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;">
+      <tbody>
+        <tr>
+          <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Hint: For each Test Run type defined, it is possible to require electronic signature when executing Test Cases in Test Runs of the type. For example, if you have a type, &quot;Manual Security Test&quot;, you can configure it to require a signature when executing Test Runs of that type. <br/>
+            By default Test Runs of Type &quot;manual&quot; have elctronic signatures enabled so you need to enter your login credentials for each executed test case.<br/>
+            This signature can be disabled in project administration. How this can be configured is part of Polarion QA admin training.</th>
+        </tr>
+      </tbody>
+    </table>
+    <br/>
+    </li>
+  <li>Polarion will select the next tast case. Write into the comment field on the left which test step failed, add an attachment and set test case to &quot;Failed&quot;<br/>
+    <br/>
+    
+    <table id="polarion_wiki macro name=table;params=width=600px" class="polarion-Document-table" style="width: 600px;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;">
+      <tbody>
+        <tr>
+          <th style="font-weight: bold;font-size: 9pt;background-color: #F0F0F0;line-height: 1.5;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Hint: If you don´t want to switch automatically to the next test case disable the checkbox displayed at the picture below. </th>
+        </tr>
+      </tbody>
+    </table>
+    <br/>
+    <img src="attachment:rotatet.png"/></li>
+  <li>Let´s see which tests are already done. Go back to the last test run and review how our test run report changed.</li>
+</ul>
+ 
+<table id="polarion_wiki macro name=table;params=uid=client1" class="polarion-Document-table" style="width: 602px;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;">
+  <tbody>
+    <tr>
+      <th style="background-color: #F0F0F0;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Hint: Some regulations require to track each result of a test step manually. It is not enough to record only that a test step has passed successfully.<br/>
+        This causes immense overhead as a tester needs to repeat all for the same test case in different test runs the same result over and over again<br/>
+        Polarion gives the possibility to reselect previous results of a test step execution during test execution.<br/>
+        <br/>
+        <img src="attachment:screenshot-10.jpg" style="width: 721px;height: 326px;"/></th>
+    </tr>
+  </tbody>
+</table>]]></field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Executing test cases online</field>
+    <field id="type">exercise</field>
+</work-item>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">admin</field>
+    <field id="created">2011-04-01 04:29:03.719 -0400</field>
+    <field id="description" text-type="text/html"><![CDATA[<ul>
+  <li>Use <span style="color: #3333FF;">cut</span> and <span style="color: #3333FF;">paste</span> to move Work Items between <span style="font-weight: bold;text-decoration: underline;">the same</span> document<br/>
+  </li>
+  <li>Use <span style="color: #3333FF;">copy</span> and <span style="color: #3333FF;">paste</span> to copy a Work Item<br/>
+  </li>
+  <li>Remove a Work Item simply by deleting the description in the document. These Work Items are still available in the Recycle Bin.<br/>
+    <br/>
+    <img src="attachment:recyclebin.jpg"/><br/>
+    <table id="polarion_wiki macro name=table" class="polarion-Document-table" style="width: 80%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;">
+      <tbody>
+        <tr>
+          <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Hint: You can delete a Work Item without first moving it to the Recycle Bin: click the Work Item icon in the left margin and select Delete on the menu.</th>
+        </tr>
+      </tbody>
+    </table>
+    <br/>
+  </li>
+</ul>
+<ul>
+  <li>You can also move a Work Item using the action menu in table or tree view and select &quot;Move&quot; to move Work Items.<br/>
+    <br/>
+    <br/>
+    <img src="attachment:movewi.jpg"/><br/>
+    <br/>
+  </li>
+</ul>]]></field>
+    <field id="printNotes" text-type="text/html" type="text/html">&lt;div&gt;&lt;ul&gt;&lt;li&gt;Deleted work items will still be visible in table view as they are moved to the recycle bin.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="subtitle" type="string"> </field>
+    <field id="title">Move, Copy And Delete Work Items</field>
+    <field id="type">slide</field>
+</work-item>

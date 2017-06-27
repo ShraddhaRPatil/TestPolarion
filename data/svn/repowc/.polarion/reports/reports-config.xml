@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<reportsConfig>
+	<!-- 
+		id = id of the report
+		name = label in ui 
+		path = relative to .reports in RR
+		calculation = what calculation should be executed when clicking on update
+-->	
+
+  	<report
+ 	  id="site"
+	  name="Maven Site"
+	  path="site/project-reports.html"
+	  calculation="site"
+	/>
+<!--
+  	<report
+ 	  id="unit_test_coverage"
+	  name="Unit Test Coverage"
+	  path="site/cobertura/index.html"
+	  calculation="site"
+	/>
+-->  
+  	<report
+ 	  id="unit_test_sucessratio"
+	  name="Unit Tests"
+	  path="site/surefire-report.html"
+	  calculation="processaudit-source"
+	/>
+  	<report
+ 	  id="javadoc"
+	  name="Javadoc"
+	  path="site/apidocs/index.html"
+	  calculation="site"
+	/>
+  	<report
+ 	  id="xref"
+	  name="XRef"
+	  path="site/xref/index.html"
+	  calculation="site"
+	/>
+<!--  	<report
+ 	  id="pmd"
+	  name="PMD"
+	  path="site/pmd.html"
+	  calculation="site"
+	/>
+  	<report
+ 	  id="checkstyle"
+	  name="Checkstyle"
+	  path="site/checkstyle.html"
+	  calculation="site"
+	/>-->
+	  
+</reportsConfig>

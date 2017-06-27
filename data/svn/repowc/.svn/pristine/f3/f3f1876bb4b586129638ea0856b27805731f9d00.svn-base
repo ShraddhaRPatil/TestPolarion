@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="hyperlinks">
+        <list>
+            <struct>
+                <item id="role">ref_ext</item>
+                <item id="uri">http://www.word-2010.com/show-the-developer-tab-in-microsoft-word-2010/</item>
+            </struct>
+        </list>
+    </field>
+    <field id="author">stroebelet</field>
+    <field id="title">Custom Header and Footer in Word Template</field>
+    <field id="created">2011-09-17 19:49:16.569 +0200</field>
+    <field id="description" text-type="text/html">&lt;img src="workitemimg:1-screenshot.jpg" style="width: 704px; height: 338px;"/&gt;</field>
+    <field id="priority">25.0</field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="subtitle" type="string">Variables can be added to the template via word content controls</field>
+    <field id="hint" type="string">To see word content controls you have to enable the developer ribbon</field>
+    <field id="trainingCategory" multi="true" type="enum:trainingCategory"/>
+    <field id="printNotes" text-type="text/html" type="text/html">&lt;p&gt;To see word content controls you have to enable the developer ribbon: &lt;a target="_blank" href="http://www.word-2010.com/show-the-developer-tab-in-microsoft-word-2010/"&gt;http://www.word-2010.com/show-the-developer-tab-in-microsoft-word-2010/&lt;/a&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;To edit existing content controls you have to click on properties&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style="font-weight: bold; text-decoration: underline;"&gt;Available content controls:&lt;/span&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; documentName&lt;/li&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; revision&lt;/li&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; date (date picker content control in Word)&lt;/li&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; generated&lt;/li&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; generatedBy&lt;/li&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; projectId&lt;/li&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; projectName&lt;/li&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; space&lt;/li&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; updated&lt;/li&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; updatedBy&lt;/li&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; created&lt;/li&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; createdBy&lt;/li&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; productName&lt;/li&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; productVersion&lt;/li&gt;&lt;/ul&gt;</field>
+    <field id="speakersNotes" text-type="text/plain" type="text/html"/>
+</work-item>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autocreate-config>
+
+    <!-- 
+      If set to false, users for which there is no Polarion user 
+      object will not be able to login to portal.
+    -->
+    <enabled>false</enabled>
+
+
+    <!-- 
+      Global roles that should be added to the autocreated user. These roles should
+      ensure that the user has a permission to login.
+    -->
+    <globalRoles>
+        <role name="user"/>
+    </globalRoles>
+
+</autocreate-config>

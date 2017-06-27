@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">sergeD</field>
+    <field id="created">2014-08-29 11:39:37.437 -0400</field>
+    <field id="description" text-type="text/html"><![CDATA[<br/>
+With<span style="font-weight: bold;"> ContainsNoMatchingWorkItems</span> condition, <span style="font-family: Verdana, Geneva, sans-serif;">if the Document contains any Work Items matching the query, then the workflow action cannot be executed</span><br/>
+<br/>
+<img src="attachment:screenshot-20140829-173937.png"/><br/>
+<br/>]]></field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Advanced Document Workflow Rules: Conditions</field>
+    <field id="type">slide</field>
+</work-item>

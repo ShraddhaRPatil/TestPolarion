@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">hartliebc</field>
+    <field id="created">2012-05-16 09:14:43.511 -0400</field>
+    <field id="description" text-type="text/html"><![CDATA[Using Polarion will allow you to manage and control your project data in an easy way. Now it is time to understand the basic principles of how information can be tracked within Polarion<br/>
+<ul>
+  <li>work items</li>
+  <li>documents</li>
+  <li>wiki pages</li>
+</ul>
+<table id="polarion_wiki macro name=table" class="polarion-Document-table" style="width: 80%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;">
+  <tbody>
+    <tr>
+      <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Hint: Some screenshots of these trainings might differ a little bit from your version but only if their meaning hasn´t been changed.</th>
+    </tr>
+  </tbody>
+</table>
+<br/>]]></field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="type">text</field>
+</work-item>

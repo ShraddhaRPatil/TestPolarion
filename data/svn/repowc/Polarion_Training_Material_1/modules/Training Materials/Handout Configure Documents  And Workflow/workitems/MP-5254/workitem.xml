@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">sergeD</field>
+    <field id="created">2014-08-29 09:49:52.346 -0400</field>
+    <field id="description" text-type="text/html">&lt;br/&gt;Workflows for Documents define and control process for entire Documents.&lt;br/&gt;&lt;br/&gt;Document workflow applies only to the Document, and is separate and apart from any workflow defined for the Work Items it contains. &lt;br/&gt;It enables you to trace the history of a Document's progress from inception to completion of whatever life cycle you need for Documents.&lt;br/&gt;&lt;br/&gt;&lt;img src="workitemimg:3-screenshot-20140829-172130.png"/&gt;&lt;br/&gt;&lt;span style="font-family: Verdana, Geneva, sans-serif;"&gt;A "workflow" consists of a set of :&lt;br/&gt;&lt;br/&gt;&lt;/span&gt; &lt;ul&gt;&lt;li&gt;&lt;span style="font-family: Verdana, Geneva, sans-serif;"&gt;named statuses&lt;/span&gt; (draft, in review,etc.)&lt;/li&gt;&lt;li&gt;&lt;span style="font-family: Verdana, Geneva, sans-serif;"&gt;named actions  (sendToReview)&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style="font-family: Verdana, Geneva, sans-serif;"&gt;named transitions (change of  the Document's status by user's action )&lt;br/&gt;&lt;br/&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="subtitle" type="string"> </field>
+    <field id="title">Custom Document Workflow</field>
+    <field id="type">slide</field>
+</work-item>

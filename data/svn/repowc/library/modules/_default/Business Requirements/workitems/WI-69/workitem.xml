@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">requirement</field>
+    <field id="author">admin</field>
+    <field id="title">Scope of Subsequent Releases</field>
+    <field id="created">2008-10-02 21:28:03.551 +0200</field>
+    <field id="description" text-type="text/html">&lt;span style="font-style: italic;"&gt;If a staged evolution of the product is envisioned over time, indicate which major features will be deferred to later releases.&lt;/span&gt;</field>
+    <field id="priority">25.0</field>
+    <field id="status">draft</field>
+    <field id="severity">should_have</field>
+    <field id="previousStatus">open</field>
+</work-item>

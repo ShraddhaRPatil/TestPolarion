@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">stroebelet</field>
+    <field id="created">2013-07-31 08:15:02.819 -0400</field>
+    <field id="linkedWorkItems">
+        <list>
+            <struct>
+                <item id="revision">41916</item>
+                <item id="role">branched_from</item>
+                <item id="workItem">MP-786</item>
+            </struct>
+            <struct>
+                <item id="revision">2736</item>
+                <item id="role">branched_from</item>
+                <item id="workItem">MP-2611</item>
+            </struct>
+        </list>
+    </field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Student Exercises</field>
+    <field id="type">heading</field>
+</work-item>

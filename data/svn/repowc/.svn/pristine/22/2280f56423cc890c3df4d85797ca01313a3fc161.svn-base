@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="initialEstimate">2d</field>
+    <field id="linkedWorkItems">
+        <list>
+            <struct>
+                <item id="workItem">DP-461</item>
+                <item id="suspect">false</item>
+                <item id="role">implements</item>
+            </struct>
+        </list>
+    </field>
+    <field id="resolution">done</field>
+    <field id="type">task</field>
+    <field id="timeSpent">10h</field>
+    <field id="resolvedOn">2013-02-04 18:06:58.482 +0100</field>
+    <field id="author">admin</field>
+    <field id="title">Test: DrivePilot checks "auto parking" capability</field>
+    <field id="created">2013-02-04 17:56:28.586 +0100</field>
+    <field id="priority">50.0</field>
+    <field id="status">verified-done</field>
+    <field id="assignee">sDeveloper</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+</work-item>

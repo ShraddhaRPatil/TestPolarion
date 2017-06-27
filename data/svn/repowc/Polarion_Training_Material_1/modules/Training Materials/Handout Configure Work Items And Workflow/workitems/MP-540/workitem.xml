@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">stroebelet</field>
+    <field id="created">2011-04-27 10:27:07.203 -0400</field>
+    <field id="description" text-type="text/html"><![CDATA[<img src="attachment:1-screenshot-20141031-065459.png"/><br/>
+<ul>
+  <li><span style="font-weight: bold;">Default</span>: what is the default item type to create ?</li>
+  <li><span style="font-weight: bold;">Color</span>: not used</li>
+  <li><span style="font-weight: bold;">Description</span>: Information is displayed when you hover with mouse over the custom field<br/>
+  </li>
+</ul>]]></field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="subtitle" type="string"> </field>
+    <field id="title">Custom Work Items</field>
+    <field id="type">slide</field>
+</work-item>

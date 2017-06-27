@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">hartliebc</field>
+    <field id="created">2012-04-24 05:44:49.165 -0400</field>
+    <field id="description" text-type="text/html"><![CDATA[<ul>
+  <li>Add following three new requirements and save the document</li>
+  <ul style="font-style: italic;">
+    <li>The user should be able to search for books</li>
+    <li>The user should be able to lend books</li>
+    <li>The user should be able to manage a book favorites list</li>
+  </ul>
+</ul>
+ 
+<ul>
+  <li>Create following two sub requirements below the requirement <span style="font-style: italic;">search for books (Remember: Press [tab] button to indentwork items)<br/>
+      </span></li>
+  <ul>
+    <li><span style="font-style: italic;">support of wildcards in search</span></li>
+    <li><span style="font-style: italic;">It must be possible to search in all book fields<br/>
+        </span></li>
+  </ul>
+  <li>Create a new requirement <span style="font-style: italic;">Book Data</span> and add following content as table<br/>
+    <img src="attachment:106-screenshot-20141031-084210.png"/>      <img src="attachment:tableProperties.jpg" style="width: 339px;height: 250px;"/></li>
+  <ul>
+    <li><span style="font-style: italic;">author: string</span></li>
+    <li><span style="font-style: italic;">title: string</span></li>
+    <li><span style="font-style: italic;">cover image: jpg, gif</span></li>
+    <li><span style="font-style: italic;">ISBN number: string</span></li>
+  </ul>
+</ul>]]></field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Add requirements to specification</field>
+    <field id="type">exercise</field>
+</work-item>

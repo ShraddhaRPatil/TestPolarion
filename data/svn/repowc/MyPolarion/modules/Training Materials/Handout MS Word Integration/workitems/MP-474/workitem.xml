@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="hyperlinks">
+        <list>
+            <struct>
+                <item id="role">renderSlide</item>
+                <item id="uri">/polarion/wiki/bin/view/project/MyPolarion/page/macros/RenderSlides?item=MP-474</item>
+            </struct>
+        </list>
+    </field>
+    <field id="author">admin</field>
+    <field id="title">MS Word Round-trip: Import</field>
+    <field id="created">2011-04-01 16:02:17.874 +0200</field>
+    <field id="description" text-type="text/html">&lt;ul&gt;&lt;li&gt;Open document in Polarion and select "Import Changes"&lt;br/&gt;&lt;img style="width: 277px; height: 57px;" src="workitemimg:1-screenshot.jpg"/&gt;&lt;br/&gt;&lt;br/&gt;&lt;/li&gt;&lt;li&gt;Browse for updated file, select appropriate options and import it&lt;br/&gt;&lt;img src="workitemimg:2-screenshot-1.jpg"/&gt;&lt;br/&gt;&lt;br/&gt;&lt;/li&gt;&lt;/ul&gt;&lt;span style="font-weight: bold;"&gt;Overwrite Conflicts&lt;/span&gt;: If document was changed in the meantime, those changes will be ignored and overwritten.&lt;br/&gt;&lt;span style="font-weight: bold;"&gt;Import Comments Only:&lt;/span&gt; Only comments will be imported all other changes in the word document will be ignored.</field>
+    <field id="priority">25.0</field>
+    <field id="status">accepted</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+    <field id="subtitle" type="string">Defining collaboration rules at the beginning with the stakeholder can save you a lot of time.</field>
+    <field id="hint" type="string">You can define workflow rules which make some fields read only based on the status of a workitem.</field>
+</work-item>

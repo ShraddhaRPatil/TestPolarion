@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><wiki-page>
+<author>admin</author>
+<created>20080930100300</created>
+<type>active</type>
+<content><![CDATA[#macro(copyDocumentAction $document)
+<a href="javascript:top.duplicateDocument('$document','_default','library')" style="white-space:nowrap;"><img src="/polarion/wiki/skins/sidecar/images/new_page.png"/> Create new</a>
+#end
+
+1 Welcome to the ~~{project-property:name}~~ project
+#if(!$trackerService.getTrackerPolicy().canUseModules())
+#warning("Sorry, you are not allowed to access Documents. Please, contact your system administrator")
+#else
+
+This project contains the Document templates. To create a new Document from the template click on ~~Create new~~ action.
+You can of course create own templates in this project.
+
+1.1 Basic Requirements Templates
+Ready to use basic requirements templates.
+
+{table:width=90%} 
+Document |  Description | Actions
+{document:Business Requirements}| Business Requirements describe in business terms what must be delivered or accomplished to provide value.| #copyDocumentAction("Business Requirements")
+{document:User Requirements}|Specifies the requirements the user expects from product to be constructed in a project| #copyDocumentAction("User Requirements")
+{document:Functional Requirements}|Functional requirements specify particular behaviors of a system.| #copyDocumentAction("Functional Requirements")
+{table}
+
+1.1 Basic Test Documentation Templates
+Ready to use templates to document your test plans and test cases.
+{table:width=90%} 
+Document |  Description | Actions
+{document:Test Plan}| Describes the scope, approach, resources, and schedule of intended testing activities. It identifies test items, the features to be tested, the testing tasks, who will do each task, and any risks requiring contingency planning. | #copyDocumentAction("Test Plan")
+{document:Test Specification}|Collects test cases that are intended to be used to test a software feature or combination of software features and specifies the details of the test approach. | #copyDocumentAction("Test Specification")
+{table}
+
+
+1.1 Software Engineering Documents
+We have prepared a set of software development documents firmly based on IEEE standards. 
+
+{table:width=90%} 
+Document |  Description  | Actions
+{document:Software Project Management Plan}| Description of the software approach and associated milestones| #copyDocumentAction("Software Project Management Plan")
+{document:Software Requirements Specification}|Description of the expected software features, constraints, interfaces and other attributes.| #copyDocumentAction("Software Requirements Specification")
+{document:Software Design Description}|Description of how the software will meet the requirements. Also describes the rationale for design decisions taken.| #copyDocumentAction("Software Design Description")
+{document:Software Test Plan}|A document describing the scope, approach, resources, and schedule of intended testing activities. It identifies test items, the features to be tested, the testing tasks, who will do each task, and any risks requiring contingency planning | #copyDocumentAction("Software Test Plan")
+{document:Software Test Design Specification}|A document specifying the details of the test approach for a software feature or combination of software features and identifying the associated tests. | #copyDocumentAction("Software Test Design Specification")
+{document:Software Test Case Specification}|A document specifying inputs, predicted results, and a set of execution conditions for a test item. | #copyDocumentAction("Software Test Case Specification")
+{document:Software Test Procedure Specification}|A document specifying a sequence of actions for the execution of a test.| #copyDocumentAction("Software Test Procedure Specification")
+{table}
+
+
+
+1.1 Other Formal Documents
+
+{table:width=90%} 
+Document Deliverables |  Description  | Actions
+{document:System Requirements Specification}|Description of a system that is planned to be developed| #copyDocumentAction("System Requirements Specification")
+{table}
+
+#end]]></content>
+</wiki-page>

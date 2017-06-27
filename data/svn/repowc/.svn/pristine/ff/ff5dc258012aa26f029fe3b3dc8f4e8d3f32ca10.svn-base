@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<plan>
+    <field id="allowedTypes">
+        <list>
+            <item>workPackage</item>
+            <item>issue</item>
+        </list>
+    </field>
+    <field id="author">rProject</field>
+    <field id="calculationType">timeBased</field>
+    <field id="capacity">180.5</field>
+    <field id="created">2015-01-27 22:33:20.537 +0100</field>
+    <field id="description" text-type="text/plain">Iterations are short time frames (timeboxes) that typically last from one to four weeks.</field>
+    <field id="dueDate">2015-02-07</field>
+    <field id="name">Iteration 35</field>
+    <field id="parent">Version_2_0</field>
+    <field id="prioritizationField">priority</field>
+    <field id="startDate">2015-01-27</field>
+    <field id="status">open</field>
+    <field id="template">iteration</field>
+    <field id="useReportFromTemplate">true</field>
+</plan>

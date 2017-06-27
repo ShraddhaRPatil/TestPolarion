@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">stroebelet</field>
+    <field id="created">2011-07-29 15:20:01.116 -0400</field>
+    <field id="description" text-type="text/html">You might want to collect some Polarion questions you can´t answer for your Polarion consultant. If you have a list of questions you might want to send this list as Round trip export. (Collabortaion mode so the consultant can send it back with answers directly added to your custom field.&lt;br/&gt; &lt;br/&gt; &lt;ul&gt;&lt;li&gt;Goto frontend&lt;/li&gt;&lt;li&gt;Create a new document with name &lt;span style="font-style: italic;"&gt;Questions to Polarion&lt;/span&gt; which contains question work items&lt;br/&gt;&lt;/li&gt;&lt;li&gt;Select following layout options by using document configuration&lt;br/&gt; &lt;img src="attachment:65-screenshot-20141029-100221.png"/&gt;&lt;br/&gt;&lt;/li&gt;&lt;li style="list-style: none"&gt;&lt;ul&gt;&lt;li&gt;Content: title and description&lt;/li&gt;&lt;li&gt;Fields at Start: id&lt;br/&gt;&lt;/li&gt;&lt;li&gt;display following fields as table in Document using the checkbox&lt;br/&gt; &lt;img src="attachment:66-screenshot-20141029-100221.png"/&gt;&lt;br/&gt;&lt;/li&gt;&lt;li&gt;Fields at End: status,answer&lt;br/&gt;&lt;br/&gt; &lt;img style="width: 704px;height: 155px;" src="attachment:67-screenshot-20141029-100222.png"/&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;Verify your Polarion consultant can give answers to your questions by doing a Round trip in collaboration mode (allow to change field "answer").&lt;/li&gt;&lt;/ul&gt;&lt;table style="width: 80%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;" class="polarion-Document-table" id="polarion_wiki macro name=table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"&gt;Hint: Each user can modify the fields he wants to see in a document. Fields at End is only working if there is no existing user configuration.&lt;br/&gt; &lt;img src="attachment:68-screenshot-20141029-100222.png"/&gt;&lt;/th&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;br/&gt;</field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Create New Question Document With Custom Rendering</field>
+    <field id="type">exercise</field>
+</work-item>

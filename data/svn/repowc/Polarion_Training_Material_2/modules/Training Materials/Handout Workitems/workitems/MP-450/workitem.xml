@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="hyperlinks">
+        <list>
+            <struct>
+                <item id="role">renderSlide</item>
+                <item id="uri">/polarion/wiki/bin/view/project/MyPolarion/page/macros/RenderSlides?item=MP-450</item>
+            </struct>
+        </list>
+    </field>
+    <field id="author">admin</field>
+    <field id="title">Links, Attachments And Watchers</field>
+    <field id="created">2011-03-30 09:17:21.434 +0200</field>
+    <field id="description" text-type="text/html">&lt;img src="workitemimg:1-screenshot.jpg" style="WIDTH: 719px; HEIGHT: 285px"/&gt; &lt;ul&gt;&lt;li&gt;&lt;span style="FONT-WEIGHT: bold"&gt;linked work items&lt;/span&gt;: which work items are related to the selected one&lt;/li&gt;&lt;li&gt;&lt;span style="FONT-WEIGHT: bold"&gt;hyperlinks&lt;/span&gt;: Link to web or wiki pages or a &lt;span style="FONT-STYLE: italic"&gt;file or folder in subversion&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style="FONT-WEIGHT: bold"&gt;attachments&lt;/span&gt;: Attach additional files to your item.&lt;/li&gt;&lt;li&gt;&lt;span style="FONT-WEIGHT: bold"&gt;votes&lt;/span&gt;: How many people find this item important&lt;/li&gt;&lt;li&gt;&lt;span style="FONT-WEIGHT: bold"&gt;watches&lt;/span&gt;: who will be informed on item changes&lt;/li&gt;&lt;/ul&gt;</field>
+    <field id="priority">25.0</field>
+    <field id="status">accepted</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+    <field id="subtitle" type="string"> </field>
+    <field id="hint" type="string">Use attachments when you don't care about the location of the attached file. Use hyperlinks pointing to an svn location when you have a defined file structure</field>
+</work-item>

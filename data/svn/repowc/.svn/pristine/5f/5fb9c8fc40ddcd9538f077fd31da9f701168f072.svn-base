@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">stroebelet</field>
+    <field id="created">2011-04-26 11:01:07.827 -0400</field>
+    <field id="description" text-type="text/html">Build custom wiki pages to make project administration easier&lt;br/&gt;&lt;img src="workitemimg:1-adminpage.jpg"/&gt;&lt;br/&gt;&lt;ul&gt;&lt;li&gt;&lt;a target="_blank" href="/polarion/#/project/MyPolarion/wiki/Examples/Example_AdminPage%20Using%20Portallinks"&gt;/polarion/#/project/MyPolarion/wiki/Examples/Example_AdminPage Using Portallinks&lt;/a&gt;&lt;br/&gt;&lt;/li&gt;&lt;/ul&gt;</field>
+    <field id="hyperlinks">
+        <list>
+            <struct>
+                <item id="role">renderSlide</item>
+                <item id="uri">/polarion/wiki/bin/view/project/MyPolarion/page/macros/RenderSlides?item=MP-529</item>
+            </struct>
+            <struct>
+                <item id="role">ref_int</item>
+                <item id="uri">/polarion/#/project/MyPolarion/wiki/Examples/Example_AdminPage Using Portallinks</item>
+            </struct>
+        </list>
+    </field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">accepted</field>
+    <field id="subtitle" type="string"> </field>
+    <field id="title">Custom Admin Pages</field>
+    <field id="type">slide</field>
+</work-item>

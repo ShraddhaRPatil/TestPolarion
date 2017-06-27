@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<comment>
+    <field id="created">2011-05-05 21:41:37.145 +0200</field>
+    <field id="author">phaedrusxon</field>
+    <field id="text" text-type="text/plain"><![CDATA[When a screenshot is included in a slide, it would be helpful for the new user to know where the screenshot came from.  For example on this slide, 
+I think it is from the "Documents & Wiki -> PB_ELibrary -> Properities" or some other nomenclature that would allow the self paced user to get 
+reference to it.]]></field>
+    <field id="title">Captions on Screenshots</field>
+</comment>

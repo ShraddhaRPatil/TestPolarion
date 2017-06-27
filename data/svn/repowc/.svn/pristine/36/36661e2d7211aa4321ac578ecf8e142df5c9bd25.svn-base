@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">hartliebc</field>
+    <field id="created">2012-04-24 05:44:49.223 -0400</field>
+    <field id="description" text-type="text/html"><![CDATA[<ul>
+  <li>Create a relates to link from <span style="font-style: italic;">&quot;Book Data&quot;</span> to <span style="font-style: italic;">&quot;It must be possible to search in all book fields.&quot;<br/>
+      <br/>
+    </span> <span style="font-weight: bold;">Attention:</span> Use the &quot;create link&quot; option next to &quot;<span style="font-style: italic;">Book Data</span>&quot; icon to start the linking dialog. Use the &quot;create link&quot; option next to &quot;<span style="font-style: italic;">It must be possible to search in all book fields</span>&quot; icon to finish the linking dialog. Don&#39;t forget to save your document to save your link.<br/>
+    <span style="font-style: italic;"><br/>
+      <img src="attachment:linking.jpg"/><br/>
+    </span></li>
+</ul>
+   ]]></field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Link requirements inside specification</field>
+    <field id="type">exercise</field>
+    <field id="upgradedescription" type="boolean">true</field>
+</work-item>

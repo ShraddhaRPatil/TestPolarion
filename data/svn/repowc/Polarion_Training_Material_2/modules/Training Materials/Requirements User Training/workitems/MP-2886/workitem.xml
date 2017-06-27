@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">hartliebc</field>
+    <field id="created">2012-05-18 04:58:50.812 -0400</field>
+    <field id="description" text-type="text/html"><![CDATA[<ul>
+  <li>Define an advanced rule which automatically sets a requirement to <span style="font-style: italic;">must_have</span> when the keyword <span style="font-style: italic;">must</span> is found</li>
+  <li>Define an advanced rule which automatically sets all requirement to <span style="font-style: italic;">functional requirement</span></li>
+  <li>Try your configuration using <span style="font-weight: bold;font-style: italic;">Preview</span> button<span style="font-style: italic;"><br/>
+      </span></li>
+  <li>Save your configuration and overwrite your previously saved configuration Elibrary Spec Import</li>
+  <li>Import the document into Polarion with following name: <span style="font-style: italic;">ElibrarySpecification</span> using <span style="font-weight: bold;font-style: italic;">IMPORT</span> button.<br/>
+    <br/>
+    <img src="attachment:123-screenshot-20151230-080703.png" style="width: 462px;height: 600px;"/><br/>
+    <table id="polarion_wiki macro name=table" class="polarion-Document-table" style="width: 80%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;">
+      <tbody>
+        <tr>
+          <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Hint: MS Excel import is part of QA User training</th>
+        </tr>
+      </tbody>
+    </table>
+    <br/>
+    </li>
+</ul>]]></field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Optimize your first import configuration and import</field>
+    <field id="type">exercise</field>
+    <field id="upgradedescription" type="boolean">true</field>
+</work-item>

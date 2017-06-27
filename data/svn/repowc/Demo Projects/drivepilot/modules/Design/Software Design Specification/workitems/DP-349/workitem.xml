@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="approvals">
+        <list>
+            <struct>
+                <item id="status">approved</item>
+                <item id="user">rProject</item>
+            </struct>
+        </list>
+    </field>
+    <field id="author">admin</field>
+    <field id="categories">
+        <list>
+            <item>Interface</item>
+        </list>
+    </field>
+    <field id="created">2013-01-21 23:05:21.096 +0100</field>
+    <field id="description" text-type="text/html">The connection is established through the &lt;span style="font-style: italic;"&gt;connect&lt;/span&gt; command of the Bluetooth v2.0 protocol.</field>
+    <field id="previousStatus">reviewed</field>
+    <field id="priority">50.0</field>
+    <field id="severity">should_have</field>
+    <field id="status">approved</field>
+    <field id="targetVersion" multi="true" type="enum:@plan[template.id:release]">
+        <list>
+            <item>Version_2_0</item>
+        </list>
+    </field>
+    <field id="type">softwareRequirement</field>
+</work-item>

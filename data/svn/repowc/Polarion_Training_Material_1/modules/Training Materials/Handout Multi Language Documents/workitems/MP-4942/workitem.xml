@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="author">schucks</field>
+    <field id="title">Step 1 - Customize Fields</field>
+    <field id="created">2013-07-31 11:49:34.281 +0200</field>
+    <field id="description" text-type="text/html">To enable another language for documents it is required to create two new fields, one to replace the original title, and one to replace the original description of a work item.&lt;br/&gt;&lt;br/&gt;&lt;img style="width: 788px;height: 383px;" src="attachment:screenshot-3.jpg"/&gt;</field>
+    <field id="priority">25.0</field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+    <field id="trainingCategory" multi="true" type="enum:trainingCategory"/>
+</work-item>

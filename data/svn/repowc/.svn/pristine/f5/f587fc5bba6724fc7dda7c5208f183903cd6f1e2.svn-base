@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<module>
+    <field id="author">admin</field>
+    <field id="created">2011-02-01 12:59:51.848 +0100</field>
+    <field id="homePageContent" text-type="text/html"><![CDATA[<h1 id="polarion_wiki macro name=module-workitem;params=id=WI-216"></h1><p id="polarion_new_0">
+  Test procedures correspond to one or more test cases, and describe how to carry out the tests.
+</p><div id="polarion_wiki macro name=toc"></div><h2 id="polarion_wiki macro name=module-workitem;params=id=WI-217"></h2><h3 id="polarion_wiki macro name=module-workitem;params=id=WI-218"></h3><p id="polarion_1">
+  Identify the purpose of this Software Test Procedure Specification document and its intended audience.If this procedure executes any test cases, provide a reference for each of them. In addition, provide references to relevant sections of the test item documentation (e.g., references to usage procedures).
+</p><h3 id="polarion_wiki macro name=module-workitem;params=id=WI-219"></h3><p id="polarion_2">
+  Provide a short description of the software features being tested.
+</p><h3 id="polarion_wiki macro name=module-workitem;params=id=WI-220"></h3><p id="polarion_3">
+  List any other documents or Web addresses to which this test case specification document refers. Provide enough information so that the reader could access a copy of each reference, including title, author, version number, date, and source or location.
+</p><h2 id="polarion_wiki macro name=module-workitem;params=id=WI-221"></h2><p id="polarion_4">
+  Describe special requirements for the execution of this procedure. State relevant test data files
+</p><h2 id="polarion_wiki macro name=module-workitem;params=id=WI-222"></h2><p id="polarion_new_5">
+  List of the steps that need to be followed, as applicable
+</p><div id="polarion_wiki macro name=module-workitem;params=id=WI-82|level=0"></div><div id="polarion_wiki macro name=module-workitem;params=id=WI-83|level=0"></div><div id="polarion_wiki macro name=module-workitem;params=id=WI-84|level=0"></div><div id="polarion_wiki macro name=module-workitem;params=id=WI-85|level=0"></div><div id="polarion_wiki macro name=module-workitem;params=id=WI-86|level=0"></div><div id="polarion_wiki macro name=module-workitem;params=id=WI-87|level=0"></div><div id="polarion_wiki macro name=module-workitem;params=id=WI-88|level=0"></div><div id="polarion_wiki macro name=module-workitem;params=id=WI-89|level=0"></div><div id="polarion_wiki macro name=module-workitem;params=id=WI-90|level=0"></div><h2 id="polarion_wiki macro name=module-workitem;params=id=WI-332"></h2><p id="polarion_merged_0">
+  <span style="font-style: italic;">Define all the terms necessary to properly interpret this document, including acronyms and abbreviations. You may wish to build a separate glossary that spans multiple projects or the entire organization, and just include terms specific to a single project in each document.</span>
+</p>]]></field>
+    <field id="outlineNumbering">
+        <struct/>
+    </field>
+    <field id="renderingLayouts">
+        <list>
+            <struct>
+                <item id="label">Task</item>
+                <item id="layouter">section</item>
+                <item id="properties">
+                    <list>
+                        <struct>
+                            <item id="key">fieldsAtStart</item>
+                            <item id="value">id</item>
+                        </struct>
+                        <struct>
+                            <item id="key">fieldsAtEnd</item>
+                            <item id="value">severity, status</item>
+                        </struct>
+                        <struct>
+                            <item id="key">fieldsAtEndAsTable</item>
+                        </struct>
+                        <struct>
+                            <item id="key">hidden</item>
+                        </struct>
+                    </list>
+                </item>
+                <item id="type">task</item>
+            </struct>
+        </list>
+    </field>
+    <field id="status">draft</field>
+    <field id="structureLinkRole">parent</field>
+    <field id="type">generic</field>
+    <field id="usesOutlineNumbering">true</field>
+</module>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">hartliebc</field>
+    <field id="created">2012-07-02 06:47:49.496 -0400</field>
+    <field id="description" text-type="text/html"><![CDATA[<ul>
+  <li>Use action <span style="font-style: italic;">compare with</span> to get an idea what has changed in your branched document<br/>
+    <br/>
+    <img src="attachment:113-screenshot-20141031-084212.png"/><br/>
+    <br/>
+    <table id="polarion_wiki macro name=table" class="polarion-Document-table" style="width: 80%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;">
+      <tbody>
+        <tr>
+          <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Hint: You can also freeze/unfreeze and overwrite items by selecting multiple items inside of your specification. e.g. CTRL + A and open Work Item properties<br/>
+            <img src="attachment:126-screenshot-20151230-104629.png" style="width: 247px;height: 130px;"/></th>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+</ul>]]></field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Compare branched document with its master document</field>
+    <field id="type">exercise</field>
+</work-item>

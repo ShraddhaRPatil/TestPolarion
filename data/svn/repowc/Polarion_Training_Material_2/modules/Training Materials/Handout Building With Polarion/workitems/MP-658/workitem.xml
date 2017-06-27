@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="hyperlinks">
+        <list>
+            <struct>
+                <item id="role">help</item>
+                <item id="uri">http://nbookts/polarion/help/?topic=/com.polarion.xray.doc.user/agchAdvBuildMgmt.html</item>
+            </struct>
+        </list>
+    </field>
+    <field id="author">stroebelet</field>
+    <field id="title">Build Scheduling</field>
+    <field id="created">2011-05-17 20:25:52.697 +0200</field>
+    <field id="priority">25.0</field>
+    <field id="description" text-type="text/html">Regular builds are configured in global scheduler&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;img src="workitemimg:2-screenshot.jpg" style="height: 450px; width: 322px;"/&gt;&lt;br/&gt; </field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="subtitle" type="string"> </field>
+</work-item>

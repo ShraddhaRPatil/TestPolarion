@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">admin</field>
+    <field id="created">2013-11-07 11:05:55.096 -0500</field>
+    <field id="description" text-type="text/html">Check these manager objects to get an idea how they can be used, before we go on with our next topic.&lt;br/&gt; Try:&lt;br/&gt; &lt;ul&gt;&lt;li&gt;$trackerService.getDataService().getLastRevisionCommitedByCurrentThread()&lt;/li&gt;&lt;li&gt;&lt;span style="font-size: 10pt;line-height: 1.5;"&gt;$trackerService.&lt;/span&gt;getTrackerProject(&lt;span style="font-size: 10pt;line-height: 1.5;"&gt;$page.project&lt;/span&gt;).getTrackerPrefix() &lt;/li&gt;&lt;/ul&gt;&lt;table style="width: 602px;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;" class="polarion-Document-table" id="polarion_wiki macro name=table;params=uid=client1"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th style="background-color: #F0F0F0;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"&gt;Hint: These are just easy examples which return a String. You will find much more methods you might use while creating scripts.&lt;/th&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;br/&gt;</field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="type">exercise</field>
+</work-item>

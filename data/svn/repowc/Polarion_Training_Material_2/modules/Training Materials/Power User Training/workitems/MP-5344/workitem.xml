@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">daniel.morris</field>
+    <field id="created">2014-10-30 08:10:50.733 -0400</field>
+    <field id="description" text-type="text/html">In a default Polarion configuration the project role: project_user doesn´t have any write access to Polarion repository. We want project_users to be able to create work items and documents.&lt;br/&gt;&lt;ul&gt;&lt;li&gt;Goto User Managment &amp;gt; Access Management&lt;/li&gt;&lt;li&gt;Select your project folder&lt;/li&gt;&lt;li&gt;Give project_user "Read&amp;Write" access in Roles Assignment&lt;/li&gt;&lt;li&gt;Try to create a work item with your project_user. It shouldn´t be possible because you didn´t add permissions to create work items yet.&lt;/li&gt;&lt;/ul&gt;&lt;br/&gt;</field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Change Access Management for your project_user</field>
+    <field id="type">exercise</field>
+</work-item>

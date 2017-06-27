@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="author">hartliebc</field>
+    <field id="title">MS Word Round-trip: Export</field>
+    <field id="created">2012-05-18 11:03:04.339 +0200</field>
+    <field id="description" text-type="text/html">&lt;img src="workitemimg:2-screenshot-1.jpg" style="width: 251px; height: 50px;"/&gt;&lt;br/&gt;&lt;br/&gt;&lt;img src="attachment:exportdocument.jpg"/&gt;</field>
+    <field id="priority">25.0</field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="subtitle" type="string">Following export scenarios are available for word round trip</field>
+</work-item>

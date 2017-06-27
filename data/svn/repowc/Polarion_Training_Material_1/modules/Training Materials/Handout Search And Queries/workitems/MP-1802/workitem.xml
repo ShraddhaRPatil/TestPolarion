@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="author">stroebelet</field>
+    <field id="title">Search Results</field>
+    <field id="created">2012-02-13 21:49:38.831 +0100</field>
+    <field id="priority">25.0</field>
+    <field id="description" text-type="text/html"> &lt;img src="attachment:searchresult.jpg"/&gt;</field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+    <field id="subtitle" type="string">You can easily switch between search in current project or in whole repositry</field>
+    <field id="trainingCategory" multi="true" type="enum:trainingCategory"/>
+</work-item>

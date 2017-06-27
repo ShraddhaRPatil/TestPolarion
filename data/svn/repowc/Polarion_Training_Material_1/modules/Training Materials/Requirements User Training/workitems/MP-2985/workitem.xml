@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">exercise</field>
+    <field id="author">hartliebc</field>
+    <field id="title">Browse Baseline using Time Machine</field>
+    <field id="created">2012-05-30 16:07:16.585 +0200</field>
+    <field id="priority">25.0</field>
+    <field id="description" text-type="text/html">&lt;ul&gt;&lt;li&gt;Browse your project as it appears in the state of baseline "&lt;span style="font-style: italic;"&gt;Specification for Version 1&lt;/span&gt;"&lt;br/&gt;&lt;br/&gt; &lt;img style="width: 724px;height: 296px;" src="attachment:timemachine-2.jpg"/&gt;&lt;br/&gt;&lt;br/&gt;&lt;/li&gt;&lt;li&gt;What differences did you recognize between baseline and current project ?&lt;br/&gt;&lt;/li&gt;&lt;/ul&gt;</field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+</work-item>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">stroebelet</field>
+    <field id="created">2012-05-08 08:59:33.839 -0400</field>
+    <field id="description" text-type="text/html"><![CDATA[Templates will increase reuse and quality within your projects. Build templates for checklists and guidelines to ensure that project relevant data is tracked. 
+<ul>
+  <li>Open the document library project and browse through the available templates<br/>
+    <img src="attachment:openDocLibrary.jpg"/><br/>
+  </li>
+  <li>Open <span style="font-style: italic;">Test Plan</span> and select the Gear icon and click on Reuse<span id="polarion-comment:19"></span><br/>
+    <img src="attachment:reuse.jpg"/><br/>
+  </li>
+  <li>Enter necessary data in the reuse document dialog window</li>
+  <ul>
+    <li>Provide a new name for the document &quot;<span style="font-style: italic;">Testplan Elibrary Release 1</span>&quot;</li>
+    <li>Select your project and select &quot;<span style="font-style: italic;">Testing</span>&quot; space.</li>
+    <li>Uncheck &quot;<span style="font-style: italic;">link duplicate to original&quot;<br/>
+      </span> <span style="font-weight: bold;">Attention:</span> If you create documents based on existing templates traceability is usually not necessary</li>
+  </ul>
+  <li>Verify that your project now contains the document &quot;<span style="font-style: italic;">Testplan Elibrary Release 1</span>&quot;</li>
+</ul>
+<table id="polarion_wiki macro name=table" class="polarion-Document-table" style="width: 80%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;">
+  <tbody>
+    <tr>
+      <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Hint: In this exercise a test plan is a LiveDoc. This is a good practice but usually Polarion Test Runs are also used for Test Planning.<br/>
+        Some customers are also using a special work item type for test planning.<br/>
+        So in generall there are 3 good practices which one is the best for you depends on your process.</th>
+    </tr>
+  </tbody>
+</table>
+<br/>
+We have imported some test cases which are not yet approved or at least reviewed. Usually these would be our steps before executing these test cases. We will skip these steps so we also need some test cases which can be executed. We already have a test specification in our Elibrary project which can be reused for this project. 
+<ul>
+  <li>Open the Elibrary project and reuse &quot;<a href="http://127.0.0.1/polarion/#/project/elibrary/wiki/Testing/User%20Acceptance%20Test%20Specification" target="_blank">User Acceptance Test Specification</a>&quot; so we have this specification in our project.</li>
+</ul>
+<table id="polarion_wiki macro name=table;params=width=600px" class="polarion-Document-table" style="width: 600px;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;">
+  <tbody>
+    <tr>
+      <th style="font-weight: bold;font-size: 9pt;background-color: #F0F0F0;line-height: 1.5;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Hint: If you want to know how to review and approve check our Requirements User Training. </th>
+    </tr>
+  </tbody>
+</table>
+<br/>]]></field>
+    <field id="linkedWorkItems">
+        <list>
+            <struct>
+                <item id="revision">41894</item>
+                <item id="role">branched_from</item>
+                <item id="workItem">MP-784</item>
+            </struct>
+            <struct>
+                <item id="revision">42459</item>
+                <item id="role">branched_from</item>
+                <item id="workItem">MP-2618</item>
+            </struct>
+        </list>
+    </field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Using document templates</field>
+    <field id="type">exercise</field>
+</work-item>

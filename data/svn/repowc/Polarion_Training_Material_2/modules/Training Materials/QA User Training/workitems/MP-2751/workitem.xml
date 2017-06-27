@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">hartliebc</field>
+    <field id="created">2012-05-07 07:30:58.882 -0400</field>
+    <field id="description" text-type="text/html"><![CDATA[In order to meet project or product deadlines you must be able to have a cohesive system that allows all stakeholders to work in real time. If stakeholders are working in silos the time to market or the ability to fix a defect can be more time consuming which will lead to delays. A way to deal with this is to provide complete forensic traceability so that all requirements are linked to a test case. Having requirements linked with test cases will keep your product managers, developers and QA stakeholders all in sync and doing so in real time so that deadlines and goals are met.<br/>
+<ul>
+  <li>Create a &quot;<span style="font-style: italic;">verifies</span>&quot; link from <span style="font-style: italic;">example requirement &quot;Some functional requirement representing a system feature. Itemize the detailed...&quot;</span> to <span style="font-style: italic;">test case &quot;<span style="font-size: 10pt;line-height: 1.5;">Login should be case sensitive</span>&quot;</span><br/>
+    <span style="font-weight: bold;">Attention:</span> Click on the start link icon of <span style="font-style: italic;">&quot;</span>Some functional requirement representing a system feature. Itemize the detailed...<span style="font-style: italic;">&quot;</span> click on the link icon of <span style="font-style: italic;">&quot;<span style="font-size: 10pt;line-height: 1.5;">Login should be case sensitive</span>&quot; select link role &quot;is verified by&quot;  and save your changes.</span><br/>
+    <span style="font-style: italic;"><img src="attachment:startlink.jpg"/></span><br/>
+    <span style="font-style: italic;"><img src="attachment:Link.jpg" style="width: 0px;height: 0px;"/><img src="attachment:Link.jpg"/></span><br/>
+  </li>
+</ul>]]></field>
+    <field id="linkedWorkItems">
+        <list>
+            <struct>
+                <item id="revision">42472</item>
+                <item id="role">branched_from</item>
+                <item id="workItem">MP-2650</item>
+            </struct>
+        </list>
+    </field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Link Testcases with requirements</field>
+    <field id="type">exercise</field>
+</work-item>

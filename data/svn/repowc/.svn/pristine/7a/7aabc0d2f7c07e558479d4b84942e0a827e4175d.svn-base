@@ -1,0 +1,20 @@
+###############################################################################
+##
+##  description.vm - this velocity script is executed to render the widget extended tooltip
+##
+
+<b>Parameters:</b>
+<ul>
+<li><b>Plans</b> - Define the plan parameters.
+<ul>
+<li><b>Scope</b> - Select the target Project or Repository. The current project is selected by default.<br/>
+(To select a Project or Repository outside the current scope, click on the drop-down box, click "<b>Select</b>" and click on a target in the dialog that appears.)</li>
+<li><b>Query Type</b> - Select a query type. (Lucene, Lucene + Velocity, SQL or SQL + Velocity.)</li>
+<li><b>Type</b> - Select the object type. NOTE: Only "Plan" objects are valid for this widget.</li>
+<li><b>Query</b> (Optional) - Click "+" to specify additional query options.</li>
+</ul>
+</li>
+<li><b>Show Children</b> - Specify whether to show child plans on the chart. (Set to "No" by default.)</li>
+<li><b>Detailed Scale</b> - Adds another level of detail (e.g date) to the scale. (Set to "No" by default.)</li>
+<li><b>Height</b> - Specify the chart's height in pixels.</li>
+</ul>

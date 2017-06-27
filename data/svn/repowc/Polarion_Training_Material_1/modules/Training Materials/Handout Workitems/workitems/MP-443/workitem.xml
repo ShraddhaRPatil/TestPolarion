@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="hyperlinks">
+        <list>
+            <struct>
+                <item id="role">renderSlide</item>
+                <item id="uri">/polarion/wiki/bin/view/project/MyPolarion/page/macros/RenderSlides?item=MP-443</item>
+            </struct>
+        </list>
+    </field>
+    <field id="author">admin</field>
+    <field id="title">Creating Work Items</field>
+    <field id="created">2011-03-24 15:04:52.744 +0100</field>
+    <field id="priority">25.0</field>
+    <field id="description" text-type="text/html">&lt;table style="width: 100%;margin-left: auto;margin-right: auto;empty-cells: show;border-collapse: collapse;" id="polarion_wiki macro name=table;params=header=no|border=no|width=100%"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style="line-height: 18px;text-align: left;vertical-align: top;padding: 2px;"&gt;&lt;span style="font-weight: bold;"&gt; Create Work Item via shortcut&lt;/span&gt;&lt;br/&gt; &lt;img src="attachment:createWIShortcut.jpg"/&gt;&lt;/td&gt;&lt;td style="line-height: 18px;text-align: left;vertical-align: top;padding: 2px;"&gt;                    &lt;/td&gt;&lt;td style="line-height: 18px;text-align: left;vertical-align: top;padding: 2px;"&gt;&lt;span style="font-weight: bold;"&gt; Create work item via tracker&lt;/span&gt;&lt;br/&gt; &lt;ul&gt;&lt;li&gt;Select the "&lt;span style="font-style: italic;"&gt;Work Items&lt;/span&gt;" topic in Navigation&lt;br/&gt; &lt;img src="attachment:createWIViaTRracker.jpg"/&gt;&lt;/li&gt;&lt;li&gt;Click on a Work Item icon or the "+" symbol&lt;br/&gt; &lt;img src="attachment:createwiViaTracker2.jpg"/&gt;&lt;br/&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="line-height: 18px;text-align: left;vertical-align: top;padding: 2px;"&gt; &lt;span style="font-weight: bold;"&gt;Create a Work Item via duplication&lt;/span&gt;&lt;br style="font-weight: bold;"/&gt; &lt;img src="attachment:createWIViaDuplicataion.jpg"/&gt;&lt;/td&gt;&lt;td style="line-height: 18px;text-align: left;vertical-align: top;padding: 2px;"&gt; &lt;/td&gt;&lt;td style="line-height: 18px;text-align: left;vertical-align: top;padding: 2px;"&gt; &lt;span style="font-weight: bold;"&gt;Create a Work Item and directly link it&lt;/span&gt;&lt;br/&gt; &lt;img src="attachment:createWIandLink.jpg"/&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</field>
+    <field id="status">accepted</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+    <field id="subtitle" type="string">Items can be created in many different ways</field>
+    <field id="hint" type="string">when you duplicate a work item all fields are copied to the new work item and a link is created to the original item</field>
+</work-item>

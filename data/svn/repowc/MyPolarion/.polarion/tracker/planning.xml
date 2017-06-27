@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<planning>
+    
+    <!-- estimate used for planning of work items with remaining estimate not filled -->
+    <default-estimate>1d</default-estimate>        
+
+    <!-- query matching work items that should be planned 
+	<workitems-query>resolution:######NULL AND type:task</workitems-query>
+	-->
+	<!-- plan all items with timepoint assignment or that are of type task -->
+    <!-- <workitems-query>(resolution:######NULL AND type:task) AND NOT timePoint.id:######NULL</workitems-query> -->
+  
+	<!-- plan all requirements that are accepted and all tasks that have at least a timepoint or  a duedate-->
+  	<workitems-query>(type:task AND resolution:######NULL) AND NOT timePoint.id:######NULL</workitems-query>
+	
+    <!-- linked work item role ids that have "dependency" meaning; i.e. if work item "A" 
+         is linked with other work item "B" with "dependency" role then work item "A" 
+         would be planned after workitem "B" 
+    -->
+    <dependency-roles>
+        <role>depends_on</role>
+    </dependency-roles>
+
+    <!-- linked work item role ids that have "parent" meaning -->
+    <parent-roles>
+        <role>parent</role>
+        <role>implements</role>
+    </parent-roles>
+
+    <!-- enables splitting of workitems; if this behavior is enabled then when polarion searches for a space
+         for a workitem in the plan, it may decide to split the workitem to two or more pieces and thus make 
+         use of periods in time before workitem fixed or postponed by a planning constraint, so that 
+         the resulting plan is more optimal in terms of priorities
+    -->
+    <workitem-splitting>true</workitem-splitting>
+
+    <!-- number of working hours in a working day (there are 5 working days per week);
+         this is a global option - you cannot override it in a project configuration
+    -->
+    <hours-per-day>8</hours-per-day>
+
+    <!-- if this option is set to true, work items with due date or time point 
+         are preferred in the planning order (i.e. they will be planned before work items 
+         without due date or time point, with exceptions due to planning constraints);
+         this is a global option - you cannot override it in a project configuration
+    -->
+    <due-date-planning>true</due-date-planning>
+    
+</planning>

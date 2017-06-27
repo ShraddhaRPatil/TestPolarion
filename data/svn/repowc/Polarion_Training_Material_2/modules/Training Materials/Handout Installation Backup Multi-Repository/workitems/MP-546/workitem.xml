@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="author">stroebelet</field>
+    <field id="title">Installation, Backup and Multirepository</field>
+    <field id="created">2011-05-05 18:42:10.676 +0200</field>
+    <field id="description" text-type="text/html">&lt;ul&gt;&lt;li&gt;Polarion.properties file expalined&lt;/li&gt;&lt;li&gt;setting ideal start parameters&lt;/li&gt;&lt;li&gt;What to back up&lt;/li&gt;&lt;li&gt;Integrating LDAP/AD&lt;/li&gt;&lt;li&gt;Multi-Repository&lt;br/&gt;&lt;/li&gt;&lt;/ul&gt;</field>
+    <field id="priority">25.0</field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="subtitle" type="string"> </field>
+    <field id="trainingCategory" multi="true" type="enum:trainingCategory">
+        <list>
+            <item>admin</item>
+        </list>
+    </field>
+</work-item>

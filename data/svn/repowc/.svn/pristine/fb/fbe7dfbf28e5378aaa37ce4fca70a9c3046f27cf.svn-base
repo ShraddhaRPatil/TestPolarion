@@ -1,0 +1,73 @@
+
+#set($items = $parameters.workItems.getFor().revision($null).items())
+#set($property = $parameters.properties.singleValue)
+property>>$property
+#foreach($item in $items)
+id>>$item.render.withTitle.withLinks<br>
+##status>>$item.getOldApi.status
+#set($type = $item.getOldApi.type.id)<br>
+#end
+
+#set($enumOptionNameMap = $objectFactory.newMap())
+###set($colorArray = ["00ff00","FFA500","FF0000","0000FF","808080","FFFF00","ffffff"])
+ 
+
+##map for capa status and no. of WI
+        
+        #*  #set($enums = $transaction.enumerations()) 
+		  #set($projectId=$page.reference.projectId)
+          #set($globalEnums = $enums.definedEnumerations().forProject($projectId))
+	      #set($Enums1=$enums.getEnumeration("capa-status").forProject($projectId))
+		  
+		    #set($enumOptions=$Enums1.options())
+	            #foreach ( $option in $enumOptions )
+                  #set($oId = $option.id())
+				  
+				  #set($_query =  "type:capa AND status:$oId")
+                  #set($_sort = "id")
+                  #set($_items = $trackerService.queryWorkItems($_query, $_sort)) 
+                  #set($numCapa = $_items.size())
+				  $numCapa<br> 
+				  #set($void=$enumOptionNameMap.put($oId,$numCapa))
+		  #end *#
+		  
+		  
+##for severity		  
+		  #set($enums = $transaction.enumerations()) 
+		  #set($projectId=$page.reference.projectId)
+          #set($globalEnums = $enums.definedEnumerations().forProject($projectId))
+		  #set($Enums1=$enums.getEnumeration("severity").forProject($projectId))
+		   #set($enumOptions=$Enums1.options())
+	            #foreach ( $option in $enumOptions )
+                  #set($oId = $option.id())
+				  
+				  #set($_query =  "type:capa AND severity:$oId")
+                  #set($_sort = "id")
+                  #set($_items = $trackerService.queryWorkItems($_query, $_sort)) 
+                  #set($numCapa = $_items.size())
+				  $numCapa<br> 
+				  #set($void=$enumOptionNameMap.put($oId,$numCapa))
+		#end
+		
+		
+		
+##piechart	  
+
+    #set($html0=$renderingContext.createHtmlFragmentBuilder())
+    #set($chart=$renderingContext.createChartBuilder())  
+	#set($pie=$chart.pie().name("runresults"))
+	## #set($count = 0)
+		  #foreach($key in $enumOptionNameMap.keySet())
+			
+		   ##key>>$key >>>>>$enumOptionNameMap.get($key)<br>
+		   #set($p1=$!pie.addValue($key,$enumOptionNameMap.get($key)).null)
+		     ## #set($void=$!p1.color($colorArray.get($count)))
+		  #end
+		 ## #set($count = $count + 1)
+	 #set($void=$!chart.build().title().text("Status-Result").null)
+    #set($void=$!chart.build().plotOptions().pie().addRawAttribute("tooltip","{pointFormat:'Share:<b>{point.y}</b>'}").null)
+    #set($void=$!chart.build().render($html0,380,$RichPageWidgetCommonContext.columnWidth()).null)
+    $html0	 
+   
+	
+

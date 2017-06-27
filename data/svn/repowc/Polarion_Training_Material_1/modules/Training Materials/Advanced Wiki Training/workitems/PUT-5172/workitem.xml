@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">admin</field>
+    <field id="created">2013-11-06 11:39:49.990 +0100</field>
+    <field id="description" text-type="text/html">Additionally we want an overview how much defects exist dependent on their priority on top of our defect page.&lt;br/&gt;&lt;ul&gt;&lt;li&gt;Add a table with 2 columns and without header using wiki macro.&lt;/li&gt;&lt;li style="list-style: none"&gt;&lt;ul&gt;&lt;li&gt;Add values of priority enumerations to first column.&lt;/li&gt;&lt;li&gt;Add workitems macro using same queries as in previous exercise to second column but display result as a number.&lt;/li&gt;&lt;li style="list-style: none"&gt;&lt;ul&gt;&lt;li&gt;Use display=count&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;span style="font-weight: bold;"&gt;Example Image:&lt;/span&gt;&lt;br/&gt;&lt;img src="attachment:defect_dashboard_count.jpg"/&gt;&lt;br/&gt;</field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="type">exercise</field>
+</work-item>

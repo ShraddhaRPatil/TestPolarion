@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">stroebelet</field>
+    <field id="created">2012-05-31 07:36:35.730 -0400</field>
+    <field id="description" text-type="text/html"><![CDATA[Let&#39;s suppose that the mobile version should have a more restrictive password configuration
+<ul>
+  <li>Remove requirement <span style="font-style: italic;">Password must contain at least one number</span> from our branched document  Portal Specification Android using work item menu.<br/>
+    <br/>
+    <img src="attachment:remove.jpg" style="width: 199px;height: 400px;"/><br/>
+    <br/>
+  </li>
+  <li>Select requirement <span style="font-style: italic;">Password must contain at least 8 characters</span> and add a more restrictive password configuration using Polarion&#39;s overwrite function<br/>
+    <br/>
+    <img src="attachment:overwrite.jpg" style="width: 516px;height: 400px;"/><br/>
+  </li>
+  <li>Add an additional requirement to your branched document.</li>
+</ul>]]></field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Overwrite and Remove Requirements from branched documents</field>
+    <field id="type">exercise</field>
+</work-item>

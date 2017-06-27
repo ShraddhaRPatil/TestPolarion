@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">hartliebc</field>
+    <field id="created">2012-07-10 03:26:37.673 -0400</field>
+    <field id="description" text-type="text/html"><![CDATA[<ul>
+  <li>Create a comparison report for your current <span style="font-style: italic;">E-Library_2011 specification</span> and your baselined version of <span style="font-style: italic;">E-Library_2011</span> <span style="font-style: italic;">specification </span>using document history<br/>
+    <br/>
+    <img src="attachment:comparedocumentrev.jpg" style="width: 724px;height: 236px;"/><br/>
+    <br/>
+    </li>
+  <li>Create a comparison report for your whole project between your current project state and the baselined project state using baseline comparison report<br/>
+    <br/>
+    <img src="attachment:baselinecompare.jpg" style="width: 724px;height: 296px;"/><br/>
+    <br/>
+    </li>
+  <li>What are the differences between the reports ?</li>
+</ul>]]></field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Create Comparison Report</field>
+    <field id="type">exercise</field>
+</work-item>

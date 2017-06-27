@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">CarolaH</field>
+    <field id="created">2012-08-06 06:45:47.841 -0400</field>
+    <field id="description" text-type="text/html"><![CDATA[Lets assume we have a complex change request and we need to document our changes and impact analysis for our customer. 
+<ul>
+  <li>Create a new space with name <span style="font-style: italic;">Change Requests</span><br/>
+    
+    <table id="polarion_wiki macro name=table;params=width=600px" class="polarion-Document-table" style="width: 600px;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;">
+      <tbody>
+        <tr>
+          <th style="font-weight: bold;font-size: 9pt;background-color: #F0F0F0;line-height: 1.5;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Hint: Select <span style="font-style: italic;">Documents &amp; Pages</span> in your navigation bar </th>
+        </tr>
+      </tbody>
+    </table>
+    </li>
+  <li>Add a favorite shortcut for your new space <span style="font-style: italic;">Change Requests</span><br/>
+    <img src="attachment:favorite.jpg"/><br/>
+    </li>
+  <li>Create a new document in space <span style="font-style: italic;">Change Requests</span> and name it <span style="font-style: italic;">Impact Analysis Simple Search Extension</span></li>
+  <li>Configure your document that all of the following work items are allowed in your document (for all work items title and description should be shown on document):<br/>
+    </li>
+  <ul>
+    <li>Requirement</li>
+    <li>Task</li>
+    <li>Change Request</li>
+    <li>Test Case<br/>
+      <img src="attachment:127-screenshot-20151230-111245.png" style="width: 704px;height: 288px;"/><br/>
+      </li>
+  </ul>
+  <li>Move your change request to your document using work item action menu<br/>
+    <img src="attachment:move.jpg"/><br/>
+    </li>
+  <li>Add Heading <span style="font-style: italic;">Needed Tasks</span> and move the related task to this chapter.<br/>
+    </li>
+  <li>Add Heading <span style="font-style: italic;">Requirements</span> and add references to all affected requirements<br/>
+    <br/>
+    <img src="attachment:in.jpg" style="width: 724px;height: 399px;"/><br/>
+    
+    <table id="polarion_wiki macro name=table;params=width=600px" class="polarion-Document-table" style="width: 600px;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;">
+      <tbody>
+        <tr>
+          <th style="font-weight: bold;font-size: 9pt;background-color: #F0F0F0;line-height: 1.5;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Hint: You can also use Copy&amp;Paste to add a reference to a work item. </th>
+        </tr>
+      </tbody>
+    </table>
+    </li>
+  <li>Add Heading <span style="font-style: italic;">Test Cases</span> and add references to all affected test cases<br/>
+    </li>
+  <li>Add modification for requirement by using work item overwrite option<br/>
+    
+    <table id="polarion_wiki macro name=table;params=width=600px" class="polarion-Document-table" style="width: 600px;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;">
+      <tbody>
+        <tr>
+          <th style="font-weight: bold;font-size: 9pt;background-color: #F0F0F0;line-height: 1.5;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Hint: These modified/new requirements can be moved to correct specification document later on and replaced by their reference in our impact analysis document </th>
+        </tr>
+      </tbody>
+    </table>
+    </li>
+</ul>]]></field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Create Change and Impact Document</field>
+    <field id="type">exercise</field>
+</work-item>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><wiki-page>
+<author>rProject</author>
+<created>20150130174956</created>
+<type>content</type>
+<content><![CDATA[#if($page.name.equals("Iteration_34-burndown"))
+1 Iteration 34 - Burn down
+
+This is just a demo chart, as Polaion ALM demodata does not contain historical data. It shows how the actual Iteration Burn Down chart looks.
+#end
+
+#set($width = 800)
+#set($height = 400)
+#if($forDevHome)
+#set($width = 400)
+#set($height = 200)
+#end
+
+{pre}
+<div>
+  <div id="JsMacroRenderer_9" style="width:${width}px;height:${height}px;"></div>
+<script type="text/javascript">
+Highcharts.setOptions({chart: {style: {fontFamily: 'Arial, Helvetica, \"sans-serif\"'}}});
+Highcharts.setOptions({ lang:{months:['January','February','March','April','May','June','July','August','September','October','November','December'], shortMonths:['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'], weekdays:['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'], decimalPoint: '.', loading: 'Loading...', resetZoom: 'Reset Zoom', resetZoomTitle: 'Reset zoom level 1:1', thousandSep: ',', contextButtonTitle: 'Chart context menu', printChart: 'Print Chart', downloadJPEG: 'Download JPEG image', downloadPDF: 'Download PDF document', downloadPNG: 'Download PNG image', downloadSVG: 'Download SVG image'}});
+var options = {chart: {}, 
+title: {text: '', useHTML:true}, 
+exporting: {enabled: false}, 
+credits: {href: null,text: null}, 
+xAxis : {maxPadding: 0, type: 'datetime'}, 
+yAxis : {title: {text: 'Working Hours', useHTML:true}, gridLineWidth : 0},
+ tooltip: {backgroundColor: 'rgba(247, 247, 247, 0.9)', formatter: function(){return this.point.hint;} } 
+,
+series: [
+{name: 'Ideal Progress',
+type: 'area',
+color: '#1d9bd6',
+marker: {enabled: false}, 
+dashStyle: 'ShortDot',
+fillColor: 'rgba(225, 240, 255, 0.5)',
+data: [{x : Date.UTC(2015, 0, 13), y : 160.0, hint : '2015-01-13<br>This is sample content only'},
+ {x : Date.UTC(2015, 0, 19), y : 70.0, hint : '2015-01-21<br>This is sample content only'},
+ {x : Date.UTC(2015, 0, 20), y : 70.0, hint : '2015-01-21<br>This is sample content only'},
+ {x : Date.UTC(2015, 0, 25), y : 0.0, hint : '2015-01-25<br>This is sample content only'}]}
+,
+{name: 'Real Progress',
+type: 'area',
+color: '#53ccb1',
+marker: {radius: 5, lineWidth: 2, lineColor: 'white', fillColor: '#53ccb1'}, 
+fillOpacity: 0.3,
+data: [{x : Date.UTC(2015, 0, 13), y : 160.0, hint : '2015-01-13<br>This is sample content only'},
+ {x : Date.UTC(2015, 0, 14), y : 158.0, hint : '2015-01-14<br>This is sample content only'},
+ {x : Date.UTC(2015, 0, 15), y : 149.0, hint : '2015-01-15<br>This is sample content only'},
+ {x : Date.UTC(2015, 0, 16), y : 142.0, hint : '2015-01-16<br>This is sample content only'},
+ {x : Date.UTC(2015, 0, 17), y : 121.0, hint : '2015-01-17<br>This is sample content only'},
+ {x : Date.UTC(2015, 0, 18), y : 115.0, hint : '2015-01-18<br>This is sample content only'}]}
+,
+{name: 'Relative Progress',
+type: 'column',
+color: '#aed77e',
+marker: {enabled: false},
+data: [{x : Date.UTC(2015, 0, 14), y : 2.0, hint : '2015-01-14<br>This is sample content only'},
+ {x : Date.UTC(2015, 0, 15), y : 9.0, hint : '2015-01-15<br>This is sample content only'},
+ {x : Date.UTC(2015, 0, 16), y : 7.0, hint : '2015-01-16<br>This is sample content only'},
+ {x : Date.UTC(2015, 0, 17), y : 21.0, hint : '2015-01-17<br>This is sample content only'},
+ {x : Date.UTC(2015, 0, 18), y : 6.0, hint : '2015-01-18<br>This is sample content only'}]}
+]};
+options.xAxis.type = 'datetime';
+options.chart.zoomType= 'x';
+if (options.chart == null){
+ options.chart = {height: ${height}, width: ${width}};
+} else {
+ options.chart.height = ${height};
+ options.chart.width = ${width};
+}
+if (options.chart == null){
+ renderTo: 'JsMacroRenderer_9'
+} else {
+options.chart.renderTo = 'JsMacroRenderer_9';
+}
+new Highcharts.Chart(options);
+</script>
+</div>
+{/pre}
+]]></content>
+</wiki-page>

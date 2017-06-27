@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">daniel.morris</field>
+    <field id="created">2014-10-31 07:40:33.830 -0400</field>
+    <field id="description" text-type="text/html">&lt;img style="width: 522px;height: 500px;" src="workitemimg:1-screenshot-20141031-074034.png"/&gt;&lt;br/&gt;Custom sets limit permissions of user roles down to specific work items types, documents type, etc.&lt;br/&gt;</field>
+    <field id="previousStatus">open</field>
+    <field id="printNotes" text-type="text/html" type="text/html">Thes Notes will be printed as part of the training materials</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Custom sets</field>
+    <field id="type">slide</field>
+</work-item>

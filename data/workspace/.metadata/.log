@@ -1,0 +1,37 @@
+!SESSION 2017-06-21 13:54:10.973 -----------------------------------------------
+eclipse.buildId=M20060118-1600
+java.version=1.8.0_111
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  WARNING: If Polarion is installed as a service, it is necessary to reinstall the service for changes in this file to take effect. Run service.bat to do this. 
+Command-line arguments:  WARNING: If Polarion is installed as a service, it is necessary to reinstall the service for changes in this file to take effect. Run service.bat to do this.  -data C:\Polarion\polarion\..\data\workspace
+
+!ENTRY com.polarion.platform.jobs 4 0 2017-06-21 14:00:00.226
+!MESSAGE Unexpected planning error: .
+!STACK 0
+java.lang.NullPointerException
+	at com.polarion.platform.internal.LicenseSecurityManager.getUserLicense(LicenseSecurityManager.java:589)
+	at com.polarion.platform.internal.LicenseSecurityManager.isFeatureAvailableForUserNC(LicenseSecurityManager.java:687)
+	at com.polarion.platform.internal.LicenseSecurityManager.isFeatureAvailableForUser(LicenseSecurityManager.java:681)
+	at com.polarion.alm.tracker.internal.TrackerPolicy.canUsePercentualAssignment(TrackerPolicy.java:475)
+	at com.polarion.alm.tracker.internal.planning.Plan.readPercentualProjectAssignment(Plan.java:276)
+	at com.polarion.alm.tracker.internal.planning.Plan.checkActivities(Plan.java:206)
+	at com.polarion.alm.tracker.internal.planning.Plan.getActivities(Plan.java:149)
+	at com.polarion.alm.tracker.internal.planning.DefaultPlanningEngine.sanitizePlan(DefaultPlanningEngine.java:219)
+	at com.polarion.alm.tracker.internal.planning.DefaultPlanningEngine.doPlanning(DefaultPlanningEngine.java:128)
+	at com.polarion.alm.tracker.internal.planning.UpdatePlanJobUnitFactory$UpdatePlanJobUnit.doPlanning(UpdatePlanJobUnitFactory.java:183)
+	at com.polarion.alm.tracker.internal.planning.UpdatePlanJobUnitFactory$UpdatePlanJobUnit.runInternal(UpdatePlanJobUnitFactory.java:130)
+	at com.polarion.platform.jobs.spi.AbstractJobUnit.run(AbstractJobUnit.java:194)
+	at com.polarion.platform.jobs.internal.eclipse.WrappedEclipseRootJob$2$1.runWEx(WrappedEclipseRootJob.java:210)
+	at com.polarion.platform.jobs.internal.eclipse.WrappedEclipseRootJob$2$1.runWEx(WrappedEclipseRootJob.java:1)
+	at com.polarion.core.util.RunnableWEx.runWRet(RunnableWEx.java:61)
+	at com.polarion.platform.persistence.internal.JobContextService.doInContext(JobContextService.java:24)
+	at com.polarion.platform.persistence.internal.JobContextService.doInContext(JobContextService.java:1)
+	at com.polarion.platform.jobs.internal.eclipse.WrappedEclipseRootJob$2.run(WrappedEclipseRootJob.java:202)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAsPrivileged(Subject.java:483)
+	at com.polarion.platform.internal.security.SubjectNDC.doAsPrivileged(SubjectNDC.java:80)
+	at com.polarion.platform.jobs.internal.eclipse.WrappedEclipseRootJob.runJob(WrappedEclipseRootJob.java:192)
+	at com.polarion.platform.jobs.internal.eclipse.WrappedEclipseRootJob.runJobs(WrappedEclipseRootJob.java:168)
+	at com.polarion.platform.jobs.internal.eclipse.WrappedEclipseRootJob.run(WrappedEclipseRootJob.java:101)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:76)

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">schucks</field>
+    <field id="created">2013-11-14 05:32:21.709 -0500</field>
+    <field id="description" text-type="text/html">&lt;span style="font-weight: bold;"&gt;The first Workflow Extension&lt;/span&gt;&lt;br/&gt;&lt;br/&gt;To start with an own plugin it is always a good idea to reuse an existing example.&lt;br/&gt;In this case &lt;ul&gt;&lt;li&gt;use the workflow example from "C:\Polarion\polarion\SDK\examples\com.polarion.example.workflow".&lt;/li&gt;&lt;li&gt;Import this example project to Eclipse.&lt;/li&gt;&lt;li&gt;Have a look at the included Java files to see what it does.&lt;/li&gt;&lt;/ul&gt;Make the plugin run directly from Eclipse. The SDK guide holds a step by step instruction to configure the target environment. &lt;br/&gt;&lt;ul&gt;&lt;li&gt;Follow the steps in Chapter 4.2 "Workspace Preparation" contained in SDK.pdf&lt;/li&gt;&lt;/ul&gt;If everything works as expected, export your plugin to the Polarion installation.&lt;br/&gt;&lt;ul&gt;&lt;li&gt;Follow the steps in chapter 4.3 "Deployment to Installed Polarion" contained in SDK.pd&lt;/li&gt;&lt;/ul&gt;</field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="type">exercise</field>
+</work-item>

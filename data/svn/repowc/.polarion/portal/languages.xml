@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<languages>
+<!-- 
+	<language default="true">
+		<label>Default Language</label>
+	</language>
+
+	<language>
+		<label>English</label>
+		<workItemTypes>
+			<workItemType default="true">
+				<titleField>title_en</titleField>
+				<descriptionField>description_en</descriptionField>
+			</workItemType>
+			<workItemType id="defect">
+				<titleField>defect_title_en</titleField>
+				<descriptionField>defect_description_en</descriptionField>
+			</workItemType>
+		</workItemTypes>
+	</language>
+ -->
+</languages>

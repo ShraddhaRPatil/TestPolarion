@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<fields>
+    <field description="List of Projects supported by QMS team" id="project" name="Project" type="enum:Project"/>
+    <field description="Product release where Issue found" id="foundInRelease" name="Found in Release" type="enum:foundInRelease"/>
+    <field description="Product Release in which Issue will be fixed" id="fixInRelease" name="Fix in Release" type="enum:fixInRelease"/>
+    <field description="Owner of the Issue" id="issueOwner" name="Issue Owner" type="enum:issueOwner"/>
+    <field description="Issue resulted in type of resolution" id="resolutionType" name="Resolution Type" type="enum:resolutionType"/>
+    <field description="Feature of Product impacted by Issue" id="impactedFeature" name="Impacted Feature" type="string"/>
+    <field description="Business Use case impacted by Issue" id="impactedUseCase" name="Impacted Use Case" type="string"/>
+    <field description="Priority" id="priority" name="Priority" type="enum:priority"/>
+    <field description="Issue Category" id="category" name="Category" type="enum:category"/>
+    <field description="Issue Sub Category" id="subCategory" name="Sub Category" type="enum:subCategory"/>
+    <field description="Date by which Issue will be fixed" id="dueDate" name="Proposed Due Date" type="date"/>
+    <field description="Liklihood of occurence of Issue" id="liklihood" name="Liklihood" type="enum:liklihood"/>
+    <field description="Issue reported by" id="originatorName" name="Originator Name" type="string"/>
+    <field description="Issue reporter's phone no" id="originatorTel" name="Originator Telephone" type="string"/>
+    <field description="Issue reporter's email id" id="originatorEmail" name="Originator email id" type="string"/>
+    <field description="Issue reporter's location and address" id="originatorAddress" name="Originator Office Address and Location" type="string"/>
+</fields>

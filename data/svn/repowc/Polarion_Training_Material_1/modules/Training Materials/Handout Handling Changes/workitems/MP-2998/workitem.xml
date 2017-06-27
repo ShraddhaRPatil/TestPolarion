@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="hyperlinks">
+        <list>
+            <struct>
+                <item id="role">renderSlide</item>
+                <item id="uri">/polarion/wiki/bin/view/project/MyPolarion/page/macros/RenderSlides?item=MP-512</item>
+            </struct>
+        </list>
+    </field>
+    <field id="author">hartliebc</field>
+    <field id="title">Manage Changes as Work Items</field>
+    <field id="created">2012-05-30 16:49:10.434 +0200</field>
+    <field id="priority">25.0</field>
+    <field id="description" text-type="text/html">&lt;ul&gt;&lt;li&gt;Track changes as Work Items of type &lt;span style="font-weight: bold;text-decoration: underline;"&gt;change request&lt;/span&gt;&lt;/li&gt;&lt;li&gt;Do not change requirements directly but create &lt;span style="font-weight: bold;text-decoration: underline;"&gt;delta specs and link them below the change request&lt;/span&gt;&lt;/li&gt;&lt;li&gt;If a detailed analysis is needed, &lt;span style="font-weight: bold;text-decoration: underline;"&gt;create analysis tasks&lt;/span&gt; and &lt;span style="font-weight: bold;text-decoration: underline;"&gt;link them below the change request&lt;/span&gt;&lt;/li&gt;&lt;li&gt;Plan the change request and all Work Items below the release in which the change should be implemented&lt;/li&gt;&lt;/ul&gt;&lt;img style="width: 726px;height: 341px;" src="workitemimg:1-screenshot.jpg"/&gt;&lt;br/&gt;</field>
+    <field id="status">accepted</field>
+    <field id="severity">normal</field>
+    <field id="subtitle" type="string">Track changes to keep control on the status </field>
+    <field id="exercises" type="string">&lt;div&gt;&lt;br&gt;&lt;/div&gt;</field>
+</work-item>

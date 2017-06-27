@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="author">CarolaH</field>
+    <field id="title">Reuse Versus Branch</field>
+    <field id="created">2012-07-31 15:31:55.654 +0200</field>
+    <field id="priority">25.0</field>
+    <field id="description" text-type="text/html">   &lt;img style="width: 788px;height: 604px;" src="attachment:branchreuse.jpg"/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;table style="width: 80%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;" class="polarion-Document-table" id="polarion_wiki macro name=table;params=align=center"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th style="font-weight: bold;font-size: 12px;background-color: #F0F0F0;text-align: center;vertical-align: top;border: 1px solid #CCCCCC;padding: 5px;"&gt; Typical Use Cases&lt;/th&gt;&lt;th style="font-weight: bold;font-size: 12px;background-color: #F0F0F0;text-align: center;vertical-align: top;border: 1px solid #CCCCCC;padding: 5px;"&gt; Reuse Document&lt;/th&gt;&lt;th style="font-weight: bold;font-size: 12px;background-color: #F0F0F0;text-align: center;vertical-align: top;border: 1px solid #CCCCCC;padding: 5px;"&gt; Branch Document or Work Item&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="font-size: 12px;line-height: 18px;text-align: center;vertical-align: top;border: 1px solid #CCCCCC;padding: 5px;"&gt; Document Template&lt;/td&gt;&lt;td style="font-size: 12px;line-height: 18px;text-align: center;vertical-align: top;border: 1px solid #CCCCCC;padding: 5px;"&gt; X&lt;/td&gt;&lt;td style="font-size: 12px;line-height: 18px;text-align: center;vertical-align: top;border: 1px solid #CCCCCC;padding: 5px;"&gt; &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="font-size: 12px;line-height: 18px;text-align: center;vertical-align: top;border: 1px solid #CCCCCC;padding: 5px;"&gt; Variants&lt;/td&gt;&lt;td style="font-size: 12px;line-height: 18px;text-align: center;vertical-align: top;border: 1px solid #CCCCCC;padding: 5px;"&gt; &lt;/td&gt;&lt;td style="font-size: 12px;line-height: 18px;text-align: center;vertical-align: top;border: 1px solid #CCCCCC;padding: 5px;"&gt;X&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+    <field id="subtitle" type="string">What is the main difference between branch and reuse ?</field>
+    <field id="trainingCategory" multi="true" type="enum:trainingCategory"/>
+</work-item>

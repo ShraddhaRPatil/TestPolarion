@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">daniel.morris</field>
+    <field id="created">2014-10-31 07:31:52.735 -0400</field>
+    <field id="description" text-type="text/html">&lt;img src="workitemimg:1-screenshot-20141031-073152.png"/&gt;&lt;br/&gt;Permissions are inherited from global permissions.&lt;br/&gt;Changed permissions due to global settings are highlighted.&lt;br/&gt;</field>
+    <field id="previousStatus">open</field>
+    <field id="printNotes" text-type="text/html" type="text/html">Thes Notes will be printed as part of the training materials</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Inherited Permissions</field>
+    <field id="type">slide</field>
+</work-item>

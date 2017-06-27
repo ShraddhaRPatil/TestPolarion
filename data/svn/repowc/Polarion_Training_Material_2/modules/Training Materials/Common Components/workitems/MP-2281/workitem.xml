@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">stroebelet</field>
+    <field id="created">2012-04-05 13:08:26.427 -0400</field>
+    <field id="description" text-type="text/html">&lt;table id="polarion_wiki macro name=table;params=header=no|border=no|width=100%|padding=0px" style="BORDER-BOTTOM-STYLE: none; LINE-HEIGHT: 18px; MARGIN: auto; BORDER-LEFT-STYLE: none; WIDTH: 100%; BORDER-COLLAPSE: collapse; BORDER-TOP-STYLE: none; EMPTY-CELLS: show; BORDER-RIGHT-STYLE: none; FONT-SIZE: 100%"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style="BORDER-BOTTOM-STYLE: none; TEXT-ALIGN: left; PADDING-BOTTOM: 0px; LINE-HEIGHT: 18px; BORDER-LEFT-STYLE: none; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; VERTICAL-ALIGN: top; PADDING-TOP: 0px"&gt;&lt;/td&gt;&lt;td style="VERTICAL-ALIGN: top"&gt;  &lt;img src="attachment:trainingBiggerLogo.png"/&gt;           &lt;/td&gt;&lt;td style="BORDER-BOTTOM-STYLE: none; TEXT-ALIGN: left; PADDING-BOTTOM: 0px; LINE-HEIGHT: 18px; BORDER-LEFT-STYLE: none; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; VERTICAL-ALIGN: top; PADDING-TOP: 0px"&gt;&lt;span style="FONT-WEIGHT: bold"&gt;Welcome to Your Polarion Expedition&lt;/span&gt;&lt;br/&gt;&lt;br/&gt;We are happy to have you on board. Before you start have a look at the "how to use this training" section to understand the basic usage of this document.&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="type">text</field>
+</work-item>

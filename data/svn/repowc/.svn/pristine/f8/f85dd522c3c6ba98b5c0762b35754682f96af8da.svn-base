@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">daniel.morris</field>
+    <field id="created">2012-05-07 13:30:37.711 +0200</field>
+    <field id="description" text-type="text/html">Create a new document and add two new test cases &lt;ul&gt;&lt;li&gt;go to Documents &amp; Wiki | Testing | Index and create a new document&lt;br/&gt; &lt;img src="attachment:newDocument.PNG"/&gt;&lt;br/&gt;&lt;/li&gt;&lt;li&gt;Document name: &lt;span style="font-style: italic;"&gt;"QA_Elibrary Test Specification".&lt;/span&gt; The document should contain &lt;span style="font-style: italic;"&gt;test case&lt;/span&gt; work items and the prefix should be &lt;span style="font-style: italic;"&gt;"QA"&lt;/span&gt;.&lt;/li&gt;&lt;li&gt;Go to the Livedocs configuration to configure your new test specification&lt;br/&gt; &lt;img src="attachment:screenshot-4.jpg"/&gt;&lt;br/&gt;&lt;/li&gt;&lt;li style="list-style: none"&gt;&lt;ul&gt;&lt;li&gt;Set Fields at start to: id, outlineNumber&lt;/li&gt;&lt;li&gt;Set Content to: Title, Description and Test Steps&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;Status, Severity and Test Type should be shown in the document properties pane on the right side.&lt;br/&gt; &lt;img src="attachment:screenshot-5.jpg"/&gt;&lt;br/&gt; If one of the fileds is missing you can add it by clicking on the gear icon.&lt;br/&gt;&lt;br/&gt; &lt;table style="width: 600px;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;" class="polarion-Document-table" id="polarion_wiki macro name=table;params=width=600px"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th style="font-weight: bold;font-size: 9pt;background-color: #F0F0F0;line-height: 1.5;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"&gt;Hint: If the properties pane isn´t visible you have to click on the icon shown below: &lt;/th&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;span style="font-weight: bold;"&gt;&lt;br/&gt; &lt;img src="attachment:screenshot-6.jpg"/&gt;&lt;br/&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;</field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Create test specifications using Polarion Live Documents</field>
+    <field id="type">exercise</field>
+</work-item>

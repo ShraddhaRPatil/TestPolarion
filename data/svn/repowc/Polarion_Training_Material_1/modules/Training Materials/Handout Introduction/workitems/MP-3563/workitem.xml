@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="author">timothy.sampair</field>
+    <field id="title">Title of the slide</field>
+    <field id="created">2012-08-01 15:38:09.845 +0200</field>
+    <field id="priority">25.0</field>
+    <field id="description" text-type="text/html">woiurf oergjoierj goaie&lt;br/&gt;&lt;br/&gt; </field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+    <field id="trainingCategory" multi="true" type="enum:trainingCategory"/>
+</work-item>

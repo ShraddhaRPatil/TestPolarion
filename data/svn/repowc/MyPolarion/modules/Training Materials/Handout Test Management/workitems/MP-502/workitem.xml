@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="linkedWorkItems">
+        <list>
+            <struct>
+                <item id="workItem">MP-462</item>
+                <item id="suspect">false</item>
+                <item id="role">seeAlso</item>
+            </struct>
+            <struct>
+                <item id="workItem">MP-489</item>
+                <item id="suspect">false</item>
+                <item id="role">seeAlso</item>
+            </struct>
+        </list>
+    </field>
+    <field id="type">slide</field>
+    <field id="author">stroebelet</field>
+    <field id="title">Create and Link Test Cases</field>
+    <field id="created">2011-04-21 14:00:20.397 +0200</field>
+    <field id="description" text-type="text/html">&lt;ul&gt;&lt;li&gt;Test Cases are tracked as separate work items and will usually be stored in a test specification document&lt;/li&gt;&lt;li&gt;Test Cases are linked to requirements via a specific link type: "&lt;span style="font-style: italic;"&gt;verifies"&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;br/&gt;&lt;br/&gt;&lt;table style="margin: auto; empty-cells: show; font-size: 100%; border-collapse: collapse; width: 100%; border-style: none; line-height: 18px;" id="polarion_wiki macro name=table;params=header=no|border=no|width=100%"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style="height: 12px; text-align: left; vertical-align: top; line-height: 18px; border-style: none; padding: 2px;"&gt; &lt;img src="workitemimg:1-testcaseseverity.jpg"/&gt;&lt;/td&gt;&lt;td style="height: 12px; text-align: left; vertical-align: top; line-height: 18px; border-style: none; padding: 2px;"&gt;&lt;span style="font-weight: bold; font-style: italic;"&gt;Severity&lt;/span&gt;: Used to define what test cases should run in what test scenario.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="height: 12px; text-align: left; vertical-align: top; line-height: 18px; border-style: none; padding: 2px;"&gt; &lt;img src="workitemimg:2-tcfields1.jpg"/&gt;&lt;/td&gt;&lt;td style="height: 12px; text-align: left; vertical-align: top; line-height: 18px; border-style: none; padding: 2px;"&gt;&lt;span style="font-weight: bold; font-style: italic;"&gt;Status:&lt;/span&gt; Is the test case ready for test (active) or not (draft, inactive). &lt;span style="text-decoration: underline; color: rgb(51, 51, 255);"&gt;Status does not track test result&lt;/span&gt;&lt;br/&gt;&lt;span style="font-weight: bold; font-style: italic;"&gt;Test Run:&lt;/span&gt; In what test run is current test case applied. Is entered automatically when executing a test template.&lt;br/&gt;&lt;span style="font-weight: bold; font-style: italic;"&gt;Test Result:&lt;/span&gt; Result of current test execution (failed = test failed and linked defect is created , passed=test case successful , blocked = failed but not defect will be created)&lt;br/&gt;&lt;span style="font-weight: bold; font-style: italic;"&gt;Test Comment:&lt;/span&gt; Describe here the execution results. Which step failed and what was the error message you received&lt;br/&gt;&lt;span style="font-weight: bold; font-style: italic;"&gt;Retest:&lt;/span&gt; If checked test case should be retested in next test run&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</field>
+    <field id="priority">25.0</field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="subtitle" type="string">All Test cases together make up your test specification.</field>
+</work-item>

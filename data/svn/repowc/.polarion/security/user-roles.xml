@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<user-roles>
+    <user name="admin">
+        <role name="admin"/>
+        <role name="user"/>
+    </user>
+    <user name="aSeller">
+        <role name="user"/>
+    </user>
+    <user name="cUser">
+        <role name="user"/>
+    </user>
+    <user name="jRequirement">
+        <role name="user"/>
+    </user>
+    <user name="mTest">
+        <role name="user"/>
+    </user>
+    <user name="pGUI">
+        <role name="user"/>
+    </user>
+    <user name="rProject">
+        <role name="user"/>
+    </user>
+    <user name="sDeveloper">
+        <role name="user"/>
+    </user>
+</user-roles>

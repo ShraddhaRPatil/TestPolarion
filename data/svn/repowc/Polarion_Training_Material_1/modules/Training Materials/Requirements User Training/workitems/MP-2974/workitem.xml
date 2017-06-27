@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">hartliebc</field>
+    <field id="created">2012-05-30 08:47:06.884 -0400</field>
+    <field id="description" text-type="text/html">&lt;ul&gt;&lt;li&gt;make changes to work items and check branched document - are changes reflected in branched document ?&lt;br/&gt;&lt;/li&gt;&lt;/ul&gt;</field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Modify master document portal specification</field>
+    <field id="type">exercise</field>
+</work-item>

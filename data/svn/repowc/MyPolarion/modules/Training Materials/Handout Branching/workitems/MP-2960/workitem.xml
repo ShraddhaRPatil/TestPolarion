@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="author">hartliebc</field>
+    <field id="title">Working with Branched Documents</field>
+    <field id="created">2012-05-30 12:53:52.923 +0200</field>
+    <field id="priority">25.0</field>
+    <field id="description" text-type="text/html">&lt;ul&gt;&lt;li&gt;Access, read and comment a branched document&lt;/li&gt;&lt;li&gt;Compare a branched document to the master document&lt;br/&gt;&lt;img src="attachment:comparemaster.jpg" style="width: 466px; height: 272px;"/&gt;&lt;br/&gt;&lt;/li&gt;&lt;/ul&gt;</field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+    <field id="subtitle" type="string">Once you have some branched Documents, there are various things you may need to do with them. </field>
+    <field id="trainingCategory" multi="true" type="enum:trainingCategory"/>
+</work-item>

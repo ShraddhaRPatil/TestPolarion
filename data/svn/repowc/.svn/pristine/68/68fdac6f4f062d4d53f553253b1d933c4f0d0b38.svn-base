@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">admin</field>
+    <field id="created">2013-02-05 20:23:39.700 +0100</field>
+    <field id="linkedWorkItems">
+        <list>
+            <struct>
+                <item id="role">verifies</item>
+                <item id="workItem">DP-317</item>
+            </struct>
+        </list>
+    </field>
+    <field id="previousStatus">draft</field>
+    <field id="priority">50.0</field>
+    <field id="severity">basic</field>
+    <field id="status">active</field>
+    <field id="testSteps" type="struct:TestSteps">
+        <struct>
+            <item id="keys">
+                <list>
+                    <item>step</item>
+                    <item>description</item>
+                    <item>expectedResult</item>
+                </list>
+            </item>
+            <item id="steps">
+                <list>
+                    <struct>
+                        <item id="values">
+                            <list>
+                                <item text-type="text/html">Install and Start DrivePilot</item>
+                                <item text-type="text/html"/>
+                                <item text-type="text/html">DrivePilot is started and vehicle is controlled by DrivePilot</item>
+                            </list>
+                        </item>
+                    </struct>
+                    <struct>
+                        <item id="values">
+                            <list>
+                                <item text-type="text/html">User shouts &amp;quot;Stop&amp;quot;</item>
+                                <item text-type="text/html"/>
+                                <item text-type="text/html">Auto pilot mode is stopped with &lt;span style="font-size: 10pt;line-height: 1.5;"&gt;audible and visual notifications&lt;/span&gt;</item>
+                            </list>
+                        </item>
+                    </struct>
+                </list>
+            </item>
+        </struct>
+    </field>
+    <field id="title">DrivePilot will disengage when User shouts "Stop"</field>
+    <field id="type">systemTestCase</field>
+</work-item>

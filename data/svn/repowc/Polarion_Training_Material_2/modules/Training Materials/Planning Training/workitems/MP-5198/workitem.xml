@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">daniel.morris</field>
+    <field id="created">2014-08-07 07:37:31.281 -0400</field>
+    <field id="description" text-type="text/html"><![CDATA[By default test cases are not visible in Live Plan but by adding test cases to plans we will be able to see test cases.<br/>
+This might be usefull to reserve ressources like machines, software, etc whic are needed for test executions.<br/>
+<ul>
+  <li>Open Administration &gt; Work Items &gt; Live Plan</li>
+  <li>As we can see by default everything which has been added to a plan will also be visible in Live Plan<br/>
+    <img src="workitemimg:1-screenshot-20140801-124640.png"/></li>
+  <li>Go to frontend and create a new &quot;Test&quot; Plan (Child of Team 1) &quot;Test Iteration 1&quot;</li>
+  <ul>
+    <li>Set a start and du date</li>
+    <li>Add test case to &quot;Test Iteration 1&quot;</li>
+  </ul>
+  <li>Verify test case is now visible in live plan<br/>
+    <img src="workitemimg:2-screenshot-20140801-132226.png" style="width: 529px;height: 315px;"/></li>
+  <li>(optional) Currently there isn´t any &quot;Planned In&quot; attribute visible in test cases. To add this attribute Go into Administartion &gt; Work Items &gt; Form Configuration &gt; Form Layout of Test Case</li>
+  <li> Add &lt;field id=&quot;plannedIn&quot;/&gt; to your form configuration</li>
+  <li>Verify Planned In field is visible in frontend<br/>
+    <img src="workitemimg:3-screenshot-20140801-150026.png" style="width: 443px;height: 221px;"/></li>
+</ul>
+<table id="polarion_wiki macro name=table" class="polarion-Document-table" style="width: 80%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;">
+  <tbody>
+    <tr>
+      <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Hint: In older Polarion versions Live Plan query was set to &quot;time points&quot;</th>
+    </tr>
+  </tbody>
+</table>
+<br/>]]></field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Make Test Cases visible for Live Plan</field>
+    <field id="type">exercise</field>
+</work-item>

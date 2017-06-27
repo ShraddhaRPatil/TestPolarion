@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">hartliebc</field>
+    <field id="created">2012-05-07 07:30:37.879 -0400</field>
+    <field id="description" text-type="text/html"><![CDATA[<ul>
+  <li>Add following three new test cases and save the document (you don´t need to enter valid test steps for all test cases)</li>
+  <ul style="font-style: italic;">
+    <li>Is user able to search for books</li>
+    <li>Is user able to lend books</li>
+    <li>Is user able to manage a book favorites list</li>
+  </ul>
+  <li>Create following two sub test cases below the test case <span style="font-style: italic;">&quot;Is user able to search for books</span>&quot; (TAB button)<br/>
+    </li>
+  <ul>
+    <li><span style="font-style: italic;">Are wildcards supported in search</span></li>
+    <li><span style="font-style: italic;">Is it possible to search in all book fields</span></li>
+  </ul>
+  <li>Fill table for test steps of sub test case &quot;<span style="font-style: italic;">Is it possible to search in all book fields&quot;</span> with following steps<span style="font-style: italic;"><br/>
+      </span></li>
+  <ul>
+    <li><span style="font-style: italic;">Open Search perspective<br/>
+        </span></li>
+    <li><span style="font-style: italic;">Search for author<br/>
+        </span></li>
+    <li><span style="font-style: italic;">Search for ISBN number<br/>
+        </span></li>
+    <li><span style="font-style: italic;">Search for price<br/>
+        </span></li>
+  </ul>
+</ul>
+ Now Move your existing test case to specification<br/>
+ 
+<ul>
+  <li>Search for test case &quot;<span style="font-style: italic;font-size: 10pt;line-height: 1.5;">Login should be case sensitive</span>&quot;</li>
+  <li>Select work item action menu and move work item to your user specification &quot;<span style="font-style: italic;">QA_Elibrary Test Specification</span>&quot;<br/>
+    <img src="attachment:screenshot-7.jpg"/><br/>
+    </li>
+</ul>
+ At the end Change severity of all Test Cases to <span style="font-style: italic;">Basic</span><br/>
+ 
+<ul>
+  <li>use bulk edit in tracker view to change severity of all test cases inside of the specification to &quot;<span style="font-style: italic;">Basic</span>&quot;<img src="attachment:screenshot-8.jpg"/>                      <img src="attachment:screenshot-9.jpg"/></li>
+</ul>]]></field>
+    <field id="linkedWorkItems">
+        <list>
+            <struct>
+                <item id="revision">42615</item>
+                <item id="role">branched_from</item>
+                <item id="workItem">MP-2649</item>
+            </struct>
+        </list>
+    </field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Add test cases to specification</field>
+    <field id="type">exercise</field>
+</work-item>

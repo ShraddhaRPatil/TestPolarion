@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="hyperlinks">
+        <list>
+            <struct>
+                <item id="role">renderSlide</item>
+                <item id="uri">/polarion/wiki/bin/view/project/MyPolarion/page/macros/RenderSlides?item=MP-542</item>
+            </struct>
+        </list>
+    </field>
+    <field id="author">stroebelet</field>
+    <field id="title">Custom Workflow</field>
+    <field id="created">2011-04-27 17:21:38.931 +0200</field>
+    <field id="priority">25.0</field>
+    <field id="description" text-type="text/html">&lt;img src="workitemimg:3-screenshot-2.jpg" style="height: 600px; width: 796px;"/&gt;</field>
+    <field id="status">accepted</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+    <field id="subtitle" type="string"> </field>
+    <field id="printNotes" text-type="text/html" type="text/html">&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;span style="font-weight: bold;"&gt;Transitions&lt;/span&gt;: Define status model&lt;/li&gt;&lt;li&gt;&lt;span style="font-weight: bold;"&gt;Statuses&lt;/span&gt;: Define available statuses&lt;/li&gt;&lt;li&gt;&lt;span style="font-weight: bold;"&gt;Actions&lt;/span&gt;: What happens between two states&lt;/li&gt;&lt;li style="list-style: none"&gt;&lt;ul&gt;&lt;li&gt;Who is allowed to perform the action ?&lt;br&gt;&lt;/li&gt;&lt;li&gt;What are required fields ?&lt;/li&gt;&lt;li&gt;Check of additional conditions or functions&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</field>
+    <field id="speakersNotes" text-type="text/plain" type="text/html"/>
+</work-item>

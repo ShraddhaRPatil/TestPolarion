@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="linkedWorkItems">
+        <list>
+            <struct>
+                <item id="workItem">MP-508</item>
+                <item id="role">seeAlso</item>
+                <item id="suspect">false</item>
+            </struct>
+        </list>
+    </field>
+    <field id="type">slide</field>
+    <field id="author">stroebelet</field>
+    <field id="title">Build Notification</field>
+    <field id="created">2011-05-17 20:32:18.704 +0200</field>
+    <field id="priority">25.0</field>
+    <field id="description" text-type="text/html">Build notifications can be managed as part of the standard notification configuration&lt;br/&gt;&lt;br/&gt;&lt;img src="workitemimg:2-screenshot.jpg"/&gt;&lt;br/&gt;</field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="subtitle" type="string"> </field>
+</work-item>

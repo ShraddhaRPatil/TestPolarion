@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="author">admin</field>
+    <field id="title">MS Word Import: Set Attributes During Import</field>
+    <field id="created">2011-04-01 15:31:13.097 +0200</field>
+    <field id="description" text-type="text/html">&lt;ul&gt;&lt;li&gt;set field values automatically during import&lt;p&gt;&lt;img style="width: 574px; height: 156px;" src="workitemimg:1-screenshot.jpg"/&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;Take heading (first paragraph) as title of work item&lt;br/&gt;&lt;img src="workitemimg:2-screenshot-1.jpg"/&gt;&lt;/li&gt;&lt;/ul&gt;&lt;br/&gt;</field>
+    <field id="priority">25.0</field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="subtitle" type="string"> </field>
+</work-item>

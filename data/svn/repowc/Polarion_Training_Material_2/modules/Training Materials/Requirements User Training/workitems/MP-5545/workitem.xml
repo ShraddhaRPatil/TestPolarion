@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">daniel.morris</field>
+    <field id="created">2015-12-29 09:55:38.300 -0500</field>
+    <field id="description" text-type="text/html"><![CDATA[You can monitor the progress of collecting signatures in the Signatures sidebar of your Document. The sidebar shows which invitees have signed, which have declined, and the names of all invitees.<br/>
+ <br/>
+ The All Signatures tab of the sidebar shows this same information, plus the signature policy. The latter is helpful in understanding how close you are to satisfying the policy. If the signature policy is currently satisfied, a message is displayed indicating this, and a link is provided which opens the Document Properties sidebar where you can invoke the action to transition the Document in the Status field, where the action will now be enabled. Be sure to save the Document after changing the field.<br/>
+ <img src="workitemimg:1-screenshot-20151229-095539.png"/><br/>
+ <br/>
+ 
+<ul>
+  <li>Open Signatures sidebar</li>
+  <ul>
+    <li>Goto <span style="font-style: italic;">My Signature</span></li>
+    <li><span style="font-style: normal;">Sign document using the sign button bottom right</span></li>
+    <li><span style="font-style: normal;">Write a meaningfull comment that this document has been reviewed</span></li>
+    <li><span style="font-style: normal;">Goto <span style="font-style: italic;">All Signatures</span> and review how the view has been changed.<br/>
+        You are now able to change the document workflow to send it to approval</span></li>
+    <li><span style="font-style: normal;">Change workflow to send your document to approval</span></li>
+    <li><span style="font-style: normal;">Review vour signature sidebar and also your reporting macro.<br/>
+        You have been automatically invited to sign the document</span></li>
+  </ul>
+</ul>]]></field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Sign LiveDoc</field>
+    <field id="type">exercise</field>
+</work-item>

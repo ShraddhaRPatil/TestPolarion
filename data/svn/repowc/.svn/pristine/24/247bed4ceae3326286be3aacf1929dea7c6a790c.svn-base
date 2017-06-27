@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">stroebelet</field>
+    <field id="created">2011-04-26 06:54:17.980 -0400</field>
+    <field id="description" text-type="text/html">&lt;img src="workitemimg:6-screenshot-1.jpg" style="width: 748px; height: 380px;"/&gt;</field>
+    <field id="hyperlinks">
+        <list>
+            <struct>
+                <item id="role">help</item>
+                <item id="uri">/polarion/#/wiki/Doc/SyntaxHelp#HDashboard</item>
+            </struct>
+            <struct>
+                <item id="role">ref_int</item>
+                <item id="uri">/polarion/#/administration/reports/workitem_metrics</item>
+            </struct>
+            <struct>
+                <item id="role">help</item>
+                <item id="uri">/polarion/help/?topic=/com.polarion.xray.doc.user/agchConfigReports.html</item>
+            </struct>
+            <struct>
+                <item id="role">renderSlide</item>
+                <item id="uri">/polarion/wiki/bin/view/project/MyPolarion/page/macros/RenderSlides?item=MP-525</item>
+            </struct>
+        </list>
+    </field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">accepted</field>
+    <field id="subtitle" type="string">Display predefined and custom queries</field>
+    <field id="title">Metrics And Charts</field>
+    <field id="type">slide</field>
+</work-item>

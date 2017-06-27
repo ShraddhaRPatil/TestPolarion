@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">daniel.morris</field>
+    <field id="created">2016-06-07 09:34:41.717 -0400</field>
+    <field id="description" text-type="text/html"><![CDATA[Take the examples above and add own values to see how the rendering API works on your system.<br/>
+<table id="polarion_wiki macro name=table;params=uid=client6" class="polarion-Document-table" style="width: 602px;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;">
+  <tbody>
+    <tr>
+      <th style="background-color: #F0F0F0;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Note: The script above is using some hard coded values so copy&amp;paste will not work you need to add your own values.<br/>
+        As already mentioned the rendering API is accessible in wiki pages and Rich Pages to perform these exercises try to use a scriptblock in a Rich Page instead of a wiki page. <br/>
+      </th>
+    </tr>
+  </tbody>
+</table>]]></field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="type">exercise</field>
+</work-item>

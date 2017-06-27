@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="assignee">sDeveloper</field>
+    <field id="author">mTest</field>
+    <field id="categories">
+        <list>
+            <item>Searching</item>
+        </list>
+    </field>
+    <field id="created">2011-05-27 21:48:53.524 +0200</field>
+    <field id="linkedWorkItems">
+        <list>
+            <struct>
+                <item id="role">implements</item>
+                <item id="suspect">false</item>
+                <item id="workItem">EL-108</item>
+            </struct>
+        </list>
+    </field>
+    <field id="occurredInVersion" type="string">0.9</field>
+    <field id="previousStatus">done</field>
+    <field id="priority">50.0</field>
+    <field id="resolution">done</field>
+    <field id="resolvedOn">2011-05-27 21:49:03.164 +0200</field>
+    <field id="severity">normal</field>
+    <field id="status">verified-done</field>
+    <field id="targetVersion" type="enum:@plan[template.id:release]">Version_0_9</field>
+    <field id="title">Cannot create a query based on more than one keyword</field>
+    <field id="type">defect</field>
+</work-item>

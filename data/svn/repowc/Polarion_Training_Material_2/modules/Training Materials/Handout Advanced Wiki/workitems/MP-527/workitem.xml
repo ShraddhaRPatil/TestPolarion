@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">stroebelet</field>
+    <field id="created">2011-04-26 07:54:40.099 -0400</field>
+    <field id="description" text-type="text/html">&lt;img src="workitemimg:3-screenshot.jpg" style="width: 745px; height: 266px;"/&gt;&lt;ul&gt;&lt;li&gt;&lt;span style="font-weight: bold;"&gt;workitems-trend-data:&lt;/span&gt; constant which references all metrics defined in workitem-metrics.xml configuration file. If referenced metric is a distribution following options are possible&lt;ul&gt;&lt;li&gt;&lt;span style="font-style: italic;"&gt;&amp;lt;key&amp;gt;&lt;/span&gt;/* = display all distribution values as chart&lt;/li&gt;&lt;li&gt;&lt;span style="font-style: italic;"&gt;&amp;lt;key&amp;gt;&lt;/span&gt;/&lt;span style="font-style: italic;"&gt;myid&lt;/span&gt; = only display values of myid&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;span style="text-decoration: underline; font-weight: bold;"&gt;Update button:&lt;/span&gt; \{update-report-footer:report-path=charts/abc-risk-trend.xml|calculation=trackeranalysis\}&lt;/li&gt;&lt;/ul&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;</field>
+    <field id="hyperlinks">
+        <list>
+            <struct>
+                <item id="role">renderSlide</item>
+                <item id="uri">/polarion/wiki/bin/view/project/MyPolarion/page/macros/RenderSlides?item=MP-527</item>
+            </struct>
+        </list>
+    </field>
+    <field id="previousStatus">open</field>
+    <field id="printNotes" text-type="text/html" type="text/html">&lt;div&gt;In some cases web browser caches the old images so it seems that the chart was not updated. Clear the cache or start a different browser to make sure that the chart image was not cached accidentally by your web browser&lt;/div&gt;</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">accepted</field>
+    <field id="subtitle" type="string"> </field>
+    <field id="title">Trend Charts</field>
+    <field id="type">slide</field>
+</work-item>

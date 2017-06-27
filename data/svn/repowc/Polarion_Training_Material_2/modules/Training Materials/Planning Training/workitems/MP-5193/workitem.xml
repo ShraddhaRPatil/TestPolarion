@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">daniel.morris</field>
+    <field id="created">2014-08-07 07:37:28.252 -0400</field>
+    <field id="description" text-type="text/html"><![CDATA[Our first iteration is finished and work which is still open needs to be moved into our next iteration. Work which is already finished should still be visible for a project manager so he always has a live state of his iteration.<br/>
+<ul>
+  <li>Open &quot;Iteration 3&quot;</li>
+  <li>Set &quot;Start Date&quot; (today), &quot;Due Date&quot; (in 2 weeks) and capacity (40)</li>
+  <li>Add your second requirement which is not yet finished to &quot;Iteration 3&quot;</li>
+  <li>Save Plan</li>
+  <li>Check your moved requirement. Via your &quot;Planned In&quot; attribute you can always see in which iteration or release your requirement was planned.<br/>
+    <img src="workitemimg:1-screenshot-20140731-104937.png"/></li>
+</ul>
+As you can see all data has been moved correctly. 1 day time spent is already booked on our requirement and your task and defect are on their correct spot.<br/>
+<img src="workitemimg:2-taskBoard.png" style="width: 588px;height: 210px;"/><br/>
+<table id="polarion_wiki macro name=table" class="polarion-Document-table" style="width: 80%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;">
+  <tbody>
+    <tr>
+      <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Hint: If you make changes on plan board in &quot;Iteration 3&quot; these changes will also been done on &quot;Iteration 2&quot;. Via your saved historical link you can always go back in time to view you plan how it looked like when it was finished<br/>
+        <br/>
+        <img src="workitemimg:3-historicStatePlan.png"/></th>
+    </tr>
+  </tbody>
+</table>]]></field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Move open tasks into next iteration</field>
+    <field id="type">exercise</field>
+</work-item>

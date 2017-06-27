@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">stroebelet</field>
+    <field id="created">2016-01-04 05:54:08.280 -0500</field>
+    <field id="description" text-type="text/html"><![CDATA[Create a new document and add two new requirements 
+<ul>
+  <li>go to Documents &amp; Pages | Specification| Index and create a new LiveDoc document<br/>
+    <img src="attachment:80-screenshot-20160104-055510.png" style="width: 721px;height: 94px;"/></li>
+  <li>Document name: <span style="font-style: italic;"><span style="font-size: 10pt;line-height: 1.5;">QA_Elibrary Test Specification</span>.</span> <br/>
+    Type: Requirements Specification<br/>
+    The document should contain <span style="font-style: italic;">test case </span>work items and the prefix should be QA.<br/>
+    <img src="workitemimg:1-screenshot-20160104-055409.png" style="width: 515px;height: 600px;"/><br/>
+    
+    <table id="polarion_wiki macro name=table" class="polarion-Document-table" style="width: 80%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;">
+      <tbody>
+        <tr>
+          <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Hint: We are using as document type <span style="font-style: italic;">Requirement specification</span> <span style="font-style: normal;">because if we would like to use the document worflow of this document type. It is also possible to define a workflow for test specifications. This is not necessary for our exercises. How document workflows can be setup is part of Polarion´s Power User training. (The current requirement workflow is not working for test specifications becuase of condition checks.) <br/>
+              How document workflows and signatures work is part of Requirements User training.</span></th>
+        </tr>
+      </tbody>
+    </table>
+    <br/>
+    </li>
+</ul>]]></field>
+    <field id="linkedWorkItems">
+        <list>
+            <struct>
+                <item id="revision">41890</item>
+                <item id="role">branched_from</item>
+                <item id="workItem">MP-954</item>
+            </struct>
+            <struct>
+                <item id="revision">57523</item>
+                <item id="role">branched_from</item>
+                <item id="workItem">MP-2648</item>
+            </struct>
+        </list>
+    </field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Create a new test specification</field>
+    <field id="type">exercise</field>
+</work-item>

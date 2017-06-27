@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<comment>
+    <field id="author">phaedrusxon</field>
+    <field id="created">2011-05-05 22:10:36.259 +0200</field>
+    <field id="text" text-type="text/plain"><![CDATA[I think there are too many concepts and disconnected snapshots on this one slide - it probably should cover three slides or so
+.create requirement (requirement work item fields)
+.actions and approvers
+.table vs. document handling]]></field>
+    <field id="title">Break this slide up</field>
+</comment>

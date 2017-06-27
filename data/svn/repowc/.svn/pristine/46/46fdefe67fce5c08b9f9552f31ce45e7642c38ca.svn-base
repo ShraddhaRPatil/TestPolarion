@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">daniel.morris</field>
+    <field id="created">2014-08-07 07:52:21.535 -0400</field>
+    <field id="description" text-type="text/html"><![CDATA[<br/>
+<img src="workitemimg:1-screenshot-20140805-222210.png"/><img src="workitemimg:2-DOCATTACHMENT_diagram_20140805-2219.40000.mxg.png"/>]]></field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Create Document Workflow</field>
+    <field id="type">slide</field>
+</work-item>

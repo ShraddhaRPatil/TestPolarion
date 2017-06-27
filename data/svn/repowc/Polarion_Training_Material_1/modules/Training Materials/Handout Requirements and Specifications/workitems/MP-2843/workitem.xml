@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="hyperlinks">
+        <list>
+            <struct>
+                <item id="role">renderSlide</item>
+                <item id="uri">/polarion/wiki/bin/view/project/MyPolarion/page/macros/RenderSlides?item=MP-481</item>
+            </struct>
+        </list>
+    </field>
+    <field id="author">hartliebc</field>
+    <field id="title">Polarion Requirements</field>
+    <field id="created">2012-05-16 10:58:30.547 +0200</field>
+    <field id="priority">25.0</field>
+    <field id="description" text-type="text/html">Polarion Requirements comes with predefined project templates&lt;br/&gt;&lt;img style="width: 656px;height: 400px;" src="attachment:ProjectTemplates.jpg"/&gt;&lt;br/&gt;&lt;br/&gt;A project template defines: &lt;ul&gt;&lt;li&gt;Work Item Types for your project&lt;/li&gt;&lt;li&gt;Work Item Fields&lt;/li&gt;&lt;li&gt;Work Item Workflow&lt;/li&gt;&lt;li&gt;Wiki Pages for process guidance, reporting, etc.&lt;/li&gt;&lt;/ul&gt;</field>
+    <field id="status">accepted</field>
+    <field id="severity">normal</field>
+    <field id="subtitle" type="string"> </field>
+    <field id="trainingCategory" multi="true" type="enum:trainingCategory">
+        <list>
+            <item>user</item>
+        </list>
+    </field>
+</work-item>

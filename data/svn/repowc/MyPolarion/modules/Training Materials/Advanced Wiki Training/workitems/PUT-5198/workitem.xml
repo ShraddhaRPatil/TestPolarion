@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">admin</field>
+    <field id="created">2013-11-08 13:04:44.020 +0100</field>
+    <field id="description" text-type="text/html">&lt;span style="font-weight: normal;"&gt;Add a third column to your test report which shows last test result of linked test cases.&lt;br/&gt; &lt;span style="font-weight: bold;"&gt;Example Image:&lt;br/&gt; &lt;img style="width: 788px;height: 125px;" src="attachment:traceabilityreport.jpg"/&gt;&lt;/span&gt;&lt;/span&gt;</field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="type">exercise</field>
+</work-item>

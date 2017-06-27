@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="author">stroebelet</field>
+    <field id="title">Work Item Details - Process</field>
+    <field id="created">2012-03-29 22:33:59.881 +0200</field>
+    <field id="description" text-type="text/html">&lt;img src="attachment:WID_Process1.jpg" style="width: 735px; height: 229px;"/&gt;&lt;br/&gt;&lt;br/&gt;&lt;img src="attachment:WID_Process2.jpg" style="width: 743px; height: 191px;"/&gt;</field>
+    <field id="priority">25.0</field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+    <field id="trainingCategory" multi="true" type="enum:trainingCategory"/>
+</work-item>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<comment>
+    <field id="created">2011-05-05 22:25:32.954 +0200</field>
+    <field id="author">phaedrusxon</field>
+    <field id="text" text-type="text/plain"><![CDATA[Won't Change Requests and Change Management require a more complicated workflow?
+There are two "3s" in the diagram.
+I'm not sure I follow how the diagram implements the Green Button change request.  Are the direction of arrows the Polarion linkage vs. a CM workflow?]]></field>
+    <field id="title">A little lost</field>
+</comment>

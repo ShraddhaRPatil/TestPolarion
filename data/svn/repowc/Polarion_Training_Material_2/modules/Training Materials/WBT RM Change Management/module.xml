@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<module>
+    <field id="usesOutlineNumbering">true</field>
+    <field id="homePageContent" text-type="text/html"><![CDATA[<p id="polarion_new_79"> </p>
+<div contenteditable="false" id="polarion_editor_html_block_merged_0" style="position: relative; border-left: 6px dotted rgb(221, 221, 221); padding-bottom: 4px; line-height: 1.7em; margin-top: 1px; padding-left: 34px; padding-top: 3px; left: -40px;"><div contenteditable="false" id="polarion_editor_html_block_content">content</div><pre contenteditable="false" id="polarion_editor_html_block_source" style="position: absolute; display: none; margin-left: -100000px;">#includeMacros("macros.macros")</pre></div>
+<h1 id="polarion_wiki macro name=module-workitem;params=id=MP-3643"></h1>
+<p id="polarion_new_13"><br id="polarion_new_12"/></p>
+<div id="polarion_wiki macro name=module-workitem;params=id=MP-2281|external=true|layout=2"></div>
+<h2 id="polarion_wiki macro name=module-workitem;params=id=MP-3644"></h2>
+<div id="polarion_wiki macro name=module-workitem;params=id=MP-2285|layout=2|external=true"></div>
+<p id="polarion_new_44"><br/></p>
+<p id="polarion_new_43"> <br/></p>
+<div id="polarion_wiki macro name=page_break"></div>
+<h2 id="polarion_wiki macro name=module-workitem;params=id=MP-3645"></h2>
+<div id="polarion_wiki macro name=toc"></div>
+<p id="polarion_merged_3"><br/></p>
+<div id="polarion_wiki macro name=page_break;params=uid=14"></div>
+<h2 id="polarion_wiki macro name=module-workitem;params=id=MP-3665"></h2>
+<h3 id="polarion_wiki macro name=module-workitem;params=id=MP-3687"></h3>
+<p id="polarion_new_30">Keep your project data consistent by working with suspects. Manage change requests to track all changes in your project. If your change process should not only be related to source code changes you should extend the workflow with additional states for reviewed, approved, accepted, implemented ...<br/></p>
+<h4 id="polarion_wiki macro name=module-workitem;params=id=MP-3688"></h4>
+<div contenteditable="false" id="polarion_editor_html_block_pasted_4" style="position: relative; border-left: 6px dotted rgb(221, 221, 221); padding-bottom: 4px; line-height: 1.7em; margin-top: 1px; padding-left: 34px; padding-top: 3px; left: -40px;"><div contenteditable="false" id="polarion_editor_html_block_content">content</div><pre contenteditable="false" id="polarion_editor_html_block_source" style="position: absolute; display: none; margin-left: -100000px;">{show:wiki}
+#slide("MP-2994")
+{show}
+{show:wiki}
+{show}</pre></div>
+<p id="polarion_new_29"> </p>
+<h4 id="polarion_wiki macro name=module-workitem;params=id=MP-3689"></h4>
+<h5 id="polarion_wiki macro name=module-workitem;params=id=MP-3690"></h5>
+<div id="polarion_wiki macro name=module-workitem;params=id=MP-3583|layout=1|external=true"></div>
+<h5 id="polarion_wiki macro name=module-workitem;params=id=MP-3691"></h5>
+<p id="polarion_cleaned_0"></p>
+<div id="polarion_wiki macro name=module-workitem;params=id=MP-2973|layout=1|external=true"></div>
+<p id="polarion_new_28"><br/></p>
+<div id="polarion_wiki macro name=module-workitem;params=id=MP-2986|layout=1|external=true"></div>
+<p id="polarion_new_140"><br/></p>
+<div id="polarion_wiki macro name=module-workitem;params=id=MP-3579|layout=1|external=true"></div>
+<p id="polarion_cleaned_2"></p>
+<p id="polarion_cleaned_1"><br id="polarion_merged_9"/><br/><br id="polarion_cleaned_1"/><br/></p>
+]]></field>
+    <field id="structureLinkRole">parent</field>
+    <field id="branchedFrom">Training Materials#Requirements User Training</field>
+    <field id="outlineNumbering">
+        <struct>
+            <item id="prefix"/>
+        </struct>
+    </field>
+    <field id="author">CarolaH</field>
+    <field id="created">2012-07-26 11:08:14.322 +0200</field>
+    <field id="renderingLayouts">
+        <list>
+            <struct>
+                <item id="layouter">section</item>
+                <item id="label">Task</item>
+                <item id="properties">
+                    <list>
+                        <struct>
+                            <item id="value"/>
+                            <item id="key">fieldsAtStart</item>
+                        </struct>
+                        <struct>
+                            <item id="value">status,Resolution</item>
+                            <item id="key">fieldsAtEnd</item>
+                        </struct>
+                        <struct>
+                            <item id="value"/>
+                            <item id="key">fieldsAtEndAsTable</item>
+                        </struct>
+                        <struct>
+                            <item id="value"/>
+                            <item id="key">hidden</item>
+                        </struct>
+                    </list>
+                </item>
+                <item id="type">task</item>
+            </struct>
+            <struct>
+                <item id="layouter">section</item>
+                <item id="label">Exercise</item>
+                <item id="properties">
+                    <list>
+                        <struct>
+                            <item id="value">id</item>
+                            <item id="key">fieldsAtStart</item>
+                        </struct>
+                        <struct>
+                            <item id="value"/>
+                            <item id="key">fieldsAtEnd</item>
+                        </struct>
+                        <struct>
+                            <item id="value">true</item>
+                            <item id="key">fieldsAtEndAsTable</item>
+                        </struct>
+                        <struct>
+                            <item id="value"/>
+                            <item id="key">hidden</item>
+                        </struct>
+                    </list>
+                </item>
+                <item id="type">exercise</item>
+            </struct>
+            <struct>
+                <item id="layouter">paragraph</item>
+                <item id="label">Text</item>
+                <item id="properties">
+                    <list>
+                        <struct>
+                            <item id="value"/>
+                            <item id="key">fieldsAtStart</item>
+                        </struct>
+                        <struct>
+                            <item id="value"/>
+                            <item id="key">fieldsAtEnd</item>
+                        </struct>
+                        <struct>
+                            <item id="value"/>
+                            <item id="key">fieldsAtEndAsTable</item>
+                        </struct>
+                        <struct>
+                            <item id="value"/>
+                            <item id="key">hidden</item>
+                        </struct>
+                    </list>
+                </item>
+                <item id="type">text</item>
+            </struct>
+        </list>
+    </field>
+</module>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">sergeD</field>
+    <field id="created">2014-08-29 17:20:17.343 +0200</field>
+    <field id="description" text-type="text/html">&lt;br/&gt;When Document types are configured, users can assign a type to new or existing Documents in the Document Properties sidebar of the Document Editor, and view the assigned type&lt;br/&gt;&lt;br/&gt;&lt;img style="width: 672px;height: 165px;" src="workitemimg:1-screenshot-20140829-172017.png"/&gt;&lt;br/&gt;&lt;img style="width: 240px;height: 190px;" src="workitemimg:2-screenshot-20140829-172017.png"/&gt;&lt;br/&gt;&lt;br/&gt;&lt;ul&gt;&lt;li&gt;Click on Change to select the  Document Type&lt;/li&gt;&lt;/ul&gt;</field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Document Types in Document</field>
+    <field id="type">slide</field>
+</work-item>

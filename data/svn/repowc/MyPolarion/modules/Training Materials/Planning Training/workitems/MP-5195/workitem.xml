@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">daniel.morris</field>
+    <field id="created">2014-08-07 07:37:29.571 -0400</field>
+    <field id="description" text-type="text/html"><![CDATA[Some companies have guidelines to approve their implementation to be sure everythin was implemented correctly and also verified.<br/>
+You might want to add an approval status to your plan when your iteration has been finished.<br/>
+<ul>
+  <li>Open Administration&gt;Plans&gt;Plan Statuses  </li>
+  <li>Add new status &quot;approved&quot; at the bottom of statuses list</li>
+  <ul>
+    <li>Our new approved field should be our final state also having a time stamp when it reached its state. Currently the final state is state &quot;done&quot; marked via &quot;Terminal&quot; checkbox set. Unmark terminal checkbox on state &quot;done&quot; and set Terminal checkbox on approved state.</li>
+  </ul>
+  <li>Verify in frontend your functionality is working as expected</li>
+  <ul>
+    <li>Set a Plan to state &quot;Done&quot; (no time stamp should be visible)</li>
+    <li>Set a Plan to state &quot;Approved&quot; (time stamp should be visible and historical state of your plan is saved) <br/>
+      <img src="workitemimg:1-screenshot-20140731-152725.png" style="width: 632px;height: 122px;"/></li>
+  </ul>
+</ul>
+<table id="polarion_wiki macro name=table" class="polarion-Document-table" style="width: 80%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;">
+  <tbody>
+    <tr>
+      <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Hint: Terminal statuses will add a time stamp and make plans invisible in navigation sidebar</th>
+    </tr>
+  </tbody>
+</table>]]></field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Add Approval Plan State</field>
+    <field id="type">exercise</field>
+</work-item>

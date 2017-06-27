@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">text</field>
+    <field id="author">stroebelet</field>
+    <field id="created">2012-04-07 20:10:01.636 +0200</field>
+    <field id="description" text-type="text/html">So let's get started. At first you need to setup your own sandbox in which you can perform exercises. We have prepared for you a little step-by-step guide to walk you through the process. Don't worry if you do not understand all the details now. We will have a closer look at the used feature later in the training.</field>
+    <field id="priority">25.0</field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+</work-item>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="author">stroebelet</field>
+    <field id="title">Permissions and Access Rights</field>
+    <field id="created">2011-04-27 12:30:01.206 +0200</field>
+    <field id="description" text-type="text/html">&lt;ul&gt;&lt;li&gt;Permissions Management: What can a user do in &lt;span style="font-weight: bold;"&gt;Polarion Web UI&lt;/span&gt;&lt;/li&gt;&lt;li&gt;Access Management: What can a user do in &lt;span style="font-weight: bold;"&gt;Subversion&lt;/span&gt;&lt;br/&gt;&lt;/li&gt;&lt;/ul&gt;&lt;img src="workitemimg:1-screenshot.jpg"/&gt;</field>
+    <field id="priority">25.0</field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="subtitle" type="string">Polarion is just another SVN client</field>
+</work-item>

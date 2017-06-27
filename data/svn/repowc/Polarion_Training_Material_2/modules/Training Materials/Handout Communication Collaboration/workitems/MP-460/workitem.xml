@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="hyperlinks">
+        <list>
+            <struct>
+                <item id="role">renderSlide</item>
+                <item id="uri">/polarion/wiki/bin/view/project/MyPolarion/page/macros/RenderSlides?item=MP-460</item>
+            </struct>
+        </list>
+    </field>
+    <field id="author">admin</field>
+    <field id="title">Watching Work Items</field>
+    <field id="created">2011-03-31 21:15:57.863 +0200</field>
+    <field id="description" text-type="text/html">&lt;img src="attachment:screenshot.jpg" style="WIDTH: 766px; HEIGHT: 207px"/&gt;</field>
+    <field id="priority">25.0</field>
+    <field id="status">accepted</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+    <field id="subtitle" type="string"> </field>
+    <field id="hint" type="string">You can also add other users as watcher if you create work items on their behalf</field>
+    <field id="printNotes" text-type="text/html" type="text/html">&lt;p&gt;You can participate in communications when you &lt;span style="color: rgb(51, 51, 255);"&gt;add yourself as watcher&lt;/span&gt; to an item&lt;/p&gt;&lt;ul&gt;&lt;li&gt;As watcher you will be notified on any work item change&lt;/li&gt;&lt;li&gt;Watching an item is like &lt;span style="color: rgb(51, 51, 255);"&gt;requesting to be set on any email on &amp;bdquo;CC:&amp;ldquo;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p style="margin-left: 40px;"&gt;&lt;img style="width: 158px; height: 173px;" src="workitemimg:2-screenshot-1.jpg"&gt;&lt;/p&gt;&lt;p&gt;You can see what items you are watching by clicking on "My Account" in top right corner&lt;br&gt;&lt;/p&gt;&lt;img style="width: 363px; height: 53px;" src="workitemimg:3-screenshot-2.jpg"&gt;</field>
+    <field id="speakersNotes" text-type="text/plain" type="text/html"/>
+</work-item>

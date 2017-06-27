@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<factbase artifact="/default/--Demo Projects${ProjectGroup}Group" id="processaudit/project-level/source-check-aggregate-trend" tag="trend">
+    <structure-element id="root" provider="root" type="root">
+        <trend-value-fact-element id="test-coverage.number-of-covered-lines" provider="source-check-aggregate" type="test-coverage.number-of-covered-lines">
+            <trend>
+                <value tag="2015-06-30" type="java.lang.Integer">0</value>
+                <value tag="2015-07-12" type="java.lang.Integer">50</value>
+                <value tag="2015-07-13" type="java.lang.Integer">50</value>
+                <value tag="2015-07-14" type="java.lang.Integer">50</value>
+                <value tag="2016-09-05" type="java.lang.Integer">50</value>
+                <value tag="2017-06-07" type="java.lang.Integer">75</value>
+                <value tag="2017-06-21" type="java.lang.Integer">0</value>
+                <value tag="2017-06-22" type="java.lang.Integer">0</value>
+                <value tag="2017-06-23" type="java.lang.Integer">0</value>
+                <value tag="2017-06-27" type="java.lang.Integer">0</value>
+            </trend>
+            <properties>
+                <property id="label">
+                    <value>Covered Lines</value>
+                </property>
+            </properties>
+        </trend-value-fact-element>
+        <trend-value-fact-element id="test-coverage.number-of-valid-lines" provider="source-check-aggregate" type="test-coverage.number-of-valid-lines">
+            <trend>
+                <value tag="2015-06-30" type="java.lang.Integer">0</value>
+                <value tag="2015-07-12" type="java.lang.Integer">96</value>
+                <value tag="2015-07-13" type="java.lang.Integer">96</value>
+                <value tag="2015-07-14" type="java.lang.Integer">96</value>
+                <value tag="2016-09-05" type="java.lang.Integer">96</value>
+                <value tag="2017-06-07" type="java.lang.Integer">141</value>
+                <value tag="2017-06-21" type="java.lang.Integer">0</value>
+                <value tag="2017-06-22" type="java.lang.Integer">0</value>
+                <value tag="2017-06-23" type="java.lang.Integer">0</value>
+                <value tag="2017-06-27" type="java.lang.Integer">0</value>
+            </trend>
+            <properties>
+                <property id="label">
+                    <value>Valid Lines</value>
+                </property>
+            </properties>
+        </trend-value-fact-element>
+        <trend-value-fact-element id="test-coverage.ratio" provider="source-check-aggregate" type="test-coverage.ratio">
+            <trend>
+                <value tag="2017-06-08" type="java.lang.Double">35.0</value>
+                <value tag="2017-06-09" type="java.lang.Double">39.0</value>
+                <value tag="2017-06-10" type="java.lang.Double">39.0</value>
+                <value tag="2017-06-11" type="java.lang.Double">40.0</value>
+                <value tag="2017-06-12" type="java.lang.Double">40.0</value>
+                <value tag="2017-06-13" type="java.lang.Double">41.0</value>
+                <value tag="2017-06-14" type="java.lang.Double">43.0</value>
+                <value tag="2017-06-15" type="java.lang.Double">46.0</value>
+                <value tag="2017-06-16" type="java.lang.Double">45.0</value>
+                <value tag="2017-06-17" type="java.lang.Double">48.0</value>
+                <value tag="2017-06-18" type="java.lang.Double">52.0</value>
+                <value tag="2017-06-19" type="java.lang.Double">53.0</value>
+                <value tag="2017-06-20" type="java.lang.Double">55.0</value>
+                <value tag="2017-06-21" type="java.lang.Double">NaN</value>
+                <value tag="2017-06-22" type="java.lang.Double">NaN</value>
+                <value tag="2017-06-23" type="java.lang.Double">NaN</value>
+                <value tag="2017-06-27" type="java.lang.Double">NaN</value>
+            </trend>
+            <properties>
+                <property id="label">
+                    <value>Unit Test Coverage</value>
+                </property>
+            </properties>
+        </trend-value-fact-element>
+    </structure-element>
+</factbase>

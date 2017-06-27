@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<enumeration>
+    <option description="The issue is open and ready for the assignee to start work on it." iconURL="/polarion/icons/default/enums/req_status_draft.gif" id="open" name="Open" sortOrder="1"/>
+    <option iconURL="/polarion/icons/default/enums/req_status_approved.gif" id="approved" name="Approved" sortOrder="7"/>
+    <option iconURL="/polarion/icons/default/enums/req_status_draft.gif" id="draft" name="Draft" sortOrder="8"/>
+    <option iconURL="/polarion/icons/default/enums/req_status_verified.gif" id="finished" name="Finished" sortOrder="9"/>
+    <option iconURL="/polarion/icons/default/enums/req_status_awaiting_review.gif" id="inProgress" name="In Progress" sortOrder="10"/>
+</enumeration>

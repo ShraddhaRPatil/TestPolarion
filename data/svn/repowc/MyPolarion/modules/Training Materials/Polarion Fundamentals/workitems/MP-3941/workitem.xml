@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">CarolaH</field>
+    <field id="created">2012-12-13 13:31:55.045 +0100</field>
+    <field id="description" text-type="text/html">You will use your training project for all exercises throughout this training. &lt;br/&gt;Familiarize yourself with your Polarion Portal e.g.:&lt;br/&gt;&lt;ul&gt;&lt;li&gt;Open your training project if not already openend&lt;/li&gt;&lt;li&gt;Open your personal home page&lt;/li&gt;&lt;li&gt;Open your project home page&lt;/li&gt;&lt;li style="list-style: none"&gt;&lt;ul&gt;&lt;li&gt;Navigate through your project using your project home page as start point&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;Open your &lt;span style="font-style: italic;"&gt;Work Items&lt;/span&gt;&lt;/li&gt;&lt;li style="list-style: none"&gt;&lt;ul&gt;&lt;li&gt;Explore the different &lt;span style="font-style: italic;"&gt;Work Items&lt;/span&gt; Views&lt;/li&gt;&lt;li&gt;Use different layouts for your panes&lt;/li&gt;&lt;li&gt;Activate and deactivate &lt;span style="font-style: italic;"&gt;Lite Form&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;Open &lt;span style="font-style: italic;"&gt;Documents &amp; Wiki&lt;/span&gt;&lt;/li&gt;&lt;li&gt;Expand your &lt;span style="font-style: italic;"&gt;Navigation Bar&lt;/span&gt;&lt;/li&gt;&lt;li style="list-style: none"&gt;&lt;ul&gt;&lt;li&gt;Use &lt;span style="font-style: normal;"&gt;"Save as Shortcut"&lt;/span&gt; - What happens ?&lt;br/&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;</field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Get familiar with the Polarion Portal</field>
+    <field id="type">exercise</field>
+</work-item>

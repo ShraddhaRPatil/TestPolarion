@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">requirement</field>
+    <field id="author">admin</field>
+    <field id="title">System Feature 1</field>
+    <field id="created">2011-02-22 12:35:27.305 +0100</field>
+    <field id="priority">50.0</field>
+    <field id="description" text-type="text/html">&lt;span class="Apple-style-span" style="FONT-STYLE: italic"&gt;Don’t really say “System Feature 1.” State the feature name in just a few words.&lt;/span&gt;&lt;br/&gt;&lt;br/&gt;&lt;span class="Apple-style-span" style="FONT-WEIGHT: bold"&gt;&lt;span class="Apple-style-span" style="FONT-WEIGHT: normal"&gt;&lt;span class="Apple-style-span" style="FONT-STYLE: italic"&gt;Provide a short description of the feature and indicate whether it is of High, Medium, or Low priority. You could also include specific priority component ratings, such as benefit, penalty, cost, and risk (each rated on a relative scale from a low of 1 to a high of 9).&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;</field>
+    <field id="status">draft</field>
+    <field id="severity">should_have</field>
+    <field id="previousStatus">draft</field>
+</work-item>

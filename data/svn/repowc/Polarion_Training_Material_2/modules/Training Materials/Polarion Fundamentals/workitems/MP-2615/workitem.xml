@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">stroebelet</field>
+    <field id="created">2012-04-24 05:06:43.549 -0400</field>
+    <field id="description" text-type="text/html"><![CDATA[<ul>
+  <li>Open your personal homepage <span style="font-style: italic;">&quot;My Polarion&quot;</span> to find latest changes in the project</li>
+  <li>Add following reply to the question using the commenting feature in the activity stream<span style="font-style: italic;">: &quot;Please use the User Requirements Specification from our template library&quot;<br/>
+      <img src="attachment:activityStreamAddcomment.jpg"/></span></li>
+  <li><span style="font-style: italic;">Filter the activity stream to find only updated work items &quot;updated&quot; or work items with comments &quot;comments&quot;</span></li>
+</ul>]]></field>
+    <field id="initialEstimate">1/12h</field>
+    <field id="linkedWorkItems">
+        <list>
+            <struct>
+                <item id="revision">41995</item>
+                <item id="role">branched_from</item>
+                <item id="workItem">MP-2367</item>
+            </struct>
+        </list>
+    </field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="remainingEstimate">1/12h</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Use the activity stream to comment on work items</field>
+    <field id="type">exercise</field>
+</work-item>

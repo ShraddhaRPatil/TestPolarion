@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="linkedWorkItems">
+        <list>
+            <struct>
+                <item id="workItem">DP-345</item>
+                <item id="suspect">false</item>
+                <item id="role">verifies</item>
+            </struct>
+        </list>
+    </field>
+    <field id="type">softwareTestCase</field>
+    <field id="author">admin</field>
+    <field id="title">Check Application requires authentication code</field>
+    <field id="created">2013-01-15 13:43:31.187 +0100</field>
+    <field id="priority">50.0</field>
+    <field id="description" text-type="text/html"/>
+    <field id="status">active</field>
+    <field id="severity">basic</field>
+    <field id="previousStatus">draft</field>
+    <field id="categories">
+        <list>
+            <item>Interface</item>
+        </list>
+    </field>
+    <field id="testSteps" type="struct:TestSteps">
+        <struct>
+            <item id="keys">
+                <list>
+                    <item>step</item>
+                    <item>description</item>
+                    <item>expectedResult</item>
+                </list>
+            </item>
+            <item id="steps">
+                <list>
+                    <struct>
+                        <item id="values">
+                            <list>
+                                <item text-type="text/html">Start Drive Pilot</item>
+                                <item text-type="text/html">Connect the DrivePilot to the car</item>
+                                <item text-type="text/html"/>
+                            </list>
+                        </item>
+                    </struct>
+                    <struct>
+                        <item id="values">
+                            <list>
+                                <item text-type="text/html">Connect iPad Console App</item>
+                                <item text-type="text/html">Start the application and connect to the DrivePilot</item>
+                                <item text-type="text/html">The Application says "Enter Auth Code:"</item>
+                            </list>
+                        </item>
+                    </struct>
+                    <struct>
+                        <item id="values">
+                            <list>
+                                <item text-type="text/html">Generate Code&amp;nbsp;</item>
+                                <item text-type="text/html">Generate code using DrivePilot native console</item>
+                                <item text-type="text/html">The authentication code appears in the DrivePilot console.&amp;nbsp;</item>
+                            </list>
+                        </item>
+                    </struct>
+                    <struct>
+                        <item id="values">
+                            <list>
+                                <item text-type="text/html">Enter Code</item>
+                                <item text-type="text/html">Enter the generated code to the app.</item>
+                                <item text-type="text/html">&amp;nbsp;The Enter Auth Code field accepts the input</item>
+                            </list>
+                        </item>
+                    </struct>
+                    <struct>
+                        <item id="values">
+                            <list>
+                                <item text-type="text/html">Submit</item>
+                                <item text-type="text/html">&amp;nbsp;Submit the code</item>
+                                <item text-type="text/html">&amp;nbsp;The app says: "Connected"</item>
+                            </list>
+                        </item>
+                    </struct>
+                </list>
+            </item>
+        </struct>
+    </field>
+</work-item>

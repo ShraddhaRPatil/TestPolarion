@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="author">schucks</field>
+    <field id="title">Test Steps</field>
+    <field id="created">2013-07-31 15:55:14.721 +0200</field>
+    <field id="description" text-type="text/html">The Test Steps section defines the different fields of the test steps table which is optionally available for every Work Item type acting as Test Case. The default Configruation is existing in all installation from Polarion 2012 SR3. If upgrading from an earlier version of Polarion this section is empty and must be configured to access all test step related features:&lt;br/&gt;&lt;br/&gt;&lt;img src="attachment:screenshot-6.jpg"/&gt;&lt;br/&gt;</field>
+    <field id="priority">25.0</field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+    <field id="trainingCategory" multi="true" type="enum:trainingCategory"/>
+</work-item>

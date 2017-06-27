@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="author">hartliebc</field>
+    <field id="title">Working with Branched Documents continued</field>
+    <field id="created">2012-05-30 13:25:58.154 +0200</field>
+    <field id="description" text-type="text/html">&lt;ul&gt;&lt;li&gt;Overwrite/Branch referenced work items in the branched document&lt;br/&gt; &lt;img style="width: 455px;height: 286px;" src="attachment:overwrite.jpg"/&gt;&lt;br/&gt;&lt;/li&gt;&lt;li&gt;Find all documents that reference a work item&lt;br/&gt; &lt;img src="attachment:referencedfrom.jpg"/&gt;&lt;br/&gt;&lt;br/&gt; or check document sidebar&lt;br/&gt; &lt;img src="attachment:branchSidebar.jpg"/&gt;&lt;/li&gt;&lt;/ul&gt;</field>
+    <field id="priority">25.0</field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+    <field id="trainingCategory" multi="true" type="enum:trainingCategory"/>
+</work-item>

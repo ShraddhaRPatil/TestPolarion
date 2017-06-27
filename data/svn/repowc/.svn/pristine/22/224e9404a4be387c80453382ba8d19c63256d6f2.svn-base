@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<module>
+    <field id="usesOutlineNumbering">true</field>
+    <field id="homePageContent" text-type="text/html"><![CDATA[<h1 id="polarion_wiki macro name=module-workitem;params=id=MP-3894"></h1>
+<h2 id="polarion_wiki macro name=module-workitem;params=id=MP-3895"></h2>
+<div contenteditable="false" id="polarion_wiki macro name=toc"></div>
+<p id="polarion_merged_0"><br/></p>
+<h2 id="polarion_wiki macro name=module-workitem;params=id=MP-4014"></h2>
+<div id="polarion_wiki macro name=module-workitem;params=id=MP-3984|external=true" class="polarion-Document-workitem"></div>
+<p id="polarion_merged_1" style=""><br style=""/></p>
+<div id="polarion_wiki macro name=module-workitem;params=id=MP-489|external=true" class="polarion-Document-workitem"></div>
+<div id="polarion_wiki macro name=module-workitem;params=id=MP-3986|external=true" class="polarion-Document-workitem"></div>
+<h2 id="polarion_wiki macro name=module-workitem;params=id=MP-4015"></h2>
+<p id="polarion_merged_2" style=""><br style=""/></p>
+<div id="polarion_wiki macro name=module-workitem;params=id=MP-484|external=true" class="polarion-Document-workitem"></div>
+<h2 id="polarion_wiki macro name=module-workitem;params=id=MP-4016"></h2>
+<div id="polarion_wiki macro name=module-workitem;params=id=MP-485|external=true" class="polarion-Document-workitem"></div>
+<h2 id="polarion_wiki macro name=module-workitem;params=id=MP-4017"></h2>
+<div id="polarion_wiki macro name=module-workitem;params=id=MP-486|external=true" class="polarion-Document-workitem"></div>
+<h2 id="polarion_wiki macro name=module-workitem;params=id=MP-4018"></h2>
+<div id="polarion_wiki macro name=module-workitem;params=id=MP-487|external=true" class="polarion-Document-workitem"></div>
+<h2 id="polarion_wiki macro name=module-workitem;params=id=MP-4019"></h2>
+<div id="polarion_wiki macro name=module-workitem;params=id=MP-451|external=true" class="polarion-Document-workitem"></div>
+<h2 id="polarion_wiki macro name=module-workitem;params=id=MP-4020"></h2>
+<div id="polarion_wiki macro name=module-workitem;params=id=MP-1802|external=true" class="polarion-Document-workitem"></div>
+<h2 id="polarion_wiki macro name=module-workitem;params=id=MP-4021"></h2>
+<div id="polarion_wiki macro name=module-workitem;params=id=MP-1803|external=true" class="polarion-Document-workitem"></div>
+<h2 id="polarion_wiki macro name=module-workitem;params=id=MP-4022"></h2>
+<div id="polarion_wiki macro name=module-workitem;params=id=MP-455|external=true" class="polarion-Document-workitem"></div>
+<h2 id="polarion_wiki macro name=module-workitem;params=id=MP-4023"></h2>
+<div id="polarion_wiki macro name=module-workitem;params=id=MP-454|external=true" class="polarion-Document-workitem"></div>
+<h2 id="polarion_wiki macro name=module-workitem;params=id=MP-4024"></h2>
+<div id="polarion_wiki macro name=module-workitem;params=id=MP-1804|external=true" class="polarion-Document-workitem"></div>
+<h2 id="polarion_wiki macro name=module-workitem;params=id=MP-4025"></h2>
+<div id="polarion_wiki macro name=module-workitem;params=id=MP-457|external=true" class="polarion-Document-workitem"></div>
+<h2 id="polarion_wiki macro name=module-workitem;params=id=MP-3901"></h2>
+<div id="polarion_wiki macro name=module-workitem;params=id=MP-518|external=true" class="polarion-Document-workitem"></div>
+<h2 id="polarion_wiki macro name=module-workitem;params=id=MP-3902"></h2>
+<div id="polarion_wiki macro name=module-workitem;params=id=MP-519|external=true" class="polarion-Document-workitem"></div>
+<div id="polarion_wiki macro name=page_break|uid=merged_0"></div>
+<h2 id="polarion_wiki macro name=module-workitem;params=id=MP-3903"></h2>
+<div id="polarion_wiki macro name=module-workitem;params=id=MP-520|external=true" class="polarion-Document-workitem"></div>
+<h2 id="polarion_wiki macro name=module-workitem;params=id=MP-3904"></h2>
+<div id="polarion_wiki macro name=module-workitem;params=id=MP-521|external=true" class="polarion-Document-workitem"></div>
+<div id="polarion_wiki macro name=page_break;params=uid=merged_1"></div>
+<h2 id="polarion_wiki macro name=module-workitem;params=id=MP-3905"></h2>
+<div id="polarion_wiki macro name=module-workitem;params=id=MP-522|external=true" class="polarion-Document-workitem"></div>
+<h2 id="polarion_wiki macro name=module-workitem;params=id=MP-3906"></h2>
+<div id="polarion_wiki macro name=module-workitem;params=id=MP-523|external=true" class="polarion-Document-workitem"></div>
+]]></field>
+    <field id="structureLinkRole">next</field>
+    <field id="branchedFrom">Training Materials#Handout Traceability Consistency</field>
+    <field id="outlineNumbering">
+        <struct>
+            <item id="prefix"/>
+        </struct>
+    </field>
+    <field id="author">CarolaH</field>
+    <field id="created">2012-11-15 12:17:21.714 +0100</field>
+    <field id="renderingLayouts">
+        <list>
+            <struct>
+                <item id="layouter">section</item>
+                <item id="label">Slide</item>
+                <item id="properties">
+                    <list>
+                        <struct>
+                            <item id="value">id</item>
+                            <item id="key">fieldsAtStart</item>
+                        </struct>
+                        <struct>
+                            <item id="value"/>
+                            <item id="key">fieldsAtEnd</item>
+                        </struct>
+                        <struct>
+                            <item id="value"/>
+                            <item id="key">fieldsAtEndAsTable</item>
+                        </struct>
+                        <struct>
+                            <item id="value"/>
+                            <item id="key">hidden</item>
+                        </struct>
+                    </list>
+                </item>
+                <item id="type">slide</item>
+            </struct>
+        </list>
+    </field>
+</module>

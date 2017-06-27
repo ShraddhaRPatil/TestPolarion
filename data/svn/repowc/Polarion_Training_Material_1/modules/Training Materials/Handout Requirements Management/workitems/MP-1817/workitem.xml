@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">heading</field>
+    <field id="author">stroebelet</field>
+    <field id="title"> Requirements Management</field>
+    <field id="created">2012-02-14 19:34:30.882 +0100</field>
+    <field id="priority">25.0</field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+</work-item>

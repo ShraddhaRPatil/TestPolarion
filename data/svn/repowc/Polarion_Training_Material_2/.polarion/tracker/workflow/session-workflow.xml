@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<workflow initial-action="init" initial-status="draft">
+    <transitions>
+        <transition action="approved" from="open" to="approved"/>
+        <transition action="approved" from="finished" to="approved"/>
+        <transition action="approved" from="draft" to="approved"/>
+        <transition action="approved" from="approved" to="approved"/>
+        <transition action="draft" from="open" to="draft"/>
+        <transition action="draft" from="finished" to="draft"/>
+        <transition action="inProgress" from="draft" to="inProgress"/>
+        <transition action="approved" from="inProgress" to="approved"/>
+        <transition action="draft" from="inProgress" to="draft"/>
+    </transitions>
+    <actions>
+        <action id="init" name="Initialization">
+            <cleared>
+                <field name="resolution"/>
+                <field name="resolvedOn"/>
+            </cleared>
+            <functions>
+                <function name="LinkedWorkItemsStatusChange">
+                    <param name="back.link.roles" value="depends_on"/>
+                    <param name="link.roles" value="parent"/>
+                    <param name="valid.states" value="open,inprogress,reopened"/>
+                    <param name="target.state" value="reopened"/>
+                    <param name="clear.attribs" value="resolution,resolvedOn"/>
+                </function>
+            </functions>
+        </action>
+        <action id="draft" name="Draft"/>
+        <action id="approved" name="Approved"/>
+        <action id="inProgress" name="In Progress"/>
+    </actions>
+</workflow>

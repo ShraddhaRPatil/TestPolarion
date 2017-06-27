@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">exercise</field>
+    <field id="author">hartliebc</field>
+    <field id="title">Create Favorite for your document "User Training Meeting Notes"</field>
+    <field id="created">2012-04-24 10:15:45.526 +0200</field>
+    <field id="description" text-type="text/html">&lt;ul&gt;&lt;li&gt;Ensure your document "User Training Meeting Notes" is selected in your navigation bar.&lt;br/&gt;&lt;/li&gt;&lt;li&gt;Click on "Save as Shortcut"&lt;br/&gt;&lt;img src="attachment:SaveAsShortcut.jpg" style=""/&gt;&lt;/li&gt;&lt;li&gt;Add your preferred title and icon for your favorite. Ensure type is set to "Favorite":&lt;br/&gt;&lt;img src="attachment:addfavorite.jpg" style=""/&gt;&lt;br/&gt;&lt;/li&gt;&lt;/ul&gt;&lt;span style="font-style: italic;"&gt;&lt;br/&gt;&lt;/span&gt;</field>
+    <field id="priority">25.0</field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+</work-item>

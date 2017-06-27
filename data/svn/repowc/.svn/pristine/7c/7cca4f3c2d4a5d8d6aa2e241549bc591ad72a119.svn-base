@@ -1,0 +1,4 @@
+$parameters.put("workItems", $factory.dataSet("Work Items").build())
+$parameters.put("linkRole", $factory.enumeration("Link Role(s)","wi-link-role").allowMultipleValues(true).allowNoValue(true).build())
+$parameters.put("linkedItemType", $factory.enumeration("Linked Item Type(s)","workitem-type").allowMultipleValues(true).allowNoValue(true).build())
+$parameters.put("showLinkingItems", $factory.bool("Show Linking Items").build())

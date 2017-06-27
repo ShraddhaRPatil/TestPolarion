@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<enumeration>
+    <option id="task" name="Task" description="A task that needs to be done." iconURL="/polarion/icons/default/enums/type_task.gif" sortOrder="1" default="true" />
+    <option id="changerequest" name="Change Request" description="A request for change of appearance of functionality." iconURL="/polarion/icons/default/enums/type_changerequest.gif" sortOrder="2"/>
+    <option id="requirement" name="Requirement" description="Functional or behavioral requirement to be fulfilled." iconURL="/polarion/icons/default/enums/type_requirement.gif" sortOrder="3"/>
+    <option id="defect" name="Defect" description="A defect that needs to be fixed." iconURL="/polarion/icons/default/enums/type_bug.gif" sortOrder="4"/>
+    <option iconURL="/polarion/icons/default/enums/type_test.gif" id="testcase" name="Test Case" sortOrder="5"/>
+</enumeration>

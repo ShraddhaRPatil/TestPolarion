@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">schucks</field>
+    <field id="created">2013-10-09 16:53:17.787 +0200</field>
+    <field id="description" text-type="text/html">Installation of Eclipse SDK&lt;br/&gt;Got to eclipse.org and search for the following downloadable file:&lt;br/&gt;&lt;br/&gt;&lt;img src="workitemimg:1-eclipsedownload.jpg"/&gt;&lt;br/&gt;&lt;br/&gt;You might want to download the 64 Bit version, but this depends on you local configuration.&lt;br/&gt;Actual installation might not be required. Just unzip the downloaded package to a directory of your choice.&lt;br/&gt;&lt;br/&gt;&lt;span style="font-style: italic;"&gt;Hint: Using the Windows programs folder is not recommended, because of permission restrictions of the operating system.&lt;/span&gt;&lt;br/&gt;&lt;br/&gt;After this is done start Eclipse and configure a Workspace.&lt;br/&gt;&lt;br/&gt;The last step is configuration of Java.&lt;br/&gt;Open Window &amp;gt; Preferences and select the Entry Java &amp;gt; Installed JREs and add the SDK which you installed in the exercise before.</field>
+    <field id="previousStatus">open</field>
+    <field id="priority">50.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Installation of Eclipse SDK</field>
+    <field id="type">exercise</field>
+</work-item>

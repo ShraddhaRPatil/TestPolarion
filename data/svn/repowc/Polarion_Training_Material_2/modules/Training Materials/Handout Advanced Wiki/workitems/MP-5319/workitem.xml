@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">schucks</field>
+    <field id="created">2014-10-28 08:59:52.946 -0400</field>
+    <field id="description" text-type="text/html">&lt;img style="width: 788px;height: 459px;" src="workitemimg:1-screenshot-20141028-085953.png"/&gt;</field>
+    <field id="previousStatus">open</field>
+    <field id="printNotes" text-type="text/html" type="text/html">Thes Notes will be printed as part of the training materials</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Using SQL</field>
+    <field id="type">slide</field>
+</work-item>

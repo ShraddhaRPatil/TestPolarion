@@ -1,0 +1,42 @@
+<configuration>
+
+  <workItemRules>
+
+    <workItemRule>
+
+      <workItemType>requirement</workItemType>
+
+      <startCondition>
+          <containsWords>must, should</containsWords>
+      </startCondition>
+
+      <fieldRules>
+
+        <fieldRule>
+          <field>severity</field>
+          <value>must_have</value>
+          <condition>
+            <containsWords>must</containsWords>
+          </condition>
+        </fieldRule>
+
+        <fieldRule>
+          <field>severity</field>
+          <value>should_have</value>
+          <condition>
+            <containsWords>should</containsWords>
+          </condition>
+        </fieldRule>
+
+      </fieldRules>
+
+      <layout>
+        <fieldsAtStart>id</fieldsAtStart> 
+        <fieldsAtEnd>severity</fieldsAtEnd> 
+      </layout>
+
+    </workItemRule>
+
+  </workItemRules>
+
+</configuration>

@@ -1,0 +1,58 @@
+<oslc-semantics>
+  <namespaces>
+    <namespace prefix="dcterms" url="http://purl.org/dc/terms/"/>
+    <namespace prefix="oslc" url="http://open-services.net/ns/core#"/>
+    <namespace prefix="cm" url="http://open-services.net/ns/cm#"/>
+    <namespace prefix="rm" url="http://open-services.net/ns/rm#"/>
+    <namespace prefix="ldf" url="http://www.plm.automation.siemens.com/ldf#"/>
+    </namespaces>
+  <domains>
+    <domain prefix="cm">
+      <resourceType uri="cm:ChangeRequest"/>
+    </domain>
+    <domain prefix="rm">
+      <resourceType uri="rm:Requirement"/>
+    </domain>
+    <!--  Teamcenter Core Domain -->
+    <domain prefix="ldf">
+      <resourceType uri="ldf:Item"/>
+    </domain>
+  </domains>
+  <linking>
+    <link name="cm:relatedChangeRequest" reverse="cm:relatedChangeRequest">
+        <from type="cm:ChangeRequest"/><to type="cm:ChangeRequest"/>
+    </link>
+    <link name="cm:implementsRequirement" reverse="rm:implementedBy">
+      <from type="cm:ChangeRequest"/><to type="rm:Requirement"/>
+    </link>
+    <link name="cm:affectsRequirement" reverse="rm:affectedBy">
+      <from type="cm:ChangeRequest"/><to type="rm:Requirement"/>
+    </link>
+    <link name="dcterms:relation">
+      <from type="rm:Requirement"/>
+      <to type="rm:Requirement"/>
+    </link>
+    <!--  Teamcenter -->
+	<!-- Core Domain -->
+    <!--  Links from Change Request to Teamcenter Change Request types  -->
+    <link name="ldf:IMAN_reference">
+      <from type="cm:ChangeRequest"/><to type="ldf:Item"/>
+    </link>
+    <link name="ldf:IMAN_reference">
+      <from type="rm:Requirement"/><to type="ldf:Item"/>
+    </link>
+    <!--  Polarion Core Domain -->
+    <link name="dcterms:relation">
+      <from type="cm:ChangeRequest"/>
+      <to type="oslc:BaseResource"/>
+    </link>
+    <link name="dcterms:relation">
+      <from type="rm:Requirement"/>
+      <to type="oslc:BaseResource"/>
+    </link>
+    <link name="dcterms:relation">
+      <from type="oslc:BaseResource"/>
+      <to type="oslc:BaseResource"/>
+    </link>
+  </linking>
+</oslc-semantics>

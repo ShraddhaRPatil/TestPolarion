@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="author">schucks</field>
+    <field id="title">Example of a job</field>
+    <field id="created">2012-10-16 14:44:48.167 +0200</field>
+    <field id="priority">25.0</field>
+    <field id="description" text-type="text/html">Here is an example of a job for xml import and test run creation which can be used for testing:&lt;br/&gt;&lt;br/&gt;&lt;span style="font-weight: bolder;"&gt;  &amp;lt;job cronExpression="0 0/10 18-06 * * ?" id="xUnitFileImport" name="Import Tests Results" scope="system"&amp;gt;&lt;/span&gt;&lt;br/&gt;&lt;span style="font-weight: bolder;"&gt;    &amp;lt;path&amp;gt;C:\D\xUnit&amp;lt;/path&amp;gt;&lt;/span&gt;&lt;br/&gt;&lt;span style="font-weight: bolder;"&gt;    &amp;lt;project&amp;gt;My_Project&amp;lt;/project&amp;gt;&lt;/span&gt;&lt;br/&gt;&lt;span style="font-weight: bolder;"&gt;    &amp;lt;idPrefix&amp;gt;UT-&amp;lt;/idPrefix&amp;gt;&lt;/span&gt;&lt;br/&gt;&lt;span style="font-weight: bolder;"&gt;    &amp;lt;userAccountVaultKey&amp;gt;xUnitFileImportUser&amp;lt;/userAccountVaultKey&amp;gt;&lt;/span&gt;&lt;br/&gt;&lt;span style="font-weight: bolder;"&gt;    &amp;lt;maxCreatedDefects&amp;gt;10&amp;lt;/maxCreatedDefects&amp;gt;&lt;/span&gt;&lt;br/&gt;&lt;span style="font-weight: bolder;"&gt;    &amp;lt;maxCreatedDefectsPercent&amp;gt;5&amp;lt;/maxCreatedDefectsPercent&amp;gt;&lt;/span&gt;&lt;br/&gt;&lt;span style="font-weight: bolder;"&gt;    &amp;lt;templateTestRunId&amp;gt;xUnit Test Manual Upload&amp;lt;/templateTestRunId&amp;gt;&lt;/span&gt;&lt;br/&gt;&lt;span style="font-weight: bolder;"&gt;    &amp;lt;templateTestCaseId&amp;gt;WI-140&amp;lt;/templateTestCaseId&amp;gt;&lt;/span&gt;&lt;br/&gt;&lt;span style="font-weight: bolder;"&gt;    &amp;lt;idRegex&amp;gt;(.*).xml&amp;lt;/idRegex&amp;gt;&lt;/span&gt;&lt;br/&gt;&lt;span style="font-weight: bolder;"&gt;    &amp;lt;groupIdRegex&amp;gt;[^-]*-(.*).xml&amp;lt;/groupIdRegex&amp;gt;&lt;/span&gt;&lt;br/&gt;&lt;span style="font-weight: bolder;"&gt;    &amp;lt;typeRegex&amp;gt;([^-]*)-.*.xml&amp;lt;/typeRegex&amp;gt;&lt;/span&gt;&lt;br/&gt;&lt;span style="font-weight: bolder;"&gt;  &amp;lt;/job&amp;gt;&lt;/span&gt;</field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+    <field id="trainingCategory" multi="true" type="enum:trainingCategory"/>
+</work-item>

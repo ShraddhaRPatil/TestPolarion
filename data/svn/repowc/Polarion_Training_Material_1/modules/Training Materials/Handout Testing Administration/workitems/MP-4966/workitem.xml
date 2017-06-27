@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="author">schucks</field>
+    <field id="title">Test Export Templates</field>
+    <field id="created">2013-07-31 15:44:24.454 +0200</field>
+    <field id="description" text-type="text/html">This chapter is used to manage templates used by the MS Excel Round Trip used by all manual Test Runs.&lt;br/&gt;&lt;br/&gt;&lt;img style="width: 788px;height: 223px;" src="attachment:screenshot-3.jpg"/&gt;&lt;br/&gt;</field>
+    <field id="priority">25.0</field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+    <field id="trainingCategory" multi="true" type="enum:trainingCategory"/>
+</work-item>

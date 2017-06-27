@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">daniel.morris</field>
+    <field id="created">2016-06-07 12:35:28.499 -0400</field>
+    <field id="description" text-type="text/html"><![CDATA[<span style="font-size: 10pt;line-height: 1.5;">Upload the unzipped attachment into your widgets folder. <br/>
+  <img src="workitemimg:1-screenshot-20160607-123528.png" style="width: 474px;height: 300px;"/><br/>
+  <br/>
+  This widget is using hard coded table headings. As a small exercise we want to add 2 parameters so you can define these headings in</span><span style="font-size: 10pt;line-height: 1.5;"> the right sidebar.</span>]]></field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="type">exercise</field>
+</work-item>

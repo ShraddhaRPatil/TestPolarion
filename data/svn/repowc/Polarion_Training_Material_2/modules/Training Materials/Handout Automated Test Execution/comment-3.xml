@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<module-comment>
+    <field id="created">2012-10-24 15:13:36.620 +0200</field>
+    <field id="author">schucks</field>
+    <field id="text" text-type="text/html">&lt;p&gt;&lt;span&gt;&lt;img src="/polarion/ria/images/wizards/unsupported_object.png" title="Unsupported content: R.AnnotationRef"&gt;&lt;/span&gt;&lt;span&gt;Is this supposed to be here?&lt;/span&gt;&lt;/p&gt;</field>
+    <field id="importedComment">
+        <struct>
+            <item id="author">Justine Bondoc</item>
+            <item id="created">2012-10-20 19:14:00.000 +0200</item>
+            <item id="initials">JB</item>
+        </struct>
+    </field>
+</module-comment>

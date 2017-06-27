@@ -1,0 +1,644 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40"
+ xmlns:x2="http://schemas.microsoft.com/office/excel/2003/xml"
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Created>2005-07-21T11:27:29Z</Created>
+  <LastSaved>2005-08-11T13:47:46Z</LastSaved>
+  <Version>14.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <DownloadComponents/>
+  <LocationOfComponents HRef="file:///E:\"/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>12240</WindowHeight>
+  <WindowWidth>17115</WindowWidth>
+  <WindowTopX>120</WindowTopX>
+  <WindowTopY>30</WindowTopY>
+  <TabRatio>227</TabRatio>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+  <FutureVer>11</FutureVer>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:CharSet="238"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s64">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior/>
+   <NumberFormat ss:Format="Fixed"/>
+  </Style>
+  <Style ss:ID="s66">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:CharSet="238" x:Family="Swiss" ss:Bold="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s68">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:CharSet="238" x:Family="Swiss" ss:Bold="1"/>
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s69">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:CharSet="238" x:Family="Swiss" ss:Bold="1"/>
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s70">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:CharSet="238" x:Family="Swiss" ss:Bold="1"/>
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s71">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:CharSet="238" x:Family="Swiss" ss:Bold="1"/>
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="Fixed"/>
+  </Style>
+  <Style ss:ID="s72">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:CharSet="238" x:Family="Swiss" ss:Bold="1"/>
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s73">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s75">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#CCFFCC" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s76">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#CCFFCC" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s77">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s78">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s79">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior/>
+   <NumberFormat ss:Format="Fixed"/>
+  </Style>
+  <Style ss:ID="s80">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s81">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s83">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:CharSet="238" x:Family="Swiss" ss:Bold="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s84">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Polarion Work Items">
+  <Names>
+   <NamedRange ss:Name="_FilterDatabase"
+    ss:RefersTo="='Polarion Work Items'!R1C1:R2C25" ss:Hidden="1"/>
+  </Names>
+  <Table ss:ExpandedColumnCount="26" ss:ExpandedRowCount="3" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62">
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="57"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="257.25"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="57"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="235.5"/>
+   <Column ss:StyleID="s62" ss:Width="58.5"/>
+   <Column ss:StyleID="s64" ss:Width="51.75"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="51"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="69.75"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="65.25"/>
+   <Column ss:StyleID="s62" ss:Width="72"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="87.75" ss:Span="3"/>
+   <Column ss:Index="15" ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="87"
+    ss:Span="1"/>
+   <Column ss:Index="17" ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="253.5"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="195" ss:Span="4"/>
+   <Column ss:Index="23" ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="79.5"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="96.75"/>
+   <Column ss:StyleID="s62" ss:Width="85.5"/>
+   <Row ss:StyleID="s66">
+    <Cell ss:StyleID="s68"><Data ss:Type="String">ID</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Title</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Type</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Description</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Severity</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Priority</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Status</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Resolution</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Initial Est.</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Time Spent</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Remaining Est.</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Author</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Assignee</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Due Date</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Time Point</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Plan. Constraint</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Categories</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Linked Workitems</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Externally Linked Workitems</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Linked Revisions</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Hyperlinks</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Approvals</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Resolved On</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Custom field </Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Custom field 2</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5" ss:StyleID="s73">
+    <Cell ss:StyleID="s75"><Data ss:Type="String">1</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">Enter title, description...</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">requirement</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s78"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">Here multi line description can be entered.&#10;With <I>some </I><B>formatting</B><Font>.</Font></ss:Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">should_have</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">90.0</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">draft</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s77"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s77"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s77"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s77"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s77"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s77"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s77"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s77"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s77"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s77"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s77"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s77"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s77"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s77"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s77"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s77"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s80"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s81"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>-3</HorizontalResolution>
+    <VerticalResolution>0</VerticalResolution>
+   </Print>
+   <Selected/>
+   <FreezePanes/>
+   <FrozenNoSplit/>
+   <SplitHorizontal>1</SplitHorizontal>
+   <TopRowBottomPane>1</TopRowBottomPane>
+   <SplitVertical>2</SplitVertical>
+   <LeftColumnRightPane>17</LeftColumnRightPane>
+   <ActivePane>0</ActivePane>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+    </Pane>
+    <Pane>
+     <Number>1</Number>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+    <Pane>
+     <Number>2</Number>
+    </Pane>
+    <Pane>
+     <Number>0</Number>
+     <ActiveCol>18</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <x2:MapInfo x2:HideInactiveListBorder="false">
+  <x2:Schema x2:ID="Schema4" x2:Namespace=""><xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<xsd:annotation>
+		<xsd:documentation xml:lang="en">
+     Workitem
+    </xsd:documentation>
+	</xsd:annotation>
+	<xsd:element name="workitem" type="WorkItemType"/>
+	<xsd:complexType name="WorkItemType">
+		<xsd:all>
+			<xsd:element name="id" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+			<xsd:element name="title" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+			<xsd:element name="type" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+			<xsd:element name="priority" type="xsd:float" minOccurs="0" maxOccurs="1"/>
+			<xsd:element name="severity" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+			<xsd:element name="author" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+			<xsd:element name="assignee" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+			<xsd:element name="status" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+			<xsd:element name="resolution" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+			<xsd:element name="resolvedOn" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+			<xsd:element name="description" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+			<xsd:element name="initialEstimate" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+			<xsd:element name="remainingEstimate" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+			<xsd:element name="timeSpent" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+			<xsd:element name="categories" type="xsd:string" minOccurs="0"/>
+			<xsd:element name="timePoint" type="xsd:string" minOccurs="0"/>
+			<xsd:element name="dueDate" type="xsd:string" minOccurs="0"/>
+			<xsd:element name="linked_workitems" type="xsd:string" minOccurs="0"/>
+			<xsd:element name="externally_linked_workitems" type="xsd:string" minOccurs="0"/>
+			<xsd:element name="linked_revisions" type="xsd:string" minOccurs="0"/>
+			<xsd:element name="planningConstraint" type="xsd:string" minOccurs="0"/>
+			<xsd:element name="hyperlinks" type="xsd:string" minOccurs="0"/>
+			<xsd:element name="approvals" type="xsd:string" minOccurs="0"/>
+		</xsd:all>
+	</xsd:complexType>
+	<xsd:element name="workitems">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="workitem" type="WorkItemType" maxOccurs="unbounded"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema></x2:Schema>
+  <x2:Map x2:ID="workitems_Map1" x2:SchemaID="Schema4" x2:RootElement="workitems">
+   <x2:Entry x2:Type="table" x2:ID="2" x2:ShowTotals="false">
+    <x2:Range>'Polarion Work Items'!R2C1:R2C25</x2:Range>
+    <x2:HeaderRange>R1C1</x2:HeaderRange>
+    <x:FilterOn>True</x:FilterOn>
+    <x2:XPath>/workitems/workitem</x2:XPath>
+    <x2:Field x2:ID="ID">
+     <x2:Range>RC</x2:Range>
+     <x2:XPath>id</x2:XPath>
+     <x2:XSDType>string</x2:XSDType>
+     <ss:Cell>
+     </ss:Cell>
+     <x2:Aggregate>None</x2:Aggregate>
+    </x2:Field>
+    <x2:Field x2:ID="Title">
+     <x2:Range>RC[1]</x2:Range>
+     <x2:XPath>title</x2:XPath>
+     <x2:XSDType>string</x2:XSDType>
+     <ss:Cell>
+     </ss:Cell>
+     <x2:Aggregate>None</x2:Aggregate>
+    </x2:Field>
+    <x2:Field x2:ID="Type">
+     <x2:Range>RC[2]</x2:Range>
+     <x2:XPath>type</x2:XPath>
+     <x2:XSDType>string</x2:XSDType>
+     <ss:Cell>
+     </ss:Cell>
+     <x2:Aggregate>None</x2:Aggregate>
+    </x2:Field>
+    <x2:Field x2:ID="Description">
+     <x2:Range>RC[3]</x2:Range>
+     <x2:XPath>description</x2:XPath>
+     <x2:XSDType>string</x2:XSDType>
+     <ss:Cell>
+     </ss:Cell>
+     <x2:Aggregate>None</x2:Aggregate>
+    </x2:Field>
+    <x2:Field x2:ID="Severity">
+     <x2:Range>RC[4]</x2:Range>
+     <x2:XPath>severity</x2:XPath>
+     <x2:XSDType>string</x2:XSDType>
+     <ss:Cell>
+     </ss:Cell>
+     <x2:Aggregate>None</x2:Aggregate>
+    </x2:Field>
+    <x2:Field x2:ID="Priority">
+     <x2:Range>RC[5]</x2:Range>
+     <x2:XPath>priority</x2:XPath>
+     <x2:XSDType>float</x2:XSDType>
+     <ss:Cell>
+     </ss:Cell>
+     <x2:Aggregate>None</x2:Aggregate>
+    </x2:Field>
+    <x2:Field x2:ID="Status">
+     <x2:Range>RC[6]</x2:Range>
+     <x2:XPath>status</x2:XPath>
+     <x2:XSDType>string</x2:XSDType>
+     <ss:Cell>
+     </ss:Cell>
+     <x2:Aggregate>None</x2:Aggregate>
+    </x2:Field>
+    <x2:Field x2:ID="Resolution">
+     <x2:Range>RC[7]</x2:Range>
+     <x2:XPath>resolution</x2:XPath>
+     <x2:XSDType>string</x2:XSDType>
+     <ss:Cell>
+     </ss:Cell>
+     <x2:Aggregate>None</x2:Aggregate>
+    </x2:Field>
+    <x2:Field x2:ID="Initial Est.">
+     <x2:Range>RC[8]</x2:Range>
+     <x2:XPath>initialEstimate</x2:XPath>
+     <x2:XSDType>string</x2:XSDType>
+     <ss:Cell>
+     </ss:Cell>
+     <x2:Aggregate>None</x2:Aggregate>
+    </x2:Field>
+    <x2:Field x2:ID="Time Spent">
+     <x2:Range>RC[9]</x2:Range>
+     <x2:XPath>timeSpent</x2:XPath>
+     <x2:XSDType>string</x2:XSDType>
+     <ss:Cell>
+     </ss:Cell>
+     <x2:Aggregate>None</x2:Aggregate>
+    </x2:Field>
+    <x2:Field x2:ID="Remaining Est.">
+     <x2:Range>RC[10]</x2:Range>
+     <x2:XPath>remainingEstimate</x2:XPath>
+     <x2:XSDType>string</x2:XSDType>
+     <ss:Cell>
+     </ss:Cell>
+     <x2:Aggregate>None</x2:Aggregate>
+    </x2:Field>
+    <x2:Field x2:ID="Author">
+     <x2:Range>RC[11]</x2:Range>
+     <x2:XPath>author</x2:XPath>
+     <x2:XSDType>string</x2:XSDType>
+     <ss:Cell>
+     </ss:Cell>
+     <x2:Aggregate>None</x2:Aggregate>
+    </x2:Field>
+    <x2:Field x2:ID="Assignee">
+     <x2:Range>RC[12]</x2:Range>
+     <x2:XPath>assignee</x2:XPath>
+     <x2:XSDType>string</x2:XSDType>
+     <ss:Cell>
+     </ss:Cell>
+     <x2:Aggregate>None</x2:Aggregate>
+    </x2:Field>
+    <x2:Field x2:ID="Due Date">
+     <x2:Range>RC[13]</x2:Range>
+     <x2:XPath>dueDate</x2:XPath>
+     <x2:XSDType>string</x2:XSDType>
+     <ss:Cell>
+     </ss:Cell>
+     <x2:Aggregate>None</x2:Aggregate>
+    </x2:Field>
+    <x2:Field x2:ID="Time Point">
+     <x2:Range>RC[14]</x2:Range>
+     <x2:XPath>timePoint</x2:XPath>
+     <x2:XSDType>string</x2:XSDType>
+     <ss:Cell>
+     </ss:Cell>
+     <x2:Aggregate>None</x2:Aggregate>
+    </x2:Field>
+    <x2:Field x2:ID="Plan. Constraint">
+     <x2:Range>RC[15]</x2:Range>
+     <x2:XPath>planningConstraint</x2:XPath>
+     <x2:XSDType>string</x2:XSDType>
+     <ss:Cell>
+     </ss:Cell>
+     <x2:Aggregate>None</x2:Aggregate>
+    </x2:Field>
+    <x2:Field x2:ID="Categories">
+     <x2:Range>RC[16]</x2:Range>
+     <x2:XPath>categories</x2:XPath>
+     <x2:XSDType>string</x2:XSDType>
+     <ss:Cell>
+     </ss:Cell>
+     <x2:Aggregate>None</x2:Aggregate>
+    </x2:Field>
+    <x2:Field x2:ID="Linked Workitems">
+     <x2:Range>RC[17]</x2:Range>
+     <x2:XPath>linked_workitems</x2:XPath>
+     <x2:XSDType>string</x2:XSDType>
+     <ss:Cell>
+     </ss:Cell>
+     <x2:Aggregate>None</x2:Aggregate>
+    </x2:Field>
+    <x2:Field x2:ID="Externally Linked Workitems">
+     <x2:Range>RC[18]</x2:Range>
+     <x2:XPath>externally_linked_workitems</x2:XPath>
+     <x2:XSDType>string</x2:XSDType>
+     <ss:Cell>
+     </ss:Cell>
+     <x2:Aggregate>None</x2:Aggregate>
+    </x2:Field>
+    <x2:Field x2:ID="Linked Revisions">
+     <x2:Range>RC[19]</x2:Range>
+     <x2:XPath>linked_revisions</x2:XPath>
+     <x2:XSDType>string</x2:XSDType>
+     <ss:Cell>
+     </ss:Cell>
+     <x2:Aggregate>None</x2:Aggregate>
+    </x2:Field>
+    <x2:Field x2:ID="Hyperlinks">
+     <x2:Range>RC[20]</x2:Range>
+     <x2:XPath>hyperlinks</x2:XPath>
+     <x2:XSDType>string</x2:XSDType>
+     <ss:Cell>
+     </ss:Cell>
+     <x2:Aggregate>None</x2:Aggregate>
+    </x2:Field>
+    <x2:Field x2:ID="Approvals">
+     <x2:Range>RC[21]</x2:Range>
+     <x2:XPath>approvals</x2:XPath>
+     <x2:XSDType>string</x2:XSDType>
+     <ss:Cell>
+     </ss:Cell>
+     <x2:Aggregate>None</x2:Aggregate>
+    </x2:Field>
+    <x2:Field x2:ID="Resolved On">
+     <x2:Range>RC[22]</x2:Range>
+     <x2:XPath>resolvedOn</x2:XPath>
+     <x2:XSDType>string</x2:XSDType>
+     <ss:Cell>
+     </ss:Cell>
+     <x2:Aggregate>None</x2:Aggregate>
+    </x2:Field>
+    <x2:Field x2:ID="Custom field ">
+     <x2:Range>RC[23]</x2:Range>
+     <x2:XSDType>string</x2:XSDType>
+     <ss:Cell>
+     </ss:Cell>
+     <x2:Aggregate>None</x2:Aggregate>
+    </x2:Field>
+    <x2:Field x2:ID="Custom field 2">
+     <x2:Range>RC[24]</x2:Range>
+     <x2:XSDType>string</x2:XSDType>
+     <ss:Cell>
+     </ss:Cell>
+     <x2:Aggregate>None</x2:Aggregate>
+    </x2:Field>
+   </x2:Entry>
+  </x2:Map>
+ </x2:MapInfo>
+</Workbook>

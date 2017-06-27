@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">daniel.morris</field>
+    <field id="created">2016-06-07 09:34:41.785 -0400</field>
+    <field id="description" text-type="text/html"><![CDATA[The previously created trace table in exercise <span class="polarion-rte-link" data-type="workItem" id="fake" data-item-id="PUT-5197" data-option-id="short"></span> was build and used in a wiki page. Now we know how we can change this script so it can be used in a Rich Page.<br/>
+Take the script previously created and modify it so it can be used in a Rich Page instead.<br/>
+<table id="polarion_wiki macro name=table" class="polarion-Document-table" style="width: 80%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;">
+  <tbody>
+    <tr>
+      <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Hint: $page.project can´t be used anymore in Rich Pages. To get the project ID as string in a Rich Page you can use: <span style="font-size: 10pt;line-height: 1.5;">$page.reference.projectId</span></th>
+    </tr>
+  </tbody>
+</table>]]></field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="type">exercise</field>
+</work-item>

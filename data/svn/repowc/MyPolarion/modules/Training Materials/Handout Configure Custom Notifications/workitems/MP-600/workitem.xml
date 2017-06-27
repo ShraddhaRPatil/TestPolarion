@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="hyperlinks">
+        <list>
+            <struct>
+                <item id="role">renderSlide</item>
+                <item id="uri">/polarion/wiki/bin/view/project/MyPolarion/page/macros/RenderSlides?item=MP-600</item>
+            </struct>
+        </list>
+    </field>
+    <field id="author">timothy.sampair</field>
+    <field id="title">Unique Layout Per Work Item</field>
+    <field id="created">2011-05-16 06:11:11.608 +0200</field>
+    <field id="priority">25.0</field>
+    <field id="description" text-type="text/html">Each work item type can have it's own unique layout for different events.&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;img src="attachment:screenshot-4.jpg"/&gt;</field>
+    <field id="status">accepted</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+    <field id="solutions" type="string">&lt;div&gt;&lt;br&gt;&lt;/div&gt;</field>
+    <field id="subtitle" type="string"> </field>
+    <field id="exercises" type="string">&lt;div&gt;&lt;br&gt;&lt;/div&gt;</field>
+    <field id="speakersNotes" text-type="text/html" type="text/html">&lt;div&gt;&lt;br&gt;&lt;/div&gt;</field>
+</work-item>

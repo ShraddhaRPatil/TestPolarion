@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">stroebelet</field>
+    <field id="created">2011-09-16 19:10:45.879 -0400</field>
+    <field id="description" text-type="text/html">&lt;img src="workitemimg:1-screenshot.jpg"/&gt;&lt;span style="font-weight: bold;"&gt;Fact bases:&lt;/span&gt;&lt;br/&gt;&lt;ul&gt;&lt;li&gt;&lt;span class="term"&gt;workitems-data&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span class="term"&gt;repo-analysis&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;span style="font-weight: bold;"&gt;Trend Fact Bases:&lt;/span&gt;&lt;br/&gt;&lt;ul&gt;&lt;li&gt;&lt;span class="term"&gt;workitems-trend-data&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span class="term"&gt;repo-trend&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="subtitle" type="string">Factbases are containers for calculation data</field>
+    <field id="title">Factbases</field>
+    <field id="type">slide</field>
+</work-item>

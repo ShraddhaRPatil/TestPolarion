@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">stroebelet</field>
+    <field id="created">2012-04-24 06:19:47.192 -0400</field>
+    <field id="description" text-type="text/html"><![CDATA[In many cases you will receive a CRS in form of a word document. In this case you will need to extract all relevant requirements out of the document and manage them as separate entities<br/>
+ 
+<ul>
+  <li>Save the example E-Library specifcation document provided on <a href="/polarion/#/project/MyPolarion/home" target="_blank" class="descriptionLink"><span id="WIKI_LINK:_default.Home|Home"></span> </a></li>
+  <li>Go to <span style="font-style: italic;">specification|home</span> and select import document<br/>
+    <img src="attachment:screenshot.jpg"/><br/>
+    </li>
+  <li>Define an import rule which recognizes all requirements based on keywords: <span style="font-style: italic;">must,should,could</span></li>
+  <li>Define an additional import rule which adds all bullet points as child requirements<span style="font-style: italic;"><br/>
+      </span></li>
+  <li>Define an advanced rule which adds all tables to the requirement description</li>
+  <li>Test your configuration using <span style="font-weight: bold;font-style: italic;">Preview</span> button<br/>
+    </li>
+  <li>Save your configuration</li>
+</ul>]]></field>
+    <field id="linkedWorkItems">
+        <list>
+            <struct>
+                <item id="revision">41890</item>
+                <item id="role">branched_from</item>
+                <item id="workItem">MP-780</item>
+            </struct>
+        </list>
+    </field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Configure your first import</field>
+    <field id="type">exercise</field>
+    <field id="upgradedescription" type="boolean">true</field>
+</work-item>

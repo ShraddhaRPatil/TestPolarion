@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">stroebelet</field>
+    <field id="created">2012-05-30 16:15:44.534 +0200</field>
+    <field id="description" text-type="text/html">Lets assume we have to create a detailed analysis of the change request. &lt;ul last_known_index="1"&gt;&lt;li&gt;Identify all affected artifacts and link them to the change request&lt;br/&gt;&lt;br/&gt; &lt;table style="width: 600px;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;" class="polarion-Document-table" id="polarion_wiki macro name=table;params=width=600px"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th style="font-weight: bold;font-size: 9pt;background-color: #F0F0F0;line-height: 1.5;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"&gt;Hint: Search for requirement "I as a user want to perform simple searches" and link it to your change request using link role "relates to". &lt;/th&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;br/&gt;&lt;br/&gt; &lt;img style="width: 724px;height: 268px;" src="attachment:linkwi.jpg"/&gt;&lt;br/&gt;&lt;br/&gt;&lt;/li&gt;&lt;li&gt;Search for all artefacts which are backlinked with your requirement "I as a user want to perform simple searches" to get an understanding what artefacts need to be modified or added.&lt;br/&gt;&lt;/li&gt;&lt;li&gt;Specify in the description of the change what needs to be changed in the affected areas&lt;/li&gt;&lt;/ul&gt;</field>
+    <field id="linkedWorkItems">
+        <list>
+            <struct>
+                <item id="revision">37029</item>
+                <item id="role">branched_from</item>
+                <item id="suspect">false</item>
+                <item id="workItem">MP-813</item>
+            </struct>
+        </list>
+    </field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Analyse the impact of a change request</field>
+    <field id="type">exercise</field>
+</work-item>

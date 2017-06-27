@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">text</field>
+    <field id="author">CarolaH</field>
+    <field id="created">2013-01-04 11:01:59.648 +0100</field>
+    <field id="description" text-type="text/html">Traceability functionality in this layer of the Polarion architecture provides the capability to trace any requirement from its inception, through workflows, to the current source code that implements it. Conversely, you can tell if something has sneaked into your software that never was actually a requirement. This can tell you a great deal about problems with your process.</field>
+    <field id="priority">25.0</field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+</work-item>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="assignee">sDeveloper</field>
+    <field id="author">admin</field>
+    <field id="categories">
+        <list>
+            <item>Searching</item>
+        </list>
+    </field>
+    <field id="created">2010-11-20 13:19:33.379 +0100</field>
+    <field id="description" text-type="text/html">User likes to search also by any content - so full-text search is needed.</field>
+    <field id="previousStatus">accepted</field>
+    <field id="priority">46.0</field>
+    <field id="resolvedOn">2010-12-02 10:36:52.622 +0100</field>
+    <field id="severity">should_have</field>
+    <field id="status">in_progress</field>
+    <field id="storyPoints" type="integer">13</field>
+    <field id="type">userstory</field>
+</work-item>

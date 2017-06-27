@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="hyperlinks">
+        <list>
+            <struct>
+                <item id="role">renderSlide</item>
+                <item id="uri">/polarion/wiki/bin/view/project/MyPolarion/page/macros/RenderSlides?item=MP-536</item>
+            </struct>
+        </list>
+    </field>
+    <field id="author">stroebelet</field>
+    <field id="title">Typical Steps to Secure a Project</field>
+    <field id="created">2011-04-27 15:14:05.226 +0200</field>
+    <field id="description" text-type="text/html">&lt;ul&gt;&lt;li&gt;Define &lt;span style="font-weight: bold; text-decoration: underline;"&gt;access rights first&lt;/span&gt; and make sure that access rights behave as expected&lt;/li&gt;&lt;li&gt;Define global and project roles using &lt;span style="font-weight: bold;"&gt;permissions&lt;/span&gt; configuration&lt;br/&gt;&lt;/li&gt;&lt;li&gt;Assign users to roles&lt;/li&gt;&lt;/ul&gt;&lt;br/&gt;</field>
+    <field id="priority">25.0</field>
+    <field id="status">accepted</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+    <field id="subtitle" type="string">Polarion is just another SVN Client</field>
+    <field id="hint" type="string">You can also use global roles in a project context</field>
+</work-item>

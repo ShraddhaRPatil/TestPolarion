@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">stroebelet</field>
+    <field id="created">2011-09-17 14:48:20.312 -0400</field>
+    <field id="description" text-type="text/html">&lt;img src="workitemimg:2-screenshot-2.jpg"/&gt;&lt;br/&gt;</field>
+    <field id="hyperlinks">
+        <list>
+            <struct>
+                <item id="role">renderSlide</item>
+                <item id="uri">/polarion/wiki/bin/view/project/MyPolarion/page/macros/RenderSlides?item=MP-1249</item>
+            </struct>
+        </list>
+    </field>
+    <field id="previousStatus">open</field>
+    <field id="printNotes" text-type="text/html" type="text/html">&lt;div&gt;&lt;p&gt;auto-assignment rules will only be applied when \~\~&lt;span style="font-style: italic;"&gt;automatic\~\~&lt;/span&gt; is selected in assignee field&lt;/p&gt;&lt;/div&gt;</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">accepted</field>
+    <field id="subtitle" type="string">Assignee can be set automatically based on rules and conditions</field>
+    <field id="title">Auto-Assignment</field>
+    <field id="type">slide</field>
+</work-item>

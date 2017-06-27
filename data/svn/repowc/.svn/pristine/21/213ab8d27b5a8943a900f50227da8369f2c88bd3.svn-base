@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<module>
+    <field id="author">daniel.morris</field>
+    <field id="branchedFrom">Not In Build#User Training old 2011</field>
+    <field id="created">2012-04-23 06:03:48.560 -0400</field>
+    <field id="homePageContent" text-type="text/html"><![CDATA[<p id="polarion_new_79">
+   
+</p><div id="polarion_editor_html_block_merged_0" class="polarion-dle-wiki-block">
+  <div id="polarion_editor_html_block_content" contentEditable="false"></div><pre id="polarion_editor_html_block_source" class="polarion-dle-wiki-block-source" contentEditable="false">#includeMacros("macros.macros")</pre>
+</div><h1 id="polarion_wiki macro name=module-workitem;params=id=MP-2516"></h1><p id="polarion_new_13">
+  <br/>
+</p><div id="polarion_wiki macro name=module-workitem;params=id=MP-2281|layout=2|external=true"></div><h2 id="polarion_wiki macro name=module-workitem;params=id=MP-2517"></h2><div id="polarion_wiki macro name=module-workitem;params=id=MP-2285|layout=2|external=true"></div><p id="polarion_new_44">
+  <br/>
+</p><p id="polarion_new_43">
+   <br/>
+</p><div id="polarion_wiki macro name=page_break" contentEditable="false"></div><h2 id="polarion_wiki macro name=module-workitem;params=id=MP-2518"></h2><div id="polarion_wiki macro name=toc"></div><p id="polarion_merged_3">
+  <br/>
+</p><div id="polarion_wiki macro name=page_break;params=uid=0" contentEditable="false"></div><h2 id="polarion_wiki macro name=module-workitem;params=id=MP-2635"></h2><div id="polarion_wiki macro name=module-workitem;params=id=MP-2859|layout=2|external=true"></div><h3 id="polarion_wiki macro name=module-workitem;params=id=MP-4033"></h3><h4 id="polarion_wiki macro name=module-workitem;params=id=MP-4057"></h4><div id="polarion_editor_html_block_merged_8" class="polarion-dle-wiki-block">
+  <div id="polarion_editor_html_block_content" contentEditable="false"></div><pre id="polarion_editor_html_block_source" class="polarion-dle-wiki-block-source" contentEditable="false">{show:wiki}
+#slide("MP-1602")
+{show}
+#video("http://www.polarion.com/video/tutorials/portalintro/")
+#video("http://www.polarion.com/video/tutorials/projects1/")
+#video("http://www.polarion.com/video/tutorials/projects2/")
+{show:wiki}
+#helpLink("/polarion/help/?topic=/com.polarion.xray.doc.user/agchManageProjects.html" "Creating &amp; Managing Projects")
+{show}</pre>
+</div><p id="polarion_merged_1">
+  <br/>
+</p><h4 id="polarion_wiki macro name=module-workitem;params=id=MP-4058"></h4><p id="polarion_cleaned_5"></p><div id="polarion_wiki macro name=module-workitem;params=id=MP-2556|layout=1"></div><p id="polarion_merged_0">
+  <br/>
+</p><div id="polarion_wiki macro name=module-workitem;params=id=MP-3941|layout=1|external=true"></div><p id="polarion_merged_2">
+  <br/>
+</p><div id="polarion_wiki macro name=module-workitem;params=id=MP-2824|layout=1|external=true"></div><h3 id="polarion_wiki macro name=module-workitem;params=id=MP-4036"></h3><h4 id="polarion_wiki macro name=module-workitem;params=id=MP-4037"></h4><div id="polarion_editor_html_block_merged_2" class="polarion-dle-wiki-block">
+  <div id="polarion_editor_html_block_content" contentEditable="false"></div><pre id="polarion_editor_html_block_source" class="polarion-dle-wiki-block-source" contentEditable="false">{show:wiki}
+#slide("MP-1591")
+{show}
+#video("http://www.polarion.com/video/tutorials/browsewi/")
+#video("http://www.polarion.com/video/tutorials/linkroles/")
+#video("http://www.polarion.com/video/tutorials/traceability/basic/")
+{show:wiki}
+#helpLink("/polarion/help/topic/com.polarion.xray.doc.user/ugchWorkitemsTopic.html" "Work Items Topic Overview")
+#helpLink("/polarion/help/topic/com.polarion.xray.doc.user/ugchWorkitemsCreateEdit.html" "Creating and Editing Work Items")
+#helpLink("/polarion/help/topic/com.polarion.xray.doc.user/ugchWorkitemsActions.html" "Work Item Actions")
+#helpLink("/polarion/help/topic/com.polarion.xray.doc.user/ugchWorkitemsCommonOps.html" "Common Operations with Work Items")
+{show}</pre>
+</div><p id="polarion_merged_4">
+   
+</p><h4 id="polarion_wiki macro name=module-workitem;params=id=MP-4038"></h4><div id="polarion_wiki macro name=module-workitem;params=id=MP-2613|layout=1|external=true"></div><p id="polarion_merged_5">
+  <br/>
+</p><p id="polarion_cleaned_6"></p><div id="polarion_wiki macro name=module-workitem;params=id=MP-2616|layout=1|external=true"></div><p id="polarion_merged_7">
+   
+</p><div id="polarion_wiki macro name=module-workitem;params=id=MP-2617|layout=1|external=true"></div><div id="polarion_wiki macro name=page_break;params=uid=merged_0" contentEditable="false"></div><h3 id="polarion_wiki macro name=module-workitem;params=id=MP-4039"></h3><h4 id="polarion_wiki macro name=module-workitem;params=id=MP-4040"></h4><div id="polarion_editor_html_block_merged_3" class="polarion-dle-wiki-block">
+  <div id="polarion_editor_html_block_content" contentEditable="false"></div><pre id="polarion_editor_html_block_source" class="polarion-dle-wiki-block-source" contentEditable="false">{show:wiki}
+#slide("MP-1612")
+{show}
+#video("http://www.polarion.com/video/tutorials/comments/")
+{show:wiki}
+{show}</pre>
+</div><h4 id="polarion_wiki macro name=module-workitem;params=id=MP-4041"></h4><div id="polarion_wiki macro name=module-workitem;params=id=MP-2614|layout=1|external=true"></div><p id="polarion_merged_8">
+  <br/>
+</p><div id="polarion_wiki macro name=module-workitem;params=id=MP-2615|layout=1|external=true"></div><p id="polarion_merged_9">
+   
+</p><h3 id="polarion_wiki macro name=module-workitem;params=id=MP-4042"></h3><div id="polarion_wiki macro name=module-workitem;params=id=MP-3714|layout=2|external=true"></div><h4 id="polarion_wiki macro name=module-workitem;params=id=MP-4043"></h4><div id="polarion_editor_html_block_merged_4" class="polarion-dle-wiki-block">
+  <div id="polarion_editor_html_block_content" contentEditable="false"></div><pre id="polarion_editor_html_block_source" class="polarion-dle-wiki-block-source" contentEditable="false">{show:wiki}
+#slide("MP-1755")
+{show}
+#video("http://www.polarion.com/video/tutorials/workwithdocs/")
+#video("http://www.polarion.com/video/tutorials/reuse-docs")
+{show:wiki}
+#helpLink("/polarion/help/topic/com.polarion.xray.doc.user/ugchDocsWiki.html#ug_docswiki_docs_new" "Documents and Wiki Topic ")
+#helpLink("http://community.polarion.org/polarion/help/topic/com.polarion.xray.doc.user/ugDocsEditing.html" "Editing a Document")
+#helpLink("/polarion/help/topic/com.polarion.xray.doc.user/ugDocsPropsHist.html" "Document Properties and History")
+#helpLink("/polarion/help/topic/com.polarion.xray.doc.user/ugDocsOpsActions.html" "Document Operations and Actions")
+{show}</pre>
+</div><p id="polarion_merged_10">
+    
+</p><h4 id="polarion_wiki macro name=module-workitem;params=id=MP-4044"></h4><p id="polarion_merged_11">
+  Understand how Polarion Documents can be used to track meeting minutes in a very easy way.<br/>
+</p><div id="polarion_wiki macro name=module-workitem;params=id=MP-2608|layout=1|external=true"></div><p id="polarion_merged_12">
+  <br/>
+</p><div id="polarion_wiki macro name=module-workitem;params=id=MP-2827|layout=1|external=true"></div><p id="polarion_cleaned_7"></p><div id="polarion_wiki macro name=module-workitem;params=id=MP-2609|layout=1|external=true"></div><p id="polarion_cleaned_8"></p><div id="polarion_wiki macro name=module-workitem;params=id=MP-2618|layout=1|external=true"></div><p id="polarion_cleaned_9"></p><div id="polarion_wiki macro name=page_break;params=uid=merged_1" contentEditable="false"></div><h3 id="polarion_wiki macro name=module-workitem;params=id=MP-4045"></h3><div id="polarion_wiki macro name=module-workitem;params=id=MP-3715|layout=2|external=true"></div><h4 id="polarion_wiki macro name=module-workitem;params=id=MP-4046"></h4><div id="polarion_editor_html_block_merged_5" class="polarion-dle-wiki-block">
+  <div id="polarion_editor_html_block_content" contentEditable="false"></div><pre id="polarion_editor_html_block_source" class="polarion-dle-wiki-block-source" contentEditable="false">{show:wiki}
+#slide("MP-1784")
+{show}
+#video("http://www.polarion.com/video/tutorials/traceability/basic/")
+{show:wiki}
+#helpLink("/polarion/help/topic/com.polarion.xray.doc.user/ugchWorkitemsLinking.html" "Linking Work Items")
+{show}</pre>
+</div><h4 id="polarion_wiki macro name=module-workitem;params=id=MP-4047"></h4><div id="polarion_wiki macro name=module-workitem;params=id=MP-3988|layout=1|external=true"></div><p id="polarion_merged_16">
+  <br/>
+</p><div id="polarion_wiki macro name=module-workitem;params=id=MP-2831|layout=1|external=true"></div><p id="polarion_merged_17">
+  <br/>
+</p><div id="polarion_wiki macro name=page_break|uid=merged_2" contentEditable="false"></div><h3 id="polarion_wiki macro name=module-workitem;params=id=MP-4048"></h3><div id="polarion_wiki macro name=module-workitem;params=id=MP-2619|layout=2|external=true"></div><h4 id="polarion_wiki macro name=module-workitem;params=id=MP-4049"></h4><div id="polarion_editor_html_block_merged_6" class="polarion-dle-wiki-block">
+  <div id="polarion_editor_html_block_content" contentEditable="false"></div><pre id="polarion_editor_html_block_source" class="polarion-dle-wiki-block-source" contentEditable="false">{show:wiki}
+#slide("MP-1792")
+{show}
+#video("http://www.polarion.com/video/tutorials/search/")
+#video("http://www.polarion.com/video/tutorials/advancedsearch/")
+{show:wiki}
+#helpLink("/polarion/help/topic/com.polarion.xray.doc.user/ugchWorkitemsSearch.html" "Searching Work Items")
+{show}</pre>
+</div><p id="polarion_merged_18">
+   
+</p><h4 id="polarion_wiki macro name=module-workitem;params=id=MP-4050"></h4><div id="polarion_wiki macro name=module-workitem;params=id=MP-2620|layout=1|external=true"></div><p id="polarion_merged_19">
+  <br/>
+</p><div id="polarion_wiki macro name=module-workitem;params=id=MP-2607|layout=1|external=true"></div><p id="polarion_merged_20">
+  <br/>
+</p><div id="polarion_wiki macro name=module-workitem;params=id=MP-2621|layout=1|external=true"></div><p id="polarion_merged_21">
+  <br/>
+</p><p id="polarion_cleaned_10"></p><div id="polarion_wiki macro name=page_break;params=uid=merged_3" contentEditable="false"></div><h3 id="polarion_wiki macro name=module-workitem;params=id=MP-4051"></h3><div id="polarion_wiki macro name=module-workitem;params=id=MP-3716|layout=2|external=true"></div><h4 id="polarion_wiki macro name=module-workitem;params=id=MP-4052"></h4><div id="polarion_editor_html_block_merged_7" class="polarion-dle-wiki-block">
+  <div id="polarion_editor_html_block_content" contentEditable="false"></div><pre id="polarion_editor_html_block_source" class="polarion-dle-wiki-block-source" contentEditable="false">{show:wiki}
+#slide("MP-1809")
+{show}
+#video("http://www.polarion.com/video/tutorials/wikiintro/")
+{show:wiki}
+#helpLink("/polarion/help/topic/com.polarion.xray.doc.user/ugchWiki.html" "Using the Wiki")
+#helpLink("/polarion/#/wiki/Doc/SyntaxHelp" "Detailed wiki syntax help")
+{show}</pre>
+</div><p id="polarion_merged_23">
+   
+</p><h4 id="polarion_wiki macro name=module-workitem;params=id=MP-4053"></h4><div id="polarion_wiki macro name=module-workitem;params=id=MP-2610|layout=1|external=true"></div><p id="polarion_merged_24">
+  <br/>
+</p><div id="polarion_wiki macro name=module-workitem;params=id=MP-2611|layout=1|external=true"></div><p id="polarion_merged_25">
+  <br/>
+</p><div id="polarion_wiki macro name=module-workitem;params=id=MP-2606|layout=1|external=true"></div><p id="polarion_merged_26">
+  <br/>
+</p><div id="polarion_wiki macro name=page_break;params=uid=6" contentEditable="false"></div><h2 id="polarion_wiki macro name=module-workitem;params=id=MP-2538"></h2><h3 id="polarion_wiki macro name=module-workitem;params=id=MP-2539"></h3><p id="polarion_cleaned_11"></p><h4 id="polarion_wiki macro name=module-workitem;params=id=MP-2540"></h4><div id="polarion_editor_html_block_new_0" class="polarion-dle-wiki-block">
+  <div id="polarion_editor_html_block_content" contentEditable="false"></div><pre id="polarion_editor_html_block_source" class="polarion-dle-wiki-block-source" contentEditable="false">{show:wiki}
+#slide("MP-2839")
+{show}
+{show:wiki}
+#helpLink("/polarion/help/topic/com.polarion.xray.doc.user/ugchReqEngineers.html" "Polarion for Requirements Engineers")
+{show}</pre>
+</div><h4 id="polarion_wiki macro name=module-workitem;params=id=MP-2541"></h4><div id="polarion_wiki macro name=module-workitem;params=id=MP-2559|layout=1"></div><div id="polarion_wiki macro name=module-workitem;params=id=MP-2648|layout=1"></div><div id="polarion_wiki macro name=module-workitem;params=id=MP-2653|layout=1"></div><div id="polarion_wiki macro name=module-workitem;params=id=MP-2649|layout=1"></div><div id="polarion_wiki macro name=module-workitem;params=id=MP-2654|layout=1"></div><div id="polarion_wiki macro name=module-workitem;params=id=MP-2650|layout=1"></div><div id="polarion_wiki macro name=module-workitem;params=id=MP-2651|layout=1"></div><div id="polarion_wiki macro name=module-workitem;params=id=MP-2652|layout=1"></div><h3 id="polarion_wiki macro name=module-workitem;params=id=MP-2655"></h3><h4 id="polarion_wiki macro name=module-workitem;params=id=MP-2656"></h4><div id="polarion_editor_html_block_new_1" class="polarion-dle-wiki-block">
+  <div id="polarion_editor_html_block_content" contentEditable="false"></div><pre id="polarion_editor_html_block_source" class="polarion-dle-wiki-block-source" contentEditable="false">{show:wiki}
+#slide("MP-2873")
+{show}
+#video("http://www.polarion.com/video/tutorials/wordimport/")
+{show:wiki}
+#helpLink("/polarion/help/topic/com.polarion.xray.doc.user/ugDocsWordImport.html" "Importing Microsoft Word Documents")
+{show}</pre>
+</div><p id="polarion_new_25"></p><h4 id="polarion_wiki macro name=module-workitem;params=id=MP-2657"></h4><div id="polarion_wiki macro name=module-workitem;params=id=MP-2658|layout=1"></div><div id="polarion_wiki macro name=module-workitem;params=id=MP-2886|layout=1"></div><div id="polarion_wiki macro name=module-workitem;params=id=MP-2887|layout=1"></div><div id="polarion_wiki macro name=module-workitem;params=id=MP-2888|layout=1"></div><h3 id="polarion_wiki macro name=module-workitem;params=id=MP-2560"></h3><h4 id="polarion_wiki macro name=module-workitem;params=id=MP-2660"></h4><div id="polarion_editor_html_block_new_2" class="polarion-dle-wiki-block">
+  <div id="polarion_editor_html_block_content" contentEditable="false"></div><pre id="polarion_editor_html_block_source" class="polarion-dle-wiki-block-source" contentEditable="false">{show:wiki}
+#slide("MP-2889")
+{show}
+#video("http://www.polarion.com/video/tutorials/wordroundtrip/")
+{show:wiki}
+#helpLink("/polarion/help/topic/com.polarion.xray.doc.user/ugDocsWordRoundtrip.html" "Sharing Documents Using Word Round-trip")
+{show}</pre>
+</div><p id="polarion_new_49">
+  <span style="font-style: italic;"><a href="http://community.polarion.org/polarion/#/project/MyPolarion/workitem?id=MP-2889"><br/>
+      </a></span>
+</p><h4 id="polarion_wiki macro name=module-workitem;params=id=MP-2661"></h4><div id="polarion_wiki macro name=module-workitem;params=id=MP-2902|layout=1"></div><div id="polarion_wiki macro name=module-workitem;params=id=MP-2662|layout=1"></div><h3 id="polarion_wiki macro name=module-workitem;params=id=MP-2659"></h3><h4 id="polarion_wiki macro name=module-workitem;params=id=MP-2663"></h4><div id="polarion_editor_html_block_new_4" class="polarion-dle-wiki-block">
+  <div id="polarion_editor_html_block_content" contentEditable="false"></div><pre id="polarion_editor_html_block_source" class="polarion-dle-wiki-block-source" contentEditable="false">{show:wiki}
+#slide("MP-2910")
+{show}
+#video("http://www.polarion.com/video/tutorials/traceability/basic/")
+{show:wiki}
+#helpLink("/polarion/help/topic/com.polarion.xray.doc.user/ugchWorkitemsLinking.html" "Linking Work Items")
+{show}</pre>
+</div><p id="polarion_new_48">
+  <span style="font-style: italic;"><br/>
+    </span>
+</p><h4 id="polarion_wiki macro name=module-workitem;params=id=MP-2664"></h4><div id="polarion_wiki macro name=module-workitem;params=id=MP-2665|layout=1"></div><p id="polarion_cleaned_4"></p><div id="polarion_wiki macro name=module-workitem;params=id=MP-2909|layout=1"></div><div id="polarion_wiki macro name=module-workitem;params=id=MP-2666|layout=1"></div><div id="polarion_wiki macro name=module-workitem;params=id=MP-2908|layout=1"></div><h3 id="polarion_wiki macro name=module-workitem;params=id=MP-2563"></h3><h4 id="polarion_wiki macro name=module-workitem;params=id=MP-2667"></h4><div id="polarion_editor_html_block_pasted_5" class="polarion-dle-wiki-block">
+  <div id="polarion_editor_html_block_content" contentEditable="false"></div><pre id="polarion_editor_html_block_source" class="polarion-dle-wiki-block-source" contentEditable="false">{show:wiki}
+#slide("MP-2934")
+{show}
+{show:wiki}
+#helpLink("/polarion/help/topic/com.polarion.xray.doc.user/ugchProjectMgrs.html" "Polarion for Project Managers")
+{show}</pre>
+</div><h4 id="polarion_wiki macro name=module-workitem;params=id=MP-2668"></h4><div id="polarion_wiki macro name=module-workitem;params=id=MP-2951|layout=1"></div><div id="polarion_wiki macro name=module-workitem;params=id=MP-2952|layout=1"></div><h3 id="polarion_wiki macro name=module-workitem;params=id=MP-2565"></h3><h4 id="polarion_wiki macro name=module-workitem;params=id=MP-3174"></h4><p id="polarion_cleaned_14"></p><div id="polarion_editor_html_block_new_3" class="polarion-dle-wiki-block">
+  <div id="polarion_editor_html_block_content" contentEditable="false"></div><pre id="polarion_editor_html_block_source" class="polarion-dle-wiki-block-source" contentEditable="false">{show:wiki}
+#slide("MP-2954")
+{show}
+#video("http://www.polarion.com/video/tutorials/livebranch/")
+{show:wiki}
+#helpLink("/polarion/help/topic/com.polarion.xray.doc.user/ugDocsOpsActions.html" "Document Operations and Actions")
+{show}</pre>
+</div><p id="polarion_new_100"></p><h4 id="polarion_wiki macro name=module-workitem;params=id=MP-2907"></h4><p id="polarion_new_52">
+  Our original functional portal specification is designed for access by desktop computers. Now there is a decision to create variants of the portal for several popular mobile platforms and devices. Much of the original specification is applicable to all the variants... rules for  login, for example. However, the user interactions will be different for each mobile platform, so you need some way to specify platform-specific requirements while keeping those that a applicable to all platforms.
+</p><div id="polarion_wiki macro name=module-workitem;params=id=MP-2967|layout=1"></div><div id="polarion_wiki macro name=module-workitem;params=id=MP-3001|layout=1"></div><div id="polarion_wiki macro name=module-workitem;params=id=MP-3080|layout=1"></div><div id="polarion_wiki macro name=page_break;params=uid=12" contentEditable="false"></div><h3 id="polarion_wiki macro name=module-workitem;params=id=MP-2903"></h3><h4 id="polarion_wiki macro name=module-workitem;params=id=MP-2904"></h4><div id="polarion_editor_html_block_new_5" class="polarion-dle-wiki-block">
+  <div id="polarion_editor_html_block_content" contentEditable="false"></div><pre id="polarion_editor_html_block_source" class="polarion-dle-wiki-block-source" contentEditable="false">{show:wiki}
+#slide("MP-2975")
+{show}
+{show:wiki}
+#helpLink("/polarion/help/topic/com.polarion.xray.doc.user/ugchBaselines.html" "Baseline Topics")
+{show}
+</pre>
+</div><p id="polarion_new_163"></p><h4 id="polarion_wiki macro name=module-workitem;params=id=MP-2905"></h4><p id="polarion_new_185">
+  Baselines capture and preserve the state of your project at some point in time. Baselines are typically created for major development milestones and for releases. The Baseline Time Machine feature enables users to browse any baseline just as if it were the current project state. All artifacts appear in the state they were when the baseline was created, and queries and reports retrieve only information from the baseline.
+</p><div id="polarion_wiki macro name=module-workitem;params=id=MP-2984|layout=1"></div><div id="polarion_wiki macro name=module-workitem;params=id=MP-3179|layout=1"></div><div id="polarion_wiki macro name=module-workitem;params=id=MP-2985|layout=1"></div><h3 id="polarion_wiki macro name=module-workitem;params=id=MP-2564"></h3><p id="polarion_new_30">
+  Keep your project data consistent by working with suspects. Manage change requests to track all changes in your project. If your change process should not only be related to source code changes you should extend the workflow with additional states for reviewed, approved, accepted, implemented ...<br/>
+</p><h4 id="polarion_wiki macro name=module-workitem;params=id=MP-2551"></h4><div id="polarion_editor_html_block_pasted_4" class="polarion-dle-wiki-block">
+  <div id="polarion_editor_html_block_content" contentEditable="false"></div><pre id="polarion_editor_html_block_source" class="polarion-dle-wiki-block-source" contentEditable="false">{show:wiki}
+#slide("MP-2994")
+{show}
+{show:wiki}
+{show}</pre>
+</div><p id="polarion_new_29"></p><h4 id="polarion_wiki macro name=module-workitem;params=id=MP-2552"></h4><h5 id="polarion_wiki macro name=module-workitem;params=id=MP-3580"></h5><div id="polarion_wiki macro name=module-workitem;params=id=MP-3583|layout=1"></div><h5 id="polarion_wiki macro name=module-workitem;params=id=MP-3581"></h5><div id="polarion_wiki macro name=module-workitem;params=id=MP-2973|layout=1"></div><div id="polarion_wiki macro name=module-workitem;params=id=MP-2986|layout=1"></div><div id="polarion_wiki macro name=module-workitem;params=id=MP-3579|layout=1"></div><p id="polarion_cleaned_18"></p><p id="polarion_cleaned_1">
+  <br/>
+</p>]]></field>
+    <field id="renderingLayouts">
+        <list>
+            <struct>
+                <item id="label">Task</item>
+                <item id="layouter">section</item>
+                <item id="properties">
+                    <list>
+                        <struct>
+                            <item id="key">fieldsAtStart</item>
+                        </struct>
+                        <struct>
+                            <item id="key">fieldsAtEnd</item>
+                            <item id="value">status,Resolution</item>
+                        </struct>
+                        <struct>
+                            <item id="key">fieldsAtEndAsTable</item>
+                        </struct>
+                        <struct>
+                            <item id="key">hidden</item>
+                        </struct>
+                    </list>
+                </item>
+                <item id="type">task</item>
+            </struct>
+            <struct>
+                <item id="label">Exercise</item>
+                <item id="layouter">section</item>
+                <item id="properties">
+                    <list>
+                        <struct>
+                            <item id="key">fieldsAtStart</item>
+                            <item id="value">id</item>
+                        </struct>
+                        <struct>
+                            <item id="key">fieldsAtEnd</item>
+                        </struct>
+                        <struct>
+                            <item id="key">fieldsAtEndAsTable</item>
+                            <item id="value">true</item>
+                        </struct>
+                        <struct>
+                            <item id="key">hidden</item>
+                        </struct>
+                    </list>
+                </item>
+                <item id="type">exercise</item>
+            </struct>
+            <struct>
+                <item id="label">Text</item>
+                <item id="layouter">paragraph</item>
+                <item id="properties">
+                    <list>
+                        <struct>
+                            <item id="key">fieldsAtStart</item>
+                        </struct>
+                        <struct>
+                            <item id="key">fieldsAtEnd</item>
+                        </struct>
+                        <struct>
+                            <item id="key">fieldsAtEndAsTable</item>
+                        </struct>
+                        <struct>
+                            <item id="key">hidden</item>
+                        </struct>
+                    </list>
+                </item>
+                <item id="type">text</item>
+            </struct>
+        </list>
+    </field>
+    <field id="structureLinkRole">parent</field>
+    <field id="usesOutlineNumbering">true</field>
+</module>

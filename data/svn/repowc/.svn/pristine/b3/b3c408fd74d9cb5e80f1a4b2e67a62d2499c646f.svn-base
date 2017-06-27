@@ -1,0 +1,15 @@
+###############################################################################
+##
+##  description.vm - this velocity script is executed to render the widget extended tooltip
+##
+
+<b>Parameters:</b>
+<ul>
+<li><b>Scope</b> - Select the target Project or Repository. The current project is selected by default. 
+(To select a Project or Repository outside the current scope, click on the drop-down box, click "<b>Select</b>" and click on a target in the dialog that appears.)</li>
+<li><b>Query Type</b> - Select a query type. (Lucene, Lucene + Velocity, SQL or SQL + Velocity.)</li>
+<li><b>Type</b> - Select the Work Item type. (System Requirement, Task, Test Case etc.) NOTE: Select only Work Item types, not Documents, Plans etc.</li>
+<li><b>Link Role(s)</b> - Select the link roles that appear in the table.  (Is triggered by, verifies, has parent etc.)</li>
+<li><b>Link Item Type(s)</b> - Select the link item types to appear in the table. (Change Request, Task, Test Case etc.)</li>
+<li><b>Show Linking Items</b> - Select whether to display link items with the selected roles. ("No" by default.)</li>
+</ul> 

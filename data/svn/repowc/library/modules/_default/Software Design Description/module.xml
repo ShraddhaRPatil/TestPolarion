@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<module>
+    <field id="author">admin</field>
+    <field id="created">2011-02-01 12:03:58.506 +0100</field>
+    <field id="homePageContent" text-type="text/html"><![CDATA[<h1 id="polarion_wiki macro name=module-workitem;params=id=WI-116"></h1><p id="polarion_new_0">
+  This document describes the design of a software product. Software components described in this document have been identified as needed to implement requirements from Software Requirements Specification. Together, these documents provide the design specification needed to implement the software. This template is an annotated outline for a software design document adapted from the IEEE Recommended Practice for Software Design Descriptions.
+</p><div id="polarion_wiki macro name=toc"></div><h2 id="polarion_wiki macro name=module-workitem;params=id=WI-117"></h2><h3 id="polarion_wiki macro name=module-workitem;params=id=WI-118"></h3><p id="polarion_merged_2">
+  Identify the purpose of this SDD and its intended audience.
+</p><h3 id="polarion_wiki macro name=module-workitem;params=id=WI-119"></h3><p id="polarion_merged_3">
+  Provide a short description of the software being specified.
+</p><h3 id="polarion_wiki macro name=module-workitem;params=id=WI-120"></h3><p id="polarion_merged_4">
+  List any other documents or Web addresses to which this SDD refers. Provide enough information so that the reader could access a copy of each reference, including title, author, version number, date, and source or location.
+</p><h3 id="polarion_wiki macro name=module-workitem;params=id=WI-121"></h3><p id="polarion_merged_5">
+  A short description of how the rest of the SDD is organized and what can be found in the rest of the document.
+</p><h2 id="polarion_wiki macro name=module-workitem;params=id=WI-122"></h2><p id="polarion_cleaned_0"></p><h3 id="polarion_wiki macro name=module-workitem;params=id=WI-280"></h3><p id="polarion_merged_7">
+  <span style="font-style: italic;">A block diagram showing major subsystems and the interconnections among them.</span>
+</p><h3 id="polarion_wiki macro name=module-workitem;params=id=WI-281"></h3><p id="polarion_merged_8">
+  <span style="font-style: italic;">Provide a decomposition of the subsystems in the architectural design. Supplement with text</span><br/>
+  <span style="font-style: italic;">as needed.</span>
+</p><h3 id="polarion_wiki macro name=module-workitem;params=id=WI-282"></h3><p id="polarion_merged_9">
+  <span style="font-style: italic;">Discuss other architectures that were considered.</span>
+</p><h3 id="polarion_wiki macro name=module-workitem;params=id=WI-283"></h3><p id="polarion_merged_10">
+  <span style="font-style: italic;">Discuss the rationale for selecting the architecture described in 2.1, including the critical issues and trade/offs that were considered.<br/>
+  </span>
+</p><h2 id="polarion_wiki macro name=module-workitem;params=id=WI-123"></h2><h3 id="polarion_wiki macro name=module-workitem;params=id=WI-284"></h3><p id="polarion_merged_11">
+  <span style="font-style: italic;">Explain how the information domain of your system is transformed into data structures.</span><br/>
+  <span style="font-style: italic;">Describe how the major data or system entities are stored, processed and organized. List any</span><br/>
+  <span style="font-style: italic;">databases or data storage items.</span>
+</p><h3 id="polarion_wiki macro name=module-workitem;params=id=WI-285"></h3><p id="polarion_merged_13">
+  <span style="font-style: italic;">Alphabetically list the system entities or major data along with their types and descriptions. If</span><br/>
+  <span style="font-style: italic;">you provided a functional description in Section 3.2, list all the functions and function</span><br/>
+  <span style="font-style: italic;">parameters. If you provided an OO description, list the objects and its attributes, methods and</span><br/>
+  <span style="font-style: italic;">method parameters.</span>
+</p><h2 id="polarion_wiki macro name=module-workitem;params=id=WI-124"></h2><p id="polarion_merged_0">
+  In this section, we take a closer look at what each component does in a more systematic way. If you gave a functional description in section WI-27, provide a summary of your algorithm for each function listed in WI-27 in procedural description language (PDL) or pseudo code. If you gave an OO description, summarize each object member function for all the objects listed in WI-27 in PDL or pseudo code. Describe any local data when necessary.
+</p><div id="polarion_wiki macro name=module-workitem;params=id=WI-21"></div><h2 id="polarion_wiki macro name=module-workitem;params=id=WI-125"></h2><p id="polarion_merged_1">
+  Describe the general functionality of the system from the user’s perspective.
+</p><h3 id="polarion_wiki macro name=module-workitem;params=id=WI-286"></h3><p id="polarion_merged_14">
+  <span style="font-style: italic;">Screenshots showing the interface from the user’s perspective.</span>
+</p><h3 id="polarion_wiki macro name=module-workitem;params=id=WI-287"></h3><p id="polarion_merged_15">
+  <span style="font-style: italic;">A discussion of screen objects and actions associated with those objects.</span>
+</p><h3 id="polarion_wiki macro name=module-workitem;params=id=WI-288"></h3><p id="polarion_merged_16">
+  <span style="font-style: italic;">A description of major reports provided by the system.</span>
+</p><h2 id="polarion_wiki macro name=module-workitem;params=id=WI-126"></h2><p id="polarion_1">
+  Provide a matrix that relates software modules to software requirements and vice versa.
+</p>]]></field>
+    <field id="outlineNumbering">
+        <struct/>
+    </field>
+    <field id="renderingLayouts">
+        <list>
+            <struct>
+                <item id="label">Requirement</item>
+                <item id="layouter">section</item>
+                <item id="properties">
+                    <list>
+                        <struct>
+                            <item id="key">fieldsAtStart</item>
+                            <item id="value">id</item>
+                        </struct>
+                        <struct>
+                            <item id="key">fieldsAtEnd</item>
+                            <item id="value">severity, status</item>
+                        </struct>
+                        <struct>
+                            <item id="key">fieldsAtEndAsTable</item>
+                        </struct>
+                        <struct>
+                            <item id="key">hidden</item>
+                        </struct>
+                    </list>
+                </item>
+                <item id="type">requirement</item>
+            </struct>
+        </list>
+    </field>
+    <field id="status">draft</field>
+    <field id="structureLinkRole">parent</field>
+    <field id="type">req_specification</field>
+    <field id="usesOutlineNumbering">true</field>
+</module>

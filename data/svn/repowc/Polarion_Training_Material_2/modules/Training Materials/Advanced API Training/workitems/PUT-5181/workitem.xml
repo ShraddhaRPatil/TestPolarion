@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">admin</field>
+    <field id="created">2013-11-07 10:55:20.029 +0100</field>
+    <field id="description" text-type="text/html"> Lets combine our Loop and our Conditional exercise together with some HTML to display all our family members and their age.&lt;br/&gt;&lt;ul&gt;&lt;li&gt;Add age values for you and your siblings&lt;/li&gt;&lt;li&gt;Insert a HTML table&lt;/li&gt;&lt;li style="list-style: none"&gt;&lt;ul&gt;&lt;li&gt;Display "Name" and "Age" as table heading&lt;/li&gt;&lt;li&gt;Use foreach loop to display all family members and their age (for each member a new table row)&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;span style="font-weight: bold;"&gt;Example Image:&lt;br/&gt; &lt;img src="attachment:html.jpg"/&gt;&lt;/span&gt;</field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="type">exercise</field>
+</work-item>

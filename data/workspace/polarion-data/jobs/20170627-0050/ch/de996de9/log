@@ -1,0 +1,256 @@
+2017-06-27 00:50:00,061 [DefaultQuartzScheduler_Worker-2 | u:p] INFO  root  - Job "(INTERNAL) Trackeranalysis-projectgroup calculation of _root.default:_artificial" has id e5d8a73c-927abeae-315365ef-d544b85f
+2017-06-27 00:50:00,067 [DefaultQuartzScheduler_Worker-2 | u:p] INFO  root  - Job "(INTERNAL) Trackeranalysis-projectgroup calculation of _root.default:_artificial" runs as user "polarion"
+2017-06-27 00:50:00,073 [DefaultQuartzScheduler_Worker-2 | u:p] INFO  root  - State of job "(INTERNAL) Trackeranalysis-projectgroup calculation of _root.default:_artificial" changed to ACTIVATING
+2017-06-27 00:50:00,084 [DefaultQuartzScheduler_Worker-2 | u:p] INFO  root  - Job "Deploy _root.default:_artificial to C:\Polarion\data\workspace\polarion-data\deploymentSpaces\_default" has id e5d8a74f-927abeae-315365ef-8ddd4fea
+2017-06-27 00:50:00,128 [DefaultQuartzScheduler_Worker-2 | u:p] INFO  root  - Job "Deploy _root.default:_artificial to C:\Polarion\data\workspace\polarion-data\deploymentSpaces\_default" runs as user "polarion"
+2017-06-27 00:50:00,136 [DefaultQuartzScheduler_Worker-2 | u:p] INFO  root  - State of job "Deploy _root.default:_artificial to C:\Polarion\data\workspace\polarion-data\deploymentSpaces\_default" changed to ACTIVATING
+2017-06-27 00:50:00,143 [DefaultQuartzScheduler_Worker-2 | u:p] INFO  root  - Aggregation is enabled - only artificial artifacts will be built
+2017-06-27 00:50:00,154 [DefaultQuartzScheduler_Worker-2 | u:p] INFO  root  - State of job "Deploy _root.default:_artificial to C:\Polarion\data\workspace\polarion-data\deploymentSpaces\_default" changed to WAITING
+2017-06-27 00:50:00,159 [DefaultQuartzScheduler_Worker-2 | u:p] INFO  root  - State of job "(INTERNAL) Trackeranalysis-projectgroup calculation of _root.default:_artificial" changed to WAITING
+2017-06-27 00:50:00,169 [Worker-3 | u:p] INFO  root  - State of job "Deploy _root.default:_artificial to C:\Polarion\data\workspace\polarion-data\deploymentSpaces\_default" changed to RUNNING
+2017-06-27 00:50:00,175 [Worker-3 | u:p] INFO  root  - State of job "(INTERNAL) Trackeranalysis-projectgroup calculation of _root.default:_artificial" changed to RUNNING
+2017-06-27 00:50:00,369 [Worker-3 | u:p | job: build.deploy] INFO  root  - Deploying artifact _root.default:_artificial:null and its children to C:\Polarion\data\workspace\polarion-data\deploymentSpaces\_default
+2017-06-27 00:50:00,377 [Worker-3 | u:p | job: build.deploy] INFO  root  - Deploying artifact _root.default:_artificial:null to C:\Polarion\data\workspace\polarion-data\deploymentSpaces\_default\_agg\_root\_root.default\_artificial\null
+2017-06-27 00:50:00,385 [Worker-3 | u:p | job: build.deploy] INFO  root  - Downloading resources for _root.default:_artificial:null
+2017-06-27 00:50:00,401 [Worker-3 | u:p | job: build.deploy] INFO  root  - Downloading shared configuration from /.polarion/maven to C:\Polarion\data\workspace\polarion-data\deploymentSpaces\_default\_agg\_root\_root.default\_artificial\null\.config
+2017-06-27 00:50:03,102 [Worker-3 | u:p | job: build.deploy] INFO  root  - Deploying artifact _root.default.Demo_Projects:_artificial:null to C:\Polarion\data\workspace\polarion-data\deploymentSpaces\_default\_agg\_root\_root.default.Demo_Projects\_artificial\null
+2017-06-27 00:50:03,108 [Worker-3 | u:p | job: build.deploy] INFO  root  - Downloading resources for _root.default.Demo_Projects:_artificial:null
+2017-06-27 00:50:03,123 [Worker-3 | u:p | job: build.deploy] INFO  root  - Downloading shared configuration from /.polarion/maven to C:\Polarion\data\workspace\polarion-data\deploymentSpaces\_default\_agg\_root\_root.default.Demo_Projects\_artificial\null\.config
+2017-06-27 00:50:06,102 [Worker-3 | u:p | job: build.deploy] INFO  root  - Deploying artifact _root.default.Demo_Projects.elibrary:_artificial:null to C:\Polarion\data\workspace\polarion-data\deploymentSpaces\_default\_agg\elibrary\_root.default.Demo_Projects.elibrary\_artificial\null
+2017-06-27 00:50:06,109 [Worker-3 | u:p | job: build.deploy] INFO  root  - Downloading resources for _root.default.Demo_Projects.elibrary:_artificial:null
+2017-06-27 00:50:06,129 [Worker-3 | u:p | job: build.deploy] INFO  root  - Downloading shared configuration from /.polarion/maven to C:\Polarion\data\workspace\polarion-data\deploymentSpaces\_default\_agg\elibrary\_root.default.Demo_Projects.elibrary\_artificial\null\.config
+2017-06-27 00:50:09,102 [Worker-3 | u:p | job: build.deploy] INFO  root  - Creating or finding POM file for _root.default.Demo_Projects.elibrary:_artificial:null in C:\Polarion\data\workspace\polarion-data\deploymentSpaces\_default\_agg\elibrary\_root.default.Demo_Projects.elibrary\_artificial\null
+2017-06-27 00:50:09,110 [Worker-3 | u:p | job: build.deploy] INFO  root  - POM file created or found in C:\Polarion\data\workspace\polarion-data\deploymentSpaces\_default\_agg\elibrary\_root.default.Demo_Projects.elibrary\_artificial\null\pom.xml
+2017-06-27 00:50:09,116 [Worker-3 | u:p | job: build.deploy] INFO  root  - Altering C:\Polarion\data\workspace\polarion-data\deploymentSpaces\_default\_agg\elibrary\_root.default.Demo_Projects.elibrary\_artificial\null\pom.xml for calculation
+2017-06-27 00:50:09,124 [Worker-3 | u:p | job: build.deploy] INFO  root  - Deploying artifact _root.default.Demo_Projects.drivepilot:_artificial:null to C:\Polarion\data\workspace\polarion-data\deploymentSpaces\_default\_agg\drivepilot\_root.default.Demo_Projects.drivepilot\_artificial\null
+2017-06-27 00:50:09,130 [Worker-3 | u:p | job: build.deploy] INFO  root  - Downloading resources for _root.default.Demo_Projects.drivepilot:_artificial:null
+2017-06-27 00:50:09,152 [Worker-3 | u:p | job: build.deploy] INFO  root  - Downloading shared configuration from /.polarion/maven to C:\Polarion\data\workspace\polarion-data\deploymentSpaces\_default\_agg\drivepilot\_root.default.Demo_Projects.drivepilot\_artificial\null\.config
+2017-06-27 00:50:12,102 [Worker-3 | u:p | job: build.deploy] INFO  root  - Creating or finding POM file for _root.default.Demo_Projects.drivepilot:_artificial:null in C:\Polarion\data\workspace\polarion-data\deploymentSpaces\_default\_agg\drivepilot\_root.default.Demo_Projects.drivepilot\_artificial\null
+2017-06-27 00:50:12,110 [Worker-3 | u:p | job: build.deploy] INFO  root  - POM file created or found in C:\Polarion\data\workspace\polarion-data\deploymentSpaces\_default\_agg\drivepilot\_root.default.Demo_Projects.drivepilot\_artificial\null\pom.xml
+2017-06-27 00:50:12,116 [Worker-3 | u:p | job: build.deploy] INFO  root  - Altering C:\Polarion\data\workspace\polarion-data\deploymentSpaces\_default\_agg\drivepilot\_root.default.Demo_Projects.drivepilot\_artificial\null\pom.xml for calculation
+2017-06-27 00:50:12,124 [Worker-3 | u:p | job: build.deploy] INFO  root  - Creating or finding POM file for _root.default.Demo_Projects:_artificial:null in C:\Polarion\data\workspace\polarion-data\deploymentSpaces\_default\_agg\_root\_root.default.Demo_Projects\_artificial\null
+2017-06-27 00:50:12,132 [Worker-3 | u:p | job: build.deploy] INFO  root  - POM file created or found in C:\Polarion\data\workspace\polarion-data\deploymentSpaces\_default\_agg\_root\_root.default.Demo_Projects\_artificial\null\pom.xml
+2017-06-27 00:50:12,138 [Worker-3 | u:p | job: build.deploy] INFO  root  - Altering C:\Polarion\data\workspace\polarion-data\deploymentSpaces\_default\_agg\_root\_root.default.Demo_Projects\_artificial\null\pom.xml for calculation
+2017-06-27 00:50:12,147 [Worker-3 | u:p | job: build.deploy] INFO  root  - Deploying artifact _root.default.library:_artificial:null to C:\Polarion\data\workspace\polarion-data\deploymentSpaces\_default\_agg\library\_root.default.library\_artificial\null
+2017-06-27 00:50:12,153 [Worker-3 | u:p | job: build.deploy] INFO  root  - Downloading resources for _root.default.library:_artificial:null
+2017-06-27 00:50:12,167 [Worker-3 | u:p | job: build.deploy] INFO  root  - Downloading shared configuration from /.polarion/maven to C:\Polarion\data\workspace\polarion-data\deploymentSpaces\_default\_agg\library\_root.default.library\_artificial\null\.config
+2017-06-27 00:50:15,102 [Worker-3 | u:p | job: build.deploy] INFO  root  - Creating or finding POM file for _root.default.library:_artificial:null in C:\Polarion\data\workspace\polarion-data\deploymentSpaces\_default\_agg\library\_root.default.library\_artificial\null
+2017-06-27 00:50:15,110 [Worker-3 | u:p | job: build.deploy] INFO  root  - POM file created or found in C:\Polarion\data\workspace\polarion-data\deploymentSpaces\_default\_agg\library\_root.default.library\_artificial\null\pom.xml
+2017-06-27 00:50:15,116 [Worker-3 | u:p | job: build.deploy] INFO  root  - Altering C:\Polarion\data\workspace\polarion-data\deploymentSpaces\_default\_agg\library\_root.default.library\_artificial\null\pom.xml for calculation
+2017-06-27 00:50:15,124 [Worker-3 | u:p | job: build.deploy] INFO  root  - Deploying artifact _root.default.CAPA:_artificial:null to C:\Polarion\data\workspace\polarion-data\deploymentSpaces\_default\_agg\CAPA\_root.default.CAPA\_artificial\null
+2017-06-27 00:50:15,131 [Worker-3 | u:p | job: build.deploy] INFO  root  - Downloading resources for _root.default.CAPA:_artificial:null
+2017-06-27 00:50:15,145 [Worker-3 | u:p | job: build.deploy] INFO  root  - Downloading shared configuration from /.polarion/maven to C:\Polarion\data\workspace\polarion-data\deploymentSpaces\_default\_agg\CAPA\_root.default.CAPA\_artificial\null\.config
+2017-06-27 00:50:18,102 [Worker-3 | u:p | job: build.deploy] INFO  root  - Creating or finding POM file for _root.default.CAPA:_artificial:null in C:\Polarion\data\workspace\polarion-data\deploymentSpaces\_default\_agg\CAPA\_root.default.CAPA\_artificial\null
+2017-06-27 00:50:18,110 [Worker-3 | u:p | job: build.deploy] INFO  root  - POM file created or found in C:\Polarion\data\workspace\polarion-data\deploymentSpaces\_default\_agg\CAPA\_root.default.CAPA\_artificial\null\pom.xml
+2017-06-27 00:50:18,116 [Worker-3 | u:p | job: build.deploy] INFO  root  - Altering C:\Polarion\data\workspace\polarion-data\deploymentSpaces\_default\_agg\CAPA\_root.default.CAPA\_artificial\null\pom.xml for calculation
+2017-06-27 00:50:18,124 [Worker-3 | u:p | job: build.deploy] INFO  root  - Deploying artifact _root.default.MyPolarion:_artificial:null to C:\Polarion\data\workspace\polarion-data\deploymentSpaces\_default\_agg\MyPolarion\_root.default.MyPolarion\_artificial\null
+2017-06-27 00:50:18,130 [Worker-3 | u:p | job: build.deploy] INFO  root  - Downloading resources for _root.default.MyPolarion:_artificial:null
+2017-06-27 00:50:18,144 [Worker-3 | u:p | job: build.deploy] INFO  root  - Downloading shared configuration from /.polarion/maven to C:\Polarion\data\workspace\polarion-data\deploymentSpaces\_default\_agg\MyPolarion\_root.default.MyPolarion\_artificial\null\.config
+2017-06-27 00:50:21,102 [Worker-3 | u:p | job: build.deploy] INFO  root  - Creating or finding POM file for _root.default.MyPolarion:_artificial:null in C:\Polarion\data\workspace\polarion-data\deploymentSpaces\_default\_agg\MyPolarion\_root.default.MyPolarion\_artificial\null
+2017-06-27 00:50:21,110 [Worker-3 | u:p | job: build.deploy] INFO  root  - POM file created or found in C:\Polarion\data\workspace\polarion-data\deploymentSpaces\_default\_agg\MyPolarion\_root.default.MyPolarion\_artificial\null\pom.xml
+2017-06-27 00:50:21,116 [Worker-3 | u:p | job: build.deploy] INFO  root  - Altering C:\Polarion\data\workspace\polarion-data\deploymentSpaces\_default\_agg\MyPolarion\_root.default.MyPolarion\_artificial\null\pom.xml for calculation
+2017-06-27 00:50:21,124 [Worker-3 | u:p | job: build.deploy] INFO  root  - Deploying artifact _root.default.NEW_CAPA:_artificial:null to C:\Polarion\data\workspace\polarion-data\deploymentSpaces\_default\_agg\NEW_CAPA\_root.default.NEW_CAPA\_artificial\null
+2017-06-27 00:50:21,131 [Worker-3 | u:p | job: build.deploy] INFO  root  - Downloading resources for _root.default.NEW_CAPA:_artificial:null
+2017-06-27 00:50:21,145 [Worker-3 | u:p | job: build.deploy] INFO  root  - Downloading shared configuration from /.polarion/maven to C:\Polarion\data\workspace\polarion-data\deploymentSpaces\_default\_agg\NEW_CAPA\_root.default.NEW_CAPA\_artificial\null\.config
+2017-06-27 00:50:24,102 [Worker-3 | u:p | job: build.deploy] INFO  root  - Creating or finding POM file for _root.default.NEW_CAPA:_artificial:null in C:\Polarion\data\workspace\polarion-data\deploymentSpaces\_default\_agg\NEW_CAPA\_root.default.NEW_CAPA\_artificial\null
+2017-06-27 00:50:24,111 [Worker-3 | u:p | job: build.deploy] INFO  root  - POM file created or found in C:\Polarion\data\workspace\polarion-data\deploymentSpaces\_default\_agg\NEW_CAPA\_root.default.NEW_CAPA\_artificial\null\pom.xml
+2017-06-27 00:50:24,117 [Worker-3 | u:p | job: build.deploy] INFO  root  - Altering C:\Polarion\data\workspace\polarion-data\deploymentSpaces\_default\_agg\NEW_CAPA\_root.default.NEW_CAPA\_artificial\null\pom.xml for calculation
+2017-06-27 00:50:24,125 [Worker-3 | u:p | job: build.deploy] INFO  root  - Creating or finding POM file for _root.default:_artificial:null in C:\Polarion\data\workspace\polarion-data\deploymentSpaces\_default\_agg\_root\_root.default\_artificial\null
+2017-06-27 00:50:24,133 [Worker-3 | u:p | job: build.deploy] INFO  root  - POM file created or found in C:\Polarion\data\workspace\polarion-data\deploymentSpaces\_default\_agg\_root\_root.default\_artificial\null\pom.xml
+2017-06-27 00:50:24,140 [Worker-3 | u:p | job: build.deploy] INFO  root  - Altering C:\Polarion\data\workspace\polarion-data\deploymentSpaces\_default\_agg\_root\_root.default\_artificial\null\pom.xml for calculation
+2017-06-27 00:50:24,149 [Worker-3 | u:p] INFO  root  - State of job "Deploy _root.default:_artificial to C:\Polarion\data\workspace\polarion-data\deploymentSpaces\_default" changed to FINISHED
+2017-06-27 00:50:24,155 [Worker-3 | u:p] INFO  root  - Status of job "Deploy _root.default:_artificial to C:\Polarion\data\workspace\polarion-data\deploymentSpaces\_default" is OK
+2017-06-27 00:50:24,163 [Worker-3 | u:p | job: build.build] INFO  root  - Build properties:
+
+build-config-shared.local.repository=true
+maven.compiler.failOnError=false
+polarion.build.calc.support.0=e5d90560-927abeae-315365ef-7105faad
+polarion.build.calc.support.1=e5d90560-927abeae-315365ef-06203fa9
+polarion.build.calc.support.2=http://localhost
+polarion.build.calc.support.3=C:\Polarion\polarion/configuration/polarion.properties
+polarion.build.calc.support.4=C:\Polarion\data\workspace\polarion-data\jobs\20170627-0050
+polarion.build.calc.support.5=
+polarion.build.calc.support.file=C:\Temp\CalcSupport6828476720955410653.properties
+polarion.build.default.deploy.repository.id=polarion-shared
+polarion.build.default.deploy.repository.url=file://C:\Polarion\polarion/../data/shared-maven-repo
+polarion.build.id=20170627-0050_calc_e5d8a723-927abeae-315365ef-c96de9f0
+polarion.build.maven.check.plugin.updates=false
+polarion.build.maven.extra.jvm.options=-Xmx640m
+polarion.build.maven.location.maven2=C:\Polarion\polarion/../maven/distribution
+polarion.build.maven.plugin.registry.name=calculations-plugin-registry.xml
+polarion.files.repository=C:\Polarion\polarion\..\data\BIR
+polarion.reports.repository=C:\Polarion\polarion\..\data\RR
+
+2017-06-27 00:50:24,169 [Worker-3 | u:p | job: build.build] INFO  root  - Using external Maven named 'maven2'
+2017-06-27 00:50:24,173 [Worker-3 | u:p | job: build.build] INFO  root  - Maven execution settings:
+
+recursive is true
+offline is false
+usePluginRegistry is true
+updateSnapshots is false
+reactorActive is false
+globalChecksumPolicy is null
+pluginUpdateOverride is false
+activeProfiles is []
+inactiveProfiles is []
+reactorFailureBehaviour is null
+
+2017-06-27 00:50:24,179 [Worker-3 | u:p | job: build.build] WARN  root  - Unable to find tools.jar - some kinds of compilation may fail
+2017-06-27 00:50:24,184 [Worker-3 | u:p | job: build.build] INFO  root  - Used settings file: C:\Polarion\polarion\..\maven\settings.xml
+2017-06-27 00:50:24,189 [Worker-3 | u:p | job: build.build] INFO  root  - Executing C:\apps\Java\jre8x64\bin\javaw.exe
+  -- args [-Xmx640m, -Dmaven.home=C:\Polarion\polarion\..\maven\distribution, -Dorg.apache.maven.user-plugin-registry=C:\Polarion\polarion\..\maven\calculations-plugin-registry.xml, -Dclassworlds.conf=C:\Polarion\polarion\..\maven\distribution\bin\m2.conf, -classpath, C:\Polarion\polarion\..\maven\distribution\boot\classworlds-1.1.jar, org.codehaus.classworlds.Launcher, --settings, C:\Polarion\polarion\..\maven\settings.xml, --batch-mode, --no-plugin-updates, --file, C:\Polarion\data\workspace\polarion-data\deploymentSpaces\_default\_agg\_root\_root.default\_artificial\null\pom.xml, --errors, -Dbuild-config-shared.local.repository=true, -Dpolarion.build.id=20170627-0050_calc_e5d8a723-927abeae-315365ef-c96de9f0, -Dpolarion.files.repository=C:\Polarion\polarion\..\data\BIR, -Dpolarion.build.maven.extra.jvm.options=-Xmx640m, -Dpolarion.build.maven.plugin.registry.name=calculations-plugin-registry.xml, -Dpolarion.build.maven.location.maven2=C:\Polarion\polarion/../maven/distribution, -Dpolarion.build.calc.support.5=, -Dpolarion.build.calc.support.4=C:\Polarion\data\workspace\polarion-data\jobs\20170627-0050, -Dpolarion.build.calc.support.3=C:\Polarion\polarion/configuration/polarion.properties, -Dpolarion.build.calc.support.2=http://localhost, -Dpolarion.build.calc.support.1=e5d90560-927abeae-315365ef-06203fa9, -Dpolarion.build.calc.support.0=e5d90560-927abeae-315365ef-7105faad, -Dpolarion.build.default.deploy.repository.url=file://C:\Polarion\polarion/../data/shared-maven-repo, -Dmaven.compiler.failOnError=false, -Dpolarion.build.default.deploy.repository.id=polarion-shared, -Dpolarion.build.calc.support.file=C:\Temp\CalcSupport6828476720955410653.properties, -Dpolarion.build.maven.check.plugin.updates=false, -Dpolarion.reports.repository=C:\Polarion\polarion\..\data\RR, com.polarion.maven.plugins.qcentre:trackeranalysis:aggregate, com.polarion.maven.plugins.qcentre:projectscore:aggregate, com.polarion.maven.plugins.qcentre:projectscore:reportAggregated]
+  -- env null
+  -- dir C:\Polarion\data\workspace\polarion-data\deploymentSpaces\_default\_agg\_root\_root.default\_artificial\null
+2017-06-27 00:50:24,575 [Thread-91] INFO  root  - + Error stacktraces are turned on.
+2017-06-27 00:50:24,638 [Thread-91] INFO  root  - Scanning for projects...
+2017-06-27 00:50:24,643 [Thread-91] INFO  root  - Reactor build order:
+2017-06-27 00:50:24,649 [Thread-91] INFO  root  - _root.default.Demo_Projects.elibrary:_artificial:null
+2017-06-27 00:50:24,656 [Thread-91] INFO  root  - _root.default.Demo_Projects.drivepilot:_artificial:null
+2017-06-27 00:50:24,662 [Thread-91] INFO  root  - _root.default.Demo_Projects:_artificial:null
+2017-06-27 00:50:24,667 [Thread-91] INFO  root  - _root.default.library:_artificial:null
+2017-06-27 00:50:24,671 [Thread-91] INFO  root  - _root.default.CAPA:_artificial:null
+2017-06-27 00:50:24,679 [Thread-91] INFO  root  - _root.default.MyPolarion:_artificial:null
+2017-06-27 00:50:24,685 [Thread-91] INFO  root  - _root.default.NEW_CAPA:_artificial:null
+2017-06-27 00:50:24,707 [Thread-91] INFO  root  - _root.default:_artificial:null
+2017-06-27 00:50:24,713 [Thread-91] INFO  root  - ------------------------------------------------------------------------
+2017-06-27 00:50:24,718 [Thread-91] INFO  root  - Building _root.default.Demo_Projects.elibrary:_artificial:null
+2017-06-27 00:50:24,724 [Thread-91] INFO  root  - task-segment: [com.polarion.maven.plugins.qcentre:trackeranalysis:aggregate, com.polarion.maven.plugins.qcentre:projectscore:aggregate, com.polarion.maven.plugins.qcentre:projectscore:reportAggregated]
+2017-06-27 00:50:25,212 [Thread-91] INFO  root  - ------------------------------------------------------------------------
+2017-06-27 00:50:25,223 [Thread-91] INFO  root  - [trackeranalysis:aggregate]
+2017-06-27 00:50:25,502 [Thread-91] INFO  root  - trackeranalysis:aggregate execute on:_root.default.Demo_Projects.elibrary._artificial
+2017-06-27 00:50:25,609 [Thread-91] INFO  root  - trackeranalysis:aggregate does nothing on project level
+2017-06-27 00:50:25,619 [Thread-91] INFO  root  - [projectscore:aggregate]
+2017-06-27 00:50:25,771 [Thread-91] INFO  root  - projectscore:aggregate execute on:_root.default.Demo_Projects.elibrary._artificial
+2017-06-27 00:50:25,776 [Thread-91] INFO  root  - projectscore:aggregate does nothing on project level
+2017-06-27 00:50:25,781 [Thread-91] INFO  root  - [projectscore:reportAggregated]
+2017-06-27 00:50:25,787 [Thread-91] INFO  root  - projectscore:reportAggregated execute on:_root.default.Demo_Projects.elibrary._artificial
+2017-06-27 00:50:25,792 [Thread-91] INFO  root  - projectscore:reportAggregated does nothing on project level
+2017-06-27 00:50:25,798 [Thread-91] INFO  root  - ------------------------------------------------------------------------
+2017-06-27 00:50:25,804 [Thread-91] INFO  root  - Building _root.default.Demo_Projects.drivepilot:_artificial:null
+2017-06-27 00:50:25,811 [Thread-91] INFO  root  - task-segment: [com.polarion.maven.plugins.qcentre:trackeranalysis:aggregate, com.polarion.maven.plugins.qcentre:projectscore:aggregate, com.polarion.maven.plugins.qcentre:projectscore:reportAggregated]
+2017-06-27 00:50:25,817 [Thread-91] INFO  root  - ------------------------------------------------------------------------
+2017-06-27 00:50:25,823 [Thread-91] INFO  root  - [trackeranalysis:aggregate]
+2017-06-27 00:50:25,829 [Thread-91] INFO  root  - trackeranalysis:aggregate execute on:_root.default.Demo_Projects.drivepilot._artificial
+2017-06-27 00:50:25,835 [Thread-91] INFO  root  - trackeranalysis:aggregate does nothing on project level
+2017-06-27 00:50:25,842 [Thread-91] INFO  root  - [projectscore:aggregate]
+2017-06-27 00:50:25,846 [Thread-91] INFO  root  - projectscore:aggregate execute on:_root.default.Demo_Projects.drivepilot._artificial
+2017-06-27 00:50:25,851 [Thread-91] INFO  root  - projectscore:aggregate does nothing on project level
+2017-06-27 00:50:25,857 [Thread-91] INFO  root  - [projectscore:reportAggregated]
+2017-06-27 00:50:25,863 [Thread-91] INFO  root  - projectscore:reportAggregated execute on:_root.default.Demo_Projects.drivepilot._artificial
+2017-06-27 00:50:25,868 [Thread-91] INFO  root  - projectscore:reportAggregated does nothing on project level
+2017-06-27 00:50:25,874 [Thread-91] INFO  root  - ------------------------------------------------------------------------
+2017-06-27 00:50:25,878 [Thread-91] INFO  root  - Building _root.default.Demo_Projects:_artificial:null
+2017-06-27 00:50:25,884 [Thread-91] INFO  root  - task-segment: [com.polarion.maven.plugins.qcentre:trackeranalysis:aggregate, com.polarion.maven.plugins.qcentre:projectscore:aggregate, com.polarion.maven.plugins.qcentre:projectscore:reportAggregated]
+2017-06-27 00:50:25,889 [Thread-91] INFO  root  - ------------------------------------------------------------------------
+2017-06-27 00:50:25,894 [Thread-91] INFO  root  - [trackeranalysis:aggregate]
+2017-06-27 00:50:25,983 [Thread-91] INFO  root  - trackeranalysis:aggregate execute on:_root.default.Demo_Projects._artificial
+2017-06-27 00:50:26,280 [Thread-91] INFO  root  - runGauge:ALL
+2017-06-27 00:50:26,287 [Thread-91] INFO  root  - runGauge:ALL finished  [ TIME 0.296 s. ]
+2017-06-27 00:50:26,297 [Thread-91] INFO  root  - runGauge:RESOLVED-UNRESOLVED
+2017-06-27 00:50:26,306 [Thread-91] INFO  root  - runGauge:RESOLVED-UNRESOLVED finished  [ TIME 0.0173 s. ]
+2017-06-27 00:50:26,315 [Thread-91] INFO  root  - runGauge:UNRESOLVED-BY-PROJECT
+2017-06-27 00:50:26,324 [Thread-91] INFO  root  - runGauge:UNRESOLVED-BY-PROJECT finished  [ TIME 0.0169 s. ]
+2017-06-27 00:50:26,331 [Thread-91] INFO  root  - runGauge:UNRESOLVED-BY-ENTITY
+2017-06-27 00:50:26,415 [Thread-91] INFO  root  - runGauge:UNRESOLVED-BY-ENTITY finished  [ TIME 0.0163 s. ]
+2017-06-27 00:50:26,423 [Thread-91] INFO  root  - trackeranalysis:aggregate finished  [ TIME 0.587 s. ]
+2017-06-27 00:50:26,432 [Thread-91] INFO  root  - [projectscore:aggregate]
+2017-06-27 00:50:26,653 [Thread-91] INFO  root  - projectscore:aggregate execute on:_root.default.Demo_Projects._artificial
+2017-06-27 00:50:26,660 [Thread-91] INFO  root  - projectscore:aggregate finished  [ TIME 0.236 s. ]
+2017-06-27 00:50:26,668 [Thread-91] INFO  root  - [projectscore:reportAggregated]
+2017-06-27 00:50:26,711 [Thread-91] INFO  root  - projectscore:reportAggregated execute on:_root.default.Demo_Projects._artificial
+2017-06-27 00:50:26,718 [Thread-91] INFO  root  - projectscore:reportAggregated finished  [ TIME 0.0576 s. ]
+2017-06-27 00:50:26,725 [Thread-91] INFO  root  - ------------------------------------------------------------------------
+2017-06-27 00:50:26,732 [Thread-91] INFO  root  - Building _root.default.library:_artificial:null
+2017-06-27 00:50:26,738 [Thread-91] INFO  root  - task-segment: [com.polarion.maven.plugins.qcentre:trackeranalysis:aggregate, com.polarion.maven.plugins.qcentre:projectscore:aggregate, com.polarion.maven.plugins.qcentre:projectscore:reportAggregated]
+2017-06-27 00:50:26,745 [Thread-91] INFO  root  - ------------------------------------------------------------------------
+2017-06-27 00:50:26,752 [Thread-91] INFO  root  - [trackeranalysis:aggregate]
+2017-06-27 00:50:26,759 [Thread-91] INFO  root  - trackeranalysis:aggregate execute on:_root.default.library._artificial
+2017-06-27 00:50:26,765 [Thread-91] INFO  root  - trackeranalysis:aggregate does nothing on project level
+2017-06-27 00:50:26,771 [Thread-91] INFO  root  - [projectscore:aggregate]
+2017-06-27 00:50:26,778 [Thread-91] INFO  root  - projectscore:aggregate execute on:_root.default.library._artificial
+2017-06-27 00:50:26,784 [Thread-91] INFO  root  - projectscore:aggregate does nothing on project level
+2017-06-27 00:50:26,790 [Thread-91] INFO  root  - [projectscore:reportAggregated]
+2017-06-27 00:50:26,798 [Thread-91] INFO  root  - projectscore:reportAggregated execute on:_root.default.library._artificial
+2017-06-27 00:50:26,806 [Thread-91] INFO  root  - projectscore:reportAggregated does nothing on project level
+2017-06-27 00:50:26,812 [Thread-91] INFO  root  - ------------------------------------------------------------------------
+2017-06-27 00:50:26,818 [Thread-91] INFO  root  - Building _root.default.CAPA:_artificial:null
+2017-06-27 00:50:26,825 [Thread-91] INFO  root  - task-segment: [com.polarion.maven.plugins.qcentre:trackeranalysis:aggregate, com.polarion.maven.plugins.qcentre:projectscore:aggregate, com.polarion.maven.plugins.qcentre:projectscore:reportAggregated]
+2017-06-27 00:50:26,831 [Thread-91] INFO  root  - ------------------------------------------------------------------------
+2017-06-27 00:50:26,838 [Thread-91] INFO  root  - [trackeranalysis:aggregate]
+2017-06-27 00:50:26,843 [Thread-91] INFO  root  - trackeranalysis:aggregate execute on:_root.default.CAPA._artificial
+2017-06-27 00:50:26,849 [Thread-91] INFO  root  - trackeranalysis:aggregate does nothing on project level
+2017-06-27 00:50:26,855 [Thread-91] INFO  root  - [projectscore:aggregate]
+2017-06-27 00:50:26,861 [Thread-91] INFO  root  - projectscore:aggregate execute on:_root.default.CAPA._artificial
+2017-06-27 00:50:26,867 [Thread-91] INFO  root  - projectscore:aggregate does nothing on project level
+2017-06-27 00:50:26,874 [Thread-91] INFO  root  - [projectscore:reportAggregated]
+2017-06-27 00:50:26,879 [Thread-91] INFO  root  - projectscore:reportAggregated execute on:_root.default.CAPA._artificial
+2017-06-27 00:50:26,884 [Thread-91] INFO  root  - projectscore:reportAggregated does nothing on project level
+2017-06-27 00:50:26,890 [Thread-91] INFO  root  - ------------------------------------------------------------------------
+2017-06-27 00:50:26,896 [Thread-91] INFO  root  - Building _root.default.MyPolarion:_artificial:null
+2017-06-27 00:50:26,901 [Thread-91] INFO  root  - task-segment: [com.polarion.maven.plugins.qcentre:trackeranalysis:aggregate, com.polarion.maven.plugins.qcentre:projectscore:aggregate, com.polarion.maven.plugins.qcentre:projectscore:reportAggregated]
+2017-06-27 00:50:26,907 [Thread-91] INFO  root  - ------------------------------------------------------------------------
+2017-06-27 00:50:26,912 [Thread-91] INFO  root  - [trackeranalysis:aggregate]
+2017-06-27 00:50:26,918 [Thread-91] INFO  root  - trackeranalysis:aggregate execute on:_root.default.MyPolarion._artificial
+2017-06-27 00:50:26,924 [Thread-91] INFO  root  - trackeranalysis:aggregate does nothing on project level
+2017-06-27 00:50:26,930 [Thread-91] INFO  root  - [projectscore:aggregate]
+2017-06-27 00:50:26,938 [Thread-91] INFO  root  - projectscore:aggregate execute on:_root.default.MyPolarion._artificial
+2017-06-27 00:50:26,945 [Thread-91] INFO  root  - projectscore:aggregate does nothing on project level
+2017-06-27 00:50:26,953 [Thread-91] INFO  root  - [projectscore:reportAggregated]
+2017-06-27 00:50:26,960 [Thread-91] INFO  root  - projectscore:reportAggregated execute on:_root.default.MyPolarion._artificial
+2017-06-27 00:50:26,966 [Thread-91] INFO  root  - projectscore:reportAggregated does nothing on project level
+2017-06-27 00:50:26,973 [Thread-91] INFO  root  - ------------------------------------------------------------------------
+2017-06-27 00:50:26,979 [Thread-91] INFO  root  - Building _root.default.NEW_CAPA:_artificial:null
+2017-06-27 00:50:26,988 [Thread-91] INFO  root  - task-segment: [com.polarion.maven.plugins.qcentre:trackeranalysis:aggregate, com.polarion.maven.plugins.qcentre:projectscore:aggregate, com.polarion.maven.plugins.qcentre:projectscore:reportAggregated]
+2017-06-27 00:50:26,995 [Thread-91] INFO  root  - ------------------------------------------------------------------------
+2017-06-27 00:50:27,001 [Thread-91] INFO  root  - [trackeranalysis:aggregate]
+2017-06-27 00:50:27,007 [Thread-91] INFO  root  - trackeranalysis:aggregate execute on:_root.default.NEW_CAPA._artificial
+2017-06-27 00:50:27,013 [Thread-91] INFO  root  - trackeranalysis:aggregate does nothing on project level
+2017-06-27 00:50:27,019 [Thread-91] INFO  root  - [projectscore:aggregate]
+2017-06-27 00:50:27,025 [Thread-91] INFO  root  - projectscore:aggregate execute on:_root.default.NEW_CAPA._artificial
+2017-06-27 00:50:27,032 [Thread-91] INFO  root  - projectscore:aggregate does nothing on project level
+2017-06-27 00:50:27,039 [Thread-91] INFO  root  - [projectscore:reportAggregated]
+2017-06-27 00:50:27,046 [Thread-91] INFO  root  - projectscore:reportAggregated execute on:_root.default.NEW_CAPA._artificial
+2017-06-27 00:50:27,051 [Thread-91] INFO  root  - projectscore:reportAggregated does nothing on project level
+2017-06-27 00:50:27,057 [Thread-91] INFO  root  - ------------------------------------------------------------------------
+2017-06-27 00:50:27,063 [Thread-91] INFO  root  - Building _root.default:_artificial:null
+2017-06-27 00:50:27,070 [Thread-91] INFO  root  - task-segment: [com.polarion.maven.plugins.qcentre:trackeranalysis:aggregate, com.polarion.maven.plugins.qcentre:projectscore:aggregate, com.polarion.maven.plugins.qcentre:projectscore:reportAggregated]
+2017-06-27 00:50:27,078 [Thread-91] INFO  root  - ------------------------------------------------------------------------
+2017-06-27 00:50:27,084 [Thread-91] INFO  root  - [trackeranalysis:aggregate]
+2017-06-27 00:50:27,091 [Thread-91] INFO  root  - trackeranalysis:aggregate execute on:_root.default._artificial
+2017-06-27 00:50:27,099 [Thread-91] INFO  root  - runGauge:ALL
+2017-06-27 00:50:27,110 [Thread-91] INFO  root  - runGauge:ALL finished  [ TIME 0.0411 s. ]
+2017-06-27 00:50:27,118 [Thread-91] INFO  root  - runGauge:RESOLVED-UNRESOLVED
+2017-06-27 00:50:27,125 [Thread-91] INFO  root  - runGauge:RESOLVED-UNRESOLVED finished  [ TIME 0.0156 s. ]
+2017-06-27 00:50:27,131 [Thread-91] INFO  root  - runGauge:UNRESOLVED-BY-PROJECT
+2017-06-27 00:50:27,138 [Thread-91] INFO  root  - runGauge:UNRESOLVED-BY-PROJECT finished  [ TIME 0.0205 s. ]
+2017-06-27 00:50:27,148 [Thread-91] INFO  root  - runGauge:UNRESOLVED-BY-ENTITY
+2017-06-27 00:50:27,156 [Thread-91] INFO  root  - runGauge:UNRESOLVED-BY-ENTITY finished  [ TIME 0.0154 s. ]
+2017-06-27 00:50:27,163 [Thread-91] INFO  root  - trackeranalysis:aggregate finished  [ TIME 0.13 s. ]
+2017-06-27 00:50:27,174 [Thread-91] INFO  root  - [projectscore:aggregate]
+2017-06-27 00:50:27,181 [Thread-91] INFO  root  - projectscore:aggregate execute on:_root.default._artificial
+2017-06-27 00:50:27,187 [Thread-91] INFO  root  - projectscore:aggregate finished  [ TIME 0.123 s. ]
+2017-06-27 00:50:27,205 [Thread-91] INFO  root  - [projectscore:reportAggregated]
+2017-06-27 00:50:27,211 [Thread-91] INFO  root  - projectscore:reportAggregated execute on:_root.default._artificial
+2017-06-27 00:50:27,218 [Thread-91] INFO  root  - projectscore:reportAggregated finished  [ TIME 0.0604 s. ]
+2017-06-27 00:50:27,225 [Thread-91] INFO  root  - ------------------------------------------------------------------------
+2017-06-27 00:50:27,231 [Thread-91] INFO  root  - Reactor Summary:
+2017-06-27 00:50:27,237 [Thread-91] INFO  root  - ------------------------------------------------------------------------
+2017-06-27 00:50:27,243 [Thread-91] INFO  root  - _root.default.Demo_Projects.elibrary:_artificial:null . SUCCESS [1.079s]
+2017-06-27 00:50:27,249 [Thread-91] INFO  root  - _root.default.Demo_Projects.drivepilot:_artificial:null  SUCCESS [0.040s]
+2017-06-27 00:50:27,254 [Thread-91] INFO  root  - _root.default.Demo_Projects:_artificial:null .......... SUCCESS [0.884s]
+2017-06-27 00:50:27,259 [Thread-91] INFO  root  - _root.default.library:_artificial:null ................ SUCCESS [0.033s]
+2017-06-27 00:50:27,265 [Thread-91] INFO  root  - _root.default.CAPA:_artificial:null ................... SUCCESS [0.030s]
+2017-06-27 00:50:27,272 [Thread-91] INFO  root  - _root.default.MyPolarion:_artificial:null ............. SUCCESS [0.032s]
+2017-06-27 00:50:27,278 [Thread-91] INFO  root  - _root.default.NEW_CAPA:_artificial:null ............... SUCCESS [0.030s]
+2017-06-27 00:50:27,283 [Thread-91] INFO  root  - _root.default:_artificial:null ........................ SUCCESS [0.315s]
+2017-06-27 00:50:27,288 [Thread-91] INFO  root  - ------------------------------------------------------------------------
+2017-06-27 00:50:27,293 [Thread-91] INFO  root  - ------------------------------------------------------------------------
+2017-06-27 00:50:27,298 [Thread-91] INFO  root  - BUILD SUCCESSFUL
+2017-06-27 00:50:27,303 [Thread-91] INFO  root  - ------------------------------------------------------------------------
+2017-06-27 00:50:27,308 [Thread-91] INFO  root  - Total time: 2 seconds
+2017-06-27 00:50:27,313 [Thread-91] INFO  root  - Finished at: Tue Jun 27 00:50:27 IST 2017
+2017-06-27 00:50:27,318 [Thread-91] INFO  root  - Final Memory: 19M/372M
+2017-06-27 00:50:27,323 [Worker-3 | u:p | job: build.build] INFO  root  - ------------------------------------------------------------------------
+2017-06-27 00:50:27,328 [Worker-3 | u:p | job: build.build] INFO  root  - Maven returned exit code 0
+2017-06-27 00:50:27,833 [Worker-3 | u:p] INFO  root  - State of job "(INTERNAL) Trackeranalysis-projectgroup calculation of _root.default:_artificial" changed to FINISHED
+2017-06-27 00:50:27,837 [Worker-3 | u:p] INFO  root  - Status of job "(INTERNAL) Trackeranalysis-projectgroup calculation of _root.default:_artificial" is OK

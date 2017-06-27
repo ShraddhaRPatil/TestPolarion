@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="hyperlinks">
+        <list>
+            <struct>
+                <item id="role">renderSlide</item>
+                <item id="uri">/polarion/wiki/bin/view/project/MyPolarion/page/macros/RenderSlides?item=MP-458</item>
+            </struct>
+        </list>
+    </field>
+    <field id="author">admin</field>
+    <field id="title">Emails Versus. Comments</field>
+    <field id="created">2011-03-31 20:34:57.728 +0200</field>
+    <field id="description" text-type="text/html">&lt;span style="font-weight: bold;"&gt;Avoid sending emails&lt;/span&gt;&lt;br/&gt;&lt;br/&gt;&lt;ul&gt;&lt;li&gt;Emails are &lt;span style="color: rgb(255, 0, 0);"&gt;not traceable&lt;/span&gt;&lt;/li&gt;&lt;li&gt;Emails are only visible to recipients&lt;br/&gt;&lt;/li&gt;&lt;li&gt;Emails very &lt;span style="color: rgb(255, 0, 0);"&gt;often cause confusion&lt;/span&gt; as people do not know &lt;span style="color: rgb(255, 0, 0);"&gt;who needs to be notified&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;Use Comments&lt;br/&gt;&lt;br/&gt;&lt;ul&gt;&lt;li&gt;When you have a question about an item&lt;/li&gt;&lt;li&gt;When you changed an item („reason“)‏&lt;/li&gt;&lt;li&gt;Comments are traceable&lt;/li&gt;&lt;li&gt;Comments are tracked inside work item history&lt;/li&gt;&lt;li&gt;Comments are visible to all team members&lt;/li&gt;&lt;/ul&gt;</field>
+    <field id="priority">25.0</field>
+    <field id="status">accepted</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+    <field id="subtitle" type="string">Avoid emails whenever they are related to work items as they can not be tracked easily later on.</field>
+    <field id="hint" type="string">Comments are essential for an effective collaboration and communication within your team</field>
+    <field id="trainingCategory" multi="true" type="enum:trainingCategory">
+        <list>
+            <item>user</item>
+        </list>
+    </field>
+</work-item>

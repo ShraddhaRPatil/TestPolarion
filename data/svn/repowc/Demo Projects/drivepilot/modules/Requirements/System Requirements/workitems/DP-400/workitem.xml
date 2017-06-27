@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="approvals">
+        <list>
+            <struct>
+                <item id="status">waiting</item>
+                <item id="user">rProject</item>
+            </struct>
+        </list>
+    </field>
+    <field id="author">admin</field>
+    <field id="categories">
+        <list>
+            <item>Core</item>
+        </list>
+    </field>
+    <field id="created">2013-01-23 21:10:23.944 +0100</field>
+    <field id="description" text-type="text/html">DrivePilot shall provide a throttle/accelerator override servo that will control the accelerator cable independently of manual mechanical operations.</field>
+    <field id="previousStatus">reviewed</field>
+    <field id="priority">50.0</field>
+    <field id="severity">should_have</field>
+    <field id="status">approved</field>
+    <field id="targetVersion" multi="true" type="enum:@plan[template.id:release]">
+        <list>
+            <item>Version_1_0</item>
+        </list>
+    </field>
+    <field id="type">systemRequirement</field>
+</work-item>

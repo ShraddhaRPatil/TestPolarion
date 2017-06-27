@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">hartliebc</field>
+    <field id="created">2016-01-04 10:30:06.124 -0500</field>
+    <field id="description" text-type="text/html"><![CDATA[In exercise <span class="polarion-rte-link" data-type="workItem" id="fake" data-item-id="MP-5546" data-option-id="long"></span> we´ve created a test case and configured some paramters to test a similar scenario with different parmaters. Now while planning our test run we want to fill these parameters.<br/>
+These parmater values can be added for Test Runs, Test Run templates and also during selection of test cases. <br/>
+We are going to define the value for a browser directly in a test run (usually the parameter is added in a template and the values are added to the run, see also screenshot) , username and password will be defined during test case selection.<br/>
+<span style="font-weight: bold;font-size: 10pt;line-height: 1.5;">Attention:</span><span style="font-size: 10pt;line-height: 1.5;"> If you create a test run out of the template called &quot;Empty&quot; you can select your test cases manually without any query.</span> 
+<ul>
+  <li>Create a third test run called &quot;i1_LoginTest_Team C&quot; and select &quot;Empty&quot; as template</li>
+  <li>Open test run properties and select parameter browser. Add parameter browser and set value e.g. Firefox 40 (image is just an example so it might differ from your view) <br/>
+    <img src="workitemimg:1-screenshot-20160104-103007.png"/></li>
+  <li>Save changes of your configuration and go back to test run frontend.</li>
+  <li>Click on Actions-&gt; Select Test Cases to select your test cases.<br/>
+    <img src="attachment:manuallyselect.jpg" style="width: 237px;height: 200px;"/></li>
+  <li>Select test case <span style="font-style: italic;">Login should be case sensitive</span></li>
+  <li><span style="font-style: normal;">Due to your test run paramter configuration the browser field should already be filled. Username and password should still be empty. These can now be filled. <span style="font-size: 10pt;line-height: 1.5;">(image is just an example so it might differ from your view) </span><img src="workitemimg:2-screenshot-20160104-103007.png" style="width: 721px;height: 327px;"/></span> <span style="font-style: normal;">Add 1st iteration with username: Admin password: Admin</span></li>
+  <li><span style="font-style: normal;font-size: 10pt;line-height: 1.5;">Add 2nd iteration with username: Admin password: notworking</span></li>
+  <li><span style="font-style: normal;font-size: 10pt;line-height: 1.5;">Add 3rd iteration with username: robert password: Admin</span></li>
+  <li><span style="font-style: normal;font-size: 10pt;line-height: 1.5;">Save Test Run</span></li>
+</ul>]]></field>
+    <field id="linkedWorkItems">
+        <list>
+            <struct>
+                <item id="revision">57566</item>
+                <item id="role">branched_from</item>
+                <item id="workItem">MP-2653</item>
+            </struct>
+        </list>
+    </field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Create a parameterized Test Run</field>
+    <field id="type">exercise</field>
+    <field id="upgradedescription" type="boolean">true</field>
+</work-item>

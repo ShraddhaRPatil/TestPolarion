@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">stroebelet</field>
+    <field id="created">2012-04-24 05:06:43.654 -0400</field>
+    <field id="description" text-type="text/html"><![CDATA[<ul>
+  <li>Open the task &quot;gather requirements for our project&quot; and create a linked follow up task<br/>
+    <img src="attachment:followuptask.jpg"/><br/>
+  </li>
+  <li>Add following information to the task</li>
+  <ul>
+    <li>Title: &quot;bring me a cup of coffee when finished ;-) &quot;</li>
+    <li>Add yourself as assignee to the task<br/>
+    </li>
+  </ul>
+  <li>Create the work item</li>
+</ul>]]></field>
+    <field id="initialEstimate">1/12h</field>
+    <field id="linkedWorkItems">
+        <list>
+            <struct>
+                <item id="revision">41999</item>
+                <item id="role">branched_from</item>
+                <item id="workItem">MP-2368</item>
+            </struct>
+        </list>
+    </field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="remainingEstimate">1/12h</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Create a follow-up task</field>
+    <field id="type">exercise</field>
+</work-item>

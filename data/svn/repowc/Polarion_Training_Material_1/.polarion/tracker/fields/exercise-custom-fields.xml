@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<fields>
+    <field id="upgradedescription" name="Needs Description Upgrade" type="boolean"/>
+</fields>

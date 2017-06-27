@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="author">hartliebc</field>
+    <field id="title">Traceability, Coverage and Impact Analysis - Using Views</field>
+    <field id="created">2012-05-30 10:16:19.322 +0200</field>
+    <field id="priority">25.0</field>
+    <field id="description" text-type="text/html">&lt;ol&gt;&lt;li&gt;Tree View&lt;br/&gt;&lt;br/&gt; &lt;img style="width: 605px;height: 197px;" src="attachment:treeview.jpg"/&gt;&lt;br/&gt;&lt;/li&gt;&lt;li&gt;Matrix View&lt;br/&gt;&lt;br/&gt; &lt;img style="width: 605px;height: 442px;" src="attachment:matrixview.jpg"/&gt;&lt;br/&gt;&lt;/li&gt;&lt;/ol&gt;</field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+    <field id="subtitle" type="string"> Tree and/or matrix view</field>
+    <field id="trainingCategory" multi="true" type="enum:trainingCategory"/>
+</work-item>

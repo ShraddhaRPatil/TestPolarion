@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">hartliebc</field>
+    <field id="created">2012-05-21 06:04:26.913 -0400</field>
+    <field id="description" text-type="text/html"><![CDATA[In order to meet project or product deadlines you must be able to have a cohesive system that allows all stakeholders to work in real time. If stakeholders are working in silos the time to market or the ability to fix a defect can be more time consuming which will lead to delays. A way to deal with this is to provide complete forensic traceability so that all requirements are linked to a test case. Having requirements linked with test cases will keep your product managers, developers and QA stakeholders all in sync and doing so in real time so that deadlines and goals are met.<br/>
+ <br/>
+ 
+<ul>
+  <li>Open document <span style="font-style: italic;">Portal Specification</span></li>
+  <li>Switch view to table view</li>
+  <li>Select your first functional requirement <span style="font-style: italic;">I as a user want to perform simple searches</span></li>
+  <li>Create and link a test case<br/>
+    <br/>
+    <img src="attachment:createlink.jpg" style="width: 679px;height: 483px;"/><br/>
+    <br/>
+    
+    <table id="polarion_wiki macro name=table;params=width=600px" class="polarion-Document-table" style="width: 600px;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;">
+      <tbody>
+        <tr>
+          <th style="font-weight: bold;font-size: 9pt;background-color: #F0F0F0;line-height: 1.5;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Hint: Polarion supports pre-filled fields like test case title. </th>
+        </tr>
+      </tbody>
+    </table>
+    <br/>
+    </li>
+  <li>Add test steps for your test case<br/>
+    <br/>
+    <img src="attachment:newtestcase.jpg"/><br/>
+  </li>
+  <li>Create new test case</li>
+  <li>Navigate between work items using their links. Verify that traceability is available in both directions<br/>
+    </li>
+</ul>]]></field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Create and Link Test Cases with your functional requirements</field>
+    <field id="type">exercise</field>
+</work-item>

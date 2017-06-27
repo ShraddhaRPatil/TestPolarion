@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">stroebelet</field>
+    <field id="created">2011-07-28 14:26:46.808 -0400</field>
+    <field id="description" text-type="text/html"><![CDATA[By default a newly created work item will have lot of standard fields. In our case we want to track questions so we don´t need to see that much fields.<br/>
+ 
+<ul>
+  <li>Open <span style="font-style: italic;">Administration&gt;Work Items&gt;Form Configuration</span> and create new question form layout<br/>
+  </li>
+  <li>On top of our question we only need a few attributes. Attributes we want to see are:</li>
+  <ul>
+    <li>type</li>
+    <li>author</li>
+    <li>project</li>
+    <li>topic</li>
+    <li>assignee</li>
+    <li>status</li>
+    <li>resolution</li>
+    <li>customPriority</li>
+  </ul>
+  <li>Below these we want to have following fields:</li>
+  <ul>
+    <li>description</li>
+    <li>answer</li>
+    <li>comments</li>
+    <li>linkedWorkItems</li>
+    <li>watches</li>
+  </ul>
+  <li>Remove all other fields</li>
+</ul>
+<img src="attachment:63-screenshot-20141029-085631.png" style="width: 633px;height: 500px;"/><br/>
+<table id="polarion_wiki macro name=table" class="polarion-Document-table" style="width: 80%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;">
+  <tbody>
+    <tr>
+      <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Hint: You can allign fields like hyperlinks, attachments, etc. next to each other by using justify=&quot;true&quot; e.g.<br/>
+        &lt;horizontal justify=&quot;true&quot;&gt;    <br/>
+             &lt;field id=&quot;hyperlinks&quot;/&gt;<br/>
+            &lt;field id=&quot;attachments&quot;/&gt;<br/>
+        &lt;/horizontal&gt; </th>
+    </tr>
+  </tbody>
+</table>
+<br/>]]></field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Define Question Work Item Layout</field>
+    <field id="type">exercise</field>
+</work-item>

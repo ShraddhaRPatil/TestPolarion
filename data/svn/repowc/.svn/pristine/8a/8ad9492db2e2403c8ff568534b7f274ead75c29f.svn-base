@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="author">schucks</field>
+    <field id="title">Artifacts, Descriptors and Work Item Reports</field>
+    <field id="created">2012-09-14 09:34:50.836 +0200</field>
+    <field id="priority">25.0</field>
+    <field id="description" text-type="text/html">&lt;span style="font-weight: bolder;text-decoration: underline;color: rgb(51, 51, 255);"&gt;&lt;br/&gt;What is an Artifact&lt;/span&gt;&lt;br/&gt;&lt;br/&gt;- Define the build type (shell, maven, or ant)&lt;br/&gt;- Smallest buildable entity&lt;br/&gt;- Comprised of resources - usually source code and support files. Multiple build artifacts may share the same resources.&lt;br/&gt;&lt;br/&gt;&lt;b&gt;&lt;span style="text-decoration: underline; color: rgb(0, 112, 192);"&gt;What is a Descriptor&lt;/span&gt;&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;- Where to save the build results&lt;br/&gt;- What reports to execute&lt;br/&gt;&lt;br/&gt;&lt;span style="font-weight: bolder;color: rgb(51, 51, 255);"&gt;Work Item reports (What has been implemented)&lt;/span&gt;&lt;br/&gt;&lt;br/&gt;- Custom query which is executed on build execution&lt;br/&gt;- Report can be related to other builds e.g. fixed since last build etc.</field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="subtitle" type="string"> </field>
+</work-item>

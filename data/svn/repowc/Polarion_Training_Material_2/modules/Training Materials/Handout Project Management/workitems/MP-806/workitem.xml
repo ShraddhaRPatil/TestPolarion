@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="hyperlinks">
+        <list>
+            <struct>
+                <item id="role">renderSlide</item>
+                <item id="uri">/polarion/wiki/bin/view/project/MyPolarion/page/macros/RenderSlides?item=MP-806</item>
+            </struct>
+        </list>
+    </field>
+    <field id="author">stroebelet</field>
+    <field id="title">Planning a Release</field>
+    <field id="created">2011-07-15 12:10:38.202 +0200</field>
+    <field id="description" text-type="text/html">Planning Steps:&lt;br/&gt;&lt;ul&gt;&lt;li&gt;Define how many sprints (iterations) you plan to have for next release&lt;/li&gt;&lt;li&gt;Define your reference sprint. In case it is your first sprint take Sprint1&lt;/li&gt;&lt;li&gt;Define team capacity factor for the release = Average capacity available for development&lt;/li&gt;&lt;/ul&gt;&lt;table id="polarion_wiki macro name=table;params=header=no|width=100%"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="height: 12px;text-align: left;vertical-align: top;line-height: 18px;border: 1px solid #CCCCCC;padding: 5px;"&gt;&lt;img style="width: 431px; height: 171px;" src="workitemimg:1-screenshot.jpg"/&gt;&lt;/td&gt;&lt;td style="height: 12px;text-align: left;vertical-align: top;line-height: 18px;border: 1px solid #CCCCCC;padding: 5px;"&gt; &lt;img style="width: 310px; height: 136px;" src="workitemimg:2-screenshot-1.jpg"/&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;ul&gt;&lt;li&gt;&lt;span style="color: rgb(51, 204, 0);"&gt;&lt;span style="font-weight: bold;"&gt;Release Prediction:&lt;/span&gt;&lt;/span&gt; When will you probably finish with the currently planned user stories (planned finish)&lt;/li&gt;&lt;li&gt;&lt;span style="color: rgb(0, 204, 204); font-weight: bold;"&gt;Release Plan:&lt;/span&gt; What is your planned finish (initial plan)&lt;/li&gt;&lt;li&gt;&lt;span style="font-weight: bold;"&gt;Release Progress:&lt;/span&gt; How is your team progressing&lt;br/&gt;&lt;br/&gt;&lt;/li&gt;&lt;/ul&gt;</field>
+    <field id="priority">25.0</field>
+    <field id="status">accepted</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+    <field id="subtitle" type="string"> </field>
+    <field id="trainingCategory" multi="true" type="enum:trainingCategory"/>
+</work-item>

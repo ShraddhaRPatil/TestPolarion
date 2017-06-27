@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">exercise</field>
+    <field id="author">CarolaH</field>
+    <field id="title">Create a follow-up task</field>
+    <field id="created">2012-12-14 12:25:35.109 +0100</field>
+    <field id="description" text-type="text/html">&lt;ul&gt;&lt;li&gt;Activate the Polarion tracker by clicking on &lt;i&gt;Work Items&lt;/i&gt; in your &lt;i&gt;Navigation Bar&lt;/i&gt;&lt;/li&gt;&lt;li&gt;Create a new task and name it "&lt;i&gt;use links to keep traceability and consistency"&lt;/i&gt;&lt;/li&gt;&lt;li&gt;Add yourself as assignee&lt;/li&gt;&lt;li&gt;Create a "&lt;i&gt;relates_to&lt;/i&gt;" link between your new task and the task "&lt;i&gt;gather requirements for our project&lt;/i&gt;"&lt;br/&gt;&lt;br/&gt;&lt;img style="height: 557px; width: 724px;" src="attachment:linkwi.jpg"/&gt;&lt;br/&gt;&lt;/li&gt;&lt;li&gt;Save your link&lt;/li&gt;&lt;/ul&gt;&lt;br/&gt; </field>
+    <field id="priority">25.0</field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+</work-item>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">daniel.morris</field>
+    <field id="created">2012-05-08 14:59:33.927 +0200</field>
+    <field id="description" text-type="text/html">Usually you won´t develop test cases and test scenarios only for one test run. By developing your product you are going to retest your product again and again, so called regression tests. We want to reuse our test cases with severity "smoke" inside a test scenario so called test run. &lt;ul&gt;&lt;li&gt;Goto Test Runs and click "Create" at the upper left&lt;/li&gt;&lt;li&gt;Create 2 test runs "i1_Team A" and "i1_Team B" and select "Smoke Test" as template&lt;/li&gt;&lt;li&gt;After creation you should have 2 test runs which are also test reports for our management&lt;br/&gt;&lt;/li&gt;&lt;/ul&gt;You have created 2 similar test runs with the same test cases. Next step will be to assign these test runs to a testing team by creating a test plan.&lt;br/&gt;&lt;span style="font-weight: bold;"&gt;&lt;br/&gt; Attention:&lt;/span&gt; If you create a test run out of the template called "Empty" you can select your test cases manually without any query. &lt;ul&gt;&lt;li&gt;Create a third test run called "i1_Team C" and select "Empty" as template&lt;/li&gt;&lt;li&gt;Click on Actions-&amp;gt; Select Test Cases to select your test cases manually&lt;br/&gt; &lt;img style="width: 237px;height: 200px;" src="attachment:manuallyselect.jpg"/&gt;&lt;/li&gt;&lt;/ul&gt;</field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Reuse test cases and test scenarios</field>
+    <field id="type">exercise</field>
+</work-item>

@@ -1,0 +1,131 @@
+<?xml version="1.0"?>
+<Calendars>
+		<Calendar>
+			<!-- 
+				uid 1 is default calendar 
+				default calendar is used when there is no user's calendar
+			-->
+			<UID>1</UID>
+			<Name>Standard</Name>
+			<IsBaseCalendar>1</IsBaseCalendar>
+			<BaseCalendarUID>-1</BaseCalendarUID>
+			<WeekDays>
+				<WeekDay>
+					<!-- sunday -->
+					<DayType>1</DayType>
+					<!-- is non working day -->
+					<DayWorking>0</DayWorking>
+				</WeekDay>
+				<WeekDay>
+					<!-- monday -->
+					<DayType>2</DayType>
+					<!-- is working -->
+					<DayWorking>1</DayWorking>
+					<WorkingTimes>
+						<!-- and working hours are from 09:00 to 17:00 -->
+						<!-- there may be multiple WorkingTime elements -->
+						<WorkingTime>
+							<FromTime>09:00:00</FromTime>
+							<ToTime>17:00:00</ToTime>
+						</WorkingTime>
+					</WorkingTimes>
+				</WeekDay>
+				<WeekDay>
+					<!-- tuesday -->
+					<DayType>3</DayType>
+					<!-- is working -->
+					<DayWorking>1</DayWorking>
+					<WorkingTimes>
+						<!-- and working hours are from 09:00 to 17:00 -->
+						<!-- there may be multiple WorkingTime elements -->
+						<WorkingTime>
+							<FromTime>09:00:00</FromTime>
+							<ToTime>17:00:00</ToTime>
+						</WorkingTime>
+					</WorkingTimes>
+				</WeekDay>
+				<WeekDay>
+					<!-- wensday -->
+					<DayType>4</DayType>
+					<!-- is working -->
+					<DayWorking>1</DayWorking>
+					<WorkingTimes>
+						<!-- and working hours are from 09:00 to 17:00 -->
+						<!-- there may be multiple WorkingTime elements -->
+						<WorkingTime>
+							<FromTime>09:00:00</FromTime>
+							<ToTime>17:00:00</ToTime>
+						</WorkingTime>
+					</WorkingTimes>
+				</WeekDay>
+				<WeekDay>
+					<!-- thuersday -->
+					<DayType>5</DayType>
+					<!-- is working -->
+					<DayWorking>1</DayWorking>
+					<WorkingTimes>
+						<!-- and working hours are from 09:00 to 17:00 -->
+						<!-- there may be multiple WorkingTime elements -->
+						<WorkingTime>
+							<FromTime>09:00:00</FromTime>
+							<ToTime>17:00:00</ToTime>
+						</WorkingTime>
+					</WorkingTimes>
+				</WeekDay>
+				<WeekDay>
+					<!-- friday -->
+					<DayType>6</DayType>
+					<!-- is working -->
+					<DayWorking>1</DayWorking>
+					<WorkingTimes>
+						<!-- and working hours are from 09:00 to 17:00 -->
+						<!-- there may be multiple WorkingTime elements -->
+						<WorkingTime>
+							<FromTime>09:00:00</FromTime>
+							<ToTime>17:00:00</ToTime>
+						</WorkingTime>
+					</WorkingTimes>
+				</WeekDay>
+				<WeekDay>
+					<!-- saturday -->
+					<DayType>7</DayType>
+					<!-- is non working day -->
+					<DayWorking>0</DayWorking>
+				</WeekDay>
+			</WeekDays>
+		</Calendar>
+        	<!-- this is a sample for user calendar. 
+			This fragment must be stored in
+ 			.polarion/user-management/users/USERID/calendar.xml
+		-->		
+		<Calendar>			
+			<UID>2</UID>
+			<!-- user login name -->
+			<Name>x_x_x</Name>
+			<IsBaseCalendar>0</IsBaseCalendar>
+			<!-- reference to base calendar -->
+			<BaseCalendarUID>1</BaseCalendarUID>
+			<WeekDays>
+				<!-- fridays non working from 2005-09-01 to 2005-09-30 -->
+				<!-- time  in FromDate (resp.ToDate) must be 00:00:00 (resp. 23:59:00)  -->
+				<WeekDay>
+					<DayType>6</DayType>
+					<DayWorking>0</DayWorking>
+					<TimePeriod>
+						<FromDate>2005-09-01T00:00:00</FromDate>
+						<ToDate>2005-09-30T23:59:00</ToDate>
+					</TimePeriod>
+				</WeekDay>
+				<!--vacation from 2005-11-01 to 2005-11-30 -->
+				<WeekDay>
+					<!-- 0 means all week days -->
+					<DayType>0</DayType>
+					<DayWorking>0</DayWorking>
+					<TimePeriod>
+						<FromDate>2005-11-01T00:00:00</FromDate>
+						<ToDate>2005-11-30T23:59:00</ToDate>
+					</TimePeriod>
+				</WeekDay>
+			</WeekDays>
+		</Calendar> 		
+</Calendars>

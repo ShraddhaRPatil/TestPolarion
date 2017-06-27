@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<enumeration>
+    <option description="The assignee has understood the item and accepted it to his/her tasklist." iconURL="images/polarion/enums/status_accepted.gif" id="accepted" name="Accepted" sortOrder="1"/>
+    <option description="The issue is open and ready for the assignee to start work on it." iconURL="/polarion/icons/default/enums/req_status_draft.gif" id="open" name="Open" sortOrder="4"/>
+    <option iconURL="/polarion/icons/project/MyPolarion/16px-Stop_hand_nuvola_alternate_text.svg.gif" id="updateNeeded" name="Update Needed" sortOrder="5"/>
+</enumeration>

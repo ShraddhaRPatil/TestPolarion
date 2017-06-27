@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<module>
+    <field id="usesOutlineNumbering">true</field>
+    <field id="homePageContent" text-type="text/html"><![CDATA[<h1 id="polarion_wiki macro name=module-workitem;params=id=MP-4823"></h1>
+<p id="polarion_template_0"><br/></p>
+<h2 id="polarion_wiki macro name=module-workitem;params=id=MP-4824"></h2>
+<div id="polarion_wiki macro name=toc" contenteditable="false"></div>
+<h2 id="polarion_wiki macro name=module-workitem;params=id=MP-4839"></h2>
+<div id="polarion_wiki macro name=module-workitem;params=id=MP-4836|external=true" class="polarion-Document-workitem"></div>
+<h2 id="polarion_wiki macro name=module-workitem;params=id=MP-4840"></h2>
+<div id="polarion_wiki macro name=module-workitem;params=id=MP-4837|external=true" class="polarion-Document-workitem"></div>
+<h2 id="polarion_wiki macro name=module-workitem;params=id=MP-4841"></h2>
+<div id="polarion_wiki macro name=module-workitem;params=id=MP-4838|external=true" class="polarion-Document-workitem"></div>
+<h2 id="polarion_wiki macro name=module-workitem;params=id=MP-4842"></h2>
+<div id="polarion_wiki macro name=module-workitem;params=id=MP-3026|external=true" class="polarion-Document-workitem"></div>
+<h2 id="polarion_wiki macro name=module-workitem;params=id=MP-4843"></h2>
+<div id="polarion_wiki macro name=module-workitem;params=id=MP-3027|external=true" class="polarion-Document-workitem"></div>
+<h2 id="polarion_wiki macro name=module-workitem;params=id=MP-4844"></h2>
+<div id="polarion_wiki macro name=module-workitem;params=id=MP-660|external=true" class="polarion-Document-workitem"></div>
+<h2 id="polarion_wiki macro name=module-workitem;params=id=MP-4845"></h2>
+<div id="polarion_wiki macro name=module-workitem;params=id=MP-661|external=true" class="polarion-Document-workitem"></div>
+<h2 id="polarion_wiki macro name=module-workitem;params=id=MP-4846"></h2>
+<div id="polarion_wiki macro name=module-workitem;params=id=MP-662|external=true" class="polarion-Document-workitem"></div>
+]]></field>
+    <field id="structureLinkRole">parent</field>
+    <field id="outlineNumbering">
+        <struct>
+            <item id="prefix"/>
+        </struct>
+    </field>
+    <field id="author">daniel.morris</field>
+    <field id="created">2013-03-08 15:58:40.797 +0100</field>
+    <field id="renderingLayouts">
+        <list>
+            <struct>
+                <item id="layouter">paragraph</item>
+                <item id="label">Slide</item>
+                <item id="properties">
+                    <list>
+                        <struct>
+                            <item id="value">id</item>
+                            <item id="key">fieldsAtStart</item>
+                        </struct>
+                        <struct>
+                            <item id="value">severity</item>
+                            <item id="key">fieldsAtEnd</item>
+                        </struct>
+                        <struct>
+                            <item id="key">fieldsAtEndAsTable</item>
+                        </struct>
+                        <struct>
+                            <item id="key">hidden</item>
+                        </struct>
+                    </list>
+                </item>
+                <item id="type">slide</item>
+            </struct>
+        </list>
+    </field>
+</module>

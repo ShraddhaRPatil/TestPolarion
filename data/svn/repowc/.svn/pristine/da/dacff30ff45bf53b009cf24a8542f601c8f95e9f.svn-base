@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">admin</field>
+    <field id="created">2013-01-09 23:20:31.526 +0100</field>
+    <field id="linkedWorkItems">
+        <list>
+            <struct>
+                <item id="role">verifies</item>
+                <item id="workItem">DP-316</item>
+            </struct>
+        </list>
+    </field>
+    <field id="previousStatus">draft</field>
+    <field id="priority">50.0</field>
+    <field id="severity">basic</field>
+    <field id="status">active</field>
+    <field id="testSteps" type="struct:TestSteps">
+        <struct>
+            <item id="keys">
+                <list>
+                    <item>step</item>
+                    <item>description</item>
+                    <item>expectedResult</item>
+                </list>
+            </item>
+            <item id="steps">
+                <list>
+                    <struct>
+                        <item id="values">
+                            <list>
+                                <item text-type="text/html">Install the DrivePilot</item>
+                                <item text-type="text/html"/>
+                                <item text-type="text/html"/>
+                            </list>
+                        </item>
+                    </struct>
+                    <struct>
+                        <item id="values">
+                            <list>
+                                <item text-type="text/html">Start DrivePilot System</item>
+                                <item text-type="text/html">Push the start button</item>
+                                <item text-type="text/html">Welcome screen is displayed</item>
+                            </list>
+                        </item>
+                    </struct>
+                    <struct>
+                        <item id="values">
+                            <list>
+                                <item text-type="text/html">Start AutoPilot</item>
+                                <item text-type="text/html">Click on &amp;quot;AutoPilot&amp;quot;</item>
+                                <item text-type="text/html">The system says the tutorial was not walked through.</item>
+                            </list>
+                        </item>
+                    </struct>
+                    <struct>
+                        <item id="values">
+                            <list>
+                                <item text-type="text/html">Run Tutorial</item>
+                                <item text-type="text/html">Click on &amp;quot;Run Tutorial&amp;quot;</item>
+                                <item text-type="text/html">Tutorial is opened on the screen.</item>
+                            </list>
+                        </item>
+                    </struct>
+                    <struct>
+                        <item id="values">
+                            <list>
+                                <item text-type="text/html">Stop Drive Pilot</item>
+                                <item text-type="text/html">Push the &amp;quot;Start&amp;quot; button for 2 seconds</item>
+                                <item text-type="text/html"/>
+                            </list>
+                        </item>
+                    </struct>
+                    <struct>
+                        <item id="values">
+                            <list>
+                                <item text-type="text/html">Repeat initial procedure</item>
+                                <item text-type="text/html">Repeat Steps #1 - #3</item>
+                                <item text-type="text/html">The system says the tutorial was not walked through.</item>
+                            </list>
+                        </item>
+                    </struct>
+                    <struct>
+                        <item id="values">
+                            <list>
+                                <item text-type="text/html">Finish tutorial</item>
+                                <item text-type="text/html">Go through all the pages and click &amp;quot;Done&amp;quot;</item>
+                                <item text-type="text/html"/>
+                            </list>
+                        </item>
+                    </struct>
+                    <struct>
+                        <item id="values">
+                            <list>
+                                <item text-type="text/html">Start AutoPilot Again</item>
+                                <item text-type="text/html">Click on &amp;quot;AutoPilot&amp;quot;</item>
+                                <item text-type="text/html">The system says the test drive was not performed.</item>
+                            </list>
+                        </item>
+                    </struct>
+                </list>
+            </item>
+        </struct>
+    </field>
+    <field id="title">A tutorial  is required before the first run.</field>
+    <field id="type">systemTestCase</field>
+</work-item>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<specificationConfiguration>
+    <forImport>false</forImport>
+    <forRIF>false</forRIF>
+    <mappingConfiguration>
+        <mappingGroups direction="IMPORT" polarionType="heading" reqIfType="964516d0-46cd-45b2-ac56-dd254fcf8217">
+            <fieldMappings reqIfAttribute="relations"/>
+            <fieldMappings polarionField="title" reqIfAttribute="polarion_prostep_ReqIF.ChapterName"/>
+            <fieldMappings reqIfAttribute="polarion_prostep_ReqIF.ForeignCreatedBy"/>
+            <fieldMappings reqIfAttribute="polarion_prostep_ReqIF.ForeignCreatedOn"/>
+            <fieldMappings reqIfAttribute="polarion_prostep_ReqIF.ForeignID"/>
+            <fieldMappings polarionField="description" reqIfAttribute="polarion_prostep_ReqIF.Text"/>
+            <fieldMappings reqIfAttribute="type"/>
+        </mappingGroups>
+        <mappingGroups direction="IMPORT" polarionType="exercise" reqIfType="99519ad2-8fd3-4ba7-839d-b8e8bbafacc2">
+            <fieldMappings reqIfAttribute="relations"/>
+            <fieldMappings polarionField="title" reqIfAttribute="polarion_prostep_ReqIF.ChapterName"/>
+            <fieldMappings reqIfAttribute="polarion_prostep_ReqIF.ForeignCreatedBy"/>
+            <fieldMappings reqIfAttribute="polarion_prostep_ReqIF.ForeignCreatedOn"/>
+            <fieldMappings reqIfAttribute="polarion_prostep_ReqIF.ForeignID"/>
+            <fieldMappings polarionField="description" reqIfAttribute="polarion_prostep_ReqIF.Text"/>
+            <fieldMappings reqIfAttribute="type"/>
+        </mappingGroups>
+    </mappingConfiguration>
+    <exportNew>false</exportNew>
+    <polarionConfiguration document="Planning Training" space="Training Materials" useCurrentUser="true" useTitleAsRoot="true">
+        <ignoreStructureLinks>true</ignoreStructureLinks>
+    </polarionConfiguration>
+    <reqIfConfiguration documentName="planningTraining.reqif" doorsCompatibilityMode="false" fileName="planningTraining.reqifz" rif="false"/>
+    <updateMetadata>false</updateMetadata>
+</specificationConfiguration>

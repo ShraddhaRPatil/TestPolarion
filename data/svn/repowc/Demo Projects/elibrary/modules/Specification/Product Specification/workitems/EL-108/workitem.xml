@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="approvals">
+        <list>
+            <struct>
+                <item id="status">approved</item>
+                <item id="user">rProject</item>
+            </struct>
+        </list>
+    </field>
+    <field id="author">admin</field>
+    <field id="categories">
+        <list>
+            <item>Searching</item>
+        </list>
+    </field>
+    <field id="created">2010-11-20 12:33:18.590 +0100</field>
+    <field id="description" text-type="text/html">User typicaly searches for the book by name. This feature should be accesssible all the time.</field>
+    <field id="previousStatus">closed</field>
+    <field id="priority">83.0</field>
+    <field id="resolution">done</field>
+    <field id="resolvedOn">2010-11-25 16:34:21.008 +0100</field>
+    <field id="severity">must_have</field>
+    <field id="status">verified</field>
+    <field id="storyPoints" type="integer">5</field>
+    <field id="title">Search for a book by book name</field>
+    <field id="type">userstory</field>
+</work-item>

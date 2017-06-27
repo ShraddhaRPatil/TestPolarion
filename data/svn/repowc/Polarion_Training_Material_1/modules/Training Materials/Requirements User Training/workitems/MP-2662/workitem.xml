@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">exercise</field>
+    <field id="author">hartliebc</field>
+    <field id="title">Change status of requirements</field>
+    <field id="created">2012-04-24 12:30:52.743 +0200</field>
+    <field id="description" text-type="text/html">&lt;ul&gt;&lt;li&gt;Use Document history on work item level to identify requirements with review comment&lt;/li&gt;&lt;li&gt;Change status of commented requirements to &lt;span style="font-style: italic;"&gt;Reviewed&lt;/span&gt; using workflow action &lt;span style="font-style: italic;"&gt;Perform action Send to approve&lt;br/&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;Search for all requirements which are still in status &lt;span style="font-style: italic;"&gt;Draft&lt;br/&gt;&lt;/span&gt; &lt;table style="width: 600px;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;" class="polarion-Document-table" id="polarion_wiki macro name=table;params=width=600px"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th style="font-weight: bold;font-size: 12px;background-color: #F0F0F0;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"&gt;Hint: only requirements which belong to E-LibrarySpecification &lt;/th&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;span style="font-style: italic;"&gt;&lt;br/&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;Mark Requirements as &lt;span style="font-style: italic;"&gt;Reviewed&lt;br/&gt;&lt;/span&gt; &lt;table style="width: 600px;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;" class="polarion-Document-table" id="polarion_wiki macro name=table;params=width=600px"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th style="font-weight: bold;font-size: 12px;background-color: #F0F0F0;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"&gt;Hint: Use work item comment to add your review comments &lt;/th&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;span style="font-style: italic;"&gt;&lt;br/&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;</field>
+    <field id="priority">25.0</field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+</work-item>

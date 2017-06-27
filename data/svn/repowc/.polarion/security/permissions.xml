@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<permissions>
+
+    <!-- SYSTEM SECURITY SETTINGS: This section defines some permissions needed for the system to work as expected. Change at your own risk! -->
+    <customset id="Module_Submitted_and_Released_Requirements_Specifications" title="Submitted and Released Requirements Specifications">com.polarion.persistence.object.Module(type:req_specification AND NOT status:draft)</customset>
+    <permission name="com.polarion.persistence.object.ProjectGroup">
+        <role name="user">
+            <grant permission="read"/>
+        </role>
+    </permission>
+    <permission name="com.polarion.persistence.object.BuildArtifact">
+        <role name="user">
+            <grant permission="read"/>
+        </role>
+    </permission>
+    <permission name="com.polarion.persistence.object.User">
+        <role name="user">
+            <grant permission="read"/>
+        </role>
+    </permission>
+    <permission name="com.polarion.persistence.object.Revision">
+        <role name="user">
+            <grant permission="read"/>
+        </role>
+    </permission>
+    <permission name="com.polarion.persistence.object.WikiPage.space._default.page.Home">
+        <role name="user">
+            <grant permission="read"/>
+        </role>
+    </permission>
+    <!-- SYSTEM SECURITY SETTINGS END -->
+
+    <role name="self">
+        <grant permission="com.polarion.persistence.object.User.modify"/>
+        <deny permission="com.polarion.persistence.object.User.key.time-splitAssignments.modify"/>
+    </role>
+    <role name="user">
+        <grant permission="com.polarion.security.login"/>
+        <grant permission="com.polarion.administration.project.create"/>
+    </role>
+    <role name="document_author">
+        <grant permission="com.polarion.persistence.object.Module.manageDocument"/>
+    </role>
+    <role name="comment_author">
+        <grant permission="com.polarion.persistence.object.ModuleComment.key.resolved.modify"/>
+        <grant permission="com.polarion.persistence.object.Comment.key.resolved.modify"/>
+    </role>
+    <role name="project_user">
+        <grant permission="com.polarion.persistence.object.Build.read"/>
+        <grant permission="com.polarion.builds.download"/>
+        <grant permission="com.polarion.persistence.object.Module.read"/>
+        <grant permission="com.polarion.persistence.object.RichPage.read"/>
+        <grant permission="com.polarion.persistence.object.Project.read"/>
+        <grant permission="com.polarion.persistence.object.WikiPage.read"/>
+        <grant permission="com.polarion.persistence.object.WorkItem.read"/>
+        <grant permission="com.polarion.tracker.WorkItem.watch"/>
+        <grant permission="com.polarion.reports.read"/>
+        <grant permission="com.polarion.persistence.object.Baseline.read"/>
+        <grant permission="com.polarion.persistence.object.TestRun.read"/>
+        <grant permission="com.polarion.persistence.object.Plan.read"/>
+    </role>
+    <role name="project_approver">
+        <grant permission="com.polarion.persistence.object.Build.read"/>
+        <grant permission="com.polarion.builds.download"/>
+        <grant permission="com.polarion.persistence.object.Module.read"/>
+        <grant permission="com.polarion.persistence.object.RichPage.read"/>
+        <grant permission="com.polarion.persistence.object.Project.read"/>
+        <grant permission="com.polarion.persistence.object.WikiPage.read"/>
+        <grant permission="com.polarion.persistence.object.WorkItem.read"/>
+        <grant permission="com.polarion.tracker.WorkItem.watch"/>
+        <grant permission="com.polarion.reports.read"/>
+        <grant permission="com.polarion.persistence.object.Baseline.read"/>
+        <grant permission="com.polarion.persistence.object.TestRun.read"/>
+        <grant permission="com.polarion.persistence.object.Plan.read"/>
+        <grant permission="com.polarion.persistence.object.Comment.create"/>
+        <grant permission="com.polarion.persistence.object.WorkItem.key.approvals.modify"/>
+        <grant permission="com.polarion.persistence.object.ModuleComment.create"/>
+        <grant permission="com.polarion.persistence.object.Module.sign"/>
+    </role>
+    <role name="project_assignable">
+        <deny permission="@Module_Submitted_and_Released_Requirements_Specifications.modifyContent"/>
+        <grant permission="com.polarion.persistence.object.ModuleComment(.module:(@Module_Submitted_and_Released_Requirements_Specifications)).create"/>
+        <grant permission="com.polarion.persistence.object.Build.read"/>
+        <grant permission="com.polarion.persistence.object.Build.create"/>
+        <grant permission="com.polarion.builds.download"/>
+        <grant permission="com.polarion.persistence.object.Module.read"/>
+        <grant permission="com.polarion.persistence.object.Module.create"/>
+        <grant permission="com.polarion.persistence.object.Module.modifyFields"/>
+        <grant permission="com.polarion.persistence.object.Module.modifyContent"/>
+        <grant permission="com.polarion.persistence.object.Module.manageDocument"/>
+        <grant permission="com.polarion.persistence.object.Module.delete"/>
+        <grant permission="com.polarion.persistence.object.RichPage.read"/>
+        <grant permission="com.polarion.persistence.object.RichPage.create"/>
+        <grant permission="com.polarion.persistence.object.RichPage.modify"/>
+        <grant permission="com.polarion.persistence.object.RichPage.delete"/>
+        <grant permission="com.polarion.persistence.object.Project.read"/>
+        <grant permission="com.polarion.persistence.object.WikiPage.read"/>
+        <grant permission="com.polarion.persistence.object.WikiPage.create"/>
+        <grant permission="com.polarion.persistence.object.WikiPage.modify"/>
+        <grant permission="com.polarion.persistence.object.WikiPage.delete"/>
+        <grant permission="com.polarion.persistence.object.WorkItem.read"/>
+        <grant permission="com.polarion.persistence.object.WorkItem.create"/>
+        <grant permission="com.polarion.persistence.object.WorkItem.modify"/>
+        <grant permission="com.polarion.persistence.object.WorkItem.delete"/>
+        <grant permission="com.polarion.tracker.WorkItem.vote"/>
+        <grant permission="com.polarion.tracker.WorkItem.watch"/>
+        <grant permission="com.polarion.tracker.WorkItem.resetApprovals"/>
+        <grant permission="com.polarion.tracker.workreport.create"/>
+        <grant permission="com.polarion.persistence.object.Baseline.read"/>
+        <grant permission="com.polarion.persistence.object.Baseline.create"/>
+        <grant permission="com.polarion.persistence.object.Baseline.modify"/>
+        <grant permission="com.polarion.persistence.object.Baseline.delete"/>
+        <grant permission="com.polarion.persistence.object.TestRun.read"/>
+        <grant permission="com.polarion.persistence.object.TestRun.create"/>
+        <grant permission="com.polarion.persistence.object.TestRun.modify"/>
+        <grant permission="com.polarion.persistence.object.TestRun.delete"/>
+        <grant permission="com.polarion.testing.TestRun.execute"/>
+        <grant permission="com.polarion.testing.TestRun.defineParameters"/>
+        <grant permission="com.polarion.testing.TestRun.addParameterToLibrary"/>
+        <grant permission="com.polarion.persistence.object.Plan.read"/>
+        <grant permission="com.polarion.persistence.object.Plan.create"/>
+        <grant permission="com.polarion.persistence.object.Plan.modify"/>
+        <grant permission="com.polarion.persistence.object.Plan.delete"/>
+        <grant permission="com.polarion.shortcuts.create"/>
+        <grant permission="com.polarion.shortcuts.remove"/>
+        <grant permission="com.polarion.reports.read"/>
+        <grant permission="com.polarion.reports.update"/>
+        <grant permission="com.polarion.announcements.add"/>
+        <grant permission="com.polarion.persistence.object.Module.sign"/>
+        <grant permission="com.polarion.persistence.object.Module.manageSignatures"/>
+    </role>
+    <role name="project_admin">
+        <deny permission="@Module_Submitted_and_Released_Requirements_Specifications.modifyContent"/>
+        <grant permission="com.polarion.persistence.object.ModuleComment(.module:(@Module_Submitted_and_Released_Requirements_Specifications)).create"/>
+        <grant permission="com.polarion.administration.read"/>
+        <grant permission="com.polarion.administration.modify"/>
+        <grant permission="com.polarion.persistence.object.Build.read"/>
+        <grant permission="com.polarion.persistence.object.Build.create"/>
+        <grant permission="com.polarion.builds.download"/>
+        <grant permission="com.polarion.persistence.object.Module.read"/>
+        <grant permission="com.polarion.persistence.object.Module.create"/>
+        <grant permission="com.polarion.persistence.object.Module.modifyFields"/>
+        <grant permission="com.polarion.persistence.object.Module.modifyContent"/>
+        <grant permission="com.polarion.persistence.object.Module.manageDocument"/>
+        <grant permission="com.polarion.persistence.object.Module.delete"/>
+        <grant permission="com.polarion.persistence.object.RichPage.read"/>
+        <grant permission="com.polarion.persistence.object.RichPage.create"/>
+        <grant permission="com.polarion.persistence.object.RichPage.modify"/>
+        <grant permission="com.polarion.persistence.object.RichPage.delete"/>
+        <grant permission="com.polarion.persistence.object.Project.read"/>
+        <grant permission="com.polarion.persistence.object.Project.delete"/>
+        <grant permission="com.polarion.persistence.object.WikiPage.read"/>
+        <grant permission="com.polarion.persistence.object.WikiPage.create"/>
+        <grant permission="com.polarion.persistence.object.WikiPage.modify"/>
+        <grant permission="com.polarion.persistence.object.WikiPage.delete"/>
+        <grant permission="com.polarion.persistence.object.WorkItem.read"/>
+        <grant permission="com.polarion.persistence.object.WorkItem.create"/>
+        <grant permission="com.polarion.persistence.object.WorkItem.modify"/>
+        <grant permission="com.polarion.persistence.object.WorkItem.delete"/>
+        <grant permission="com.polarion.tracker.WorkItem.vote"/>
+        <grant permission="com.polarion.tracker.WorkItem.watch"/>
+        <grant permission="com.polarion.tracker.WorkItem.resetApprovals"/>
+        <grant permission="com.polarion.tracker.workreport.create"/>
+        <grant permission="com.polarion.persistence.object.Baseline.read"/>
+        <grant permission="com.polarion.persistence.object.Baseline.create"/>
+        <grant permission="com.polarion.persistence.object.Baseline.modify"/>
+        <grant permission="com.polarion.persistence.object.Baseline.delete"/>
+        <grant permission="com.polarion.persistence.object.TestRun.read"/>
+        <grant permission="com.polarion.persistence.object.TestRun.create"/>
+        <grant permission="com.polarion.persistence.object.TestRun.modify"/>
+        <grant permission="com.polarion.persistence.object.TestRun.delete"/>
+        <grant permission="com.polarion.testing.TestRun.execute"/>
+        <grant permission="com.polarion.testing.TestRun.defineParameters"/>
+        <grant permission="com.polarion.testing.TestRun.addParameterToLibrary"/>
+        <grant permission="com.polarion.persistence.object.Plan.read"/>
+        <grant permission="com.polarion.persistence.object.Plan.create"/>
+        <grant permission="com.polarion.persistence.object.Plan.modify"/>
+        <grant permission="com.polarion.persistence.object.Plan.delete"/>
+        <grant permission="com.polarion.shortcuts.create"/>
+        <grant permission="com.polarion.shortcuts.remove"/>
+        <grant permission="com.polarion.reports.read"/>
+        <grant permission="com.polarion.reports.update"/>
+        <grant permission="com.polarion.announcements.add"/>
+        <grant permission="com.polarion.persistence.object.Module.sign"/>
+        <grant permission="com.polarion.persistence.object.Module.manageSignatures"/>
+    </role>
+</permissions>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<menu>
+
+  <item label="Relates Requirement" role="relates_to" type="requirement" copyFields="categories"/>
+  <item label="Related Change Request" role="relates_to" type="changerequest" copyFields="categories"/>
+
+</menu>

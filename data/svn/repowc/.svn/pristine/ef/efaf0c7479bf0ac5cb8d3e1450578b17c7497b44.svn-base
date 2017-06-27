@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">admin</field>
+    <field id="created">2013-01-21 22:44:00.054 +0100</field>
+    <field id="linkedWorkItems">
+        <list>
+            <struct>
+                <item id="role">refines</item>
+                <item id="workItem">DP-312</item>
+            </struct>
+        </list>
+    </field>
+    <field id="previousStatus">open</field>
+    <field id="status">open</field>
+    <field id="title">DrivePilot Command Controller for ARM and Motorola Chipset</field>
+    <field id="type">heading</field>
+</work-item>

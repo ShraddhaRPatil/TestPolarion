@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">schucks</field>
+    <field id="created">2014-08-04 04:57:50.483 -0400</field>
+    <field id="description" text-type="text/html">&lt;span style="font-weight: bold;"&gt;The first Job&lt;/span&gt;&lt;br/&gt;&lt;ul&gt;&lt;li&gt;use the workflow example from "C:\Polarion\polarion\SDK\examples\com.polarion.example.job".&lt;/li&gt;&lt;li&gt;Import this example project to Eclipse.&lt;/li&gt;&lt;/ul&gt;The example contains 2 Java classes:&lt;br/&gt;&lt;br/&gt;&lt;ul&gt;&lt;li&gt;UpdateItemsJobUnit.java - this file creates the basic constructors for all parameters needed for the job&lt;/li&gt;&lt;li&gt;UpdateItemsJobUnitFactory.java - contains the main logic&lt;br/&gt;&lt;/li&gt;&lt;/ul&gt;Here you see the scheduler configuration to run the example job:&lt;br/&gt;&lt;span style="font-family: 'Courier New', Courier, monospace;"&gt;&amp;lt;job name="overdue.job" id="overdue.job" cronExpression="0 0 1 ? * MON-SAT"&lt;br/&gt; scope="project:playground"&amp;gt;&lt;br/&gt;    &amp;lt;query&amp;gt;&amp;lt;/query&amp;gt;&lt;br/&gt;    &amp;lt;sort&amp;gt;~updated&amp;lt;/sort&amp;gt;&lt;br/&gt;    &amp;lt;notificationSender&amp;gt;polarion@example.com&amp;lt;/notificationSender&amp;gt;&lt;br/&gt;    &amp;lt;notificationSubjectPrefix&amp;gt;[Polarion]&amp;lt;/notificationSubjectPrefix&amp;gt;&lt;br/&gt;    &amp;lt;notificationRecipients&amp;gt;assignee&amp;lt;/notificationRecipients&amp;gt;&lt;br/&gt;    &amp;lt;planningConstraint&amp;gt;dueDate&amp;lt;/planningConstraint&amp;gt;&lt;br/&gt;    &amp;lt;allowedDelay&amp;gt;0&amp;lt;/allowedDelay&amp;gt;&lt;br/&gt; &amp;lt;/job&amp;gt;&lt;/span&gt;&lt;br/&gt;&lt;br/&gt;Go into the code and answer the following questions:&lt;br/&gt;&lt;br/&gt;&lt;ul&gt;&lt;li&gt;What steps are required for a parameter to be used?&lt;/li&gt;&lt;li&gt;What is each example parameter used for?&lt;/li&gt;&lt;/ul&gt;</field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="type">exercise</field>
+</work-item>

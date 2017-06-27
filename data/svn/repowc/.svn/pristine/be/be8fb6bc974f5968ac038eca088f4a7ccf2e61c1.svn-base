@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<syncConfiguration>
+    <syncPairs>
+        <syncPair id="Sync HP ALM Requirements" newItemDirection="BIDIRECTIONAL" reAddMissingOnRight="false">
+            <left xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="polarionProxyConfiguration" accountVaultKey="connector" document="System Requirements" space="Specification" useCurrentUser="false" useTitleAsRoot="false">
+                <ignoreStructureLinks>false</ignoreStructureLinks>
+            </left>
+            <right xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="hpAlmProxyConfiguration" domain="DEFAULT" entityType="REQUIREMENT" project="YOUR.HP.PROJECT" connection="HP ALM Server"/>
+            <mapping hierarchyDirection="BIDIRECTIONAL" primaryHierarchyDirection="LEFT_TO_RIGHT">
+                <defaultMappingGroup>
+                    <fieldMapping left="type" right="type" direction="BIDIRECTIONAL" primaryDirection="LEFT_TO_RIGHT">
+                        <replace left="heading" right="1"/>
+                        <replace left="heading" right="2"/>
+                        <replace left="requirement" right="0"/>
+                        <replace left="requirement" right="3"/>
+                        <replace left="requirement" right="4"/>
+                        <replace left="requirement" right="5"/>
+                        <replace left="requirement" right="6"/>
+                    </fieldMapping>
+                    <fieldMapping left="title" right="name" direction="BIDIRECTIONAL" primaryDirection="LEFT_TO_RIGHT"/>
+                    <fieldMapping left="description" right="req-rich-content" direction="BIDIRECTIONAL" primaryDirection="LEFT_TO_RIGHT"/>
+                    <fieldMapping left="attachments" right="attachments" direction="BIDIRECTIONAL" primaryDirection="LEFT_TO_RIGHT"/>
+                    <fieldMapping left="comments" right="dev-comments" direction="LEFT_TO_RIGHT" primaryDirection="LEFT_TO_RIGHT"/>
+                    <fieldMapping left="hyperlinks" right="com.polarion.synchronizer:item-url" direction="RIGHT_TO_LEFT" primaryDirection="LEFT_TO_RIGHT"/>
+                    <fieldMapping left="linkedWorkItems" right="relations" direction="BIDIRECTIONAL" primaryDirection="LEFT_TO_RIGHT">
+                        <replace left="refines" right="requirement_relates_to"/>
+                        <replace left="duplicates" right="requirement_relates_to"/>
+                        <replace left="relates_to" right="requirement_relates_to"/>
+                        <replace left="depends_on" right="requirement_relates_to"/>
+                    </fieldMapping>
+                </defaultMappingGroup>
+                <fieldMappingGroup leftType="heading" rightType="1"/>
+                <fieldMappingGroup leftType="heading" rightType="2"/>
+                <fieldMappingGroup leftType="requirement" rightType="0"/>
+                <fieldMappingGroup leftType="requirement" rightType="3"/>
+                <fieldMappingGroup leftType="requirement" rightType="4"/>
+                <fieldMappingGroup leftType="requirement" rightType="5"/>
+                <fieldMappingGroup leftType="requirement" rightType="6"/>
+            </mapping>
+        </syncPair>
+        <syncPair id="Sync HP ALM Tests" newItemDirection="BIDIRECTIONAL" reAddMissingOnRight="false">
+            <left xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="polarionProxyConfiguration" accountVaultKey="connector" query="type:testcase" useCurrentUser="false" useTitleAsRoot="false">
+                <ignoreStructureLinks>false</ignoreStructureLinks>
+            </left>
+            <right xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="hpAlmProxyConfiguration" domain="DEFAULT" entityType="TEST" project="YOUR.HP.PROJECT" connection="HP ALM Server"/>
+            <mapping>
+                <defaultMappingGroup>
+                    <fieldMapping left="type" right="type" direction="BIDIRECTIONAL" primaryDirection="LEFT_TO_RIGHT">
+					    <replace left="testcase" right="MANUAL"/>
+                        <replace left="testcase" right="BUSINESS-PROCESS"/>
+                        <replace left="testcase" right="SYSTEM-TEST"/>
+                        <replace left="testcase" right="WR-BATCH"/>
+                        <replace left="testcase" right="DB-TEST"/>
+                        <replace left="testcase" right="XR-TEST"/>
+                        <replace left="testcase" right="WR-AUTOMATED"/>
+                        <replace left="testcase" right="ALT-TEST"/>
+                        <replace left="testcase" right="SERVICE-TEST"/>
+                        <replace left="testcase" right="ALT-SCENARIO"/>
+                        <replace left="testcase" right="QAINSPECT-TEST"/>
+                        <replace left="testcase" right="QTSAP-TESTCASE"/>
+                        <replace left="testcase" right="LR-SCENARIO"/>
+                        <replace left="testcase" right="FLOW"/>
+                        <replace left="testcase" right="VAPI-XP-TEST"/>
+                        <replace left="testcase" right="QUICKTEST_TEST"/>
+                    </fieldMapping>
+                    <fieldMapping left="title" right="name" direction="BIDIRECTIONAL" primaryDirection="LEFT_TO_RIGHT"/>
+                    <fieldMapping left="description" right="description" direction="BIDIRECTIONAL" primaryDirection="LEFT_TO_RIGHT"/>
+                    <fieldMapping left="attachments" right="attachments" direction="BIDIRECTIONAL" primaryDirection="LEFT_TO_RIGHT"/>
+                    <fieldMapping left="linkedWorkItems" right="relations" direction="BIDIRECTIONAL" primaryDirection="LEFT_TO_RIGHT"/>
+                    <fieldMapping left="hyperlinks" right="com.polarion.synchronizer:item-url" direction="RIGHT_TO_LEFT" primaryDirection="RIGHT_TO_LEFT"/>
+                    <fieldMapping left="comments" right="dev-comments" direction="LEFT_TO_RIGHT" primaryDirection="LEFT_TO_RIGHT"/>
+                </defaultMappingGroup>
+                <fieldMappingGroup leftType="testcase" rightType="MANUAL"/>
+                <fieldMappingGroup leftType="testcase" rightType="BUSINESS-PROCESS"/>
+                <fieldMappingGroup leftType="testcase" rightType="SYSTEM-TEST"/>
+                <fieldMappingGroup leftType="testcase" rightType="WR-BATCH"/>
+                <fieldMappingGroup leftType="testcase" rightType="DB-TEST"/>
+                <fieldMappingGroup leftType="testcase" rightType="XR-TEST"/>
+                <fieldMappingGroup leftType="testcase" rightType="WR-AUTOMATED"/>
+                <fieldMappingGroup leftType="testcase" rightType="ALT-TEST"/>
+                <fieldMappingGroup leftType="testcase" rightType="SERVICE-TEST"/>
+                <fieldMappingGroup leftType="testcase" rightType="ALT-SCENARIO"/>
+                <fieldMappingGroup leftType="testcase" rightType="QAINSPECT-TEST"/>
+                <fieldMappingGroup leftType="testcase" rightType="QTSAP-TESTCASE"/>
+                <fieldMappingGroup leftType="testcase" rightType="LR-SCENARIO"/>
+                <fieldMappingGroup leftType="testcase" rightType="VAPI-XP-TEST"/>
+                <fieldMappingGroup leftType="testcase" rightType="FLOW"/>
+                <fieldMappingGroup leftType="testcase" rightType="QUICKTEST_TEST"/>
+            </mapping>
+        </syncPair>
+        <syncPair id="Sync HP ALM Defects" newItemDirection="BIDIRECTIONAL" reAddMissingOnRight="false">
+            <left xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="polarionProxyConfiguration" accountVaultKey="connector" query="type:defect" useCurrentUser="false" useTitleAsRoot="false">
+                <ignoreStructureLinks>false</ignoreStructureLinks>
+            </left>
+            <right xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="hpAlmProxyConfiguration" domain="DEFAULT" entityType="DEFECT" project="YOUR.HP.PROJECT" connection="HPALM"/>
+            <mapping>
+                <defaultMappingGroup>
+                    <fieldMapping left="type" right="type" direction="BIDIRECTIONAL" primaryDirection="LEFT_TO_RIGHT">
+                        <replace left="defect" right="defect"/>
+                    </fieldMapping>
+                    <fieldMapping left="title" right="name" direction="BIDIRECTIONAL" primaryDirection="LEFT_TO_RIGHT"/>
+                    <fieldMapping left="description" right="description" direction="BIDIRECTIONAL" primaryDirection="LEFT_TO_RIGHT"/>
+                    <fieldMapping left="attachments" right="attachments" direction="BIDIRECTIONAL" primaryDirection="LEFT_TO_RIGHT"/>
+                    <fieldMapping left="comments" right="dev-comments" direction="LEFT_TO_RIGHT" primaryDirection="LEFT_TO_RIGHT"/>
+                    <fieldMapping left="hyperlinks" right="com.polarion.synchronizer:item-url" direction="RIGHT_TO_LEFT" primaryDirection="LEFT_TO_RIGHT"/>
+                    <fieldMapping left="author" right="detected-by" direction="LEFT_TO_RIGHT" primaryDirection="LEFT_TO_RIGHT"/>
+                    <fieldMapping left="created" right="creation-time" direction="LEFT_TO_RIGHT" primaryDirection="LEFT_TO_RIGHT"/>
+                    <fieldMapping left="severity" right="severity" direction="BIDIRECTIONAL" primaryDirection="LEFT_TO_RIGHT">
+                        <replace left="minor" right="1-Low"/>
+                        <replace left="normal" right="2-Medium"/>
+                        <replace left="major" right="3-High"/>
+                        <replace left="critical" right="4-Very High"/>
+                        <replace left="blocker" right="5-Urgent"/>
+                    </fieldMapping>
+                    <fieldMapping left="linkedWorkItems" right="relations" direction="BIDIRECTIONAL" primaryDirection="LEFT_TO_RIGHT">
+                        <replace left="duplicates" right="defect_relates_to"/>
+                        <replace left="relates_to" right="triggered_by"/>
+                        <replace left="depends_on" right="defect_relates_to"/>
+                    </fieldMapping>
+                </defaultMappingGroup>
+                <fieldMappingGroup leftType="defect" rightType="defect"/>
+            </mapping>
+        </syncPair>
+        <syncPair id="Sync Jira Issues" newItemDirection="BIDIRECTIONAL" reAddMissingOnRight="false">
+            <left xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="polarionProxyConfiguration" accountVaultKey="connector" query="type:defect" useCurrentUser="false" useTitleAsRoot="false">
+                <ignoreStructureLinks>false</ignoreStructureLinks>
+            </left>
+            <right xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="jiraProxyConfiguration" project="YOUR.JIRA.PROJECT" query="issuetype = Bug" connection="Jira"/>
+            <mapping>
+                <defaultMappingGroup>
+                    <fieldMapping left="type" right="type" direction="BIDIRECTIONAL" primaryDirection="LEFT_TO_RIGHT">
+                        <replace left="defect" right="Bug"/>
+                    </fieldMapping>
+                    <fieldMapping left="title" right="summary" direction="BIDIRECTIONAL" primaryDirection="LEFT_TO_RIGHT"/>
+                    <fieldMapping left="description" right="description" direction="BIDIRECTIONAL" primaryDirection="LEFT_TO_RIGHT"/>
+                    <fieldMapping left="attachments" right="attachments" direction="BIDIRECTIONAL" primaryDirection="LEFT_TO_RIGHT"/>
+                    <fieldMapping left="comments" right="comments" direction="BIDIRECTIONAL" primaryDirection="LEFT_TO_RIGHT"/>
+                    <fieldMapping left="hyperlinks" right="com.polarion.synchronizer:item-url" direction="RIGHT_TO_LEFT" primaryDirection="LEFT_TO_RIGHT"/>
+                    <fieldMapping left="status" right="status" direction="BIDIRECTIONAL" primaryDirection="LEFT_TO_RIGHT">
+                        <replace left="open" right="Open"/>
+                        <replace left="accepted" right="Open"/>
+                        <replace left="inprogress" right="In Progress"/>
+                        <replace left="resolved" right="Resolved"/>
+                        <replace left="reopened" right="Reopened"/>
+                        <replace left="closed" right="Closed"/>
+                    </fieldMapping>
+                    <fieldMapping left="resolution" right="resolution" direction="BIDIRECTIONAL" primaryDirection="LEFT_TO_RIGHT">
+                        <replace left="invalid" right="Invalid"/>
+                        <replace left="duplicate" right="Duplicate"/>
+                        <replace left="incomplete" right="Incomplete"/>
+                        <replace left="done" right="Done"/>
+                        <replace left="done" right="Fixed"/>
+                        <replace left="wontfix" right="Won't Fix"/>
+                        <replace left="later" right="Won't Fix"/>
+                        <replace left="cannotreproduce" right="Cannot Reproduce"/>
+                    </fieldMapping>
+                    <fieldMapping left="assignee" right="assignee" direction="BIDIRECTIONAL" primaryDirection="LEFT_TO_RIGHT"/>
+                    <fieldMapping left="initialEstimate" right="timetracking.originalEstimate" direction="BIDIRECTIONAL" primaryDirection="LEFT_TO_RIGHT"/>
+                    <fieldMapping left="timeSpent" right="timetracking.timeSpent" direction="BIDIRECTIONAL" primaryDirection="LEFT_TO_RIGHT"/>
+                    <fieldMapping left="remainingEstimate" right="timetracking.remainingEstimate" direction="BIDIRECTIONAL" primaryDirection="LEFT_TO_RIGHT"/>
+                    <fieldMapping left="categories" right="components" direction="BIDIRECTIONAL" primaryDirection="LEFT_TO_RIGHT"/>
+                    <fieldMapping left="linkedWorkItems" right="relations" direction="BIDIRECTIONAL" primaryDirection="LEFT_TO_RIGHT">
+                        <replace left="duplicates" right="Duplicate"/>
+                        <replace left="relates_to" right="Relates"/>
+                        <replace left="relates_to" right="Blocks"/>
+                        <replace left="duplicates" right="Cloners"/>
+                    </fieldMapping>
+                </defaultMappingGroup>
+                <fieldMappingGroup leftType="defect" rightType="Bug"/>
+            </mapping>
+        </syncPair>
+    </syncPairs>
+    <connections/>
+</syncConfiguration>
+

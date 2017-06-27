@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">requirement</field>
+    <field id="author">admin</field>
+    <field id="title">Scope of Initial Release</field>
+    <field id="created">2008-10-02 21:26:46.285 +0200</field>
+    <field id="description" text-type="text/html">&lt;span class="Apple-style-span" style="font-style: italic;"&gt;Describe the intended major features that will be included in the initial release of the product. Consider the benefits the product is intended to bring to the various customer communities, and generally describe the product features and quality characteristics that will enable it to provide those benefits. Avoid the temptation to include every possible feature that any potential customer category might conceivably want some day. Focus on those features and product characteristics that will provide the most value, at the most acceptable development cost, to the broadest community.&lt;/span&gt;</field>
+    <field id="priority">25.0</field>
+    <field id="status">draft</field>
+    <field id="severity">should_have</field>
+    <field id="previousStatus">open</field>
+</work-item>

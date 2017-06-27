@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="linkedWorkItems">
+        <list>
+            <struct>
+                <item id="workItem">MP-491</item>
+                <item id="role">seeAlso</item>
+                <item id="suspect">false</item>
+            </struct>
+            <struct>
+                <item id="workItem">MP-474</item>
+                <item id="role">seeAlso</item>
+                <item id="suspect">false</item>
+            </struct>
+        </list>
+    </field>
+    <field id="type">slide</field>
+    <field id="hyperlinks">
+        <list>
+            <struct>
+                <item id="role">renderSlide</item>
+                <item id="uri">/polarion/wiki/bin/view/project/MyPolarion/page/macros/RenderSlides?item=MP-496</item>
+            </struct>
+        </list>
+    </field>
+    <field id="author">stroebelet</field>
+    <field id="title">Manage Project Documents</field>
+    <field id="created">2011-04-13 22:20:01.340 +0200</field>
+    <field id="description" text-type="text/html">Project documents are managed with Polarion documents.&lt;br/&gt;&lt;ul&gt;&lt;li&gt;Import project documents from word or&lt;/li&gt;&lt;li&gt;Use document templates for your project documents&lt;br/&gt;&lt;/li&gt;&lt;/ul&gt;</field>
+    <field id="priority">25.0</field>
+    <field id="status">accepted</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+    <field id="subtitle" type="string"> </field>
+</work-item>

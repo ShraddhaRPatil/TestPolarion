@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">stroebelet</field>
+    <field id="created">2013-07-31 07:42:18.548 -0400</field>
+    <field id="description" text-type="text/html"><![CDATA[<ul>
+  <li>Display all open tasks using the <span style="font-style: italic;">{workitems}</span> macro under &quot;<span style="font-style: italic;">Open tasks</span>&quot; heading <a href="http://83.167.234.205/wiki/bin/view/page/Doc/SyntaxHelp#HDocuments" target="_blank" class="descriptionLink"><br/>
+      <a href="/polarion/wiki/bin/view/page/Doc/SyntaxHelp#HWorkItems" target="_blank" class="descriptionLink"><a href="/polarion/wiki/bin/view/page/Doc/SyntaxHelp#HWorkItems" target="_blank" class="descriptionLink">/polarion/wiki/bin/view/page/Doc/SyntaxHelp#HWorkItems</a> </a></a></li>
+  <li>Display all items which are unassigned using the <span style="font-style: italic;">{workitems}</span> macro and the <span style="font-style: italic;">&quot;queryName=Unassigned&quot;</span> attribute</li>
+  <li>Display only id,title,assignee and status using the <span style="font-style: italic;">fields</span> attribute</li>
+  <li>Change the visualization of the query using the  <span style="font-style: italic;">display</span>=list attribute</li>
+  <li>Now we want to add our action items to our wiki page by using the root attribute. To display only the section Action Items you need to provide the ID of the heading item as value of the root attribute. <a href="http://127.0.0.1/polarion/wiki/bin/view/page/Doc/SyntaxHelp#HDocuments" target="_blank" class="descriptionLink"><br/>
+      <a href="/polarion/wiki/bin/view/page/Doc/SyntaxHelp#HDocuments" target="_blank" class="descriptionLink">/polarion/wiki/bin/view/page/Doc/SyntaxHelp#HDocuments</a> </a><br/>
+    For example: {document-workitems:name=Meetings/User Training Meeting Notes|display=document|root=FUN-17}<br/>
+  </li>
+  <li>Change the visualization to tree using the <span style="font-style: italic;">display=table</span> attribute</li>
+</ul>]]></field>
+    <field id="linkedWorkItems">
+        <list>
+            <struct>
+                <item id="revision">41916</item>
+                <item id="role">branched_from</item>
+                <item id="workItem">MP-786</item>
+            </struct>
+            <struct>
+                <item id="revision">2736</item>
+                <item id="role">branched_from</item>
+                <item id="workItem">MP-2611</item>
+            </struct>
+        </list>
+    </field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Show work items inside wiki pages</field>
+    <field id="type">exercise</field>
+</work-item>

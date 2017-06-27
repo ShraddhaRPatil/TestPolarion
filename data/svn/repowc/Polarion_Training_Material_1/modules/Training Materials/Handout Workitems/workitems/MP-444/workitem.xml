@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="hyperlinks">
+        <list>
+            <struct>
+                <item id="role">renderSlide</item>
+                <item id="uri">/polarion/wiki/bin/view/project/MyPolarion/page/macros/RenderSlides?item=MP-444</item>
+            </struct>
+        </list>
+    </field>
+    <field id="author">admin</field>
+    <field id="title">Work Item Details - Traceability</field>
+    <field id="created">2011-03-24 16:00:53.573 +0100</field>
+    <field id="description" text-type="text/html">&lt;img src="attachment:WID1.jpg" style="width: 697px; height: 75px;"/&gt;&lt;br/&gt;&lt;span style="font-weight: bold;"&gt;&lt;img src="attachment:WIDTraceability.jpg" style="width: 699px; height: 245px;"/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;/span&gt;</field>
+    <field id="priority">25.0</field>
+    <field id="status">accepted</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+    <field id="subtitle" type="string">Be aware that any role can see different information of a work item</field>
+    <field id="questions" type="string">What should you use time points and when due dates ?</field>
+</work-item>

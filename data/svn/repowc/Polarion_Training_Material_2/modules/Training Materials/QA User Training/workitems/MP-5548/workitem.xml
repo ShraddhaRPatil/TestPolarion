@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">hartliebc</field>
+    <field id="created">2016-01-04 05:54:09.454 -0500</field>
+    <field id="description" text-type="text/html"><![CDATA[It is possible to configure how and what data is visualized in a LiveDoc. By default your work item data is shown with description only. Additionaly an unique ID is shown in front of your items and their status at the end of each item<br/>
+ 
+<ul>
+  <li>Change content to: <span style="font-size: 10pt;line-height: 1.5;">Title, Description and Test Steps</span><br/>
+    <img src="attachment:screenshot-4.jpg"/></li>
+  <li><span style="font-size: 10pt;line-height: 1.5;">You can define which fields should be visible by default for a user.<br/>
+      Change fields at start to: Outline Number<br/>
+      Status, Severity and Test Type should be shown in the document properties pane on the right side. Severity and Status should additionally be shown at the end of a Work Item.</span><br/>
+    <img src="attachment:81-screenshot-20160104-060248.png" style="width: 721px;height: 290px;"/><br/>
+    <img src="attachment:82-screenshot-20160104-060248.png" style="width: 721px;height: 608px;"/><br/>
+    
+    <table id="polarion_wiki macro name=table" class="polarion-Document-table" style="width: 80%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;">
+      <tbody>
+        <tr>
+          <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Hint: <span style="font-weight: normal;font-size: 10pt;font-family: Verdana, Geneva, sans-serif;line-height: 1.5;">The Select Fields dialog can also be invoked via the gear (Pane Settings) icon in the Work Item Properties sidebar (enabled when a Work Item is selected in a Document). When invoked from there, the fields configuration can be saved as a user-specific personal configuration only for the current user, or as the default for the Document.</span></th>
+        </tr>
+      </tbody>
+    </table>
+    <br/>
+    </li>
+</ul>]]></field>
+    <field id="linkedWorkItems">
+        <list>
+            <struct>
+                <item id="revision">57523</item>
+                <item id="role">branched_from</item>
+                <item id="workItem">MP-2653</item>
+            </struct>
+        </list>
+    </field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Configure your test specification</field>
+    <field id="type">exercise</field>
+    <field id="upgradedescription" type="boolean">true</field>
+</work-item>

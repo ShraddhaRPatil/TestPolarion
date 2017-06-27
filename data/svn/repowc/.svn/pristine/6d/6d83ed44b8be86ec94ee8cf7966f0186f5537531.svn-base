@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">schucks</field>
+    <field id="created">2014-08-05 15:15:30.984 +0200</field>
+    <field id="description" text-type="text/html">&lt;span style="font-weight: bold;"&gt;Creating an own Macro&lt;/span&gt;&lt;br/&gt;&lt;br/&gt;Creating an own Macro in Java is very simple. Start copying any of the existing examples.&lt;br/&gt;The Job example from the previous exercies can be used.&lt;br/&gt;&lt;ol&gt;&lt;li&gt;Create a new Package inside of your project, called "com.polarion.macros"&lt;/li&gt;&lt;li&gt;Create a new class "HelloWorld"&lt;/li&gt;&lt;li&gt;Create a function "String helloWorld()"&lt;/li&gt;&lt;li&gt;Return value of this function is "Hello World!"&lt;/li&gt;&lt;/ol&gt;Add the following Part to hivemodule.xml&lt;br/&gt;&lt;br/&gt;&lt;span style="font-family: 'Courier New', Courier, monospace;"&gt;&amp;lt;contribution configuration-id="com.polarion.alm.wiki.renderingContext"&amp;gt;&lt;br/&gt;    &amp;lt;item key="helloWorld" value="instance:com.polarion.macros.HelloWorld" /&amp;gt;&lt;br/&gt; &amp;lt;/contribution&amp;gt;&lt;/span&gt;&lt;br/&gt;&lt;br/&gt;Now start the polarion server and check in any wiki page if &lt;span style="font-weight: bold;"&gt;$helloWorld.helloWorld()&lt;/span&gt; returns the correct value.</field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="type">exercise</field>
+</work-item>

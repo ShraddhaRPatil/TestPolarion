@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">admin</field>
+    <field id="created">2012-02-01 18:22:44.001 +0100</field>
+    <field id="initialEstimate">6h</field>
+    <field id="previousStatus">draft</field>
+    <field id="priority">50.0</field>
+    <field id="remainingEstimate">6h</field>
+    <field id="severity">basic</field>
+    <field id="status">active</field>
+    <field id="testType" type="enum:testtype">release</field>
+    <field id="title">Perform checklist #DE-234</field>
+    <field id="type">testcase</field>
+</work-item>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="initialEstimate">1/12h</field>
+    <field id="linkedWorkItems">
+        <list>
+            <struct>
+                <item id="workItem">EL-138</item>
+                <item id="suspect">false</item>
+                <item id="role">verifies</item>
+            </struct>
+        </list>
+    </field>
+    <field id="type">testcase</field>
+    <field id="author">admin</field>
+    <field id="title">Favorite Books</field>
+    <field id="created">2011-01-24 10:54:25.779 +0100</field>
+    <field id="priority">50.0</field>
+    <field id="remainingEstimate">1/12h</field>
+    <field id="status">active</field>
+    <field id="severity">smoke</field>
+    <field id="previousStatus">draft</field>
+    <field id="testType" type="enum:testtype">user</field>
+    <field id="testSteps" type="struct:TestSteps">
+        <struct>
+            <item id="keys">
+                <list>
+                    <item>step</item>
+                    <item>description</item>
+                    <item>expectedResult</item>
+                </list>
+            </item>
+            <item id="steps">
+                <list>
+                    <struct>
+                        <item id="values">
+                            <list>
+                                <item text-type="text/html">Open portal view</item>
+                                <item text-type="text/html">Login to E-Library Portal, the portal view is opened.</item>
+                                <item text-type="text/html">Portal view is opened, different portlets are rendered there.</item>
+                            </list>
+                        </item>
+                    </struct>
+                    <struct>
+                        <item id="values">
+                            <list>
+                                <item text-type="text/html">Check "Top 10 favorite books"</item>
+                                <item text-type="text/html">The portal view page shows by default "Top 10 favorite books" portlet.</item>
+                                <item text-type="text/html">The portlet is displayed and it shows 10 books.</item>
+                            </list>
+                        </item>
+                    </struct>
+                </list>
+            </item>
+        </struct>
+    </field>
+</work-item>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="linkedWorkItems">
+        <list>
+            <struct>
+                <item id="workItem">MP-458</item>
+                <item id="suspect">false</item>
+                <item id="role">seeAlso</item>
+            </struct>
+            <struct>
+                <item id="workItem">MP-451</item>
+                <item id="suspect">false</item>
+                <item id="role">seeAlso</item>
+            </struct>
+        </list>
+    </field>
+    <field id="type">slide</field>
+    <field id="author">stroebelet</field>
+    <field id="title">Review and Approve Requirements</field>
+    <field id="created">2011-04-12 14:38:50.119 +0200</field>
+    <field id="description" text-type="text/html">&lt;ul&gt;&lt;li&gt;Use queries to find requirements  &lt;span style="font-style: italic;"&gt;ready for approval&lt;/span&gt;.&lt;br/&gt;&lt;img src="workitemimg:2-screenshot-1.jpg"/&gt;&lt;br/&gt;&lt;/li&gt;&lt;li&gt;Use comments during review and approval to collaborate on requirements&lt;br/&gt;&lt;/li&gt;&lt;/ul&gt;</field>
+    <field id="priority">25.0</field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="subtitle" type="string"> </field>
+    <field id="hint" type="string">In the example process review and approval is handled by one status change</field>
+</work-item>

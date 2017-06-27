@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">requirement</field>
+    <field id="author">admin</field>
+    <field id="title">Background</field>
+    <field id="created">2008-10-02 21:23:43.582 +0200</field>
+    <field id="description" text-type="text/html">&lt;span style="font-style: italic;" class="Apple-style-span"&gt;This section summarizes the rationale for the new product. Provide a general description of the history or situation that leads to the recognition that this product should be built.&lt;/span&gt;</field>
+    <field id="priority">25.0</field>
+    <field id="status">draft</field>
+    <field id="severity">should_have</field>
+    <field id="previousStatus">open</field>
+</work-item>

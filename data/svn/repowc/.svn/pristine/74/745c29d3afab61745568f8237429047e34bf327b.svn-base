@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">schucks</field>
+    <field id="created">2013-10-09 10:26:36.213 -0400</field>
+    <field id="description" text-type="text/html"><![CDATA[Installing Notepad++ Syntax Highlighting<br/>
+If you want to use Notepad++ you can download Syntax Higliting from following site:<br/>
+<a href="https://www.unitedplanet.com/forum/index.php?page=Attachment&attachmentID=921&h=37ddf966bf2a21a8aae78422e581b02dc2dffeb9&s=b79de4237a7126e276cef4511cb1860707db85cc" target="_blank" class="descriptionLink">www.unitedplanet.com/forum/index.php?page=Attachment&amp;attachmentID=921&amp;h=37ddf966bf2a21a8aae78422e581b02dc2dffeb9&amp;s=b79de4237a7126e276cef4511cb1860707db85cc</a> <br/>
+<br/>
+If you got it open Notepad++ and go the menu <span style="font-weight: bold;">Language &gt;Define your language...</span> and import the file as new language<br/>
+Now it´s available at the bottom as user defined language if you select menu point <span style="font-weight: bold;">Language.<br/>
+  Example Image:<br/>
+  <img src="attachment:notepadhighlighting.jpg" style="width: 788px;height: 433px;"/>
+  <table id="polarion_wiki macro name=table" class="polarion-Document-table" style="width: 80%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;">
+    <tbody>
+      <tr>
+        <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Hint: It might be needed to restart your Notepad++ to enable your Velocity language.</th>
+      </tr>
+    </tbody>
+  </table>
+</span>]]></field>
+    <field id="previousStatus">open</field>
+    <field id="priority">50.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Installing Notepad++ Syntax Highlighting</field>
+    <field id="type">exercise</field>
+</work-item>

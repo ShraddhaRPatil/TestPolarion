@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="linkedWorkItems">
+        <list>
+            <struct>
+                <item id="revision">41894</item>
+                <item id="workItem">MP-2284</item>
+                <item id="suspect">false</item>
+                <item id="role">branched_from</item>
+            </struct>
+        </list>
+    </field>
+    <field id="type">text</field>
+    <field id="author">stroebelet</field>
+    <field id="created">2012-04-24 11:07:30.328 +0200</field>
+    <field id="description" text-type="text/html">Polarion's search and query feature will help you to find information easily. It will allow to concentrate on the relevant data needed for the next process step by filtering out all unnecessary information. Typical examples are:&lt;br/&gt;&lt;ul id="polarion_merged_16"&gt;&lt;li&gt;Show all requirements which are ready for review&lt;/li&gt;&lt;li&gt;Find all defects assigned to me&lt;/li&gt;&lt;li&gt;Show all requirements in a specification document which are still in draft&lt;/li&gt;&lt;/ul&gt;</field>
+    <field id="priority">25.0</field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+</work-item>

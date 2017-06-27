@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">admin</field>
+    <field id="created">2013-11-07 12:39:47.598 +0100</field>
+    <field id="description" text-type="text/html">&lt;span style="font-weight: normal;"&gt;Lets ask ourself if we are able to write our own wiki pages after this training.&lt;br/&gt;&lt;/span&gt; &lt;ul&gt;&lt;li&gt;&lt;span style="font-weight: normal;"&gt;Create a boolean page parameter "answer"&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style="font-weight: normal;"&gt;Create a parameter form&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style="font-weight: normal;"&gt;Add a HTML table with 2 columns&lt;/span&gt;&lt;/li&gt;&lt;li style="list-style: none"&gt;&lt;ul&gt;&lt;li&gt;&lt;span style="font-weight: normal;"&gt;First column should contain "Are we able to script our own wiki pages after training?"&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style="font-weight: normal;"&gt;Second column should check if "anwer" is true or false.&lt;/span&gt;&lt;/li&gt;&lt;li style="list-style: none"&gt;&lt;ul&gt;&lt;li&gt;&lt;span style="font-weight: normal;"&gt;If it is true "Good Job!" should be displayed&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style="font-weight: normal;"&gt;If it is false "Oh no :(" should be displayed&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt; &lt;span style="font-weight: bold;"&gt;Example Image:&lt;br/&gt; &lt;img src="attachment:parameter.jpg"/&gt;&lt;br/&gt;&lt;/span&gt;</field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="type">exercise</field>
+</work-item>

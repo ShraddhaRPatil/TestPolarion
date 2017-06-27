@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">exercise</field>
+    <field id="author">stroebelet</field>
+    <field id="title">Add Permissions To Roles</field>
+    <field id="created">2011-08-30 11:09:57.521 +0200</field>
+    <field id="description" text-type="text/html">Usually it is not necessary to define additional permissions for new roles as you can assign multiple roles to one user. If you define a new role which is needed for status changes only it is better if you don't add any rights to the role at all.&lt;ul&gt;&lt;li&gt;Go to &lt;span style="font-style: italic;"&gt;administration&amp;gt;User Management&amp;gt;Permission Management (project level)&lt;br/&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;Select &lt;span style="font-style: italic;"&gt;By Role&lt;/span&gt; and assign the right to &lt;span style="font-style: italic;"&gt;read baslines&lt;/span&gt; to the role &lt;span style="font-style: italic;"&gt;internal&lt;br/&gt;&lt;img src="attachment:risk5.PNG"/&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;</field>
+    <field id="priority">25.0</field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+</work-item>

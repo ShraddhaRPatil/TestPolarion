@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<shortcuts>
+    <shortcut columns="id:139,type:158,title:298,status:45,solutionEstimate:90,totalTaskEstimate:90,totalTimeSpent:120,totalTaskRemaining:142" icon="/polarion/ria/images/details/table.gif" name="Top Level Slides" pagePath="workitems" query="type:slide AND NOT linkedWorkItems:next=*" resolution="unresolved" scope="project/MyPolarion" sorting="~id"/>
+    <shortcut icon="/polarion/ria/images/details/document.png" name="Submit Issue / Feedback" pagePath="wiki/Not In Build/OpenPoints_Feedback" scope="document/MyPolarion/modules/Not In Build/OpenPoints_Feedback"/>
+    <shortcut icon="/polarion/icons/default/topicIconsSmall/home.png" name="MyPolarion Home Page" pagePath="wiki" scope="project/MyPolarion" subPath="Configuration/MyPolarion_Home_Template"/>
+    <shortcut icon="/polarion/ria/images/topicIconsSmall/wiki1.png" name="Start Here" pagePath="wiki" scope="project/MyPolarion" subPath="Configuration/MyPolarion_Home_Template"/>
+</shortcuts>

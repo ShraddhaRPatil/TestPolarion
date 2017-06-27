@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="author">stroebelet</field>
+    <field id="title">Selecting, Changing or Disabling Views</field>
+    <field id="created">2011-04-21 17:01:07.430 +0200</field>
+    <field id="priority">25.0</field>
+    <field id="description" text-type="text/html">You can change or select a view in the top right area&lt;br/&gt;&lt;br/&gt;&lt;img src="workitemimg:2-screenshot-2.jpg"/&gt;&lt;br/&gt;&lt;br/&gt;Deselect "&lt;span style="font-style: italic;"&gt;Enable Lite UI&lt;/span&gt;" to switch off filters on top of work items (&lt;span style="font-style: italic;"&gt;Lite Form&lt;/span&gt; vs. &lt;span style="font-style: italic;"&gt;Normal Form&lt;/span&gt;)</field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="subtitle" type="string"> </field>
+</work-item>

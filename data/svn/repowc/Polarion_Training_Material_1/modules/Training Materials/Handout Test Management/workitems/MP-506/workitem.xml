@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="hyperlinks">
+        <list>
+            <struct>
+                <item id="role">ref_int</item>
+                <item id="uri">polarion/#/project/library/home</item>
+            </struct>
+            <struct>
+                <item id="role">renderSlide</item>
+                <item id="uri">/polarion/wiki/bin/view/project/MyPolarion/page/macros/RenderSlides?item=MP-506</item>
+            </struct>
+        </list>
+    </field>
+    <field id="author">stroebelet</field>
+    <field id="title">Creating a Test Plan</field>
+    <field id="created">2011-04-21 15:52:56.088 +0200</field>
+    <field id="description" text-type="text/html">The document library project &lt;a href="http://polarion/#/project/library/home" target="_blank"&gt;polarion/#/project/library/home&lt;/a&gt;&lt;br/&gt;contains a &lt;span style="font-weight: bold;"&gt;test plan template&lt;br/&gt;&lt;br/&gt;&lt;img src="workitemimg:1-test_plan.jpg" style="width: 748px; height: 186px;"/&gt;&lt;br/&gt;&lt;br/&gt;&lt;/span&gt;&lt;br/&gt;Reuse the document in your project without any links to original plan template (we don't need traceability here).&lt;br/&gt;&lt;ul&gt;&lt;li&gt;Use wiki macros to embed dynamic content&lt;/li&gt;&lt;li&gt;Add tasks to the plan for the high level work packages&lt;br/&gt;&lt;/li&gt;&lt;/ul&gt;&lt;a href="http://polarion/#/project/library/home" target="_blank"&gt;&lt;/a&gt;</field>
+    <field id="priority">25.0</field>
+    <field id="status">accepted</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+    <field id="subtitle" type="string">Reuse of test plan templates</field>
+</work-item>

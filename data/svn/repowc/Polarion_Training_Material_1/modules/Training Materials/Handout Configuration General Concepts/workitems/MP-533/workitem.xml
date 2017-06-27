@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="hyperlinks">
+        <list>
+            <struct>
+                <item id="role">renderSlide</item>
+                <item id="uri">/polarion/wiki/bin/view/project/MyPolarion/page/macros/RenderSlides?item=MP-533</item>
+            </struct>
+        </list>
+    </field>
+    <field id="author">stroebelet</field>
+    <field id="title">Storage Of Configuration Data</field>
+    <field id="created">2011-04-27 11:49:37.799 +0200</field>
+    <field id="description" text-type="text/html">&lt;ul&gt;&lt;li&gt;All configuration files are under version control&lt;/li&gt;&lt;li&gt;configurations can be ported simply by standard subversion commands&lt;/li&gt;&lt;/ul&gt;&lt;img style="width: 704px; height: 338px;" src="workitemimg:1-conffiles.jpg"/&gt;</field>
+    <field id="priority">25.0</field>
+    <field id="status">accepted</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+    <field id="subtitle" type="string">All configuration files are stored inside Subversion</field>
+</work-item>

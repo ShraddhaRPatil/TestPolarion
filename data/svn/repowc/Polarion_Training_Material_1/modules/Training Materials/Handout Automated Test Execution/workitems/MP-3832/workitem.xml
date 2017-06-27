@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="author">schucks</field>
+    <field id="title">Build Logic</field>
+    <field id="created">2012-10-16 14:49:46.028 +0200</field>
+    <field id="priority">25.0</field>
+    <field id="description" text-type="text/html">This part requires programming skills.&lt;br/&gt;The script itself is responsible for most of the magic behind test automation. Depending on the complexity it can contain some hardcoded references to some test script which shall be automated executed remotely, till a more complex logic. For example all test cases of a project are filtered for a certain status, and everything left is searched for linked revisions holding references to test scripts in subversion (or any other added repository). The scripts are bundled and sent to the Test Agent.&lt;br/&gt;So the script is repsonsible for:&lt;br/&gt;&lt;ol id="polarion_merged_23"&gt;&lt;li&gt;Fetching all test data from Polarion&lt;/li&gt;&lt;li&gt;actually sending the data to the TAS&lt;br/&gt;&lt;/li&gt;&lt;li&gt;triggering the test run for TAS side.&lt;br/&gt;&lt;/li&gt;&lt;/ol&gt; </field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+    <field id="trainingCategory" multi="true" type="enum:trainingCategory"/>
+</work-item>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="author">schucks</field>
+    <field id="title">Artifact Configuration</field>
+    <field id="created">2012-10-19 11:48:07.610 +0200</field>
+    <field id="priority">25.0</field>
+    <field id="description" text-type="text/html">&lt;i&gt;&amp;lt;?xml version="1.0" encoding="UTF-8"?&amp;gt;&lt;br/&gt;&amp;lt;artifacts xmlns="http://polarion.com/schema/Builder/Artifacts"&lt;br/&gt;    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://polarion.com/schema/Builder/Artifacts"&lt;br/&gt;   auto-recognition="AUTO_RECOGNITION_FLAG"&amp;gt;&lt;br/&gt;   &amp;lt;artifact&amp;gt;&lt;br/&gt;      &amp;lt;artifactId&amp;gt;test.bat&amp;lt;/artifactId&amp;gt;&lt;br/&gt;      &amp;lt;type&amp;gt;shell&amp;lt;/type&amp;gt;&lt;br/&gt;      &amp;lt;location&amp;gt;trunk&amp;lt;/location&amp;gt;&lt;br/&gt;      &amp;lt;workdir&amp;gt;build&amp;lt;/workdir&amp;gt;&lt;br/&gt;      &amp;lt;executable&amp;gt;build/test.bat&amp;lt;/executable&amp;gt;&lt;br/&gt;      &amp;lt;arguments&amp;gt;all&amp;lt;/arguments&amp;gt;&lt;br/&gt;   &amp;lt;/artifact&amp;gt;&lt;br/&gt;   &amp;lt;artifact&amp;gt;&lt;br/&gt;      &amp;lt;artifactId&amp;gt;test.sh&amp;lt;/artifactId&amp;gt;&lt;br/&gt;      &amp;lt;type&amp;gt;shell&amp;lt;/type&amp;gt;&lt;br/&gt;      &amp;lt;location&amp;gt;trunk&amp;lt;/location&amp;gt;&lt;br/&gt;      &amp;lt;workdir&amp;gt;build&amp;lt;/workdir&amp;gt;&lt;br/&gt;      &amp;lt;executable&amp;gt;build/zsh.exe&amp;lt;/executable&amp;gt;&lt;br/&gt;      &amp;lt;arguments&amp;gt;test.sh&amp;lt;/arguments&amp;gt;&lt;br/&gt;   &amp;lt;/artifact&amp;gt;&lt;br/&gt;&amp;lt;/artifacts&amp;gt;&lt;/i&gt;&lt;br/&gt;&lt;br/&gt; &lt;br/&gt; </field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+    <field id="trainingCategory" multi="true" type="enum:trainingCategory"/>
+</work-item>

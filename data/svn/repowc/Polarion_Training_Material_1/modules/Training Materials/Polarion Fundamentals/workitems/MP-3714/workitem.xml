@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">text</field>
+    <field id="author">tstrobele</field>
+    <field id="created">2012-08-15 13:42:51.580 +0200</field>
+    <field id="priority">25.0</field>
+    <field id="description" text-type="text/html">Polarion documents are shared documents which typically contain work items like requirements, test cases or tasks. Also this document is a Polarion document containing &lt;span style="font-style: italic;"&gt;exercises&lt;/span&gt; work items. Documents are the best way to start capturing project data as it is intuitive and easy to use.</field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+</work-item>

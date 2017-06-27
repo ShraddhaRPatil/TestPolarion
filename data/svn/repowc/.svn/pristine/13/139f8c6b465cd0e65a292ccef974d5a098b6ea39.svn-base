@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<enumeration>
+    <option id="ref_int" name="internal reference" sortOrder="1"/>
+    <option id="ref_ext" name="external reference" sortOrder="2"/>
+    <option id="renderSlide" name="renderSlide" sortOrder="3"/>
+    <option iconURL="/polarion/icons/project/MyPolarion/video.gif" id="video" name="Video" sortOrder="4"/>
+    <option id="help" name="Help" sortOrder="5"/>
+    <option id="example" name="Example" sortOrder="6"/>
+    <option id="download" name="Download" sortOrder="7"/>
+</enumeration>

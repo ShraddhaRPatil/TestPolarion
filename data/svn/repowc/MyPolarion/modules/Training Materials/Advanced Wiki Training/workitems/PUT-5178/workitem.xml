@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">admin</field>
+    <field id="created">2013-11-06 16:39:06.457 +0100</field>
+    <field id="description" text-type="text/html">We will use a combination of a loop and conditions to display all of our family members and we want to know how much people are part of our family.&lt;br/&gt;&lt;ul&gt;&lt;li&gt;Create a variable $family which should be an array of all family members (parents, brothers, sisters, you)&lt;/li&gt;&lt;li&gt;Create a loop which iterates over all family members&lt;/li&gt;&lt;li&gt;Display the name of the family member in each iteration&lt;/li&gt;&lt;li style="list-style: none"&gt;&lt;ul&gt;&lt;li&gt;If it isn´t the last family member a comma should seperate the names&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;behind the list of names the size of the family should be displayed.&lt;/li&gt;&lt;/ul&gt;&lt;span style="font-weight: bold;"&gt;Hint: &lt;/span&gt;&lt;span style="font-weight: normal;"&gt;You can use $velocityCount inside of a foreach loop as count variable (starts with 1 as value) and $family.size() to get the size of the array.&lt;br/&gt;&lt;br/&gt; &lt;span style="font-weight: bold;"&gt;Example Image:&lt;br/&gt; &lt;img src="attachment:foreach.jpg"/&gt;&lt;/span&gt;&lt;/span&gt;&lt;br/&gt;</field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="type">exercise</field>
+</work-item>

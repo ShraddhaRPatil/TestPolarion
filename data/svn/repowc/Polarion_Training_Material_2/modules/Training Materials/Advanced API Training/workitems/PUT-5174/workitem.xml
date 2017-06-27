@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">admin</field>
+    <field id="created">2013-11-06 13:08:17.957 +0100</field>
+    <field id="description" text-type="text/html">Create a new wiki page "[YOUR NAME] first Velocity Script" and create your first velocity script similar to the example above.&lt;br/&gt;&lt;ul&gt;&lt;li&gt;First add a single line comment "This is my first Polarion Script"&lt;/li&gt;&lt;li&gt;Set a variable $var which should contain "Polarion"&lt;/li&gt;&lt;li&gt;Add a string "This is my first velocity report inside of" and add variable $var to the end.&lt;/li&gt;&lt;li&gt;Try also the other examples mentioned above using {},! and a mix of both&lt;/li&gt;&lt;li style="list-style: none"&gt;&lt;ul&gt;&lt;li&gt;e.g. $varisgood&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;span style="font-weight: bold;"&gt;Example Image:&lt;br/&gt; &lt;img src="attachment:first_velocity_script.jpg"/&gt;&lt;/span&gt;&lt;br/&gt;</field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="type">exercise</field>
+</work-item>

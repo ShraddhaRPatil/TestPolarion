@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="hyperlinks">
+        <list>
+            <struct>
+                <item id="role">video</item>
+                <item id="uri">http://www.polarion.com/video/tutorials/testcase1/</item>
+            </struct>
+            <struct>
+                <item id="role">video</item>
+                <item id="uri">http://www.polarion.com/video/tutorials/testcase2/</item>
+            </struct>
+            <struct>
+                <item id="role">renderSlide</item>
+                <item id="uri">/polarion/wiki/bin/view/project/MyPolarion/page/macros/RenderSlides?item=MP-503</item>
+            </struct>
+        </list>
+    </field>
+    <field id="author">stroebelet</field>
+    <field id="title">Test Case Management Overview</field>
+    <field id="created">2011-04-21 14:27:56.153 +0200</field>
+    <field id="description" text-type="text/html">&lt;img src="workitemimg:1-TM_Overview.jpg"/&gt;&lt;br/&gt;&lt;br/&gt;&lt;ul&gt;&lt;li&gt;test case = smallest entity. Specifies a set of test steps to test a requirement&lt;/li&gt;&lt;li&gt;test specification = multiple test cases are organized in test specification document&lt;/li&gt;&lt;li&gt;test run template = A filter which defines a set of test cases for a specific test scenario (test run)&lt;/li&gt;&lt;li&gt;test run = instantiated test run template for a specific build and environment&lt;br/&gt;&lt;/li&gt;&lt;/ul&gt;</field>
+    <field id="priority">25.0</field>
+    <field id="status">accepted</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+    <field id="subtitle" type="string">The Big Picture: from test case to test run</field>
+</work-item>

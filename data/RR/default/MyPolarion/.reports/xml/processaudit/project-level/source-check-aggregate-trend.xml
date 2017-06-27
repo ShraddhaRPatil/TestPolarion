@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<factbase artifact="MyPolarion" id="processaudit/project-level/source-check-aggregate-trend" tag="trend">
+    <structure-element id="root" provider="root" type="root"/>
+</factbase>

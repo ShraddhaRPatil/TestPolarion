@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">admin</field>
+    <field id="created">2013-11-07 15:29:31.698 +0100</field>
+    <field id="description" text-type="text/html">We want to create a report which displays all requirements and their linked test cases but lets start with a table of our requirements.&lt;br/&gt;&lt;ul&gt;&lt;li&gt;Create new wiki page "[YOUR NAME] Tracebility report"&lt;/li&gt;&lt;li style="list-style: none"&gt;&lt;ul&gt;&lt;li&gt;Use $trackerService to query all requirements in current project sorted by "id" and save result in $requirements&lt;/li&gt;&lt;li&gt;Create HTML table&lt;/li&gt;&lt;li style="list-style: none"&gt;&lt;ul&gt;&lt;li&gt;Use a foreach loop to get each single requirement&lt;/li&gt;&lt;li&gt;Use {workitem} macro to display each requirement inside of a table cell [remember you need the id (string) of a work item not the object itself inside this macro]&lt;/li&gt;&lt;li style="list-style: none"&gt;&lt;ul&gt;&lt;li&gt;We want to display only the tilte of a workitem.&lt;/li&gt;&lt;li&gt;The workitem shouldn´t be expanded&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;span style="font-weight: bold;"&gt;Example Image:&lt;br/&gt; &lt;img src="attachment:trace_requirements.jpg"/&gt;&lt;/span&gt;&lt;br/&gt;</field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="type">exercise</field>
+</work-item>

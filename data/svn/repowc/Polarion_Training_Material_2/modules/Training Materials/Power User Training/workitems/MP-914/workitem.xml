@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">stroebelet</field>
+    <field id="created">2011-07-29 09:07:57.005 -0400</field>
+    <field id="description" text-type="text/html">Configure Polarion UI so that only relevant work item links can be created by clicking top or bottom plus icon. In our case we want people to be able to create a follow up task based on a question.&lt;br/&gt; &lt;img style="width: 633px;height: 350px;" src="attachment:62-screenshot-20141029-084725.png"/&gt;&lt;br/&gt; &lt;ul&gt;&lt;li&gt;Open &lt;span style="font-style: italic;"&gt;Administration&amp;gt;Work Items&amp;gt;Form Menus&amp;gt;&amp;quot;Linking Work Item&amp;quot; Menus&lt;/span&gt;&lt;/li&gt;&lt;li&gt;Create a new configuration for your &amp;quot;Question&amp;quot; work item and take &amp;quot;Default&amp;quot; view &lt;/li&gt;&lt;li&gt;We want our users to be able to create a follow up task. To make their life easier specifying the task we copy the description of our question directly into tasks description.&lt;br/&gt; Add following value:&lt;span id="polarion-comment:33"&gt;&lt;/span&gt;&lt;br/&gt; &amp;lt;item copyFields=&amp;quot;description&amp;quot; label=&amp;quot;Task to investigate question&amp;quot; role=&amp;quot;follow_up&amp;quot; titlePrefix=&amp;quot;Investigate: &amp;quot; type=&amp;quot;task&amp;quot;/&amp;gt;&lt;br/&gt;&lt;/li&gt;&lt;li&gt;Open &lt;span style="font-style: italic;"&gt;Administration&amp;gt;Work Items&amp;gt;Form Menus&amp;gt;&amp;quot;Linked Work Item&amp;quot; Menus&lt;/span&gt;&lt;/li&gt;&lt;li&gt;Create a new configuration for your &amp;quot;Question&amp;quot; work item and take &amp;quot;Default&amp;quot; view&lt;/li&gt;&lt;li&gt;A user shouldn´t be able to create a new question as a linked work item.&lt;br/&gt; Add following value:&lt;br/&gt; &amp;lt;item label=&amp;quot;Parent&amp;quot; role=&amp;quot;parent&amp;quot;/&amp;gt;&lt;span id="polarion-comment:34"&gt;&lt;/span&gt;&lt;br/&gt;&lt;/li&gt;&lt;/ul&gt;</field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Create a Custom Work Item Menu for Risk Work Items</field>
+    <field id="type">exercise</field>
+</work-item>

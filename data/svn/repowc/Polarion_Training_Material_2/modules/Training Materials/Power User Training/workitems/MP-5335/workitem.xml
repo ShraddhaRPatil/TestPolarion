@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">andyholton</field>
+    <field id="created">2014-10-29 19:59:31.177 -0400</field>
+    <field id="description" text-type="text/html"><![CDATA[Currently a user having project role &quot;project_user&quot; can view, modify, etc. all work item types. During our training we will create a work item type &#39;question&#39; and use Polarion tasks in connection with questions. These tasks should only be used for responsible persons so project user should only view and modify question work items.<br/>
+ 
+<ul>
+  <li>Open <span style="font-style: italic;">Administration &gt; User Management &gt; Permissions Management</span></li>
+  <li><span style="font-weight: normal;font-style: normal;">Select <span style="font-style: italic;">Work Items</span> from the <span style="font-style: italic;">+Custom Set</span> menu. <br/>
+      <img src="attachment:73-screenshot-20141030-092917.png"/></span></li>
+  <li><span style="font-weight: normal;font-style: normal;">Enter a name and a query that specifies the set of work items we want special permissions for</span></li>
+  <ul>
+    <li><span style="font-weight: normal;font-style: normal;">Name: Access just for question work items </span></li>
+    <li><span style="font-weight: normal;font-style: italic;">Query: type:task</span></li>
+  </ul>
+  <li><span style="font-weight: normal;font-style: normal;">Change the permission options so project_user can no longer view task work items<br/>
+      
+      <table id="polarion_wiki macro name=table" class="polarion-Document-table" style="width: 80%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;">
+        <tbody>
+          <tr>
+            <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Hint: This can also be done in the opposite manner (i.e. remove the view permissions from general work items, create a set for questions, and give permission to view only questions)</th>
+          </tr>
+        </tbody>
+      </table>
+      </span></li>
+  <li><span style="font-weight: normal;font-style: normal;">Your project_ user should now only be able to view question<br/>
+      
+      <table id="polarion_wiki macro name=table" class="polarion-Document-table" style="width: 80%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;">
+        <tbody>
+          <tr>
+            <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 528px;height: 38px;border: 1px solid #CCCCCC;padding: 5px;">Hint: Notice that by default the custom set inherits permissions from the general work items permissions</th>
+          </tr>
+        </tbody>
+      </table>
+      </span></li>
+</ul>]]></field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Limit View of Work Items to a Specific Type</field>
+    <field id="type">exercise</field>
+</work-item>

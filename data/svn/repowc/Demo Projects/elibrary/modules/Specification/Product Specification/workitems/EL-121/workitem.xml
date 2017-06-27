@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">admin</field>
+    <field id="created">2010-11-20 13:19:33.219 +0100</field>
+    <field id="description" text-type="text/html">When reading list of books written by some writer, user wants to see what books are stored in the library and whether or not the book is currently available to check out.</field>
+    <field id="previousStatus">approved</field>
+    <field id="priority">30.0</field>
+    <field id="resolvedOn">2010-12-02 10:36:52.652 +0100</field>
+    <field id="severity">nice_to_have</field>
+    <field id="status">accepted</field>
+    <field id="storyPoints" type="integer">13</field>
+    <field id="type">userstory</field>
+</work-item>

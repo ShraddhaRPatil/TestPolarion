@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">unitTestCase</field>
+    <field id="author">admin</field>
+    <field id="title">com.polarion.demo.LibraryTest.testLibrarySearch</field>
+    <field id="created">2013-05-24 17:25:26.990 +0200</field>
+    <field id="priority">50.0</field>
+    <field id="status">draft</field>
+    <field id="severity">basic</field>
+    <field id="testCaseID" type="string">com.polarion.demo.LibraryTest.testLibrarySearch</field>
+</work-item>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">daniel.morris</field>
+    <field id="created">2016-01-04 10:50:09.577 -0500</field>
+    <field id="description" text-type="text/html"><![CDATA[<ul>
+  <li><span style="font-size: 10pt;line-height: 1.5;">Execute i1_SmokeTest_Team B online (change status as previously done to &quot;In Progress&quot;) and use recent button to reuse execution details from your previous test run.</span></li>
+  <li><span style="font-size: 10pt;line-height: 1.5;">Execute i1_LoginTest_Team C (change status as previously done to &quot;In Progress&quot;) and check if your parameters work as expected. Please let at least 1 iteration of your login screen test fail.</span></li>
+  <li><span style="font-size: 10pt;line-height: 1.5;">Review your test run i1_LoginTest_Team C and check what kind of data is stored in your defect.<br/>
+      
+      <table id="polarion_wiki macro name=table" class="polarion-Document-table" style="width: 80%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;">
+        <tbody>
+          <tr>
+            <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Hint: Test parameters can also be exported for offline execution.</th>
+          </tr>
+        </tbody>
+      </table>
+      </span></li>
+</ul>]]></field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Recent execution and test paramters</field>
+    <field id="type">exercise</field>
+</work-item>

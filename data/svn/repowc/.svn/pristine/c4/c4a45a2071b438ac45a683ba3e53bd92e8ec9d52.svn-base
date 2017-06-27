@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="hyperlinks">
+        <list>
+            <struct>
+                <item id="role">renderSlide</item>
+                <item id="uri">/polarion/wiki/bin/view/project/MyPolarion/page/macros/RenderSlides?item=MP-497</item>
+            </struct>
+        </list>
+    </field>
+    <field id="author">stroebelet</field>
+    <field id="title">Release vs. Iteration Planning</field>
+    <field id="created">2011-04-13 22:23:22.274 +0200</field>
+    <field id="description" text-type="text/html">&lt;ul&gt;&lt;li&gt;Assign requirements to a target release will create the initial high level feature backlog for a release&lt;/li&gt;&lt;li&gt;Items planned to a release will then be refined and planned to iterations using time points&lt;/li&gt;&lt;/ul&gt;&lt;img src="workitemimg:1-screenshot.jpg" style="width: 753px; height: 420px;"/&gt;</field>
+    <field id="priority">25.0</field>
+    <field id="status">accepted</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+    <field id="subtitle" type="string"> </field>
+</work-item>

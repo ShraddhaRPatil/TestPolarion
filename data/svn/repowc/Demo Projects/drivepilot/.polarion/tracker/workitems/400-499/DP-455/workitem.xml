@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="initialEstimate">1d</field>
+    <field id="linkedWorkItems">
+        <list>
+            <struct>
+                <item id="workItem">DP-454</item>
+                <item id="suspect">false</item>
+                <item id="role">implements</item>
+            </struct>
+        </list>
+    </field>
+    <field id="resolution">done</field>
+    <field id="type">task</field>
+    <field id="timeSpent">6h</field>
+    <field id="resolvedOn">2013-02-04 18:06:58.700 +0100</field>
+    <field id="author">admin</field>
+    <field id="title">Implement Warning: Gear change apparatus is manually actuated</field>
+    <field id="created">2013-01-29 15:37:10.249 +0100</field>
+    <field id="description" text-type="text/html">&lt;div&gt;&lt;font face="arial, helvetica"&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;</field>
+    <field id="priority">50.0</field>
+    <field id="status">verified-done</field>
+    <field id="assignee">pGUI</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+</work-item>

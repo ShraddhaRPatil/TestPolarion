@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="author">hartliebc</field>
+    <field id="title">Working with Branched Documents continued</field>
+    <field id="created">2012-05-30 13:25:58.080 +0200</field>
+    <field id="priority">25.0</field>
+    <field id="description" text-type="text/html">&lt;ul&gt;&lt;li&gt;Freeze/Unfreeze document and/or work items&lt;br/&gt;&lt;ul&gt;&lt;li&gt;Freeze referenced work items in the branched document to some revision&lt;/li&gt;&lt;li&gt;Unfreeze referenced work items to update them with changes in the master document&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;Freeze a branched document to the master document&lt;/li&gt;&lt;li&gt;Unfreeze a branched document to update it with changes in the master document&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;img src="attachment:freezeunfreeze.jpg" style="width: 726px; height: 224px;"/&gt;</field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+    <field id="trainingCategory" multi="true" type="enum:trainingCategory"/>
+</work-item>

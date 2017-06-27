@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="hyperlinks">
+        <list>
+            <struct>
+                <item id="role">renderSlide</item>
+                <item id="uri">/polarion/wiki/bin/view/project/MyPolarion/page/macros/RenderSlides?item=MP-487</item>
+            </struct>
+        </list>
+    </field>
+    <field id="author">stroebelet</field>
+    <field id="title">Removing Suspects</field>
+    <field id="created">2011-04-11 16:04:31.857 +0200</field>
+    <field id="priority">25.0</field>
+    <field id="description" text-type="text/html">Once you have understood the reason a Work Item has been marked as suspect, you should perform following steps:&lt;br/&gt;&lt;br/&gt;&lt;ul&gt;&lt;li&gt;Update your Work Item accordingly. This may also include creation of new Work Items e.g. additional test cases when a requirement was updated&lt;/li&gt;&lt;li&gt;Add a Work Item comment which summarizes your change&lt;br/&gt; &lt;img style="width: 491px;height: 200px;" src="workitemimg:3-screenshot-2.jpg"/&gt;&lt;br/&gt;&lt;/li&gt;&lt;li&gt;Remove the suspect&lt;br/&gt; &lt;img style="width: 678px;height: 200px;" src="workitemimg:4-screenshot-3.jpg"/&gt;&lt;br/&gt;&lt;br/&gt;&lt;/li&gt;&lt;/ul&gt;</field>
+    <field id="status">accepted</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+    <field id="subtitle" type="string"> </field>
+    <field id="hint" type="string">Use comments to summarize what you changed. It's worth it !</field>
+    <field id="printNotes" text-type="text/html" type="text/html">&lt;div&gt;&lt;ul&gt;&lt;li&gt;It is good practice to add a comment when you propagate a suspect to others&lt;/li&gt;&lt;li&gt;Other team members can understand the cause of a suspect by reading the comment&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</field>
+    <field id="speakersNotes" text-type="text/plain" type="text/html"/>
+</work-item>

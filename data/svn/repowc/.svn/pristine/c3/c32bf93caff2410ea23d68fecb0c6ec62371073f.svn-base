@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">task</field>
+    <field id="author">admin</field>
+    <field id="title">Execute test A</field>
+    <field id="created">2009-01-09 15:57:24.057 +0100</field>
+    <field id="priority">25.0</field>
+    <field id="description" text-type="text/html">&lt;span style="font-style: italic;"&gt;Link the Test Specification document or set of Test Cases that should be executed&lt;/span&gt;</field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+</work-item>

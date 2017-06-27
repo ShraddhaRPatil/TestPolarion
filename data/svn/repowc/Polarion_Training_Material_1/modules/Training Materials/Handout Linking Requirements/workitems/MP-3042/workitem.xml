@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="author">hartliebc</field>
+    <field id="title">Traceability, Coverage and Impact Analysis - Using Reports</field>
+    <field id="created">2012-06-19 12:19:04.172 +0200</field>
+    <field id="priority">25.0</field>
+    <field id="description" text-type="text/html">&lt;img src="attachment:reports.jpg" style="width: 605px;height: 255px;"/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;  </field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+    <field id="subtitle" type="string">Reports</field>
+    <field id="trainingCategory" multi="true" type="enum:trainingCategory"/>
+</work-item>

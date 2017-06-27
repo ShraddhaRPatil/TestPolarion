@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">stroebelet</field>
+    <field id="created">2011-07-28 11:57:51.111 -0400</field>
+    <field id="description" text-type="text/html"><![CDATA[Question items will be used by users to track all their question regarding process questions, Polarion question, etc. inside of a single project. During the training we will additionally add custom fields, link roles, workflows, etc. to this item.<br/>
+ 
+<ul>
+  <li style="font-style: italic;">Open Administration&gt;Work Items&gt;Types&gt;</li>
+  <li>Add a new work item type question and remove all existing work items beside tasks</li>
+  <ul>
+    <li>ID: question</li>
+    <li>Name: Question</li>
+    <li>Icon: any</li>
+    <li>Description: Questions will be used to track questions of users during projects about all sorts of questions</li>
+    <li>Default: unchecked</li>
+    <li>Color: none<br/>
+      <img src="attachment:50-screenshot-20141029-061424.png" style="width: 704px;height: 90px;"/></li>
+  </ul>
+  <li>Verify that this new item can be created in your project frontend</li>
+</ul>
+ 
+<table id="polarion_wiki macro name=table" class="polarion-Document-table" style="width: 80%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;">
+  <tbody>
+    <tr>
+      <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Hint: Work Item templates can be used to have e.g. some predefined description. To use this functionality:<br/>
+        
+        <ul>
+          <li>Create a work item of this type in your frontend </li>
+          <li>Add the predefined data</li>
+          <li>Select this work item back in administration by using the work item picker<br/>
+            <img src="attachment:51-screenshot-20141029-061425.png" style="width: 321px;height: 150px;"/></li>
+          <li>Now each new work item will have this data as default</li>
+        </ul>
+        </th>
+    </tr>
+  </tbody>
+</table>
+ <br/>]]></field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Create a Custom Work Item Type: Question</field>
+    <field id="type">exercise</field>
+</work-item>

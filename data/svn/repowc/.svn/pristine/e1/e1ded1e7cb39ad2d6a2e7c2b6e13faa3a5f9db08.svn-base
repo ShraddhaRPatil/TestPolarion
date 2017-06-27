@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">hartliebc</field>
+    <field id="created">2012-06-19 05:56:22.098 -0400</field>
+    <field id="description" text-type="text/html"><![CDATA[<ul>
+  <li>Click on  &quot;create link&quot; symbol next to your work item icon to start the link<br/>
+    <img src="attachment:startlink.jpg" style="width: 605px;height: 122px;"/><br/>
+  </li>
+  <li><span style="color: #000000;">Click on the &quot;create link&quot; symbol of a different Work Item to complete the link. This Work Item can be contained in the same or in another Document</span><br/>
+  </li>
+  <li><span style="color: #000000;">Select the role for the link using the linking dialog</span><br/>
+  </li>
+  <li>Link multiple Work Items using CTRL+click<br/>
+  </li>
+  <li>Save the Document where you started your link, Polarion takes care that the link is always saved with the child of the link<br/>
+    <br/>
+    <img src="attachment:endlink.jpg" style="width: 605px;height: 140px;"/><br/>
+  </li>
+</ul>]]></field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="subtitle" type="string">Create Links using Documents. Each work item type defines it's own set of allowed link roles.</field>
+    <field id="title">Different Ways to Create -  Link Work Items using Documents</field>
+    <field id="type">slide</field>
+</work-item>

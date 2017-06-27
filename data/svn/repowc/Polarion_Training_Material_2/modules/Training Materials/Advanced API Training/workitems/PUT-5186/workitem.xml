@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">admin</field>
+    <field id="created">2013-11-07 09:38:22.424 -0500</field>
+    <field id="description" text-type="text/html"><![CDATA[Before we go on creating a new wiki page you should explore these API classes, their paramters and return values to get a feeling about their functionallity. Please take your time it might save you some time in the future.<br/>
+Try some simple functions like:<br/>
+<ul>
+  <li>$me</li>
+  <li>$page.project</li>
+  <li>$page.name</li>
+  <li>$platformService.polarionProductName</li>
+  <li>$platformService.polarionVersion</li>
+</ul>
+<table id="polarion_wiki macro name=table" class="polarion-Document-table" style="width: 80%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;">
+  <tbody>
+    <tr>
+      <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Hint: These are just easy examples which return a String. You will find much more methods you might use while creating scripts.</th>
+    </tr>
+  </tbody>
+</table>
+<br/>]]></field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="type">exercise</field>
+</work-item>

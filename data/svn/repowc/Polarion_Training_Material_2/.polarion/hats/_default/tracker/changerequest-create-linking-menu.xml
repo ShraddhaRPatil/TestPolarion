@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<menu>
+  <item label="Analyse impact" role="implements" titlePrefix="Analyse Impact: " type="task" copyFields="categories,title"/>
+  <item label="Create change task" role="implements" titlePrefix="Change Action: " type="task" copyFields="categories,title"/>
+  <item label="Refine via solution" role="refines" type="solution" copyFields="categories"/>
+</menu>

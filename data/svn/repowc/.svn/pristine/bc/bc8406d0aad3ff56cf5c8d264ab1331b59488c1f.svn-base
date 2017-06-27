@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">daniel.morris</field>
+    <field id="created">2014-08-07 07:48:27.449 -0400</field>
+    <field id="description" text-type="text/html"><![CDATA[<img src="attachment:2-screenshot-20141031-110803.png" style="width: 788px;height: 289px;"/><br/>
+Prioritize your items to implement packages which might be needed for other packages.]]></field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Prioritize</field>
+    <field id="type">slide</field>
+</work-item>

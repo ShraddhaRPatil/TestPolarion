@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">stroebelet</field>
+    <field id="created">2011-07-29 09:07:57.005 -0400</field>
+    <field id="description" text-type="text/html"><![CDATA[Configure Polarion UI so that only relevant work item links can be created by clicking top or bottom plus icon. In our case we want people to be able to create a follow up task based on a question.<br/>
+<img src="attachment:62-screenshot-20141029-084725.png" style="width: 633px;height: 350px;"/><br/>
+<ul>
+  <li>Open <span style="font-style: italic;">Administration&gt;Work Items&gt;Form Menus&gt;&quot;Linking Work Item&quot; Menus</span></li>
+  <li>Create a new configuration for your &quot;Question&quot; work item and take &quot;Default&quot; view </li>
+  <li>We want our users to be able to create a follow up task. To make their life easier specifying the task we copy the description of our question directly into tasks description. <br/>
+    Add following value:<br/>
+    &lt;item copyFields=&quot;description&quot; label=&quot;Task to investigate question&quot; role=&quot;follow_up&quot; titlePrefix=&quot;Investigate: &quot; type=&quot;task&quot;/&gt;<br/>
+  </li>
+  <li>Open <span style="font-style: italic;">Administration&gt;Work Items&gt;Form Menus&gt;&quot;Linked Work Item&quot; Menus</span></li>
+  <li>Create a new configuration for your &quot;Question&quot; work item and take &quot;Default&quot; view</li>
+  <li>A user shouldn´t be able to create a new question as a linked work item.<br/>
+    Add following value:<br/>
+    &lt;item label=&quot;Parent&quot; role=&quot;parent&quot;/&gt;<br/>
+  </li>
+</ul>]]></field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Create a Custom Work Item Menu for Risk Work Items</field>
+    <field id="type">exercise</field>
+</work-item>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">schucks</field>
+    <field id="created">2013-10-09 16:26:36.213 +0200</field>
+    <field id="description" text-type="text/html">Installing Notepad++ Syntax Highlighting&lt;br/&gt;If you want to use Notepad++ you can download Syntax Higliting from following site:&lt;br/&gt;&lt;a class="descriptionLink" target="_blank" href="https://www.unitedplanet.com/forum/index.php?page=Attachment&amp;attachmentID=921&amp;h=37ddf966bf2a21a8aae78422e581b02dc2dffeb9&amp;s=b79de4237a7126e276cef4511cb1860707db85cc"&gt;www.unitedplanet.com/forum/index.php?page=Attachment&amp;attachmentID=921&amp;h=37ddf966bf2a21a8aae78422e581b02dc2dffeb9&amp;s=b79de4237a7126e276cef4511cb1860707db85cc&lt;/a&gt; &lt;br/&gt;&lt;br/&gt;If you got it open Notepad++ and go the menu &lt;span style="font-weight: bold;"&gt;Language &amp;gt;Define your language...&lt;/span&gt; and import the file as new language&lt;br/&gt;Now it´s available at the bottom as user defined language if you select menu point &lt;span style="font-weight: bold;"&gt;Language.&lt;br/&gt; Example Image:&lt;br/&gt; &lt;img style="width: 788px;height: 433px;" src="attachment:notepadhighlighting.jpg"/&gt;&lt;/span&gt;</field>
+    <field id="previousStatus">open</field>
+    <field id="priority">50.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Installing Notepad++ Syntax Highlighting</field>
+    <field id="type">exercise</field>
+</work-item>

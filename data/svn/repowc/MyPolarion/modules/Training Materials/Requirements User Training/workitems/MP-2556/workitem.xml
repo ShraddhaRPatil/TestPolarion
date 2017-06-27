@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="linkedWorkItems">
+        <list>
+            <struct>
+                <item id="revision">41899</item>
+                <item id="workItem">MP-773</item>
+                <item id="suspect">false</item>
+                <item id="role">branched_from</item>
+            </struct>
+        </list>
+    </field>
+    <field id="type">exercise</field>
+    <field id="hyperlinks">
+        <list>
+            <struct>
+                <item id="role">linkedExercise</item>
+                <item id="uri">/polarion/#/project/MyPolarion/wiki/Exercises/Create%20New%20Project</item>
+            </struct>
+        </list>
+    </field>
+    <field id="author">stroebelet</field>
+    <field id="title">Create Your Own Playground Project</field>
+    <field id="created">2012-04-23 12:22:01.228 +0200</field>
+    <field id="description" text-type="text/html">You will use your playground project for all exercises throughout this training&lt;br style=""/&gt;&lt;ul style=""&gt;&lt;li style=""&gt;Select "&lt;span style="font-style: italic;"&gt;Create a new project&lt;/span&gt;"&lt;br style=""/&gt;&lt;img style="" src="attachment:create_new_project.jpg"/&gt;&lt;br style=""/&gt;&lt;/li&gt;&lt;li style=""&gt;Create a new project in &lt;span style="font-weight: bold;"&gt;Sandbox/[Your Project Name]&lt;/span&gt; using following template:&lt;br style=""/&gt;&lt;img style="" src="attachment:rm_project_template.jpg"/&gt;&lt;br style=""/&gt;&lt;/li&gt;&lt;li style=""&gt;click &lt;span style="font-style: italic;"&gt;next&lt;/span&gt; and add following project data&lt;ul style=""&gt;&lt;li style=""&gt;Name = [Your Project Name]&lt;/li&gt;&lt;li style=""&gt;TrackerPrefix = FUN&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li style=""&gt;Open Project Home Page&lt;br style=""/&gt;&lt;img style="" src="attachment:screenshot-3.jpg"/&gt;&lt;/li&gt;&lt;/ul&gt;</field>
+    <field id="priority">25.0</field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+</work-item>

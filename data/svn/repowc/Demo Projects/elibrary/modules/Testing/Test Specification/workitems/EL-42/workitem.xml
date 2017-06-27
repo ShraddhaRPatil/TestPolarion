@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">admin</field>
+    <field id="created">2011-01-24 10:51:45.685 +0100</field>
+    <field id="initialEstimate">1/6h</field>
+    <field id="linkedWorkItems">
+        <list>
+            <struct>
+                <item id="role">verifies</item>
+                <item id="workItem">EL-119</item>
+            </struct>
+        </list>
+    </field>
+    <field id="previousStatus">draft</field>
+    <field id="priority">50.0</field>
+    <field id="remainingEstimate">1/6h</field>
+    <field id="severity">smoke</field>
+    <field id="status">active</field>
+    <field id="testSteps" type="struct:TestSteps">
+        <struct>
+            <item id="keys">
+                <list>
+                    <item>step</item>
+                    <item>description</item>
+                    <item>expectedResult</item>
+                </list>
+            </item>
+            <item id="steps">
+                <list>
+                    <struct>
+                        <item id="values">
+                            <list>
+                                <item text-type="text/html">Search for some book</item>
+                                <item text-type="text/html">E.g. using keywords</item>
+                                <item text-type="text/html">Results page is shown.</item>
+                            </list>
+                        </item>
+                    </struct>
+                    <struct>
+                        <item id="values">
+                            <list>
+                                <item text-type="text/html">Open book properties dialog</item>
+                                <item text-type="text/html"/>
+                                <item text-type="text/html">Book properties dialog is shown</item>
+                            </list>
+                        </item>
+                    </struct>
+                    <struct>
+                        <item id="values">
+                            <list>
+                                <item text-type="text/html">Check author name</item>
+                                <item text-type="text/html">The book properties dialog should show the book author.</item>
+                                <item text-type="text/html">Author name is displayed on the dialog</item>
+                            </list>
+                        </item>
+                    </struct>
+                    <struct>
+                        <item id="values">
+                            <list>
+                                <item text-type="text/html">Click on the name</item>
+                                <item text-type="text/html">The name is click able, left click with your mouse to open author details dialog.</item>
+                                <item text-type="text/html">Dialog is opened and renders: first name, last name, nationality, date of birth .</item>
+                            </list>
+                        </item>
+                    </struct>
+                </list>
+            </item>
+        </struct>
+    </field>
+    <field id="testType" type="enum:testtype">user</field>
+    <field id="title">Open Author details</field>
+    <field id="type">testcase</field>
+</work-item>

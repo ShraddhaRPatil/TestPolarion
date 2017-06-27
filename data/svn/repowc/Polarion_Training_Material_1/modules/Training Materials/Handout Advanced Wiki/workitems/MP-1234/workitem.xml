@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">stroebelet</field>
+    <field id="created">2011-09-16 19:16:58.218 -0400</field>
+    <field id="description" text-type="text/html">&lt;img src="workitemimg:1-screenshot.jpg"/&gt;&lt;br/&gt;&lt;br/&gt;Polarion API documentation is available under: http://&lt;span style="font-style: italic;"&gt;servername&lt;/span&gt;/polarion/sdk/doc/javadoc/index.html</field>
+    <field id="hyperlinks">
+        <list>
+            <struct>
+                <item id="role">renderSlide</item>
+                <item id="uri">/polarion/wiki/bin/view/project/MyPolarion/page/macros/RenderSlides?item=MP-1234</item>
+            </struct>
+        </list>
+    </field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">accepted</field>
+    <field id="subtitle" type="string">Velocity Variables for Active Wiki Pages</field>
+    <field id="title">Excurs: Velocity And Polarion API</field>
+    <field id="type">slide</field>
+</work-item>

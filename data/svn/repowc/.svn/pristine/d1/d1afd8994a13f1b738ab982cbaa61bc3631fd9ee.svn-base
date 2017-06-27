@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<fields>
+    <field description="Capa Category" id="capaCategory" name="Capa Category" type="enum:capaCategory"/>
+    <field description="Liklihood of occurence of Issue" id="liklihood" name="Liklihood" type="enum:liklihood"/>
+    <field description="Severity of CAPA" id="severity" name="Severity" type="enum:severity"/>
+    <field description="Date by which Issue will be fixed" id="dueDate" name="Proposed Due Date" type="date"/>
+    <field id="risk" name="Risk" type="enum:risk"/>
+    <field description="Root Cause Category" id="rootCauseCategory" name="Root Cause Category" type="enum:rootCauseCategory"/>
+    <field description="Root Cause Description" id="rootCauseDesc" name="Root Cause Description" type="string"/>
+    <field id="correctiveAction" name="Corrective Action" type="enum:correctiveAction"/>
+    <field id="corActionDesc" name="Corrective Action Description" type="string"/>
+    <field id="preventiveAction" name="Preventive Action" type="string"/>
+    <field description="Is Change Request Required" id="crRequired" name="CR Required" type="boolean"/>
+</fields>

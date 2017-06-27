@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="author">stroebelet</field>
+    <field id="title">Finding Own Suspects</field>
+    <field id="created">2011-04-11 15:56:07.984 +0200</field>
+    <field id="priority">25.0</field>
+    <field id="description" text-type="text/html">&lt;img style="width: 788px;height: 255px;" src="workitemimg:2-screenshot-2.jpg"/&gt;&lt;br/&gt;&lt;br/&gt;The listed Work Items may not be consistent anymore. To find the cause of the suspect click on the flagged item and...&lt;br/&gt;&lt;br/&gt;&lt;ul&gt;&lt;li&gt;Analyze the &lt;span style="text-decoration: underline;color: #3333FF;"&gt;comment section&lt;/span&gt; for hints&lt;/li&gt;&lt;li&gt;Review &lt;span style="text-decoration: underline;color: #3333FF;"&gt;work item history&lt;/span&gt;&lt;br/&gt;&lt;/li&gt;&lt;/ul&gt;</field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="subtitle" type="string">Everybody reviews his own suspect work items. In that way the management of consistency is distributed through the whole team.</field>
+</work-item>

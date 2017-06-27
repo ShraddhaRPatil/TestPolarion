@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="hyperlinks">
+        <list>
+            <struct>
+                <item id="role">renderSlide</item>
+                <item id="uri">/polarion/wiki/bin/view/project/MyPolarion/page/macros/RenderSlides?item=MP-539</item>
+            </struct>
+        </list>
+    </field>
+    <field id="author">stroebelet</field>
+    <field id="title">Limit Access to Specific Fields</field>
+    <field id="created">2011-04-27 16:14:03.619 +0200</field>
+    <field id="priority">25.0</field>
+    <field id="description" text-type="text/html">&lt;ul&gt;&lt;li&gt;You can define read only fields for each work item type&lt;/li&gt;&lt;li&gt;Try to avoid different configurations for different views.&lt;/li&gt;&lt;/ul&gt;&lt;img src="workitemimg:2-screenshot-2.jpg"/&gt;&lt;br/&gt;</field>
+    <field id="status">accepted</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+    <field id="subtitle" type="string">Define read-only fields based on status and view</field>
+    <field id="hint" type="string">As work items are stored as xml files read only configurations do not work on subversion level</field>
+</work-item>

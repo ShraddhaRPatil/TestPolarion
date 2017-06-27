@@ -1,0 +1,7 @@
+
+#set($items = $parameters.workItems.getFor().revision($null).items())
+#foreach($item in $items)
+class>>$item.class<br>
+id>>$item.render.withTitle.withLinks<br>
+$item.getOldApi.class
+#end

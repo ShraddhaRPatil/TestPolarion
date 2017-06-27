@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="hyperlinks">
+        <list>
+            <struct>
+                <item id="role">renderSlide</item>
+                <item id="uri">/polarion/wiki/bin/view/project/MyPolarion/page/macros/RenderSlides?item=MP-499</item>
+            </struct>
+        </list>
+    </field>
+    <field id="author">stroebelet</field>
+    <field id="title">Live Plan</field>
+    <field id="created">2011-04-13 23:31:32.897 +0200</field>
+    <field id="description" text-type="text/html">Liveplan visualization and planning is determined by following constraints&lt;br/&gt;&lt;ul&gt;&lt;li&gt;link type (dependency vs. parent)&lt;/li&gt;&lt;li&gt;priority&lt;/li&gt;&lt;li&gt;severity&lt;/li&gt;&lt;li&gt;planning constraints (must start on, ...)&lt;/li&gt;&lt;li&gt;Time Point&lt;/li&gt;&lt;/ul&gt;&lt;img style="width: 710px; height: 108px;" src="workitemimg:1-screenshot.jpg"/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;span style="font-weight: bold;"&gt;Liveplan is not static but&lt;/span&gt; &lt;span style="color: rgb(255, 0, 0); text-decoration: underline; font-weight: bold;"&gt;changes according to project progress&lt;/span&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;During planning meeting update liveplan to verify planning results.&lt;br style="color: rgb(255, 0, 0); text-decoration: underline;"/&gt;</field>
+    <field id="priority">25.0</field>
+    <field id="status">accepted</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+    <field id="subtitle" type="string"> </field>
+</work-item>

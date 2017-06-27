@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<workflow initial-action="init" initial-status="open">
+    <transitions>
+        <transition from="open" to="inprogress" action="start_progress"/>
+        <transition from="open" to="resolved" action="resolve"/>
+        <transition from="open" to="closed" action="resolve_and_close"/>
+        <transition from="inprogress" to="resolved" action="resolve"/>
+        <transition from="inprogress" to="closed" action="resolve_and_close"/>
+        <transition from="resolved" to="reopened" action="reopen"/>
+        <transition from="resolved" to="closed" action="close"/>
+        <transition from="reopened" to="resolved" action="resolve"/>
+        <transition from="reopened" to="closed" action="resolve_and_close"/>
+        <transition from="closed" to="reopened" action="reopen"/>
+        <transition from="open" to="accepted" action="accept"/>
+        <transition from="accepted" to="open" action="unaccept"/>
+        <transition from="accepted" to="inprogress" action="start_progress"/>
+        <transition from="accepted" to="closed" action="resolve_and_close"/>
+        <transition from="inprogress" to="accepted" action="stop_progress"/>
+        <transition from="reopened" to="accepted" action="accept"/>
+        <transition from="accepted" to="resolved" action="resolve"/>
+    </transitions>
+
+    <actions>
+        <action id="init" name="Initialization">
+            <cleared>
+                <field name="resolution"/>
+                <field name="resolvedOn"/>
+            </cleared>
+            <functions>
+                <function name="LinkedWorkItemsStatusChange">
+                    <param name="back.link.roles" value="depends_on"/>
+                    <param name="link.roles" value="parent"/>
+                    <param name="valid.states" value="open,inprogress,reopened"/>
+                    <param name="target.state" value="reopened"/>
+                    <param name="clear.attribs" value="resolution,resolvedOn"/>
+                </function>
+            </functions>
+        </action>
+
+        <action id="start_progress" name="Start Progress">
+            <roles>
+                <role name="workitem.assignee"/>
+            </roles>
+        </action>
+
+        <action id="stop_progress" name="Stop Progress">
+            <roles>
+                <role name="workitem.assignee"/>
+            </roles>
+        </action>
+
+        <action id="resolve" name="Resolve">
+            <required>
+                <field name="resolution"/>
+            </required>
+
+            <conditions>
+                <condition name="LinkedWorkItemsStatus">
+                    <param name="back.link.roles" value="parent"/>
+                    <param name="link.roles" value="depends_on"/>
+                    <param name="valid.states" value="resolved,closed"/>
+                </condition>
+            </conditions>
+
+            <functions>
+                <function name="FieldValueChange">
+                    <param name="field.name" value="resolvedOn"/>
+                    <param name="field.value.type" value="current.date"/>
+                </function>      
+            </functions>
+        </action>
+
+        <action id="resolve_and_close" name="Resolve and Close">
+            <required>
+                <field name="resolution"/>
+            </required>
+
+            <conditions>
+                <condition name="LinkedWorkItemsStatus">
+                    <param name="back.link.roles" value="parent"/>
+                    <param name="link.roles" value="depends_on"/>
+                    <param name="valid.states" value="closed"/>
+                </condition>
+            </conditions>
+
+            <functions>
+                <function name="FieldValueChange">
+                    <param name="field.name" value="resolvedOn"/>
+                    <param name="field.value.type" value="current.date"/>
+                </function>
+            </functions>
+        </action>
+
+        <action id="close" name="Close">
+            <required>
+                <field name="resolution"/>
+            </required>
+
+            <conditions>
+                <condition name="LinkedWorkItemsStatus">
+                    <param name="back.link.roles" value="parent"/>
+                    <param name="link.roles" value="depends_on"/>
+                    <param name="valid.states" value="closed"/>
+                </condition>
+            </conditions>
+        </action>
+
+        <action id="reopen" name="Reopen">
+            <cleared>
+                <field name="resolution"/>
+                <field name="resolvedOn"/>
+            </cleared>
+
+            <functions>
+                <function name="LinkedWorkItemsStatusChange">
+                    <param name="back.link.roles" value="depends_on"/>
+                    <param name="link.roles" value="parent"/>
+                    <param name="valid.states" value="open,inprogress,reopened"/>
+                    <param name="target.state" value="reopened"/>
+                    <param name="clear.attribs" value="resolution,resolvedOn"/>
+                </function>
+            </functions>
+        </action>
+
+        <action id="accept" name="Accept">
+            <required>
+                <field name="assignee"/>
+            </required>
+        </action>
+
+        <action id="unaccept" name="Unaccept"/>
+    </actions>
+</workflow>

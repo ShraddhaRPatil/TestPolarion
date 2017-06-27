@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="author">hartliebc</field>
+    <field id="title">Baselines with Polarion</field>
+    <field id="created">2012-05-30 15:39:28.068 +0200</field>
+    <field id="priority">25.0</field>
+    <field id="description" text-type="text/html">&lt;span style="font-weight: bold;"&gt;Baseline operations:&lt;br/&gt;&lt;br/&gt;&lt;/span&gt; &lt;ul&gt;&lt;li&gt;Create and modify a baseline.&lt;/li&gt;&lt;li&gt;Compare two baselines and report on the changes that took place between the earlier and the later baseline.&lt;br/&gt;&lt;/li&gt;&lt;/ul&gt;&lt;img style="width: 699px;height: 316px;" src="attachment:baselines.jpg"/&gt;&lt;br/&gt;&lt;br/&gt; </field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+    <field id="subtitle" type="string">Baselines capture and preserve the state of your project at some point in time. Baselines are typically created for major development milestones and for releases. </field>
+    <field id="trainingCategory" multi="true" type="enum:trainingCategory"/>
+</work-item>

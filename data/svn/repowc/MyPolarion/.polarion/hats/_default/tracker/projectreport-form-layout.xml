@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<!-- 
+General information about process driven interface 
+
+Process driven interface represents a customized approach to using the Polarion ALM portal. 
+Currently you can customize work item form layout, work item form filters, and available topics.  
+Process driven interface appears users as the so-called "My Hats" feature which enables end users 
+to wear a different "Hat" at different times. Each "Hat" can be configured to presnent different
+information, hiding what is not immediately important, and emphasizing what is.
+ 
+HATS: 
+Each "Hat" is defined in its won folder under: 'topLevelRepositoryROOT/.polarion/hats'. The 
+filter name represents the Hat ID. (By default the name of a Hat is upper case+spaces between wordcompositions from id). 
+So creating a folder "myHat" in 'repoRoot/.polarion/hats/myHat/' will create a new Hat for all projects with the name 'My Hat'. 
+This folder stores the Hat's specific configuration data. If you create the optional hat.properties file 
+( 'repoRoot/.polarion/hats/myHat/hat.properties' ), you can specify a custom icon and name for the Hat which will appear to 
+end users in the My Hats combo box in the portal header. 
+
+To create your own hat, create the following folder structure:
+  'topLevelRepositoryROOT/.polarion/hats/_default' (default role)        
+  'topLevelRepositoryROOT/.polarion/hats/nameOfHat' (folder 'nameOfHat' define hat 'Name of Hat' by default)    
+  'topLevelRepositoryROOT/.polarion/hats/myDeveloper' (folder 'myDeveloper' define hat 'My Developer' by default) 
+
+To override structure in project (e.g.'myProject1') you need to create following structure (based on example above) with configuration files you would like to override.
+  'topLevelRepositoryROOT/myProject1/.polarion/hats/nameOfHat/defects-form-layout.xml' (file under 'nameOfHat/defects-form-layout.xml' override hat's layout 'nameOfHat/defects-form-layout.xml' from global configuration).   
+
+
+Hats can only be defined by creating folder structure in the repository (global) scope - there is no configuration file for definition of all user's hats.
+Therefore you cannot defined them for specific projects. You can only override them from specific project.
+
+ 
+Layout, Filters, Topics: 
+
+   * Work Item Form Layout has static character. What is defined, cannot be changed. 
+
+   * Filter has dynamic character, which means you can dynamically turn on/or turn off filters that show/hide form components. 
+
+   * Both layout and filters can also restrict some fields to be read-only. 
+--> 
+ 
+<!-- 
+This configuration file defines the layout of the Work Item form. 
+ 
+Layout consist of two types of components. 
+1. primitive components, that cannot contain other components. 
+2. complex components, that can contain other components.  
+ 
+Work item form fields can be situated inside complex or primitive components. 
+NOTE: Fields cannot be shown in the form twice! 
+ 
+Complex components are: 
+ 
+<horizontal> 
+add components on a horizontal row, each component is in a new column. 
+</horizontal> 
+ 
+<vertical> 
+add components into one vertical columnm, each component is in a new row  
+</vertical> 
+
+Vertical section is used as default on the top level <formLayout> element. 
+ 
+Primitive components are: 
+ 
+<field id="nameOfFields" readOnly="true|false(default)"/> 
+    1. create an editor editor widget used for specified field, or custom field. 
+       If nameOfField represent a complex field, it creates a complex widget. 
+     
+    Note: if a complex field is inside section, it shows it as a simple text. There is no more space to create complex widget! 
+     
+    2. Read only attribute restricts modification of field. This feature prevents accidental modification by the end user.  
+       There are two types of restriction: 
+       a) Inside layout (Cannot be disabled by disengaging the applied filter. Filter's read only fields appear above the layout's read-only fields) 
+       b) Inside status or action filter. (Can be turned off/on by user only) 
+</field> 
+Custom fields:
+For custom fields, you can use special notation language: 
+   all custom fields except risk  =   <field id="@allCustomFields,-risk"/> 
+   risk custom field =   <field id="risk"/> 
+ 
+<section> 
+    Blue backgrounded group of fields, sub-elements can be only fields. 
+    It is recommended to add only fields based on simple values. 
+    Complex fields such as are comments, linkedWorkItems should not be inside of <section> because there is no space for them. 
+</section> 
+ 
+<panel description="My panel with Custom Fields"> 
+    blue bordered panel, only fields can be here. Description is mandatory 
+</panel> 
+               
+Work item type specific configuration can be enabled in file [workItemType-]form-layout.xml. 
+User (more precise user's hat) specific configuration can be enabled in file [hatFolder]/tracker/[workItemType-]form-layout.xml 
+--> 
+<!-- Same field cannot be shown in form twice!  --> 
+<formLayout xmlns="http://polarion.com/schema/WorkItems/FormLayout" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://polarion.com/schema/WorkItems/FormLayout">
+     <!-- horizontal layout element add components on horizontal row, each component is in a new column. --> 
+     <horizontal> 
+        <!-- vertical layout element add components into one vertical columnm, each component is in a new row  --> 
+        <vertical> 
+            <section> 
+                <field id="type" /> 
+            </section>                   
+        </vertical> 
+        <vertical> 
+            <section> 
+                <field id="cost" /> 
+                <field id="time" /> 
+                <field id="ressourcen" /> 
+            </section> 
+        </vertical> 
+     </horizontal> 
+     
+     <field id="description" /> 
+
+      
+     <!-- Complex fields should avoid sections or panel - there is no space for them-->     
+     <field id="comments" /> 
+
+</formLayout> 

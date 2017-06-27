@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">admin</field>
+    <field id="created">2013-11-08 12:41:30.665 +0100</field>
+    <field id="description" text-type="text/html">Lets go on with our Traceability report we started in chapter 6.2 to&lt;br/&gt;&lt;ul&gt;&lt;li&gt;Add test cases which are linked via "verifies" link role&lt;/li&gt;&lt;li&gt;Add these test cases as new row inside of our table&lt;/li&gt;&lt;li&gt;You might need a new foreach loop inside of the first foreach loop&lt;/li&gt;&lt;/ul&gt;&lt;span style="font-weight: bold;"&gt;Example Image:&lt;br/&gt; &lt;img style="width: 788px;height: 130px;" src="attachment:tracereportSQL.jpg"/&gt;&lt;/span&gt;&lt;br/&gt;</field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="type">exercise</field>
+</work-item>

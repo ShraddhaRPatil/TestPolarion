@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="author">hartliebc</field>
+    <field id="title">Different Ways to Create Links - Link Existing Work Items</field>
+    <field id="created">2012-05-30 08:28:00.050 +0200</field>
+    <field id="priority">25.0</field>
+    <field id="description" text-type="text/html">&lt;img src="attachment:createlink.jpg" style="width: 605px;height: 472px;"/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;span style="font-weight: bolder;"&gt;1&lt;/span&gt; Select "Create Link" symbol to start linking dialog&lt;br/&gt;&lt;span style="font-weight: bolder;"&gt;2&lt;/span&gt; Use linking dialog to select link role&lt;br/&gt;&lt;span style="font-weight: bolder;"&gt;3&lt;/span&gt; Select "Create Link" symbol to finish linking dialog</field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+    <field id="subtitle" type="string">Link existing work items using "Create Link" symbol. Each work item type defines it's own set of allowed link roles.</field>
+    <field id="trainingCategory" multi="true" type="enum:trainingCategory"/>
+</work-item>

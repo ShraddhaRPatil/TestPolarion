@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">requirement</field>
+    <field id="author">admin</field>
+    <field id="title">Business Opportunity</field>
+    <field id="created">2008-10-02 21:23:43.973 +0200</field>
+    <field id="description" text-type="text/html">&lt;span style="font-style: italic;" class="Apple-style-span"&gt;Describe the market opportunity that exists or the business problem that is being solved. Describe the market in which a commercial product will be competing or the environment in which an information system will be used. This may include a brief comparative evaluation of existing products and potential solutions, indicating why the proposed product is attractive. Identify the problems that cannot currently be solved without the product, and how the product fits in with market trends or corporate strategic directions.&lt;/span&gt;</field>
+    <field id="priority">25.0</field>
+    <field id="status">draft</field>
+    <field id="severity">should_have</field>
+    <field id="previousStatus">open</field>
+</work-item>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">CarolaH</field>
+    <field id="created">2012-08-06 09:26:30.544 -0400</field>
+    <field id="description" text-type="text/html"><![CDATA[<ul>
+  <li>Open Portal Specification</li>
+  <li>Select Option <span style="font-style: italic;">Auto-Suspect is enabled</span> on pane document properties of your document sidebar<br/>
+    <img src="attachment:documentproperties.jpg"/><br/>
+  </li>
+  <li>Make some changes to requirement <span style="font-style: italic;">I as a user want to perform simple searches</span> and save your document</li>
+</ul>]]></field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Document Auto-Suspect</field>
+    <field id="type">exercise</field>
+</work-item>

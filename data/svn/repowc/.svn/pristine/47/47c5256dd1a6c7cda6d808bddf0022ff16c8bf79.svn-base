@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="hyperlinks">
+        <list>
+            <struct>
+                <item id="role">renderSlide</item>
+                <item id="uri">/polarion/wiki/bin/view/project/MyPolarion/page/macros/RenderSlides?item=MP-804</item>
+            </struct>
+        </list>
+    </field>
+    <field id="author">stroebelet</field>
+    <field id="title">Release and Iteration Backlogs</field>
+    <field id="created">2011-07-14 16:43:10.100 +0200</field>
+    <field id="description" text-type="text/html">&lt;img src="workitemimg:1-plan1.gif" style="width: 745px; height: 341px;"/&gt;&lt;br/&gt;&lt;ul&gt;&lt;li&gt;&lt;span style="font-style: italic; font-weight: bold;"&gt;Releases/Unplanned&lt;/span&gt;&lt;span style="font-weight: bold;"&gt;:&lt;/span&gt; General Backlog&lt;span style="font-weight: bold;"&gt;&lt;span style="font-style: italic;"&gt;-&lt;/span&gt;&lt;/span&gt; &lt;span style="font-style: italic;"&gt;Approved user stories which are not yet planned&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style="font-style: italic;"&gt;&lt;span style="font-weight: bold;"&gt;Releases/Release 1:&lt;/span&gt;&lt;/span&gt; Backlog for Release 1 - Accepted user stories planned for Release 1&lt;/li&gt;&lt;li style="font-weight: bold; font-style: italic;"&gt;SprintBoard: &lt;span style="font-weight: normal;"&gt;Backlog for a sprint (iteration) - accepted user stories planned to sprint timePoint&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;</field>
+    <field id="priority">25.0</field>
+    <field id="status">accepted</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+    <field id="subtitle" type="string">Backlog = todo list for a release or an iteration</field>
+    <field id="trainingCategory" multi="true" type="enum:trainingCategory">
+        <list>
+            <item>user</item>
+        </list>
+    </field>
+</work-item>

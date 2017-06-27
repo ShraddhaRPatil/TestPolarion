@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<enumeration>
+    <option description="High Impact of the incident" id="high" name="High" sortOrder="1"/>
+    <option description="Medium Impact of the incident" id="medium" name="Medium" sortOrder="2"/>
+    <option description="LowImpact of the incident" id="low" name="Low" sortOrder="3"/>
+</enumeration>

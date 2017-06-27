@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<queries>
+    <query name="Top Level Slides" query="type:slide AND NOT linkedWorkItems:next=*"/>
+    <query name="All unplanned WI for training" query="type:task AND NOT PLAN:(*) AND NOT HAS_VALUE:resolution AND document.id:&quot;Not In Build/Whats New And Noteworthy&quot;"/>
+</queries>

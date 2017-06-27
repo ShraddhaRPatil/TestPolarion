@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<enumeration>
+    <option description="Exercise has not been done yet" iconURL="/polarion/icons/default/enums/req_status_draft.gif" id="open" name="Open" sortOrder="4"/>
+    <option description="Exercise has been finished" iconURL="/polarion/icons/default/enums/req_status_approved.gif" id="finished" name="Finished" sortOrder="7"/>
+</enumeration>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="hyperlinks">
+        <list>
+            <struct>
+                <item id="role">renderSlide</item>
+                <item id="uri">/polarion/wiki/bin/view/project/MyPolarion/page/macros/RenderSlides?item=MP-952</item>
+            </struct>
+        </list>
+    </field>
+    <field id="author">stroebelet</field>
+    <field id="title">Polarion Artifacts Explained</field>
+    <field id="created">2011-08-03 17:26:47.786 +0200</field>
+    <field id="priority">25.0</field>
+    <field id="description" text-type="text/html">&lt;ul&gt;&lt;li&gt;&lt;img src="attachment:projectGroupIcon.jpg"/&gt; Project Groups = Folders which can contain projects&lt;ul&gt;&lt;li&gt;&lt;img src="attachment:projectIcon.jpg"/&gt; Project = Container to manage product or project related information&lt;ul&gt;&lt;li&gt;&lt;img src="attachment:space.jpg" style="width: 20px; height: 15px;"/&gt; Space = Folder which can contain &lt;span style="font-style: italic;"&gt;documents&lt;/span&gt; or &lt;span style="font-style: italic;"&gt;wiki pages&lt;/span&gt;&lt;ul&gt;&lt;li&gt;&lt;span style="font-style: italic;"&gt;&lt;img src="attachment:document.jpg"/&gt;&lt;/span&gt; Document = Can contain work items. Provides an easy way to organize work items in an easy to read view&lt;ul&gt;&lt;li&gt;&lt;img src="attachment:work_item.jpg" style="width: 20px; height: 16px;"/&gt; Work item = smallest entity in the system. Think of it as a single row in an excel table or a paragraph in a document  &lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;img src="attachment:wikiIcon.jpg"/&gt; Wiki page = Used for reporting and to guide end user through the process&lt;br/&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;</field>
+    <field id="status">accepted</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+    <field id="subtitle" type="string">A project can contain three essential artifacts</field>
+    <field id="trainingCategory" multi="true" type="enum:trainingCategory"/>
+    <field id="printNotes" text-type="text/html" type="text/html">&lt;div&gt;&lt;ul&gt;&lt;li&gt;Documents are containers for work items&lt;/li&gt;&lt;li&gt;Work items can be contained in documents or directly in the project&lt;/li&gt;&lt;li&gt;Wiki pages are used to display content and to guide the user through the system&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</field>
+    <field id="speakersNotes" text-type="text/plain" type="text/html"/>
+</work-item>

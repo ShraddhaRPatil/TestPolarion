@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<fields>
+    <field description="Solution of the task" id="solution" name="Solution" type="text/html"/>
+    <field id="totalTimeSpent" name="Total Time Spent" type="duration"/>
+    <field description="Polarion Version" id="version" name="Version" type="enum:Version"/>
+    <field id="targetVersion" name="Target Version" type="enum:@plan[template.id:Milestone]"/>
+</fields>

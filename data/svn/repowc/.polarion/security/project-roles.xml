@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<roles>
+  <role>project_user</role>
+  <role>project_approver</role>
+  <role>project_assignable</role>
+  <role>project_admin</role>
+</roles>

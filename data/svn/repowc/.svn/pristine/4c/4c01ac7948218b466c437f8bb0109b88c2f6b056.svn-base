@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">stroebelet</field>
+    <field id="created">2012-04-24 06:36:11.238 -0400</field>
+    <field id="description" text-type="text/html"><![CDATA[Project information is usually distributed between various types of documents. It is essential to keep the traceability between the statements in different documents.<br/>
+ 
+<ul>
+  <li>Create a new document &quot;<span style="font-style: italic;">Portal Specification</span>&quot; which will contain functional requirements</li>
+  <li>Change the document prefix to PSPEC</li>
+  <li>Configure the work item settings and display the <span style="font-style: italic;">Outline Number</span> instead of id as <span style="font-style: italic;">field at start<br/>
+      <img src="attachment:configureDoc.jpg"/></span></li>
+</ul>
+ 
+<ul>
+  <li>Create following functional requirements in <span style="font-style: italic;">Portal Specification</span> document<br/>
+    
+    <table id="polarion_wiki macro name=table;params=width=600px" class="polarion-Document-table" style="width: 600px;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;">
+      <tbody>
+        <tr>
+          <th style="font-weight: bold;font-size: 9pt;background-color: #F0F0F0;line-height: 1.5;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Hint: Set requirement type to Functional Requirement </th>
+        </tr>
+      </tbody>
+    </table>
+    <br/>
+    </li>
+  <ul>
+    <li>I as a user want to perform simple searches</li>
+    <li>I as a user want to perform advanced searches</li>
+  </ul>
+  <li>Set status of above requirements to <span style="font-style: italic;">Reviewed</span><br/>
+    </li>
+  <li>Open <span style="font-style: italic;">CRS_E-Library</span> document in new browser tab</li>
+  <li>Select requirement <span style="font-style: italic;">&quot;The user should be able to search for books</span>&quot;<span style="font-style: italic;"><br/>
+      </span></li>
+  <li>Start linking using &quot;create link&quot; symbol</li>
+  <li><span style="font-style: italic;">Select role &quot;refines&quot; using linking dialog.<br/>
+      <br/>
+      <img src="attachment:startlink.jpg"/><br/>
+      <br/>
+      </span></li>
+  <li>Switch back to document <span style="font-style: italic;">&quot;Portal Specification&quot;</span><br/>
+    </li>
+  <li>Hold key &quot;Ctrl&quot; and link requirement &quot;<span style="font-style: italic;">I as a user want to perform simple searches&quot; </span> and <span style="font-style: italic;">&quot;I as a user want to perform advanced searches&quot;</span> using the &quot;create link&quot; symbol</li>
+  <li>Confirm your links using the linking dialog<span style="font-style: italic;"><br/>
+      <br/>
+      <img src="attachment:endlink.jpg"/><br/>
+      </span></li>
+  <li>Switch back to document <span style="font-style: italic;">CRS_E-Library</span> and save it to save your links<br/>
+    </li>
+  <li>Create following functional requirements in document <span style="font-style: italic;">Portal Specification</span><br/>
+    </li>
+  <ul>
+    <li> Password must be validated when the user wants to change it</li>
+    <ul>
+      <li>Password must contain at least one number</li>
+      <li>Password must contain at least 8 characters</li>
+    </ul>
+  </ul>
+  <li>Add parent/child relationship between requirements which reflects the hierarchical structure shown above by using the [TAB] key</li>
+  <li>Set status for all three requirements to <span style="font-style: italic;">reviewed<br/>
+      </span></li>
+  <li>Link parent requirement to &quot;<span style="font-style: italic;">User should be able to login to E-Library</span> of the <span style="font-style: italic;">CRS_E-Library</span> document using steps described above.</li>
+  <li>Navigate via links between the different documents. Verify that traceability is available in both directions</li>
+</ul>]]></field>
+    <field id="linkedWorkItems">
+        <list>
+            <struct>
+                <item id="revision">41892</item>
+                <item id="role">branched_from</item>
+                <item id="workItem">MP-783</item>
+            </struct>
+        </list>
+    </field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Manage multiple documents - linking between documents</field>
+    <field id="type">exercise</field>
+    <field id="upgradedescription" type="boolean">true</field>
+</work-item>

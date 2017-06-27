@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notification-settings>
+
+    <subject-prefix>[Polarion]</subject-prefix>
+
+    <!-- sender-address can be any valid email address, nothing is ever sent to it by Polarion -->
+    <sender-address>polarion@domain.invalid</sender-address>
+
+    <!-- SMTP host can be specified here to override the setting provided in polarion.properties -->
+    <!--
+    <smtp-config>
+        <host-name>localhost</host-name>
+    </smtp-config>
+    -->
+
+</notification-settings>

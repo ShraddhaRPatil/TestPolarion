@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">slide</field>
+    <field id="author">schucks</field>
+    <field id="title">Starting the build</field>
+    <field id="created">2012-10-16 14:49:45.942 +0200</field>
+    <field id="priority">25.0</field>
+    <field id="description" text-type="text/html">The first step of an automated test run with polarion is a build execution. The execution itself can be done by using scheduled jobs on the default repository level. The build itself should be in the project where the intended Test Cases are referenced, and where, later on, the Test Runs shall be available.&lt;br/&gt;The build now starts a "executionLogic.sh" script. Please note that the script must be part of Polarions subversion repository, so that it can be easily found by the build process. It must not be of type ".sh". The type of script started to run the logic behind the test execution is independent from the build. In principle one can use every language, from batch script to Java.&lt;br/&gt;Polarion needs to have access to all resources required to run the given script. For example on execution of a shell script under a windows  server (.sh) it is also required to supply an executable to run the script, because it is not part of the operation system by default. In this case a sh.exe is required. an other example would be perl. One would also require an installation of an interpreter for execution. In all cases Polarion must have proper permissions and resources to run the files.&lt;br/&gt;&lt;br/&gt;Note: Everything written till this point is valid for all setups handling Test Automation. The following points represent examples on how to implement a test scenario. Other ways may be possible.&lt;br/&gt; </field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+    <field id="trainingCategory" multi="true" type="enum:trainingCategory"/>
+</work-item>

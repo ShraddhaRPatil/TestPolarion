@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">admin</field>
+    <field id="created">2013-01-22 00:10:41.073 +0100</field>
+    <field id="description" text-type="text/html">This failure mode occurs when the voltage drops below 10 volts and/or the current drops below 5 amps. &lt;br/&gt;DCC communication transactions are no longer maintained.  Accelerator, Brake, and Steering servos cannot maintain full range of motion.  Shutdown engages.</field>
+    <field id="previousStatus">draft</field>
+    <field id="priority">50.0</field>
+    <field id="severity">should_have</field>
+    <field id="status">draft</field>
+    <field id="title">DrivePilot Controller gradually shuts down under low power conditions</field>
+    <field id="type">risk</field>
+</work-item>

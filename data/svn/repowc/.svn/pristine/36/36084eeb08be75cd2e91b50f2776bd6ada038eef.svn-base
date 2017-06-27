@@ -1,0 +1,3 @@
+name=My Polarion (Polarion training materials), build: 20160607-1601
+description=Training materials and helpful checklists for Polarion rollout and POC 
+process=.polarion/polarion-project.xml

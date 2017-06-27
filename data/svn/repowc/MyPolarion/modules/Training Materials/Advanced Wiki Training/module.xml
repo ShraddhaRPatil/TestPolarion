@@ -1,0 +1,1377 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<module>
+    <field id="author">admin</field>
+    <field id="created">2013-11-06 04:01:55.633 -0500</field>
+    <field id="homePageContent" text-type="text/html"><![CDATA[<h1 id="polarion_wiki macro name=module-workitem;params=id=PUT-5154"></h1><div id="polarion_editor_html_block1" class="polarion-dle-wiki-block">
+  <div id="polarion_editor_html_block_content" contentEditable="false"></div><pre id="polarion_editor_html_block_source" class="polarion-dle-wiki-block-source" contentEditable="false">#includeMacros("macros.macros")
+#macro(spoilerInit)
+#set ($i = 0)
+&lt;script&gt;
+function visibilite(thingId)
+{
+var targetElement;
+targetElement = document.getElementById(thingId) ;
+if (targetElement.style.display == "none")
+{
+targetElement.style.display = "" ;
+} else {
+targetElement.style.display = "none" ;
+}
+}
+&lt;/script&gt;
+#end
+
+#macro(spoiler $linktext $hiddentext)
+&lt;a href="javascript:visibilite('spoiler_$i');"&gt;&lt;img src="../module-attachment/$page.project/$page.space.name/$page.name/add.png"&gt;&lt;/a&gt;
+&lt;div id="spoiler_$i" style="display:none;border:1px dotted red;padding:5px;font-style:italic;"&gt;$hiddentext&lt;/div&gt;
+#set ($i = $i + 1)
+#end
+#spoilerInit()
+</pre>
+</div><p id="polarion_template_0">
+  <span id="polarion-comment:14"></span>
+</p><div id="polarion_wiki macro name=module-workitem;params=id=MP-2281|layout=1|external=true"></div><p id="polarion_130"></p><h2 id="polarion_wiki macro name=module-workitem;params=id=PUT-5155"></h2><div id="polarion_wiki macro name=module-workitem;params=id=MP-2285|layout=1|external=true"></div><p id="polarion_1"></p><div id="polarion_wiki macro name=toc"></div><p id="polarion_131"></p><h2 id="polarion_wiki macro name=module-workitem;params=id=MP-5313"></h2><div id="polarion_editor_html_block55" class="polarion-dle-wiki-block">
+  <div id="polarion_editor_html_block_content" contentEditable="false"></div><pre id="polarion_editor_html_block_source" class="polarion-dle-wiki-block-source" contentEditable="false">{show:wiki}
+#slide("MP-1855")
+{show}
+</pre>
+</div><p id="polarion_117"></p><p id="polarion_132">
+  This workshop will show you how to use wiki pages in a professional way. After this Training you will be able to
+</p><ul id="polarion_133">
+  <li>prepare your workspace with recommended development tools.</li>
+  <li>use Polarion default wiki macros.<br/>
+    </li>
+  <li>use Velocity scripting in wiki pages.</li>
+  <li>use SQL Queries for wiki Pages.</li>
+  <li>create wiki pages with parameters.</li>
+  <li>use the Polarion API.</li>
+  <li>write your own macros using velocity or Java.</li>
+  <li>write your own workflow extensions.</li>
+  <li>write your own workflow conditions.</li>
+</ul><p id="polarion_134"></p><h2 id="polarion_wiki macro name=module-workitem;params=id=PUT-5173"></h2><h3 id="polarion_wiki macro name=module-workitem;params=id=MP-5154"></h3><p id="polarion_82">
+  Using advances Wiki or API does not only require knowledge about the techniques and coding principles. It is very good practice to prepare the own environment (Notebook/PC) with supporting tools to help you on debugging the code.
+</p><p id="polarion_86">
+  So what do we need at all to start with?
+</p><ul id="polarion_91">
+  <li>Installed Polarion Server</li>
+  <li>Admin permissions (ALM license preferred but not mandatory)</li>
+  <li>Eclipse SDK</li>
+  <li>Java SDK 1.7 or later</li>
+  <li>SQL Client (SQuirreL preferred), including H2 database driver.</li>
+  <li>Advanced text editor (Notepad++ preferred)</li>
+  <li>Polarion Scripting Extension</li>
+</ul><h3 id="polarion_wiki macro name=module-workitem;params=id=MP-5162"></h3><h3 id="polarion_wiki macro name=module-workitem;params=id=MP-5163"></h3><div id="polarion_wiki macro name=module-workitem;params=id=MP-5155"></div><div id="polarion_wiki macro name=module-workitem;params=id=MP-5156"></div><div id="polarion_wiki macro name=module-workitem;params=id=MP-5157"></div><h3 id="polarion_wiki macro name=module-workitem;params=id=MP-5164"></h3><div id="polarion_wiki macro name=module-workitem;params=id=MP-5158"></div><div id="polarion_wiki macro name=module-workitem;params=id=MP-5159"></div><h3 id="polarion_wiki macro name=module-workitem;params=id=MP-5165"></h3><div id="polarion_wiki macro name=module-workitem;params=id=MP-5160"></div><p id="polarion_92"></p><h2 id="polarion_wiki macro name=module-workitem;params=id=PUT-5156"></h2><p id="polarion_121">
+  <span style="font-size: 10pt;line-height: 1.5;">Web Reference: </span><a href="http://platform.xwiki.org/xwiki/bin/view/Main/XWikiSyntax" target="_blank" class="descriptionLink">xWiki Organization Platform Syntax</a><span style="font-size: 10pt;line-height: 1.5;"> </span>
+</p><div id="polarion_wiki macro name=module-workitem;params=id=PUT-5158"></div><div id="polarion_editor_html_block6" class="polarion-dle-wiki-block">
+  <div id="polarion_editor_html_block_content" contentEditable="false"></div><pre id="polarion_editor_html_block_source" class="polarion-dle-wiki-block-source" contentEditable="false">#spoiler("" "{code} 1 Defects by Priority Report
+
+Priority Highest
+{workitems:type:defect AND priority:highest|fields=id,title,status,priority,assignee,timePoint,initialEstimate | sortby=~priority ~status}
+
+Priority High
+
+{workitems:type:defect AND priority:high|fields=id,title,status,priority,assignee,timePoint,initialEstimate | sortby=~priority ~status}
+
+Priority Medium
+
+{workitems:type:defect AND priority:medium|fields=id,title,status,priority,assignee,timePoint,initialEstimate | sortby=~priority ~status}
+ 
+Priority Low
+
+{workitems:type:defect AND priority:low|fields=id,title,status,priority,assignee,timePoint,initialEstimate | sortby=~priority ~status}
+
+Priority Lowest
+
+{workitems:type:defect AND priority:lowest|fields=id,title,status,priority,assignee,timePoint,initialEstimate | sortby=~priority ~status}
+{code}")</pre>
+</div><div id="polarion_wiki macro name=module-workitem;params=id=PUT-5172"></div><div id="polarion_editor_html_block13" class="polarion-dle-wiki-block">
+  <div id="polarion_editor_html_block_content" contentEditable="false"></div><pre id="polarion_editor_html_block_source" class="polarion-dle-wiki-block-source" contentEditable="false">#spoiler("" "{code}{table:header=no}
+Highest | {workitems:type:defect AND priority:highest |display=count}
+High | {workitems:type:defect AND priority:high |display=count}
+Medium | {workitems:type:defect AND priority:medium |display=count}
+Low | {workitems:type:defect AND priority:low |display=count}
+Lowest | {workitems:type:defect AND priority:lowest |display=count}
+{table}{code}")</pre>
+</div><p id="polarion_9">
+  If you use some additional formating for this page the dashboard can look like image below but for now our result should be fine.<br/>
+  <span style="font-weight: bold;">Example Image:</span><br/>
+  <img src="attachment:defect_dashboard_final.jpg" style="width: 754px;height: 656px;"/>
+</p><h2 id="polarion_wiki macro name=module-workitem;params=id=PUT-5159"></h2><p id="polarion_57">
+  Polarion is not using the newest version of Velocity. Polarion is using Version 1.4. You can find the Velocity User Guide for Version 1.4 <a href="http://velocity.apache.org/engine/releases/velocity-1.4/user-guide.html" target="_blank" class="descriptionLink">here</a> 
+</p><h3 id="polarion_wiki macro name=module-workitem;params=id=PUT-5163"></h3><p id="polarion_3">
+  There are single line comments and multi line comments
+</p><p id="polarion_11">
+  <span style="font-weight: bold;">single line comment</span>
+</p><div id="polarion_editor_html_block3" class="polarion-dle-wiki-block">
+  <div id="polarion_editor_html_block_content" contentEditable="false"></div><pre id="polarion_editor_html_block_source" class="polarion-dle-wiki-block-source" contentEditable="false">{code}
+## Only this line is a comment
+The comment will start soon ... ## this is the comment
+{code}</pre>
+</div><p id="polarion_8">
+  <span style="font-weight: bold;">multi line comment</span>
+</p><div id="polarion_editor_html_block4" class="polarion-dle-wiki-block">
+  <div id="polarion_editor_html_block_content" contentEditable="false"></div><pre id="polarion_editor_html_block_source" class="polarion-dle-wiki-block-source" contentEditable="false">{code}
+#*
+ all
+ of
+ these
+ lines
+ are
+ comments
+*#
+{code}</pre>
+</div><h3 id="polarion_wiki macro name=module-workitem;params=id=PUT-5164"></h3><p id="polarion_6">
+  There is no variable declaration in Velocity. The variable is declared with the first value assignment. Values to variables are set with the #set statement:
+</p><div id="polarion_editor_html_block7" class="polarion-dle-wiki-block">
+  <div id="polarion_editor_html_block_content" contentEditable="false"></div><pre id="polarion_editor_html_block_source" class="polarion-dle-wiki-block-source" contentEditable="false">{code}
+#set($var="This is a string") or
+#set($var='This is a string')
+{code}</pre>
+</div><p id="polarion_10">
+  The difference between &quot; and &#39; is that &#39; takes the whole string as it is and doesn&#39;t evaluate anything:
+</p><div id="polarion_editor_html_block8" class="polarion-dle-wiki-block">
+  <div id="polarion_editor_html_block_content" contentEditable="false"></div><pre id="polarion_editor_html_block_source" class="polarion-dle-wiki-block-source" contentEditable="false">{code}
+#set($string="This is a string")
+#set($var1="$string")
+#set($var2='$string')
+var1= $var1 \\
+var2= $var2 \\
+{code}</pre>
+</div><p id="polarion_12">
+  The statements above will display:
+</p><div id="polarion_editor_html_block9" class="polarion-dle-wiki-block">
+  <div id="polarion_editor_html_block_content" contentEditable="false"></div><pre id="polarion_editor_html_block_source" class="polarion-dle-wiki-block-source" contentEditable="false">
+{code}
+var1= This is a string
+var2= \$string
+{code}</pre>
+</div><p id="polarion_14">
+  This is useful if evaluating should be ommited or if you have mix with &quot; as in:
+</p><div id="polarion_editor_html_block10" class="polarion-dle-wiki-block">
+  <div id="polarion_editor_html_block_content" contentEditable="false"></div><pre id="polarion_editor_html_block_source" class="polarion-dle-wiki-block-source" contentEditable="false">{code}
+#set($query='document.id:"space/document name"')
+query= $query \\
+{code}</pre>
+</div><p id="polarion_15">
+  will display:
+</p><div id="polarion_editor_html_block11" class="polarion-dle-wiki-block">
+  <div id="polarion_editor_html_block_content" contentEditable="false"></div><pre id="polarion_editor_html_block_source" class="polarion-dle-wiki-block-source" contentEditable="false">{code}
+query= document.id:"space/document name"
+{code}</pre>
+</div><p id="polarion_16">
+  If the assignement is not properly finished:
+</p><div id="polarion_editor_html_block12" class="polarion-dle-wiki-block">
+  <div id="polarion_editor_html_block_content" contentEditable="false"></div><pre id="polarion_editor_html_block_source" class="polarion-dle-wiki-block-source" contentEditable="false">{code}
+#set($string="This is a string)
+{code}</pre>
+</div><p id="polarion_13">
+  an exception like this will be thrown:<img src="attachment:exception.jpg" style="width: 754px;height: 78px;"/>
+</p><h3 id="polarion_wiki macro name=module-workitem;params=id=PUT-5165"></h3><p id="polarion_17">
+  A variable is used also with the $ (as seen above). If a variable is used with text directly following the variable, Velocity provides a seperator:
+</p><div id="polarion_editor_html_block5" class="polarion-dle-wiki-block">
+  <div id="polarion_editor_html_block_content" contentEditable="false"></div><pre id="polarion_editor_html_block_source" class="polarion-dle-wiki-block-source" contentEditable="false">{code}
+#set($var="Polar")
+This is a training from $varion
+{code}
+</pre>
+</div><p id="polarion_7">
+  displays
+</p><div id="polarion_editor_html_block18" class="polarion-dle-wiki-block">
+  <div id="polarion_editor_html_block_content" contentEditable="false"></div><pre id="polarion_editor_html_block_source" class="polarion-dle-wiki-block-source" contentEditable="false">{code}
+This is a training from $varion
+{code}
+</pre>
+</div><p id="polarion_19">
+  In order to display Polarion the following code should be used:
+</p><div id="polarion_editor_html_block20" class="polarion-dle-wiki-block">
+  <div id="polarion_editor_html_block_content" contentEditable="false"></div><pre id="polarion_editor_html_block_source" class="polarion-dle-wiki-block-source" contentEditable="false">{code}
+#set($var="Polar")
+This is a training from ${var}ion
+{code}
+</pre>
+</div><p id="polarion_21">
+  will be shown as:
+</p><div id="polarion_editor_html_block22" class="polarion-dle-wiki-block">
+  <div id="polarion_editor_html_block_content" contentEditable="false"></div><pre id="polarion_editor_html_block_source" class="polarion-dle-wiki-block-source" contentEditable="false">{code}
+This is a training from Polarion
+{code}
+</pre>
+</div><p id="polarion_23">
+  Sometimes the content of a variable could not be determined for instance if a method name could not be found. In these cases it is a good practice to escape via &quot;!&quot;:
+</p><div id="polarion_editor_html_block24" class="polarion-dle-wiki-block">
+  <div id="polarion_editor_html_block_content" contentEditable="false"></div><pre id="polarion_editor_html_block_source" class="polarion-dle-wiki-block-source" contentEditable="false">{code}
+This is my e-mail account $email
+This is my e-mail account $!email
+{code}</pre>
+</div><p id="polarion_25">
+  If $email is not assigned a value, the two lines will display:
+</p><div id="polarion_editor_html_block14" class="polarion-dle-wiki-block">
+  <div id="polarion_editor_html_block_content" contentEditable="false"></div><pre id="polarion_editor_html_block_source" class="polarion-dle-wiki-block-source" contentEditable="false">{code}
+This is my e-mail account $email
+This is my e-mail account 
+{code}</pre>
+</div><p id="polarion_18">
+  {} and ! can be mixed:
+</p><div id="polarion_editor_html_block19" class="polarion-dle-wiki-block">
+  <div id="polarion_editor_html_block_content" contentEditable="false"></div><pre id="polarion_editor_html_block_source" class="polarion-dle-wiki-block-source" contentEditable="false">{code}
+This is my e-mail account $!{email}account
+{code}</pre>
+</div><p id="polarion_20">
+  will work.
+</p><div id="polarion_wiki macro name=module-workitem;params=id=PUT-5174"></div><div id="polarion_editor_html_block15" class="polarion-dle-wiki-block">
+  <div id="polarion_editor_html_block_content" contentEditable="false"></div><pre id="polarion_editor_html_block_source" class="polarion-dle-wiki-block-source" contentEditable="false">#spoiler("" "{code} ##This is my first Polarion Script
+#set($var="Polarion")
+This is my first velocity report inside of $var
+$varisgood \\
+${var}isgood \\
+$!varisgood \\
+$!{var}isgood
+{code}")</pre>
+</div><p id="polarion_22"></p><h3 id="polarion_wiki macro name=module-workitem;params=id=PUT-5166"></h3><p id="polarion_24">
+  Velocity supports the script writer with automatic substitution for getter and setter methods. The following statements are equal. Assume the variable $wi was assigned a workitem object:
+</p><div id="polarion_editor_html_block25" class="polarion-dle-wiki-block">
+  <div id="polarion_editor_html_block_content" contentEditable="false"></div><pre id="polarion_editor_html_block_source" class="polarion-dle-wiki-block-source" contentEditable="false">{code}
+$wi.getId()
+$wi.id
+but with mixed lower and capital letter 
+$wi.getAvailableActions()
+$wi.availableActions
+{code}</pre>
+</div><p id="polarion_26">
+  It should be defined which kind of reference to use. It is good practice to either use one of these two possibilities. This support only works with properties not with methods which have parameters.
+</p><h3 id="polarion_wiki macro name=module-workitem;params=id=PUT-5167"></h3><p id="polarion_27">
+  By assigning a value to a variable Velocity automatically assigns an object, which can be displayed. The following code will use the different datatypes from Velocity to assign them to different variables:
+</p><div id="polarion_editor_html_block28" class="polarion-dle-wiki-block">
+  <div id="polarion_editor_html_block_content" contentEditable="false"></div><pre id="polarion_editor_html_block_source" class="polarion-dle-wiki-block-source" contentEditable="false">{code}
+#set($string="This is a string")
+#set($bool=true)
+#set($number=2)
+#set($array=[1,2,3,4])
+
+$string.class \\
+$bool.class \\
+$number.class \\
+$array.class \\
+{code}</pre>
+</div><p id="polarion_29">
+  will display
+</p><div id="polarion_editor_html_block30" class="polarion-dle-wiki-block">
+  <div id="polarion_editor_html_block_content" contentEditable="false"></div><pre id="polarion_editor_html_block_source" class="polarion-dle-wiki-block-source" contentEditable="false">{code}
+class java.lang.String 
+class java.lang.Boolean 
+class java.lang.Integer 
+class java.util.ArrayList
+{code}</pre>
+</div><p id="polarion_31">
+  This also works with other objects retreived from any other call. Assume the varibale $wi was assigned a workitem object:
+</p><div id="polarion_editor_html_block32" class="polarion-dle-wiki-block">
+  <div id="polarion_editor_html_block_content" contentEditable="false"></div><pre id="polarion_editor_html_block_source" class="polarion-dle-wiki-block-source" contentEditable="false">{code}
+$wi.class \\
+{code}</pre>
+</div><p id="polarion_33">
+  will display the following class name:
+</p><div id="polarion_editor_html_block34" class="polarion-dle-wiki-block">
+  <div id="polarion_editor_html_block_content" contentEditable="false"></div><pre id="polarion_editor_html_block_source" class="polarion-dle-wiki-block-source" contentEditable="false">{code}
+class com.polarion.alm.tracker.internal.model.WorkItem
+{code}</pre>
+</div><p id="polarion_35">
+  Polarion objects without the class property are shown like this:
+</p><div id="polarion_editor_html_block36" class="polarion-dle-wiki-block">
+  <div id="polarion_editor_html_block_content" contentEditable="false"></div><pre id="polarion_editor_html_block_source" class="polarion-dle-wiki-block-source" contentEditable="false">{code}
+PObject(WorkItem; subterra:data-service:objects:/default/wiki${WorkItem}WIKI-19) 
+{code}</pre>
+</div><p id="polarion_37">
+  This is a kind of debugging style to show the class names and/or the Polarion way to render the class. In Velocity it is not possible to create a new object. There is no &quot;new&quot; operator. Due to security reasons to creat new objects, it is necessary to implement a java program which instantiates a new object and returns it to Velocity.
+</p><p id="polarion_28">
+  On the extension page such a plugin is available: <a href="http://extensions.polarion.com/polarion/extensions/extension.jsp?extension=PE-174" target="_blank" class="descriptionLink">Polarion wiki scripting tools</a> which should be mandatory if you work with Velocity.
+</p><p id="polarion_32">
+  After installing it, the variable $objectFactory is available. If you need a java.util.Map class then newMap() should be called:
+</p><div id="polarion_editor_html_block38" class="polarion-dle-wiki-block">
+  <div id="polarion_editor_html_block_content" contentEditable="false"></div><pre id="polarion_editor_html_block_source" class="polarion-dle-wiki-block-source" contentEditable="false">{code}
+#set($map=$objectFactory.newMap()) 
+#set($oldValue=$map.put("key0","value0"))
+#set($oldValue=$map.put("key1","value1"))
+map= $map \\
+{code}</pre>
+</div><p id="polarion_39">
+  will display all keys and their values.
+</p><div id="polarion_editor_html_block40" class="polarion-dle-wiki-block">
+  <div id="polarion_editor_html_block_content" contentEditable="false"></div><pre id="polarion_editor_html_block_source" class="polarion-dle-wiki-block-source" contentEditable="false">{code}
+map= {key0=value0, key1=value1} 
+{code}</pre>
+</div><div id="polarion_wiki macro name=module-workitem;params=id=PUT-5175"></div><div id="polarion_editor_html_block16" class="polarion-dle-wiki-block">
+  <div id="polarion_editor_html_block_content" contentEditable="false"></div><pre id="polarion_editor_html_block_source" class="polarion-dle-wiki-block-source" contentEditable="false">#spoiler("" "{code}
+#set($string="Daniel Morris")  
+#set($number=30) 
+#set($array=["John","Maria"]) 
+ 
+Name: $string ($string.class) \\
+Age: $number ($number.class) \\ 
+Parents: $array ($array.class) \\
+{code}")</pre>
+</div><div id="polarion_wiki macro name=module-workitem;params=id=PUT-5176"></div><div id="polarion_editor_html_block17" class="polarion-dle-wiki-block">
+  <div id="polarion_editor_html_block_content" contentEditable="false"></div><pre id="polarion_editor_html_block_source" class="polarion-dle-wiki-block-source" contentEditable="false">#spoiler("" "{code}
+#set($parents=$objectFactory.newMap()) 
+#set($oldValue=$parents.put("Father","John"))
+#set($oldValue=$parents.put("Mother","Maria"))
+Parents = $parents \\
+{code}")</pre>
+</div><p id="polarion_34"></p><h3 id="polarion_wiki macro name=module-workitem;params=id=PUT-5168"></h3><p id="polarion_30">
+  Velocity provides if/else and if/elseif/else statements. The following table defines the operators to be used.
+</p><p id="polarion_36"></p><table id="polarion_wiki macro name=table;params=uid=1" class="polarion-Document-table" style="width: 80%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;">
+  <tbody>
+    <tr>
+      <th style="font-weight: bold;font-size: 9pt;background-color: #F0F0F0;line-height: 1.5;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Operator </th>
+      <th style="font-weight: bold;font-size: 9pt;background-color: #F0F0F0;line-height: 1.5;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"> Condition</th>
+      <th style="font-weight: bold;font-size: 9pt;background-color: #F0F0F0;line-height: 1.5;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"> Example</th>
+    </tr>
+    <tr>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"> ==</td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"> <span style="font-family: Arial, Helvetica, sans-serif;">equivalent test, both variables should have the same data type</span></td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"> <span style="font-family: Arial, Helvetica, sans-serif;">$var1 == $var2</span></td>
+    </tr>
+    <tr>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"> &gt;</td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"> <span style="font-family: Arial, Helvetica, sans-serif;">greater than test</span></td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"> <span style="font-family: Arial, Helvetica, sans-serif;">$var1 &gt; $var2</span></td>
+    </tr>
+    <tr>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">&lt; </td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"> <span style="font-family: Arial, Helvetica, sans-serif;">less than test</span></td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"> <span style="font-family: Arial, Helvetica, sans-serif;">$var1 &lt; $var2</span></td>
+    </tr>
+    <tr>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">&gt;= </td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"> <span style="font-family: Arial, Helvetica, sans-serif;">greater or equal than test</span></td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"> <span style="font-family: Arial, Helvetica, sans-serif;">$var1 &gt;= $var2</span></td>
+    </tr>
+    <tr>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">&lt;= </td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"> <span style="font-family: Arial, Helvetica, sans-serif;">less or equal than test</span></td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"> <span style="font-family: Arial, Helvetica, sans-serif;">$var1 &lt;= $var2</span></td>
+    </tr>
+    <tr>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">&amp;&amp; </td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"> <span style="font-family: Arial, Helvetica, sans-serif;">logical AND test</span></td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"> <span style="font-family: Arial, Helvetica, sans-serif;">$var1 &amp;&amp; $var2</span></td>
+    </tr>
+    <tr>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">|| </td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"> <span style="font-family: Arial, Helvetica, sans-serif;">logical OR test</span></td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"> <span style="font-family: Arial, Helvetica, sans-serif;">$var1 || $var2</span></td>
+    </tr>
+    <tr>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">! </td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"> <span style="font-family: Arial, Helvetica, sans-serif;">logical NOT test, tests if the variable is not true</span></td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"> <span style="font-family: Arial, Helvetica, sans-serif;">!$var1</span></td>
+    </tr>
+  </tbody>
+</table><div id="polarion_editor_html_block21" class="polarion-dle-wiki-block">
+  <div id="polarion_editor_html_block_content" contentEditable="false"></div><pre id="polarion_editor_html_block_source" class="polarion-dle-wiki-block-source" contentEditable="false">{code}
+#if ($var1 == $var2)
+  This is equal
+#else
+  This is not equal
+#end
+
+#if ($var1 == $var2)
+  This is equal
+#elseif ($var1 &gt; $var2)
+  This is greater
+#else
+  not equal and not greater
+#end
+{code}</pre>
+</div><p id="polarion_38">
+  The examples assume the variables are set to some meaningful values.
+</p><div id="polarion_wiki macro name=module-workitem;params=id=PUT-5177"></div><div id="polarion_editor_html_block23" class="polarion-dle-wiki-block">
+  <div id="polarion_editor_html_block_content" contentEditable="false"></div><pre id="polarion_editor_html_block_source" class="polarion-dle-wiki-block-source" contentEditable="false">#spoiler("" "{code}
+#set($age=$objectFactory.newMap()) 
+#set($oldValue=$age.put("John",60))
+#set($oldValue=$age.put("Maria",56))
+
+
+#if($age.get("John") == $age.get("Maria")) 
+John ($age.get("John")) is as old as Maria ($age.get("Maria"))
+#elseif($age.get("John") &gt; $age.get("Maria")) 
+John ($age.get("John")) is older than Maria ($age.get("Maria"))
+#else
+Maria ($age.get("Maria")) is older than John ($age.get("John"))
+#end 
+{code}")</pre>
+</div><p id="polarion_41"></p><h3 id="polarion_wiki macro name=module-workitem;params=id=PUT-5169"></h3><p id="polarion_40">
+  Velocity only has one loop construct named #foreach where there are three different conditions are possible:
+</p><div id="polarion_editor_html_block41" class="polarion-dle-wiki-block">
+  <div id="polarion_editor_html_block_content" contentEditable="false"></div><pre id="polarion_editor_html_block_source" class="polarion-dle-wiki-block-source" contentEditable="false">{code}
+#foreach($item in $items) #end -&gt; iterates over the items
+#foreach($item in ["A","B","C"]) #end -&gt; iterates over A, B, and C
+#foreach($item in [1..5]) #end -&gt; iterates over a range
+{code}</pre>
+</div><div id="polarion_wiki macro name=module-workitem;params=id=PUT-5178"></div><div id="polarion_editor_html_block26" class="polarion-dle-wiki-block">
+  <div id="polarion_editor_html_block_content" contentEditable="false"></div><pre id="polarion_editor_html_block_source" class="polarion-dle-wiki-block-source" contentEditable="false">#spoiler("" "{code}
+#set($family=["John","Maria","Larissa","Gavin","Daniel"])
+#foreach($member in $family)
+	#if($velocityCount&lt;$family.size())
+		$member,
+	#else
+		$member
+	#end
+#end
+are $family.size() people.
+{code}")</pre>
+</div><p id="polarion_42"></p><h3 id="polarion_wiki macro name=module-workitem;params=id=PUT-5170"></h3><p id="polarion_43">
+  Macros in Velocity are grouped statements, which can be called and performed where ever a single statement may be executed. Macros normaly resides in Wiki-Pages and included into other Wiki-Pages whenever the code is needed.
+</p><div id="polarion_editor_html_block44" class="polarion-dle-wiki-block">
+  <div id="polarion_editor_html_block_content" contentEditable="false"></div><pre id="polarion_editor_html_block_source" class="polarion-dle-wiki-block-source" contentEditable="false">{code}
+Include from another wiki page:
+#includeMacro("SPACENAME.WIKINAME") 
+Definition of macro:
+#macro(macroname $macroparameter) #end
+Call of macro:
+#macroname($macroparameter)
+{code}</pre>
+</div><div id="polarion_wiki macro name=module-workitem;params=id=PUT-5180"></div><div id="polarion_editor_html_block27" class="polarion-dle-wiki-block">
+  <div id="polarion_editor_html_block_content" contentEditable="false"></div><pre id="polarion_editor_html_block_source" class="polarion-dle-wiki-block-source" contentEditable="false">#spoiler("" "{code}
+#macro(familylist $familymember)
+#set($family=$familymember)
+#foreach($member in $family)
+	#if($velocityCount&lt;$family.size())
+		$member,
+	#else
+		$member
+	#end
+#end
+are $family.size() people.
+#end
+
+#familylist(["John","Maria","Larissa","Gavin","Daniel"])\\
+#familylist(["Elke","Ludger","Lea","Sarah"])
+{code}")</pre>
+</div><h3 id="polarion_wiki macro name=module-workitem;params=id=PUT-5179"></h3><p id="polarion_45">
+  From time to time, Polarion wiki pages can leverage HTML to control the display of information that has been gathered via Velocity scripts, Javascript, and Polarion macros.  In the course of this training, we will cover some of the important programming elements available to HTML as it pertains to Polarion, but it will not be a full treatment of HTML.
+</p><div id="polarion_editor_html_block37" class="polarion-dle-wiki-block">
+  <div id="polarion_editor_html_block_content" contentEditable="false"></div><pre id="polarion_editor_html_block_source" class="polarion-dle-wiki-block-source" contentEditable="false">{code}
+&lt;table width=300px style="background-color:green"&gt;
+&lt;tr&gt;
+&lt;th&gt;My HTML table&lt;/th&gt;
+&lt;th&gt;Another table row&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td colspan="2"&gt;&lt;b&gt;Example&lt;/b&gt; content&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+{code}</pre>
+</div><div id="polarion_wiki macro name=module-workitem;params=id=PUT-5181"></div><div id="polarion_editor_html_block39" class="polarion-dle-wiki-block">
+  <div id="polarion_editor_html_block_content" contentEditable="false"></div><pre id="polarion_editor_html_block_source" class="polarion-dle-wiki-block-source" contentEditable="false">#spoiler("" "{code}
+#set($age=$objectFactory.newMap()) 
+#set($oldValue=$age.put("John",60))
+#set($oldValue=$age.put("Maria",56))
+#set($oldValue=$age.put("Larissa",20))
+#set($oldValue=$age.put("Gavin",18))
+#set($oldValue=$age.put("Daniel",30))
+
+#set($family=["John","Maria","Larissa","Gavin","Daniel"])
+
+&lt;table width=300px&gt;
+	&lt;tr&gt;
+		&lt;th&gt;Name&lt;/th&gt;
+                &lt;th&gt;Age&lt;/th&gt;
+	&lt;/tr&gt;
+	#foreach($member in $family)
+		&lt;tr&gt;&lt;td&gt;$member&lt;/td&gt;&lt;td&gt;$age.get($member)&lt;/td&gt;&lt;/tr&gt;
+	#end
+&lt;/table&gt;
+{code}")</pre>
+</div><p id="polarion_54"></p><h3 id="polarion_wiki macro name=module-workitem;params=id=PUT-5171"></h3><p id="polarion_46">
+  If you are working with Wiki-Pages it is necessary to get data from the user in order to display information. Normally you have to deal with the the $request class to obtain the parameter from the URL. Polarion provides makro which gives you the opportunity to handle parameter from Wiki-Pages easily. The following statement defines a parameter:
+</p><div id="polarion_editor_html_block47" class="polarion-dle-wiki-block">
+  <div id="polarion_editor_html_block_content" contentEditable="false"></div><pre id="polarion_editor_html_block_source" class="polarion-dle-wiki-block-source" contentEditable="false">{code}
+(parameter:query|type=string|value=type:requirement)
+{code}</pre>
+</div><p id="polarion_48">
+  The name is query and the type is a string. This definition can also be used for any parameter which are send to the current wiki page. If the wiki page is called with
+</p><div id="polarion_editor_html_block33" class="polarion-dle-wiki-block">
+  <div id="polarion_editor_html_block_content" contentEditable="false"></div><pre id="polarion_editor_html_block_source" class="polarion-dle-wiki-block-source" contentEditable="false">{code}
+http://server:port/polarion/#/wiki/space/document?query=type:requirement
+{code}</pre>
+</div><p id="polarion_50">
+  the parameter query contains the parameter from the URL:
+</p><div id="polarion_editor_html_block35" class="polarion-dle-wiki-block">
+  <div id="polarion_editor_html_block_content" contentEditable="false"></div><pre id="polarion_editor_html_block_source" class="polarion-dle-wiki-block-source" contentEditable="false">{code}
+IGONRE ":" at start of "parameter:query" in next line paramter should be added without ":"
+{:parameter:query|type=string|value=type:requirement}
+query= $pageParameters.query \\
+{code}</pre>
+</div><p id="polarion_52">
+  will display query=type:requirement if the page is called without any parameter. But if the page is called with ?query=type:usecase the page parameter is set to type:usecase.
+</p><p id="polarion_47"></p><p id="polarion_49">
+  If the user should enter data into the Wiki page, Polarion offers a macro to define the entry form and input fields specific to the datatype of the parameter. Details can be found in the Polarion Detailed Syntax help, available from nay wiki page in edit mode.
+</p><table id="polarion_wiki macro name=table;params=width=99.74%|uid=1" class="polarion-Document-table" style="width: 99.74%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;">
+  <tbody>
+    <tr>
+      <th style="font-weight: bold;font-size: 9pt;background-color: #F0F0F0;line-height: 1.5;text-align: left;vertical-align: top;width: 68px;height: 23px;border: 1px solid #CCCCCC;padding: 5px;">Datatype </th>
+      <th style="font-weight: bold;font-size: 9pt;background-color: #F0F0F0;line-height: 1.5;text-align: left;vertical-align: top;width: 187px;height: 23px;border: 1px solid #CCCCCC;padding: 5px;">Decription </th>
+      <th style="font-weight: bold;font-size: 9pt;background-color: #F0F0F0;line-height: 1.5;text-align: left;vertical-align: top;width: 84px;height: 23px;border: 1px solid #CCCCCC;padding: 5px;">Rendered as </th>
+      <th style="font-weight: bold;font-size: 9pt;background-color: #F0F0F0;line-height: 1.5;text-align: left;vertical-align: top;width: 368px;height: 23px;border: 1px solid #CCCCCC;padding: 5px;">Return object </th>
+    </tr>
+    <tr>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 68px;height: 20px;border: 1px solid #CCCCCC;padding: 5px;">String</td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 187px;height: 20px;border: 1px solid #CCCCCC;padding: 5px;"> <span style="font-family: Arial, Helvetica, sans-serif;">a single line (default value)</span></td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 84px;height: 20px;border: 1px solid #CCCCCC;padding: 5px;"> <span style="font-family: Arial, Helvetica, sans-serif;">textbox</span></td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 368px;height: 20px;border: 1px solid #CCCCCC;padding: 5px;"> <span style="font-family: Arial, Helvetica, sans-serif;">java.lang.String</span></td>
+    </tr>
+    <tr>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 68px;height: 18px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-family: Arial, Helvetica, sans-serif;">Boolean</span></td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 187px;height: 18px;border: 1px solid #CCCCCC;padding: 5px;"> <span style="font-family: Arial, Helvetica, sans-serif;">true/false entry</span></td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 84px;height: 18px;border: 1px solid #CCCCCC;padding: 5px;"> <span style="font-family: Arial, Helvetica, sans-serif;">checkbox</span></td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 368px;height: 18px;border: 1px solid #CCCCCC;padding: 5px;"> <span style="font-family: Arial, Helvetica, sans-serif;">java.lang.Boolean</span></td>
+    </tr>
+    <tr>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 68px;height: 18px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-family: Arial, Helvetica, sans-serif;">Date</span></td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 187px;height: 18px;border: 1px solid #CCCCCC;padding: 5px;"> <span style="font-family: Arial, Helvetica, sans-serif;">a single line with calendar</span></td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 84px;height: 18px;border: 1px solid #CCCCCC;padding: 5px;"> <span style="font-family: Arial, Helvetica, sans-serif;">date picker</span></td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 368px;height: 18px;border: 1px solid #CCCCCC;padding: 5px;"> <span style="font-family: Arial, Helvetica, sans-serif;">java.util.date</span></td>
+    </tr>
+    <tr>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 68px;height: 20px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-family: Arial, Helvetica, sans-serif;">timepoint</span> </td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 187px;height: 20px;border: 1px solid #CCCCCC;padding: 5px;"> <span style="font-family: Arial, Helvetica, sans-serif;">a selection of timePoints</span></td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 84px;height: 20px;border: 1px solid #CCCCCC;padding: 5px;"> <span style="font-family: Arial, Helvetica, sans-serif;">combobox</span></td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 368px;height: 20px;border: 1px solid #CCCCCC;padding: 5px;"> <span style="font-family: Arial, Helvetica, sans-serif;">com.polarion.alm.tracker.internal.model.TimePoint</span></td>
+    </tr>
+    <tr>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 68px;height: 18px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-family: Arial, Helvetica, sans-serif;">user</span></td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 187px;height: 18px;border: 1px solid #CCCCCC;padding: 5px;"> <span style="font-family: Arial, Helvetica, sans-serif;">a selection of users</span></td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 84px;height: 18px;border: 1px solid #CCCCCC;padding: 5px;"> <span style="font-family: Arial, Helvetica, sans-serif;">combobox</span></td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 368px;height: 18px;border: 1px solid #CCCCCC;padding: 5px;"> <span style="font-family: Arial, Helvetica, sans-serif;">com.polarion.alm.tracker.internal.model.TrackerUser</span></td>
+    </tr>
+    <tr>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 68px;height: 15px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-family: Arial, Helvetica, sans-serif;">enum</span></td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 187px;height: 15px;border: 1px solid #CCCCCC;padding: 5px;"> <span style="font-family: Arial, Helvetica, sans-serif;">a selection of the enumeration</span></td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 84px;height: 15px;border: 1px solid #CCCCCC;padding: 5px;"> <span style="font-family: Arial, Helvetica, sans-serif;">combobox</span></td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 368px;height: 15px;border: 1px solid #CCCCCC;padding: 5px;"> <span style="font-family: Arial, Helvetica, sans-serif;">com.polarion.platform.persistence.spi.DelegatingOption</span></td>
+    </tr>
+    <tr>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 68px;height: 18px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-family: Arial, Helvetica, sans-serif;">project</span></td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 187px;height: 18px;border: 1px solid #CCCCCC;padding: 5px;"> <span style="font-family: Arial, Helvetica, sans-serif;">a selection of the projects</span></td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 84px;height: 18px;border: 1px solid #CCCCCC;padding: 5px;"> <span style="font-family: Arial, Helvetica, sans-serif;">combobox</span></td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 368px;height: 18px;border: 1px solid #CCCCCC;padding: 5px;"> <span style="font-family: Arial, Helvetica, sans-serif;">com.polarion.alm.projects.internal.model.Project</span></td>
+    </tr>
+  </tbody>
+</table><p id="polarion_53">
+  Only string delivers a string, all other datatypes delivering the corresponding objects:
+</p><div id="polarion_editor_html_block54" class="polarion-dle-wiki-block">
+  <div id="polarion_editor_html_block_content" contentEditable="false"></div><pre id="polarion_editor_html_block_source" class="polarion-dle-wiki-block-source" contentEditable="false">{code}
+(parameter:project|type=project)
+
+{parameter-form}
+Project: {parameter-editor:project}
+{parameter-form-submit}
+{parameter-form}
+
+#if($pageParameters.project)
+  project= $!pageParameters.project \\
+  project= $!pageParameters.project.name \\
+#end	
+{code}</pre>
+</div><p id="polarion_55">
+  renderes as
+</p><div id="polarion_editor_html_block56" class="polarion-dle-wiki-block">
+  <div id="polarion_editor_html_block_content" contentEditable="false"></div><pre id="polarion_editor_html_block_source" class="polarion-dle-wiki-block-source" contentEditable="false">{code}
+project= PObject(Project; subterra:data-service:objects:/default/AdavancedWikiSDK${Project}AdavancedWikiSDK) 
+project= AdavancedWikiSDK 
+{code}</pre>
+</div><div id="polarion_wiki macro name=module-workitem;params=id=PUT-5182"></div><div id="polarion_editor_html_block29" class="polarion-dle-wiki-block">
+  <div id="polarion_editor_html_block_content" contentEditable="false"></div><pre id="polarion_editor_html_block_source" class="polarion-dle-wiki-block-source" contentEditable="false">#spoiler("" "{code}
+REMOVE ":" at start of "parameter:answer" in next line
+{:parameter:answer|type=boolean}
+{parameter-form} 
+	&lt;table style="border:1px dotted red" cellpadding=10px&gt;
+	   &lt;tr&gt;
+              &lt;td&gt;Are we able to script our own wiki pages after training?&lt;/td&gt;  
+	      #if($!pageParameters.answer)
+	         &lt;td&gt;*Good Job!*&lt;/td&gt;
+	      #else
+	         &lt;td&gt;Oh no :(&lt;/td&gt;
+	      #end
+	   &lt;/tr&gt;
+	&lt;/table&gt;
+{parameter-editor:answer} 
+{parameter-form-submit} 
+{parameter-form}
+{code}")</pre>
+</div><div id="polarion_wiki macro name=module-workitem;params=id=PUT-5183"></div><div id="polarion_editor_html_block31" class="polarion-dle-wiki-block">
+  <div id="polarion_editor_html_block_content" contentEditable="false"></div><pre id="polarion_editor_html_block_source" class="polarion-dle-wiki-block-source" contentEditable="false">#spoiler("" "{code}
+ http://YOURSERVER:YOURPORT/polarion/#/wiki/YOURSPACE/YOURDOCUMENTNAME?answer=true")
+{code}")</pre>
+</div><p id="polarion_44"></p><h2 id="polarion_wiki macro name=module-workitem;params=id=PUT-5160"></h2><p id="polarion_51">
+  This chapter gives an overview of the Polarion API usable from wiki pages. It is different from the WebService interface and also from the API which is usable from a Java program. The Wiki-Polarion-API may be extended, but this overview covers the standard Wiki-Polarion-API. The first reference can be found in the Polarion Help by querying &quot;velocity variables&quot;. The table gives an overview of the objects available in the Velocity context.
+</p><p id="polarion_2">
+  The Polarion-API is part of the SDK and can be found <a href="http://almdemo.polarion.com/polarion/sdk/doc/javadoc/index.html" target="_blank" class="descriptionLink">here</a>
+</p><h3 id="polarion_wiki macro name=module-workitem;params=id=PUT-5184"></h3><p id="polarion_5">
+  The Polarion help (Adminitration Reference -&gt; Context VariablesI) defines the classes Polarion adds to the Velocity context.
+</p><p id="polarion_113"></p><table id="polarion_wiki macro name=table;params=width=99.74%|uid=114" class="polarion-Document-table" style="width: 99.74%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;">
+  <tbody>
+    <tr>
+      <th style="font-weight: bold;font-size: 9pt;background-color: #F0F0F0;line-height: 1.5;text-align: left;vertical-align: top;width: 142px;height: 18px;border: 1px solid #CCCCCC;padding: 5px;"> <span style="font-family: Arial, Helvetica, sans-serif;">Variable</span></th>
+      <th style="font-weight: bold;font-size: 9pt;background-color: #F0F0F0;line-height: 1.5;text-align: left;vertical-align: top;width: 283px;height: 18px;border: 1px solid #CCCCCC;padding: 5px;"> <span style="font-family: Arial, Helvetica, sans-serif;">API Class</span></th>
+      <th style="font-weight: bold;font-size: 9pt;background-color: #F0F0F0;line-height: 1.5;text-align: left;vertical-align: top;width: 170px;height: 18px;border: 1px solid #CCCCCC;padding: 5px;">Description </th>
+      <th style="font-weight: bold;font-size: 9pt;background-color: #F0F0F0;line-height: 1.5;text-align: left;vertical-align: top;width: 74px;height: 18px;border: 1px solid #CCCCCC;padding: 5px;">Example </th>
+      <th style="font-weight: bold;font-size: 9pt;background-color: #F0F0F0;line-height: 1.5;text-align: left;vertical-align: top;width: 27px;height: 18px;border: 1px solid #CCCCCC;padding: 5px;">Link </th>
+    </tr>
+    <tr>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 142px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-family: Arial, Helvetica, sans-serif;">$calendarTool</span></td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 283px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;"> <span style="font-family: Arial, Helvetica, sans-serif;">com.polarion.wiki.util.CalendarTool</span></td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 170px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-family: Arial, Helvetica, sans-serif;">This service provides getCalendar() methods in order to obtain an object of type java.util.GregorianCalendar.</span></td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 74px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;">Milli seconds,<br/>
+        Day of month</td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 27px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;"> <a href="http://almdemo.polarion.com/polarion/sdk/doc/javadoc/com/polarion/wiki/util/CalendarTool.html" target="_blank" class="descriptionLink">link</a> </td>
+    </tr>
+    <tr>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 142px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;">$document</td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 283px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;">com.polarion.alm.tracker.internal.model.Module</td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 170px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;">Reference for the object representing the Polarion LiveDoc.</td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 74px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;">Document items<br/>
+        custom fields</td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 27px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;"></td>
+    </tr>
+    <tr>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 142px;height: 18px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-family: Arial, Helvetica, sans-serif;">$me</span></td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 283px;height: 18px;border: 1px solid #CCCCCC;padding: 5px;"> <span style="font-family: Arial, Helvetica, sans-serif;">Velocity only - the User Id of the current user</span></td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 170px;height: 18px;border: 1px solid #CCCCCC;padding: 5px;">You can use this variable to create personalized wiki pages</td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 74px;height: 18px;border: 1px solid #CCCCCC;padding: 5px;">All work items assigned to me</td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 27px;height: 18px;border: 1px solid #CCCCCC;padding: 5px;"></td>
+    </tr>
+    <tr>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 142px;height: 66px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-family: Arial, Helvetica, sans-serif;">$page</span></td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 283px;height: 66px;border: 1px solid #CCCCCC;padding: 5px;"> <span style="font-family: Arial, Helvetica, sans-serif;">com.polarion.alm.wiki.model.IWikiPage</span></td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 170px;height: 66px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-family: Arial, Helvetica, sans-serif;">This service provides information of the current wiki page.</span></td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 74px;height: 66px;border: 1px solid #CCCCCC;padding: 5px;">Page project, Page space, Page name, Page Uri</td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 27px;height: 66px;border: 1px solid #CCCCCC;padding: 5px;"> <a href="http://almdemo.polarion.com/polarion/sdk/doc/javadoc/com/polarion/alm/wiki/model/IWikiPage.html" target="_blank" class="descriptionLink">link</a>  </td>
+    </tr>
+    <tr>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 142px;height: 66px;border: 1px solid #CCCCCC;padding: 5px;">$plan</td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 283px;height: 66px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">com.polarion.alm.tracker.internal.model.Plan</span></td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 170px;height: 66px;border: 1px solid #CCCCCC;padding: 5px;">Reference for the Object representing the Polarion Plan.</td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 74px;height: 66px;border: 1px solid #CCCCCC;padding: 5px;">Planned items<br/>
+        due date<br/>
+        </td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 27px;height: 66px;border: 1px solid #CCCCCC;padding: 5px;"></td>
+    </tr>
+    <tr>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 142px;height: 55px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-family: Arial, Helvetica, sans-serif;">$platformService</span> </td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 283px;height: 55px;border: 1px solid #CCCCCC;padding: 5px;"> <span style="font-family: Arial, Helvetica, sans-serif;">com.polarion.platform.IPlatformService</span></td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 170px;height: 55px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-family: Arial, Helvetica, sans-serif;">This service retrieves the Polarion product name and the currently used Polarion version</span></td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 74px;height: 55px;border: 1px solid #CCCCCC;padding: 5px;">Product, Version</td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 27px;height: 55px;border: 1px solid #CCCCCC;padding: 5px;"> <a href="http://almdemo.polarion.com/polarion/sdk/doc/javadoc/com/polarion/platform/IPlatformService.html" target="_blank" class="descriptionLink">link</a> </td>
+    </tr>
+    <tr>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 142px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-family: Arial, Helvetica, sans-serif;">$projectService</span> </td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 283px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;"> <span style="font-family: Arial, Helvetica, sans-serif;">com.polarion.alm.projects.IProjectService</span></td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 170px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-family: Arial, Helvetica, sans-serif;">This service provides methods to manage projects.</span></td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 74px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;">All users</td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 27px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;"> <a href="http://almdemo.polarion.com/polarion/sdk/doc/javadoc/com/polarion/alm/projects/IProjectService.html" target="_blank" class="descriptionLink">link</a> </td>
+    </tr>
+    <tr>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 142px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-family: Arial, Helvetica, sans-serif;">$securityService</span> </td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 283px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;"> <span style="font-family: Arial, Helvetica, sans-serif;">com.polarion.platform.security.ISecurityService</span></td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 170px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-family: Arial, Helvetica, sans-serif;">This service provides methods to manage users, roles and the relationsshios between them.</span></td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 74px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;">Global roles for current user,<br/>
+        Project roles for current user</td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 27px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;"> <a href="http://almdemo.polarion.com/polarion/sdk/doc/javadoc/com/polarion/platform/security/ISecurityService.html" target="_blank" class="descriptionLink">link</a> </td>
+    </tr>
+    <tr>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 142px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-family: Arial, Helvetica, sans-serif;">$testManagementService</span> </td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 283px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;"> <span style="font-family: Arial, Helvetica, sans-serif;">com.polarion.alm.tracker.ITestManagementService</span></td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 170px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;">This service provides methods to manage everything about test management.</td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 74px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;">Get last test records</td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 27px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;"> <a href="http://almdemo.polarion.com/polarion/sdk/doc/javadoc/com/polarion/alm/tracker/ITestManagementService.html" target="_blank" class="descriptionLink">link</a> </td>
+    </tr>
+    <tr>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 142px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;">$testRun</td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 283px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">com.polarion.alm.tracker.internal.model.TestRun</span></td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 170px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;">The Object representing the current Test Run.</td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 74px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;">Included test cases</td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 27px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;"></td>
+    </tr>
+    <tr>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 142px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-family: Arial, Helvetica, sans-serif;">$trackerService</span> </td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 283px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;"> <span style="font-family: Arial, Helvetica, sans-serif;">com.polarion.alm.tracker.ITrackerService</span></td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 170px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-family: Arial, Helvetica, sans-serif;">This most used service. It provides other objects from the system and many useful methods.</span></td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 74px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;">Query work items</td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 27px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;"> <a href="http://almdemo.polarion.com/polarion/sdk/doc/javadoc/com/polarion/alm/tracker/ITrackerService.html" target="_blank" class="descriptionLink">link</a> </td>
+    </tr>
+    <tr>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 142px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-family: Arial, Helvetica, sans-serif;">$transactionService</span> </td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 283px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;"> <span style="font-family: Arial, Helvetica, sans-serif;">com.polarion.platform.ITransactionService</span></td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 170px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-family: Arial, Helvetica, sans-serif;">This service provides transaction methods. Every change of workitems must be surrounded by a transaction.</span></td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 74px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-family: Arial, Helvetica, sans-serif;">The methods are beginTx(), endTx(), and commitTx().</span></td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 27px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;"> <a href="http://almdemo.polarion.com/polarion/sdk/doc/javadoc/com/polarion/platform/ITransactionService.html" target="_blank" class="descriptionLink">link</a> </td>
+    </tr>
+    <tr>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 142px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-family: Arial, Helvetica, sans-serif;">$wikiService</span> </td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 283px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;"> <span style="font-family: Arial, Helvetica, sans-serif;">com.polarion.alm.wiki.IWikiService</span></td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 170px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-family: Arial, Helvetica, sans-serif;">This service get information of the spaces and the pages within the spaces.</span></td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 74px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;">List of all spaces</td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 27px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;"> <a href="http://almdemo.polarion.com/polarion/sdk/doc/javadoc/com/polarion/alm/wiki/IWikiService.html" target="_blank" class="descriptionLink">link</a> </td>
+    </tr>
+  </tbody>
+</table><div id="polarion_wiki macro name=module-workitem;params=id=PUT-5186"></div><h3 id="polarion_wiki macro name=module-workitem;params=id=PUT-5187"></h3><p id="polarion_97">
+  The <a href="http://almdemo.polarion.com/polarion/sdk/doc/javadoc/com/polarion/alm/tracker/ITrackerService.html" target="_blank" class="descriptionLink">$trackerService</a> provides many getter methods for other context variables. The next table lists all get methods which are returning new manager objects:
+</p><table id="polarion_wiki macro name=table;params=width=100%|uid=98" class="polarion-Document-table" style="width: 753px;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;">
+  <tbody>
+    <tr>
+      <th style="font-size: 9pt;background-color: #F0F0F0;line-height: 1.5;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Manager </th>
+      <th style="font-size: 9pt;background-color: #F0F0F0;line-height: 1.5;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Class </th>
+      <th style="font-size: 9pt;background-color: #F0F0F0;line-height: 1.5;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Description </th>
+      <th style="font-size: 9pt;background-color: #F0F0F0;line-height: 1.5;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Link </th>
+    </tr>
+    <tr>
+      <td style="font-size: 9pt;line-height: 1.5;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"> <span style="font-family: Arial, Helvetica, sans-serif;">moduleManager</span></td>
+      <td style="font-size: 9pt;line-height: 1.5;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"> <span style="font-family: Arial, Helvetica, sans-serif;">com.polarion.alm.tracker.IModuleManager</span></td>
+      <td style="font-size: 9pt;line-height: 1.5;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-family: Arial, Helvetica, sans-serif;">Manages creating, duplciating, branching of Polarion documents (and old fashion styled Modules Version 2011)</span></td>
+      <td style="font-size: 9pt;line-height: 1.5;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"> <a href="http://almdemo.polarion.com/polarion/sdk/doc/javadoc/com/polarion/alm/tracker/IModuleManager.html" target="_blank" class="descriptionLink">link</a> </td>
+    </tr>
+    <tr>
+      <td style="font-size: 9pt;line-height: 1.5;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"> <span style="font-family: Arial, Helvetica, sans-serif;">timePointsManager</span></td>
+      <td style="font-size: 9pt;line-height: 1.5;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"> <span style="font-family: Arial, Helvetica, sans-serif;">com.polarion.alm.tracker.ITimePointsManager</span></td>
+      <td style="font-size: 9pt;line-height: 1.5;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-family: Arial, Helvetica, sans-serif;">Provides methods for managing time points.</span></td>
+      <td style="font-size: 9pt;line-height: 1.5;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"> <a href="http://almdemo.polarion.com/polarion/sdk/doc/javadoc/com/polarion/alm/tracker/ITimePointsManager.html" target="_blank" class="descriptionLink">link</a> </td>
+    </tr>
+    <tr>
+      <td style="font-size: 9pt;line-height: 1.5;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"> <span style="font-family: Arial, Helvetica, sans-serif;">savedQueriesManager</span></td>
+      <td style="font-size: 9pt;line-height: 1.5;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"> <span style="font-family: Arial, Helvetica, sans-serif;">com.polarion.alm.tracker.ISavedQueriesManager</span></td>
+      <td style="font-size: 9pt;line-height: 1.5;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-family: Arial, Helvetica, sans-serif;">Provides methods for managing saved queries.</span></td>
+      <td style="font-size: 9pt;line-height: 1.5;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"> <a href="http://almdemo.polarion.com/polarion/sdk/doc/javadoc/com/polarion/alm/tracker/ISavedQueriesManager.html" target="_blank" class="descriptionLink">link</a> </td>
+    </tr>
+    <tr>
+      <td style="font-size: 9pt;line-height: 1.5;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"> <span style="font-family: Arial, Helvetica, sans-serif;">workflowManager</span></td>
+      <td style="font-size: 9pt;line-height: 1.5;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"> <span style="font-family: Arial, Helvetica, sans-serif;">com.polarion.alm.tracker.IWorkflowManager</span></td>
+      <td style="font-size: 9pt;line-height: 1.5;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-family: Arial, Helvetica, sans-serif;">Provides methods for managing the workflow.</span></td>
+      <td style="font-size: 9pt;line-height: 1.5;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"> <a href="http://almdemo.polarion.com/polarion/sdk/doc/javadoc/com/polarion/alm/tracker/workflow/IWorkflowManager.html" target="_blank" class="descriptionLink">link</a> </td>
+    </tr>
+    <tr>
+      <td style="font-size: 9pt;line-height: 1.5;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"> <span style="font-family: Arial, Helvetica, sans-serif;">exportManager</span></td>
+      <td style="font-size: 9pt;line-height: 1.5;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"> <span style="font-family: Arial, Helvetica, sans-serif;">com.polarion.alm.tracker.IExportManager</span></td>
+      <td style="font-size: 9pt;line-height: 1.5;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-family: Arial, Helvetica, sans-serif;">Manages the export templates and starts an export</span></td>
+      <td style="font-size: 9pt;line-height: 1.5;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"> <a href="http://almdemo.polarion.com/polarion/sdk/doc/javadoc/com/polarion/alm/tracker/exporter/IExportManager.html" target="_blank" class="descriptionLink">link</a> </td>
+    </tr>
+    <tr>
+      <td style="font-size: 9pt;line-height: 1.5;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"> <span style="font-family: Arial, Helvetica, sans-serif;">importManager</span></td>
+      <td style="font-size: 9pt;line-height: 1.5;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"> <span style="font-family: Arial, Helvetica, sans-serif;">com.polarion.alm.tracker.IImportManager</span></td>
+      <td style="font-size: 9pt;line-height: 1.5;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-family: Arial, Helvetica, sans-serif;">Manages the import templates and starts an import</span></td>
+      <td style="font-size: 9pt;line-height: 1.5;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"> <a href="http://almdemo.polarion.com/polarion/sdk/doc/javadoc/com/polarion/alm/tracker/importer/IImportManager.html" target="_blank" class="descriptionLink">link</a> </td>
+    </tr>
+    <tr>
+      <td style="font-size: 9pt;line-height: 1.5;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"> <span style="font-family: Arial, Helvetica, sans-serif;">planningManager</span></td>
+      <td style="font-size: 9pt;line-height: 1.5;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"> <span style="font-family: Arial, Helvetica, sans-serif;">com.polarion.alm.tracker.IPlanningManager</span></td>
+      <td style="font-size: 9pt;line-height: 1.5;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-family: Arial, Helvetica, sans-serif;">Provides methods for updateing the LivePlan.</span></td>
+      <td style="font-size: 9pt;line-height: 1.5;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"> <a href="http://almdemo.polarion.com/polarion/sdk/doc/javadoc/com/polarion/alm/tracker/IPlanningManager.html" target="_blank" class="descriptionLink">link</a> </td>
+    </tr>
+    <tr>
+      <td style="font-size: 9pt;line-height: 1.5;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"> <span style="font-family: Arial, Helvetica, sans-serif;">votingManager</span></td>
+      <td style="font-size: 9pt;line-height: 1.5;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"> <span style="font-family: Arial, Helvetica, sans-serif;">com.polarion.alm.tracker.IVotingManager</span></td>
+      <td style="font-size: 9pt;line-height: 1.5;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-family: Arial, Helvetica, sans-serif;">Provides methods for managing votings.</span></td>
+      <td style="font-size: 9pt;line-height: 1.5;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"> <a href="http://almdemo.polarion.com/polarion/sdk/doc/javadoc/com/polarion/alm/tracker/IVotingManager.html" target="_blank" class="descriptionLink">link</a> </td>
+    </tr>
+    <tr>
+      <td style="font-size: 9pt;line-height: 1.5;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"> <span style="font-family: Arial, Helvetica, sans-serif;">documentsManager</span></td>
+      <td style="font-size: 9pt;line-height: 1.5;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"> <span style="font-family: Arial, Helvetica, sans-serif;">com.polarion.alm.tracker</span></td>
+      <td style="font-size: 9pt;line-height: 1.5;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-weight: bold;font-family: Arial, Helvetica, sans-serif;">Deprecated:</span><br/>
+        <span style="font-family: Arial, Helvetica, sans-serif;">This service provides methods working with Live Documents (Polarion 2010)</span></td>
+      <td style="font-size: 9pt;line-height: 1.5;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"> <a href="http://almdemo.polarion.com/polarion/sdk/doc/javadoc/com/polarion/alm/tracker/IDocumentsManager.html" target="_blank" class="descriptionLink">link</a> </td>
+    </tr>
+    <tr>
+      <td style="font-size: 9pt;line-height: 1.5;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">dataService </td>
+      <td style="font-size: 9pt;line-height: 1.5;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"> com.polarion.platform.persistence.IDataService</td>
+      <td style="font-size: 9pt;line-height: 1.5;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"> Is used for SQL searches</td>
+      <td style="font-size: 9pt;line-height: 1.5;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"> <a href="http://almdemo.polarion.com/polarion/sdk/doc/javadoc/com/polarion/platform/persistence/IDataService.html" target="_blank" class="descriptionLink">link</a> </td>
+    </tr>
+    <tr>
+      <td style="font-size: 9pt;line-height: 1.5;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">trackerProject </td>
+      <td style="font-size: 9pt;line-height: 1.5;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"> com.polarion.alm.tracker.model.ITrackerProject</td>
+      <td style="font-size: 9pt;line-height: 1.5;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"> Provides you with methods to get enumeration fields.</td>
+      <td style="font-size: 9pt;line-height: 1.5;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"> <a href="http://almdemo.polarion.com/polarion/sdk/doc/javadoc/com/polarion/alm/tracker/model/ITrackerProject.html" target="_blank" class="descriptionLink">link</a> </td>
+    </tr>
+  </tbody>
+</table><div id="polarion_wiki macro name=module-workitem;params=id=PUT-5188"></div><p id="polarion_99"></p><h3 id="polarion_wiki macro name=module-workitem;params=id=PUT-5189"></h3><p id="polarion_81">
+  The Polarion API provides many methods to get workitem instances. One of the most commonly used method is the queryWorkItems method. The following API_Call returns all workitems of type requirement from the whole repository, the second call returns the requirements in the current proejct:
+</p><div id="polarion_editor_html_block82" class="polarion-dle-wiki-block">
+  <div id="polarion_editor_html_block_content" contentEditable="false"></div><pre id="polarion_editor_html_block_source" class="polarion-dle-wiki-block-source" contentEditable="false">{code}
+#set($results=$trackerService.queryWorkItems("type:requirement","id"))
+results= $results \\
+#set($results=$trackerService.queryWorkItems("project.id:$page.project AND type:requirement","id"))
+results= $results \\
+{code}</pre>
+</div><p id="polarion_83">
+  The method returns a collection which can be iterated or the number of workitems returned can be determined:
+</p><div id="polarion_editor_html_block84" class="polarion-dle-wiki-block">
+  <div id="polarion_editor_html_block_content" contentEditable="false"></div><pre id="polarion_editor_html_block_source" class="polarion-dle-wiki-block-source" contentEditable="false">{code}
+#set($number=$trackerService.queryWorkItems("type:requirement","id").size())
+number= $number \\
+#set($number=$trackerService.queryWorkItems("project.id:$page.project AND type:requirement","id").size())
+number= $number \\
+{code}</pre>
+</div><p id="polarion_85">
+  If a workitem is present the object of that workitem id can be obtained with the method getWorkItem:
+</p><div id="polarion_editor_html_block86" class="polarion-dle-wiki-block">
+  <div id="polarion_editor_html_block_content" contentEditable="false"></div><pre id="polarion_editor_html_block_source" class="polarion-dle-wiki-block-source" contentEditable="false">{code}
+#set($wi=$trackerService.getWorkItem($page.project,"AWS-3"))
+wi= $wi
+{code}</pre>
+</div><p id="polarion_87"></p><div id="polarion_wiki macro name=module-workitem;params=id=PUT-5185"></div><div id="polarion_editor_html_block42" class="polarion-dle-wiki-block">
+  <div id="polarion_editor_html_block_content" contentEditable="false"></div><pre id="polarion_editor_html_block_source" class="polarion-dle-wiki-block-source" contentEditable="false">#spoiler("" "{code}
+#set($requirements=$trackerService.queryWorkItems("type:requirement AND project.id:$page.project","id"))
+
+&lt;table border=1 cellpadding=5px&gt;
+&lt;th&gt;Requirements&lt;/th&gt;
+	#foreach($requirement in $requirements)
+	   &lt;tr&gt;&lt;td&gt;{workitem:$requirement.getId()|fields=title|expand=no}&lt;/tr&gt;&lt;/td&gt;
+	#end
+&lt;/table&gt;
+{code}")</pre>
+</div><h3 id="polarion_wiki macro name=module-workitem;params=id=PUT-5190"></h3><p id="polarion_88">
+  Any changes to data can only be done within a transaction. If a title of a workitem should be provided by the string &quot;prefix&quot; a transaction must be opened and the workitem have to be saved before closing the transaction:
+</p><div id="polarion_editor_html_block2" class="polarion-dle-wiki-block">
+  <div id="polarion_editor_html_block_content" contentEditable="false"></div><pre id="polarion_editor_html_block_source" class="polarion-dle-wiki-block-source" contentEditable="false">{code}
+
+##
+## start transaction
+##
+$transactionService.beginTx()
+    
+##
+## add the string prefix to the title
+##
+#set($wi_change=$trackerService.getWorkItem($page.project,"AWS-3"))
+#set($prefix="Prefix")
+$wi_change.setTitle($prefix.concat($wi_change.title))
+$wi_change.save()
+
+##
+## end transaction, persist the work item changes
+##
+$transactionService.commitTx()
+
+{code}</pre>
+</div><div id="polarion_wiki macro name=module-workitem;params=id=PUT-5192"></div><div id="polarion_editor_html_block45" class="polarion-dle-wiki-block">
+  <div id="polarion_editor_html_block_content" contentEditable="false"></div><pre id="polarion_editor_html_block_source" class="polarion-dle-wiki-block-source" contentEditable="false">#spoiler("" "{code}
+$transactionService.beginTx()
+	#set($wi_change=$trackerService.getWorkItem($page.project,"EKIN-4"))
+	$wi_change.addAprovee($projectService.getCurrentUser())
+	$wi_change.save()
+$transactionService.commitTx()
+{code}")</pre>
+</div><p id="polarion_84"></p><h3 id="polarion_wiki macro name=module-workitem;params=id=PUT-5191"></h3><p id="polarion_89">
+  Also a new workitem may be created. The method to create a new workitem is \$trackerService.createWorkItem(). After the method is called the attributes are filled and and the end the workitem is saved. Be careful when assignind a value to the description (or any custom field of type RuchText). The description has the datatype Text nach String. In order to get a new Text Object call the method \$objectFactory.newPlainText() with s String Parameter containing the value of the description. 
+</p><div id="polarion_editor_html_block83" class="polarion-dle-wiki-block">
+  <div id="polarion_editor_html_block_content" contentEditable="false"></div><pre id="polarion_editor_html_block_source" class="polarion-dle-wiki-block-source" contentEditable="false">{code}
+
+##
+## start transaction
+##
+$transactionService.beginTx()
+    
+##
+## create a new workitem
+##
+#set($newWi=$trackerService.createWorkItem($projectService.getProject($page.project)))
+
+## set the workitem type
+#set($enumTypes=$trackerService.getTrackerProject($page.project).workItemTypeEnum)
+$newWi.setType($enumTypes.wrapOption("task"))
+
+## set the title
+$newWi.setTitle("Created by Velocity")
+
+## set the description
+#set($textObject=$objectFactory.newPlainText("This workitem was created by Velocity"))
+$newWi.setDescription($textObject)
+
+## save the workitem
+$newWi.save()
+
+##
+## end transaction, persist the work item changes
+##
+$transactionService.commitTx()
+
+{code}</pre>
+</div><div id="polarion_wiki macro name=module-workitem;params=id=PUT-5193"></div><div id="polarion_editor_html_block46" class="polarion-dle-wiki-block">
+  <div id="polarion_editor_html_block_content" contentEditable="false"></div><pre id="polarion_editor_html_block_source" class="polarion-dle-wiki-block-source" contentEditable="false">#spoiler("" "{code}
+$transactionService.beginTx()   
+   #set($newWi=$trackerService.createWorkItem($projectService.getProject($page.project)))
+   #set($enumTypes=$trackerService.getTrackerProject($page.project).workItemTypeEnum) 
+	$newWi.setType($enumTypes.wrapOption("requirement"))   
+	$newWi.setTitle("I like the training")   
+   #set($textObject=$objectFactory.newPlainText("I will be an advanced wiki user")) 
+	$newWi.setDescription($textObject)  
+   #set($durationObject=$objectFactory.newDurationTime(2,4))
+    	$newWi.setInitialEstimate($durationObject)      
+	$newWi.save()    
+$transactionService.commitTx()
+{code}")</pre>
+</div><p id="polarion_56"></p><h2 id="polarion_wiki macro name=module-workitem;params=id=PUT-5161"></h2><p id="polarion_80">
+  Polarion provides two different databases: a database which stores only the head revision of the object and a database, which stores all revisions of the objects. The database is read only so you can only get information out of it. you can´t write something directly inot the database. As return value of your query you always get work items so Polarion will check if current user is allowed to see this kind of data. The changes of the database is done by job which is atrted every day at 7pm. With the historic database it is possible to get data from the historie not having calculated it with a workitem metric.
+</p><p id="polarion_90">
+  The search of the data in the SQL index is much faster than in the lucene index. All of the referenced objects in a workitem like custom fields, work records, linked workitems, comments, and so are stored in tables in order to keep to database redundant free. It is easy to get all custom field values for a given workitem or to get all custom fields with a specific value and retrieve the workitem ids by a single SQL query. Also to get all work records within a specific time period it is only easy and fast.
+</p><p id="polarion_93">
+  The database ist part of the sdk documentation and can be found <a href="http://almdemo.polarion.com/polarion/sdk/doc/database/FullDBSchema.pdf" target="_blank" class="descriptionLink">here</a> 
+</p><h3 id="polarion_wiki macro name=module-workitem;params=id=PUT-5194"></h3><table id="polarion_wiki macro name=table;params=width=99.61%|uid=1" class="polarion-Document-table" style="width: 99.61%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;">
+  <tbody>
+    <tr>
+      <th style="font-weight: bold;font-size: 9pt;background-color: #F0F0F0;line-height: 1.5;text-align: left;vertical-align: top;width: 243px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;">Table <br/>
+        </th>
+      <th style="font-weight: bold;font-size: 9pt;background-color: #F0F0F0;line-height: 1.5;text-align: left;vertical-align: top;width: 211px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;"> Description</th>
+      <th style="font-weight: bold;font-size: 9pt;background-color: #F0F0F0;line-height: 1.5;text-align: left;vertical-align: top;width: 223px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;">Example </th>
+      <th style="font-weight: bold;font-size: 9pt;background-color: #F0F0F0;line-height: 1.5;text-align: left;vertical-align: top;width: 29px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;"> Link</th>
+    </tr>
+    <tr>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 243px;height: 18px;border: 1px solid #CCCCCC;padding: 5px;">POLARION.WORKITEM</td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 211px;height: 18px;border: 1px solid #CCCCCC;padding: 5px;">Contains all kind of information about work items</td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 223px;height: 18px;border: 1px solid #CCCCCC;padding: 5px;">FK_MODULE, FK_PROJECT, <br/>
+        C_STATUS, C_PREVIOUSSTATUS</td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 29px;height: 18px;border: 1px solid #CCCCCC;padding: 5px;"> <a href="http://almdemo.polarion.com/polarion/sdk/doc/database/TablesReferenceDetails.html#POLARION.WORKITEM" target="_blank" class="descriptionLink">link</a> </td>
+    </tr>
+    <tr>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 243px;height: 18px;border: 1px solid #CCCCCC;padding: 5px;">STRUCT_WORKITEM_LINKEDWORKITEMS</td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 211px;height: 18px;border: 1px solid #CCCCCC;padding: 5px;">Table which gives you information which work items are linked by which role</td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 223px;height: 18px;border: 1px solid #CCCCCC;padding: 5px;">FK_P_WORKITEM, FK_WORKITEM,<br/>
+        C_ROLE</td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 29px;height: 18px;border: 1px solid #CCCCCC;padding: 5px;"> <a href="http://almdemo.polarion.com/polarion/sdk/doc/database/TablesReferenceDetails.html#POLARION.STRUCT_WORKITEM_LINKEDWORKITEMS" target="_blank" class="descriptionLink">link</a> </td>
+    </tr>
+    <tr>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 243px;height: 18px;border: 1px solid #CCCCCC;padding: 5px;">POLARION.WIKIPAGE</td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 211px;height: 18px;border: 1px solid #CCCCCC;padding: 5px;">Contains all kind of information about wiki pages</td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 223px;height: 18px;border: 1px solid #CCCCCC;padding: 5px;">FK_PROJECT, C_SPACEID, <br/>
+        C_PAGENAME</td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 29px;height: 18px;border: 1px solid #CCCCCC;padding: 5px;"> <a href="http://almdemo.polarion.com/polarion/sdk/doc/database/TablesReferenceDetails.html#POLARION.WIKIPAGE" target="_blank" class="descriptionLink">link</a> </td>
+    </tr>
+    <tr>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 243px;height: 18px;border: 1px solid #CCCCCC;padding: 5px;">POLARION.MODULE</td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 211px;height: 18px;border: 1px solid #CCCCCC;padding: 5px;">Contains all kind of information about Polarion Live Docs</td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 223px;height: 18px;border: 1px solid #CCCCCC;padding: 5px;">C_MODULENAME, FK_PROJECT</td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 29px;height: 18px;border: 1px solid #CCCCCC;padding: 5px;"> <a href="http://almdemo.polarion.com/polarion/sdk/doc/database/TablesReferenceDetails.html#POLARION.MODULE" target="_blank" class="descriptionLink">link</a> </td>
+    </tr>
+    <tr>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 243px;height: 18px;border: 1px solid #CCCCCC;padding: 5px;">POLARION.PROJECT</td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 211px;height: 18px;border: 1px solid #CCCCCC;padding: 5px;">Contains all kind of information about projects</td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 223px;height: 18px;border: 1px solid #CCCCCC;padding: 5px;">C_ID, FK_LEAD, FK_PROJECTGROUP</td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 29px;height: 18px;border: 1px solid #CCCCCC;padding: 5px;"> <a href="http://almdemo.polarion.com/polarion/sdk/doc/database/TablesReferenceDetails.html#POLARION.PROJECT" target="_blank" class="descriptionLink">link</a> </td>
+    </tr>
+    <tr>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 243px;height: 18px;border: 1px solid #CCCCCC;padding: 5px;">POLARION.TESTRUN</td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 211px;height: 18px;border: 1px solid #CCCCCC;padding: 5px;">Contains all kind of information about test runs</td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 223px;height: 18px;border: 1px solid #CCCCCC;padding: 5px;">C_GROUPID, C_STATUS, C_TYPE</td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 29px;height: 18px;border: 1px solid #CCCCCC;padding: 5px;"> <a href="http://almdemo.polarion.com/polarion/sdk/doc/database/TablesReferenceDetails.html#POLARION.TESTRUN" target="_blank" class="descriptionLink">link</a> </td>
+    </tr>
+    <tr>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 243px;height: 18px;border: 1px solid #CCCCCC;padding: 5px;">POLARION.WORKRECORD</td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 211px;height: 18px;border: 1px solid #CCCCCC;padding: 5px;">Gives you information about workrecords of your work items</td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 223px;height: 18px;border: 1px solid #CCCCCC;padding: 5px;">C_PK, C_COMMENT, <br/>
+        C_DATE, C_TIMESPENT</td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 29px;height: 18px;border: 1px solid #CCCCCC;padding: 5px;"> <a href="http://almdemo.polarion.com/polarion/sdk/doc/database/TablesReferenceDetails.html#POLARION.WORKRECORD" target="_blank" class="descriptionLink">link</a> </td>
+    </tr>
+    <tr>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 243px;height: 18px;border: 1px solid #CCCCCC;padding: 5px;">POLARION.TIMEPOINT</td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 211px;height: 18px;border: 1px solid #CCCCCC;padding: 5px;">Contains all kind of information about timepoints</td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 223px;height: 18px;border: 1px solid #CCCCCC;padding: 5px;">FK_PROJECT, C_ID, C_TIME</td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 29px;height: 18px;border: 1px solid #CCCCCC;padding: 5px;"> <a href="http://almdemo.polarion.com/polarion/sdk/doc/database/TablesReferenceDetails.html#POLARION.TIMEPOINT" target="_blank" class="descriptionLink">link</a> </td>
+    </tr>
+    <tr>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 243px;height: 18px;border: 1px solid #CCCCCC;padding: 5px;">POLARION.USER </td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 211px;height: 18px;border: 1px solid #CCCCCC;padding: 5px;">Contains all kind of information about Polarion users</td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 223px;height: 18px;border: 1px solid #CCCCCC;padding: 5px;">C_DISABLENOTIFICATIONS, C_EMAIL</td>
+      <td style="font-size: 9pt;line-height: 1.5;text-align: left;vertical-align: top;width: 29px;height: 18px;border: 1px solid #CCCCCC;padding: 5px;"> <a href="http://almdemo.polarion.com/polarion/sdk/doc/database/TablesReferenceDetails.html#POLARION.USER" target="_blank" class="descriptionLink">link</a> </td>
+    </tr>
+  </tbody>
+</table><div id="polarion_wiki macro name=module-workitem;params=id=PUT-5195"></div><h3 id="polarion_wiki macro name=module-workitem;params=id=PUT-5196"></h3><p id="polarion_4">
+  If you need to get the linked workitems from a workitem or if you need to get all workitems linked with a specific linkrole only on SQL query is necessary. The table to look for is
+</p><div id="polarion_editor_html_block93" class="polarion-dle-wiki-block">
+  <div id="polarion_editor_html_block_content" contentEditable="false"></div><pre id="polarion_editor_html_block_source" class="polarion-dle-wiki-block-source" contentEditable="false">{code}
+STRUCT_WORKITEM_LINKEDWORKITEMS
+{code}</pre>
+</div><p id="polarion_94">
+  This table contains all links if they are backlinks or links. The following SQL statement gets all backlinked workitems for a given workitem id:
+</p><div id="polarion_editor_html_block95" class="polarion-dle-wiki-block">
+  <div id="polarion_editor_html_block_content" contentEditable="false"></div><pre id="polarion_editor_html_block_source" class="polarion-dle-wiki-block-source" contentEditable="false">{code}
+$trackerService.getDataService().sqlSearch(
+
+SELECT WI.C_ID "Requirement",
+(SELECT WI.C_ID 
+
+FROM 
+POLARION.WORKITEM WI 
+
+WHERE 
+WI.C_PK = LW.FK_WORKITEM) "Linked WI", LW.C_ROLE "Linkrole" 
+
+FROM 
+POLARION.WORKITEM WI 
+
+LEFT JOIN 
+POLARION.STRUCT_WORKITEM_LINKEDWORKITEMS LW ON WI.C_PK = LW.FK_P_WORKITEM 
+
+LEFT JOIN 
+POLARION.PROJECT PR ON WI.FK_PROJECT = PR.C_PK 
+
+WHERE 
+PR.C_ID = 'elibrary' 
+
+ORDER BY 
+WI.C_ID, "Linked WI")
+{code}</pre>
+</div><p id="polarion_96">
+  and to get the linked workitems (TOP DOWN)
+</p><div id="polarion_editor_html_block97" class="polarion-dle-wiki-block">
+  <div id="polarion_editor_html_block_content" contentEditable="false"></div><pre id="polarion_editor_html_block_source" class="polarion-dle-wiki-block-source" contentEditable="false">{code}
+$trackerService.getDataService().sqlSearch(
+
+SELECT WI.C_ID "Requirement",
+(SELECT WI.C_ID 
+
+FROM 
+POLARION.WORKITEM WI 
+
+WHERE 
+WI.C_PK = LW.FK_P_WORKITEM) "Linked WI", LW.C_ROLE "Linkrole"
+
+FROM 
+POLARION.WORKITEM WI 
+
+LEFT JOIN 
+POLARION.STRUCT_WORKITEM_LINKEDWORKITEMS LW ON WI.C_PK = LW.FK_WORKITEM 
+
+LEFT JOIN 
+POLARION.PROJECT PR ON WI.FK_PROJECT = PR.C_PK WHERE PR.C_ID = 'elibrary' 
+
+ORDER BY 
+WI.C_ID, "Linked WI")
+{code}</pre>
+</div><div id="polarion_wiki macro name=module-workitem;params=id=PUT-5197"></div><div id="polarion_editor_html_block48" class="polarion-dle-wiki-block">
+  <div id="polarion_editor_html_block_content" contentEditable="false"></div><pre id="polarion_editor_html_block_source" class="polarion-dle-wiki-block-source" contentEditable="false">#spoiler("" "{code}
+
+ADDED SQL PART
+
+#set($testcases=$trackerService.getDataService().sqlSearch("SELECT STRUCT_WORKITEM_LINKEDWORKITEMS.FK_URI_P_WORKITEM FROM WORKITEM INNER JOIN STRUCT_WORKITEM_LINKEDWORKITEMS ON WORKITEM.C_PK = STRUCT_WORKITEM_LINKEDWORKITEMS.FK_P_WORKITEM WHERE  WORKITEM.FK_PROJECT LIKE '%$page.project' AND STRUCT_WORKITEM_LINKEDWORKITEMS.C_ROLE = 'verifies'  AND STRUCT_WORKITEM_LINKEDWORKITEMS.FK_URI_WORKITEM LIKE '%$requirement.getId()'"))
+                 &lt;td&gt;
+        		#foreach($testcase in $testcases)
+        			{workitem:$testcase.getId()|fields=title|expand=no}
+			#end
+       		&lt;/td&gt;
+{code}")</pre>
+</div><div id="polarion_editor_html_block49" class="polarion-dle-wiki-block">
+  <div id="polarion_editor_html_block_content" contentEditable="false"></div><pre id="polarion_editor_html_block_source" class="polarion-dle-wiki-block-source" contentEditable="false">#spoiler("" "{code}
+
+FINISHED SCRIPT
+
+#set($requirements=$trackerService.queryWorkItems("type:requirement AND project.id:$page.project","id"))
+
+&lt;table border=1 cellpadding=5px&gt;
+&lt;th&gt;Requirements&lt;/th&gt;&lt;th&gt;Test Cases&lt;/th&gt;
+	#foreach($requirement in $requirements)
+		&lt;tr&gt;&lt;td&gt;{workitem:$requirement.getId()|fields=title|expand=no}&lt;/td&gt;
+        	  #set($testcases=$trackerService.getDataService().sqlSearch("SELECT   STRUCT_WORKITEM_LINKEDWORKITEMS.FK_URI_P_WORKITEM FROM WORKITEM INNER JOIN STRUCT_WORKITEM_LINKEDWORKITEMS ON WORKITEM.C_PK = STRUCT_WORKITEM_LINKEDWORKITEMS.FK_P_WORKITEM WHERE  WORKITEM.FK_PROJECT LIKE '%$page.project' AND STRUCT_WORKITEM_LINKEDWORKITEMS.C_ROLE = 'verifies'  AND STRUCT_WORKITEM_LINKEDWORKITEMS.FK_URI_WORKITEM LIKE '%$requirement.getId()'"))
+                &lt;td&gt;
+        		#foreach($testcase in $testcases)
+        			{workitem:$testcase.getId()|fields=title|expand=no}
+			#end
+       		&lt;/td&gt;
+        &lt;/tr&gt;
+	#end
+&lt;/table&gt;
+{code}")</pre>
+</div><h3 id="polarion_wiki macro name=module-workitem;params=id=PUT-5199"></h3><div id="polarion_editor_html_block50" class="polarion-dle-wiki-block">
+  <div id="polarion_editor_html_block_content" contentEditable="false"></div><pre id="polarion_editor_html_block_source" class="polarion-dle-wiki-block-source" contentEditable="false">{code}
+$testManagementService.getLastTestRecords($trackerService.getWorkItem($page.project, "TC-123") , 1)
+{code}</pre>
+</div><p id="polarion_58"></p><div id="polarion_wiki macro name=module-workitem;params=id=PUT-5198"></div><div id="polarion_editor_html_block43" class="polarion-dle-wiki-block">
+  <div id="polarion_editor_html_block_content" contentEditable="false"></div><pre id="polarion_editor_html_block_source" class="polarion-dle-wiki-block-source" contentEditable="false">#spoiler("" "{code}
+
+FINISHED SCRIPT
+
+#set($requirements=$trackerService.queryWorkItems("type:requirement AND project.id:$page.project","id"))
+
+&lt;table border=1 cellpadding=5px&gt;
+&lt;th&gt;Requirements&lt;/th&gt;&lt;th&gt;Test Cases&lt;/th&gt;
+   #foreach($requirement in $requirements)
+      &lt;tr&gt;&lt;td&gt;{workitem:$requirement.getId()|fields=title|expand=no}&lt;/td&gt;
+         #set($testcases=$trackerService.getDataService().sqlSearch("SELECT   STRUCT_WORKITEM_LINKEDWORKITEMS.FK_URI_P_WORKITEM FROM WORKITEM INNER JOIN STRUCT_WORKITEM_LINKEDWORKITEMS ON WORKITEM.C_PK = STRUCT_WORKITEM_LINKEDWORKITEMS.FK_P_WORKITEM WHERE  WORKITEM.FK_PROJECT LIKE '%$page.project' AND STRUCT_WORKITEM_LINKEDWORKITEMS.C_ROLE = 'verifies'  AND STRUCT_WORKITEM_LINKEDWORKITEMS.FK_URI_WORKITEM LIKE '%$requirement.getId()'"))
+           &lt;td&gt;
+              #foreach($testcase in $testcases)
+                 {workitem:$testcase.getId()|fields=title|expand=no}
+                    #foreach($lastTestResult in $testManagementService.getLastTestRecords($testcase,1))
+                       &lt;td&gt;$lastTestResult.getResult().getId()&lt;/td&gt;                                 	
+           	    #end
+	      #end
+       	    &lt;/td&gt;
+      &lt;/tr&gt;
+   #end
+&lt;/table&gt;
+{code}")</pre>
+</div><p id="polarion_59"></p><h2 id="polarion_wiki macro name=module-workitem;params=id=MP-5168"></h2><p id="polarion_61">
+  Plugins can extend the core functionality of Polarion in different ways. The SDK documentation in your local Polarion installation folder C:/Polarion/polarion/SDK holds detailed step by step guide and numerous examples.
+</p><p id="polarion_60">
+  Possibilities for Plugins are for example:
+</p><ul id="polarion_103">
+  <li>Automating workflow actions</li>
+  <li>Setting complex conditions for a workflow action</li>
+  <li>Complex macros for the use in Wiki pages</li>
+  <li>Additional administration menus</li>
+  <li>Form extensions for Work Items</li>
+  <li>Jobs</li>
+  <li>Servlets</li>
+</ul><p id="polarion_104">
+  For each Plugin you need to create a Java class which either implements a given method, or is just a Standalone class which can be used in wiki code. Examples can be found in the Polarion Server&#39;s SDK folder.
+</p><p id="polarion_105">
+  As addition to the Java class(es) you will need a hivemodule.xml, which makes Polarion know what the class you just created shall be used for.
+</p><p id="polarion_106">
+  Here is an example of such a file for <span style="font-weight: bold;">1) workflow functions, 2) workflow conditions</span> and <span style="font-weight: bold;">3) a wiki macro</span>:
+</p><p id="polarion_107"></p><div id="polarion_editor_html_block109" class="polarion-dle-wiki-block">
+  <div id="polarion_editor_html_block_content" contentEditable="false"></div><pre id="polarion_editor_html_block_source" class="polarion-dle-wiki-block-source" contentEditable="false">{code:xml}
+&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;module id="com.polarion.example.workflow" version="1.0.0"&gt;
+
+	&lt;contribution configuration-id="com.polarion.alm.tracker.workflow.functions"&gt;
+		&lt;function name="ComputeTotalLifeTime"
+			clazz="com.polarion.example.workflow.functions.ComputeTotalLifeTime"&gt;
+			&lt;parameter name="Fields" id="fields" /&gt;
+		&lt;/function&gt;
+	&lt;/contribution&gt;
+	
+	&lt;contribution
+		configuration-id="com.polarion.alm.tracker.workflow.conditions"&gt;
+		&lt;condition name="CommentExist"
+			clazz="com.polarion.example.workflow.conditions.CommentExist"&gt;
+		&lt;/condition&gt;
+	&lt;/contribution&gt;
+	
+	&lt;contribution configuration-id="com.polarion.alm.wiki.renderingContext"&gt;
+		&lt;item key="effortCalculator"
+			value="instance:com.polarion.example.macros.CalculateEffort" /&gt;
+	&lt;/contribution&gt;
+	
+&lt;/module&gt;
+{code}</pre>
+</div><p id="polarion_111"></p><p id="polarion_114"></p><p id="polarion_108">
+  Data handling and execution with Polarion is often done by special Service Interfaces. often these can not be called directly from the context of the Java execution, but can be retrieved easily if you know the following line. Use this always if a Service Interface cannot be accessed directly by the context or other parameters:<br/>
+</p><p id="polarion_115">
+  <span style="font-weight: bold;text-decoration: underline;">In general:</span><br/>
+  I[name]Service service = (I[name]Service)PlatformContext.getPlatform().lookupService(I[name]Service.class);<br/>
+  <br/>
+  <span style="font-weight: bold;text-decoration: underline;">concrete for the ISecurityService:</span><br/>
+  ISecurityService security = (SecurityService)PlatformContext.getPlatform().lookupService(ISecurityService.class);<br/>
+</p><p id="polarion_116">
+  Please remember that this can only be done in Java code and not in velocity!
+</p><p id="polarion_112"></p><h3 id="polarion_wiki macro name=module-workitem;params=id=MP-5181"></h3><div id="polarion_wiki macro name=module-workitem;params=id=MP-5169"></div><p id="polarion_124"></p><div id="polarion_wiki macro name=module-workitem;params=id=MP-5182"></div><div id="polarion_editor_html_block51" class="polarion-dle-wiki-block">
+  <div id="polarion_editor_html_block_content" contentEditable="false"></div><pre id="polarion_editor_html_block_source" class="polarion-dle-wiki-block-source" contentEditable="false">#spoiler("" "{code}
+
+Answer for Question 1:
+
+1) Prototype setter method in JobUnit class
+2) Descriptor for paramater in getJobDescriptor in JobUnitFactory
+3) Setter method according to Prototype
+4) Local variable in the JobUnit class definition.
+
+{code}")</pre>
+</div><p id="polarion_122"></p><p id="polarion_100"></p><div id="polarion_wiki macro name=module-workitem;params=id=MP-5183"></div><div id="polarion_editor_html_block52" class="polarion-dle-wiki-block">
+  <div id="polarion_editor_html_block_content" contentEditable="false"></div><pre id="polarion_editor_html_block_source" class="polarion-dle-wiki-block-source" contentEditable="false">#spoiler("" "{code}
+
+public interface IOverdueJobUnit extends IJobUnit {
+
+    static final String JOB_NAME = "overdue.job";
+    
+    void setQuery(String query);    
+}
+{code}")</pre>
+</div><p id="polarion_101"></p><div id="polarion_editor_html_block102" class="polarion-dle-wiki-block">
+  <div id="polarion_editor_html_block_content" contentEditable="false"></div><pre id="polarion_editor_html_block_source" class="polarion-dle-wiki-block-source" contentEditable="false">#spoiler("" "{code}
+
+public class OverdueJobUnitFactory implements IJobUnitFactory {
+
+    public IJobUnit createJobUnit(String name) throws GenericJobException {
+        return new OverdueJobUnit(name, this);
+    }
+
+    public IJobDescriptor getJobDescriptor(IJobUnit jobUnit) {
+        BasicJobDescriptor desc = new BasicJobDescriptor("Overdue job", jobUnit);
+        JobParameterPrimitiveType stringType = new JobParameterPrimitiveType(
+                "String",
+                String.class);
+        desc.addParameter(new SimpleJobParameter(
+                desc.getRootParameterGroup(),
+                "query",
+                "Query to be called",
+                stringType));
+        return desc;
+    }
+
+    public String getName() {
+        return IOverdueJobUnit.JOB_NAME;
+    }
+    
+    private final class OverdueJobUnit extends AbstractJobUnit implements IOverdueJobUnit {
+    	
+    	private String query;
+    	
+        public OverdueJobUnit(String name, IJobUnitFactory creator) {
+            super(name, creator);
+        }
+        
+       
+        protected IJobStatus runInternal(IProgressMonitor progress) {
+           ITrackerService trackerService = (ITrackerService) PlatformContext.getPlatform().lookupService(ITrackerService.class);
+            
+            progress.beginTask(getName(), 0);
+            try {
+                int results = trackerService.queryWorkItems(query, "id").size();
+                getLogger().info("Job returned this amount of items: "+results);
+              
+                return getStatusOK(null);
+            } finally {
+                progress.done();
+            }
+        }
+        
+        public void setQuery(String query) {
+            this.query = query;
+        }
+        
+    }
+}
+{code}")</pre>
+</div><p id="polarion_123"></p><div id="polarion_wiki macro name=module-workitem;params=id=MP-5184"></div><div id="polarion_editor_html_block53" class="polarion-dle-wiki-block">
+  <div id="polarion_editor_html_block_content" contentEditable="false"></div><pre id="polarion_editor_html_block_source" class="polarion-dle-wiki-block-source" contentEditable="false">#spoiler("" "{code}
+public class HelloWorld {
+
+    public String helloWorld(){
+        return "Hello World!";
+    }
+}
+{code}")</pre>
+</div><p id="polarion_102"></p><p id="polarion_126">
+  The last example can be extended for any other type of Service.
+</p><p id="polarion_127">
+  To access the default API Services use the line:
+</p><p id="polarion_128">
+  <span style="font-family: 'Courier New', Courier, monospace;">IxxxService xxxService = </span>
+</p><p id="polarion_129" style="margin-left: 40px;">
+  <span style="font-family: 'Courier New', Courier, monospace;">(IxxxService) PlatformContext.getPlatform().lookupService(IxxxService.class);</span>
+</p><p id="polarion_125">
+  Just replace &quot;xxx&quot; with the name of the service, like &quot;Tracker&quot;, &quot;Security&quot; or &quot;Project&quot;.
+</p><h2 id="polarion_wiki macro name=module-workitem;params=id=MP-5166"></h2><p id="polarion_62"></p><p id="polarion_79">
+  The following Exercises will help you to get used to the techniques learned in the previous chapters.
+</p><p id="polarion_98"></p><div id="polarion_wiki macro name=module-workitem;params=id=MP-5167"></div><div id="polarion_editor_html_block108" class="polarion-dle-wiki-block">
+  <div id="polarion_editor_html_block_content" contentEditable="false"></div><pre id="polarion_editor_html_block_source" class="polarion-dle-wiki-block-source" contentEditable="false">#spoiler("" "{code}
+
+{parameter:weeks|type=string|value=10}
+
+&lt;div style="background-color:\#E1F0FF;padding:5px;"&gt;
+{parameter-form}
+&lt;table cellpadding="3" style="background-color:\#E1F0FF"&gt;
+&lt;tr&gt;&lt;td style="white-space:nowrap;"&gt;How many weeks in the past shall be shown?:&lt;/td&gt;&lt;td&gt;{parameter-editor:weeks|width=50px} &lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+{parameter-form-submit}
+{parameter-form-save}
+{parameter-form}
+
+
+&lt;/div&gt;
+
+#set($Integer = 0)
+#set($weeks=$Integer.parseInt($pageParameters.weeks))
+
+#highchartStart("Repository Item Count" "line" 1000 500)
+
+#set($resultstring="")
+
+#foreach($number in [$weeks..0])
+
+  #set($date = $dateTool.getDate())
+  #set($calendar = $dateTool.toCalendar($date))               
+  
+  #if ($number &gt; 0)            
+    #set($minusweeks = $Integer.parseInt("-$number"))
+    $calendar.add(3, $minusweeks)	
+    #set($date = $calendar.getTime())    
+    
+  #end
+  
+  #set($repoService = $polarionTool.repositoryService)
+  #set($connection = $repoService.getReadOnlyConnection($polarionTool.location))
+  #set($revision = $connection.getRepositoryState($date))
+  
+  #set ($projectId = $doc.getProject($doc.space) )
+  #set ($dataService = $trackerService.getDataService()  )
+  #set ($results=$dataService.sqlSearchInBaseline("SELECT WI.C_PK FROM WORKITEM WI","$revision").size())
+  #set($formatString = $calendarTool.formatDate($date, "yyyy,MM,dd"))
+  
+  #if($resultstring == "")
+  	#set($resultstring="Date.UTC($formatString),$results")
+  #else
+  	#set($resultstring="$resultstring : Date.UTC($formatString),$results")
+  #end
+  
+#end
+
+
+#addHighchartXYDataSet("Items in Repository" "$resultstring")
+
+#addHighchartAdditionalOptions("options.plotOptions = {area:{stacking: 'normal'}};")
+#addHighchartAdditionalOptions("options.xAxis.type = 'datetime';")
+
+#highchartEnd()
+
+
+
+{code}")</pre>
+</div><p id="polarion_109"></p><p id="polarion_110"></p><p id="polarion_63"></p><p id="polarion_64"></p><p id="polarion_65"></p><p id="polarion_66"></p><p id="polarion_67"></p><p id="polarion_68"></p><p id="polarion_69"></p><p id="polarion_70"></p><p id="polarion_71"></p><p id="polarion_72"></p><p id="polarion_73"></p><p id="polarion_74"></p><p id="polarion_75"></p><p id="polarion_76"></p><p id="polarion_77"></p><p id="polarion_78"></p><p id="polarion_95"></p>]]></field>
+    <field id="renderingLayouts">
+        <list>
+            <struct>
+                <item id="label">Exercise</item>
+                <item id="layouter">paragraph</item>
+                <item id="properties">
+                    <list>
+                        <struct>
+                            <item id="key">fieldsAtStart</item>
+                            <item id="value">id</item>
+                        </struct>
+                        <struct>
+                            <item id="key">fieldsAtEnd</item>
+                        </struct>
+                        <struct>
+                            <item id="key">fieldsAtEndAsTable</item>
+                        </struct>
+                        <struct>
+                            <item id="key">hidden</item>
+                        </struct>
+                    </list>
+                </item>
+                <item id="type">exercise</item>
+            </struct>
+            <struct>
+                <item id="label">Text</item>
+                <item id="layouter">paragraph</item>
+                <item id="properties">
+                    <list>
+                        <struct>
+                            <item id="key">fieldsAtStart</item>
+                        </struct>
+                        <struct>
+                            <item id="key">fieldsAtEnd</item>
+                        </struct>
+                        <struct>
+                            <item id="key">fieldsAtEndAsTable</item>
+                        </struct>
+                        <struct>
+                            <item id="key">hidden</item>
+                        </struct>
+                    </list>
+                </item>
+                <item id="type">text</item>
+            </struct>
+        </list>
+    </field>
+    <field id="structureLinkRole">parent</field>
+    <field id="usesOutlineNumbering">true</field>
+</module>

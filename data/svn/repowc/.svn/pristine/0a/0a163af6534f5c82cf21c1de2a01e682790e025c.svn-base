@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">admin</field>
+    <field id="created">2013-11-06 14:00:42.204 +0100</field>
+    <field id="description" text-type="text/html">Add different variable objects and their class&lt;br/&gt;&lt;ul&gt;&lt;li&gt;String should be your full name&lt;/li&gt;&lt;li&gt;Number should be your age&lt;/li&gt;&lt;li&gt;Array should be the first name of your parents&lt;/li&gt;&lt;/ul&gt;&lt;span style="font-weight: bold;"&gt;Example Image:&lt;br/&gt; &lt;img src="attachment:display_classes.jpg"/&gt;&lt;/span&gt;&lt;br/&gt;</field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="type">exercise</field>
+</work-item>

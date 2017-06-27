@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">stroebelet</field>
+    <field id="created">2012-05-18 05:16:43.222 -0400</field>
+    <field id="description" text-type="text/html"><![CDATA[From time to time you need to exchange information with people who do not have access to Polarion. MS Word round-trip is an easy and straight forward way to collaborate with the <span style="font-style: italic;">&quot;outside office world&quot;.<br/>
+  <br/>
+  </span> 
+<ul>
+  <li>Export E-Library_2011_spec document using Gear icon <span style="font-style: italic;">| Word Round-trip |Export Document. Use Review Option.<br/>
+      <img src="attachment:108-screenshot-20141031-084210.png"/></span></li>
+  <li>Add some comments in the document you&#39;ve exported. Save the document as &quot;E-Library_reviewed&quot;</li>
+  <li>Upload the changed document using Gear icon <span style="font-style: italic;">| Word Round-trip | Import Changes</span></li>
+  <li>Use the document comment pane to review the imported comments<br/>
+    <img src="attachment:109-screenshot-20141031-084211.png"/><br/>
+    </li>
+  <li>Use document history to identify the changes in the document by comparing the actual revision and the revision when the document was exported.<br/>
+    <img src="attachment:documenthistory.jpg"/> </li>
+</ul>]]></field>
+    <field id="linkedWorkItems">
+        <list>
+            <struct>
+                <item id="revision">41893</item>
+                <item id="role">branched_from</item>
+                <item id="workItem">MP-782</item>
+            </struct>
+        </list>
+    </field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">MS Word round-trip and offline work</field>
+    <field id="type">exercise</field>
+    <field id="upgradedescription" type="boolean">true</field>
+</work-item>

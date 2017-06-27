@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<module>
+    <field id="usesOutlineNumbering">true</field>
+    <field id="homePageContent" text-type="text/html"><![CDATA[<h1 id="polarion_wiki macro name=module-workitem;params=id=MP-3564"></h1>
+<p id="polarion_template_0"><br/>Description what is part of the document</p>
+<h2 id="polarion_wiki macro name=module-workitem;params=id=MP-3565"></h2>
+<div contenteditable="false" id="polarion_wiki macro name=toc"></div>
+<p id="polarion_cleaned_0"> </p>
+<p id="polarion_merged_2"><br/></p>
+<div id="polarion_wiki macro name=page_break|uid=merged_0"></div>
+<h2 id="polarion_wiki macro name=module-workitem;params=id=MP-3567"></h2>
+<div id="polarion_wiki macro name=module-workitem;params=id=MP-2958|external=true"></div>
+<p id="polarion_merged_3"><br/></p>
+<div id="polarion_wiki macro name=page_break;params=uid=merged_1"></div>
+<h2 id="polarion_wiki macro name=module-workitem;params=id=MP-3568"></h2>
+<div id="polarion_wiki macro name=module-workitem;params=id=MP-2959|external=true"></div>
+<p id="polarion_merged_4"><br/></p>
+<div id="polarion_wiki macro name=page_break;params=uid=merged_2"></div>
+<h2 id="polarion_wiki macro name=module-workitem;params=id=MP-3569"></h2>
+<div id="polarion_wiki macro name=module-workitem;params=id=MP-2960|external=true"></div>
+<p id="polarion_merged_5"><br/></p>
+<div id="polarion_wiki macro name=page_break;params=uid=merged_3"></div>
+<div id="polarion_wiki macro name=module-workitem;params=id=MP-2965|external=true"></div>
+<p id="polarion_merged_6"><br/></p>
+<div id="polarion_wiki macro name=page_break;params=uid=merged_4"></div>
+<div id="polarion_wiki macro name=module-workitem;params=id=MP-2966|external=true"></div>
+<p id="polarion_merged_7"><br/></p>
+<div id="polarion_wiki macro name=page_break;params=uid=merged_5"></div>
+<div id="polarion_wiki macro name=module-workitem;params=id=MP-3561|external=true"></div>
+<p id="polarion_merged_8"><br/></p>
+<div id="polarion_wiki macro name=page_break;params=uid=merged_6"></div>
+<h2 id="polarion_wiki macro name=module-workitem;params=id=MP-3570"></h2>
+<div id="polarion_wiki macro name=module-workitem;params=id=MP-2979|external=true"></div>
+<p id="polarion_merged_0"><br/></p>
+<p id="polarion_merged_9"><br/></p>
+<div id="polarion_wiki macro name=page_break;params=uid=merged_7"></div>
+<h2 id="polarion_wiki macro name=module-workitem;params=id=MP-3571"></h2>
+<div id="polarion_wiki macro name=module-workitem;params=id=MP-2980|external=true"></div>
+<p id="polarion_merged_10"><br/></p>
+<div id="polarion_wiki macro name=page_break;params=uid=merged_8"></div>
+<h2 id="polarion_wiki macro name=module-workitem;params=id=MP-3572"></h2>
+<div id="polarion_wiki macro name=module-workitem;params=id=MP-2983|external=true"></div>
+<p id="polarion_merged_1"><br/></p>
+]]></field>
+    <field id="structureLinkRole">next</field>
+    <field id="branchedFrom">Training Materials#Handout Branching</field>
+    <field id="outlineNumbering">
+        <struct>
+            <item id="prefix"/>
+        </struct>
+    </field>
+    <field id="author">CarolaH</field>
+    <field id="created">2012-08-02 13:15:20.132 +0200</field>
+    <field id="renderingLayouts">
+        <list>
+            <struct>
+                <item id="layouter">section</item>
+                <item id="label">Slide</item>
+                <item id="properties">
+                    <list>
+                        <struct>
+                            <item id="value">id</item>
+                            <item id="key">fieldsAtStart</item>
+                        </struct>
+                        <struct>
+                            <item id="value"/>
+                            <item id="key">fieldsAtEnd</item>
+                        </struct>
+                        <struct>
+                            <item id="value"/>
+                            <item id="key">fieldsAtEndAsTable</item>
+                        </struct>
+                        <struct>
+                            <item id="value"/>
+                            <item id="key">hidden</item>
+                        </struct>
+                    </list>
+                </item>
+                <item id="type">slide</item>
+            </struct>
+        </list>
+    </field>
+</module>

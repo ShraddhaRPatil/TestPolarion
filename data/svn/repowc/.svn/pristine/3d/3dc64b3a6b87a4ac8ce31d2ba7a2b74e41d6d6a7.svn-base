@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">stroebelet</field>
+    <field id="created">2012-05-30 08:02:14.356 -0400</field>
+    <field id="description" text-type="text/html"><![CDATA[Changing already approved data is not something you usually do. In case of needed changes of your product you might want to consider a change request.<br/>
+ 
+<ul>
+  <li>Create a new change request &quot;simple search should also support field: &quot;<span style="font-style: italic;">published in</span>&quot;<br/>
+    <br/>
+    
+    <table id="polarion_wiki macro name=table;params=width=600px" class="polarion-Document-table" style="width: 600px;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;">
+      <tbody>
+        <tr>
+          <th style="font-weight: bold;font-size: 9pt;background-color: #F0F0F0;line-height: 1.5;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Hint: Use Global Shortcut <span style="font-style: italic;">Create Work Items</span> </th>
+        </tr>
+      </tbody>
+    </table>
+    <br/>
+    <img src="attachment:createchangerequest.jpg"/><br/>
+    <br/>
+    </li>
+  <li>Review the change request and change status to <span style="font-style: italic;">In Progress</span> using action <span style="font-style: italic;">Perform action Start Progress<br/>
+      Set yourself as assignee.</span><br/>
+    </li>
+  <li>Create a linked task with title &quot;<span style="font-style: italic;">analyse impact of simple search extension</span>&quot;<br/>
+    <br/>
+    <img src="attachment:createlinkedtask.jpg"/><br/>
+    </li>
+</ul>]]></field>
+    <field id="linkedWorkItems">
+        <list>
+            <struct>
+                <item id="revision">37029</item>
+                <item id="role">branched_from</item>
+                <item id="workItem">MP-812</item>
+            </struct>
+        </list>
+    </field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Create a new change request</field>
+    <field id="type">exercise</field>
+</work-item>

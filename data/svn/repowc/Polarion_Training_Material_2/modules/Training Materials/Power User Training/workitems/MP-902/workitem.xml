@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">stroebelet</field>
+    <field id="created">2011-07-28 14:53:53.994 -0400</field>
+    <field id="description" text-type="text/html"><![CDATA[Defining the complete layout is one step to make Polarion easier to use if people are new to Polarion. Another step would be to change visible fields because of a workflow state or action. So our next step will be to configure Polarion lite form.<br/>
+ 
+<ul>
+  <li>Open <span style="font-style: italic;">Administration&gt;Work Items&gt;Form Configuration</span> and create new question form filter<br/>
+    </li>
+  <li>Remove all status and action specific filters</li>
+  <li>Define following create filter for <span style="font-weight: bold;">action</span>:<br/>
+    @required,description,topic, customPriority</li>
+  <li>Define following default filter for <span style="font-weight: bold;">action</span>:<br/>
+    @required,status,description,customPriority,answer,author</li>
+  <li>Define following default filter for <span style="font-weight: bold;">status</span>:<br/>
+    @required,description,answer,assignee,author,customPriority,topic</li>
+  <li>Verify in the frontend that your lite form works by enabling it pressing: <br/>
+    <img src="attachment:64-screenshot-20141029-092803.png"/><br/>
+    </li>
+</ul>
+So when I create a new question I will only see: description, topic and customPriority. During all other action I will see: status,description,customPriority,answer,author.<br/>
+ On each workflow status I will see: description,answer,assignee,author,customPriority,topic<br/>
+ 
+<table id="polarion_wiki macro name=table" class="polarion-Document-table" style="width: 80%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;">
+  <tbody>
+    <tr>
+      <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;">Hint: Fields like title and type are visible by default.</th>
+    </tr>
+  </tbody>
+</table>
+ <br/>]]></field>
+    <field id="previousStatus">open</field>
+    <field id="priority">25.0</field>
+    <field id="severity">normal</field>
+    <field id="status">open</field>
+    <field id="title">Define Default Question Work Item View</field>
+    <field id="type">exercise</field>
+</work-item>

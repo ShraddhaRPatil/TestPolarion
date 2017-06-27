@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<enumeration>
+    <!-- This is an example to be changed or extended. Polarion behavior has no dependence on hyperlink roles. -->
+    <option id="ref_int" name="internal reference" sortOrder="1"/>
+    <option id="ref_ext" name="external reference" sortOrder="2"/>
+    <option id="released" name="released document" sortOrder="3"/>
+</enumeration>

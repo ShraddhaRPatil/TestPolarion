@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="type">exercise</field>
+    <field id="author">hartliebc</field>
+    <field id="title">Configure Your Account</field>
+    <field id="created">2012-05-15 11:09:28.450 +0200</field>
+    <field id="priority">25.0</field>
+    <field id="description" text-type="text/html">Your personal homepage "My Polarion" gives you direct access to the configuration of your account. Only users, which belong to the global role "assignable" or to project role "project_assignable" are allowed to become an assignee for work items.&lt;br/&gt;&lt;br/&gt;&lt;ul&gt;&lt;li&gt;Open your personal homepage "My Polarion"&lt;br/&gt;&lt;img src="attachment:personalHomepage.jpg"/&gt;&lt;/li&gt;&lt;li&gt;Click on "My account"&lt;br/&gt;&lt;br/&gt;&lt;img src="attachment:myaccount.jpg"/&gt;&lt;/li&gt;&lt;li&gt;Check that you have role "project_assignable", "project_admin" and "project_approver" in your Polarion training project. If not please add the mentioned roles.&lt;br/&gt;&lt;img src="workitemimg:2-projectrole.jpg"/&gt;&lt;br/&gt;&lt;/li&gt;&lt;/ul&gt;</field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+</work-item>

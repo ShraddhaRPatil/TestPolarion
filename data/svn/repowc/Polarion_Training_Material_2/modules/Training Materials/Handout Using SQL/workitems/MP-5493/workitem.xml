@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="author">schucks</field>
+    <field id="created">2014-12-01 08:42:30.555 -0500</field>
+    <field id="linkedWorkItems">
+        <list>
+            <struct>
+                <item id="revision">39748</item>
+                <item id="role">parent</item>
+                <item id="workItem">MP-5483</item>
+            </struct>
+        </list>
+    </field>
+    <field id="status">open</field>
+    <field id="title">Using SQL</field>
+    <field id="type">heading</field>
+</work-item>

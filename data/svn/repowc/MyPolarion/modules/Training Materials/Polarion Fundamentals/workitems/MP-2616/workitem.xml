@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<work-item>
+    <field id="initialEstimate">1/12h</field>
+    <field id="linkedWorkItems">
+        <list>
+            <struct>
+                <item id="revision">41999</item>
+                <item id="workItem">MP-2368</item>
+                <item id="role">branched_from</item>
+                <item id="suspect">false</item>
+            </struct>
+        </list>
+    </field>
+    <field id="type">exercise</field>
+    <field id="author">stroebelet</field>
+    <field id="title">Create a follow-up task</field>
+    <field id="created">2012-04-24 11:06:43.654 +0200</field>
+    <field id="priority">25.0</field>
+    <field id="description" text-type="text/html">&lt;ul&gt;&lt;li&gt;Open the task "&lt;em&gt;gather requirements for our project&lt;/em&gt;" and create a linked follow up task&lt;br/&gt;&lt;img src="attachment:followuptask.jpg"/&gt;&lt;br/&gt;&lt;/li&gt;&lt;li&gt;Add following information to the task &lt;ul&gt;&lt;li&gt;Title: "bring me a cup of coffee when finished ;-) "&lt;/li&gt;&lt;li&gt;Add yourself as assignee to the task&lt;br/&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;Save the work item&lt;/li&gt;&lt;/ul&gt;</field>
+    <field id="remainingEstimate">1/12h</field>
+    <field id="status">open</field>
+    <field id="severity">normal</field>
+    <field id="previousStatus">open</field>
+</work-item>
